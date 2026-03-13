@@ -1,0 +1,37 @@
+name: Collect LoL Matchup Data
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Update API key in script
+        run: |
+          sed -i 's/RIOT_API_KEY = ".*"/RIOT_API_KEY = "${{ secrets.RIOT_API_KEY }}"/' collect_matchup_data.py
+
+      - name: Run data collection
+        run: python collect_matchup_data.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/matchups/
+          git diff --staged --quiet || git commit -m "Update matchup data $(date +%Y-%m-%d)"
+          git push
