@@ -1,46 +1,239 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T10:38:20.782192",
+  "sample_size": 9,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:49.915787",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -26,
-      "avg_xp_diff": -25,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 56,
+      "avg_xp_diff": -12,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -934,
-      "avg_xp_diff": -1135,
-      "avg_cs_diff": -20.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 116,
+      "avg_xp_diff": -124,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2169,
-      "avg_xp_diff": -2015,
-      "avg_cs_diff": -25.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 167,
+      "avg_xp_diff": -49,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 35,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3556,
-      "avg_xp_diff": -1966,
-      "avg_cs_diff": -14.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 374,
+      "avg_xp_diff": -102,
+      "avg_cs_diff": 5.5,
+      "sample_frames": 70,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2420,
+      "avg_xp_diff": 330,
+      "avg_cs_diff": 12.2,
+      "sample_frames": 71,
+      "advantage": 2
     }
   ],
   "champA": "Gangplank",
-  "champB": "Riven"
+  "champB": "Riven",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "name": "Item3047",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item1036",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3363",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 8.1,
+      "avgDeaths": 6.3,
+      "avgAssists": 9.6,
+      "kda": 2.82,
+      "avgDamage": 33394
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Death's Dance",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3158",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3047",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Endless Hunger",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1036",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        }
+      ],
+      "avgKills": 7.1,
+      "avgDeaths": 6.3,
+      "avgAssists": 6.7,
+      "kda": 2.2,
+      "avgDamage": 24327
+    }
+  }
 }

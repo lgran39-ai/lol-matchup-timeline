@@ -1,46 +1,110 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T22:39:50.777613",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-18T11:49:49.921995",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -48,
-      "avg_xp_diff": -132,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 28,
+      "avg_xp_diff": 118,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 42,
-      "avg_xp_diff": -29,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 335,
+      "avg_xp_diff": 506,
+      "avg_cs_diff": 12.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -713,
-      "avg_xp_diff": -1195,
-      "avg_cs_diff": -18.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 950,
+      "avg_xp_diff": 1148,
+      "avg_cs_diff": 23.6,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1472,
-      "avg_xp_diff": -2826,
-      "avg_cs_diff": -28.5,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 2385,
+      "avg_xp_diff": 2052,
+      "avg_cs_diff": 40.6,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3789,
+      "avg_xp_diff": 3504,
+      "avg_cs_diff": 61.6,
+      "sample_frames": 10,
+      "advantage": 2
     }
   ],
   "champA": "Gangplank",
-  "champB": "Teemo"
+  "champB": "Teemo",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 7.0,
+      "kda": 2.88,
+      "avgDamage": 23382
+    },
+    "champB": {
+      "items": [],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 4.5,
+      "kda": 0.81,
+      "avgDamage": 17392
+    }
+  }
 }

@@ -1,46 +1,221 @@
 {
   "role": "top",
-  "sample_size": 11,
-  "overall_winrate_a": 54.5,
-  "updated_at": "2026-03-17T23:05:04.238433",
+  "sample_size": 16,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.919986",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -114,
-      "avg_xp_diff": -81,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -3,
+      "avg_xp_diff": -12,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -698,
-      "avg_xp_diff": -955,
-      "avg_cs_diff": -29.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 48,
+      "avg_xp_diff": -143,
+      "avg_cs_diff": -6.3,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2096,
-      "avg_xp_diff": -2827,
-      "avg_cs_diff": -60.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 109,
+      "avg_xp_diff": -507,
+      "avg_cs_diff": -9.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3696,
-      "avg_xp_diff": -4725,
-      "avg_cs_diff": -86.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -351,
+      "avg_xp_diff": -1578,
+      "avg_cs_diff": -18.3,
+      "sample_frames": 43,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -668,
+      "avg_xp_diff": -2345,
+      "avg_cs_diff": -10.0,
+      "sample_frames": 27,
       "advantage": -2
     }
   ],
   "champA": "Gangplank",
-  "champB": "Sion"
+  "champB": "Sion",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3158",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "The Collector",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 5.8,
+      "avgAssists": 5.2,
+      "kda": 1.38,
+      "avgDamage": 25113
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3009",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Dead Man's Plate",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Mercurial Scimitar",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1054",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 3.2,
+      "avgAssists": 6.4,
+      "kda": 3.56,
+      "avgDamage": 23203
+    }
+  }
 }

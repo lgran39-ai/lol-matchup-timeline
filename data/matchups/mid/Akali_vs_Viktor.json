@@ -1,46 +1,191 @@
 {
   "role": "mid",
-  "sample_size": 6,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-17T23:05:04.094717",
+  "sample_size": 10,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.237313",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -38,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -21,
+      "avg_xp_diff": -59,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -38,
-      "avg_xp_diff": -47,
-      "avg_cs_diff": -5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 134,
+      "avg_xp_diff": -10,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -57,
-      "avg_xp_diff": -310,
-      "avg_cs_diff": -7.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 315,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1177,
-      "avg_xp_diff": 547,
-      "avg_cs_diff": -3.1,
-      "sample_frames": 7,
+      "avg_gold_diff": 123,
+      "avg_xp_diff": -382,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 41,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2141,
+      "avg_xp_diff": -360,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 36,
       "advantage": 2
     }
   ],
   "champA": "Akali",
-  "champB": "Viktor"
+  "champB": "Viktor",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3175",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item1052",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 7.5,
+      "avgAssists": 5.2,
+      "kda": 1.9,
+      "avgDamage": 30384
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3363",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3171",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 6.8,
+      "avgAssists": 14.5,
+      "kda": 3.04,
+      "avgDamage": 33850
+    }
+  }
 }

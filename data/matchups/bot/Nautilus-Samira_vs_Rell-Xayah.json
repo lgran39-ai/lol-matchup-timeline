@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T10:09:48.003872",
+  "updated_at": "2026-03-18T11:49:52.262582",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 2,
-      "avg_xp_diff": -49,
-      "avg_cs_diff": -1.4,
+      "avg_gold_diff": -56,
+      "avg_xp_diff": -48,
+      "avg_cs_diff": -2.4,
       "sample_frames": 5,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -37,
-      "avg_xp_diff": -318,
-      "avg_cs_diff": 4.0,
+      "avg_gold_diff": -26,
+      "avg_xp_diff": -110,
+      "avg_cs_diff": -15.8,
       "sample_frames": 5,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -696,
-      "avg_xp_diff": -288,
-      "avg_cs_diff": 1.8,
+      "avg_gold_diff": -536,
+      "avg_xp_diff": -202,
+      "avg_cs_diff": -32.8,
       "sample_frames": 5,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1854,
-      "avg_xp_diff": -1162,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -2889,
+      "avg_xp_diff": -2129,
+      "avg_cs_diff": -45.7,
+      "sample_frames": 10,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -7795,
+      "avg_xp_diff": -8109,
+      "avg_cs_diff": -85.9,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
@@ -51,5 +60,51 @@
     "sup": "Xayah"
   },
   "champA": "Nautilus+Samira",
-  "champB": "Rell+Xayah"
+  "champB": "Rell+Xayah",
+  "buildStats": {
+    "teamA": {
+      "adc": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 7.0,
+        "avgDeaths": 9.0,
+        "avgAssists": 5.0,
+        "kda": 1.33,
+        "avgDamage": 24343
+      },
+      "sup": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 0.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 9.0,
+        "kda": 1.12,
+        "avgDamage": 6429
+      }
+    },
+    "teamB": {
+      "adc": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 13.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 11.0,
+        "kda": 6.0,
+        "avgDamage": 52540
+      },
+      "sup": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 1.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 24.0,
+        "kda": 4.17,
+        "avgDamage": 9224
+      }
+    }
+  }
 }

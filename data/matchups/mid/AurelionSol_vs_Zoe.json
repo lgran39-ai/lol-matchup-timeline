@@ -1,46 +1,197 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T10:38:20.679069",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-18T11:49:49.428531",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -411,
-      "avg_xp_diff": -153,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 3,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -2011,
-      "avg_xp_diff": -1022,
-      "avg_cs_diff": -26.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -120,
+      "avg_xp_diff": -124,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -3442,
-      "avg_xp_diff": -2116,
-      "avg_cs_diff": -44.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -55,
+      "avg_xp_diff": -167,
+      "avg_cs_diff": 3.8,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4489,
-      "avg_xp_diff": -3298,
-      "avg_cs_diff": -40.9,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": 35,
+      "avg_xp_diff": 466,
+      "avg_cs_diff": 21.3,
+      "sample_frames": 36,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2110,
+      "avg_xp_diff": 3523,
+      "avg_cs_diff": 54.0,
+      "sample_frames": 3,
+      "advantage": 2
     }
   ],
   "champA": "AurelionSol",
-  "champB": "Zoe"
+  "champB": "Zoe",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3175",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3363",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item1052",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Banshee's Veil",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 2.8,
+      "avgAssists": 5.5,
+      "kda": 4.27,
+      "avgDamage": 18544
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1058",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3175",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3145",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3363",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.8,
+      "kda": 2.2,
+      "avgDamage": 19228
+    }
+  }
 }

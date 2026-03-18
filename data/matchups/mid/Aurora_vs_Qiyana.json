@@ -1,46 +1,167 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-15T10:38:20.683977",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-18T11:49:49.448052",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 166,
-      "avg_xp_diff": 132,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 29,
+      "avg_xp_diff": 4,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 134,
-      "avg_xp_diff": 97,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -181,
+      "avg_xp_diff": -47,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1065,
-      "avg_xp_diff": -813,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 291,
+      "avg_xp_diff": 533,
+      "avg_cs_diff": 11.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1658,
-      "avg_xp_diff": -1332,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 9,
-      "advantage": -2
+      "avg_gold_diff": 444,
+      "avg_xp_diff": 1025,
+      "avg_cs_diff": 12.4,
+      "sample_frames": 21,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3694,
+      "avg_xp_diff": 5388,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 2,
+      "advantage": 2
     }
   ],
   "champA": "Aurora",
-  "champB": "Qiyana"
+  "champB": "Qiyana",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 8.0,
+      "kda": 2.55,
+      "avgDamage": 20198
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1055",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3035",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.5,
+      "kda": 2.0,
+      "avgDamage": 17046
+    }
+  }
 }

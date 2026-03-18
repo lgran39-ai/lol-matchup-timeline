@@ -1,46 +1,131 @@
 {
   "role": "jg",
-  "sample_size": 4,
-  "overall_winrate_a": 75.0,
-  "updated_at": "2026-03-17T23:05:04.178242",
+  "sample_size": 6,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:49.627243",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -154,
-      "avg_xp_diff": 122,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 98,
+      "avg_xp_diff": 48,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -426,
-      "avg_xp_diff": 64,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 764,
+      "avg_xp_diff": 251,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1253,
-      "avg_xp_diff": -498,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 790,
+      "avg_xp_diff": -15,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2154,
-      "avg_xp_diff": -1150,
-      "avg_cs_diff": -15.3,
-      "sample_frames": 11,
+      "avg_gold_diff": 1129,
+      "avg_xp_diff": 959,
+      "avg_cs_diff": 14.6,
+      "sample_frames": 18,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1536,
+      "avg_xp_diff": -2278,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
   "champA": "Darius",
-  "champB": "LeeSin"
+  "champB": "LeeSin",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 3.5,
+      "kda": 2.38,
+      "avgDamage": 13850
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 7.5,
+      "kda": 2.78,
+      "avgDamage": 15243
+    }
+  }
 }

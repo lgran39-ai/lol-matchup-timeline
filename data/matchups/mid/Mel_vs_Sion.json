@@ -1,55 +1,135 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T10:38:20.918387",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:50.563433",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 33,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -3,
+      "avg_xp_diff": -7,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 106,
-      "avg_xp_diff": 159,
-      "avg_cs_diff": 7.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -257,
+      "avg_xp_diff": -275,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -157,
-      "avg_xp_diff": 309,
-      "avg_cs_diff": 12.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -317,
+      "avg_xp_diff": -610,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1185,
-      "avg_xp_diff": 335,
-      "avg_cs_diff": 14.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -895,
+      "avg_xp_diff": -2242,
+      "avg_cs_diff": -18.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2464,
-      "avg_xp_diff": -568,
-      "avg_cs_diff": 15.0,
-      "sample_frames": 3,
+      "avg_gold_diff": -1334,
+      "avg_xp_diff": -2656,
+      "avg_cs_diff": -39.9,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
   "champA": "Mel",
-  "champB": "Sion"
+  "champB": "Sion",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 6.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.5,
+      "kda": 1.91,
+      "avgDamage": 28444
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3170",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Overlord's Bloodmail",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 10.0,
+      "kda": 3.88,
+      "avgDamage": 23392
+    }
+  }
 }

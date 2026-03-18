@@ -1,55 +1,104 @@
 {
   "role": "mid",
-  "sample_size": 6,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-17T23:05:04.225750",
+  "sample_size": 8,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-18T11:49:49.869065",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -111,
-      "avg_xp_diff": -83,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 22,
+      "avg_xp_diff": 10,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -562,
-      "avg_xp_diff": -237,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 101,
+      "avg_xp_diff": -23,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1322,
-      "avg_xp_diff": -925,
-      "avg_cs_diff": -22.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -231,
+      "avg_xp_diff": -456,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2132,
-      "avg_xp_diff": -1158,
-      "avg_cs_diff": -45.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -445,
+      "avg_xp_diff": -369,
+      "avg_cs_diff": -14.7,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2396,
-      "avg_xp_diff": -1478,
-      "avg_cs_diff": -74.9,
-      "sample_frames": 11,
+      "avg_gold_diff": -1182,
+      "avg_xp_diff": 314,
+      "avg_cs_diff": -22.1,
+      "sample_frames": 14,
       "advantage": -2
     }
   ],
   "champA": "Galio",
-  "champB": "Hwei"
+  "champB": "Hwei",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 5.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 8.0,
+      "kda": 3.25,
+      "avgDamage": 15588
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 8.0,
+      "kda": 3.5,
+      "avgDamage": 26604
+    }
+  }
 }

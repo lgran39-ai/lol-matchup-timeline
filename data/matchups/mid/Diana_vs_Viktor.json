@@ -1,46 +1,104 @@
 {
-  "champA": "Diana",
-  "champB": "Viktor",
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.962757",
+  "updated_at": "2026-03-18T11:49:49.674711",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -171,
-      "avg_xp_diff": -139,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -17,
+      "avg_xp_diff": -52,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -805,
-      "avg_xp_diff": -526,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -139,
+      "avg_xp_diff": -306,
+      "avg_cs_diff": -7.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1112,
-      "avg_xp_diff": -804,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -409,
+      "avg_xp_diff": -508,
+      "avg_cs_diff": -8.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -1322,
-      "avg_xp_diff": -1095,
-      "avg_cs_diff": 11.5,
-      "sample_frames": 4,
+      "label": "mid_game",
+      "avg_gold_diff": -627,
+      "avg_xp_diff": -1186,
+      "avg_cs_diff": -14.2,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1815,
+      "avg_xp_diff": -2650,
+      "avg_cs_diff": -21.2,
+      "sample_frames": 9,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Diana",
+  "champB": "Viktor",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 4.5,
+      "avgDeaths": 10.0,
+      "avgAssists": 3.5,
+      "kda": 0.8,
+      "avgDamage": 21498
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 6.5,
+      "kda": 3.62,
+      "avgDamage": 23594
+    }
+  }
 }

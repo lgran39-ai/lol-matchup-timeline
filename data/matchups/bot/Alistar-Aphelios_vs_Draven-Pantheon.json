@@ -1,53 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:38:21.020673",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:51.060012",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 347,
-      "avg_xp_diff": 52,
-      "avg_cs_diff": -1.6,
+      "avg_gold_diff": -12,
+      "avg_xp_diff": 74,
+      "avg_cs_diff": -2.0,
       "sample_frames": 5,
-      "advantage": 1
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 2029,
-      "avg_xp_diff": 914,
-      "avg_cs_diff": -2.0,
+      "avg_gold_diff": 53,
+      "avg_xp_diff": 135,
+      "avg_cs_diff": -13.0,
       "sample_frames": 5,
-      "advantage": 2
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2315,
-      "avg_xp_diff": 1473,
-      "avg_cs_diff": -3.2,
+      "avg_gold_diff": -525,
+      "avg_xp_diff": -39,
+      "avg_cs_diff": -16.6,
       "sample_frames": 5,
-      "advantage": 2
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1656,
-      "avg_xp_diff": 1374,
-      "avg_cs_diff": 3.9,
-      "sample_frames": 10,
-      "advantage": 2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": 2499,
-      "avg_xp_diff": 2270,
-      "avg_cs_diff": 27.5,
-      "sample_frames": 6,
-      "advantage": 2
+      "avg_gold_diff": -3011,
+      "avg_xp_diff": -1600,
+      "avg_cs_diff": -45.6,
+      "sample_frames": 11,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -60,5 +51,58 @@
     "sup": "Pantheon"
   },
   "champA": "Alistar+Aphelios",
-  "champB": "Draven+Pantheon"
+  "champB": "Draven+Pantheon",
+  "buildStats": {
+    "teamA": {
+      "adc": {
+        "items": [
+          {
+            "name": "Item1036",
+            "count": 2,
+            "pickRate": 200.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 11.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 7.0,
+        "kda": 3.0,
+        "avgDamage": 23428
+      },
+      "sup": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 2.0,
+        "avgDeaths": 11.0,
+        "avgAssists": 16.0,
+        "kda": 1.64,
+        "avgDamage": 8099
+      }
+    },
+    "teamB": {
+      "adc": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 5.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 14.0,
+        "kda": 2.71,
+        "avgDamage": 30622
+      },
+      "sup": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 6.0,
+        "avgDeaths": 10.0,
+        "avgAssists": 6.0,
+        "kda": 1.2,
+        "avgDamage": 15459
+      }
+    }
+  }
 }

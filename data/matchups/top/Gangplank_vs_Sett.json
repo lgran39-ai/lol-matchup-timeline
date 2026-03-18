@@ -1,46 +1,167 @@
 {
-  "champA": "Gangplank",
-  "champB": "Sett",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.214280",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:49.917644",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -112,
-      "avg_xp_diff": 11,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1,
+      "avg_xp_diff": 7,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 227,
-      "avg_xp_diff": 263,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -97,
+      "avg_xp_diff": 144,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 526,
-      "avg_xp_diff": 904,
-      "avg_cs_diff": 19.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 810,
+      "avg_xp_diff": 1179,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 821,
-      "avg_xp_diff": 1194,
-      "avg_cs_diff": 25.0,
-      "sample_frames": 2,
+      "label": "mid_game",
+      "avg_gold_diff": 2099,
+      "avg_xp_diff": 1361,
+      "avg_cs_diff": 30.8,
+      "sample_frames": 30,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3891,
+      "avg_xp_diff": 1627,
+      "avg_cs_diff": 33.2,
+      "sample_frames": 18,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Gangplank",
+  "champB": "Sett",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 10.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 5.7,
+      "kda": 3.0,
+      "avgDamage": 37615
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item2021",
+          "count": 4,
+          "pickRate": 133.3,
+          "winRate": 25.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3047",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 8.3,
+      "avgAssists": 5.3,
+      "kda": 1.24,
+      "avgDamage": 23197
+    }
+  }
 }

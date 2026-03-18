@@ -1,46 +1,161 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T10:09:47.665980",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:50.339411",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -83,
-      "avg_xp_diff": 95,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -91,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -773,
-      "avg_xp_diff": -524,
-      "avg_cs_diff": -18.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -57,
+      "avg_xp_diff": 335,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2445,
-      "avg_xp_diff": -2346,
-      "avg_cs_diff": -40.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 905,
+      "avg_xp_diff": 456,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3484,
-      "avg_xp_diff": -3746,
-      "avg_cs_diff": -56.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 327,
+      "avg_xp_diff": -469,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 22,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -167,
+      "avg_xp_diff": -1461,
+      "avg_cs_diff": -13.9,
+      "sample_frames": 7,
+      "advantage": -1
     }
   ],
   "champA": "Katarina",
-  "champB": "Leblanc"
+  "champB": "Leblanc",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1082",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 3.7,
+      "avgAssists": 2.3,
+      "kda": 3.36,
+      "avgDamage": 20495
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 3.3,
+      "avgAssists": 3.3,
+      "kda": 2.8,
+      "avgDamage": 18375
+    }
+  }
 }

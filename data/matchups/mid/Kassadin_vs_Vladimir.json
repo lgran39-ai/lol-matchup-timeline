@@ -1,46 +1,149 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:38:20.866578",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-18T11:49:50.335103",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -173,
-      "avg_xp_diff": -89,
-      "avg_cs_diff": -9.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 34,
+      "avg_xp_diff": 29,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -285,
-      "avg_xp_diff": -112,
-      "avg_cs_diff": -28.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -183,
+      "avg_xp_diff": -269,
+      "avg_cs_diff": -7.9,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -458,
-      "avg_xp_diff": -232,
-      "avg_cs_diff": -45.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -920,
+      "avg_xp_diff": -1226,
+      "avg_cs_diff": -18.2,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -419,
-      "avg_xp_diff": 289,
-      "avg_cs_diff": -50.7,
-      "sample_frames": 7,
+      "avg_gold_diff": -666,
+      "avg_xp_diff": -874,
+      "avg_cs_diff": -22.7,
+      "sample_frames": 16,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 586,
+      "avg_xp_diff": 1188,
+      "avg_cs_diff": -17.0,
+      "sample_frames": 2,
+      "advantage": 2
     }
   ],
   "champA": "Kassadin",
-  "champB": "Vladimir"
+  "champB": "Vladimir",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3070",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 4.7,
+      "avgAssists": 1.7,
+      "kda": 1.0,
+      "avgDamage": 12834
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 4.3,
+      "kda": 5.17,
+      "avgDamage": 21066
+    }
+  }
 }

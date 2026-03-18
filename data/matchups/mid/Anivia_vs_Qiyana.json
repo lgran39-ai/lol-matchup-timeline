@@ -1,55 +1,130 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-15T10:09:47.466320",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-18T11:49:49.359463",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -22,
-      "avg_xp_diff": -31,
-      "avg_cs_diff": 2.8,
+      "avg_gold_diff": 44,
+      "avg_xp_diff": 65,
+      "avg_cs_diff": 5.0,
       "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -444,
-      "avg_xp_diff": -379,
-      "avg_cs_diff": -0.2,
+      "avg_gold_diff": -110,
+      "avg_xp_diff": 262,
+      "avg_cs_diff": 11.2,
       "sample_frames": 10,
-      "advantage": -2
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -604,
-      "avg_xp_diff": -600,
-      "avg_cs_diff": -8.9,
+      "avg_gold_diff": -342,
+      "avg_xp_diff": 620,
+      "avg_cs_diff": 24.1,
       "sample_frames": 10,
-      "advantage": -2
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1384,
-      "avg_xp_diff": -1056,
-      "avg_cs_diff": -11.2,
+      "avg_gold_diff": -970,
+      "avg_xp_diff": 438,
+      "avg_cs_diff": 47.6,
       "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2717,
-      "avg_xp_diff": -898,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 16,
-      "advantage": -2
+      "avg_gold_diff": 936,
+      "avg_xp_diff": 2323,
+      "avg_cs_diff": 91.5,
+      "sample_frames": 14,
+      "advantage": 2
     }
   ],
   "champA": "Anivia",
-  "champB": "Qiyana"
+  "champB": "Qiyana",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3040",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 4.0,
+      "kda": 1.42,
+      "avgDamage": 16859
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 8.0,
+      "kda": 3.0,
+      "avgDamage": 31508
+    }
+  }
 }

@@ -1,46 +1,185 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T23:05:04.095100",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-18T11:49:49.238448",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -118,
-      "avg_xp_diff": -135,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 16,
+      "avg_xp_diff": 13,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -369,
-      "avg_xp_diff": -278,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 143,
+      "avg_xp_diff": -113,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -830,
-      "avg_xp_diff": -809,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 151,
+      "avg_xp_diff": -225,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1194,
-      "avg_xp_diff": -1651,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 64,
+      "avg_xp_diff": -478,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 42,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1353,
+      "avg_xp_diff": 529,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 31,
+      "advantage": 2
     }
   ],
   "champA": "Akali",
-  "champB": "Xerath"
+  "champB": "Xerath",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3175",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.8,
+      "avgDeaths": 4.6,
+      "avgAssists": 4.8,
+      "kda": 2.52,
+      "avgDamage": 22489
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1058",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Horizon Focus",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3175",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3363",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Barrier",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 3.8,
+      "avgAssists": 7.2,
+      "kda": 3.16,
+      "avgDamage": 24332
+    }
+  }
 }

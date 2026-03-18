@@ -1,55 +1,173 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-15T10:38:20.683620",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-18T11:49:49.447056",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -151,
-      "avg_xp_diff": 114,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -2,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 4,
-      "avg_xp_diff": 230,
-      "avg_cs_diff": -5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 28,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -172,
-      "avg_xp_diff": 246,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -415,
+      "avg_xp_diff": -602,
+      "avg_cs_diff": -23.1,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 954,
-      "avg_xp_diff": 756,
-      "avg_cs_diff": 2.7,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -743,
+      "avg_xp_diff": -1666,
+      "avg_cs_diff": -41.2,
+      "sample_frames": 30,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2620,
-      "avg_xp_diff": 1198,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -819,
+      "avg_xp_diff": -2580,
+      "avg_cs_diff": -57.7,
+      "sample_frames": 20,
+      "advantage": -2
     }
   ],
   "champA": "Aurora",
-  "champB": "Orianna"
+  "champB": "Orianna",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3175",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 7.3,
+      "avgAssists": 4.3,
+      "kda": 1.59,
+      "avgDamage": 28646
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3040",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 12.3,
+      "kda": 4.83,
+      "avgDamage": 27157
+    }
+  }
 }

@@ -1,46 +1,155 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T23:05:04.209067",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-18T11:49:49.789670",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -227,
-      "avg_xp_diff": -251,
-      "avg_cs_diff": -6.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 28,
+      "avg_xp_diff": 69,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -753,
-      "avg_xp_diff": -1106,
-      "avg_cs_diff": -30.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -113,
+      "avg_xp_diff": 15,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1583,
-      "avg_xp_diff": -1739,
-      "avg_cs_diff": -53.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 315,
+      "avg_xp_diff": -73,
+      "avg_cs_diff": -10.1,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3669,
-      "avg_xp_diff": -3202,
-      "avg_cs_diff": -80.4,
-      "sample_frames": 9,
-      "advantage": -2
+      "avg_gold_diff": 1007,
+      "avg_xp_diff": 438,
+      "avg_cs_diff": -9.6,
+      "sample_frames": 30,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4000,
+      "avg_xp_diff": 4262,
+      "avg_cs_diff": -5.8,
+      "sample_frames": 10,
+      "advantage": 2
     }
   ],
   "champA": "Evelynn",
-  "champB": "XinZhao"
+  "champB": "XinZhao",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3020",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3041",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 13.3,
+      "avgDeaths": 3.0,
+      "avgAssists": 6.7,
+      "kda": 6.67,
+      "avgDamage": 29428
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3111",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.7,
+      "kda": 1.56,
+      "avgDamage": 12557
+    }
+  }
 }

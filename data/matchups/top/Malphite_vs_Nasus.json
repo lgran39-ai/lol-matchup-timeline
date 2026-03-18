@@ -1,46 +1,160 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-15T10:38:20.904719",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-18T11:49:50.505054",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 91,
-      "avg_xp_diff": 127,
-      "avg_cs_diff": 5.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -3,
+      "avg_xp_diff": 2,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 232,
-      "avg_xp_diff": 196,
-      "avg_cs_diff": 8.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 77,
+      "avg_xp_diff": 158,
+      "avg_cs_diff": 4.8,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 514,
-      "avg_xp_diff": 270,
-      "avg_cs_diff": 6.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -436,
+      "avg_xp_diff": -306,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -597,
-      "avg_xp_diff": -807,
-      "avg_cs_diff": -9.5,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": -386,
+      "avg_xp_diff": 154,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 29,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 152,
+      "avg_xp_diff": 1571,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 20,
+      "advantage": 1
     }
   ],
   "champA": "Malphite",
-  "champB": "Nasus"
+  "champB": "Nasus",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.3,
+      "avgDeaths": 4.0,
+      "avgAssists": 6.3,
+      "kda": 2.17,
+      "avgDamage": 25297
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spirit Visage",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3111",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 2.0,
+      "avgDeaths": 4.3,
+      "avgAssists": 5.7,
+      "kda": 1.77,
+      "avgDamage": 16903
+    }
+  }
 }

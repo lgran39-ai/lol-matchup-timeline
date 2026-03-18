@@ -1,55 +1,161 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T10:09:47.808224",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:50.965951",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 270,
-      "avg_xp_diff": 260,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 72,
+      "avg_xp_diff": 17,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 711,
-      "avg_xp_diff": 534,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 224,
+      "avg_xp_diff": -101,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1164,
-      "avg_xp_diff": 133,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -79,
+      "avg_xp_diff": -181,
+      "avg_cs_diff": -11.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 783,
-      "avg_xp_diff": -1259,
-      "avg_cs_diff": -15.7,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 338,
+      "avg_xp_diff": 71,
+      "avg_cs_diff": -18.5,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1951,
-      "avg_xp_diff": -4691,
-      "avg_cs_diff": -32.4,
-      "sample_frames": 8,
+      "avg_gold_diff": -5217,
+      "avg_xp_diff": -4232,
+      "avg_cs_diff": -62.0,
+      "sample_frames": 3,
       "advantage": -2
     }
   ],
   "champA": "TwistedFate",
-  "champB": "Veigar"
+  "champB": "Veigar",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 2.7,
+      "avgAssists": 7.7,
+      "kda": 5.0,
+      "avgDamage": 16255
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3175",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3363",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3040",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 4.3,
+      "avgAssists": 5.0,
+      "kda": 2.46,
+      "avgDamage": 20832
+    }
+  }
 }

@@ -1,55 +1,117 @@
 {
-  "champA": "Anivia",
-  "champB": "Katarina",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.589716",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.352736",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 60,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": 6.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 225,
+      "avg_xp_diff": 102,
+      "avg_cs_diff": 8.6,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 114,
-      "avg_xp_diff": 250,
-      "avg_cs_diff": 16.8,
-      "sample_frames": 5,
-      "advantage": 0
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": 135,
-      "avg_xp_diff": -204,
-      "avg_cs_diff": 18.2,
-      "sample_frames": 5,
-      "advantage": 0
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
       "avg_gold_diff": 813,
-      "avg_xp_diff": 2275,
-      "avg_cs_diff": 40.8,
+      "avg_xp_diff": 432,
+      "avg_cs_diff": 18.0,
       "sample_frames": 10,
       "advantage": 2
     },
     {
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": 1299,
+      "avg_xp_diff": 1544,
+      "avg_cs_diff": 33.7,
+      "sample_frames": 10,
+      "advantage": 2
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": 1629,
+      "avg_xp_diff": 2181,
+      "avg_cs_diff": 34.9,
+      "sample_frames": 19,
+      "advantage": 2
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 548,
-      "avg_xp_diff": 2792,
-      "avg_cs_diff": 41.7,
-      "sample_frames": 13,
+      "label": "late_game",
+      "avg_gold_diff": 797,
+      "avg_xp_diff": 1169,
+      "avg_cs_diff": 38.5,
+      "sample_frames": 6,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Katarina",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 7.0,
+      "kda": 2.89,
+      "avgDamage": 22726
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 3.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 4.5,
+      "kda": 0.94,
+      "avgDamage": 21267
+    }
+  }
 }

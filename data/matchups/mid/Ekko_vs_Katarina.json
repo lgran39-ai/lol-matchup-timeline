@@ -1,46 +1,107 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T23:05:04.195777",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:49.731262",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -106,
-      "avg_xp_diff": -18,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 116,
+      "avg_xp_diff": -22,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -256,
-      "avg_xp_diff": 120,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 544,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": 16.4,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -326,
-      "avg_xp_diff": -238,
-      "avg_cs_diff": -16.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 1197,
+      "avg_xp_diff": 177,
+      "avg_cs_diff": 26.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -737,
-      "avg_xp_diff": -900,
-      "avg_cs_diff": -35.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": -321,
+      "avg_xp_diff": -1336,
+      "avg_cs_diff": 6.4,
+      "sample_frames": 11,
+      "advantage": -1
     }
   ],
   "champA": "Ekko",
-  "champB": "Katarina"
+  "champB": "Katarina",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 3.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 3.5,
+      "kda": 1.56,
+      "avgDamage": 13754
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1055",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 4.0,
+      "kda": 3.5,
+      "avgDamage": 16720
+    }
+  }
 }

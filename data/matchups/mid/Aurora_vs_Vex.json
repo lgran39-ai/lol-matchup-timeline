@@ -1,46 +1,233 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T10:38:20.686382",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-18T11:49:49.455607",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 0,
-      "avg_xp_diff": -2,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 3,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -350,
-      "avg_xp_diff": -154,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -75,
+      "avg_xp_diff": 69,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1616,
-      "avg_xp_diff": -110,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -371,
+      "avg_xp_diff": -137,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4532,
-      "avg_xp_diff": -954,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 8,
+      "avg_gold_diff": -454,
+      "avg_xp_diff": 186,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 56,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1689,
+      "avg_xp_diff": -394,
+      "avg_cs_diff": 21.7,
+      "sample_frames": 35,
       "advantage": -2
     }
   ],
   "champA": "Aurora",
-  "champB": "Vex"
+  "champB": "Vex",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3175",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1058",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item1056",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3363",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item4630",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 7.5,
+      "kda": 2.27,
+      "avgDamage": 23134
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3175",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1056",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3145",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3041",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 4.5,
+      "avgAssists": 6.7,
+      "kda": 3.19,
+      "avgDamage": 25498
+    }
+  }
 }

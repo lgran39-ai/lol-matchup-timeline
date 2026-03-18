@@ -1,55 +1,111 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-15T10:38:20.708502",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-18T11:49:49.587215",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -84,
-      "avg_xp_diff": -136,
-      "avg_cs_diff": -5.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -196,
+      "avg_xp_diff": -55,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -706,
-      "avg_xp_diff": -481,
-      "avg_cs_diff": -22.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -914,
+      "avg_xp_diff": -391,
+      "avg_cs_diff": -11.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2533,
-      "avg_xp_diff": -2524,
-      "avg_cs_diff": -44.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1639,
+      "avg_xp_diff": -654,
+      "avg_cs_diff": -22.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3117,
-      "avg_xp_diff": -2045,
-      "avg_cs_diff": -55.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -1842,
+      "avg_xp_diff": 237,
+      "avg_cs_diff": -14.2,
+      "sample_frames": 13,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2661,
-      "avg_xp_diff": -213,
-      "avg_cs_diff": -58.2,
-      "sample_frames": 8,
+      "avg_gold_diff": -3837,
+      "avg_xp_diff": -163,
+      "avg_cs_diff": -39.8,
+      "sample_frames": 13,
       "advantage": -2
     }
   ],
   "champA": "Chogath",
-  "champB": "Gangplank"
+  "champB": "Gangplank",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1029",
+          "count": 3,
+          "pickRate": 150.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 3.0,
+      "kda": 2.0,
+      "avgDamage": 11746
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 4.0,
+      "kda": 2.5,
+      "avgDamage": 22175
+    }
+  }
 }

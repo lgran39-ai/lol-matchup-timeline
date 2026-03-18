@@ -1,46 +1,161 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-17T23:05:04.292129",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:50.170588",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 147,
-      "avg_xp_diff": 84,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -234,
+      "avg_xp_diff": -180,
+      "avg_cs_diff": -4.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1327,
-      "avg_xp_diff": 958,
-      "avg_cs_diff": 28.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -1206,
+      "avg_xp_diff": -1064,
+      "avg_cs_diff": -17.1,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 3167,
-      "avg_xp_diff": 2767,
-      "avg_cs_diff": 59.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -2503,
+      "avg_xp_diff": -2965,
+      "avg_cs_diff": -36.9,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 6453,
-      "avg_xp_diff": 4701,
-      "avg_cs_diff": 104.7,
-      "sample_frames": 11,
-      "advantage": 2
+      "avg_gold_diff": -3500,
+      "avg_xp_diff": -3808,
+      "avg_cs_diff": -37.5,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -5087,
+      "avg_xp_diff": -4023,
+      "avg_cs_diff": -41.3,
+      "sample_frames": 15,
+      "advantage": -2
     }
   ],
   "champA": "Irelia",
-  "champB": "Yone"
+  "champB": "Yone",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1043",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.0,
+      "avgDeaths": 13.0,
+      "avgAssists": 5.0,
+      "kda": 0.46,
+      "avgDamage": 17664
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3006",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 12.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 4.5,
+      "kda": 4.86,
+      "avgDamage": 37154
+    }
+  }
 }

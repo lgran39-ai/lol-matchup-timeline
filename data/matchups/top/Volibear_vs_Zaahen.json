@@ -1,46 +1,122 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-17T22:39:50.908354",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-18T11:49:51.025470",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 7,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 49,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -532,
-      "avg_xp_diff": -561,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -68,
+      "avg_xp_diff": -248,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1141,
-      "avg_xp_diff": -1586,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -354,
+      "avg_xp_diff": -955,
+      "avg_cs_diff": -8.4,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1855,
-      "avg_xp_diff": -1660,
-      "avg_cs_diff": 8.1,
-      "sample_frames": 11,
+      "avg_gold_diff": -610,
+      "avg_xp_diff": -2072,
+      "avg_cs_diff": -19.3,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1830,
+      "avg_xp_diff": -3806,
+      "avg_cs_diff": -30.6,
+      "sample_frames": 16,
       "advantage": -2
     }
   ],
   "champA": "Volibear",
-  "champB": "Zaahen"
+  "champB": "Zaahen",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3067",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 9.5,
+      "avgAssists": 5.5,
+      "kda": 0.95,
+      "avgDamage": 31212
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1036",
+          "count": 3,
+          "pickRate": 150.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 6.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 12.5,
+      "kda": 5.43,
+      "avgDamage": 32962
+    }
+  }
 }

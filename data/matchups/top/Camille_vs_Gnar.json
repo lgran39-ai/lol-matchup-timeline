@@ -1,55 +1,122 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-17T23:05:04.162733",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-18T11:49:49.548949",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 12,
-      "avg_xp_diff": -6,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 28,
+      "avg_xp_diff": -22,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -216,
-      "avg_xp_diff": -231,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 26,
+      "avg_xp_diff": -64,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -618,
-      "avg_xp_diff": -1090,
-      "avg_cs_diff": -21.0,
-      "sample_frames": 5,
-      "advantage": -2
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": -334,
-      "avg_xp_diff": -793,
-      "avg_cs_diff": -23.1,
+      "avg_gold_diff": -186,
+      "avg_xp_diff": -257,
+      "avg_cs_diff": -1.0,
       "sample_frames": 10,
       "advantage": -1
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -665,
+      "avg_xp_diff": -881,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -617,
-      "avg_xp_diff": -2044,
-      "avg_cs_diff": -36.3,
-      "sample_frames": 7,
+      "avg_gold_diff": -665,
+      "avg_xp_diff": -743,
+      "avg_cs_diff": 12.6,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
   "champA": "Camille",
-  "champB": "Gnar"
+  "champB": "Gnar",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 3.5,
+      "avgDeaths": 7.5,
+      "avgAssists": 4.5,
+      "kda": 1.07,
+      "avgDamage": 20550
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 6.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 8.0,
+      "kda": 2.8,
+      "avgDamage": 22394
+    }
+  }
 }

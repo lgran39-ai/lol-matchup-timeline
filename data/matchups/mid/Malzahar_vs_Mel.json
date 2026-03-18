@@ -1,46 +1,233 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-15T10:09:47.705928",
+  "sample_size": 10,
+  "overall_winrate_a": 30.0,
+  "updated_at": "2026-03-18T11:49:50.529082",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -362,
-      "avg_xp_diff": -118,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -92,
+      "avg_xp_diff": 4,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -469,
-      "avg_xp_diff": -315,
-      "avg_cs_diff": -14.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -386,
+      "avg_xp_diff": -64,
+      "avg_cs_diff": -3.7,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -837,
-      "avg_xp_diff": -715,
-      "avg_cs_diff": -25.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -351,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1173,
-      "avg_xp_diff": -2151,
-      "avg_cs_diff": -53.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -868,
+      "avg_xp_diff": -287,
+      "avg_cs_diff": -3.2,
+      "sample_frames": 69,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1587,
+      "avg_xp_diff": -455,
+      "avg_cs_diff": -9.9,
+      "sample_frames": 52,
       "advantage": -2
     }
   ],
   "champA": "Malzahar",
-  "champB": "Mel"
+  "champB": "Mel",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 16.7
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 20.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 20.0
+        },
+        {
+          "name": "Item3363",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3175",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3171",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item1011",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Morellonomicon",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 7.6,
+      "avgAssists": 5.7,
+      "kda": 1.28,
+      "avgDamage": 25506
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        },
+        {
+          "name": "Item3175",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        },
+        {
+          "name": "Item3363",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 10.1,
+      "avgDeaths": 5.6,
+      "avgAssists": 3.9,
+      "kda": 2.51,
+      "avgDamage": 28136
+    }
+  }
 }

@@ -1,55 +1,110 @@
 {
-  "champA": "Sion",
-  "champB": "Xerath",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T03:35:30.315536",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:50.883002",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -2,
-      "avg_xp_diff": -53,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -6,
+      "avg_xp_diff": -48,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -270,
-      "avg_xp_diff": -117,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -176,
+      "avg_xp_diff": -254,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -648,
-      "avg_xp_diff": 290,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
-      "advantage": -2
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": 111,
-      "avg_xp_diff": 1442,
-      "avg_cs_diff": 22.4,
+      "avg_gold_diff": -53,
+      "avg_xp_diff": -363,
+      "avg_cs_diff": 0.0,
       "sample_frames": 10,
       "advantage": 0
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -1061,
+      "avg_xp_diff": -1536,
+      "avg_cs_diff": -15.2,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 69,
-      "avg_xp_diff": 1591,
-      "avg_cs_diff": 27.8,
+      "avg_gold_diff": -2364,
+      "avg_xp_diff": -1048,
+      "avg_cs_diff": 1.4,
       "sample_frames": 17,
-      "advantage": 0
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Sion",
+  "champB": "Xerath",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 3.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 4.0,
+      "kda": 1.08,
+      "avgDamage": 17852
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 10.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 12.0,
+      "kda": 5.5,
+      "avgDamage": 46584
+    }
+  }
 }

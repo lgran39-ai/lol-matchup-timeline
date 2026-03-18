@@ -1,46 +1,161 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-15T10:38:20.670218",
+  "sample_size": 6,
+  "overall_winrate_a": 83.3,
+  "updated_at": "2026-03-18T11:49:49.383827",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -61,
-      "avg_xp_diff": -79,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -6,
+      "avg_xp_diff": 17,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -612,
-      "avg_xp_diff": -728,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -95,
+      "avg_xp_diff": -49,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1563,
-      "avg_xp_diff": -1443,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -448,
+      "avg_xp_diff": -289,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3021,
-      "avg_xp_diff": -3409,
-      "avg_cs_diff": -33.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -1075,
+      "avg_xp_diff": -236,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 30,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2041,
+      "avg_xp_diff": 826,
+      "avg_cs_diff": -28.8,
+      "sample_frames": 25,
       "advantage": -2
     }
   ],
   "champA": "Annie",
-  "champB": "Talon"
+  "champB": "Talon",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3175",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 8.3,
+      "avgAssists": 9.7,
+      "kda": 2.24,
+      "avgDamage": 33727
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 10.7,
+      "avgDeaths": 9.0,
+      "avgAssists": 5.0,
+      "kda": 1.74,
+      "avgDamage": 27788
+    }
+  }
 }

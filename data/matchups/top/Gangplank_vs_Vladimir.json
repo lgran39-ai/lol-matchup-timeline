@@ -1,55 +1,143 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-15T10:38:20.785576",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-18T11:49:49.926094",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -28,
-      "avg_xp_diff": -4,
-      "avg_cs_diff": -3.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -40,
+      "avg_xp_diff": -40,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 311,
-      "avg_xp_diff": 332,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -81,
+      "avg_xp_diff": -159,
+      "avg_cs_diff": -12.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 790,
-      "avg_xp_diff": 801,
-      "avg_cs_diff": 2.5,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -101,
+      "avg_xp_diff": -449,
+      "avg_cs_diff": -19.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 755,
-      "avg_xp_diff": 335,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 21,
+      "avg_gold_diff": 416,
+      "avg_xp_diff": 616,
+      "avg_cs_diff": -20.3,
+      "sample_frames": 22,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1498,
-      "avg_xp_diff": -3798,
-      "avg_cs_diff": -36.0,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": 2990,
+      "avg_xp_diff": 3069,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 14,
+      "advantage": 2
     }
   ],
   "champA": "Gangplank",
-  "champB": "Vladimir"
+  "champB": "Vladimir",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.7,
+      "avgAssists": 7.7,
+      "kda": 2.93,
+      "avgDamage": 28982
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 2.3,
+      "kda": 1.0,
+      "avgDamage": 21837
+    }
+  }
 }

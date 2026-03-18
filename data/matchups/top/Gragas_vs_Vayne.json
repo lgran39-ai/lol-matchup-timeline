@@ -1,55 +1,111 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:09:47.597740",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:50.000288",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -43,
-      "avg_xp_diff": -108,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": 80,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -215,
-      "avg_xp_diff": 124,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 251,
+      "avg_xp_diff": 480,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -604,
-      "avg_xp_diff": -289,
-      "avg_cs_diff": -17.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 1217,
+      "avg_xp_diff": 1685,
+      "avg_cs_diff": 18.0,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1488,
-      "avg_xp_diff": -536,
-      "avg_cs_diff": -17.7,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 2423,
+      "avg_xp_diff": 2423,
+      "avg_cs_diff": 36.4,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1475,
-      "avg_xp_diff": 1401,
-      "avg_cs_diff": -27.6,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 3072,
+      "avg_xp_diff": 2909,
+      "avg_cs_diff": 49.4,
+      "sample_frames": 10,
+      "advantage": 2
     }
   ],
   "champA": "Gragas",
-  "champB": "Vayne"
+  "champB": "Vayne",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 5.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 7.0,
+      "kda": 2.18,
+      "avgDamage": 19990
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 2.5,
+      "kda": 0.86,
+      "avgDamage": 15942
+    }
+  }
 }

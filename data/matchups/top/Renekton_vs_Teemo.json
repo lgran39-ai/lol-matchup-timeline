@@ -1,46 +1,221 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T22:39:50.873089",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-18T11:49:50.766328",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -83,
-      "avg_xp_diff": -101,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -17,
+      "avg_xp_diff": -50,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -678,
-      "avg_xp_diff": -730,
-      "avg_cs_diff": -27.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 325,
+      "avg_xp_diff": 498,
+      "avg_cs_diff": 9.0,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1164,
-      "avg_xp_diff": -1755,
-      "avg_cs_diff": -50.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 766,
+      "avg_xp_diff": 1267,
+      "avg_cs_diff": 16.8,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2578,
-      "avg_xp_diff": -3179,
-      "avg_cs_diff": -75.1,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": 1533,
+      "avg_xp_diff": 2122,
+      "avg_cs_diff": 28.2,
+      "sample_frames": 45,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1345,
+      "avg_xp_diff": 1735,
+      "avg_cs_diff": 31.8,
+      "sample_frames": 19,
+      "advantage": 2
     }
   ],
   "champA": "Renekton",
-  "champB": "Teemo"
+  "champB": "Teemo",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3111",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1036",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3133",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.8,
+      "avgDeaths": 5.2,
+      "avgAssists": 4.0,
+      "kda": 2.27,
+      "avgDamage": 19550
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1056",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item2031",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3020",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1052",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.2,
+      "avgDeaths": 6.8,
+      "avgAssists": 5.8,
+      "kda": 1.32,
+      "avgDamage": 22549
+    }
+  }
 }

@@ -1,46 +1,155 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T22:39:50.843659",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:50.481839",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -128,
-      "avg_xp_diff": -40,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -42,
+      "avg_xp_diff": 78,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -67,
-      "avg_xp_diff": 38,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -136,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 707,
-      "avg_xp_diff": 513,
-      "avg_cs_diff": 16.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 2,
+      "avg_xp_diff": 485,
+      "avg_cs_diff": 11.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -373,
-      "avg_xp_diff": -704,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -362,
+      "avg_xp_diff": 436,
+      "avg_cs_diff": 8.2,
+      "sample_frames": 14,
       "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -577,
+      "avg_xp_diff": 480,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 10,
+      "advantage": -2
     }
   ],
   "champA": "Lillia",
-  "champB": "Viego"
+  "champB": "Viego",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3147",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item2422",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 4.0,
+      "avgAssists": 6.7,
+      "kda": 3.08,
+      "avgDamage": 13944
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3134",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 6.3,
+      "avgAssists": 4.0,
+      "kda": 1.53,
+      "avgDamage": 14048
+    }
+  }
 }

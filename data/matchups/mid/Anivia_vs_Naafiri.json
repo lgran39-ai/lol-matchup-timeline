@@ -1,46 +1,161 @@
 {
-  "champA": "Anivia",
-  "champB": "Naafiri",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-14T02:23:06.618163",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.356283",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -91,
-      "avg_xp_diff": -68,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -15,
+      "avg_xp_diff": 50,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -813,
-      "avg_xp_diff": -28,
-      "avg_cs_diff": -14.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -100,
+      "avg_xp_diff": 346,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1398,
-      "avg_xp_diff": 112,
-      "avg_cs_diff": -12.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -149,
+      "avg_xp_diff": 633,
+      "avg_cs_diff": -6.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2102,
-      "avg_xp_diff": -490,
-      "avg_cs_diff": -17.5,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 0,
+      "avg_xp_diff": 1320,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 30,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 334,
+      "avg_xp_diff": 3740,
+      "avg_cs_diff": 19.8,
+      "sample_frames": 25,
+      "advantage": 1
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Naafiri",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3040",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 2.7,
+      "avgAssists": 6.3,
+      "kda": 3.88,
+      "avgDamage": 21647
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3134",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1055",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 4.3,
+      "avgAssists": 2.7,
+      "kda": 1.46,
+      "avgDamage": 18066
+    }
+  }
 }

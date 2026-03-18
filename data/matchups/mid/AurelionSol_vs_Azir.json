@@ -1,46 +1,142 @@
 {
-  "champA": "AurelionSol",
-  "champB": "Azir",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.669557",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.389706",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 10,
-      "avg_xp_diff": -53,
+      "avg_gold_diff": -180,
+      "avg_xp_diff": -90,
       "avg_cs_diff": -1.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -52,
-      "avg_xp_diff": -469,
-      "avg_cs_diff": -16.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -610,
+      "avg_xp_diff": -746,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1032,
-      "avg_xp_diff": -1339,
-      "avg_cs_diff": -34.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -634,
+      "avg_xp_diff": -903,
+      "avg_cs_diff": -16.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -1965,
-      "avg_xp_diff": -2153,
-      "avg_cs_diff": -46.5,
-      "sample_frames": 2,
+      "label": "mid_game",
+      "avg_gold_diff": -877,
+      "avg_xp_diff": -702,
+      "avg_cs_diff": -11.6,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -484,
+      "avg_xp_diff": 307,
+      "avg_cs_diff": 14.2,
+      "sample_frames": 15,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "AurelionSol",
+  "champB": "Azir",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 9.5,
+      "avgAssists": 7.0,
+      "kda": 1.79,
+      "avgDamage": 27390
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.5,
+      "avgDeaths": 6.5,
+      "avgAssists": 7.0,
+      "kda": 2.54,
+      "avgDamage": 35042
+    }
+  }
 }

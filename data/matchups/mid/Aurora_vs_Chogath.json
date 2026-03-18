@@ -1,46 +1,123 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:09:47.482852",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:49.430945",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 14,
-      "avg_xp_diff": 54,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 2,
+      "avg_xp_diff": -37,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 467,
-      "avg_xp_diff": 422,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -52,
+      "avg_xp_diff": -91,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 484,
-      "avg_xp_diff": 185,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 114,
+      "avg_xp_diff": 142,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1748,
-      "avg_xp_diff": 1491,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 9,
-      "advantage": 2
+      "avg_gold_diff": -890,
+      "avg_xp_diff": -806,
+      "avg_cs_diff": -13.9,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2787,
+      "avg_xp_diff": -2136,
+      "avg_cs_diff": -16.2,
+      "sample_frames": 17,
+      "advantage": -2
     }
   ],
   "champA": "Aurora",
-  "champB": "Chogath"
+  "champB": "Chogath",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1052",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 9.0,
+      "kda": 1.85,
+      "avgDamage": 32193
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dead Man's Plate",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 7.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 6.0,
+      "kda": 3.71,
+      "avgDamage": 27322
+    }
+  }
 }

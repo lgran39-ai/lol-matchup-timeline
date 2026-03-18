@@ -1,46 +1,167 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T23:05:04.245286",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-18T11:49:49.957985",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -95,
-      "avg_xp_diff": -50,
-      "avg_cs_diff": -6.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -46,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -561,
+      "avg_gold_diff": -388,
       "avg_xp_diff": -66,
-      "avg_cs_diff": -12.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_cs_diff": -8.5,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1496,
-      "avg_xp_diff": -1089,
-      "avg_cs_diff": -24.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -624,
+      "avg_xp_diff": -532,
+      "avg_cs_diff": -19.5,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1072,
-      "avg_xp_diff": -806,
-      "avg_cs_diff": -31.5,
-      "sample_frames": 6,
+      "avg_gold_diff": -1289,
+      "avg_xp_diff": -1879,
+      "avg_cs_diff": -39.5,
+      "sample_frames": 29,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1350,
+      "avg_xp_diff": -2154,
+      "avg_cs_diff": -47.4,
+      "sample_frames": 14,
       "advantage": -2
     }
   ],
   "champA": "Garen",
-  "champB": "Vayne"
+  "champB": "Vayne",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Phantom Dancer",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item1054",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3006",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 5.3,
+      "avgAssists": 2.3,
+      "kda": 1.19,
+      "avgDamage": 10359
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3006",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1055",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 3.3,
+      "avgAssists": 3.3,
+      "kda": 2.6,
+      "avgDamage": 24671
+    }
+  }
 }

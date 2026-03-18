@@ -1,46 +1,143 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T23:05:04.381753",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-18T11:49:50.613389",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": -41,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -45,
+      "avg_xp_diff": -59,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -522,
-      "avg_xp_diff": -390,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -361,
+      "avg_xp_diff": -117,
+      "avg_cs_diff": 4.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -741,
-      "avg_xp_diff": -493,
-      "avg_cs_diff": -21.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -507,
+      "avg_xp_diff": -95,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -808,
-      "avg_xp_diff": -1210,
-      "avg_cs_diff": -39.5,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 406,
+      "avg_xp_diff": 37,
+      "avg_cs_diff": -10.3,
+      "sample_frames": 30,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 110,
+      "avg_xp_diff": -1033,
+      "avg_cs_diff": -20.6,
+      "sample_frames": 20,
+      "advantage": 0
     }
   ],
   "champA": "Naafiri",
-  "champB": "Vex"
+  "champB": "Vex",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 11.0,
+      "avgDeaths": 7.3,
+      "avgAssists": 6.7,
+      "kda": 2.41,
+      "avgDamage": 27607
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3175",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 9.7,
+      "kda": 2.89,
+      "avgDamage": 35787
+    }
+  }
 }

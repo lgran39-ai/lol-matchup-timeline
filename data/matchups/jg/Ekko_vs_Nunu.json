@@ -1,46 +1,142 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-15T10:09:47.541266",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-18T11:49:49.741781",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 184,
-      "avg_xp_diff": 173,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 110,
+      "avg_xp_diff": 37,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 857,
-      "avg_xp_diff": 742,
-      "avg_cs_diff": 16.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 379,
+      "avg_xp_diff": 244,
+      "avg_cs_diff": 5.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2019,
-      "avg_xp_diff": 1802,
-      "avg_cs_diff": 35.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1031,
+      "avg_xp_diff": 302,
+      "avg_cs_diff": 6.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4161,
-      "avg_xp_diff": 3703,
-      "avg_cs_diff": 57.3,
-      "sample_frames": 7,
+      "avg_gold_diff": 1674,
+      "avg_xp_diff": 288,
+      "avg_cs_diff": 16.6,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1296,
+      "avg_xp_diff": -1644,
+      "avg_cs_diff": 13.9,
+      "sample_frames": 11,
       "advantage": 2
     }
   ],
   "champA": "Ekko",
-  "champB": "Nunu"
+  "champB": "Nunu",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.0,
+      "kda": 2.0,
+      "avgDamage": 19308
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3111",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 19.5,
+      "kda": 6.0,
+      "avgDamage": 13899
+    }
+  }
 }

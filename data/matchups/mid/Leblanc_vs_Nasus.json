@@ -1,55 +1,161 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T22:39:50.836775",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:50.436175",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 164,
-      "avg_xp_diff": 138,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 58,
+      "avg_xp_diff": 81,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 386,
-      "avg_xp_diff": 205,
-      "avg_cs_diff": 7.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 273,
+      "avg_xp_diff": 272,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 992,
-      "avg_xp_diff": 633,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 621,
+      "avg_xp_diff": 607,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2057,
-      "avg_xp_diff": 2128,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 1071,
+      "avg_xp_diff": 929,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 31,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2853,
-      "avg_xp_diff": 1883,
-      "avg_cs_diff": 4.9,
-      "sample_frames": 9,
-      "advantage": 2
+      "avg_gold_diff": 287,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": -9.6,
+      "sample_frames": 13,
+      "advantage": 1
     }
   ],
   "champA": "Leblanc",
-  "champB": "Nasus"
+  "champB": "Nasus",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item1082",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 1.7,
+      "avgAssists": 8.0,
+      "kda": 8.8,
+      "avgDamage": 30371
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item1054",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1029",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.3,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.0,
+      "kda": 1.27,
+      "avgDamage": 17709
+    }
+  }
 }

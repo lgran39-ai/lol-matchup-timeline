@@ -1,55 +1,112 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T10:38:20.804508",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:49.992214",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -8,
-      "avg_xp_diff": 62,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -54,
+      "avg_xp_diff": -32,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -91,
-      "avg_xp_diff": 174,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -366,
+      "avg_xp_diff": -146,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -114,
-      "avg_xp_diff": 304,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -468,
+      "avg_xp_diff": -397,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -114,
-      "avg_xp_diff": 292,
-      "avg_cs_diff": -4.3,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -1234,
+      "avg_xp_diff": -454,
+      "avg_cs_diff": 11.9,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1264,
-      "avg_xp_diff": -1111,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 7,
+      "avg_gold_diff": -1506,
+      "avg_xp_diff": 35,
+      "avg_cs_diff": 28.2,
+      "sample_frames": 17,
       "advantage": -2
     }
   ],
   "champA": "Gragas",
-  "champB": "Mordekaiser"
+  "champB": "Mordekaiser",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.0,
+      "kda": 1.36,
+      "avgDamage": 21760
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 11.0,
+      "avgDeaths": 7.5,
+      "avgAssists": 4.5,
+      "kda": 2.07,
+      "avgDamage": 30073
+    }
+  }
 }

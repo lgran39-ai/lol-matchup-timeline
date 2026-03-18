@@ -1,46 +1,117 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-15T10:38:20.906137",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-18T11:49:50.511213",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -64,
-      "avg_xp_diff": -71,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -49,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -249,
-      "avg_xp_diff": -167,
-      "avg_cs_diff": -8.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -34,
+      "avg_xp_diff": 126,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 409,
-      "avg_xp_diff": 747,
-      "avg_cs_diff": 11.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 9,
+      "avg_xp_diff": 326,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -430,
-      "avg_xp_diff": -774,
-      "avg_cs_diff": -14.9,
-      "sample_frames": 11,
+      "avg_gold_diff": -598,
+      "avg_xp_diff": 529,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1379,
+      "avg_xp_diff": -955,
+      "avg_cs_diff": 23.9,
+      "sample_frames": 18,
       "advantage": -2
     }
   ],
   "champA": "Malphite",
-  "champB": "Shen"
+  "champB": "Shen",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 10.0,
+      "kda": 2.27,
+      "avgDamage": 21919
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3111",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 18.0,
+      "kda": 8.17,
+      "avgDamage": 24504
+    }
+  }
 }

@@ -1,55 +1,185 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T23:05:04.422645",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:50.834399",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 258,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -16,
+      "avg_xp_diff": -86,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -121,
-      "avg_xp_diff": -481,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -237,
+      "avg_xp_diff": -346,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1065,
-      "avg_xp_diff": -1482,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -398,
+      "avg_xp_diff": -501,
+      "avg_cs_diff": -6.7,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -732,
-      "avg_xp_diff": -1178,
-      "avg_cs_diff": -2.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -1324,
+      "avg_xp_diff": -1525,
+      "avg_cs_diff": -15.8,
+      "sample_frames": 40,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2120,
-      "avg_xp_diff": -3142,
-      "avg_cs_diff": -11.5,
-      "sample_frames": 8,
+      "avg_gold_diff": -2142,
+      "avg_xp_diff": -2291,
+      "avg_cs_diff": -10.3,
+      "sample_frames": 11,
       "advantage": -2
     }
   ],
   "champA": "Sett",
-  "champB": "Sion"
+  "champB": "Sion",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item1055",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item2021",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Overlord's Bloodmail",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 8.0,
+      "avgAssists": 3.2,
+      "kda": 0.75,
+      "avgDamage": 21328
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3047",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3076",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1057",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.8,
+      "avgDeaths": 3.8,
+      "avgAssists": 8.2,
+      "kda": 3.2,
+      "avgDamage": 19963
+    }
+  }
 }

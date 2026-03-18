@@ -1,46 +1,111 @@
 {
-  "champA": "Akshan",
-  "champB": "Kassadin",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.485085",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.252137",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 172,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 118,
+      "avg_xp_diff": 29,
+      "avg_cs_diff": 4.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 788,
-      "avg_xp_diff": 273,
-      "avg_cs_diff": 34.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 668,
+      "avg_xp_diff": 165,
+      "avg_cs_diff": 19.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1838,
-      "avg_xp_diff": 846,
-      "avg_cs_diff": 49.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 1464,
+      "avg_xp_diff": 729,
+      "avg_cs_diff": 31.3,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 3230,
-      "avg_xp_diff": 1460,
-      "avg_cs_diff": 60.1,
-      "sample_frames": 7,
+      "label": "mid_game",
+      "avg_gold_diff": 1630,
+      "avg_xp_diff": 919,
+      "avg_cs_diff": 28.4,
+      "sample_frames": 12,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -994,
+      "avg_xp_diff": -2863,
+      "avg_cs_diff": 25.0,
+      "sample_frames": 2,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Akshan",
+  "champB": "Kassadin",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1055",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 1.0,
+      "avgAssists": 1.5,
+      "kda": 5.0,
+      "avgDamage": 19122
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1036",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 0.5,
+      "kda": 2.0,
+      "avgDamage": 13896
+    }
+  }
 }

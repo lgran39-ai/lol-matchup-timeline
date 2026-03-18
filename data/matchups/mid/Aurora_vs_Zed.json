@@ -1,55 +1,137 @@
 {
   "role": "mid",
-  "sample_size": 5,
-  "overall_winrate_a": 40.0,
-  "updated_at": "2026-03-15T10:38:20.687757",
+  "sample_size": 8,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.461000",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 292,
-      "avg_xp_diff": 116,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 91,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 4.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 776,
-      "avg_xp_diff": 521,
-      "avg_cs_diff": 18.0,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 261,
+      "avg_xp_diff": -11,
+      "avg_cs_diff": 9.7,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1116,
-      "avg_xp_diff": 938,
-      "avg_cs_diff": 20.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 504,
+      "avg_xp_diff": 211,
+      "avg_cs_diff": 18.3,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2138,
-      "avg_xp_diff": 1162,
-      "avg_cs_diff": 19.8,
-      "sample_frames": 20,
+      "avg_gold_diff": 1732,
+      "avg_xp_diff": 1815,
+      "avg_cs_diff": 38.9,
+      "sample_frames": 18,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2587,
-      "avg_xp_diff": 768,
-      "avg_cs_diff": 12.9,
-      "sample_frames": 15,
+      "avg_gold_diff": 3053,
+      "avg_xp_diff": 4234,
+      "avg_cs_diff": 53.0,
+      "sample_frames": 3,
       "advantage": 2
     }
   ],
   "champA": "Aurora",
-  "champB": "Zed"
+  "champB": "Zed",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1056",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.3,
+      "avgAssists": 3.7,
+      "kda": 2.3,
+      "avgDamage": 14198
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3134",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1037",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 2.3,
+      "kda": 1.25,
+      "avgDamage": 16131
+    }
+  }
 }

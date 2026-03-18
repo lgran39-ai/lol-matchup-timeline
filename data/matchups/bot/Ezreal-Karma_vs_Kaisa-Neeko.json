@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T23:05:04.584020",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:51.749234",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -43,
-      "avg_xp_diff": -77,
-      "avg_cs_diff": -3.8,
+      "avg_gold_diff": -160,
+      "avg_xp_diff": -67,
+      "avg_cs_diff": -8.2,
       "sample_frames": 5,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -220,
-      "avg_xp_diff": -115,
-      "avg_cs_diff": -6.0,
+      "avg_gold_diff": -771,
+      "avg_xp_diff": -75,
+      "avg_cs_diff": -23.6,
       "sample_frames": 5,
-      "advantage": 0
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 347,
-      "avg_xp_diff": 670,
-      "avg_cs_diff": 10.2,
+      "avg_gold_diff": -1728,
+      "avg_xp_diff": -434,
+      "avg_cs_diff": -29.6,
       "sample_frames": 5,
-      "advantage": 1
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -655,
-      "avg_xp_diff": -985,
-      "avg_cs_diff": 5.1,
+      "avg_gold_diff": -5791,
+      "avg_xp_diff": -3034,
+      "avg_cs_diff": -55.5,
       "sample_frames": 10,
-      "advantage": -1
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3332,
-      "avg_xp_diff": -1453,
-      "avg_cs_diff": -19.0,
-      "sample_frames": 7,
+      "avg_gold_diff": -9305,
+      "avg_xp_diff": -4934,
+      "avg_cs_diff": -80.3,
+      "sample_frames": 3,
       "advantage": -2
     }
   ],
@@ -60,5 +60,65 @@
     "sup": "Neeko"
   },
   "champA": "Ezreal+Karma",
-  "champB": "Kaisa+Neeko"
+  "champB": "Kaisa+Neeko",
+  "buildStats": {
+    "teamA": {
+      "adc": {
+        "items": [
+          {
+            "name": "Item1036",
+            "count": 2,
+            "pickRate": 200.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 0.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 3.0,
+        "kda": 0.43,
+        "avgDamage": 7779
+      },
+      "sup": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 0.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 9.0,
+        "kda": 1.29,
+        "avgDamage": 7247
+      }
+    },
+    "teamB": {
+      "adc": {
+        "items": [
+          {
+            "name": "Item1058",
+            "count": 2,
+            "pickRate": 200.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 10.0,
+        "avgDeaths": 2.0,
+        "avgAssists": 9.0,
+        "kda": 9.5,
+        "avgDamage": 26415
+      },
+      "sup": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 2.0,
+        "avgDeaths": 3.0,
+        "avgAssists": 15.0,
+        "kda": 5.67,
+        "avgDamage": 17907
+      }
+    }
+  }
 }

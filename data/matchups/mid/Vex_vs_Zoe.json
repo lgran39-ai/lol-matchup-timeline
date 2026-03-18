@@ -1,46 +1,124 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:09:47.816541",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:51.002243",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 375,
-      "avg_xp_diff": 239,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -68,
+      "avg_xp_diff": -72,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1043,
-      "avg_xp_diff": 457,
-      "avg_cs_diff": 9.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -530,
+      "avg_xp_diff": -613,
+      "avg_cs_diff": -8.7,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1628,
-      "avg_xp_diff": 984,
-      "avg_cs_diff": 24.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -1469,
+      "avg_xp_diff": -1396,
+      "avg_cs_diff": -20.2,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3673,
-      "avg_xp_diff": 2933,
-      "avg_cs_diff": 34.7,
-      "sample_frames": 9,
+      "avg_gold_diff": -1244,
+      "avg_xp_diff": -848,
+      "avg_cs_diff": -20.8,
+      "sample_frames": 16,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1580,
+      "avg_xp_diff": 2127,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 5,
       "advantage": 2
     }
   ],
   "champA": "Vex",
-  "champB": "Zoe"
+  "champB": "Zoe",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.0,
+      "kda": 2.17,
+      "avgDamage": 17516
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.0,
+      "kda": 2.08,
+      "avgDamage": 22587
+    }
+  }
 }

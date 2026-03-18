@@ -1,55 +1,114 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T23:05:04.132071",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:49.381485",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 29,
-      "avg_xp_diff": 86,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -46,
+      "avg_xp_diff": -88,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 64,
-      "avg_xp_diff": 612,
-      "avg_cs_diff": 20.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -213,
+      "avg_xp_diff": -85,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -743,
-      "avg_xp_diff": -521,
-      "avg_cs_diff": 16.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -585,
+      "avg_xp_diff": 120,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 490,
-      "avg_xp_diff": -90,
-      "avg_cs_diff": 32.3,
-      "sample_frames": 10,
-      "advantage": 2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": 412,
-      "avg_xp_diff": -802,
-      "avg_cs_diff": 51.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -1194,
+      "avg_xp_diff": -267,
+      "avg_cs_diff": -11.8,
+      "sample_frames": 9,
+      "advantage": -2
     }
   ],
   "champA": "Annie",
-  "champB": "Sejuani"
+  "champB": "Sejuani",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 0.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 4.5,
+      "kda": 2.0,
+      "avgDamage": 14118
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1054",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 2.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 3.0,
+      "kda": 2.5,
+      "avgDamage": 8514
+    }
+  }
 }

@@ -1,55 +1,110 @@
 {
-  "champA": "Irelia",
-  "champB": "Lissandra",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.344959",
+  "sample_size": 2,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-18T11:49:50.142158",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -117,
-      "avg_xp_diff": -109,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -28,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -430,
-      "avg_xp_diff": -210,
-      "avg_cs_diff": -8.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 477,
+      "avg_xp_diff": 255,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -858,
-      "avg_xp_diff": -958,
-      "avg_cs_diff": -18.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 1434,
+      "avg_xp_diff": 1142,
+      "avg_cs_diff": 28.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -1110,
-      "avg_xp_diff": -1413,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": 4489,
+      "avg_xp_diff": 3101,
+      "avg_cs_diff": 56.9,
+      "sample_frames": 19,
+      "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -807,
-      "avg_xp_diff": -734,
-      "avg_cs_diff": 26.6,
-      "sample_frames": 13,
-      "advantage": -2
+      "label": "late_game",
+      "avg_gold_diff": 8076,
+      "avg_xp_diff": 4186,
+      "avg_cs_diff": 87.2,
+      "sample_frames": 10,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Irelia",
+  "champB": "Lissandra",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 12.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 12.5,
+      "kda": 4.45,
+      "avgDamage": 34766
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 3.5,
+      "avgDeaths": 11.0,
+      "avgAssists": 7.5,
+      "kda": 1.0,
+      "avgDamage": 15820
+    }
+  }
 }

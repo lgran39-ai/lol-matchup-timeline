@@ -1,55 +1,155 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:38:20.718748",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-18T11:49:49.646205",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -10,
-      "avg_xp_diff": 94,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 39,
+      "avg_xp_diff": 4,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -76,
-      "avg_xp_diff": 78,
-      "avg_cs_diff": 14.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 228,
+      "avg_xp_diff": 96,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1466,
-      "avg_xp_diff": 375,
-      "avg_cs_diff": 20.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 213,
+      "avg_xp_diff": 111,
+      "avg_cs_diff": 10.0,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2430,
-      "avg_xp_diff": 990,
-      "avg_cs_diff": 18.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 478,
+      "avg_xp_diff": 602,
+      "avg_cs_diff": 15.6,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 6744,
-      "avg_xp_diff": 4075,
-      "avg_cs_diff": 75.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 1583,
+      "avg_xp_diff": 1689,
+      "avg_cs_diff": 37.0,
+      "sample_frames": 21,
       "advantage": 2
     }
   ],
   "champA": "Diana",
-  "champB": "Ekko"
+  "champB": "Ekko",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1082",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3175",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.3,
+      "kda": 3.0,
+      "avgDamage": 29980
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.3,
+      "kda": 1.67,
+      "avgDamage": 17503
+    }
+  }
 }

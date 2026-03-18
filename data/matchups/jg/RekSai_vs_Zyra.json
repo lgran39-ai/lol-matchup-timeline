@@ -1,46 +1,161 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:09:47.750993",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-18T11:49:50.760868",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 90,
-      "avg_xp_diff": -101,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -28,
+      "avg_xp_diff": -8,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 172,
-      "avg_xp_diff": -306,
-      "avg_cs_diff": -11.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -376,
+      "avg_xp_diff": -317,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 394,
-      "avg_xp_diff": -359,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -642,
+      "avg_xp_diff": -476,
+      "avg_cs_diff": -14.6,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1394,
-      "avg_xp_diff": 660,
-      "avg_cs_diff": -6.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -1345,
+      "avg_xp_diff": -1659,
+      "avg_cs_diff": -29.8,
+      "sample_frames": 30,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1294,
+      "avg_xp_diff": -2443,
+      "avg_cs_diff": -44.6,
+      "sample_frames": 30,
+      "advantage": -2
     }
   ],
   "champA": "RekSai",
-  "champB": "Zyra"
+  "champB": "Zyra",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3111",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 8.3,
+      "avgAssists": 5.0,
+      "kda": 1.28,
+      "avgDamage": 17405
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3020",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 16.0,
+      "kda": 5.5,
+      "avgDamage": 34509
+    }
+  }
 }

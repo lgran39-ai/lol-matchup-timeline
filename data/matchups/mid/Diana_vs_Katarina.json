@@ -1,46 +1,179 @@
 {
   "role": "mid",
-  "sample_size": 4,
-  "overall_winrate_a": 75.0,
-  "updated_at": "2026-03-17T23:05:04.182786",
+  "sample_size": 8,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.654041",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 40,
-      "avg_xp_diff": 14,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 28,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 933,
-      "avg_xp_diff": 456,
-      "avg_cs_diff": 20.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 65,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": 6.0,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1331,
-      "avg_xp_diff": 1092,
-      "avg_cs_diff": 40.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 437,
+      "avg_xp_diff": 87,
+      "avg_cs_diff": 8.8,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3269,
-      "avg_xp_diff": 2244,
-      "avg_cs_diff": 42.9,
-      "sample_frames": 11,
+      "avg_gold_diff": 1674,
+      "avg_xp_diff": 992,
+      "avg_cs_diff": 15.2,
+      "sample_frames": 40,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -495,
+      "avg_xp_diff": -1350,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 32,
+      "advantage": -2
     }
   ],
   "champA": "Diana",
-  "champB": "Katarina"
+  "champB": "Katarina",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Stormsurge",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3175",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 9.2,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.0,
+      "kda": 2.54,
+      "avgDamage": 30358
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 11.2,
+      "avgDeaths": 8.0,
+      "avgAssists": 4.8,
+      "kda": 2.0,
+      "avgDamage": 29146
+    }
+  }
 }

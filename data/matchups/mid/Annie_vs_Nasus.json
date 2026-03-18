@@ -1,46 +1,130 @@
 {
-  "champA": "Annie",
-  "champB": "Nasus",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-14T02:23:06.622062",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:49.379780",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 90,
-      "avg_xp_diff": 34,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -24,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 274,
-      "avg_xp_diff": -174,
-      "avg_cs_diff": 22.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -183,
+      "avg_xp_diff": -48,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 551,
-      "avg_xp_diff": 82,
-      "avg_cs_diff": 34.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -828,
+      "avg_xp_diff": -610,
+      "avg_cs_diff": -20.3,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 947,
-      "avg_xp_diff": -375,
-      "avg_cs_diff": 12.7,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -2329,
+      "avg_xp_diff": -1899,
+      "avg_cs_diff": -47.4,
+      "sample_frames": 21,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4518,
+      "avg_xp_diff": -3676,
+      "avg_cs_diff": -98.3,
+      "sample_frames": 7,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Annie",
+  "champB": "Nasus",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 3.5,
+      "avgDeaths": 8.0,
+      "avgAssists": 7.5,
+      "kda": 1.38,
+      "avgDamage": 25158
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Bandlepipes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 6.0,
+      "kda": 3.38,
+      "avgDamage": 25612
+    }
+  }
 }

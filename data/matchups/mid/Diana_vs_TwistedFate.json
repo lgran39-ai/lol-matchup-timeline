@@ -1,46 +1,203 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:38:20.727780",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-18T11:49:49.670405",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -203,
-      "avg_xp_diff": -68,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 85,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1292,
-      "avg_xp_diff": 31,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 346,
+      "avg_xp_diff": 302,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1412,
-      "avg_xp_diff": 273,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 689,
+      "avg_xp_diff": 614,
+      "avg_cs_diff": 8.4,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2021,
-      "avg_xp_diff": -78,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 641,
+      "avg_xp_diff": -32,
+      "avg_cs_diff": 11.2,
+      "sample_frames": 40,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 191,
+      "avg_xp_diff": -734,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 27,
+      "advantage": 1
     }
   ],
   "champA": "Diana",
-  "champB": "TwistedFate"
+  "champB": "TwistedFate",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item1058",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3175",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item1082",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 9.8,
+      "avgDeaths": 6.5,
+      "avgAssists": 9.5,
+      "kda": 2.96,
+      "avgDamage": 33020
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Lich Bane",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item1056",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Rapid Firecannon",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3173",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Unsealed Spellbook",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.8,
+      "avgDeaths": 7.2,
+      "avgAssists": 11.0,
+      "kda": 2.31,
+      "avgDamage": 19404
+    }
+  }
 }

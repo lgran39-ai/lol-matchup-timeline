@@ -1,55 +1,114 @@
 {
   "role": "top",
-  "sample_size": 5,
-  "overall_winrate_a": 60.0,
-  "updated_at": "2026-03-15T10:38:20.763179",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-18T11:49:49.821595",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 58,
-      "avg_xp_diff": -71,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 15,
+      "avg_gold_diff": -49,
+      "avg_xp_diff": -34,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -10,
-      "avg_xp_diff": -388,
-      "avg_cs_diff": -0.1,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -274,
+      "avg_xp_diff": -287,
+      "avg_cs_diff": -5.4,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -478,
-      "avg_xp_diff": -1262,
-      "avg_cs_diff": -9.6,
-      "sample_frames": 15,
+      "avg_gold_diff": -1383,
+      "avg_xp_diff": -1968,
+      "avg_cs_diff": -25.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1528,
-      "avg_xp_diff": -2777,
-      "avg_cs_diff": -10.3,
-      "sample_frames": 30,
+      "avg_gold_diff": -2705,
+      "avg_xp_diff": -3423,
+      "avg_cs_diff": -44.8,
+      "sample_frames": 4,
       "advantage": -2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": 1960,
-      "avg_xp_diff": 262,
-      "avg_cs_diff": 34.4,
-      "sample_frames": 33,
-      "advantage": 2
     }
   ],
   "champA": "Fiora",
-  "champB": "Kennen"
+  "champB": "Kennen",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1001",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 0.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 1.0,
+      "kda": 0.3,
+      "avgDamage": 4032
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item2031",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1055",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 2.0,
+      "avgAssists": 1.0,
+      "kda": 2.75,
+      "avgDamage": 12656
+    }
+  }
 }

@@ -1,46 +1,161 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:38:20.750698",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-18T11:49:49.779598",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -14,
-      "avg_xp_diff": -35,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -46,
+      "avg_xp_diff": -82,
+      "avg_cs_diff": -1.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 462,
-      "avg_xp_diff": 375,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -66,
+      "avg_xp_diff": -29,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1073,
-      "avg_xp_diff": 1665,
-      "avg_cs_diff": 23.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -236,
+      "avg_xp_diff": 150,
+      "avg_cs_diff": 4.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1950,
-      "avg_xp_diff": 3776,
-      "avg_cs_diff": 69.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 696,
+      "avg_xp_diff": 923,
+      "avg_cs_diff": 12.4,
+      "sample_frames": 29,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2358,
+      "avg_xp_diff": 3298,
+      "avg_cs_diff": 43.6,
+      "sample_frames": 11,
       "advantage": 2
     }
   ],
   "champA": "Evelynn",
-  "champB": "FiddleSticks"
+  "champB": "FiddleSticks",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3020",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item1052",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 3.0,
+      "avgAssists": 7.0,
+      "kda": 4.89,
+      "avgDamage": 22321
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3330",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3020",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 9.0,
+      "kda": 2.53,
+      "avgDamage": 12668
+    }
+  }
 }

@@ -1,46 +1,209 @@
 {
   "role": "mid",
-  "sample_size": 13,
-  "overall_winrate_a": 53.8,
-  "updated_at": "2026-03-17T23:05:04.076629",
+  "sample_size": 18,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.158690",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 105,
-      "avg_xp_diff": 30,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 18,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 599,
-      "avg_xp_diff": 394,
-      "avg_cs_diff": 32.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 200,
+      "avg_xp_diff": 344,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 816,
-      "avg_xp_diff": 31,
-      "avg_cs_diff": 36.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 184,
+      "avg_xp_diff": 394,
+      "avg_cs_diff": 16.4,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 448,
-      "avg_xp_diff": -220,
-      "avg_cs_diff": 24.3,
-      "sample_frames": 7,
-      "advantage": 2
+      "avg_gold_diff": -326,
+      "avg_xp_diff": 230,
+      "avg_cs_diff": 6.4,
+      "sample_frames": 50,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2542,
+      "avg_xp_diff": -1126,
+      "avg_cs_diff": -4.5,
+      "sample_frames": 53,
+      "advantage": -2
     }
   ],
   "champA": "Ahri",
-  "champB": "Katarina"
+  "champB": "Katarina",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 9.4,
+      "avgDeaths": 9.0,
+      "avgAssists": 11.8,
+      "kda": 2.36,
+      "avgDamage": 27641
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3175",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 13.2,
+      "avgDeaths": 9.0,
+      "avgAssists": 9.0,
+      "kda": 2.47,
+      "avgDamage": 42285
+    }
+  }
 }

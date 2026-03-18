@@ -1,46 +1,203 @@
 {
   "role": "mid",
-  "sample_size": 8,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-17T23:05:04.081989",
+  "sample_size": 12,
+  "overall_winrate_a": 41.7,
+  "updated_at": "2026-03-18T11:49:49.180569",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -9,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 35,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 228,
-      "avg_xp_diff": 279,
-      "avg_cs_diff": 11.8,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 89,
+      "avg_xp_diff": 179,
+      "avg_cs_diff": 6.0,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 388,
-      "avg_xp_diff": 311,
-      "avg_cs_diff": 24.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 247,
+      "avg_xp_diff": 371,
+      "avg_cs_diff": 14.2,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 397,
-      "avg_xp_diff": -729,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 13,
+      "avg_gold_diff": 291,
+      "avg_xp_diff": 99,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 40,
       "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1950,
+      "avg_xp_diff": 849,
+      "avg_cs_diff": 14.8,
+      "sample_frames": 48,
+      "advantage": 2
     }
   ],
   "champA": "Ahri",
-  "champB": "Taliyah"
+  "champB": "Taliyah",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3041",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Cryptbloom",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 11.8,
+      "avgDeaths": 4.5,
+      "avgAssists": 12.0,
+      "kda": 5.28,
+      "avgDamage": 44144
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3040",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3916",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3363",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 7.5,
+      "avgAssists": 11.2,
+      "kda": 2.1,
+      "avgDamage": 29780
+    }
+  }
 }

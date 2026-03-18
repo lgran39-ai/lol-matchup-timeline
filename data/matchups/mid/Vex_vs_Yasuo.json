@@ -1,55 +1,154 @@
 {
   "role": "mid",
-  "sample_size": 6,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T23:05:04.460406",
+  "sample_size": 9,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:51.000295",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -4,
-      "avg_xp_diff": 11,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 40,
+      "avg_xp_diff": 43,
+      "avg_cs_diff": 2.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -132,
-      "avg_xp_diff": -218,
-      "avg_cs_diff": -9.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 303,
+      "avg_xp_diff": 233,
+      "avg_cs_diff": 5.3,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -630,
-      "avg_xp_diff": -942,
-      "avg_cs_diff": -23.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 788,
+      "avg_xp_diff": 732,
+      "avg_cs_diff": 8.4,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2448,
-      "avg_xp_diff": -2697,
-      "avg_cs_diff": -44.1,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 1043,
+      "avg_xp_diff": 1389,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 28,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4047,
-      "avg_xp_diff": -3562,
-      "avg_cs_diff": -63.6,
-      "sample_frames": 9,
-      "advantage": -2
+      "avg_gold_diff": 18,
+      "avg_xp_diff": 752,
+      "avg_cs_diff": -63.2,
+      "sample_frames": 10,
+      "advantage": 0
     }
   ],
   "champA": "Vex",
-  "champB": "Yasuo"
+  "champB": "Yasuo",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3175",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 9.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 7.0,
+      "kda": 5.0,
+      "avgDamage": 31630
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1054",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Phantom Dancer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 7.3,
+      "avgAssists": 3.0,
+      "kda": 0.68,
+      "avgDamage": 10796
+    }
+  }
 }

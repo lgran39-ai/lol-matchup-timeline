@@ -1,46 +1,141 @@
 {
-  "champA": "Illaoi",
-  "champB": "Vayne",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-15T03:35:30.058248",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-18T11:49:50.130532",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -152,
-      "avg_xp_diff": -81,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -52,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -681,
-      "avg_xp_diff": -174,
-      "avg_cs_diff": -13.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 251,
+      "avg_xp_diff": 351,
+      "avg_cs_diff": 9.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1661,
-      "avg_xp_diff": -1440,
-      "avg_cs_diff": -22.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 437,
+      "avg_xp_diff": 540,
+      "avg_cs_diff": 23.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4167,
-      "avg_xp_diff": -2514,
-      "avg_cs_diff": -33.7,
-      "sample_frames": 11,
+      "avg_gold_diff": 925,
+      "avg_xp_diff": 828,
+      "avg_cs_diff": 32.6,
+      "sample_frames": 16,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -760,
+      "avg_xp_diff": -545,
+      "avg_cs_diff": 52.7,
+      "sample_frames": 7,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Illaoi",
+  "champB": "Vayne",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 5.5,
+      "avgDeaths": 7.5,
+      "avgAssists": 1.5,
+      "kda": 0.93,
+      "avgDamage": 17408
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Guinsoo's Rageblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3006",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.0,
+      "kda": 1.9,
+      "avgDamage": 23983
+    }
+  }
 }

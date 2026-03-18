@@ -1,55 +1,111 @@
 {
-  "champA": "Anivia",
-  "champB": "Yorick",
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-13T23:57:04.612495",
+  "sample_size": 2,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-18T11:49:49.372783",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -130,
-      "avg_xp_diff": -28,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 15,
+      "avg_gold_diff": -60,
+      "avg_xp_diff": 46,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -86,
-      "avg_xp_diff": 61,
-      "avg_cs_diff": -12.3,
-      "sample_frames": 15,
+      "avg_gold_diff": -138,
+      "avg_xp_diff": 180,
+      "avg_cs_diff": -6.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -278,
-      "avg_xp_diff": -481,
-      "avg_cs_diff": -13.6,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": 516,
+      "avg_xp_diff": 902,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -921,
-      "avg_xp_diff": -382,
-      "avg_cs_diff": -17.8,
-      "sample_frames": 27,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": 720,
+      "avg_xp_diff": 1244,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 674,
-      "avg_xp_diff": 3421,
-      "avg_cs_diff": 6.2,
+      "label": "late_game",
+      "avg_gold_diff": 880,
+      "avg_xp_diff": 2969,
+      "avg_cs_diff": -11.5,
       "sample_frames": 17,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Yorick",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 10.5,
+      "kda": 4.0,
+      "avgDamage": 27007
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Bastionbreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3009",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 2.0,
+      "avgDeaths": 8.5,
+      "avgAssists": 5.0,
+      "kda": 0.82,
+      "avgDamage": 25620
+    }
+  }
 }

@@ -1,46 +1,111 @@
 {
-  "champA": "Akali",
-  "champB": "Lissandra",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-14T02:23:06.574931",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:49.214960",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 17,
-      "avg_xp_diff": -25,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 25,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 34,
-      "avg_xp_diff": 167,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 406,
+      "avg_xp_diff": 190,
+      "avg_cs_diff": 7.8,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -27,
-      "avg_xp_diff": 619,
-      "avg_cs_diff": 20.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 854,
+      "avg_xp_diff": 683,
+      "avg_cs_diff": 22.9,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 226,
-      "avg_xp_diff": 1084,
-      "avg_cs_diff": 10.9,
-      "sample_frames": 9,
-      "advantage": 1
+      "avg_gold_diff": 2184,
+      "avg_xp_diff": 1497,
+      "avg_cs_diff": 29.0,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2478,
+      "avg_xp_diff": 1989,
+      "avg_cs_diff": 18.2,
+      "sample_frames": 20,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Akali",
+  "champB": "Lissandra",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 7.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 7.5,
+      "kda": 3.62,
+      "avgDamage": 26062
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 1.0,
+      "avgDeaths": 8.5,
+      "avgAssists": 11.0,
+      "kda": 1.41,
+      "avgDamage": 17844
+    }
+  }
 }

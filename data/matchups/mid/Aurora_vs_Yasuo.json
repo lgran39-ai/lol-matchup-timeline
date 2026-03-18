@@ -1,46 +1,203 @@
 {
   "role": "mid",
-  "sample_size": 7,
-  "overall_winrate_a": 71.4,
-  "updated_at": "2026-03-15T10:38:20.687076",
+  "sample_size": 11,
+  "overall_winrate_a": 54.5,
+  "updated_at": "2026-03-18T11:49:49.458003",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 19,
-      "avg_xp_diff": 51,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -122,
+      "avg_xp_diff": -52,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 269,
-      "avg_xp_diff": 271,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -323,
+      "avg_xp_diff": -265,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 957,
-      "avg_xp_diff": 1103,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -564,
+      "avg_xp_diff": -296,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1708,
-      "avg_xp_diff": 1468,
-      "avg_cs_diff": 13.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -856,
+      "avg_xp_diff": -1014,
+      "avg_cs_diff": -15.6,
+      "sample_frames": 35,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -674,
+      "avg_xp_diff": -1723,
+      "avg_cs_diff": -41.3,
+      "sample_frames": 19,
+      "advantage": -2
     }
   ],
   "champA": "Aurora",
-  "champB": "Yasuo"
+  "champB": "Yasuo",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item4630",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1052",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 4.2,
+      "kda": 1.62,
+      "avgDamage": 26270
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3172",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3363",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormrazor",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1055",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.8,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.8,
+      "kda": 2.88,
+      "avgDamage": 19910
+    }
+  }
 }

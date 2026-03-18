@@ -1,46 +1,77 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T22:39:50.853246",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:50.587717",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -100,
-      "avg_xp_diff": -257,
-      "avg_cs_diff": -5.6,
+      "avg_gold_diff": -244,
+      "avg_xp_diff": -213,
+      "avg_cs_diff": -2.0,
       "sample_frames": 5,
-      "advantage": 0
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -353,
-      "avg_xp_diff": -498,
-      "avg_cs_diff": -28.8,
+      "avg_gold_diff": -1358,
+      "avg_xp_diff": -1370,
+      "avg_cs_diff": -31.0,
       "sample_frames": 5,
-      "advantage": -1
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -312,
-      "avg_xp_diff": -174,
-      "avg_cs_diff": -31.8,
+      "avg_gold_diff": -2427,
+      "avg_xp_diff": -3051,
+      "avg_cs_diff": -55.0,
       "sample_frames": 5,
-      "advantage": -1
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1540,
-      "avg_xp_diff": -703,
-      "avg_cs_diff": -57.7,
-      "sample_frames": 9,
+      "avg_gold_diff": -3452,
+      "avg_xp_diff": -2820,
+      "avg_cs_diff": -64.4,
+      "sample_frames": 10,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3274,
+      "avg_xp_diff": -1653,
+      "avg_cs_diff": -45.2,
+      "sample_frames": 6,
       "advantage": -2
     }
   ],
   "champA": "Mordekaiser",
-  "champB": "Tryndamere"
+  "champB": "Tryndamere",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 5.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 2.0,
+      "kda": 0.88,
+      "avgDamage": 22355
+    },
+    "champB": {
+      "items": [],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 7.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 8.0,
+      "kda": 3.0,
+      "avgDamage": 42737
+    }
+  }
 }

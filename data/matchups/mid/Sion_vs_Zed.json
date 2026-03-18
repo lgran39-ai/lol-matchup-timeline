@@ -1,55 +1,109 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T23:05:04.434996",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-18T11:49:50.887080",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 28,
-      "avg_xp_diff": 37,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -2,
+      "avg_xp_diff": 5,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -283,
-      "avg_xp_diff": -204,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -338,
+      "avg_xp_diff": -390,
+      "avg_cs_diff": 5.0,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -253,
-      "avg_xp_diff": -265,
-      "avg_cs_diff": -11.2,
-      "sample_frames": 5,
-      "advantage": -1
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": -740,
-      "avg_xp_diff": -1078,
-      "avg_cs_diff": -20.4,
+      "avg_gold_diff": -686,
+      "avg_xp_diff": -246,
+      "avg_cs_diff": 12.4,
       "sample_frames": 10,
       "advantage": -2
     },
     {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": -1233,
-      "avg_xp_diff": -4828,
-      "avg_cs_diff": -42.7,
-      "sample_frames": 12,
-      "advantage": -2
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -2,
+      "avg_xp_diff": 215,
+      "avg_cs_diff": 9.7,
+      "sample_frames": 13,
+      "advantage": 0
     }
   ],
   "champA": "Sion",
-  "champB": "Zed"
+  "champB": "Zed",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.0,
+      "kda": 2.0,
+      "avgDamage": 10793
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1036",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 3.5,
+      "kda": 2.33,
+      "avgDamage": 16930
+    }
+  }
 }

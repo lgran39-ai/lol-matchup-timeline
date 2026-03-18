@@ -1,46 +1,153 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T22:39:50.784070",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-18T11:49:49.960588",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -215,
-      "avg_xp_diff": -179,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -57,
+      "avg_xp_diff": -47,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -667,
-      "avg_xp_diff": -336,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -389,
+      "avg_xp_diff": -107,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1011,
-      "avg_xp_diff": -593,
-      "avg_cs_diff": -22.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -556,
+      "avg_xp_diff": -309,
+      "avg_cs_diff": -16.9,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2050,
-      "avg_xp_diff": -1540,
-      "avg_cs_diff": -33.5,
-      "sample_frames": 2,
+      "avg_gold_diff": -802,
+      "avg_xp_diff": -373,
+      "avg_cs_diff": -21.6,
+      "sample_frames": 26,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 932,
+      "avg_xp_diff": 953,
+      "avg_cs_diff": -20.5,
+      "sample_frames": 13,
+      "advantage": 2
     }
   ],
   "champA": "Garen",
-  "champB": "Yasuo"
+  "champB": "Yasuo",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3174",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Phantom Dancer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1042",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 2.0,
+      "avgAssists": 5.3,
+      "kda": 5.5,
+      "avgDamage": 20216
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3172",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3123",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1018",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 3.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 3.0,
+      "kda": 1.43,
+      "avgDamage": 21198
+    }
+  }
 }

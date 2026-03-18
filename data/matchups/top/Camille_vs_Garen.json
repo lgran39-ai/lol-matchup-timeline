@@ -1,55 +1,111 @@
 {
-  "champA": "Camille",
-  "champB": "Garen",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T03:35:29.909053",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:49.548451",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 57,
-      "avg_xp_diff": 31,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -41,
+      "avg_xp_diff": -26,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 102,
-      "avg_xp_diff": 87,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 70,
+      "avg_xp_diff": 206,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 290,
-      "avg_xp_diff": -519,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
-      "advantage": 1
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": -258,
-      "avg_xp_diff": -1419,
-      "avg_cs_diff": -12.9,
+      "avg_gold_diff": -180,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": 0.6,
       "sample_frames": 10,
       "advantage": -1
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -9,
+      "avg_xp_diff": 681,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 12,
+      "advantage": 0
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 298,
-      "avg_xp_diff": -92,
-      "avg_cs_diff": 12.6,
-      "sample_frames": 7,
-      "advantage": 1
+      "avg_gold_diff": 2368,
+      "avg_xp_diff": 1814,
+      "avg_cs_diff": 28.3,
+      "sample_frames": 23,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Camille",
+  "champB": "Garen",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.0,
+      "kda": 1.73,
+      "avgDamage": 31654
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.5,
+      "kda": 1.92,
+      "avgDamage": 21720
+    }
+  }
 }

@@ -1,46 +1,111 @@
 {
-  "champA": "Darius",
-  "champB": "Malphite",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T03:35:29.926571",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:49.627768",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 374,
-      "avg_xp_diff": 246,
-      "avg_cs_diff": 8.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 64,
+      "avg_xp_diff": -48,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1115,
-      "avg_xp_diff": 508,
-      "avg_cs_diff": 27.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 228,
+      "avg_xp_diff": -443,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1820,
-      "avg_xp_diff": 1305,
-      "avg_cs_diff": 42.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 113,
+      "avg_xp_diff": -1014,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2180,
-      "avg_xp_diff": 689,
-      "avg_cs_diff": 39.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": 39,
+      "avg_xp_diff": -1538,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 20,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 20,
+      "avg_xp_diff": -521,
+      "avg_cs_diff": 24.4,
+      "sample_frames": 16,
+      "advantage": 0
     }
-  ]
+  ],
+  "champA": "Darius",
+  "champB": "Malphite",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3111",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 6.5,
+      "kda": 1.64,
+      "avgDamage": 11794
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 4.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 10.5,
+      "kda": 3.75,
+      "avgDamage": 21780
+    }
+  }
 }

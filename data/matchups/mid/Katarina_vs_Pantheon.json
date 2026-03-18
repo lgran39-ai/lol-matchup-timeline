@@ -1,46 +1,167 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T23:05:04.325775",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-18T11:49:50.345441",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 58,
-      "avg_xp_diff": 90,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 3,
+      "avg_xp_diff": 43,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 299,
-      "avg_xp_diff": 171,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 79,
+      "avg_xp_diff": 376,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 880,
-      "avg_xp_diff": -44,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 831,
+      "avg_xp_diff": 839,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 462,
-      "avg_xp_diff": -784,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 6,
-      "advantage": 2
+      "avg_gold_diff": -304,
+      "avg_xp_diff": -691,
+      "avg_cs_diff": -8.8,
+      "sample_frames": 22,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1055,
+      "avg_xp_diff": -1370,
+      "avg_cs_diff": -15.2,
+      "sample_frames": 20,
+      "advantage": -2
     }
   ],
   "champA": "Katarina",
-  "champB": "Pantheon"
+  "champB": "Pantheon",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1082",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3175",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 15.3,
+      "avgDeaths": 7.0,
+      "avgAssists": 7.7,
+      "kda": 3.29,
+      "avgDamage": 35080
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3174",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 11.0,
+      "avgDeaths": 10.0,
+      "avgAssists": 7.7,
+      "kda": 1.87,
+      "avgDamage": 34532
+    }
+  }
 }

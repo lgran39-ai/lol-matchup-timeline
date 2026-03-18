@@ -1,46 +1,227 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T23:05:04.360679",
+  "sample_size": 8,
+  "overall_winrate_a": 37.5,
+  "updated_at": "2026-03-18T11:49:50.515477",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -33,
-      "avg_xp_diff": 10,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -41,
+      "avg_xp_diff": -27,
+      "avg_cs_diff": -3.7,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -148,
-      "avg_xp_diff": 153,
-      "avg_cs_diff": -8.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -378,
+      "avg_xp_diff": -247,
+      "avg_cs_diff": -15.1,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -417,
-      "avg_xp_diff": -469,
-      "avg_cs_diff": -23.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -769,
+      "avg_xp_diff": -427,
+      "avg_cs_diff": -19.5,
+      "sample_frames": 35,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1866,
-      "avg_xp_diff": -1120,
-      "avg_cs_diff": -42.7,
-      "sample_frames": 3,
+      "avg_gold_diff": -1397,
+      "avg_xp_diff": -547,
+      "avg_cs_diff": -23.2,
+      "sample_frames": 59,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2166,
+      "avg_xp_diff": -1055,
+      "avg_cs_diff": -37.3,
+      "sample_frames": 39,
       "advantage": -2
     }
   ],
   "champA": "Malphite",
-  "champB": "Teemo"
+  "champB": "Teemo",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3364",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3111",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "name": "Malignance",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Hollow Radiance",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1056",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Kaenic Rookern",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item1033",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1001",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item2055",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 3.9,
+      "avgAssists": 6.3,
+      "kda": 2.59,
+      "avgDamage": 16508
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3363",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3147",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item2031",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3009",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3111",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.1,
+      "avgAssists": 4.7,
+      "kda": 2.08,
+      "avgDamage": 22451
+    }
+  }
 }

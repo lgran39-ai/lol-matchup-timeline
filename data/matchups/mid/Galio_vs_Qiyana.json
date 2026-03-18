@@ -1,46 +1,178 @@
 {
   "role": "mid",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T22:39:50.769322",
+  "sample_size": 8,
+  "overall_winrate_a": 62.5,
+  "updated_at": "2026-03-18T11:49:49.878274",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -4,
-      "avg_xp_diff": 52,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -95,
+      "avg_xp_diff": -34,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -138,
-      "avg_xp_diff": -186,
-      "avg_cs_diff": -5.4,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -524,
+      "avg_xp_diff": -270,
+      "avg_cs_diff": -8.8,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1273,
-      "avg_xp_diff": -1046,
-      "avg_cs_diff": -18.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -1552,
+      "avg_xp_diff": -785,
+      "avg_cs_diff": -19.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2348,
-      "avg_xp_diff": -1789,
-      "avg_cs_diff": -20.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -2134,
+      "avg_xp_diff": -655,
+      "avg_cs_diff": -24.8,
+      "sample_frames": 40,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2098,
+      "avg_xp_diff": -198,
+      "avg_cs_diff": -41.6,
+      "sample_frames": 40,
       "advantage": -2
     }
   ],
   "champA": "Galio",
-  "champB": "Qiyana"
+  "champB": "Qiyana",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3174",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1052",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Aftershock",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 5.2,
+      "avgDeaths": 7.0,
+      "avgAssists": 13.5,
+      "kda": 2.68,
+      "avgDamage": 25053
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 12.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.5,
+      "kda": 3.08,
+      "avgDamage": 35384
+    }
+  }
 }

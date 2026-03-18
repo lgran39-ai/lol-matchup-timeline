@@ -1,46 +1,191 @@
 {
   "role": "top",
-  "sample_size": 9,
-  "overall_winrate_a": 44.4,
-  "updated_at": "2026-03-17T23:05:04.314593",
+  "sample_size": 14,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:50.292697",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 67,
+      "avg_gold_diff": -115,
       "avg_xp_diff": -17,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 458,
-      "avg_xp_diff": 284,
-      "avg_cs_diff": 16.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -21,
+      "avg_xp_diff": -6,
+      "avg_cs_diff": 6.9,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1163,
-      "avg_xp_diff": 1627,
-      "avg_cs_diff": 36.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 145,
+      "avg_xp_diff": 398,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2278,
-      "avg_xp_diff": 2788,
-      "avg_cs_diff": 57.3,
-      "sample_frames": 3,
+      "avg_gold_diff": 943,
+      "avg_xp_diff": 1235,
+      "avg_cs_diff": 23.8,
+      "sample_frames": 50,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1144,
+      "avg_xp_diff": 1061,
+      "avg_cs_diff": 13.4,
+      "sample_frames": 37,
       "advantage": 2
     }
   ],
   "champA": "KSante",
-  "champB": "Sion"
+  "champB": "Sion",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3047",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3111",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1011",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1054",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item2055",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 5.8,
+      "avgDeaths": 4.6,
+      "avgAssists": 7.4,
+      "kda": 2.87,
+      "avgDamage": 31436
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3047",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1057",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3076",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 6.0,
+      "avgAssists": 8.4,
+      "kda": 1.87,
+      "avgDamage": 23825
+    }
+  }
 }

@@ -1,46 +1,172 @@
 {
   "role": "top",
-  "sample_size": 7,
-  "overall_winrate_a": 28.6,
-  "updated_at": "2026-03-17T23:05:04.252259",
+  "sample_size": 10,
+  "overall_winrate_a": 30.0,
+  "updated_at": "2026-03-18T11:49:49.977100",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -79,
-      "avg_xp_diff": -16,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": -17,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -319,
-      "avg_xp_diff": -133,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -531,
+      "avg_xp_diff": -693,
+      "avg_cs_diff": -8.7,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -816,
-      "avg_xp_diff": -1056,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -1088,
+      "avg_xp_diff": -1867,
+      "avg_cs_diff": -17.0,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -472,
-      "avg_xp_diff": -1201,
-      "avg_cs_diff": -5.1,
-      "sample_frames": 7,
+      "avg_gold_diff": -1691,
+      "avg_xp_diff": -1840,
+      "avg_cs_diff": -7.2,
+      "sample_frames": 31,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2170,
+      "avg_xp_diff": -581,
+      "avg_cs_diff": 15.0,
+      "sample_frames": 6,
       "advantage": -2
     }
   ],
   "champA": "Gnar",
-  "champB": "Sylas"
+  "champB": "Sylas",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3111",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item2031",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1043",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1055",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 3.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 3.3,
+      "kda": 1.12,
+      "avgDamage": 11244
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1052",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3020",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 9.3,
+      "avgDeaths": 4.3,
+      "avgAssists": 6.3,
+      "kda": 3.62,
+      "avgDamage": 23891
+    }
+  }
 }

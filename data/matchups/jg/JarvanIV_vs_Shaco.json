@@ -1,46 +1,179 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:38:20.842439",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-18T11:49:50.202089",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 17,
-      "avg_xp_diff": 2,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -80,
+      "avg_xp_diff": -103,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -55,
-      "avg_xp_diff": 191,
-      "avg_cs_diff": 6.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -74,
+      "avg_xp_diff": -135,
+      "avg_cs_diff": -4.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -448,
-      "avg_xp_diff": -360,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 227,
+      "avg_xp_diff": -165,
+      "avg_cs_diff": -6.4,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -120,
-      "avg_xp_diff": -172,
-      "avg_cs_diff": -8.9,
-      "sample_frames": 11,
-      "advantage": 0
+      "avg_gold_diff": -768,
+      "avg_xp_diff": -1071,
+      "avg_cs_diff": -16.8,
+      "sample_frames": 31,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1164,
+      "avg_xp_diff": -409,
+      "avg_cs_diff": 8.5,
+      "sample_frames": 20,
+      "advantage": -2
     }
   ],
   "champA": "JarvanIV",
-  "champB": "Shaco"
+  "champB": "Shaco",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1001",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item2055",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 4.8,
+      "avgAssists": 8.5,
+      "kda": 2.79,
+      "avgDamage": 11276
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item2055",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3158",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Smite+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 7.5,
+      "kda": 3.62,
+      "avgDamage": 15370
+    }
+  }
 }

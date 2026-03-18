@@ -1,46 +1,136 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:38:20.821759",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:50.067729",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -36,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -107,
+      "avg_xp_diff": -66,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -128,
-      "avg_xp_diff": 337,
-      "avg_cs_diff": 10.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -185,
+      "avg_xp_diff": -5,
+      "avg_cs_diff": -7.0,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 178,
-      "avg_xp_diff": 1065,
-      "avg_cs_diff": 21.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 316,
+      "avg_xp_diff": 922,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1156,
-      "avg_xp_diff": 3230,
-      "avg_cs_diff": 38.2,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -852,
+      "avg_xp_diff": -65,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 19,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3826,
+      "avg_xp_diff": -2617,
+      "avg_cs_diff": -28.3,
+      "sample_frames": 3,
+      "advantage": -2
     }
   ],
   "champA": "Hecarim",
-  "champB": "Khazix"
+  "champB": "Khazix",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3133",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3158",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 3.5,
+      "kda": 1.5,
+      "avgDamage": 12396
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 10.0,
+      "kda": 4.43,
+      "avgDamage": 19575
+    }
+  }
 }

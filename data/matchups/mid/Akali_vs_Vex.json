@@ -1,55 +1,124 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T22:39:50.701404",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-18T11:49:49.236672",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -37,
-      "avg_xp_diff": -76,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -74,
+      "avg_xp_diff": -90,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 33,
-      "avg_xp_diff": 298,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -259,
+      "avg_xp_diff": -213,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -746,
-      "avg_xp_diff": -225,
-      "avg_cs_diff": -8.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -585,
+      "avg_xp_diff": -408,
+      "avg_cs_diff": -7.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2419,
-      "avg_xp_diff": -1651,
-      "avg_cs_diff": -23.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 482,
+      "avg_xp_diff": 768,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 13,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3393,
-      "avg_xp_diff": -1610,
-      "avg_cs_diff": -16.1,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": 1660,
+      "avg_xp_diff": 1343,
+      "avg_cs_diff": -19.4,
+      "sample_frames": 5,
+      "advantage": 2
     }
   ],
   "champA": "Akali",
-  "champB": "Vex"
+  "champB": "Vex",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.5,
+      "kda": 1.91,
+      "avgDamage": 17078
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 4.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 6.0,
+      "kda": 2.86,
+      "avgDamage": 15827
+    }
+  }
 }

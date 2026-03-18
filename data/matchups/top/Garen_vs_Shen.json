@@ -1,46 +1,215 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T10:38:20.791810",
+  "sample_size": 8,
+  "overall_winrate_a": 37.5,
+  "updated_at": "2026-03-18T11:49:49.949548",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -218,
-      "avg_xp_diff": -36,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -21,
+      "avg_xp_diff": -37,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1154,
-      "avg_xp_diff": -370,
-      "avg_cs_diff": -26.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -9,
+      "avg_xp_diff": 41,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2108,
-      "avg_xp_diff": -1799,
-      "avg_cs_diff": -41.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 217,
+      "avg_xp_diff": 148,
+      "avg_cs_diff": 12.7,
+      "sample_frames": 35,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2514,
-      "avg_xp_diff": -2348,
-      "avg_cs_diff": -39.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 734,
+      "avg_xp_diff": -273,
+      "avg_cs_diff": 21.2,
+      "sample_frames": 68,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1057,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": 30.6,
+      "sample_frames": 31,
+      "advantage": 2
     }
   ],
   "champA": "Garen",
-  "champB": "Shen"
+  "champB": "Shen",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Phantom Dancer",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3006",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3158",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item1055",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1037",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 6.4,
+      "avgAssists": 3.0,
+      "kda": 1.29,
+      "avgDamage": 20607
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        },
+        {
+          "name": "Item1054",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3047",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3076",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.1,
+      "avgDeaths": 4.9,
+      "avgAssists": 10.0,
+      "kda": 3.12,
+      "avgDamage": 19121
+    }
+  }
 }

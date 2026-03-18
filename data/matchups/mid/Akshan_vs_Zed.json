@@ -1,46 +1,191 @@
 {
   "role": "mid",
-  "sample_size": 5,
-  "overall_winrate_a": 40.0,
-  "updated_at": "2026-03-17T23:05:04.102225",
+  "sample_size": 9,
+  "overall_winrate_a": 22.2,
+  "updated_at": "2026-03-18T11:49:49.267909",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 237,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 68,
+      "avg_xp_diff": 55,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 406,
-      "avg_xp_diff": -93,
-      "avg_cs_diff": -2.9,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 13,
+      "avg_xp_diff": -324,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 842,
-      "avg_xp_diff": 452,
-      "avg_cs_diff": 3.9,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -92,
+      "avg_xp_diff": -556,
+      "avg_cs_diff": -14.6,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1693,
-      "avg_xp_diff": 1066,
-      "avg_cs_diff": 15.0,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -43,
+      "avg_xp_diff": -941,
+      "avg_cs_diff": -15.8,
+      "sample_frames": 36,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -98,
+      "avg_xp_diff": -1236,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 33,
+      "advantage": 0
     }
   ],
   "champA": "Akshan",
-  "champB": "Zed"
+  "champB": "Zed",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3174",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1055",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3363",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item2055",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1036",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 7.8,
+      "avgAssists": 7.5,
+      "kda": 1.94,
+      "avgDamage": 25628
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1036",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 11.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 6.5,
+      "kda": 2.69,
+      "avgDamage": 30350
+    }
+  }
 }

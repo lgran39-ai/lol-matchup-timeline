@@ -1,46 +1,209 @@
 {
-  "champA": "AurelionSol",
-  "champB": "Yone",
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.682393",
+  "sample_size": 6,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:49.426696",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -56,
-      "avg_xp_diff": -66,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -85,
+      "avg_xp_diff": -46,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -718,
-      "avg_xp_diff": -821,
-      "avg_cs_diff": -16.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -414,
+      "avg_xp_diff": -370,
+      "avg_cs_diff": -7.0,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1355,
-      "avg_xp_diff": -1565,
-      "avg_cs_diff": -34.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -984,
+      "avg_xp_diff": -891,
+      "avg_cs_diff": -14.2,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -2717,
-      "avg_xp_diff": -2773,
-      "avg_cs_diff": -56.6,
-      "sample_frames": 9,
+      "label": "mid_game",
+      "avg_gold_diff": -1892,
+      "avg_xp_diff": -1571,
+      "avg_cs_diff": -28.1,
+      "sample_frames": 60,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2555,
+      "avg_xp_diff": -2119,
+      "avg_cs_diff": -44.8,
+      "sample_frames": 53,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "AurelionSol",
+  "champB": "Yone",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
+        },
+        {
+          "name": "Item3175",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3363",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3174",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item2421",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 8.0,
+      "avgAssists": 11.7,
+      "kda": 2.29,
+      "avgDamage": 28502
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3172",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 20.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 20.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        },
+        {
+          "name": "Item3364",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3133",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 9.2,
+      "avgDeaths": 8.5,
+      "avgAssists": 7.8,
+      "kda": 2.0,
+      "avgDamage": 43752
+    }
+  }
 }

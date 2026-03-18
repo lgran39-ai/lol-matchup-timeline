@@ -1,46 +1,143 @@
 {
   "role": "mid",
-  "sample_size": 6,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T23:05:04.344262",
+  "sample_size": 8,
+  "overall_winrate_a": 37.5,
+  "updated_at": "2026-03-18T11:49:50.450560",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -20,
-      "avg_xp_diff": 76,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -116,
+      "avg_xp_diff": -196,
+      "avg_cs_diff": -3.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -76,
-      "avg_xp_diff": -49,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -405,
+      "avg_xp_diff": -551,
+      "avg_cs_diff": -14.2,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 195,
-      "avg_xp_diff": 469,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -135,
+      "avg_xp_diff": -120,
+      "avg_cs_diff": -7.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -112,
-      "avg_xp_diff": -387,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 4,
-      "advantage": 0
+      "avg_gold_diff": -1059,
+      "avg_xp_diff": -929,
+      "avg_cs_diff": -23.9,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2370,
+      "avg_xp_diff": -2630,
+      "avg_cs_diff": -40.2,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "champA": "Leblanc",
-  "champB": "Zed"
+  "champB": "Zed",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 9.5,
+      "avgAssists": 4.5,
+      "kda": 1.0,
+      "avgDamage": 20804
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1036",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.5,
+      "kda": 3.0,
+      "avgDamage": 27778
+    }
+  }
 }

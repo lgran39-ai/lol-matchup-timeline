@@ -1,55 +1,191 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-15T10:38:20.942450",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:50.706257",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -131,
-      "avg_xp_diff": -28,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -63,
+      "avg_xp_diff": -73,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -713,
-      "avg_xp_diff": -769,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -472,
+      "avg_xp_diff": -176,
+      "avg_cs_diff": -12.3,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1457,
-      "avg_xp_diff": -1446,
-      "avg_cs_diff": -21.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1346,
+      "avg_xp_diff": -908,
+      "avg_cs_diff": -24.5,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2904,
-      "avg_xp_diff": -2630,
-      "avg_cs_diff": -35.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -2844,
+      "avg_xp_diff": -1247,
+      "avg_cs_diff": -37.8,
+      "sample_frames": 27,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4635,
-      "avg_xp_diff": -2795,
-      "avg_cs_diff": -57.4,
-      "sample_frames": 7,
+      "avg_gold_diff": -1692,
+      "avg_xp_diff": -661,
+      "avg_cs_diff": -31.6,
+      "sample_frames": 11,
       "advantage": -2
     }
   ],
   "champA": "Ornn",
-  "champB": "Urgot"
+  "champB": "Urgot",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3047",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Protoplasm Harness",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1029",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1028",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1054",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 1.8,
+      "avgDeaths": 3.0,
+      "avgAssists": 3.5,
+      "kda": 1.75,
+      "avgDamage": 8772
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item1055",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1083",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1028",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 3.5,
+      "avgAssists": 4.0,
+      "kda": 2.5,
+      "avgDamage": 20216
+    }
+  }
 }

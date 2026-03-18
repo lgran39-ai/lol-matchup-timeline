@@ -1,46 +1,129 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T22:39:50.744545",
+  "updated_at": "2026-03-18T11:49:49.586651",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -9,
-      "avg_xp_diff": 46,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 14,
+      "avg_xp_diff": 45,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 22,
-      "avg_xp_diff": 236,
-      "avg_cs_diff": 15.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 131,
+      "avg_xp_diff": 148,
+      "avg_cs_diff": 8.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -639,
-      "avg_xp_diff": -34,
-      "avg_cs_diff": 18.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 709,
+      "avg_xp_diff": 624,
+      "avg_cs_diff": 20.9,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1152,
-      "avg_xp_diff": -322,
-      "avg_cs_diff": 28.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 1666,
+      "avg_xp_diff": 1125,
+      "avg_cs_diff": 27.0,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1695,
+      "avg_xp_diff": 1164,
+      "avg_cs_diff": 41.4,
+      "sample_frames": 15,
+      "advantage": 2
     }
   ],
   "champA": "Chogath",
-  "champB": "Galio"
+  "champB": "Galio",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3173",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Dead Man's Plate",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1029",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 7.0,
+      "kda": 1.92,
+      "avgDamage": 27601
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 3.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 13.5,
+      "kda": 4.71,
+      "avgDamage": 18031
+    }
+  }
 }

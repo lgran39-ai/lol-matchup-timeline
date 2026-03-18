@@ -1,46 +1,143 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T22:39:50.757816",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-18T11:49:49.765056",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -75,
-      "avg_xp_diff": 13,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -164,
+      "avg_xp_diff": -129,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -799,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -536,
+      "avg_xp_diff": -279,
+      "avg_cs_diff": -13.1,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -857,
-      "avg_xp_diff": 689,
-      "avg_cs_diff": 21.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -489,
+      "avg_xp_diff": -565,
+      "avg_cs_diff": -27.9,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 54,
-      "avg_xp_diff": 2303,
-      "avg_cs_diff": 41.0,
-      "sample_frames": 7,
-      "advantage": 0
+      "avg_gold_diff": -1794,
+      "avg_xp_diff": -2065,
+      "avg_cs_diff": -48.0,
+      "sample_frames": 29,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1099,
+      "avg_xp_diff": -2528,
+      "avg_cs_diff": -54.4,
+      "sample_frames": 16,
+      "advantage": -2
     }
   ],
   "champA": "Elise",
-  "champB": "Hecarim"
+  "champB": "Hecarim",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3020",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 4.5,
+      "kda": 1.57,
+      "avgDamage": 15394
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Endless Hunger",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3158",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 9.3,
+      "kda": 3.06,
+      "avgDamage": 20827
+    }
+  }
 }

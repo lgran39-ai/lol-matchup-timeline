@@ -1,55 +1,173 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-17T23:05:04.366591",
+  "sample_size": 6,
+  "overall_winrate_a": 83.3,
+  "updated_at": "2026-03-18T11:49:50.541534",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -59,
-      "avg_xp_diff": -24,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -127,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 62,
-      "avg_xp_diff": -133,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -291,
+      "avg_xp_diff": 181,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -174,
-      "avg_xp_diff": -51,
-      "avg_cs_diff": 7.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -483,
+      "avg_xp_diff": 200,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -351,
-      "avg_xp_diff": 282,
-      "avg_cs_diff": 8.9,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -8,
+      "avg_xp_diff": 314,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 40,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 57,
-      "avg_xp_diff": 2602,
-      "avg_cs_diff": 24.4,
-      "sample_frames": 7,
-      "advantage": 0
+      "avg_gold_diff": 224,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": -3.2,
+      "sample_frames": 19,
+      "advantage": 1
     }
   ],
   "champA": "Malzahar",
-  "champB": "Yasuo"
+  "champB": "Yasuo",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3363",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3175",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 5.8,
+      "avgAssists": 10.2,
+      "kda": 2.61,
+      "avgDamage": 21624
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3140",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3172",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3363",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 6.0,
+      "kda": 1.5,
+      "avgDamage": 17203
+    }
+  }
 }

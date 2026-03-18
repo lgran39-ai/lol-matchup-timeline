@@ -1,55 +1,143 @@
 {
   "role": "top",
-  "sample_size": 5,
-  "overall_winrate_a": 40.0,
-  "updated_at": "2026-03-17T23:05:04.119545",
+  "sample_size": 8,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.311085",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 8,
-      "avg_xp_diff": 99,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -233,
+      "avg_xp_diff": -130,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 658,
-      "avg_xp_diff": 718,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -722,
+      "avg_xp_diff": -396,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1494,
-      "avg_xp_diff": 2266,
-      "avg_cs_diff": 21.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -755,
+      "avg_xp_diff": -138,
+      "avg_cs_diff": -14.3,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2204,
-      "avg_xp_diff": 2595,
-      "avg_cs_diff": 13.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -233,
+      "avg_xp_diff": -574,
+      "avg_cs_diff": -19.4,
+      "sample_frames": 23,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3162,
-      "avg_xp_diff": 4404,
-      "avg_cs_diff": 10.6,
-      "sample_frames": 7,
-      "advantage": 2
+      "avg_gold_diff": -458,
+      "avg_xp_diff": 820,
+      "avg_cs_diff": -35.5,
+      "sample_frames": 17,
+      "advantage": -2
     }
   ],
   "champA": "Ambessa",
-  "champB": "Singed"
+  "champB": "Singed",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.7,
+      "kda": 2.18,
+      "avgDamage": 29055
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dead Man's Plate",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 6.0,
+      "kda": 2.11,
+      "avgDamage": 27382
+    }
+  }
 }

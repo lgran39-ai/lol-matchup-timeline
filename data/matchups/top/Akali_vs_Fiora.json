@@ -1,46 +1,118 @@
 {
-  "champA": "Akali",
-  "champB": "Fiora",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-14T02:23:06.571288",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-18T11:49:49.202833",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 129,
-      "avg_xp_diff": 8,
+      "avg_gold_diff": -33,
+      "avg_xp_diff": -11,
       "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1027,
-      "avg_xp_diff": 669,
-      "avg_cs_diff": 18.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -213,
+      "avg_xp_diff": -355,
+      "avg_cs_diff": -11.5,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2292,
-      "avg_xp_diff": 2790,
-      "avg_cs_diff": 51.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 132,
+      "avg_xp_diff": -141,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 5203,
-      "avg_xp_diff": 7390,
-      "avg_cs_diff": 117.3,
-      "sample_frames": 7,
-      "advantage": 2
+      "avg_gold_diff": 103,
+      "avg_xp_diff": -166,
+      "avg_cs_diff": -11.6,
+      "sample_frames": 20,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -256,
+      "avg_xp_diff": -199,
+      "avg_cs_diff": -37.0,
+      "sample_frames": 20,
+      "advantage": -1
     }
-  ]
+  ],
+  "champA": "Akali",
+  "champB": "Fiora",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 6.0,
+      "kda": 2.36,
+      "avgDamage": 27395
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.0,
+      "kda": 1.45,
+      "avgDamage": 23538
+    }
+  }
 }

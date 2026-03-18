@@ -1,46 +1,179 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-17T23:05:04.325056",
+  "sample_size": 7,
+  "overall_winrate_a": 71.4,
+  "updated_at": "2026-03-18T11:49:50.341344",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -92,
-      "avg_xp_diff": -52,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 50,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -86,
-      "avg_xp_diff": -588,
-      "avg_cs_diff": -17.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 448,
+      "avg_xp_diff": -108,
+      "avg_cs_diff": -11.3,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -262,
-      "avg_xp_diff": -1239,
-      "avg_cs_diff": -22.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 483,
+      "avg_xp_diff": -107,
+      "avg_cs_diff": -19.8,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1862,
-      "avg_xp_diff": -2930,
-      "avg_cs_diff": -51.9,
-      "sample_frames": 11,
-      "advantage": -2
+      "avg_gold_diff": 1287,
+      "avg_xp_diff": 391,
+      "avg_cs_diff": -22.0,
+      "sample_frames": 28,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4425,
+      "avg_xp_diff": 3427,
+      "avg_cs_diff": -23.4,
+      "sample_frames": 17,
+      "advantage": 2
     }
   ],
   "champA": "Katarina",
-  "champB": "Malzahar"
+  "champB": "Malzahar",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3175",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 9.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.5,
+      "kda": 3.11,
+      "avgDamage": 24452
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item2031",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1026",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 5.5,
+      "kda": 1.31,
+      "avgDamage": 15462
+    }
+  }
 }

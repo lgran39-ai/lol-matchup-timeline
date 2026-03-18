@@ -1,55 +1,185 @@
 {
   "role": "jg",
-  "sample_size": 5,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:09:47.603138",
+  "sample_size": 10,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-18T11:49:50.015444",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 2,
-      "avg_xp_diff": -4,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -36,
+      "avg_xp_diff": -39,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 67,
-      "avg_xp_diff": -185,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 266,
+      "avg_xp_diff": 103,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -285,
-      "avg_xp_diff": -451,
-      "avg_cs_diff": -4.3,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 344,
+      "avg_xp_diff": 197,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 763,
-      "avg_xp_diff": 1800,
-      "avg_cs_diff": 25.7,
-      "sample_frames": 12,
+      "avg_gold_diff": 659,
+      "avg_xp_diff": 761,
+      "avg_cs_diff": 7.6,
+      "sample_frames": 45,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3614,
-      "avg_xp_diff": 5622,
-      "avg_cs_diff": 73.2,
-      "sample_frames": 6,
+      "avg_gold_diff": 549,
+      "avg_xp_diff": -97,
+      "avg_cs_diff": 4.8,
+      "sample_frames": 26,
       "advantage": 2
     }
   ],
   "champA": "Graves",
-  "champB": "MasterYi"
+  "champB": "MasterYi",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "The Collector",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Item3364",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3047",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 4.4,
+      "avgAssists": 8.6,
+      "kda": 4.0,
+      "avgDamage": 22009
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Guinsoo's Rageblade",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1036",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 7.4,
+      "avgDeaths": 4.6,
+      "avgAssists": 2.0,
+      "kda": 2.04,
+      "avgDamage": 16498
+    }
+  }
 }

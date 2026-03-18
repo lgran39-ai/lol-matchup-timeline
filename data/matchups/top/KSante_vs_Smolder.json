@@ -1,46 +1,111 @@
 {
   "role": "top",
-  "sample_size": 4,
+  "sample_size": 6,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T22:39:50.821635",
+  "updated_at": "2026-03-18T11:49:50.293568",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -212,
-      "avg_xp_diff": -57,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 57,
+      "avg_xp_diff": 50,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -448,
-      "avg_xp_diff": 78,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 288,
+      "avg_xp_diff": 254,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -349,
-      "avg_xp_diff": 252,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 1098,
+      "avg_xp_diff": 2240,
+      "avg_cs_diff": 15.2,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -229,
-      "avg_xp_diff": -110,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 71,
+      "avg_xp_diff": 1928,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 12,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3095,
+      "avg_xp_diff": -1025,
+      "avg_cs_diff": -20.0,
+      "sample_frames": 16,
+      "advantage": -2
     }
   ],
   "champA": "KSante",
-  "champB": "Smolder"
+  "champB": "Smolder",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1029",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.0,
+      "kda": 2.1,
+      "avgDamage": 24718
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 5.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 6.0,
+      "kda": 1.38,
+      "avgDamage": 34002
+    }
+  }
 }

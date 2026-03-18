@@ -1,46 +1,149 @@
 {
-  "champA": "Malphite",
-  "champB": "Udyr",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.785947",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:50.518704",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -120,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -115,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -728,
-      "avg_xp_diff": -43,
-      "avg_cs_diff": -24.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -496,
+      "avg_xp_diff": -159,
+      "avg_cs_diff": -10.2,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -973,
-      "avg_xp_diff": -337,
-      "avg_cs_diff": -33.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -993,
+      "avg_xp_diff": -721,
+      "avg_cs_diff": -19.7,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -1324,
-      "avg_xp_diff": 580,
-      "avg_cs_diff": -35.0,
-      "sample_frames": 5,
+      "label": "mid_game",
+      "avg_gold_diff": -1197,
+      "avg_xp_diff": -645,
+      "avg_cs_diff": -18.3,
+      "sample_frames": 22,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -921,
+      "avg_xp_diff": 1112,
+      "avg_cs_diff": -11.8,
+      "sample_frames": 15,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Malphite",
+  "champB": "Udyr",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 4.3,
+      "avgAssists": 5.0,
+      "kda": 2.08,
+      "avgDamage": 18343
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 4.3,
+      "avgAssists": 4.0,
+      "kda": 1.69,
+      "avgDamage": 17137
+    }
+  }
 }

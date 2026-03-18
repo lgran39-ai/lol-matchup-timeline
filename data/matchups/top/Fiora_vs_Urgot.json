@@ -1,46 +1,136 @@
 {
-  "champA": "Fiora",
-  "champB": "Urgot",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-14T02:23:06.763681",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:49.831091",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -117,
-      "avg_xp_diff": -75,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -74,
+      "avg_xp_diff": -69,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -158,
-      "avg_xp_diff": 247,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 185,
+      "avg_xp_diff": 157,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1133,
-      "avg_xp_diff": -913,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 398,
+      "avg_xp_diff": 477,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3088,
-      "avg_xp_diff": -2482,
-      "avg_cs_diff": -32.7,
-      "sample_frames": 6,
-      "advantage": -2
+      "avg_gold_diff": 1,
+      "avg_xp_diff": 596,
+      "avg_cs_diff": 24.9,
+      "sample_frames": 20,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2528,
+      "avg_xp_diff": 1864,
+      "avg_cs_diff": 39.5,
+      "sample_frames": 13,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Fiora",
+  "champB": "Urgot",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 8.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.5,
+      "kda": 2.25,
+      "avgDamage": 25170
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 9.0,
+      "avgAssists": 4.5,
+      "kda": 1.39,
+      "avgDamage": 26210
+    }
+  }
 }

@@ -1,55 +1,130 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-15T10:09:47.431842",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-18T11:49:49.222251",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -14,
-      "avg_xp_diff": -3,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 49,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -159,
-      "avg_xp_diff": -66,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -270,
+      "avg_xp_diff": -148,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 53,
-      "avg_xp_diff": 244,
-      "avg_cs_diff": 20.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -802,
+      "avg_xp_diff": 62,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -344,
-      "avg_xp_diff": 604,
-      "avg_cs_diff": 20.1,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 693,
+      "avg_xp_diff": 1556,
+      "avg_cs_diff": 45.0,
+      "sample_frames": 12,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -873,
-      "avg_xp_diff": 1474,
-      "avg_cs_diff": 20.7,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 645,
+      "avg_xp_diff": 1237,
+      "avg_cs_diff": 43.7,
+      "sample_frames": 11,
+      "advantage": 2
     }
   ],
   "champA": "Akali",
-  "champB": "Qiyana"
+  "champB": "Qiyana",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 6.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 2.5,
+      "kda": 1.5,
+      "avgDamage": 20448
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1036",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 5.5,
+      "kda": 1.79,
+      "avgDamage": 22944
+    }
+  }
 }

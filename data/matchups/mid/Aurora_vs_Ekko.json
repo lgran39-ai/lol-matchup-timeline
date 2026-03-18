@@ -1,46 +1,84 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:09:47.483580",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.432946",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 420,
-      "avg_xp_diff": 10,
-      "avg_cs_diff": 7.0,
+      "avg_gold_diff": -100,
+      "avg_xp_diff": -105,
+      "avg_cs_diff": 3.0,
       "sample_frames": 5,
-      "advantage": 2
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1113,
-      "avg_xp_diff": 159,
-      "avg_cs_diff": 13.4,
+      "avg_gold_diff": -549,
+      "avg_xp_diff": -428,
+      "avg_cs_diff": -1.8,
       "sample_frames": 5,
-      "advantage": 2
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2016,
-      "avg_xp_diff": 998,
-      "avg_cs_diff": 26.4,
+      "avg_gold_diff": -598,
+      "avg_xp_diff": -192,
+      "avg_cs_diff": -7.8,
       "sample_frames": 5,
-      "advantage": 2
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3164,
-      "avg_xp_diff": 2446,
-      "avg_cs_diff": 35.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -3013,
+      "avg_xp_diff": -2491,
+      "avg_cs_diff": -42.6,
+      "sample_frames": 10,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -5747,
+      "avg_xp_diff": -5154,
+      "avg_cs_diff": -63.7,
+      "sample_frames": 3,
+      "advantage": -2
     }
   ],
   "champA": "Aurora",
-  "champB": "Ekko"
+  "champB": "Ekko",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1052",
+          "count": 2,
+          "pickRate": 200.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 2.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 4.0,
+      "kda": 0.86,
+      "avgDamage": 17088
+    },
+    "champB": {
+      "items": [],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 11.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 2.0,
+      "kda": 6.5,
+      "avgDamage": 23529
+    }
+  }
 }

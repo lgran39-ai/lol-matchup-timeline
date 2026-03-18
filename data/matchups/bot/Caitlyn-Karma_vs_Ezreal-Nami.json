@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-17T23:05:04.560166",
+  "updated_at": "2026-03-18T11:49:51.619030",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -17,
-      "avg_xp_diff": 46,
-      "avg_cs_diff": -1.0,
+      "avg_gold_diff": -3,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 1.8,
       "sample_frames": 5,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -229,
-      "avg_xp_diff": 498,
-      "avg_cs_diff": 1.2,
+      "avg_gold_diff": 636,
+      "avg_xp_diff": 675,
+      "avg_cs_diff": 8.0,
       "sample_frames": 5,
-      "advantage": 0
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -560,
-      "avg_xp_diff": 630,
-      "avg_cs_diff": 10.8,
+      "avg_gold_diff": 1202,
+      "avg_xp_diff": 1040,
+      "avg_cs_diff": 16.0,
       "sample_frames": 5,
-      "advantage": -1
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 385,
-      "avg_xp_diff": 1776,
-      "avg_cs_diff": 27.5,
-      "sample_frames": 2,
-      "advantage": 1
+      "avg_gold_diff": 1407,
+      "avg_xp_diff": 1777,
+      "avg_cs_diff": 13.5,
+      "sample_frames": 10,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2524,
+      "avg_xp_diff": 3902,
+      "avg_cs_diff": 29.0,
+      "sample_frames": 8,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -51,5 +60,51 @@
     "sup": "Nami"
   },
   "champA": "Caitlyn+Karma",
-  "champB": "Ezreal+Nami"
+  "champB": "Ezreal+Nami",
+  "buildStats": {
+    "teamA": {
+      "adc": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 3.0,
+        "avgDeaths": 3.0,
+        "avgAssists": 6.0,
+        "kda": 3.0,
+        "avgDamage": 25406
+      },
+      "sup": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 1.0,
+        "avgDeaths": 0.0,
+        "avgAssists": 10.0,
+        "kda": 11.0,
+        "avgDamage": 10031
+      }
+    },
+    "teamB": {
+      "adc": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 1.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 1.0,
+        "kda": 0.5,
+        "avgDamage": 21128
+      },
+      "sup": {
+        "items": [],
+        "keystones": [],
+        "summonerSpells": [],
+        "avgKills": 1.0,
+        "avgDeaths": 2.0,
+        "avgAssists": 8.0,
+        "kda": 4.5,
+        "avgDamage": 5594
+      }
+    }
+  }
 }

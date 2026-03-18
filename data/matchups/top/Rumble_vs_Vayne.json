@@ -1,55 +1,161 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-17T23:05:04.416995",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:50.801955",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 165,
-      "avg_xp_diff": 133,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -67,
+      "avg_xp_diff": -7,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 886,
-      "avg_xp_diff": 327,
-      "avg_cs_diff": 19.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 123,
+      "avg_xp_diff": 253,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1757,
-      "avg_xp_diff": 1535,
-      "avg_cs_diff": 41.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 435,
+      "avg_xp_diff": 687,
+      "avg_cs_diff": 9.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2893,
-      "avg_xp_diff": 2385,
-      "avg_cs_diff": 52.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 755,
+      "avg_xp_diff": 1092,
+      "avg_cs_diff": 13.8,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4543,
-      "avg_xp_diff": 4062,
-      "avg_cs_diff": 48.8,
-      "sample_frames": 8,
-      "advantage": 2
+      "avg_gold_diff": -156,
+      "avg_xp_diff": 1118,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 32,
+      "advantage": -1
     }
   ],
   "champA": "Rumble",
-  "champB": "Vayne"
+  "champB": "Vayne",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 11.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 8.3,
+      "kda": 3.11,
+      "avgDamage": 43013
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3006",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1043",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 10.3,
+      "avgAssists": 2.3,
+      "kda": 0.87,
+      "avgDamage": 26325
+    }
+  }
 }

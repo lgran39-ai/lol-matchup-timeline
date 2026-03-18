@@ -1,46 +1,129 @@
 {
   "role": "jg",
-  "sample_size": 6,
-  "overall_winrate_a": 83.3,
-  "updated_at": "2026-03-15T10:38:20.899723",
+  "sample_size": 8,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-18T11:49:50.484290",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 55,
-      "avg_xp_diff": 112,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 25,
+      "avg_xp_diff": 32,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 367,
-      "avg_xp_diff": 626,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 330,
+      "avg_xp_diff": 305,
+      "avg_cs_diff": 10.8,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 355,
-      "avg_xp_diff": 933,
-      "avg_cs_diff": 23.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 780,
+      "avg_xp_diff": 310,
+      "avg_cs_diff": 16.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1130,
-      "avg_xp_diff": 2336,
-      "avg_cs_diff": 34.0,
-      "sample_frames": 2,
+      "avg_gold_diff": 2136,
+      "avg_xp_diff": 1461,
+      "avg_cs_diff": 33.6,
+      "sample_frames": 21,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -610,
+      "avg_xp_diff": -609,
+      "avg_cs_diff": 27.0,
+      "sample_frames": 2,
+      "advantage": -2
     }
   ],
   "champA": "Lillia",
-  "champB": "Zaahen"
+  "champB": "Zaahen",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 10.5,
+      "kda": 3.6,
+      "avgDamage": 25594
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1028",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 6.5,
+      "avgAssists": 6.5,
+      "kda": 1.69,
+      "avgDamage": 14914
+    }
+  }
 }

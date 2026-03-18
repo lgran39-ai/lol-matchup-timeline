@@ -1,55 +1,185 @@
 {
-  "champA": "Anivia",
-  "champB": "Galio",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-15T03:35:29.827547",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-18T11:49:49.345536",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 195,
-      "avg_xp_diff": 184,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 46,
+      "avg_xp_diff": 14,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 834,
-      "avg_xp_diff": 741,
-      "avg_cs_diff": 20.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 187,
+      "avg_xp_diff": 144,
+      "avg_cs_diff": 5.5,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 822,
-      "avg_xp_diff": 897,
-      "avg_cs_diff": 29.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 303,
+      "avg_xp_diff": 249,
+      "avg_cs_diff": 8.0,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1123,
-      "avg_xp_diff": 370,
-      "avg_cs_diff": 36.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 722,
+      "avg_xp_diff": 668,
+      "avg_cs_diff": 11.7,
+      "sample_frames": 37,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1385,
-      "avg_xp_diff": -1039,
-      "avg_cs_diff": 36.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1563,
+      "avg_xp_diff": 2697,
+      "avg_cs_diff": 18.3,
+      "sample_frames": 18,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Galio",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Item3175",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1056",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3040",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 10.0,
+      "kda": 3.11,
+      "avgDamage": 18518
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Item3340",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1056",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item2508",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3147",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Aftershock",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 4.8,
+      "avgAssists": 8.8,
+      "kda": 2.37,
+      "avgDamage": 15742
+    }
+  }
 }

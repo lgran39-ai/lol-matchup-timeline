@@ -1,55 +1,161 @@
 {
-  "champA": "Naafiri",
-  "champB": "Xerath",
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:05.876573",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-18T11:49:50.616744",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 210,
-      "avg_xp_diff": 66,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 41,
+      "avg_xp_diff": -6,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 556,
-      "avg_xp_diff": -95,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 88,
+      "avg_xp_diff": -296,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 754,
-      "avg_xp_diff": -266,
-      "avg_cs_diff": -1.5,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -524,
+      "avg_xp_diff": -1190,
+      "avg_cs_diff": -8.5,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1367,
-      "avg_xp_diff": 486,
-      "avg_cs_diff": 2.3,
-      "sample_frames": 19,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": -507,
+      "avg_xp_diff": -2237,
+      "avg_cs_diff": -24.5,
+      "sample_frames": 22,
+      "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 3417,
-      "avg_xp_diff": 3962,
-      "avg_cs_diff": 25.2,
-      "sample_frames": 5,
+      "label": "late_game",
+      "avg_gold_diff": 454,
+      "avg_xp_diff": -1286,
+      "avg_cs_diff": -15.6,
+      "sample_frames": 22,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Naafiri",
+  "champB": "Xerath",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3171",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 7.3,
+      "avgAssists": 6.3,
+      "kda": 1.91,
+      "avgDamage": 25409
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3363",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1026",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Horizon Focus",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.7,
+      "avgDeaths": 4.0,
+      "avgAssists": 6.7,
+      "kda": 4.08,
+      "avgDamage": 27525
+    }
+  }
 }

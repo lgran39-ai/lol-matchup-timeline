@@ -1,46 +1,155 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-15T10:09:47.680293",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:50.409844",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -48,
-      "avg_xp_diff": -285,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 37,
+      "avg_xp_diff": -63,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 68,
-      "avg_xp_diff": -271,
-      "avg_cs_diff": -6.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -343,
+      "avg_xp_diff": -406,
+      "avg_cs_diff": -7.0,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1320,
-      "avg_xp_diff": 962,
-      "avg_cs_diff": 10.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -520,
+      "avg_xp_diff": -938,
+      "avg_cs_diff": -21.9,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2356,
-      "avg_xp_diff": 1802,
-      "avg_cs_diff": 18.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -536,
+      "avg_xp_diff": -865,
+      "avg_cs_diff": -22.8,
+      "sample_frames": 22,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -757,
+      "avg_xp_diff": -973,
+      "avg_cs_diff": -18.2,
+      "sample_frames": 16,
+      "advantage": -2
     }
   ],
   "champA": "Khazix",
-  "champB": "Zyra"
+  "champB": "Zyra",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3158",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 5.7,
+      "avgAssists": 3.7,
+      "kda": 1.29,
+      "avgDamage": 12608
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3020",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item1082",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 9.3,
+      "kda": 4.08,
+      "avgDamage": 18583
+    }
+  }
 }

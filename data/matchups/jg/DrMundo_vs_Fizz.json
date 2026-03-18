@@ -1,46 +1,167 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-15T10:38:20.728823",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-18T11:49:49.684247",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -46,
-      "avg_xp_diff": 71,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -68,
+      "avg_xp_diff": 69,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -400,
-      "avg_xp_diff": 379,
-      "avg_cs_diff": 9.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 194,
+      "avg_xp_diff": 343,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -424,
-      "avg_xp_diff": 545,
-      "avg_cs_diff": 14.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 375,
+      "avg_xp_diff": 533,
+      "avg_cs_diff": 20.6,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -564,
-      "avg_xp_diff": 424,
-      "avg_cs_diff": 19.0,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": 886,
+      "avg_xp_diff": 1653,
+      "avg_cs_diff": 39.0,
+      "sample_frames": 30,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2153,
+      "avg_xp_diff": 2579,
+      "avg_cs_diff": 43.4,
+      "sample_frames": 18,
+      "advantage": 2
     }
   ],
   "champA": "DrMundo",
-  "champB": "Fizz"
+  "champB": "Fizz",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Spirit Visage",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Dead Man's Plate",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Heartsteel",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3009",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.3,
+      "avgDeaths": 1.7,
+      "avgAssists": 14.0,
+      "kda": 13.4,
+      "avgDamage": 32970
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3020",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 9.0,
+      "avgAssists": 3.0,
+      "kda": 1.11,
+      "avgDamage": 21895
+    }
+  }
 }

@@ -1,14 +1,14 @@
 {
   "role": "jg",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-17T22:39:50.833805",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:50.398619",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 0,
-      "avg_xp_diff": -28,
+      "avg_gold_diff": -6,
+      "avg_xp_diff": -20,
       "avg_cs_diff": -0.4,
       "sample_frames": 10,
       "advantage": 0
@@ -16,8 +16,8 @@
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 185,
-      "avg_xp_diff": -85,
+      "avg_gold_diff": 184,
+      "avg_xp_diff": 78,
       "avg_cs_diff": -0.5,
       "sample_frames": 10,
       "advantage": 1
@@ -25,31 +25,94 @@
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 29,
-      "avg_xp_diff": -325,
-      "avg_cs_diff": -1.7,
+      "avg_gold_diff": 926,
+      "avg_xp_diff": 495,
+      "avg_cs_diff": -1.9,
       "sample_frames": 10,
-      "advantage": 0
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1509,
-      "avg_xp_diff": 455,
-      "avg_cs_diff": 10.9,
-      "sample_frames": 15,
+      "avg_gold_diff": 2571,
+      "avg_xp_diff": 1729,
+      "avg_cs_diff": 15.4,
+      "sample_frames": 16,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1920,
-      "avg_xp_diff": 57,
-      "avg_cs_diff": 46.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 5416,
+      "avg_xp_diff": 5078,
+      "avg_cs_diff": 54.9,
+      "sample_frames": 9,
       "advantage": 2
     }
   ],
   "champA": "Khazix",
-  "champB": "Nocturne"
+  "champB": "Nocturne",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.5,
+      "kda": 5.17,
+      "avgDamage": 28083
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.5,
+      "kda": 1.58,
+      "avgDamage": 14024
+    }
+  }
 }

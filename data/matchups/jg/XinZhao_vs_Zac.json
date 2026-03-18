@@ -1,46 +1,149 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-17T23:05:04.467673",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:51.035136",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 48,
-      "avg_xp_diff": -38,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 2,
+      "avg_xp_diff": -52,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -318,
-      "avg_xp_diff": -296,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 69,
+      "avg_xp_diff": -222,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -957,
-      "avg_xp_diff": -559,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -204,
+      "avg_xp_diff": -677,
+      "avg_cs_diff": -5.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -122,
-      "avg_xp_diff": 624,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 8,
-      "advantage": 0
+      "avg_gold_diff": -855,
+      "avg_xp_diff": -1509,
+      "avg_cs_diff": -12.6,
+      "sample_frames": 23,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1416,
+      "avg_xp_diff": -692,
+      "avg_cs_diff": -24.8,
+      "sample_frames": 4,
+      "advantage": -2
     }
   ],
   "champA": "XinZhao",
-  "champB": "Zac"
+  "champB": "Zac",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item1036",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item2055",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.3,
+      "avgAssists": 6.3,
+      "kda": 1.63,
+      "avgDamage": 13528
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Aftershock",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 4.0,
+      "avgAssists": 9.7,
+      "kda": 3.58,
+      "avgDamage": 16340
+    }
+  }
 }

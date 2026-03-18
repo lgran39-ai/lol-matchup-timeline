@@ -1,55 +1,122 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-17T22:39:50.738128",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-18T11:49:49.527585",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 32,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 42,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 550,
-      "avg_xp_diff": -369,
-      "avg_cs_diff": -8.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 578,
+      "avg_xp_diff": 432,
+      "avg_cs_diff": 4.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -462,
-      "avg_xp_diff": -1119,
-      "avg_cs_diff": -19.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 672,
+      "avg_xp_diff": 1123,
+      "avg_cs_diff": 13.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -584,
-      "avg_xp_diff": -738,
-      "avg_cs_diff": -27.3,
-      "sample_frames": 10,
-      "advantage": -2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": -2663,
-      "avg_xp_diff": -2008,
-      "avg_cs_diff": -45.6,
-      "sample_frames": 12,
-      "advantage": -2
+      "avg_gold_diff": 350,
+      "avg_xp_diff": 1866,
+      "avg_cs_diff": 14.2,
+      "sample_frames": 20,
+      "advantage": 1
     }
   ],
   "champA": "Briar",
-  "champB": "Jayce"
+  "champB": "Jayce",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 1.0,
+      "avgAssists": 3.0,
+      "kda": 12.0,
+      "avgDamage": 15090
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 2.0,
+      "kda": 0.92,
+      "avgDamage": 16885
+    }
+  }
 }

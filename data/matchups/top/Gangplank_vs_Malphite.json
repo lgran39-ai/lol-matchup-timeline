@@ -1,55 +1,154 @@
 {
   "role": "top",
-  "sample_size": 10,
-  "overall_winrate_a": 60.0,
-  "updated_at": "2026-03-17T23:05:04.235930",
+  "sample_size": 13,
+  "overall_winrate_a": 61.5,
+  "updated_at": "2026-03-18T11:49:49.908554",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 74,
-      "avg_xp_diff": -8,
-      "avg_cs_diff": 4.0,
+      "avg_gold_diff": 66,
+      "avg_xp_diff": -12,
+      "avg_cs_diff": 4.3,
       "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 247,
-      "avg_xp_diff": 7,
-      "avg_cs_diff": 12.4,
+      "avg_gold_diff": -139,
+      "avg_xp_diff": -195,
+      "avg_cs_diff": 13.2,
       "sample_frames": 15,
-      "advantage": 1
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 302,
-      "avg_xp_diff": -392,
-      "avg_cs_diff": 18.2,
+      "avg_gold_diff": -629,
+      "avg_xp_diff": -1258,
+      "avg_cs_diff": 4.5,
       "sample_frames": 15,
-      "advantage": 1
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 380,
-      "avg_xp_diff": -1105,
-      "avg_cs_diff": 25.1,
+      "avg_gold_diff": -242,
+      "avg_xp_diff": -1077,
+      "avg_cs_diff": 4.6,
       "sample_frames": 30,
-      "advantage": 1
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1153,
-      "avg_xp_diff": -132,
-      "avg_cs_diff": 42.2,
-      "sample_frames": 6,
+      "avg_gold_diff": 475,
+      "avg_xp_diff": -542,
+      "avg_cs_diff": 17.4,
+      "sample_frames": 14,
       "advantage": 2
     }
   ],
   "champA": "Gangplank",
-  "champB": "Malphite"
+  "champB": "Malphite",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Item1018",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 9.3,
+      "kda": 2.05,
+      "avgDamage": 21008
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3020",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item1058",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 5.7,
+      "avgAssists": 3.7,
+      "kda": 2.0,
+      "avgDamage": 24326
+    }
+  }
 }

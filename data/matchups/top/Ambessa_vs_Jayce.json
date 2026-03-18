@@ -1,46 +1,154 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 75.0,
-  "updated_at": "2026-03-17T23:05:04.110269",
+  "sample_size": 7,
+  "overall_winrate_a": 57.1,
+  "updated_at": "2026-03-18T11:49:49.288939",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 30,
-      "avg_xp_diff": -8,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -78,
+      "avg_xp_diff": -79,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 543,
-      "avg_xp_diff": 249,
-      "avg_cs_diff": 23.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -148,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": -12.8,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1336,
-      "avg_xp_diff": 1219,
-      "avg_cs_diff": 22.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -95,
+      "avg_xp_diff": 196,
+      "avg_cs_diff": -18.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2158,
-      "avg_xp_diff": 2327,
-      "avg_cs_diff": 34.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -883,
+      "avg_xp_diff": 142,
+      "avg_cs_diff": -20.4,
+      "sample_frames": 30,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1278,
+      "avg_xp_diff": 155,
+      "avg_cs_diff": -18.2,
+      "sample_frames": 54,
+      "advantage": -2
     }
   ],
   "champA": "Ambessa",
-  "champB": "Jayce"
+  "champB": "Jayce",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3047",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 7.3,
+      "avgAssists": 11.7,
+      "kda": 2.45,
+      "avgDamage": 33313
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3042",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3363",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.7,
+      "avgDeaths": 8.7,
+      "avgAssists": 9.3,
+      "kda": 2.19,
+      "avgDamage": 45643
+    }
+  }
 }

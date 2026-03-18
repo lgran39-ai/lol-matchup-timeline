@@ -1,55 +1,116 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-17T23:05:04.244918",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-18T11:49:49.948311",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -219,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -128,
+      "avg_xp_diff": -158,
+      "avg_cs_diff": -5.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1102,
-      "avg_xp_diff": -943,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -658,
+      "avg_xp_diff": -816,
+      "avg_cs_diff": -18.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1490,
-      "avg_xp_diff": -2606,
-      "avg_cs_diff": -16.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1443,
+      "avg_xp_diff": -1859,
+      "avg_cs_diff": -26.9,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -821,
-      "avg_xp_diff": -2462,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -2791,
+      "avg_xp_diff": -3274,
+      "avg_cs_diff": -35.2,
+      "sample_frames": 18,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 872,
-      "avg_xp_diff": 53,
-      "avg_cs_diff": 23.7,
+      "avg_gold_diff": -7216,
+      "avg_xp_diff": -5007,
+      "avg_cs_diff": -52.3,
       "sample_frames": 3,
-      "advantage": 2
+      "advantage": -2
     }
   ],
   "champA": "Garen",
-  "champB": "Rumble"
+  "champB": "Rumble",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item3009",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 3.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 3.0,
+      "kda": 0.92,
+      "avgDamage": 8600
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Item3020",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Item3340",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.0,
+      "kda": 2.75,
+      "avgDamage": 30975
+    }
+  }
 }

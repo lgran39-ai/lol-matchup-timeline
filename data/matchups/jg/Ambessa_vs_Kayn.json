@@ -1,46 +1,155 @@
 {
   "role": "jg",
-  "sample_size": 5,
-  "overall_winrate_a": 60.0,
-  "updated_at": "2026-03-17T22:39:50.713514",
+  "sample_size": 8,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-18T11:49:49.291446",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 162,
-      "avg_xp_diff": 132,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -236,
+      "avg_xp_diff": -65,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 168,
-      "avg_xp_diff": 408,
-      "avg_cs_diff": 9.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -768,
+      "avg_xp_diff": -308,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1057,
-      "avg_xp_diff": 948,
-      "avg_cs_diff": 24.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -789,
+      "avg_xp_diff": -144,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3709,
-      "avg_xp_diff": 4264,
-      "avg_cs_diff": 78.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -1582,
+      "avg_xp_diff": -579,
+      "avg_cs_diff": 6.9,
+      "sample_frames": 25,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2422,
+      "avg_xp_diff": -989,
+      "avg_cs_diff": 12.8,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "champA": "Ambessa",
-  "champB": "Kayn"
+  "champB": "Kayn",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Axiom Arc",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item3364",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Item1001",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 5.7,
+      "kda": 1.88,
+      "avgDamage": 15921
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Serpent's Fang",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Item1001",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Item3364",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 8.3,
+      "avgDeaths": 2.0,
+      "avgAssists": 6.7,
+      "kda": 7.5,
+      "avgDamage": 17244
+    }
+  }
 }
