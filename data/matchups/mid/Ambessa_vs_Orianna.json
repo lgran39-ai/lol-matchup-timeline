@@ -1,55 +1,215 @@
 {
-  "champA": "Ambessa",
-  "champB": "Orianna",
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.547290",
+  "sample_size": 10,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.233036",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 42,
-      "avg_xp_diff": -30,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -20,
+      "avg_xp_diff": 21,
+      "avg_cs_diff": -1.3,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -106,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -117,
+      "avg_xp_diff": 102,
+      "avg_cs_diff": -6.3,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -264,
-      "avg_xp_diff": -169,
-      "avg_cs_diff": -12.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -388,
+      "avg_xp_diff": -154,
+      "avg_cs_diff": -13.4,
+      "sample_frames": 50,
       "advantage": -1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -221,
-      "avg_xp_diff": -213,
-      "avg_cs_diff": -30.4,
-      "sample_frames": 20,
-      "advantage": -1
+      "label": "mid_game",
+      "avg_gold_diff": -581,
+      "avg_xp_diff": -655,
+      "avg_cs_diff": -27.7,
+      "sample_frames": 94,
+      "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -2652,
-      "avg_xp_diff": -2170,
-      "avg_cs_diff": -73.7,
-      "sample_frames": 27,
+      "label": "late_game",
+      "avg_gold_diff": -2182,
+      "avg_xp_diff": -1824,
+      "avg_cs_diff": -61.2,
+      "sample_frames": 56,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Ambessa",
+  "champB": "Orianna",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Chainlaced Crushers",
+          "count": 7,
+          "pickRate": 70.0,
+          "winRate": 57.1
+        },
+        {
+          "name": "Eclipse",
+          "count": 6,
+          "pickRate": 60.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 37.5
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 70.0,
+          "winRate": 42.9
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 6.9,
+      "avgAssists": 6.1,
+      "kda": 1.68,
+      "avgDamage": 20953
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 6,
+          "pickRate": 60.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 6,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Summon Aery",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 44.4
+        }
+      ],
+      "avgKills": 6.6,
+      "avgDeaths": 4.6,
+      "avgAssists": 11.9,
+      "kda": 4.02,
+      "avgDamage": 29104
+    }
+  }
 }

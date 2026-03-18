@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.548799",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.191989",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 210,
+      "avg_gold_diff": -60,
       "avg_xp_diff": 13,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
-      "advantage": 1
-    },
-    {
-      "phase": "5-10min",
-      "label": "Lv4-6",
-      "avg_gold_diff": 184,
-      "avg_xp_diff": -270,
-      "avg_cs_diff": -8.4,
-      "sample_frames": 5,
-      "advantage": 1
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": -231,
-      "avg_xp_diff": -940,
-      "avg_cs_diff": -15.2,
-      "sample_frames": 5,
-      "advantage": -1
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": -136,
-      "avg_xp_diff": -485,
-      "avg_cs_diff": -34.9,
+      "avg_cs_diff": 0.1,
       "sample_frames": 10,
       "advantage": 0
     },
     {
+      "phase": "5-10min",
+      "label": "Lv4-6",
+      "avg_gold_diff": -23,
+      "avg_xp_diff": 206,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 10,
+      "advantage": 0
+    },
+    {
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": 65,
+      "avg_xp_diff": 386,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 10,
+      "advantage": 0
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -382,
+      "avg_xp_diff": 999,
+      "avg_cs_diff": -9.6,
+      "sample_frames": 17,
+      "advantage": -1
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1048,
-      "avg_xp_diff": 506,
-      "avg_cs_diff": -38.2,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -2618,
+      "avg_xp_diff": -310,
+      "avg_cs_diff": -10.8,
+      "sample_frames": 8,
+      "advantage": -2
     }
   ],
   "champA": "Pantheon",
@@ -57,23 +57,28 @@
       "items": [],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 15.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 10.0,
-      "kda": 3.57,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgKills": 7.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.5,
+      "kda": 2.08,
+      "avgDamage": 24860
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 12.0,
-      "avgAssists": 4.0,
-      "kda": 1.33,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 7.5,
+      "avgAssists": 3.5,
+      "kda": 1.2,
+      "avgDamage": 16980
     }
   }
 }

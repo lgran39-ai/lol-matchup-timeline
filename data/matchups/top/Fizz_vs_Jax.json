@@ -1,55 +1,124 @@
 {
-  "champA": "Fizz",
-  "champB": "Jax",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.154292",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:39.001297",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 255,
-      "avg_xp_diff": 175,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 109,
+      "avg_xp_diff": 107,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 723,
-      "avg_xp_diff": 550,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 442,
+      "avg_xp_diff": 449,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 622,
-      "avg_xp_diff": 505,
-      "avg_cs_diff": 7.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 541,
+      "avg_xp_diff": 268,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": 350,
-      "avg_cs_diff": 14.3,
-      "sample_frames": 10,
-      "advantage": 0
+      "label": "mid_game",
+      "avg_gold_diff": 594,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": -15.1,
+      "sample_frames": 30,
+      "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 375,
-      "avg_xp_diff": 908,
-      "avg_cs_diff": 13.7,
-      "sample_frames": 3,
-      "advantage": 1
+      "label": "late_game",
+      "avg_gold_diff": -66,
+      "avg_xp_diff": -1059,
+      "avg_cs_diff": -43.4,
+      "sample_frames": 11,
+      "advantage": 0
     }
-  ]
+  ],
+  "champA": "Fizz",
+  "champB": "Jax",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Teleport+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.0,
+      "kda": 2.58,
+      "avgDamage": 23102
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 3.0,
+      "kda": 1.75,
+      "avgDamage": 17553
+    }
+  }
 }

@@ -1,55 +1,185 @@
 {
-  "champA": "Aurora",
-  "champB": "Jax",
   "role": "top",
-  "sample_size": 6,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-13T23:57:04.694014",
+  "sample_size": 10,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:38.425181",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 65,
-      "avg_xp_diff": 61,
-      "avg_cs_diff": 1.5,
-      "sample_frames": 30,
+      "avg_gold_diff": 94,
+      "avg_xp_diff": 66,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 334,
-      "avg_xp_diff": 383,
-      "avg_cs_diff": 11.3,
-      "sample_frames": 30,
+      "avg_gold_diff": 246,
+      "avg_xp_diff": 112,
+      "avg_cs_diff": 10.7,
+      "sample_frames": 50,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 417,
-      "avg_xp_diff": 734,
-      "avg_cs_diff": 15.3,
-      "sample_frames": 30,
+      "avg_gold_diff": 523,
+      "avg_xp_diff": 456,
+      "avg_cs_diff": 18.8,
+      "sample_frames": 50,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 204,
-      "avg_xp_diff": 656,
-      "avg_cs_diff": 13.8,
-      "sample_frames": 60,
-      "advantage": 1
+      "label": "mid_game",
+      "avg_gold_diff": 518,
+      "avg_xp_diff": 601,
+      "avg_cs_diff": 21.4,
+      "sample_frames": 95,
+      "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -1322,
-      "avg_xp_diff": -905,
-      "avg_cs_diff": -10.1,
-      "sample_frames": 30,
-      "advantage": -2
+      "label": "late_game",
+      "avg_gold_diff": 394,
+      "avg_xp_diff": 178,
+      "avg_cs_diff": 14.1,
+      "sample_frames": 52,
+      "advantage": 1
     }
-  ]
+  ],
+  "champA": "Aurora",
+  "champB": "Jax",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 6,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 10,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 37.5
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 5.2,
+      "avgAssists": 6.5,
+      "kda": 2.21,
+      "avgDamage": 27444
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 55.6
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 70.0,
+          "winRate": 42.9
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.9,
+      "kda": 1.78,
+      "avgDamage": 19098
+    }
+  }
 }

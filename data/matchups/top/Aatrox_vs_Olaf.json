@@ -1,77 +1,179 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:23.791142",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:37.971305",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -93,
-      "avg_xp_diff": 136,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 92,
+      "avg_xp_diff": 102,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -86,
-      "avg_xp_diff": 353,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 492,
+      "avg_xp_diff": 512,
+      "avg_cs_diff": 17.4,
+      "sample_frames": 30,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 375,
-      "avg_xp_diff": 1090,
-      "avg_cs_diff": 14.3,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 527,
+      "avg_xp_diff": 759,
+      "avg_cs_diff": 23.7,
+      "sample_frames": 30,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1250,
-      "avg_xp_diff": -1595,
-      "avg_cs_diff": -9.9,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": 788,
+      "avg_xp_diff": 938,
+      "avg_cs_diff": 23.4,
+      "sample_frames": 55,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3660,
-      "avg_xp_diff": -4285,
-      "avg_cs_diff": -24.7,
-      "sample_frames": 6,
-      "advantage": -2
+      "avg_gold_diff": 28,
+      "avg_xp_diff": 235,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 46,
+      "advantage": 0
     }
   ],
   "champA": "Aatrox",
   "champB": "Olaf",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 3.0,
-      "kda": 0.75,
-      "avgDamage": 15372
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Endless Hunger",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 6.3,
+      "kda": 1.97,
+      "avgDamage": 23343
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 3.67,
-      "avgDamage": 18606
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.2,
+      "avgAssists": 7.0,
+      "kda": 2.23,
+      "avgDamage": 24814
     }
   }
 }

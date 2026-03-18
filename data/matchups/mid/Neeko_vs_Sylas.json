@@ -1,79 +1,173 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:25.460983",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-19T03:29:40.052445",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 122,
-      "avg_xp_diff": 58,
-      "avg_cs_diff": 2.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -15,
+      "avg_xp_diff": -39,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 615,
-      "avg_xp_diff": 234,
-      "avg_cs_diff": 14.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -42,
+      "avg_xp_diff": -59,
+      "avg_cs_diff": 7.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 810,
-      "avg_xp_diff": 576,
-      "avg_cs_diff": 25.1,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -217,
+      "avg_xp_diff": -271,
+      "avg_cs_diff": 5.5,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 375,
-      "avg_xp_diff": 342,
-      "avg_cs_diff": 24.3,
-      "sample_frames": 21,
-      "advantage": 1
+      "avg_gold_diff": -807,
+      "avg_xp_diff": -868,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 36,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -352,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": 11.3,
-      "sample_frames": 3,
-      "advantage": -1
+      "avg_gold_diff": -2251,
+      "avg_xp_diff": -2306,
+      "avg_cs_diff": -23.0,
+      "sample_frames": 17,
+      "advantage": -2
     }
   ],
   "champA": "Neeko",
   "champB": "Sylas",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.5,
-      "kda": 3.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.4,
+      "avgDeaths": 6.2,
+      "avgAssists": 7.0,
+      "kda": 1.68,
+      "avgDamage": 20290
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 0.5,
-      "kda": 1.11,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.4,
+      "avgDeaths": 4.0,
+      "avgAssists": 6.8,
+      "kda": 3.8,
+      "avgDamage": 24368
     }
   }
 }

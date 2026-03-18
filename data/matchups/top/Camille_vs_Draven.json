@@ -1,55 +1,111 @@
 {
-  "champA": "Camille",
-  "champB": "Draven",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.835018",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.578268",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -122,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -153,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -319,
-      "avg_xp_diff": -138,
-      "avg_cs_diff": -15.8,
-      "sample_frames": 5,
-      "advantage": -1
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": -626,
-      "avg_xp_diff": 260,
-      "avg_cs_diff": -18.4,
-      "sample_frames": 5,
-      "advantage": -2
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -507,
-      "avg_xp_diff": 486,
-      "avg_cs_diff": -27.1,
+      "avg_gold_diff": -444,
+      "avg_xp_diff": -118,
+      "avg_cs_diff": -14.7,
       "sample_frames": 10,
       "advantage": -2
     },
     {
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": -790,
+      "avg_xp_diff": 84,
+      "avg_cs_diff": -17.2,
+      "sample_frames": 10,
+      "advantage": -2
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -1506,
+      "avg_xp_diff": -246,
+      "avg_cs_diff": -20.6,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -956,
-      "avg_xp_diff": 492,
-      "avg_cs_diff": -40.8,
-      "sample_frames": 4,
+      "label": "late_game",
+      "avg_gold_diff": -2337,
+      "avg_xp_diff": -490,
+      "avg_cs_diff": -23.3,
+      "sample_frames": 7,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Camille",
+  "champB": "Draven",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 6.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.5,
+      "kda": 2.3,
+      "avgDamage": 15742
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Bloodthirster",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 9.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.0,
+      "kda": 2.33,
+      "avgDamage": 25836
+    }
+  }
 }

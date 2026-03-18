@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.990204",
+  "sample_size": 9,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:39.456093",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 16,
-      "avg_xp_diff": 66,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -78,
+      "avg_xp_diff": -11,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 45,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 108,
-      "avg_xp_diff": 257,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -231,
+      "avg_xp_diff": -6,
+      "avg_cs_diff": -3.8,
+      "sample_frames": 45,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -165,
-      "avg_xp_diff": -257,
-      "avg_cs_diff": 2.7,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -149,
+      "avg_xp_diff": 291,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 45,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1198,
-      "avg_xp_diff": -1531,
-      "avg_cs_diff": -8.5,
-      "sample_frames": 20,
+      "avg_gold_diff": -502,
+      "avg_xp_diff": -244,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 86,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1970,
-      "avg_xp_diff": -1939,
-      "avg_cs_diff": -33.9,
-      "sample_frames": 36,
+      "avg_gold_diff": -546,
+      "avg_xp_diff": -80,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 46,
       "advantage": -2
     }
   ],
@@ -54,24 +54,126 @@
   "champB": "Urgot",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 2.0,
-      "kda": 0.83,
-      "avgDamage": 21879
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 25.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 5,
+          "pickRate": 55.6,
+          "winRate": 20.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 33.3,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 55.6,
+          "winRate": 20.0
+        },
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 33.3,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 2.9,
+      "avgDeaths": 4.6,
+      "avgAssists": 3.8,
+      "kda": 1.46,
+      "avgDamage": 16546
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 5.5,
-      "avgDamage": 19067
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 62.5
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 7,
+          "pickRate": 77.8,
+          "winRate": 57.1
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 3,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 66.7,
+          "winRate": 83.3
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 33.3,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 4.0,
+      "avgAssists": 3.8,
+      "kda": 2.78,
+      "avgDamage": 23498
     }
   }
 }

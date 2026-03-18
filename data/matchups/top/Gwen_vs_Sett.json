@@ -1,79 +1,143 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.820859",
+  "sample_size": 6,
+  "overall_winrate_a": 83.3,
+  "updated_at": "2026-03-19T03:29:39.252041",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -127,
-      "avg_xp_diff": -100,
-      "avg_cs_diff": -5.1,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -184,
+      "avg_xp_diff": -78,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -220,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": -13.0,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -525,
+      "avg_xp_diff": -179,
+      "avg_cs_diff": -5.9,
+      "sample_frames": 30,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -920,
-      "avg_xp_diff": -928,
-      "avg_cs_diff": -19.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -469,
+      "avg_xp_diff": -404,
+      "avg_cs_diff": -10.7,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1174,
-      "avg_xp_diff": -49,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 17,
+      "avg_gold_diff": -1308,
+      "avg_xp_diff": -1061,
+      "avg_cs_diff": -18.8,
+      "sample_frames": 40,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2696,
-      "avg_xp_diff": 4594,
-      "avg_cs_diff": 25.2,
-      "sample_frames": 6,
-      "advantage": 2
+      "avg_gold_diff": -3315,
+      "avg_xp_diff": -2036,
+      "avg_cs_diff": -15.6,
+      "sample_frames": 13,
+      "advantage": -2
     }
   ],
   "champA": "Gwen",
   "champB": "Sett",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 2.0,
-      "kda": 1.67,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 83.3
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 83.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.5,
+      "kda": 1.37,
+      "avgDamage": 18448
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 0.5,
-      "kda": 1.36,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 16.7
+        },
+        {
+          "name": "Overlord's Bloodmail",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Warmog's Armor",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 16.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 4.8,
+      "avgAssists": 2.2,
+      "kda": 1.48,
+      "avgDamage": 21494
     }
   }
 }

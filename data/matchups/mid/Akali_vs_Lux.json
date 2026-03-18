@@ -1,77 +1,143 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:23.890423",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-19T03:29:38.091946",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 1,
-      "avg_xp_diff": 24,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 61,
+      "avg_xp_diff": 1,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 328,
-      "avg_xp_diff": 315,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 159,
+      "avg_xp_diff": -57,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 771,
-      "avg_xp_diff": 1072,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 251,
+      "avg_xp_diff": -279,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1504,
-      "avg_xp_diff": 2294,
-      "avg_cs_diff": 14.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -280,
+      "avg_xp_diff": -1240,
+      "avg_cs_diff": -7.8,
+      "sample_frames": 36,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4821,
-      "avg_xp_diff": 4390,
-      "avg_cs_diff": 31.6,
-      "sample_frames": 8,
-      "advantage": 2
+      "avg_gold_diff": -1238,
+      "avg_xp_diff": -1447,
+      "avg_cs_diff": 12.5,
+      "sample_frames": 14,
+      "advantage": -2
     }
   ],
   "champA": "Akali",
   "champB": "Lux",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 20.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 5.5,
-      "avgDamage": 36227
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.8,
+      "avgDeaths": 8.2,
+      "avgAssists": 4.8,
+      "kda": 1.27,
+      "avgDamage": 19625
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 8.0,
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 6.2,
       "avgAssists": 9.0,
-      "kda": 2.25,
-      "avgDamage": 20645
+      "kda": 2.72,
+      "avgDamage": 22387
     }
   }
 }

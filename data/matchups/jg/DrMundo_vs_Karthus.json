@@ -1,53 +1,44 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-18T14:05:24.432940",
+  "sample_size": 2,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T03:29:38.789384",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 4,
-      "avg_xp_diff": -25,
-      "avg_cs_diff": -0.7,
-      "sample_frames": 15,
+      "avg_gold_diff": -45,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 132,
-      "avg_xp_diff": -68,
-      "avg_cs_diff": -3.3,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -794,
+      "avg_xp_diff": 52,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -338,
-      "avg_xp_diff": -525,
-      "avg_cs_diff": -12.7,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": -538,
+      "avg_xp_diff": 178,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1487,
-      "avg_xp_diff": -1772,
-      "avg_cs_diff": -28.9,
-      "sample_frames": 30,
-      "advantage": -2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": -2043,
-      "avg_xp_diff": -2057,
-      "avg_cs_diff": -30.3,
-      "sample_frames": 21,
-      "advantage": -2
+      "avg_gold_diff": -72,
+      "avg_xp_diff": 1283,
+      "avg_cs_diff": 8.5,
+      "sample_frames": 13,
+      "advantage": 0
     }
   ],
   "champA": "DrMundo",
@@ -55,23 +46,51 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 11.0,
-      "kda": 1.71,
-      "avgDamage": 29151
+      "avgKills": 5.5,
+      "avgDeaths": 2.0,
+      "avgAssists": 9.5,
+      "kda": 7.5,
+      "avgDamage": 12894
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.0,
       "avgDeaths": 6.0,
-      "avgAssists": 23.0,
-      "kda": 5.0,
-      "avgDamage": 40417
+      "avgAssists": 4.5,
+      "kda": 1.58,
+      "avgDamage": 25186
     }
   }
 }

@@ -1,46 +1,125 @@
 {
-  "champA": "Maokai",
-  "champB": "Yasuo",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.812459",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:39.950488",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 80,
-      "avg_xp_diff": 2,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -73,
+      "avg_xp_diff": -57,
+      "avg_cs_diff": -4.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 569,
-      "avg_xp_diff": 593,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -383,
+      "avg_xp_diff": -194,
+      "avg_cs_diff": -17.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1193,
-      "avg_xp_diff": 1680,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -391,
+      "avg_xp_diff": 55,
+      "avg_cs_diff": -24.9,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2058,
-      "avg_xp_diff": 3096,
-      "avg_cs_diff": 13.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": -1254,
+      "avg_xp_diff": -197,
+      "avg_cs_diff": -53.0,
+      "sample_frames": 22,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1518,
+      "avg_xp_diff": -756,
+      "avg_cs_diff": -78.8,
+      "sample_frames": 10,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Maokai",
+  "champB": "Yasuo",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 8.7,
+      "kda": 4.6,
+      "avgDamage": 16857
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 5.3,
+      "kda": 1.37,
+      "avgDamage": 26243
+    }
+  }
 }

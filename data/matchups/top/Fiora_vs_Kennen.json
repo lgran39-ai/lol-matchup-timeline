@@ -1,98 +1,221 @@
 {
   "role": "top",
-  "sample_size": 7,
-  "overall_winrate_a": 42.9,
-  "updated_at": "2026-03-18T14:05:24.573835",
+  "sample_size": 27,
+  "overall_winrate_a": 40.7,
+  "updated_at": "2026-03-19T03:29:38.964619",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -11,
-      "avg_xp_diff": -66,
-      "avg_cs_diff": -0.1,
-      "sample_frames": 35,
+      "avg_gold_diff": -59,
+      "avg_xp_diff": -31,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 135,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -145,
-      "avg_xp_diff": -335,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 35,
-      "advantage": 0
+      "avg_gold_diff": -246,
+      "avg_xp_diff": -146,
+      "avg_cs_diff": -7.0,
+      "sample_frames": 135,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -613,
-      "avg_xp_diff": -1209,
-      "avg_cs_diff": -16.7,
-      "sample_frames": 35,
+      "avg_gold_diff": -547,
+      "avg_xp_diff": -666,
+      "avg_cs_diff": -15.4,
+      "sample_frames": 135,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -931,
-      "avg_xp_diff": -1978,
-      "avg_cs_diff": -16.1,
-      "sample_frames": 54,
+      "avg_gold_diff": -929,
+      "avg_xp_diff": -1130,
+      "avg_cs_diff": -20.3,
+      "sample_frames": 216,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2615,
-      "avg_xp_diff": 600,
-      "avg_cs_diff": 24.9,
-      "sample_frames": 52,
-      "advantage": 2
+      "avg_gold_diff": 25,
+      "avg_xp_diff": -950,
+      "avg_cs_diff": -15.0,
+      "sample_frames": 65,
+      "advantage": 0
     }
   ],
   "champA": "Fiora",
   "champB": "Kennen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Teleport",
+          "name": "Ravenous Hydra",
+          "count": 23,
+          "pickRate": 85.2,
+          "winRate": 34.8
+        },
+        {
+          "name": "Trinity Force",
+          "count": 13,
+          "pickRate": 48.1,
+          "winRate": 38.5
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 4,
+          "pickRate": 14.8,
+          "winRate": 75.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 4,
+          "pickRate": 14.8,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 9,
+          "pickRate": 33.3,
+          "winRate": 55.6
+        },
+        {
+          "name": "Press the Attack",
+          "count": 8,
+          "pickRate": 29.6,
+          "winRate": 37.5
+        },
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 18.5,
+          "winRate": 40.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 11.1,
+          "winRate": 33.3
+        },
+        {
+          "name": "Conqueror",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 7.4,
           "winRate": 0.0
         }
       ],
-      "avgKills": 0.5,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 0.3,
-      "avgDamage": 4032
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 20,
+          "pickRate": 74.1,
+          "winRate": 40.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 5.4,
+      "avgAssists": 2.8,
+      "kda": 1.22,
+      "avgDamage": 13535
     },
     "champB": {
       "items": [
         {
           "name": "Hextech Gunblade",
+          "count": 17,
+          "pickRate": 63.0,
+          "winRate": 52.9
+        },
+        {
+          "name": "Shadowflame",
+          "count": 13,
+          "pickRate": 48.1,
+          "winRate": 46.2
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 10,
+          "pickRate": 37.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 14.8,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 11.1,
+          "winRate": 100.0
+        },
+        {
+          "name": "Kraken Slayer",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 7.4,
           "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 20,
+          "pickRate": 74.1,
+          "winRate": 60.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 11.1,
+          "winRate": 33.3
+        },
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 7.4,
+          "winRate": 100.0
+        },
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 7.4,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
+          "spells": "Flash+Teleport",
+          "count": 15,
+          "pickRate": 55.6,
+          "winRate": 60.0
+        },
+        {
           "spells": "Flash+Ignite",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 11,
+          "pickRate": 40.7,
+          "winRate": 54.5
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.0,
-      "kda": 2.75,
-      "avgDamage": 12656
+      "avgKills": 4.6,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.8,
+      "kda": 1.68,
+      "avgDamage": 20249
     }
   }
 }

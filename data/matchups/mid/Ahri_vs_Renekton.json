@@ -1,77 +1,137 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:23.847306",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.032748",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 94,
-      "avg_xp_diff": 37,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 92,
+      "avg_xp_diff": 83,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -7,
-      "avg_xp_diff": -104,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -217,
+      "avg_xp_diff": -141,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 716,
-      "avg_xp_diff": 848,
-      "avg_cs_diff": 29.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -656,
+      "avg_xp_diff": -619,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 459,
-      "avg_xp_diff": 678,
-      "avg_cs_diff": 33.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -832,
+      "avg_xp_diff": -855,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 526,
-      "avg_xp_diff": 461,
-      "avg_cs_diff": 24.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -102,
+      "avg_xp_diff": 510,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 8,
+      "advantage": 0
     }
   ],
   "champA": "Ahri",
   "champB": "Renekton",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.5,
       "avgDeaths": 5.0,
-      "avgAssists": 7.0,
-      "kda": 3.0,
-      "avgDamage": 28225
+      "avgAssists": 2.5,
+      "kda": 2.0,
+      "avgDamage": 30834
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 1.0,
-      "kda": 1.33,
-      "avgDamage": 22997
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 8.0,
+      "kda": 3.43,
+      "avgDamage": 15322
     }
   }
 }

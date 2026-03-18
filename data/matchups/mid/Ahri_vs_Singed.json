@@ -1,79 +1,131 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:23.851459",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.037058",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 307,
-      "avg_xp_diff": 283,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 26,
+      "avg_xp_diff": 72,
+      "avg_cs_diff": 4.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1410,
-      "avg_xp_diff": 1539,
-      "avg_cs_diff": 40.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 1,
+      "avg_xp_diff": 226,
+      "avg_cs_diff": 10.8,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1771,
-      "avg_xp_diff": 1469,
-      "avg_cs_diff": 48.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 248,
+      "avg_xp_diff": 578,
+      "avg_cs_diff": 18.9,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1515,
-      "avg_xp_diff": 608,
-      "avg_cs_diff": 42.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 1084,
+      "avg_xp_diff": 1240,
+      "avg_cs_diff": 30.4,
+      "sample_frames": 22,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": -1811,
-      "avg_cs_diff": 9.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 442,
+      "avg_xp_diff": 1112,
+      "avg_cs_diff": 16.5,
+      "sample_frames": 6,
+      "advantage": 2
     }
   ],
   "champA": "Ahri",
   "champB": "Singed",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 2.25,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 2.7,
+      "avgAssists": 7.3,
+      "kda": 5.38,
+      "avgDamage": 19339
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 10.0,
-      "kda": 2.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.7,
+      "kda": 1.47,
+      "avgDamage": 10892
     }
   }
 }

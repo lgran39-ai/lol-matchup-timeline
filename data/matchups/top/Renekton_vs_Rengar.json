@@ -1,46 +1,179 @@
 {
-  "champA": "Renekton",
-  "champB": "Rengar",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:06.135185",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-19T03:29:40.299177",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -355,
-      "avg_xp_diff": -286,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 17,
+      "avg_xp_diff": 55,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -922,
-      "avg_xp_diff": -675,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 315,
+      "avg_xp_diff": 486,
+      "avg_cs_diff": 16.5,
+      "sample_frames": 35,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1290,
-      "avg_xp_diff": -580,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 761,
+      "avg_xp_diff": 1148,
+      "avg_cs_diff": 30.6,
+      "sample_frames": 35,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -720,
-      "avg_xp_diff": -42,
-      "avg_cs_diff": 21.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": 1055,
+      "avg_xp_diff": 1732,
+      "avg_cs_diff": 40.6,
+      "sample_frames": 49,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 321,
+      "avg_xp_diff": 1328,
+      "avg_cs_diff": 21.5,
+      "sample_frames": 31,
+      "advantage": 1
     }
-  ]
+  ],
+  "champA": "Renekton",
+  "champB": "Rengar",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.6,
+      "avgDeaths": 4.9,
+      "avgAssists": 5.6,
+      "kda": 1.88,
+      "avgDamage": 20133
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 6.1,
+      "kda": 1.65,
+      "avgDamage": 19597
+    }
+  }
 }

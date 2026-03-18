@@ -1,55 +1,119 @@
 {
-  "champA": "Aurora",
-  "champB": "Rengar",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.708261",
+  "updated_at": "2026-03-19T03:29:38.454150",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 242,
-      "avg_xp_diff": 75,
-      "avg_cs_diff": 6.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -23,
+      "avg_xp_diff": -34,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 671,
-      "avg_xp_diff": 718,
-      "avg_cs_diff": 25.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -205,
+      "avg_xp_diff": 62,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 271,
-      "avg_xp_diff": 1289,
-      "avg_cs_diff": 25.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -1013,
+      "avg_xp_diff": -782,
+      "avg_cs_diff": -8.2,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 997,
-      "avg_xp_diff": 2972,
-      "avg_cs_diff": 49.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": -1750,
+      "avg_xp_diff": -728,
+      "avg_cs_diff": -9.2,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 1623,
-      "avg_xp_diff": 5559,
-      "avg_cs_diff": 52.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "label": "late_game",
+      "avg_gold_diff": -2407,
+      "avg_xp_diff": -174,
+      "avg_cs_diff": -31.5,
+      "sample_frames": 12,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Aurora",
+  "champB": "Rengar",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 8.0,
+      "kda": 1.62,
+      "avgDamage": 21267
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 7.0,
+      "kda": 1.71,
+      "avgDamage": 27380
+    }
+  }
 }

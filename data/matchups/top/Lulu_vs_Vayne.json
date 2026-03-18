@@ -1,46 +1,96 @@
 {
-  "champA": "Lulu",
-  "champB": "Vayne",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.763686",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:39.880261",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 93,
-      "avg_xp_diff": 129,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 94,
+      "avg_xp_diff": 102,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 838,
-      "avg_xp_diff": 711,
-      "avg_cs_diff": 14.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 601,
+      "avg_xp_diff": 612,
+      "avg_cs_diff": 7.6,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1073,
-      "avg_xp_diff": 873,
-      "avg_cs_diff": 25.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 803,
+      "avg_xp_diff": 913,
+      "avg_cs_diff": 11.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 188,
-      "avg_xp_diff": -158,
-      "avg_cs_diff": 14.5,
-      "sample_frames": 2,
-      "advantage": 1
+      "label": "mid_game",
+      "avg_gold_diff": 1718,
+      "avg_xp_diff": 1804,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 18,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Lulu",
+  "champB": "Vayne",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 4.3,
+      "kda": 2.7,
+      "avgDamage": 12423
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 2.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 2.0,
+      "kda": 0.8,
+      "avgDamage": 8044
+    }
+  }
 }

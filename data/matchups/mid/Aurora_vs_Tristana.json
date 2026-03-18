@@ -1,79 +1,197 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.155703",
+  "sample_size": 7,
+  "overall_winrate_a": 71.4,
+  "updated_at": "2026-03-19T03:29:38.467277",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -158,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 8,
+      "avg_xp_diff": 35,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -961,
-      "avg_xp_diff": -387,
-      "avg_cs_diff": -11.1,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 189,
+      "avg_xp_diff": 424,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 35,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1502,
-      "avg_xp_diff": -555,
-      "avg_cs_diff": -21.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 867,
+      "avg_xp_diff": 1132,
+      "avg_cs_diff": 12.7,
+      "sample_frames": 35,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2417,
-      "avg_xp_diff": -775,
-      "avg_cs_diff": -22.5,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": 1584,
+      "avg_xp_diff": 2068,
+      "avg_cs_diff": 18.7,
+      "sample_frames": 47,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -5139,
-      "avg_xp_diff": -1990,
-      "avg_cs_diff": -19.4,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": 3056,
+      "avg_xp_diff": 2683,
+      "avg_cs_diff": 25.5,
+      "sample_frames": 18,
+      "advantage": 2
     }
   ],
   "champA": "Aurora",
   "champB": "Tristana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.5,
-      "kda": 1.7,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 83.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 71.4
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 4.3,
+      "avgAssists": 6.3,
+      "kda": 3.57,
+      "avgDamage": 26259
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.5,
-      "kda": 4.17,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Infinity Edge",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hexoptics C44",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "The Collector",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Navori Flickerblade",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 20.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.4,
+      "avgDeaths": 7.6,
+      "avgAssists": 4.0,
+      "kda": 0.98,
+      "avgDamage": 14284
     }
   }
 }

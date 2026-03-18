@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:27.639775",
+  "sample_size": 10,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:44.141283",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 88,
-      "avg_xp_diff": -7,
-      "avg_cs_diff": -0.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 41,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 396,
-      "avg_xp_diff": 73,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 201,
+      "avg_xp_diff": 230,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 50,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1055,
-      "avg_xp_diff": 490,
-      "avg_cs_diff": 0.9,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 3,
+      "avg_xp_diff": 94,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 50,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1378,
-      "avg_xp_diff": 1392,
-      "avg_cs_diff": 7.7,
-      "sample_frames": 17,
-      "advantage": 2
+      "avg_gold_diff": -715,
+      "avg_xp_diff": -177,
+      "avg_cs_diff": -12.1,
+      "sample_frames": 83,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 8912,
-      "avg_xp_diff": 7249,
-      "avg_cs_diff": 49.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -1485,
+      "avg_xp_diff": -307,
+      "avg_cs_diff": -21.3,
+      "sample_frames": 54,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,244 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 3.0,
-        "kda": 0.62,
-        "avgDamage": 17553
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 8,
+            "pickRate": 80.0,
+            "winRate": 25.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 5,
+            "pickRate": 50.0,
+            "winRate": 40.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 4,
+            "pickRate": 40.0,
+            "winRate": 25.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 4,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 3,
+            "pickRate": 30.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 20.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Stormrazor",
+            "count": 2,
+            "pickRate": 20.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Mortal Reminder",
+            "count": 2,
+            "pickRate": 20.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 6,
+            "pickRate": 60.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "First Strike",
+            "count": 3,
+            "pickRate": 30.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 8,
+            "pickRate": 80.0,
+            "winRate": 37.5
+          }
+        ],
+        "avgKills": 6.3,
+        "avgDeaths": 6.4,
+        "avgAssists": 7.0,
+        "kda": 2.08,
+        "avgDamage": 26252
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 4.0,
-        "kda": 0.75,
-        "avgDamage": 7850
+        "items": [
+          {
+            "name": "Imperial Mandate",
+            "count": 10,
+            "pickRate": 100.0,
+            "winRate": 40.0
+          },
+          {
+            "name": "Echoes of Helia",
+            "count": 4,
+            "pickRate": 40.0,
+            "winRate": 25.0
+          },
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 20.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 20.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Redemption",
+            "count": 2,
+            "pickRate": 20.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 10,
+            "pickRate": 100.0,
+            "winRate": 40.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 10,
+            "pickRate": 100.0,
+            "winRate": 40.0
+          }
+        ],
+        "avgKills": 2.1,
+        "avgDeaths": 5.7,
+        "avgAssists": 16.0,
+        "kda": 3.18,
+        "avgDamage": 10902
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 10.0,
-        "kda": 5.67,
-        "avgDamage": 21147
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 10,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 9,
+            "pickRate": 90.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 5,
+            "pickRate": 50.0,
+            "winRate": 60.0
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 3,
+            "pickRate": 30.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Mortal Reminder",
+            "count": 2,
+            "pickRate": 20.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 10,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 10,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          }
+        ],
+        "avgKills": 7.4,
+        "avgDeaths": 6.2,
+        "avgAssists": 7.6,
+        "kda": 2.42,
+        "avgDamage": 29032
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 18.0,
-        "kda": 10.5,
-        "avgDamage": 8002
+        "items": [
+          {
+            "name": "Ardent Censer",
+            "count": 9,
+            "pickRate": 90.0,
+            "winRate": 55.6
+          },
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 5,
+            "pickRate": 50.0,
+            "winRate": 80.0
+          },
+          {
+            "name": "Redemption",
+            "count": 4,
+            "pickRate": 40.0,
+            "winRate": 75.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 4,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 10,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 10,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          }
+        ],
+        "avgKills": 2.1,
+        "avgDeaths": 4.4,
+        "avgAssists": 16.7,
+        "kda": 4.27,
+        "avgDamage": 9704
       }
     }
   }

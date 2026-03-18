@@ -1,75 +1,185 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-18T14:05:24.475709",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-19T03:29:38.837620",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 42,
-      "avg_xp_diff": -21,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 15,
+      "avg_gold_diff": 70,
+      "avg_xp_diff": 21,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 277,
-      "avg_xp_diff": 58,
-      "avg_cs_diff": 9.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 202,
+      "avg_xp_diff": 85,
+      "avg_cs_diff": 6.1,
+      "sample_frames": 35,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 690,
-      "avg_xp_diff": 39,
-      "avg_cs_diff": 12.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 619,
+      "avg_xp_diff": 594,
+      "avg_cs_diff": 14.3,
+      "sample_frames": 35,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -385,
-      "avg_xp_diff": -1269,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 13,
-      "advantage": -1
+      "avg_gold_diff": 1212,
+      "avg_xp_diff": 824,
+      "avg_cs_diff": 21.8,
+      "sample_frames": 59,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1999,
+      "avg_xp_diff": 761,
+      "avg_cs_diff": 33.6,
+      "sample_frames": 26,
+      "advantage": 2
     }
   ],
   "champA": "Ekko",
   "champB": "Katarina",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 3.5,
-      "kda": 1.56,
-      "avgDamage": 13754
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 20.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 28.6,
           "winRate": 50.0
         }
       ],
-      "avgKills": 6.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 3.5,
-      "avgDamage": 16720
+      "avgKills": 7.1,
+      "avgDeaths": 4.0,
+      "avgAssists": 7.1,
+      "kda": 3.57,
+      "avgDamage": 20371
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 4.7,
+      "avgAssists": 5.4,
+      "kda": 2.7,
+      "avgDamage": 20409
     }
   }
 }

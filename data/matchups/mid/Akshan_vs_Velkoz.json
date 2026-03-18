@@ -1,55 +1,130 @@
 {
-  "champA": "Akshan",
-  "champB": "Velkoz",
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.494385",
+  "updated_at": "2026-03-19T03:29:38.163541",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -70,
-      "avg_xp_diff": -114,
-      "avg_cs_diff": -0.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 17,
+      "avg_xp_diff": -44,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 412,
-      "avg_xp_diff": 307,
-      "avg_cs_diff": 7.0,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 369,
+      "avg_xp_diff": 171,
+      "avg_cs_diff": 5.4,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1641,
-      "avg_xp_diff": 1140,
-      "avg_cs_diff": 18.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 903,
+      "avg_xp_diff": 403,
+      "avg_cs_diff": 10.3,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 3926,
-      "avg_xp_diff": 2702,
-      "avg_cs_diff": 28.5,
-      "sample_frames": 12,
+      "label": "mid_game",
+      "avg_gold_diff": 2397,
+      "avg_xp_diff": 1354,
+      "avg_cs_diff": 14.8,
+      "sample_frames": 22,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 6857,
-      "avg_xp_diff": 6198,
-      "avg_cs_diff": 48.3,
-      "sample_frames": 6,
+      "label": "late_game",
+      "avg_gold_diff": 4512,
+      "avg_xp_diff": 4023,
+      "avg_cs_diff": 34.2,
+      "sample_frames": 10,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Akshan",
+  "champB": "Velkoz",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Stormrazor",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Statikk Shiv",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 11.0,
+      "avgDeaths": 3.7,
+      "avgAssists": 6.7,
+      "kda": 4.82,
+      "avgDamage": 24428
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 7.7,
+      "avgAssists": 3.3,
+      "kda": 1.09,
+      "avgDamage": 16900
+    }
+  }
 }

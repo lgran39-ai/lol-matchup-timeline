@@ -1,55 +1,112 @@
 {
-  "champA": "Kindred",
-  "champB": "Maokai",
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.652561",
+  "updated_at": "2026-03-19T03:29:39.730100",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -12,
-      "avg_xp_diff": 131,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -39,
+      "avg_xp_diff": 60,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -33,
-      "avg_xp_diff": 336,
-      "avg_cs_diff": 6.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -72,
+      "avg_xp_diff": 215,
+      "avg_cs_diff": 5.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -61,
-      "avg_xp_diff": 594,
-      "avg_cs_diff": 14.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 241,
+      "avg_xp_diff": 529,
+      "avg_cs_diff": 8.5,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -91,
-      "avg_xp_diff": -137,
-      "avg_cs_diff": 16.5,
-      "sample_frames": 10,
-      "advantage": 0
+      "label": "mid_game",
+      "avg_gold_diff": 863,
+      "avg_xp_diff": 34,
+      "avg_cs_diff": 15.2,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": 70,
       "avg_xp_diff": -710,
       "avg_cs_diff": 28.8,
       "sample_frames": 6,
       "advantage": 0
     }
-  ]
+  ],
+  "champA": "Kindred",
+  "champB": "Maokai",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 7.5,
+      "avgAssists": 7.0,
+      "kda": 1.67,
+      "avgDamage": 18319
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 15.0,
+      "kda": 6.6,
+      "avgDamage": 16300
+    }
+  }
 }

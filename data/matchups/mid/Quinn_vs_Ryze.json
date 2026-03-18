@@ -1,46 +1,125 @@
 {
-  "champA": "Quinn",
-  "champB": "Ryze",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:06.102781",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.268637",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 411,
-      "avg_xp_diff": -131,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 172,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1085,
-      "avg_xp_diff": 14,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 337,
+      "avg_xp_diff": -266,
+      "avg_cs_diff": -7.6,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1644,
-      "avg_xp_diff": -341,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 311,
+      "avg_xp_diff": -855,
+      "avg_cs_diff": -15.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2705,
-      "avg_xp_diff": -237,
-      "avg_cs_diff": -13.8,
+      "label": "mid_game",
+      "avg_gold_diff": -142,
+      "avg_xp_diff": -1759,
+      "avg_cs_diff": -29.7,
+      "sample_frames": 16,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4024,
+      "avg_xp_diff": -5364,
+      "avg_cs_diff": -66.2,
       "sample_frames": 6,
-      "advantage": 2
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Quinn",
+  "champB": "Ryze",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.5,
+      "kda": 2.9,
+      "avgDamage": 20120
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 6.5,
+      "kda": 5.4,
+      "avgDamage": 21664
+    }
+  }
 }

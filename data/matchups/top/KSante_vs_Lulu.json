@@ -1,46 +1,143 @@
 {
-  "champA": "KSante",
-  "champB": "Lulu",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.506577",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-19T03:29:39.548229",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -263,
-      "avg_xp_diff": -120,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -131,
+      "avg_xp_diff": -21,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -609,
-      "avg_xp_diff": -273,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -162,
+      "avg_xp_diff": 202,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -397,
-      "avg_xp_diff": 108,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 359,
+      "avg_xp_diff": 947,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 413,
-      "avg_xp_diff": 899,
-      "avg_cs_diff": 8.2,
-      "sample_frames": 6,
+      "label": "mid_game",
+      "avg_gold_diff": 940,
+      "avg_xp_diff": 1278,
+      "avg_cs_diff": 15.1,
+      "sample_frames": 46,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1354,
+      "avg_xp_diff": 1953,
+      "avg_cs_diff": 25.5,
+      "sample_frames": 34,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "KSante",
+  "champB": "Lulu",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Kaenic Rookern",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 3.8,
+      "avgDeaths": 3.8,
+      "avgAssists": 7.6,
+      "kda": 3.0,
+      "avgDamage": 15018
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Redemption",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Bandlepipes",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 5.0,
+      "avgAssists": 9.6,
+      "kda": 2.48,
+      "avgDamage": 17731
+    }
+  }
 }

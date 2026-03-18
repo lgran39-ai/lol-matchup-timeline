@@ -1,51 +1,51 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.542952",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.917904",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -300,
-      "avg_xp_diff": -210,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -162,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": -5.9,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1133,
-      "avg_xp_diff": -682,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -607,
+      "avg_xp_diff": -447,
+      "avg_cs_diff": -21.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2563,
-      "avg_xp_diff": -1966,
-      "avg_cs_diff": -29.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1254,
+      "avg_xp_diff": -1234,
+      "avg_cs_diff": -32.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4778,
-      "avg_xp_diff": -1695,
-      "avg_cs_diff": -33.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -3239,
+      "avg_xp_diff": -2560,
+      "avg_cs_diff": -47.9,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -8187,
-      "avg_xp_diff": -996,
-      "avg_cs_diff": -34.5,
+      "avg_gold_diff": -5725,
+      "avg_xp_diff": -3201,
+      "avg_cs_diff": -69.0,
       "sample_frames": 10,
       "advantage": -2
     }
@@ -54,26 +54,71 @@
   "champB": "Jax",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 7.0,
+      "avgKills": 3.5,
+      "avgDeaths": 8.5,
       "avgAssists": 7.0,
-      "kda": 2.14,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "kda": 1.24,
+      "avgDamage": 22185
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 16.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.0,
-      "kda": 3.17,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 7.0,
+      "kda": 3.44,
+      "avgDamage": 26018
     }
   }
 }

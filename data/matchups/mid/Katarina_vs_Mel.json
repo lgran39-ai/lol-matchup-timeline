@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.118229",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T03:29:39.631375",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 87,
-      "avg_xp_diff": 83,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -14,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -195,
-      "avg_xp_diff": -172,
-      "avg_cs_diff": -18.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -232,
+      "avg_xp_diff": -148,
+      "avg_cs_diff": -13.8,
+      "sample_frames": 25,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1187,
-      "avg_xp_diff": -1252,
-      "avg_cs_diff": -41.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -136,
+      "avg_xp_diff": 165,
+      "avg_cs_diff": -15.3,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -742,
-      "avg_xp_diff": -938,
-      "avg_cs_diff": -38.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 490,
+      "avg_xp_diff": 617,
+      "avg_cs_diff": -23.5,
+      "sample_frames": 49,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1358,
-      "avg_xp_diff": 63,
-      "avg_cs_diff": -56.5,
-      "sample_frames": 11,
+      "avg_gold_diff": 1028,
+      "avg_xp_diff": 1851,
+      "avg_cs_diff": -6.2,
+      "sample_frames": 16,
       "advantage": 2
     }
   ],
@@ -54,24 +54,126 @@
   "champB": "Mel",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 15.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 9.0,
-      "kda": 2.67,
-      "avgDamage": 41937
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 10.2,
+      "avgDeaths": 6.0,
+      "avgAssists": 7.0,
+      "kda": 2.87,
+      "avgDamage": 24178
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 9.0,
-      "kda": 2.38,
-      "avgDamage": 33297
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 7.8,
+      "avgAssists": 4.6,
+      "kda": 1.49,
+      "avgDamage": 21774
     }
   }
 }

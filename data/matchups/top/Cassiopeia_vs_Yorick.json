@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.309091",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:38.655064",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 59,
-      "avg_xp_diff": 62,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 122,
+      "avg_xp_diff": 89,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 124,
-      "avg_xp_diff": 199,
-      "avg_cs_diff": 10.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 616,
+      "avg_xp_diff": 394,
+      "avg_cs_diff": 13.4,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -431,
-      "avg_xp_diff": -158,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 593,
+      "avg_xp_diff": 351,
+      "avg_cs_diff": 16.9,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -401,
-      "avg_xp_diff": -8,
-      "avg_cs_diff": -2.7,
-      "sample_frames": 9,
+      "avg_gold_diff": -68,
+      "avg_xp_diff": 759,
+      "avg_cs_diff": 17.3,
+      "sample_frames": 40,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -764,
+      "avg_xp_diff": 1362,
+      "avg_cs_diff": 5.8,
+      "sample_frames": 22,
       "advantage": -2
     }
   ],
@@ -45,26 +54,96 @@
   "champB": "Yorick",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 2.0,
-      "kda": 2.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 3.2,
+      "avgAssists": 7.5,
+      "kda": 3.85,
+      "avgDamage": 20844
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 0.0,
-      "kda": 0.6,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 2.2,
+      "kda": 1.39,
+      "avgDamage": 19558
     }
   }
 }

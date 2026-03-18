@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 75.0,
-  "updated_at": "2026-03-18T14:05:24.456098",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-19T03:29:38.809169",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -31,
-      "avg_xp_diff": -28,
-      "avg_cs_diff": -1.9,
-      "sample_frames": 20,
+      "avg_gold_diff": -138,
+      "avg_xp_diff": -128,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -404,
-      "avg_xp_diff": -374,
-      "avg_cs_diff": -8.7,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": -340,
+      "avg_xp_diff": -250,
+      "avg_cs_diff": -10.7,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -469,
-      "avg_xp_diff": -348,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 20,
+      "avg_gold_diff": -502,
+      "avg_xp_diff": -301,
+      "avg_cs_diff": -15.7,
+      "sample_frames": 35,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -426,
-      "avg_xp_diff": -109,
-      "avg_cs_diff": -1.3,
-      "sample_frames": 40,
+      "avg_gold_diff": -1205,
+      "avg_xp_diff": -401,
+      "avg_cs_diff": -13.7,
+      "sample_frames": 68,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1315,
-      "avg_xp_diff": -692,
-      "avg_cs_diff": -27.0,
-      "sample_frames": 24,
+      "avg_gold_diff": -2579,
+      "avg_xp_diff": -702,
+      "avg_cs_diff": -33.0,
+      "sample_frames": 55,
       "advantage": -2
     }
   ],
@@ -54,24 +54,114 @@
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 5.0,
-      "kda": 0.75,
-      "avgDamage": 15813
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        },
+        {
+          "name": "Spirit Visage",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "name": "Warmog's Armor",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.4,
+      "avgAssists": 8.6,
+      "kda": 1.96,
+      "avgDamage": 23338
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 15.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 2.0,
-      "kda": 8.5,
-      "avgDamage": 61160
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 66.7
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Wit's End",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Guinsoo's Rageblade",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 8.1,
+      "avgDeaths": 6.7,
+      "avgAssists": 6.6,
+      "kda": 2.19,
+      "avgDamage": 43115
     }
   }
 }

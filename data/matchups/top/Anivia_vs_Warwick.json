@@ -1,55 +1,111 @@
 {
-  "champA": "Anivia",
-  "champB": "Warwick",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.610708",
+  "sample_size": 2,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T03:29:38.335436",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -34,
-      "avg_xp_diff": -118,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -65,
+      "avg_xp_diff": -82,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -363,
-      "avg_xp_diff": -469,
-      "avg_cs_diff": -12.6,
-      "sample_frames": 5,
-      "advantage": -1
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": -798,
-      "avg_xp_diff": -1484,
-      "avg_cs_diff": -33.2,
-      "sample_frames": 5,
-      "advantage": -2
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 29,
-      "avg_xp_diff": -259,
-      "avg_cs_diff": -27.4,
+      "avg_gold_diff": -68,
+      "avg_xp_diff": 86,
+      "avg_cs_diff": -4.9,
       "sample_frames": 10,
       "advantage": 0
     },
     {
-      "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -384,
-      "avg_xp_diff": -1027,
-      "avg_cs_diff": -37.4,
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": 59,
+      "avg_xp_diff": 457,
+      "avg_cs_diff": -7.4,
       "sample_frames": 10,
-      "advantage": -1
+      "advantage": 0
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": 1594,
+      "avg_xp_diff": 2285,
+      "avg_cs_diff": 7.5,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3078,
+      "avg_xp_diff": 3801,
+      "avg_cs_diff": 10.8,
+      "sample_frames": 14,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Warwick",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 5.5,
+      "kda": 5.4,
+      "avgDamage": 27450
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Barrier",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 3.5,
+      "kda": 0.71,
+      "avgDamage": 12680
+    }
+  }
 }

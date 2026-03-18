@@ -1,55 +1,167 @@
 {
-  "champA": "Renekton",
-  "champB": "Sylas",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:06.138826",
+  "sample_size": 7,
+  "overall_winrate_a": 57.1,
+  "updated_at": "2026-03-19T03:29:40.306764",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 69,
-      "avg_xp_diff": -17,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 102,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 406,
-      "avg_xp_diff": 362,
-      "avg_cs_diff": 20.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 507,
+      "avg_xp_diff": 376,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 35,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1181,
-      "avg_xp_diff": 1626,
-      "avg_cs_diff": 37.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 868,
+      "avg_xp_diff": 981,
+      "avg_cs_diff": 25.9,
+      "sample_frames": 35,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 3214,
-      "avg_xp_diff": 4232,
-      "avg_cs_diff": 93.6,
-      "sample_frames": 12,
+      "label": "mid_game",
+      "avg_gold_diff": 2706,
+      "avg_xp_diff": 2617,
+      "avg_cs_diff": 56.8,
+      "sample_frames": 55,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 4792,
-      "avg_xp_diff": 6390,
-      "avg_cs_diff": 130.2,
-      "sample_frames": 10,
+      "label": "late_game",
+      "avg_gold_diff": 3590,
+      "avg_xp_diff": 3430,
+      "avg_cs_diff": 83.4,
+      "sample_frames": 27,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Renekton",
+  "champB": "Sylas",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chempunk Chainsword",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 5.4,
+      "avgAssists": 4.9,
+      "kda": 2.18,
+      "avgDamage": 24937
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 20.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 7.7,
+      "avgAssists": 5.4,
+      "kda": 1.13,
+      "avgDamage": 20672
+    }
+  }
 }

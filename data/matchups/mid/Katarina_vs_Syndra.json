@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.125559",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T03:29:39.639593",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 35,
-      "avg_xp_diff": -6,
+      "avg_gold_diff": 24,
+      "avg_xp_diff": 63,
       "avg_cs_diff": -2.8,
-      "sample_frames": 10,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 319,
-      "avg_xp_diff": 41,
-      "avg_cs_diff": -9.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 152,
+      "avg_xp_diff": 250,
+      "avg_cs_diff": -7.1,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 710,
-      "avg_xp_diff": 91,
-      "avg_cs_diff": -14.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 492,
+      "avg_xp_diff": 396,
+      "avg_cs_diff": -13.2,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 723,
-      "avg_xp_diff": -306,
-      "avg_cs_diff": -22.2,
-      "sample_frames": 21,
+      "avg_gold_diff": 664,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": -23.4,
+      "sample_frames": 38,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3670,
-      "avg_xp_diff": 586,
-      "avg_cs_diff": 16.7,
-      "sample_frames": 7,
+      "avg_gold_diff": 3866,
+      "avg_xp_diff": 2117,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 24,
       "advantage": 2
     }
   ],
@@ -54,24 +54,108 @@
   "champB": "Syndra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 0.75,
-      "avgDamage": 6570
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 11.8,
+      "avgDeaths": 5.2,
+      "avgAssists": 4.6,
+      "kda": 3.15,
+      "avgDamage": 27287
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 4.0,
-      "kda": 6.0,
-      "avgDamage": 16327
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Actualizer",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 6.2,
+      "avgAssists": 5.2,
+      "kda": 1.65,
+      "avgDamage": 22919
     }
   }
 }

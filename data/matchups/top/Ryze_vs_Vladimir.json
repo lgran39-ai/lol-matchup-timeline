@@ -1,55 +1,155 @@
 {
-  "champA": "Ryze",
-  "champB": "Vladimir",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:06.194732",
+  "sample_size": 8,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.382819",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 30,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 75,
+      "avg_xp_diff": 45,
+      "avg_cs_diff": 2.1,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -112,
-      "avg_xp_diff": -102,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 487,
+      "avg_xp_diff": 318,
+      "avg_cs_diff": 11.9,
+      "sample_frames": 40,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -396,
-      "avg_xp_diff": -371,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 675,
+      "avg_xp_diff": 549,
+      "avg_cs_diff": 19.7,
+      "sample_frames": 40,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -476,
-      "avg_xp_diff": 152,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 10,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": 1245,
+      "avg_xp_diff": 1180,
+      "avg_cs_diff": 29.5,
+      "sample_frames": 59,
+      "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 275,
-      "avg_xp_diff": 944,
-      "avg_cs_diff": 21.9,
-      "sample_frames": 8,
-      "advantage": 1
+      "label": "late_game",
+      "avg_gold_diff": 1825,
+      "avg_xp_diff": 2225,
+      "avg_cs_diff": 34.1,
+      "sample_frames": 27,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Ryze",
+  "champB": "Vladimir",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 42.9
+        },
+        {
+          "name": "Actualizer",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 42.9
+        }
+      ],
+      "avgKills": 3.4,
+      "avgDeaths": 2.4,
+      "avgAssists": 5.5,
+      "kda": 3.74,
+      "avgDamage": 23125
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 42.9
+        },
+        {
+          "name": "Riftmaker",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 60.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 3.4,
+      "avgAssists": 3.4,
+      "kda": 1.81,
+      "avgDamage": 15533
+    }
+  }
 }

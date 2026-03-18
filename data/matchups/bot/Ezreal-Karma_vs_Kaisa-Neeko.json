@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-18T14:05:27.003321",
+  "sample_size": 18,
+  "overall_winrate_a": 55.6,
+  "updated_at": "2026-03-19T03:29:43.101391",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -27,
-      "avg_xp_diff": -11,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 15,
+      "avg_gold_diff": 54,
+      "avg_xp_diff": 41,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 90,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -289,
-      "avg_xp_diff": 147,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 15,
+      "avg_gold_diff": 296,
+      "avg_xp_diff": 169,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 90,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -359,
-      "avg_xp_diff": 230,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": 143,
+      "avg_xp_diff": 157,
+      "avg_cs_diff": 5.8,
+      "sample_frames": 90,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1766,
-      "avg_xp_diff": -922,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 30,
-      "advantage": -2
+      "avg_gold_diff": -579,
+      "avg_xp_diff": 378,
+      "avg_cs_diff": 5.8,
+      "sample_frames": 158,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2675,
-      "avg_xp_diff": -1944,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 19,
+      "avg_gold_diff": -3654,
+      "avg_xp_diff": -785,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 57,
       "advantage": -2
     }
   ],
@@ -64,46 +64,226 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 3.0,
-        "kda": 0.43,
-        "avgDamage": 7779
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 18,
+            "pickRate": 100.0,
+            "winRate": 55.6
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 7,
+            "pickRate": 38.9,
+            "winRate": 42.9
+          },
+          {
+            "name": "Spear of Shojin",
+            "count": 6,
+            "pickRate": 33.3,
+            "winRate": 66.7
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 16,
+            "pickRate": 88.9,
+            "winRate": 56.2
+          },
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 11.1,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 17,
+            "pickRate": 94.4,
+            "winRate": 52.9
+          }
+        ],
+        "avgKills": 4.4,
+        "avgDeaths": 5.5,
+        "avgAssists": 8.6,
+        "kda": 2.36,
+        "avgDamage": 22515
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 9.0,
-        "kda": 1.29,
-        "avgDamage": 7247
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 16,
+            "pickRate": 88.9,
+            "winRate": 56.2
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 9,
+            "pickRate": 50.0,
+            "winRate": 55.6
+          },
+          {
+            "name": "Redemption",
+            "count": 4,
+            "pickRate": 22.2,
+            "winRate": 75.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 3,
+            "pickRate": 16.7,
+            "winRate": 100.0
+          },
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 3,
+            "pickRate": 16.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 14,
+            "pickRate": 77.8,
+            "winRate": 42.9
+          },
+          {
+            "name": "Summon Aery",
+            "count": 4,
+            "pickRate": 22.2,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 18,
+            "pickRate": 100.0,
+            "winRate": 55.6
+          }
+        ],
+        "avgKills": 2.1,
+        "avgDeaths": 5.4,
+        "avgAssists": 14.2,
+        "kda": 3.0,
+        "avgDamage": 10823
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 9.0,
-        "kda": 9.5,
-        "avgDamage": 26415
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 18,
+            "pickRate": 100.0,
+            "winRate": 44.4
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 16,
+            "pickRate": 88.9,
+            "winRate": 50.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 6,
+            "pickRate": 33.3,
+            "winRate": 33.3
+          },
+          {
+            "name": "Zhonya's Hourglass",
+            "count": 4,
+            "pickRate": 22.2,
+            "winRate": 50.0
+          },
+          {
+            "name": "Nashor's Tooth",
+            "count": 4,
+            "pickRate": 22.2,
+            "winRate": 50.0
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 3,
+            "pickRate": 16.7,
+            "winRate": 33.3
+          },
+          {
+            "name": "Dusk and Dawn",
+            "count": 2,
+            "pickRate": 11.1,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 18,
+            "pickRate": 100.0,
+            "winRate": 44.4
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 16,
+            "pickRate": 88.9,
+            "winRate": 43.8
+          }
+        ],
+        "avgKills": 7.1,
+        "avgDeaths": 5.2,
+        "avgAssists": 4.8,
+        "kda": 2.28,
+        "avgDamage": 20427
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 15.0,
-        "kda": 5.67,
-        "avgDamage": 17907
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 18,
+            "pickRate": 100.0,
+            "winRate": 44.4
+          },
+          {
+            "name": "Frozen Heart",
+            "count": 5,
+            "pickRate": 27.8,
+            "winRate": 40.0
+          },
+          {
+            "name": "Zhonya's Hourglass",
+            "count": 3,
+            "pickRate": 16.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 18,
+            "pickRate": 100.0,
+            "winRate": 44.4
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 18,
+            "pickRate": 100.0,
+            "winRate": 44.4
+          }
+        ],
+        "avgKills": 2.4,
+        "avgDeaths": 6.4,
+        "avgAssists": 9.8,
+        "kda": 1.9,
+        "avgDamage": 12388
       }
     }
   }

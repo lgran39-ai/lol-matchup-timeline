@@ -1,46 +1,149 @@
 {
-  "champA": "Anivia",
-  "champB": "Camille",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.580466",
+  "sample_size": 6,
+  "overall_winrate_a": 83.3,
+  "updated_at": "2026-03-19T03:29:38.286868",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 282,
-      "avg_xp_diff": 167,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 46,
+      "avg_xp_diff": 13,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 930,
-      "avg_xp_diff": 895,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 131,
+      "avg_xp_diff": 179,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1265,
-      "avg_xp_diff": 1245,
-      "avg_cs_diff": 8.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 349,
+      "avg_xp_diff": 555,
+      "avg_cs_diff": 8.9,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2450,
-      "avg_xp_diff": 3301,
-      "avg_cs_diff": 18.8,
-      "sample_frames": 11,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": -70,
+      "avg_xp_diff": 572,
+      "avg_cs_diff": 13.9,
+      "sample_frames": 58,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3466,
+      "avg_xp_diff": -198,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 32,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Camille",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 83.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 83.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.2,
+      "avgDeaths": 6.5,
+      "avgAssists": 9.2,
+      "kda": 2.21,
+      "avgDamage": 22800
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 16.7
+        },
+        {
+          "name": "Ravenous Hydra",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 20.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 16.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 7.7,
+      "avgAssists": 7.0,
+      "kda": 1.7,
+      "avgDamage": 25239
+    }
+  }
 }

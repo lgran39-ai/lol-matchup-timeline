@@ -1,55 +1,125 @@
 {
-  "champA": "Anivia",
-  "champB": "Leblanc",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.591226",
+  "updated_at": "2026-03-19T03:29:38.305535",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 65,
-      "avg_xp_diff": 70,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -15,
+      "avg_xp_diff": -25,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -355,
-      "avg_xp_diff": -286,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -279,
+      "avg_xp_diff": -40,
+      "avg_cs_diff": -6.1,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -925,
-      "avg_xp_diff": -1466,
-      "avg_cs_diff": -18.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -869,
+      "avg_xp_diff": -1153,
+      "avg_cs_diff": -10.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -1448,
-      "avg_xp_diff": -1035,
-      "avg_cs_diff": -14.8,
-      "sample_frames": 10,
+      "label": "mid_game",
+      "avg_gold_diff": -1742,
+      "avg_xp_diff": -1063,
+      "avg_cs_diff": -9.0,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -723,
-      "avg_xp_diff": 1155,
-      "avg_cs_diff": 1.7,
-      "sample_frames": 3,
+      "label": "late_game",
+      "avg_gold_diff": -2824,
+      "avg_xp_diff": -31,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 7,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Leblanc",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 3.0,
+      "kda": 0.94,
+      "avgDamage": 12982
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 3.3,
+      "avgAssists": 5.0,
+      "kda": 3.4,
+      "avgDamage": 22365
+    }
+  }
 }

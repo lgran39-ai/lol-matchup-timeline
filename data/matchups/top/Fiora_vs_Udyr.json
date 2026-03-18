@@ -1,79 +1,167 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.584354",
+  "sample_size": 8,
+  "overall_winrate_a": 12.5,
+  "updated_at": "2026-03-19T03:29:38.984712",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -105,
-      "avg_xp_diff": -152,
-      "avg_cs_diff": -2.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -12,
+      "avg_xp_diff": -11,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -628,
-      "avg_xp_diff": -666,
-      "avg_cs_diff": -9.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -407,
+      "avg_xp_diff": -354,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 40,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1005,
-      "avg_xp_diff": -1329,
-      "avg_cs_diff": -17.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -714,
+      "avg_xp_diff": -922,
+      "avg_cs_diff": -16.8,
+      "sample_frames": 40,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -749,
-      "avg_xp_diff": -917,
-      "avg_cs_diff": -12.9,
-      "sample_frames": 20,
+      "avg_gold_diff": -1015,
+      "avg_xp_diff": -1414,
+      "avg_cs_diff": -15.4,
+      "sample_frames": 67,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 904,
-      "avg_xp_diff": 1626,
-      "avg_cs_diff": 9.8,
-      "sample_frames": 6,
-      "advantage": 2
+      "avg_gold_diff": -828,
+      "avg_xp_diff": -1223,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 33,
+      "advantage": -2
     }
   ],
   "champA": "Fiora",
   "champB": "Udyr",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 1.33,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 12.5
+        },
+        {
+          "name": "Trinity Force",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 16.7
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 0.0
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 16.7
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.6,
+      "avgDeaths": 7.6,
+      "avgAssists": 2.6,
+      "kda": 0.82,
+      "avgDamage": 21592
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 4.5,
-      "kda": 2.29,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 83.3
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 87.5
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Ghost+Ignite",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 4.6,
+      "avgAssists": 6.4,
+      "kda": 2.57,
+      "avgDamage": 23355
     }
   }
 }

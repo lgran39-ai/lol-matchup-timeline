@@ -1,55 +1,118 @@
 {
-  "champA": "Irelia",
-  "champB": "Zac",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.369136",
+  "updated_at": "2026-03-19T03:29:39.376287",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 36,
-      "avg_xp_diff": -41,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 33,
+      "avg_xp_diff": -39,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -295,
-      "avg_xp_diff": -479,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -214,
+      "avg_xp_diff": -303,
+      "avg_cs_diff": 8.9,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 303,
-      "avg_xp_diff": -146,
-      "avg_cs_diff": 18.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 305,
+      "avg_xp_diff": 215,
+      "avg_cs_diff": 20.3,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1542,
-      "avg_xp_diff": 421,
-      "avg_cs_diff": 40.4,
-      "sample_frames": 10,
+      "label": "mid_game",
+      "avg_gold_diff": 620,
+      "avg_xp_diff": -140,
+      "avg_cs_diff": 33.6,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 436,
-      "avg_xp_diff": -1804,
-      "avg_cs_diff": 54.6,
-      "sample_frames": 13,
-      "advantage": 2
+      "label": "late_game",
+      "avg_gold_diff": 38,
+      "avg_xp_diff": -1906,
+      "avg_cs_diff": 54.1,
+      "sample_frames": 18,
+      "advantage": 0
     }
-  ]
+  ],
+  "champA": "Irelia",
+  "champB": "Zac",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 1.5,
+      "kda": 0.69,
+      "avgDamage": 26314
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 12.5,
+      "kda": 10.25,
+      "avgDamage": 24724
+    }
+  }
 }

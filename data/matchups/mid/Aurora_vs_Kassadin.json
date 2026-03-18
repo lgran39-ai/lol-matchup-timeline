@@ -1,46 +1,161 @@
 {
-  "champA": "Aurora",
-  "champB": "Kassadin",
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-13T23:57:04.695782",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-19T03:29:38.429322",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 87,
-      "avg_xp_diff": 47,
+      "avg_gold_diff": 100,
+      "avg_xp_diff": 54,
       "avg_cs_diff": 4.6,
-      "sample_frames": 15,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 450,
-      "avg_xp_diff": 345,
-      "avg_cs_diff": 14.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 516,
+      "avg_xp_diff": 395,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 35,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 940,
-      "avg_xp_diff": 1174,
-      "avg_cs_diff": 28.9,
-      "sample_frames": 15,
+      "avg_gold_diff": 935,
+      "avg_xp_diff": 981,
+      "avg_cs_diff": 23.0,
+      "sample_frames": 35,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -686,
-      "avg_xp_diff": 946,
-      "avg_cs_diff": 16.7,
-      "sample_frames": 13,
+      "label": "mid_game",
+      "avg_gold_diff": -18,
+      "avg_xp_diff": 323,
+      "avg_cs_diff": 11.9,
+      "sample_frames": 40,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2598,
+      "avg_xp_diff": -5298,
+      "avg_cs_diff": -20.9,
+      "sample_frames": 12,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Aurora",
+  "champB": "Kassadin",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.4,
+      "avgDeaths": 2.6,
+      "avgAssists": 3.3,
+      "kda": 3.0,
+      "avgDamage": 18051
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 3.0,
+      "avgAssists": 2.6,
+      "kda": 2.62,
+      "avgDamage": 13719
+    }
+  }
 }

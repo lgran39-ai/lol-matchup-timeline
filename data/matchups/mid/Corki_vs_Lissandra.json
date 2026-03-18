@@ -1,55 +1,143 @@
 {
-  "champA": "Corki",
-  "champB": "Lissandra",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.910442",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:38.687896",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -123,
-      "avg_xp_diff": -277,
-      "avg_cs_diff": -5.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 39,
+      "avg_xp_diff": -124,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -280,
-      "avg_xp_diff": -440,
-      "avg_cs_diff": -6.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -291,
+      "avg_xp_diff": -582,
+      "avg_cs_diff": -10.1,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -713,
-      "avg_xp_diff": -405,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -852,
+      "avg_xp_diff": -837,
+      "avg_cs_diff": -6.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 30,
-      "avg_xp_diff": 1239,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 10,
-      "advantage": 0
+      "label": "mid_game",
+      "avg_gold_diff": -680,
+      "avg_xp_diff": -644,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 30,
+      "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 1889,
-      "avg_xp_diff": 3098,
-      "avg_cs_diff": 30.2,
-      "sample_frames": 9,
-      "advantage": 2
+      "label": "late_game",
+      "avg_gold_diff": -341,
+      "avg_xp_diff": -909,
+      "avg_cs_diff": 7.5,
+      "sample_frames": 23,
+      "advantage": -1
     }
-  ]
+  ],
+  "champA": "Corki",
+  "champB": "Lissandra",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 4.3,
+      "kda": 1.29,
+      "avgDamage": 23472
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 7.3,
+      "avgAssists": 12.3,
+      "kda": 2.73,
+      "avgDamage": 27197
+    }
+  }
 }

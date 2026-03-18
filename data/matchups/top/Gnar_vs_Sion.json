@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.734199",
+  "sample_size": 19,
+  "overall_winrate_a": 57.9,
+  "updated_at": "2026-03-19T03:29:39.150061",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 4,
-      "avg_xp_diff": -40,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 45,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 95,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 306,
-      "avg_xp_diff": 194,
-      "avg_cs_diff": 11.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 325,
+      "avg_xp_diff": 108,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 95,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1122,
-      "avg_xp_diff": 1792,
-      "avg_cs_diff": 36.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 709,
+      "avg_xp_diff": 511,
+      "avg_cs_diff": 16.5,
+      "sample_frames": 95,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1185,
-      "avg_xp_diff": 1243,
-      "avg_cs_diff": 34.2,
-      "sample_frames": 9,
+      "avg_gold_diff": 1234,
+      "avg_xp_diff": 442,
+      "avg_cs_diff": 22.0,
+      "sample_frames": 161,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1865,
+      "avg_xp_diff": 933,
+      "avg_cs_diff": 29.0,
+      "sample_frames": 36,
       "advantage": 2
     }
   ],
@@ -45,26 +54,126 @@
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 1.25,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 19,
+          "pickRate": 100.0,
+          "winRate": 57.9
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 10,
+          "pickRate": 52.6,
+          "winRate": 60.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 6,
+          "pickRate": 31.6,
+          "winRate": 83.3
+        },
+        {
+          "name": "Wit's End",
+          "count": 2,
+          "pickRate": 10.5,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 11,
+          "pickRate": 57.9,
+          "winRate": 45.5
+        },
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 21.1,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 15.8,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 19,
+          "pickRate": 100.0,
+          "winRate": 57.9
+        }
+      ],
+      "avgKills": 3.4,
+      "avgDeaths": 3.3,
+      "avgAssists": 3.8,
+      "kda": 2.17,
+      "avgDamage": 22363
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 2.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 18,
+          "pickRate": 94.7,
+          "winRate": 38.9
+        },
+        {
+          "name": "Unending Despair",
+          "count": 6,
+          "pickRate": 31.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 4,
+          "pickRate": 21.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 3,
+          "pickRate": 15.8,
+          "winRate": 66.7
+        },
+        {
+          "name": "Protoplasm Harness",
+          "count": 2,
+          "pickRate": 10.5,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 15,
+          "pickRate": 78.9,
+          "winRate": 46.7
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 4,
+          "pickRate": 21.1,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 19,
+          "pickRate": 100.0,
+          "winRate": 42.1
+        }
+      ],
+      "avgKills": 2.1,
+      "avgDeaths": 3.9,
+      "avgAssists": 3.9,
+      "kda": 1.52,
+      "avgDamage": 13262
     }
   }
 }

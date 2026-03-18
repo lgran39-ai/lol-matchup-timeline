@@ -1,55 +1,155 @@
 {
-  "champA": "Nidalee",
-  "champB": "Zac",
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.933293",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-19T03:29:40.084402",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 71,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -2,
+      "avg_xp_diff": -34,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 423,
-      "avg_xp_diff": 236,
-      "avg_cs_diff": 11.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 154,
+      "avg_xp_diff": 161,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 528,
-      "avg_xp_diff": 1127,
-      "avg_cs_diff": 33.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 844,
+      "avg_xp_diff": 813,
+      "avg_cs_diff": 13.8,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2226,
-      "avg_xp_diff": 2371,
-      "avg_cs_diff": 56.5,
-      "sample_frames": 10,
+      "label": "mid_game",
+      "avg_gold_diff": 2465,
+      "avg_xp_diff": 2489,
+      "avg_cs_diff": 36.3,
+      "sample_frames": 51,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 4288,
-      "avg_xp_diff": 3855,
-      "avg_cs_diff": 77.0,
-      "sample_frames": 6,
+      "label": "late_game",
+      "avg_gold_diff": 3951,
+      "avg_xp_diff": 3664,
+      "avg_cs_diff": 64.5,
+      "sample_frames": 13,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Nidalee",
+  "champB": "Zac",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 8.8,
+      "avgDeaths": 3.2,
+      "avgAssists": 14.4,
+      "kda": 7.25,
+      "avgDamage": 26736
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 5.8,
+      "avgAssists": 9.0,
+      "kda": 2.24,
+      "avgDamage": 15058
+    }
+  }
 }

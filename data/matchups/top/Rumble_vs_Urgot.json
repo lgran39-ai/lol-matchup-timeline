@@ -1,77 +1,119 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:25.649714",
+  "sample_size": 3,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T03:29:40.357697",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
       "avg_gold_diff": 17,
-      "avg_xp_diff": -22,
-      "avg_cs_diff": -1.5,
-      "sample_frames": 10,
+      "avg_xp_diff": -17,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 261,
-      "avg_xp_diff": 332,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 414,
+      "avg_xp_diff": 502,
+      "avg_cs_diff": 14.5,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 828,
-      "avg_xp_diff": 1319,
-      "avg_cs_diff": 13.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 521,
+      "avg_xp_diff": 1314,
+      "avg_cs_diff": 28.3,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1646,
-      "avg_xp_diff": 2155,
-      "avg_cs_diff": 13.8,
-      "sample_frames": 21,
-      "advantage": 2
+      "avg_gold_diff": -83,
+      "avg_xp_diff": 501,
+      "avg_cs_diff": 19.2,
+      "sample_frames": 17,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3940,
-      "avg_xp_diff": 3352,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 11,
-      "advantage": 2
+      "avg_gold_diff": -15,
+      "avg_xp_diff": 1998,
+      "avg_cs_diff": 17.2,
+      "sample_frames": 12,
+      "advantage": 0
     }
   ],
   "champA": "Rumble",
   "champB": "Urgot",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 7.5,
-      "avgDamage": 39671
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 7.3,
+      "kda": 3.78,
+      "avgDamage": 19571
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 3.0,
-      "kda": 0.4,
-      "avgDamage": 17102
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 5.3,
+      "avgAssists": 3.3,
+      "kda": 1.31,
+      "avgDamage": 10642
     }
   }
 }

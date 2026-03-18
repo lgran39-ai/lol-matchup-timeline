@@ -1,77 +1,167 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-18T14:05:24.084335",
+  "sample_size": 7,
+  "overall_winrate_a": 85.7,
+  "updated_at": "2026-03-19T03:29:38.377999",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 24,
-      "avg_xp_diff": 44,
-      "avg_cs_diff": 1.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -39,
+      "avg_xp_diff": -33,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 220,
-      "avg_xp_diff": 129,
-      "avg_cs_diff": 1.7,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": -333,
+      "avg_xp_diff": -437,
+      "avg_cs_diff": -8.7,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 20,
-      "avg_xp_diff": 31,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -424,
+      "avg_xp_diff": -396,
+      "avg_cs_diff": -10.9,
+      "sample_frames": 35,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -497,
-      "avg_xp_diff": -327,
-      "avg_cs_diff": -6.2,
-      "sample_frames": 30,
-      "advantage": -2
+      "avg_gold_diff": 282,
+      "avg_xp_diff": 84,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 62,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1540,
-      "avg_xp_diff": -1651,
-      "avg_cs_diff": -30.8,
-      "sample_frames": 16,
-      "advantage": -2
+      "avg_gold_diff": 153,
+      "avg_xp_diff": -71,
+      "avg_cs_diff": -29.6,
+      "sample_frames": 37,
+      "advantage": 1
     }
   ],
   "champA": "Annie",
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 22.0,
-      "kda": 7.0,
-      "avgDamage": 32884
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 85.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 83.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.6,
+      "avgDeaths": 5.3,
+      "avgAssists": 11.0,
+      "kda": 3.32,
+      "avgDamage": 25988
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 5.0,
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 16.7
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 0.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 6.7,
+      "avgAssists": 7.1,
       "kda": 1.62,
-      "avgDamage": 27372
+      "avgDamage": 15712
     }
   }
 }

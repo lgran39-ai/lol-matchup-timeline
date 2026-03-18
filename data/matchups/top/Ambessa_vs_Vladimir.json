@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.016565",
+  "sample_size": 13,
+  "overall_winrate_a": 61.5,
+  "updated_at": "2026-03-19T03:29:38.268388",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -101,
-      "avg_xp_diff": -60,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 11,
+      "avg_xp_diff": -8,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 65,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -438,
-      "avg_xp_diff": -402,
-      "avg_cs_diff": -9.5,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 38,
+      "avg_xp_diff": -10,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 65,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -603,
-      "avg_xp_diff": -515,
-      "avg_cs_diff": -19.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -145,
+      "avg_xp_diff": -362,
+      "avg_cs_diff": -5.8,
+      "sample_frames": 65,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1347,
-      "avg_xp_diff": -1543,
-      "avg_cs_diff": -37.8,
-      "sample_frames": 8,
+      "avg_gold_diff": 313,
+      "avg_xp_diff": 330,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 110,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1532,
+      "avg_xp_diff": -1431,
+      "avg_cs_diff": -24.3,
+      "sample_frames": 30,
       "advantage": -2
     }
   ],
@@ -45,26 +54,138 @@
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 1.0,
-      "kda": 0.78,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 11,
+          "pickRate": 84.6,
+          "winRate": 63.6
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 7,
+          "pickRate": 53.8,
+          "winRate": 57.1
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 7,
+          "pickRate": 53.8,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 9,
+          "pickRate": 69.2,
+          "winRate": 55.6
+        },
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 11,
+          "pickRate": 84.6,
+          "winRate": 63.6
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.9,
+      "avgDeaths": 4.2,
+      "avgAssists": 4.0,
+      "kda": 1.91,
+      "avgDamage": 22661
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 1.0,
-      "kda": 1.14,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 11,
+          "pickRate": 84.6,
+          "winRate": 36.4
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 75.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 33.3
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 33.3
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 8,
+          "pickRate": 61.5,
+          "winRate": 37.5
+        },
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 33.3
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 6,
+          "pickRate": 46.2,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 46.2,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 4.1,
+      "avgAssists": 3.7,
+      "kda": 1.92,
+      "avgDamage": 19595
     }
   }
 }

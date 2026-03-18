@@ -1,68 +1,155 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.671265",
+  "sample_size": 10,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T03:29:39.092937",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -265,
-      "avg_xp_diff": -183,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 56,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 50,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1109,
-      "avg_xp_diff": -1309,
-      "avg_cs_diff": -25.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 392,
+      "avg_xp_diff": 279,
+      "avg_cs_diff": 10.2,
+      "sample_frames": 50,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2066,
-      "avg_xp_diff": -2865,
-      "avg_cs_diff": -48.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 1087,
+      "avg_xp_diff": 956,
+      "avg_cs_diff": 22.5,
+      "sample_frames": 50,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4088,
-      "avg_xp_diff": -4889,
-      "avg_cs_diff": -53.4,
-      "sample_frames": 9,
-      "advantage": -2
+      "avg_gold_diff": 1884,
+      "avg_xp_diff": 1045,
+      "avg_cs_diff": 33.6,
+      "sample_frames": 59,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 982,
+      "avg_xp_diff": -2216,
+      "avg_cs_diff": 45.1,
+      "sample_frames": 20,
+      "advantage": 2
     }
   ],
   "champA": "Gangplank",
   "champB": "Poppy",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 2.0,
-      "kda": 0.22,
-      "avgDamage": 11235
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 62.5
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "The Collector",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 6,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Fleet Footwork",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 55.6
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 3.4,
+      "avgAssists": 5.0,
+      "kda": 2.71,
+      "avgDamage": 20886
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 6.0,
-      "kda": 14.0,
-      "avgDamage": 21180
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 37.5
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 10,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 10,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 2.1,
+      "avgDeaths": 4.0,
+      "avgAssists": 3.6,
+      "kda": 1.43,
+      "avgDamage": 13269
     }
   }
 }

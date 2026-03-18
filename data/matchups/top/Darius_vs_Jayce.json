@@ -1,84 +1,148 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.358971",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.714790",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -47,
-      "avg_xp_diff": -35,
-      "avg_cs_diff": -1.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -31,
+      "avg_xp_diff": -11,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -139,
-      "avg_xp_diff": -116,
-      "avg_cs_diff": -4.7,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -329,
+      "avg_xp_diff": -236,
+      "avg_cs_diff": -12.6,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -201,
-      "avg_xp_diff": -269,
-      "avg_cs_diff": -3.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -257,
+      "avg_xp_diff": -546,
+      "avg_cs_diff": -18.6,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 406,
-      "avg_xp_diff": 469,
-      "avg_cs_diff": -5.5,
-      "sample_frames": 30,
-      "advantage": 2
+      "avg_gold_diff": -918,
+      "avg_xp_diff": -740,
+      "avg_cs_diff": -27.8,
+      "sample_frames": 40,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 611,
-      "avg_xp_diff": 810,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -2303,
+      "avg_xp_diff": -2293,
+      "avg_cs_diff": -61.9,
+      "sample_frames": 41,
+      "advantage": -2
     }
   ],
   "champA": "Darius",
   "champB": "Jayce",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Force of Nature",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dead Man's Plate",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [
         {
           "spells": "Flash+Ghost",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 50.0
         }
       ],
-      "avgKills": 7.5,
-      "avgDeaths": 2.5,
-      "avgAssists": 6.0,
-      "kda": 5.4,
-      "avgDamage": 14285
+      "avgKills": 6.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 5.0,
+      "kda": 1.57,
+      "avgDamage": 19211
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 0.5,
-      "kda": 0.92,
-      "avgDamage": 18262
+      "items": [
+        {
+          "name": "Serylda's Grudge",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Edge of Night",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 8.0,
+      "avgAssists": 7.2,
+      "kda": 1.72,
+      "avgDamage": 34424
     }
   }
 }

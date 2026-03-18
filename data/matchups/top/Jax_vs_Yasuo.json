@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.995397",
+  "sample_size": 11,
+  "overall_winrate_a": 63.6,
+  "updated_at": "2026-03-19T03:29:39.461787",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -138,
-      "avg_xp_diff": -106,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 40,
+      "avg_xp_diff": 29,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 55,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1189,
-      "avg_xp_diff": -1149,
-      "avg_cs_diff": -23.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 235,
+      "avg_xp_diff": 256,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 55,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1820,
-      "avg_xp_diff": -2126,
-      "avg_cs_diff": -43.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 651,
+      "avg_xp_diff": 746,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 55,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2102,
-      "avg_xp_diff": -1797,
-      "avg_cs_diff": -52.1,
-      "sample_frames": 9,
+      "avg_gold_diff": 1503,
+      "avg_xp_diff": 500,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 86,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1172,
+      "avg_xp_diff": -2065,
+      "avg_cs_diff": -37.5,
+      "sample_frames": 38,
       "advantage": -2
     }
   ],
@@ -45,24 +54,138 @@
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 5.0,
-      "kda": 2.0,
-      "avgDamage": 17993
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 11,
+          "pickRate": 100.0,
+          "winRate": 63.6
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 25.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 6,
+          "pickRate": 54.5,
+          "winRate": 33.3
+        },
+        {
+          "name": "Lethal Tempo",
+          "count": 5,
+          "pickRate": 45.5,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 54.5,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 27.3,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 18.2,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 4.1,
+      "avgAssists": 3.8,
+      "kda": 2.51,
+      "avgDamage": 18484
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 1.75,
-      "avgDamage": 16169
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 8,
+          "pickRate": 72.7,
+          "winRate": 37.5
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 6,
+          "pickRate": 54.5,
+          "winRate": 33.3
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 18.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 18.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 18.2,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 7,
+          "pickRate": 63.6,
+          "winRate": 14.3
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 45.5,
+          "winRate": 80.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 18.2,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 3.8,
+      "kda": 1.31,
+      "avgDamage": 16936
     }
   }
 }

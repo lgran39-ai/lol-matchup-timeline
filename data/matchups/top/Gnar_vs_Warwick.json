@@ -1,60 +1,67 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-18T14:05:24.741162",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.156249",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 59,
-      "avg_xp_diff": 77,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": -194,
+      "avg_xp_diff": -116,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 367,
-      "avg_xp_diff": 418,
-      "avg_cs_diff": 10.7,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": -303,
+      "avg_xp_diff": -173,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 482,
-      "avg_xp_diff": 961,
-      "avg_cs_diff": 22.8,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": -918,
+      "avg_xp_diff": -942,
+      "avg_cs_diff": -9.0,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 404,
-      "avg_xp_diff": 603,
-      "avg_cs_diff": 31.0,
-      "sample_frames": 41,
-      "advantage": 2
+      "avg_gold_diff": -1166,
+      "avg_xp_diff": -601,
+      "avg_cs_diff": -9.6,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2343,
-      "avg_xp_diff": 2283,
-      "avg_cs_diff": 34.8,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -238,
+      "avg_xp_diff": 906,
+      "avg_cs_diff": 5.5,
+      "sample_frames": 15,
+      "advantage": -1
     }
   ],
   "champA": "Gnar",
   "champB": "Warwick",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Fleet Footwork",
@@ -63,17 +70,24 @@
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 8.0,
-      "kda": 2.0,
-      "avgDamage": 28118
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 7.5,
+      "kda": 1.93,
+      "avgDamage": 29875
     },
     "champB": {
       "items": [
         {
-          "name": "Kraken Slayer",
+          "name": "Stridebreaker",
           "count": 2,
           "pickRate": 100.0,
           "winRate": 50.0
@@ -95,11 +109,11 @@
           "winRate": 50.0
         }
       ],
-      "avgKills": 6.5,
-      "avgDeaths": 8.5,
-      "avgAssists": 3.0,
-      "kda": 1.12,
-      "avgDamage": 19221
+      "avgKills": 8.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.0,
+      "kda": 2.33,
+      "avgDamage": 25248
     }
   }
 }

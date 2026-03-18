@@ -1,55 +1,137 @@
 {
-  "champA": "Jax",
-  "champB": "RekSai",
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-13T23:57:05.417887",
+  "sample_size": 8,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-19T03:29:39.441734",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 105,
-      "avg_xp_diff": 67,
-      "avg_cs_diff": 1.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 38,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 282,
-      "avg_xp_diff": 211,
-      "avg_cs_diff": -0.1,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": -15,
+      "avg_xp_diff": -159,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 40,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 496,
-      "avg_xp_diff": 529,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": -71,
+      "avg_xp_diff": -546,
+      "avg_cs_diff": -9.2,
+      "sample_frames": 40,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 488,
-      "avg_xp_diff": 135,
-      "avg_cs_diff": -5.1,
-      "sample_frames": 30,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": 131,
+      "avg_xp_diff": -915,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 61,
+      "advantage": 0
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 604,
-      "avg_xp_diff": 473,
-      "avg_cs_diff": -22.5,
-      "sample_frames": 15,
+      "label": "late_game",
+      "avg_gold_diff": 1796,
+      "avg_xp_diff": -798,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 11,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Jax",
+  "champB": "RekSai",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 20.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 28.6
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 40.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.1,
+      "avgDeaths": 4.0,
+      "avgAssists": 1.6,
+      "kda": 1.44,
+      "avgDamage": 22281
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 83.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 3.1,
+      "avgDeaths": 2.8,
+      "avgAssists": 4.0,
+      "kda": 2.59,
+      "avgDamage": 14935
+    }
+  }
 }

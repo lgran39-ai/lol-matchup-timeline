@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.274918",
+  "sample_size": 25,
+  "overall_winrate_a": 44.0,
+  "updated_at": "2026-03-19T03:29:38.585620",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -96,
-      "avg_xp_diff": -59,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 18,
+      "avg_xp_diff": -6,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 125,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -63,
-      "avg_xp_diff": -44,
-      "avg_cs_diff": -3.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -207,
+      "avg_xp_diff": -280,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 125,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 194,
-      "avg_xp_diff": 325,
-      "avg_cs_diff": -3.9,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -529,
+      "avg_xp_diff": -920,
+      "avg_cs_diff": -14.2,
+      "sample_frames": 125,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2077,
-      "avg_xp_diff": 2555,
-      "avg_cs_diff": 15.6,
-      "sample_frames": 21,
-      "advantage": 2
+      "avg_gold_diff": -635,
+      "avg_xp_diff": -1246,
+      "avg_cs_diff": -19.4,
+      "sample_frames": 210,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1993,
-      "avg_xp_diff": 2099,
-      "avg_cs_diff": 34.3,
-      "sample_frames": 3,
+      "avg_gold_diff": 769,
+      "avg_xp_diff": -771,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 108,
       "advantage": 2
     }
   ],
@@ -54,26 +54,144 @@
   "champB": "KSante",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.5,
-      "avgDeaths": 3.0,
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 25,
+          "pickRate": 100.0,
+          "winRate": 44.0
+        },
+        {
+          "name": "Ravenous Hydra",
+          "count": 16,
+          "pickRate": 64.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 6,
+          "pickRate": 24.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Death's Dance",
+          "count": 5,
+          "pickRate": 20.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 3,
+          "pickRate": 12.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 8.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 25,
+          "pickRate": 100.0,
+          "winRate": 44.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Teleport+Ignite",
+          "count": 14,
+          "pickRate": 56.0,
+          "winRate": 42.9
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 11,
+          "pickRate": 44.0,
+          "winRate": 45.5
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.7,
       "avgAssists": 5.0,
-      "kda": 3.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "kda": 1.67,
+      "avgDamage": 20936
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 7.5,
-      "avgAssists": 5.0,
-      "kda": 0.8,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 24,
+          "pickRate": 96.0,
+          "winRate": 54.2
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 10,
+          "pickRate": 40.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Spirit Visage",
+          "count": 8,
+          "pickRate": 32.0,
+          "winRate": 37.5
+        },
+        {
+          "name": "Unending Despair",
+          "count": 8,
+          "pickRate": 32.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 6,
+          "pickRate": 24.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 4,
+          "pickRate": 16.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 8.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 25,
+          "pickRate": 100.0,
+          "winRate": 56.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 22,
+          "pickRate": 88.0,
+          "winRate": 59.1
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 12.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.4,
+      "avgDeaths": 3.6,
+      "avgAssists": 6.8,
+      "kda": 3.12,
+      "avgDamage": 20170
     }
   }
 }

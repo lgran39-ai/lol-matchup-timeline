@@ -1,55 +1,118 @@
 {
-  "champA": "DrMundo",
-  "champB": "Illaoi",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.972488",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.785096",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -86,
-      "avg_xp_diff": -52,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -14,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -705,
-      "avg_xp_diff": -616,
-      "avg_cs_diff": -26.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -426,
+      "avg_xp_diff": -425,
+      "avg_cs_diff": -21.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1167,
-      "avg_xp_diff": -909,
-      "avg_cs_diff": -38.6,
-      "sample_frames": 5,
-      "advantage": -2
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -2246,
-      "avg_xp_diff": -1800,
-      "avg_cs_diff": -62.0,
+      "avg_gold_diff": -1047,
+      "avg_xp_diff": -905,
+      "avg_cs_diff": -34.3,
       "sample_frames": 10,
       "advantage": -2
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -2393,
+      "avg_xp_diff": -1712,
+      "avg_cs_diff": -61.4,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -3065,
-      "avg_xp_diff": -1467,
-      "avg_cs_diff": -67.3,
-      "sample_frames": 9,
+      "label": "late_game",
+      "avg_gold_diff": -3143,
+      "avg_xp_diff": -1719,
+      "avg_cs_diff": -72.2,
+      "sample_frames": 12,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "DrMundo",
+  "champB": "Illaoi",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 3.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 5.5,
+      "kda": 1.21,
+      "avgDamage": 27742
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 6.5,
+      "avgAssists": 5.0,
+      "kda": 1.46,
+      "avgDamage": 37319
+    }
+  }
 }

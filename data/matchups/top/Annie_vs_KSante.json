@@ -1,55 +1,167 @@
 {
-  "champA": "Annie",
-  "champB": "KSante",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:04.621878",
+  "sample_size": 7,
+  "overall_winrate_a": 85.7,
+  "updated_at": "2026-03-19T03:29:38.353914",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 159,
-      "avg_xp_diff": 112,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 95,
+      "avg_xp_diff": 44,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 753,
-      "avg_xp_diff": 557,
-      "avg_cs_diff": 15.0,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 327,
+      "avg_xp_diff": -67,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 35,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1228,
-      "avg_xp_diff": 1163,
-      "avg_cs_diff": 18.7,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 204,
+      "avg_xp_diff": -405,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 35,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1826,
-      "avg_xp_diff": 591,
-      "avg_cs_diff": 22.8,
-      "sample_frames": 12,
+      "label": "mid_game",
+      "avg_gold_diff": 633,
+      "avg_xp_diff": -502,
+      "avg_cs_diff": -12.9,
+      "sample_frames": 60,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 1916,
-      "avg_xp_diff": -482,
-      "avg_cs_diff": 17.0,
-      "sample_frames": 6,
-      "advantage": 2
+      "label": "late_game",
+      "avg_gold_diff": -317,
+      "avg_xp_diff": -2102,
+      "avg_cs_diff": -34.0,
+      "sample_frames": 38,
+      "advantage": -1
     }
-  ]
+  ],
+  "champA": "Annie",
+  "champB": "KSante",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 85.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "First Strike",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 6.1,
+      "avgAssists": 10.1,
+      "kda": 2.84,
+      "avgDamage": 25857
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 0.0
+        },
+        {
+          "name": "Kaenic Rookern",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 0.0
+        },
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zeke's Convergence",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 16.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 14.3
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 6.4,
+      "avgAssists": 8.3,
+      "kda": 1.8,
+      "avgDamage": 12175
+    }
+  }
 }

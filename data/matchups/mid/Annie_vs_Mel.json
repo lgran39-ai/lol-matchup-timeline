@@ -1,79 +1,191 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.073590",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.359752",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -24,
-      "avg_xp_diff": -5,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -46,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -452,
-      "avg_xp_diff": -464,
-      "avg_cs_diff": -10.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -234,
+      "avg_xp_diff": -175,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -622,
-      "avg_xp_diff": -952,
-      "avg_cs_diff": -18.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -500,
+      "avg_xp_diff": -389,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -563,
-      "avg_xp_diff": -1406,
-      "avg_cs_diff": -9.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -59,
+      "avg_xp_diff": 342,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 37,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -146,
-      "avg_xp_diff": -1691,
-      "avg_cs_diff": 5.5,
-      "sample_frames": 4,
-      "advantage": 0
+      "avg_gold_diff": 1780,
+      "avg_xp_diff": 2108,
+      "avg_cs_diff": 15.8,
+      "sample_frames": 24,
+      "advantage": 2
     }
   ],
   "champA": "Annie",
   "champB": "Mel",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 4.0,
-      "kda": 1.25,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.3,
+      "kda": 2.17,
+      "avgDamage": 20829
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 12.0,
-      "kda": 7.67,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Barrier",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.3,
+      "kda": 1.93,
+      "avgDamage": 17396
     }
   }
 }

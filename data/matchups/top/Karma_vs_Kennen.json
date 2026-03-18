@@ -1,55 +1,91 @@
 {
-  "champA": "Karma",
-  "champB": "Kennen",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.553664",
+  "updated_at": "2026-03-19T03:29:39.585956",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 123,
-      "avg_xp_diff": 86,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 172,
+      "avg_xp_diff": 166,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 864,
-      "avg_xp_diff": 875,
-      "avg_cs_diff": 20.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 723,
+      "avg_xp_diff": 770,
+      "avg_cs_diff": 13.3,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 902,
-      "avg_xp_diff": 812,
-      "avg_cs_diff": 25.4,
-      "sample_frames": 5,
-      "advantage": 2
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 941,
-      "avg_xp_diff": -556,
-      "avg_cs_diff": 23.8,
+      "avg_gold_diff": 1009,
+      "avg_xp_diff": 1158,
+      "avg_cs_diff": 26.1,
       "sample_frames": 10,
       "advantage": 2
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": 1050,
+      "avg_xp_diff": -137,
+      "avg_cs_diff": 26.6,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": 245,
       "avg_xp_diff": -2403,
       "avg_cs_diff": 22.6,
       "sample_frames": 5,
       "advantage": 1
     }
-  ]
+  ],
+  "champA": "Karma",
+  "champB": "Kennen",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 4.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 2.0,
+      "kda": 1.08,
+      "avgDamage": 14147
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 4.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 5.5,
+      "kda": 1.73,
+      "avgDamage": 16457
+    }
+  }
 }

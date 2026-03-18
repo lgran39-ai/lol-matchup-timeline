@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.505603",
+  "sample_size": 7,
+  "overall_winrate_a": 85.7,
+  "updated_at": "2026-03-19T03:29:40.122352",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -91,
-      "avg_xp_diff": -153,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 69,
+      "avg_xp_diff": 34,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -86,
-      "avg_xp_diff": 360,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 414,
+      "avg_xp_diff": 210,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 35,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 791,
-      "avg_xp_diff": 1070,
-      "avg_cs_diff": 7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 829,
+      "avg_xp_diff": 807,
+      "avg_cs_diff": 13.8,
+      "sample_frames": 35,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3000,
-      "avg_xp_diff": 2079,
-      "avg_cs_diff": 6.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 1017,
+      "avg_xp_diff": 731,
+      "avg_cs_diff": 14.6,
+      "sample_frames": 57,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4668,
-      "avg_xp_diff": 3547,
-      "avg_cs_diff": 16.7,
-      "sample_frames": 3,
+      "avg_gold_diff": 1371,
+      "avg_xp_diff": 424,
+      "avg_cs_diff": 18.2,
+      "sample_frames": 30,
       "advantage": 2
     }
   ],
@@ -54,26 +54,114 @@
   "champB": "Singed",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
-      "avgDeaths": 2.0,
+      "items": [
+        {
+          "name": "Maw of Malmortius",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Ravenous Hydra",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 83.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 85.7
+        }
+      ],
+      "avgKills": 7.4,
+      "avgDeaths": 3.3,
       "avgAssists": 4.0,
-      "kda": 9.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "kda": 3.48,
+      "avgDamage": 23450
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 1.14,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 16.7
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Protoplasm Harness",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Unsealed Spellbook",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.1,
+      "avgDeaths": 5.1,
+      "avgAssists": 5.1,
+      "kda": 1.61,
+      "avgDamage": 15755
     }
   }
 }

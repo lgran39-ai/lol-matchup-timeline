@@ -1,79 +1,105 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.973305",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.431347",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 6,
-      "avg_xp_diff": -14,
+      "avg_gold_diff": -110,
+      "avg_xp_diff": -43,
       "avg_cs_diff": -0.6,
-      "sample_frames": 5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -33,
-      "avg_xp_diff": -47,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
-      "advantage": 0
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": -214,
-      "avg_xp_diff": -1150,
-      "avg_cs_diff": -9.0,
-      "sample_frames": 5,
-      "advantage": -1
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": -286,
-      "avg_xp_diff": -1648,
-      "avg_cs_diff": 6.5,
+      "avg_gold_diff": -293,
+      "avg_xp_diff": -188,
+      "avg_cs_diff": -4.6,
       "sample_frames": 10,
       "advantage": -1
     },
     {
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": -928,
+      "avg_xp_diff": -1247,
+      "avg_cs_diff": -28.5,
+      "sample_frames": 10,
+      "advantage": -2
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -2074,
+      "avg_xp_diff": -1576,
+      "avg_cs_diff": -31.0,
+      "sample_frames": 17,
+      "advantage": -2
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 671,
-      "avg_xp_diff": 1453,
-      "avg_cs_diff": 64.2,
-      "sample_frames": 6,
-      "advantage": 2
+      "avg_gold_diff": -4170,
+      "avg_xp_diff": -3629,
+      "avg_cs_diff": -58.0,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "champA": "Jax",
   "champB": "Lulu",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.0,
-      "kda": 1.33,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgKills": 0.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 2.5,
+      "kda": 0.75,
+      "avgDamage": 5962
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 7.0,
-      "kda": 2.17,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 6.5,
+      "kda": 3.33,
+      "avgDamage": 16072
     }
   }
 }

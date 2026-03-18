@@ -1,118 +1,221 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:23.877355",
+  "sample_size": 20,
+  "overall_winrate_a": 55.0,
+  "updated_at": "2026-03-19T03:29:38.072684",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 21,
-      "avg_xp_diff": -4,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 15,
+      "avg_gold_diff": 3,
+      "avg_xp_diff": -1,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 100,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 200,
-      "avg_xp_diff": -13,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 76,
+      "avg_xp_diff": 127,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 100,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 852,
-      "avg_xp_diff": 836,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": 87,
+      "avg_xp_diff": 213,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 100,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1425,
-      "avg_xp_diff": 1793,
-      "avg_cs_diff": 21.8,
-      "sample_frames": 27,
-      "advantage": 2
+      "avg_gold_diff": -98,
+      "avg_xp_diff": -121,
+      "avg_cs_diff": -9.1,
+      "sample_frames": 170,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -256,
-      "avg_xp_diff": -199,
-      "avg_cs_diff": -37.0,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": -1367,
+      "avg_xp_diff": -1870,
+      "avg_cs_diff": -44.6,
+      "sample_frames": 87,
+      "advantage": -2
     }
   ],
   "champA": "Akali",
   "champB": "Fiora",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 20,
+          "pickRate": 100.0,
+          "winRate": 55.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 10,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 7,
+          "pickRate": 35.0,
+          "winRate": 57.1
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 15.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 10.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 10.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 17,
+          "pickRate": 85.0,
+          "winRate": 58.8
+        },
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 15.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
+          "count": 14,
+          "pickRate": 70.0,
+          "winRate": 57.1
+        },
+        {
+          "spells": "Teleport+Ignite",
+          "count": 4,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 10.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 6.0,
-      "kda": 2.36,
-      "avgDamage": 27395
+      "avgKills": 6.0,
+      "avgDeaths": 5.4,
+      "avgAssists": 4.0,
+      "kda": 1.86,
+      "avgDamage": 22917
     },
     "champB": {
       "items": [
         {
           "name": "Ravenous Hydra",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 18,
+          "pickRate": 90.0,
           "winRate": 50.0
         },
         {
           "name": "Trinity Force",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 13,
+          "pickRate": 65.0,
+          "winRate": 46.2
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 9,
+          "pickRate": 45.0,
+          "winRate": 44.4
+        },
+        {
+          "name": "Death's Dance",
+          "count": 4,
+          "pickRate": 20.0,
           "winRate": 50.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 2,
+          "pickRate": 10.0,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
+          "count": 10,
+          "pickRate": 50.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Press the Attack",
+          "count": 4,
+          "pickRate": 20.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 15.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Electrocute",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 10.0,
+          "winRate": 0.0
         }
       ],
       "summonerSpells": [
         {
+          "spells": "Flash+Ignite",
+          "count": 15,
+          "pickRate": 75.0,
+          "winRate": 53.3
+        },
+        {
           "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 15.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Ignite+Barrier",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 10.0,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 4.0,
-      "kda": 1.45,
-      "avgDamage": 23538
+      "avgKills": 4.2,
+      "avgDeaths": 6.1,
+      "avgAssists": 2.5,
+      "kda": 1.1,
+      "avgDamage": 19302
     }
   }
 }

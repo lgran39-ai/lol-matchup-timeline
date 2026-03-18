@@ -1,68 +1,167 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.009071",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T03:29:39.486449",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 26,
-      "avg_xp_diff": 19,
+      "avg_gold_diff": -62,
+      "avg_xp_diff": -8,
       "avg_cs_diff": 0.4,
-      "sample_frames": 5,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 69,
-      "avg_xp_diff": -18,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -388,
+      "avg_xp_diff": -114,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -327,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -248,
+      "avg_xp_diff": 174,
+      "avg_cs_diff": 12.0,
+      "sample_frames": 25,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1151,
-      "avg_xp_diff": -586,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 770,
+      "avg_xp_diff": 464,
+      "avg_cs_diff": 28.8,
+      "sample_frames": 42,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3300,
+      "avg_xp_diff": 1345,
+      "avg_cs_diff": 42.1,
+      "sample_frames": 23,
+      "advantage": 2
     }
   ],
   "champA": "Jayce",
   "champB": "Naafiri",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 2.0,
-      "kda": 0.6,
-      "avgDamage": 10043
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 5.8,
+      "avgAssists": 6.6,
+      "kda": 2.34,
+      "avgDamage": 26928
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 3.5,
-      "avgDamage": 11368
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.6,
+      "kda": 2.72,
+      "avgDamage": 20030
     }
   }
 }

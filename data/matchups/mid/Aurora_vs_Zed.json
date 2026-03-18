@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 8,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.165175",
+  "sample_size": 14,
+  "overall_winrate_a": 71.4,
+  "updated_at": "2026-03-19T03:29:38.484747",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 101,
-      "avg_xp_diff": 40,
-      "avg_cs_diff": 3.5,
-      "sample_frames": 40,
+      "avg_gold_diff": 98,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": 4.3,
+      "sample_frames": 70,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 312,
-      "avg_xp_diff": 241,
-      "avg_cs_diff": 11.7,
-      "sample_frames": 40,
+      "avg_gold_diff": 229,
+      "avg_xp_diff": -39,
+      "avg_cs_diff": 8.2,
+      "sample_frames": 70,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 202,
-      "avg_xp_diff": 283,
-      "avg_cs_diff": 12.9,
-      "sample_frames": 40,
+      "avg_gold_diff": 306,
+      "avg_xp_diff": -31,
+      "avg_cs_diff": 8.3,
+      "sample_frames": 70,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1332,
-      "avg_xp_diff": 1031,
-      "avg_cs_diff": 25.0,
-      "sample_frames": 61,
-      "advantage": 2
+      "avg_gold_diff": -27,
+      "avg_xp_diff": 116,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 135,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2391,
-      "avg_xp_diff": 838,
-      "avg_cs_diff": 17.1,
-      "sample_frames": 31,
-      "advantage": 2
+      "avg_gold_diff": -741,
+      "avg_xp_diff": -472,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 79,
+      "advantage": -2
     }
   ],
   "champA": "Aurora",
@@ -56,57 +56,172 @@
     "champA": {
       "items": [
         {
+          "name": "Shadowflame",
+          "count": 11,
+          "pickRate": 78.6,
+          "winRate": 63.6
+        },
+        {
           "name": "Spellslinger's Shoes",
+          "count": 10,
+          "pickRate": 71.4,
+          "winRate": 70.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 9,
+          "pickRate": 64.3,
+          "winRate": 66.7
+        },
+        {
+          "name": "Stormsurge",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 83.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 14.3,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 3,
+          "count": 14,
           "pickRate": 100.0,
-          "winRate": 66.7
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 4.0,
-      "avgDeaths": 3.3,
-      "avgAssists": 3.7,
-      "kda": 2.3,
-      "avgDamage": 14198
-    },
-    "champB": {
-      "items": [],
-      "keystones": [
-        {
-          "name": "Electrocute",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "winRate": 71.4
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
+          "count": 7,
+          "pickRate": 50.0,
+          "winRate": 85.7
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 50.0,
+          "winRate": 57.1
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.5,
+      "kda": 3.0,
+      "avgDamage": 29475
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 12,
+          "pickRate": 85.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 9,
+          "pickRate": 64.3,
+          "winRate": 33.3
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 7,
+          "pickRate": 50.0,
+          "winRate": 28.6
+        },
+        {
+          "name": "Edge of Night",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 16.7
+        },
+        {
+          "name": "Eclipse",
+          "count": 5,
+          "pickRate": 35.7,
+          "winRate": 20.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 4,
+          "pickRate": 28.6,
+          "winRate": 25.0
+        },
+        {
+          "name": "Hubris",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 21.4,
+          "winRate": 100.0
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 3,
+          "pickRate": 21.4,
           "winRate": 33.3
         }
       ],
-      "avgKills": 4.3,
-      "avgDeaths": 5.3,
-      "avgAssists": 2.3,
-      "kda": 1.25,
-      "avgDamage": 16131
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 10,
+          "pickRate": 71.4,
+          "winRate": 30.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 12,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.9,
+      "avgDeaths": 5.5,
+      "avgAssists": 5.2,
+      "kda": 2.19,
+      "avgDamage": 26663
     }
   }
 }

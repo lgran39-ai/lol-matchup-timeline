@@ -1,68 +1,167 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.927488",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T03:29:39.363889",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -283,
-      "avg_xp_diff": -154,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -75,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1063,
-      "avg_xp_diff": -373,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -258,
+      "avg_xp_diff": -85,
+      "avg_cs_diff": 6.4,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1229,
-      "avg_xp_diff": -653,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 390,
+      "avg_xp_diff": 188,
+      "avg_cs_diff": 17.2,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2457,
-      "avg_xp_diff": -1747,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 1381,
+      "avg_xp_diff": 495,
+      "avg_cs_diff": 37.2,
+      "sample_frames": 32,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1759,
+      "avg_xp_diff": -1035,
+      "avg_cs_diff": 55.4,
+      "sample_frames": 8,
+      "advantage": 2
     }
   ],
   "champA": "Irelia",
   "champB": "TwistedFate",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 2.0,
-      "kda": 0.44,
-      "avgDamage": 14887
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Wit's End",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.6,
+      "avgDeaths": 4.8,
+      "avgAssists": 5.0,
+      "kda": 2.21,
+      "avgDamage": 19244
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 11.0,
-      "kda": 5.67,
-      "avgDamage": 17379
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rapid Firecannon",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.2,
+      "avgDeaths": 3.6,
+      "avgAssists": 6.2,
+      "kda": 2.61,
+      "avgDamage": 15914
     }
   }
 }

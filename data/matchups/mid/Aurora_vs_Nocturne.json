@@ -1,46 +1,109 @@
 {
-  "champA": "Aurora",
-  "champB": "Nocturne",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.703344",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.445578",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 272,
-      "avg_xp_diff": 223,
-      "avg_cs_diff": 7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 176,
+      "avg_xp_diff": 163,
+      "avg_cs_diff": 6.2,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1121,
-      "avg_xp_diff": 1520,
-      "avg_cs_diff": 33.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 531,
+      "avg_xp_diff": 866,
+      "avg_cs_diff": 25.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2960,
-      "avg_xp_diff": 2924,
-      "avg_cs_diff": 57.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 1211,
+      "avg_xp_diff": 1574,
+      "avg_cs_diff": 43.1,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 4359,
-      "avg_xp_diff": 3778,
-      "avg_cs_diff": 72.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": 150,
+      "avg_xp_diff": 616,
+      "avg_cs_diff": 38.1,
+      "sample_frames": 7,
+      "advantage": 0
     }
-  ]
+  ],
+  "champA": "Aurora",
+  "champB": "Nocturne",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 2.0,
+      "kda": 1.71,
+      "avgDamage": 12752
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 3.5,
+      "kda": 1.45,
+      "avgDamage": 7394
+    }
+  }
 }

@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:27.053000",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:43.209783",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -130,
-      "avg_xp_diff": -130,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -113,
+      "avg_xp_diff": -62,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -58,
-      "avg_xp_diff": -222,
-      "avg_cs_diff": -12.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -528,
+      "avg_xp_diff": -177,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -35,
-      "avg_xp_diff": -693,
-      "avg_cs_diff": -23.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -1569,
+      "avg_xp_diff": -598,
+      "avg_cs_diff": -16.8,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3030,
-      "avg_xp_diff": -536,
-      "avg_cs_diff": -47.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -2955,
+      "avg_xp_diff": -834,
+      "avg_cs_diff": -26.3,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -5571,
-      "avg_xp_diff": -1141,
-      "avg_cs_diff": -75.0,
-      "sample_frames": 8,
+      "avg_gold_diff": -5456,
+      "avg_xp_diff": -1714,
+      "avg_cs_diff": -49.0,
+      "sample_frames": 13,
       "advantage": -2
     }
   ],
@@ -64,50 +64,160 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 6.0,
-        "kda": 1.33,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 7.3,
+        "avgAssists": 9.0,
+        "kda": 1.91,
+        "avgDamage": 23989
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 11.0,
-        "kda": 3.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.7,
+        "avgDeaths": 8.7,
+        "avgAssists": 15.0,
+        "kda": 1.92,
+        "avgDamage": 7537
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 11.0,
-        "kda": 18.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 12.3,
+        "avgDeaths": 8.0,
+        "avgAssists": 8.3,
+        "kda": 2.58,
+        "avgDamage": 34100
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 14.0,
-        "kda": 2.8,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.7,
+        "avgDeaths": 6.7,
+        "avgAssists": 19.7,
+        "kda": 3.2,
+        "avgDamage": 8761
       }
     }
   }

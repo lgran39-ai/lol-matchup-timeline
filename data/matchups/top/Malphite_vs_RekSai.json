@@ -1,55 +1,143 @@
 {
-  "champA": "Malphite",
-  "champB": "RekSai",
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.779804",
+  "updated_at": "2026-03-19T03:29:39.898297",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 3,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -62,
+      "avg_xp_diff": -6,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 234,
-      "avg_xp_diff": -18,
-      "avg_cs_diff": -1.9,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -19,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": -11.8,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 31,
-      "avg_xp_diff": 160,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -321,
+      "avg_xp_diff": -219,
+      "avg_cs_diff": -14.9,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -682,
-      "avg_xp_diff": -554,
-      "avg_cs_diff": -12.2,
-      "sample_frames": 20,
+      "label": "mid_game",
+      "avg_gold_diff": -1563,
+      "avg_xp_diff": -1321,
+      "avg_cs_diff": -33.1,
+      "sample_frames": 37,
       "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -578,
-      "avg_xp_diff": 963,
-      "avg_cs_diff": -11.9,
-      "sample_frames": 20,
+      "label": "late_game",
+      "avg_gold_diff": -858,
+      "avg_xp_diff": 791,
+      "avg_cs_diff": -15.5,
+      "sample_frames": 24,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Malphite",
+  "champB": "RekSai",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 2.5,
+      "avgAssists": 9.0,
+      "kda": 4.7,
+      "avgDamage": 24658
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 4.2,
+      "avgAssists": 3.2,
+      "kda": 1.76,
+      "avgDamage": 17970
+    }
+  }
 }

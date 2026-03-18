@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.920471",
+  "sample_size": 2,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T03:29:40.664648",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -46,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -84,
+      "avg_xp_diff": -5,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -193,
-      "avg_xp_diff": 54,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
-      "advantage": -1
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": -868,
-      "avg_xp_diff": -319,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
-      "advantage": -2
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": -2524,
-      "avg_xp_diff": -842,
-      "avg_cs_diff": 2.0,
+      "avg_gold_diff": -458,
+      "avg_xp_diff": 113,
+      "avg_cs_diff": 3.6,
       "sample_frames": 10,
       "advantage": -2
     },
     {
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": 410,
+      "avg_xp_diff": 1058,
+      "avg_cs_diff": 10.7,
+      "sample_frames": 10,
+      "advantage": 2
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -90,
+      "avg_xp_diff": 1148,
+      "avg_cs_diff": 11.9,
+      "sample_frames": 20,
+      "advantage": 0
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3200,
-      "avg_xp_diff": -1308,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -610,
+      "avg_xp_diff": 1817,
+      "avg_cs_diff": 7.4,
+      "sample_frames": 10,
       "advantage": -2
     }
   ],
@@ -54,26 +54,44 @@
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgKills": 6.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 10.5,
+      "kda": 6.6,
+      "avgDamage": 24404
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 4.0,
-      "kda": 8.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgKills": 9.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 5.0,
+      "kda": 2.0,
+      "avgDamage": 27894
     }
   }
 }

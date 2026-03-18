@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.134732",
+  "sample_size": 14,
+  "overall_winrate_a": 78.6,
+  "updated_at": "2026-03-19T03:29:38.421998",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 124,
-      "avg_xp_diff": 71,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 32,
+      "avg_xp_diff": 35,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 70,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 476,
-      "avg_xp_diff": 441,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 258,
+      "avg_xp_diff": 185,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 70,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1111,
-      "avg_xp_diff": 1450,
-      "avg_cs_diff": 10.0,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 295,
+      "avg_xp_diff": 86,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 70,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 653,
-      "avg_xp_diff": 906,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 17,
+      "avg_gold_diff": 745,
+      "avg_xp_diff": 338,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 123,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1306,
-      "avg_xp_diff": -1007,
-      "avg_cs_diff": -11.0,
-      "sample_frames": 6,
+      "avg_gold_diff": 1590,
+      "avg_xp_diff": 1205,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 35,
       "advantage": 2
     }
   ],
@@ -54,24 +54,138 @@
   "champB": "Hwei",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 2.0,
-      "kda": 4.5,
-      "avgDamage": 14191
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 12,
+          "pickRate": 85.7,
+          "winRate": 91.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 11,
+          "pickRate": 78.6,
+          "winRate": 72.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 10,
+          "pickRate": 71.4,
+          "winRate": 90.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 5,
+          "pickRate": 35.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 14,
+          "pickRate": 100.0,
+          "winRate": 78.6
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 8,
+          "pickRate": 57.1,
+          "winRate": 87.5
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.6,
+      "avgDeaths": 4.6,
+      "avgAssists": 6.6,
+      "kda": 3.11,
+      "avgDamage": 23025
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 1.0,
-      "kda": 0.38,
-      "avgDamage": 13000
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 12,
+          "pickRate": 85.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 8,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 16.7
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 4,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 21.4,
+          "winRate": 33.3
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 10,
+          "pickRate": 71.4,
+          "winRate": 20.0
+        },
+        {
+          "name": "Summon Aery",
+          "count": 4,
+          "pickRate": 28.6,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 13,
+          "pickRate": 92.9,
+          "winRate": 15.4
+        }
+      ],
+      "avgKills": 4.6,
+      "avgDeaths": 5.4,
+      "avgAssists": 5.4,
+      "kda": 1.83,
+      "avgDamage": 23435
     }
   }
 }

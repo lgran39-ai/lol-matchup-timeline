@@ -1,46 +1,173 @@
 {
-  "champA": "Gwen",
-  "champB": "Vi",
   "role": "jg",
-  "sample_size": 4,
-  "overall_winrate_a": 75.0,
-  "updated_at": "2026-03-13T23:57:05.297290",
+  "sample_size": 14,
+  "overall_winrate_a": 35.7,
+  "updated_at": "2026-03-19T03:29:39.259140",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 22,
-      "avg_xp_diff": -76,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 20,
+      "avg_gold_diff": -40,
+      "avg_xp_diff": -61,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 70,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -348,
-      "avg_xp_diff": -353,
-      "avg_cs_diff": -7.2,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": -490,
+      "avg_xp_diff": -448,
+      "avg_cs_diff": -7.5,
+      "sample_frames": 70,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -451,
-      "avg_xp_diff": -629,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 20,
+      "avg_gold_diff": -766,
+      "avg_xp_diff": -733,
+      "avg_cs_diff": -12.4,
+      "sample_frames": 70,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -327,
-      "avg_xp_diff": -656,
-      "avg_cs_diff": -1.7,
-      "sample_frames": 23,
-      "advantage": -1
+      "label": "mid_game",
+      "avg_gold_diff": -1032,
+      "avg_xp_diff": -1009,
+      "avg_cs_diff": -16.8,
+      "sample_frames": 84,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -848,
+      "avg_xp_diff": -287,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 29,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Gwen",
+  "champB": "Vi",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 10,
+          "pickRate": 71.4,
+          "winRate": 30.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 50.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 4,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 21.4,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 14,
+          "pickRate": 100.0,
+          "winRate": 35.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 13,
+          "pickRate": 92.9,
+          "winRate": 38.5
+        }
+      ],
+      "avgKills": 3.9,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.0,
+      "kda": 1.75,
+      "avgDamage": 14656
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 11,
+          "pickRate": 78.6,
+          "winRate": 63.6
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 4,
+          "pickRate": 28.6,
+          "winRate": 75.0
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 14,
+          "pickRate": 100.0,
+          "winRate": 64.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 14,
+          "pickRate": 100.0,
+          "winRate": 64.3
+        }
+      ],
+      "avgKills": 6.4,
+      "avgDeaths": 2.4,
+      "avgAssists": 7.3,
+      "kda": 5.62,
+      "avgDamage": 13661
+    }
+  }
 }

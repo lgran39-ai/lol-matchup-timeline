@@ -1,70 +1,131 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.993704",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:39.460673",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -171,
-      "avg_xp_diff": -121,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -96,
+      "avg_xp_diff": -30,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1041,
-      "avg_xp_diff": -1033,
-      "avg_cs_diff": -27.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -255,
+      "avg_xp_diff": -220,
+      "avg_cs_diff": -6.5,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1958,
-      "avg_xp_diff": -2745,
-      "avg_cs_diff": -49.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -559,
+      "avg_xp_diff": -531,
+      "avg_cs_diff": -12.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3788,
-      "avg_xp_diff": -3274,
-      "avg_cs_diff": -54.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 101,
+      "avg_xp_diff": 676,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 40,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1001,
+      "avg_xp_diff": 1715,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 22,
+      "advantage": 2
     }
   ],
   "champA": "Jax",
   "champB": "Warwick",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 2.0,
-      "kda": 0.2,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 7.8,
+      "avgAssists": 8.2,
+      "kda": 1.97,
+      "avgDamage": 26994
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 3.0,
-      "kda": 13.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zeke's Convergence",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Barrier",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 7.8,
+      "avgDeaths": 8.8,
+      "avgAssists": 4.8,
+      "kda": 1.43,
+      "avgDamage": 20383
     }
   }
 }

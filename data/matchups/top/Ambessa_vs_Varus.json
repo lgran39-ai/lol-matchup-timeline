@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.012972",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T03:29:38.262018",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -257,
-      "avg_xp_diff": -132,
-      "avg_cs_diff": -5.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -103,
+      "avg_xp_diff": -71,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -825,
-      "avg_xp_diff": -218,
-      "avg_cs_diff": -33.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -502,
+      "avg_xp_diff": -257,
+      "avg_cs_diff": -9.0,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1794,
-      "avg_xp_diff": -591,
-      "avg_cs_diff": -47.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -842,
+      "avg_xp_diff": -1198,
+      "avg_cs_diff": -20.3,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2124,
-      "avg_xp_diff": 135,
-      "avg_cs_diff": -57.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -935,
+      "avg_xp_diff": -659,
+      "avg_cs_diff": -16.1,
+      "sample_frames": 52,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1738,
-      "avg_xp_diff": 1420,
-      "avg_cs_diff": -59.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -4494,
+      "avg_xp_diff": -1145,
+      "avg_cs_diff": -38.8,
+      "sample_frames": 20,
       "advantage": -2
     }
   ],
@@ -54,24 +54,96 @@
   "champB": "Varus",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 10.0,
-      "kda": 4.75,
-      "avgDamage": 16613
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 5.4,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.6,
+      "kda": 1.83,
+      "avgDamage": 16462
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 7.0,
-      "kda": 1.4,
-      "avgDamage": 33709
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.8,
+      "avgDeaths": 6.6,
+      "avgAssists": 5.4,
+      "kda": 2.15,
+      "avgDamage": 29950
     }
   }
 }

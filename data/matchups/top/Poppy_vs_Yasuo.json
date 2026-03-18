@@ -1,68 +1,125 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.562153",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:40.226050",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 305,
-      "avg_xp_diff": 296,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -152,
+      "avg_xp_diff": -98,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 188,
-      "avg_xp_diff": 1250,
-      "avg_cs_diff": 18.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -341,
+      "avg_xp_diff": -175,
+      "avg_cs_diff": -10.7,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 707,
-      "avg_xp_diff": 2376,
-      "avg_cs_diff": 25.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -39,
+      "avg_xp_diff": 49,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2702,
-      "avg_xp_diff": 4769,
-      "avg_cs_diff": 50.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -822,
+      "avg_xp_diff": -522,
+      "avg_cs_diff": -19.7,
+      "sample_frames": 22,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2122,
+      "avg_xp_diff": -1830,
+      "avg_cs_diff": -53.0,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "champA": "Poppy",
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.0,
-      "kda": 5.0,
-      "avgDamage": 15467
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 1.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 4.3,
+      "kda": 1.8,
+      "avgDamage": 11541
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 0.0,
-      "kda": 0.44,
-      "avgDamage": 10942
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 3.7,
+      "avgAssists": 4.0,
+      "kda": 1.91,
+      "avgDamage": 15987
     }
   }
 }

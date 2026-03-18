@@ -1,46 +1,119 @@
 {
-  "champA": "Anivia",
-  "champB": "Zed",
   "role": "top",
   "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.614093",
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.340955",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -9,
-      "avg_xp_diff": 32,
-      "avg_cs_diff": 3.3,
+      "avg_gold_diff": -45,
+      "avg_xp_diff": -82,
+      "avg_cs_diff": -0.3,
       "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 207,
-      "avg_xp_diff": 464,
-      "avg_cs_diff": 11.6,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": 36,
+      "avg_cs_diff": 3.4,
       "sample_frames": 10,
-      "advantage": 1
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1036,
-      "avg_xp_diff": 1193,
-      "avg_cs_diff": 25.6,
+      "avg_gold_diff": 666,
+      "avg_xp_diff": 725,
+      "avg_cs_diff": 13.8,
       "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -244,
-      "avg_xp_diff": -360,
-      "avg_cs_diff": 7.7,
+      "label": "mid_game",
+      "avg_gold_diff": 287,
+      "avg_xp_diff": 1212,
+      "avg_cs_diff": 5.8,
       "sample_frames": 12,
-      "advantage": -1
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 524,
+      "avg_xp_diff": 3785,
+      "avg_cs_diff": 9.7,
+      "sample_frames": 6,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Zed",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.0,
+      "kda": 3.0,
+      "avgDamage": 14712
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 3.0,
+      "kda": 1.38,
+      "avgDamage": 14319
+    }
+  }
 }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 5,
-  "overall_winrate_a": 40.0,
-  "updated_at": "2026-03-18T14:05:25.615630",
+  "sample_size": 17,
+  "overall_winrate_a": 76.5,
+  "updated_at": "2026-03-19T03:29:40.310574",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -108,
-      "avg_xp_diff": -36,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 25,
+      "avg_gold_diff": -95,
+      "avg_xp_diff": -50,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 85,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -143,
-      "avg_xp_diff": 131,
-      "avg_cs_diff": -14.4,
-      "sample_frames": 25,
+      "avg_gold_diff": -73,
+      "avg_xp_diff": 152,
+      "avg_cs_diff": -5.4,
+      "sample_frames": 85,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 48,
-      "avg_xp_diff": 474,
-      "avg_cs_diff": -19.1,
-      "sample_frames": 25,
-      "advantage": 0
+      "avg_gold_diff": 239,
+      "avg_xp_diff": 639,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 85,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -370,
-      "avg_xp_diff": 282,
-      "avg_cs_diff": -17.7,
-      "sample_frames": 49,
-      "advantage": -1
+      "avg_gold_diff": -55,
+      "avg_xp_diff": 381,
+      "avg_cs_diff": -1.5,
+      "sample_frames": 143,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2653,
-      "avg_xp_diff": -1965,
-      "avg_cs_diff": -40.5,
-      "sample_frames": 16,
+      "avg_gold_diff": -1253,
+      "avg_xp_diff": -512,
+      "avg_cs_diff": 11.0,
+      "sample_frames": 53,
       "advantage": -2
     }
   ],
@@ -54,38 +54,150 @@
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 14,
+          "pickRate": 82.4,
+          "winRate": 71.4
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 4,
+          "pickRate": 23.5,
+          "winRate": 100.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 3,
+          "pickRate": 17.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 17.6,
+          "winRate": 66.7
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 11.8,
+          "winRate": 50.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 11.8,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 10,
+          "pickRate": 58.8,
+          "winRate": 80.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 7,
+          "pickRate": 41.2,
+          "winRate": 71.4
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
+          "count": 10,
+          "pickRate": 58.8,
+          "winRate": 60.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 7,
+          "pickRate": 41.2,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.1,
+      "avgDeaths": 3.9,
+      "avgAssists": 5.5,
+      "kda": 2.2,
+      "avgDamage": 12881
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 11,
+          "pickRate": 64.7,
+          "winRate": 36.4
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 8,
+          "pickRate": 47.1,
+          "winRate": 37.5
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 4,
+          "pickRate": 23.5,
+          "winRate": 25.0
+        },
+        {
+          "name": "Stormrazor",
+          "count": 4,
+          "pickRate": 23.5,
+          "winRate": 25.0
+        },
+        {
+          "name": "Guinsoo's Rageblade",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 11.8,
+          "winRate": 50.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 11.8,
           "winRate": 50.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 7.5,
-      "kda": 3.33,
-      "avgDamage": 13804
-    },
-    "champB": {
-      "items": [],
       "keystones": [
         {
           "name": "Lethal Tempo",
+          "count": 13,
+          "pickRate": 76.5,
+          "winRate": 30.8
+        },
+        {
+          "name": "Fleet Footwork",
+          "count": 4,
+          "pickRate": 23.5,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 14,
+          "pickRate": 82.4,
+          "winRate": 21.4
+        },
+        {
+          "spells": "Flash+Ghost",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 11.8,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 1.42,
-      "avgDamage": 26598
+      "avgKills": 4.2,
+      "avgDeaths": 5.8,
+      "avgAssists": 3.6,
+      "kda": 1.37,
+      "avgDamage": 22410
     }
   }
 }

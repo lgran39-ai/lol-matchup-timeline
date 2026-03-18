@@ -1,55 +1,143 @@
 {
-  "champA": "Vladimir",
-  "champB": "Yorick",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:06.389711",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:40.639979",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -64,
-      "avg_xp_diff": -14,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -13,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -758,
-      "avg_xp_diff": -641,
-      "avg_cs_diff": -15.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -355,
+      "avg_xp_diff": -339,
+      "avg_cs_diff": -9.9,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1922,
-      "avg_xp_diff": -2266,
-      "avg_cs_diff": -37.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -740,
+      "avg_xp_diff": -928,
+      "avg_cs_diff": -18.8,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -3530,
-      "avg_xp_diff": -2675,
-      "avg_cs_diff": -37.6,
-      "sample_frames": 21,
+      "label": "mid_game",
+      "avg_gold_diff": -2123,
+      "avg_xp_diff": -1512,
+      "avg_cs_diff": -24.4,
+      "sample_frames": 45,
       "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -6425,
-      "avg_xp_diff": -4062,
-      "avg_cs_diff": -96.0,
-      "sample_frames": 5,
+      "label": "late_game",
+      "avg_gold_diff": -3731,
+      "avg_xp_diff": -2050,
+      "avg_cs_diff": -52.4,
+      "sample_frames": 12,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Vladimir",
+  "champB": "Yorick",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.3,
+      "avgDeaths": 4.7,
+      "avgAssists": 3.7,
+      "kda": 1.29,
+      "avgDamage": 16064
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 3.8,
+      "avgDeaths": 3.2,
+      "avgAssists": 2.7,
+      "kda": 2.05,
+      "avgDamage": 20040
+    }
+  }
 }

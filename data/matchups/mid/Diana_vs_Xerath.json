@@ -1,77 +1,167 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.416477",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.772584",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 157,
-      "avg_xp_diff": 52,
-      "avg_cs_diff": 3.3,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 44,
+      "avg_xp_diff": 4,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 654,
-      "avg_xp_diff": 268,
-      "avg_cs_diff": 14.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 437,
+      "avg_xp_diff": 188,
+      "avg_cs_diff": 11.5,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 967,
-      "avg_xp_diff": 259,
-      "avg_cs_diff": 15.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 791,
+      "avg_xp_diff": 542,
+      "avg_cs_diff": 15.4,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2084,
-      "avg_xp_diff": 1163,
-      "avg_cs_diff": 22.3,
-      "sample_frames": 22,
+      "avg_gold_diff": 1293,
+      "avg_xp_diff": 1139,
+      "avg_cs_diff": 19.6,
+      "sample_frames": 43,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2338,
-      "avg_xp_diff": 1298,
-      "avg_cs_diff": 20.8,
-      "sample_frames": 16,
-      "advantage": 2
+      "avg_gold_diff": 298,
+      "avg_xp_diff": -1341,
+      "avg_cs_diff": 7.4,
+      "sample_frames": 14,
+      "advantage": 1
     }
   ],
   "champA": "Diana",
   "champB": "Xerath",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.0,
-      "kda": 1.83,
-      "avgDamage": 25208
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 3.8,
+      "avgAssists": 4.5,
+      "kda": 2.65,
+      "avgDamage": 17506
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 11.0,
-      "kda": 2.83,
-      "avgDamage": 14544
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 3.5,
+      "avgAssists": 5.2,
+      "kda": 2.43,
+      "avgDamage": 14730
     }
   }
 }

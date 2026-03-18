@@ -1,77 +1,149 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:23.908763",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:38.113567",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -14,
-      "avg_xp_diff": -139,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -74,
+      "avg_xp_diff": -47,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 71,
-      "avg_xp_diff": -104,
-      "avg_cs_diff": -2.3,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -151,
+      "avg_xp_diff": -67,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 254,
-      "avg_xp_diff": 427,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -178,
+      "avg_xp_diff": -306,
+      "avg_cs_diff": -5.8,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 824,
-      "avg_xp_diff": 1439,
-      "avg_cs_diff": 12.6,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": -826,
+      "avg_xp_diff": -1099,
+      "avg_cs_diff": -19.3,
+      "sample_frames": 55,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2303,
-      "avg_xp_diff": 2006,
-      "avg_cs_diff": 33.4,
-      "sample_frames": 18,
-      "advantage": 2
+      "avg_gold_diff": -1228,
+      "avg_xp_diff": -2269,
+      "avg_cs_diff": -26.5,
+      "sample_frames": 48,
+      "advantage": -2
     }
   ],
   "champA": "Akali",
   "champB": "Teemo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 0.0,
-      "kda": 0.71,
-      "avgDamage": 15508
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Teleport+Ignite",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 8.8,
+      "avgAssists": 4.2,
+      "kda": 1.11,
+      "avgDamage": 21139
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 3.0,
-      "kda": 1.5,
-      "avgDamage": 21586
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Malignance",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 7.5,
+      "kda": 2.38,
+      "avgDamage": 30345
     }
   }
 }

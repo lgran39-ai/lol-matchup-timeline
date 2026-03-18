@@ -1,98 +1,155 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:23.935004",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-19T03:29:38.145118",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -11,
-      "avg_xp_diff": -8,
-      "avg_cs_diff": -0.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 40,
+      "avg_xp_diff": 42,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -257,
-      "avg_xp_diff": -291,
-      "avg_cs_diff": -6.3,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": 110,
+      "avg_xp_diff": 93,
+      "avg_cs_diff": 4.8,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -247,
-      "avg_xp_diff": -505,
-      "avg_cs_diff": -10.3,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": -96,
+      "avg_xp_diff": -90,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 646,
-      "avg_xp_diff": -498,
-      "avg_cs_diff": -15.9,
-      "sample_frames": 30,
+      "avg_gold_diff": 867,
+      "avg_xp_diff": 779,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 35,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2235,
-      "avg_xp_diff": -20,
-      "avg_cs_diff": -32.2,
-      "sample_frames": 19,
-      "advantage": 2
+      "avg_gold_diff": -2440,
+      "avg_xp_diff": -706,
+      "avg_cs_diff": -65.2,
+      "sample_frames": 6,
+      "advantage": -2
     }
   ],
   "champA": "Akshan",
   "champB": "Lissandra",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Statikk Shiv",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 80.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Cleanse+Flash",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 12.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 6.0,
-      "kda": 4.0,
-      "avgDamage": 28006
+      "avgKills": 4.4,
+      "avgDeaths": 4.2,
+      "avgAssists": 3.4,
+      "kda": 1.86,
+      "avgDamage": 17031
     },
     "champB": {
-      "items": [],
-      "keystones": [
+      "items": [
         {
-          "name": "Arcane Comet",
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
           "winRate": 0.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 6.0,
-      "avgAssists": 8.0,
-      "kda": 2.08,
-      "avgDamage": 29634
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 3.8,
+      "avgAssists": 4.8,
+      "kda": 2.0,
+      "avgDamage": 11825
     }
   }
 }

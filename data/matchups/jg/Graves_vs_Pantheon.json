@@ -1,55 +1,209 @@
 {
-  "champA": "Graves",
-  "champB": "Pantheon",
   "role": "jg",
-  "sample_size": 7,
-  "overall_winrate_a": 42.9,
-  "updated_at": "2026-03-13T23:57:05.268534",
+  "sample_size": 20,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:39.207614",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 52,
-      "avg_xp_diff": -38,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 35,
+      "avg_gold_diff": 53,
+      "avg_xp_diff": 15,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 100,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 64,
-      "avg_xp_diff": -86,
-      "avg_cs_diff": -0.5,
-      "sample_frames": 35,
+      "avg_gold_diff": 105,
+      "avg_xp_diff": 130,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 100,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 181,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": 4.1,
-      "sample_frames": 35,
+      "avg_gold_diff": 158,
+      "avg_xp_diff": 194,
+      "avg_cs_diff": 8.6,
+      "sample_frames": 100,
       "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 528,
-      "avg_xp_diff": 185,
-      "avg_cs_diff": 18.9,
-      "sample_frames": 61,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": 318,
+      "avg_xp_diff": 460,
+      "avg_cs_diff": 23.8,
+      "sample_frames": 168,
+      "advantage": 1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 1818,
-      "avg_xp_diff": 1138,
-      "avg_cs_diff": 41.2,
-      "sample_frames": 25,
+      "label": "late_game",
+      "avg_gold_diff": 1542,
+      "avg_xp_diff": 1968,
+      "avg_cs_diff": 58.1,
+      "sample_frames": 88,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Graves",
+  "champB": "Pantheon",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "The Collector",
+          "count": 15,
+          "pickRate": 75.0,
+          "winRate": 46.7
+        },
+        {
+          "name": "Hubris",
+          "count": 9,
+          "pickRate": 45.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 7,
+          "pickRate": 35.0,
+          "winRate": 42.9
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 6,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 6,
+          "pickRate": 30.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 5,
+          "pickRate": 25.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Hexoptics C44",
+          "count": 5,
+          "pickRate": 25.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 3,
+          "pickRate": 15.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 13,
+          "pickRate": 65.0,
+          "winRate": 46.2
+        },
+        {
+          "name": "Fleet Footwork",
+          "count": 7,
+          "pickRate": 35.0,
+          "winRate": 28.6
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 20,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 5.3,
+      "avgAssists": 6.5,
+      "kda": 2.68,
+      "avgDamage": 22588
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 14,
+          "pickRate": 70.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 11,
+          "pickRate": 55.0,
+          "winRate": 54.5
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 7,
+          "pickRate": 35.0,
+          "winRate": 42.9
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 7,
+          "pickRate": 35.0,
+          "winRate": 85.7
+        },
+        {
+          "name": "Opportunity",
+          "count": 6,
+          "pickRate": 30.0,
+          "winRate": 83.3
+        },
+        {
+          "name": "Edge of Night",
+          "count": 4,
+          "pickRate": 20.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 15.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 10.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 20,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 20,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 8.7,
+      "avgDeaths": 4.8,
+      "avgAssists": 7.9,
+      "kda": 3.49,
+      "avgDamage": 20887
+    }
+  }
 }

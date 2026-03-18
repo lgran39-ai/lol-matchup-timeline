@@ -1,55 +1,143 @@
 {
-  "champA": "Aurora",
-  "champB": "Zilean",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:04.726307",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.487252",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 66,
-      "avg_xp_diff": 32,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 50,
+      "avg_xp_diff": 30,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 324,
-      "avg_xp_diff": 227,
-      "avg_cs_diff": 10.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 308,
+      "avg_xp_diff": 212,
+      "avg_cs_diff": 6.4,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 660,
-      "avg_xp_diff": 1114,
-      "avg_cs_diff": 19.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 623,
+      "avg_xp_diff": 590,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1592,
-      "avg_xp_diff": 1288,
-      "avg_cs_diff": 33.0,
-      "sample_frames": 20,
+      "label": "mid_game",
+      "avg_gold_diff": 912,
+      "avg_xp_diff": 448,
+      "avg_cs_diff": 17.3,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 2666,
-      "avg_xp_diff": 2188,
-      "avg_cs_diff": 55.9,
-      "sample_frames": 16,
+      "label": "late_game",
+      "avg_gold_diff": 1723,
+      "avg_xp_diff": 470,
+      "avg_cs_diff": 34.3,
+      "sample_frames": 26,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Aurora",
+  "champB": "Zilean",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.7,
+      "avgAssists": 9.3,
+      "kda": 3.29,
+      "avgDamage": 26454
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Shurelya's Battlesong",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Trailblazer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 5.3,
+      "avgAssists": 12.0,
+      "kda": 2.75,
+      "avgDamage": 16114
+    }
+  }
 }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.292190",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.619436",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 9,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -14,
+      "avg_xp_diff": 33,
+      "avg_cs_diff": 4.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 38,
-      "avg_xp_diff": -230,
-      "avg_cs_diff": 6.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 54,
+      "avg_xp_diff": 14,
+      "avg_cs_diff": 18.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 286,
-      "avg_xp_diff": -309,
-      "avg_cs_diff": 6.6,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -212,
+      "avg_xp_diff": -354,
+      "avg_cs_diff": 22.9,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 205,
-      "avg_xp_diff": -630,
-      "avg_cs_diff": 10.2,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": 533,
+      "avg_xp_diff": 605,
+      "avg_cs_diff": 43.5,
+      "sample_frames": 26,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 945,
-      "avg_xp_diff": 1920,
-      "avg_cs_diff": 32.7,
-      "sample_frames": 11,
+      "avg_gold_diff": 1675,
+      "avg_xp_diff": 1025,
+      "avg_cs_diff": 69.0,
+      "sample_frames": 20,
       "advantage": 2
     }
   ],
@@ -54,26 +54,65 @@
   "champB": "Gragas",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 7.0,
-      "kda": 2.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 6.7,
+      "avgAssists": 4.3,
+      "kda": 1.6,
+      "avgDamage": 25383
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 9.5,
-      "kda": 3.1,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 8.0,
+      "kda": 2.0,
+      "avgDamage": 20028
     }
   }
 }

@@ -1,55 +1,137 @@
 {
-  "champA": "Akali",
-  "champB": "Naafiri",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.462068",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.095514",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 115,
-      "avg_xp_diff": 15,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -16,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 525,
-      "avg_xp_diff": 455,
-      "avg_cs_diff": 21.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 101,
+      "avg_xp_diff": 240,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1229,
-      "avg_xp_diff": 1876,
-      "avg_cs_diff": 31.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1052,
+      "avg_xp_diff": 1999,
+      "avg_cs_diff": 19.5,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 3158,
-      "avg_xp_diff": 3705,
-      "avg_cs_diff": 22.9,
-      "sample_frames": 10,
+      "label": "mid_game",
+      "avg_gold_diff": 2067,
+      "avg_xp_diff": 2950,
+      "avg_cs_diff": 16.6,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 4139,
-      "avg_xp_diff": 5131,
-      "avg_cs_diff": 5.7,
-      "sample_frames": 9,
+      "label": "late_game",
+      "avg_gold_diff": 2647,
+      "avg_xp_diff": 3045,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 18,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Akali",
+  "champB": "Naafiri",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.3,
+      "kda": 3.27,
+      "avgDamage": 29951
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Edge of Night",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 3.3,
+      "kda": 1.29,
+      "avgDamage": 18106
+    }
+  }
 }

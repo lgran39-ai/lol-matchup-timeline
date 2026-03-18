@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 5,
-  "overall_winrate_a": 40.0,
-  "updated_at": "2026-03-18T14:05:25.711721",
+  "sample_size": 8,
+  "overall_winrate_a": 37.5,
+  "updated_at": "2026-03-19T03:29:40.428410",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 15,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 25,
+      "avg_gold_diff": -41,
+      "avg_xp_diff": 12,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 233,
-      "avg_xp_diff": 198,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 25,
-      "advantage": 1
+      "avg_gold_diff": -310,
+      "avg_xp_diff": -21,
+      "avg_cs_diff": -7.3,
+      "sample_frames": 40,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 263,
-      "avg_xp_diff": 592,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 25,
-      "advantage": 1
+      "avg_gold_diff": -457,
+      "avg_xp_diff": -142,
+      "avg_cs_diff": -17.4,
+      "sample_frames": 40,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 318,
-      "avg_xp_diff": 772,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 45,
-      "advantage": 1
+      "avg_gold_diff": -1850,
+      "avg_xp_diff": -590,
+      "avg_cs_diff": -33.5,
+      "sample_frames": 57,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -27,
-      "avg_xp_diff": 157,
-      "avg_cs_diff": -11.8,
-      "sample_frames": 17,
-      "advantage": 0
+      "avg_gold_diff": -4471,
+      "avg_xp_diff": -1207,
+      "avg_cs_diff": -51.0,
+      "sample_frames": 29,
+      "advantage": -2
     }
   ],
   "champA": "Shen",
@@ -56,43 +56,106 @@
     "champA": {
       "items": [
         {
-          "name": "Heartsteel",
-          "count": 2,
-          "pickRate": 100.0,
+          "name": "Titanic Hydra",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 40.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 0.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 3,
+          "pickRate": 37.5,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 8,
           "pickRate": 100.0,
+          "winRate": 37.5
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 60.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 37.5,
           "winRate": 0.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 5.5,
-      "kda": 2.88,
-      "avgDamage": 22933
+      "avgKills": 2.9,
+      "avgDeaths": 3.9,
+      "avgAssists": 8.0,
+      "kda": 2.81,
+      "avgDamage": 20306
     },
     "champB": {
       "items": [
         {
           "name": "Trinity Force",
-          "count": 2,
+          "count": 8,
           "pickRate": 100.0,
+          "winRate": 62.5
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 100.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 25.0,
           "winRate": 100.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 8.5,
-      "kda": 5.0,
-      "avgDamage": 23313
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 62.5
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 62.5
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 3.9,
+      "avgAssists": 5.0,
+      "kda": 2.52,
+      "avgDamage": 24958
     }
   }
 }

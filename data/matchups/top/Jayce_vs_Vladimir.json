@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.031330",
+  "sample_size": 12,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:39.530281",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -95,
-      "avg_xp_diff": -70,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 18,
+      "avg_xp_diff": -28,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 60,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 190,
-      "avg_xp_diff": 100,
-      "avg_cs_diff": 5.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 258,
+      "avg_xp_diff": 36,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 60,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1191,
-      "avg_xp_diff": 644,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 390,
+      "avg_xp_diff": -234,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 60,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 891,
-      "avg_xp_diff": 17,
-      "avg_cs_diff": 11.5,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 56,
+      "avg_xp_diff": -806,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 97,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 426,
-      "avg_xp_diff": -976,
-      "avg_cs_diff": 7.6,
-      "sample_frames": 8,
+      "avg_gold_diff": 1004,
+      "avg_xp_diff": 89,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 40,
       "advantage": 2
     }
   ],
@@ -54,24 +54,132 @@
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 2.0,
-      "kda": 1.11,
-      "avgDamage": 25444
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 11,
+          "pickRate": 91.7,
+          "winRate": 36.4
+        },
+        {
+          "name": "Opportunity",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Manamune",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 25.0
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 7,
+          "pickRate": 58.3,
+          "winRate": 42.9
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 41.7,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 5.4,
+      "avgDeaths": 7.3,
+      "avgAssists": 3.1,
+      "kda": 1.16,
+      "avgDamage": 21703
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 1.0,
-      "kda": 1.67,
-      "avgDamage": 25626
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 8,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 6,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Riftmaker",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 11,
+          "pickRate": 91.7,
+          "winRate": 72.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 8,
+          "pickRate": 66.7,
+          "winRate": 62.5
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.1,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.4,
+      "kda": 1.85,
+      "avgDamage": 21637
     }
   }
 }

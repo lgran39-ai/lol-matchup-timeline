@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 4,
-  "overall_winrate_a": 75.0,
-  "updated_at": "2026-03-18T14:05:24.521097",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-19T03:29:38.887380",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -38,
-      "avg_xp_diff": -70,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 20,
+      "avg_gold_diff": -32,
+      "avg_xp_diff": -11,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 66,
-      "avg_xp_diff": 72,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 20,
+      "avg_gold_diff": -11,
+      "avg_xp_diff": 237,
+      "avg_cs_diff": 6.0,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 91,
-      "avg_xp_diff": 529,
-      "avg_cs_diff": 9.3,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": 248,
+      "avg_xp_diff": 676,
+      "avg_cs_diff": 9.0,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1018,
-      "avg_xp_diff": 1655,
-      "avg_cs_diff": 27.1,
-      "sample_frames": 39,
+      "avg_gold_diff": 404,
+      "avg_xp_diff": 1108,
+      "avg_cs_diff": 13.6,
+      "sample_frames": 49,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2358,
-      "avg_xp_diff": 3298,
-      "avg_cs_diff": 43.6,
-      "sample_frames": 11,
+      "avg_gold_diff": 888,
+      "avg_xp_diff": 2275,
+      "avg_cs_diff": 23.1,
+      "sample_frames": 28,
       "advantage": 2
     }
   ],
@@ -56,70 +56,106 @@
     "champA": {
       "items": [
         {
-          "name": "Lich Bane",
-          "count": 3,
+          "name": "Shadowflame",
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 20.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        },
+        {
+          "name": "Banshee's Veil",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
         },
         {
           "name": "Rabadon's Deathcap",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Electrocute",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Smite",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 66.7
-        }
-      ],
-      "avgKills": 7.7,
-      "avgDeaths": 3.0,
-      "avgAssists": 7.0,
-      "kda": 4.89,
-      "avgDamage": 22321
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Liandry's Torment",
-          "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 40.0,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 3,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 20.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 3,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 20.0
         }
       ],
-      "avgKills": 5.3,
-      "avgDeaths": 5.7,
-      "avgAssists": 9.0,
-      "kda": 2.53,
-      "avgDamage": 12668
+      "avgKills": 7.4,
+      "avgDeaths": 4.6,
+      "avgAssists": 6.0,
+      "kda": 2.91,
+      "avgDamage": 20341
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Banshee's Veil",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 6.6,
+      "avgDeaths": 4.2,
+      "avgAssists": 10.4,
+      "kda": 4.05,
+      "avgDamage": 18643
     }
   }
 }

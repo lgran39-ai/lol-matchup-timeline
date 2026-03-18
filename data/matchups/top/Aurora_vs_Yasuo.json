@@ -1,77 +1,173 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.162354",
+  "sample_size": 10,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.479228",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -35,
-      "avg_xp_diff": 53,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 47,
+      "avg_xp_diff": 56,
+      "avg_cs_diff": -0.0,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -494,
-      "avg_xp_diff": -408,
-      "avg_cs_diff": -13.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 240,
+      "avg_xp_diff": 278,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 50,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1053,
-      "avg_xp_diff": -887,
-      "avg_cs_diff": -26.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 366,
+      "avg_xp_diff": 696,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 50,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2207,
-      "avg_xp_diff": -538,
-      "avg_cs_diff": -45.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 624,
+      "avg_xp_diff": 628,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 83,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1574,
-      "avg_xp_diff": 1287,
-      "avg_cs_diff": -50.8,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 1655,
+      "avg_xp_diff": 1241,
+      "avg_cs_diff": -10.8,
+      "sample_frames": 36,
+      "advantage": 2
     }
   ],
   "champA": "Aurora",
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 5.0,
-      "kda": 1.38,
-      "avgDamage": 13204
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 7,
+          "pickRate": 70.0,
+          "winRate": 28.6
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 6,
+          "pickRate": 60.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 37.5
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 70.0,
+          "winRate": 28.6
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.9,
+      "kda": 2.88,
+      "avgDamage": 22751
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 1.33,
-      "avgDamage": 17188
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 62.5
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 62.5
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 10,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 7,
+          "pickRate": 70.0,
+          "winRate": 57.1
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.2,
+      "avgDeaths": 6.2,
+      "avgAssists": 3.7,
+      "kda": 1.11,
+      "avgDamage": 15550
     }
   }
 }

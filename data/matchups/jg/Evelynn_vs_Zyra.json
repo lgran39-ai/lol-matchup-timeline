@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.534497",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-19T03:29:38.905100",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -89,
-      "avg_xp_diff": -89,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -94,
+      "avg_xp_diff": -113,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 28,
-      "avg_xp_diff": -132,
-      "avg_cs_diff": -5.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -496,
+      "avg_xp_diff": -318,
+      "avg_cs_diff": -5.6,
+      "sample_frames": 25,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 390,
-      "avg_xp_diff": -637,
-      "avg_cs_diff": -25.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -563,
+      "avg_xp_diff": -547,
+      "avg_cs_diff": -18.4,
+      "sample_frames": 25,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1030,
-      "avg_xp_diff": -182,
-      "avg_cs_diff": -33.0,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -722,
+      "avg_xp_diff": -1115,
+      "avg_cs_diff": -44.5,
+      "sample_frames": 50,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2873,
-      "avg_xp_diff": 2908,
-      "avg_cs_diff": -15.3,
-      "sample_frames": 7,
+      "avg_gold_diff": 545,
+      "avg_xp_diff": -89,
+      "avg_cs_diff": -63.6,
+      "sample_frames": 29,
       "advantage": 2
     }
   ],
@@ -54,26 +54,96 @@
   "champB": "Zyra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 6.0,
-      "kda": 9.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Lich Bane",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 10.8,
+      "avgDeaths": 5.4,
+      "avgAssists": 10.6,
+      "kda": 3.96,
+      "avgDamage": 32333
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.0,
-      "kda": 0.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 4.4,
+      "avgDeaths": 6.4,
+      "avgAssists": 11.0,
+      "kda": 2.41,
+      "avgDamage": 26005
     }
   }
 }

@@ -1,46 +1,125 @@
 {
-  "champA": "Gragas",
-  "champB": "Irelia",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.242731",
+  "updated_at": "2026-03-19T03:29:39.162416",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -26,
-      "avg_xp_diff": 67,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -40,
+      "avg_xp_diff": -37,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 101,
-      "avg_xp_diff": 463,
-      "avg_cs_diff": -13.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -29,
+      "avg_xp_diff": 24,
+      "avg_cs_diff": -19.0,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -308,
-      "avg_xp_diff": 158,
-      "avg_cs_diff": -25.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 9,
+      "avg_xp_diff": 266,
+      "avg_cs_diff": -23.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -1889,
-      "avg_xp_diff": -818,
-      "avg_cs_diff": -44.0,
-      "sample_frames": 7,
+      "label": "mid_game",
+      "avg_gold_diff": -1045,
+      "avg_xp_diff": 1013,
+      "avg_cs_diff": -36.7,
+      "sample_frames": 27,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -820,
+      "avg_xp_diff": 4216,
+      "avg_cs_diff": -32.4,
+      "sample_frames": 13,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Gragas",
+  "champB": "Irelia",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.3,
+      "kda": 1.72,
+      "avgDamage": 18502
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 7.3,
+      "avgAssists": 6.0,
+      "kda": 1.41,
+      "avgDamage": 21145
+    }
+  }
 }

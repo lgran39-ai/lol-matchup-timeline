@@ -1,55 +1,137 @@
 {
-  "champA": "Akali",
-  "champB": "Yasuo",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.476919",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:38.123218",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -2,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -36,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 407,
-      "avg_xp_diff": 363,
-      "avg_cs_diff": 16.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -146,
+      "avg_xp_diff": 38,
+      "avg_cs_diff": -10.1,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 286,
-      "avg_xp_diff": 476,
-      "avg_cs_diff": 13.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -160,
+      "avg_xp_diff": -118,
+      "avg_cs_diff": -15.8,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2129,
-      "avg_xp_diff": 3639,
-      "avg_cs_diff": 37.8,
-      "sample_frames": 10,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": -99,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": -25.6,
+      "sample_frames": 40,
+      "advantage": 0
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 1726,
-      "avg_xp_diff": 3768,
-      "avg_cs_diff": 38.2,
-      "sample_frames": 4,
-      "advantage": 2
+      "label": "late_game",
+      "avg_gold_diff": -2090,
+      "avg_xp_diff": -1497,
+      "avg_cs_diff": -33.8,
+      "sample_frames": 25,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Akali",
+  "champB": "Yasuo",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 6.2,
+      "avgAssists": 7.2,
+      "kda": 2.04,
+      "avgDamage": 21779
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 8.0,
+      "avgAssists": 7.5,
+      "kda": 1.47,
+      "avgDamage": 27130
+    }
+  }
 }

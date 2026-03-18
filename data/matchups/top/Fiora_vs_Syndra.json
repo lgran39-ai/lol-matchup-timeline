@@ -1,46 +1,111 @@
 {
-  "champA": "Fiora",
-  "champB": "Syndra",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.144698",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.981506",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 119,
-      "avg_xp_diff": 10,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 53,
+      "avg_xp_diff": -10,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 434,
-      "avg_xp_diff": 474,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 169,
+      "avg_xp_diff": 174,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 879,
-      "avg_xp_diff": 1401,
-      "avg_cs_diff": 14.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 803,
+      "avg_xp_diff": 1061,
+      "avg_cs_diff": 11.1,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2831,
-      "avg_xp_diff": 2530,
-      "avg_cs_diff": 19.0,
+      "label": "mid_game",
+      "avg_gold_diff": 2528,
+      "avg_xp_diff": 3012,
+      "avg_cs_diff": 30.7,
+      "sample_frames": 19,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3463,
+      "avg_xp_diff": 4017,
+      "avg_cs_diff": 52.8,
       "sample_frames": 9,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Fiora",
+  "champB": "Syndra",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 1.5,
+      "kda": 3.8,
+      "avgDamage": 21850
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 5.5,
+      "kda": 1.06,
+      "avgDamage": 17808
+    }
+  }
 }

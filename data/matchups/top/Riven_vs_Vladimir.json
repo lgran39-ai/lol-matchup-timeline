@@ -1,79 +1,137 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.636234",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:40.344054",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -140,
-      "avg_xp_diff": -45,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -55,
+      "avg_xp_diff": -74,
+      "avg_cs_diff": -3.2,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 807,
-      "avg_xp_diff": 893,
-      "avg_cs_diff": 15.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -380,
+      "avg_xp_diff": -379,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2631,
-      "avg_xp_diff": 2461,
-      "avg_cs_diff": 36.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -634,
+      "avg_xp_diff": -1033,
+      "avg_cs_diff": -18.5,
+      "sample_frames": 25,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 5818,
-      "avg_xp_diff": 4864,
-      "avg_cs_diff": 55.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -1378,
+      "avg_xp_diff": -2004,
+      "avg_cs_diff": -22.4,
+      "sample_frames": 42,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 9131,
-      "avg_xp_diff": 6042,
-      "avg_cs_diff": 57.7,
-      "sample_frames": 3,
-      "advantage": 2
+      "avg_gold_diff": -4901,
+      "avg_xp_diff": -3419,
+      "avg_cs_diff": -17.2,
+      "sample_frames": 18,
+      "advantage": -2
     }
   ],
   "champA": "Riven",
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 20.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 0.0,
-      "kda": 3.33,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 2.2,
+      "avgDeaths": 5.8,
+      "avgAssists": 1.2,
+      "kda": 0.59,
+      "avgDamage": 11079
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 4.0,
-      "kda": 0.67,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 4.4,
+      "avgDeaths": 2.6,
+      "avgAssists": 4.6,
+      "kda": 3.46,
+      "avgDamage": 18738
     }
   }
 }

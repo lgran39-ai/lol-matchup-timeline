@@ -1,77 +1,167 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.063981",
+  "sample_size": 20,
+  "overall_winrate_a": 45.0,
+  "updated_at": "2026-03-19T03:29:38.337593",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 9,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -6,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 100,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 147,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 3.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -110,
+      "avg_xp_diff": -92,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 100,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 424,
-      "avg_xp_diff": 336,
-      "avg_cs_diff": 6.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -163,
+      "avg_xp_diff": -229,
+      "avg_cs_diff": -8.9,
+      "sample_frames": 100,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 869,
-      "avg_xp_diff": 929,
-      "avg_cs_diff": -0.3,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": -309,
+      "avg_xp_diff": -224,
+      "avg_cs_diff": -20.7,
+      "sample_frames": 147,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 597,
-      "avg_xp_diff": 3163,
-      "avg_cs_diff": -14.9,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -2064,
+      "avg_xp_diff": -776,
+      "avg_cs_diff": -43.2,
+      "sample_frames": 37,
+      "advantage": -2
     }
   ],
   "champA": "Anivia",
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 20.0,
-      "kda": 6.75,
-      "avgDamage": 33224
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 20,
+          "pickRate": 100.0,
+          "winRate": 45.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 10,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 7,
+          "pickRate": 35.0,
+          "winRate": 57.1
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 5,
+          "pickRate": 25.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 20.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 15.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 19,
+          "pickRate": 95.0,
+          "winRate": 42.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 19,
+          "pickRate": 95.0,
+          "winRate": 47.4
+        }
+      ],
+      "avgKills": 3.4,
+      "avgDeaths": 3.5,
+      "avgAssists": 5.3,
+      "kda": 2.45,
+      "avgDamage": 16779
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 10.0,
-      "kda": 2.83,
-      "avgDamage": 43586
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 19,
+          "pickRate": 95.0,
+          "winRate": 57.9
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 12,
+          "pickRate": 60.0,
+          "winRate": 58.3
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 4,
+          "pickRate": 20.0,
+          "winRate": 25.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 14,
+          "pickRate": 70.0,
+          "winRate": 71.4
+        },
+        {
+          "name": "Lethal Tempo",
+          "count": 5,
+          "pickRate": 25.0,
+          "winRate": 20.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 19,
+          "pickRate": 95.0,
+          "winRate": 57.9
+        }
+      ],
+      "avgKills": 3.6,
+      "avgDeaths": 3.8,
+      "avgAssists": 4.5,
+      "kda": 2.15,
+      "avgDamage": 18112
     }
   }
 }

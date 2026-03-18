@@ -1,46 +1,131 @@
 {
-  "champA": "Kennen",
-  "champB": "Maokai",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:05.617908",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:39.681133",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 46,
-      "avg_xp_diff": 101,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 41,
+      "avg_xp_diff": 46,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 376,
-      "avg_xp_diff": 362,
-      "avg_cs_diff": 13.5,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 433,
+      "avg_xp_diff": 286,
+      "avg_cs_diff": 12.4,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 872,
-      "avg_xp_diff": 867,
-      "avg_cs_diff": 22.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 991,
+      "avg_xp_diff": 995,
+      "avg_cs_diff": 23.9,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1005,
-      "avg_xp_diff": 281,
-      "avg_cs_diff": 22.2,
-      "sample_frames": 4,
+      "label": "mid_game",
+      "avg_gold_diff": 2712,
+      "avg_xp_diff": 1828,
+      "avg_cs_diff": 43.2,
+      "sample_frames": 25,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1728,
+      "avg_xp_diff": 2398,
+      "avg_cs_diff": 44.4,
+      "sample_frames": 5,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Kennen",
+  "champB": "Maokai",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 2.2,
+      "avgAssists": 3.8,
+      "kda": 3.56,
+      "avgDamage": 22047
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Spirit Visage",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 1.2,
+      "avgDeaths": 3.8,
+      "avgAssists": 3.2,
+      "kda": 1.2,
+      "avgDamage": 9962
+    }
+  }
 }

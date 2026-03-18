@@ -1,55 +1,137 @@
 {
-  "champA": "KSante",
-  "champB": "Zac",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.534804",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-19T03:29:39.581506",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 85,
-      "avg_xp_diff": 91,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 72,
+      "avg_xp_diff": 77,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 429,
-      "avg_xp_diff": 209,
-      "avg_cs_diff": 11.9,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 189,
+      "avg_xp_diff": 203,
+      "avg_cs_diff": 10.2,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 411,
-      "avg_xp_diff": -203,
-      "avg_cs_diff": 16.4,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 138,
+      "avg_xp_diff": -85,
+      "avg_cs_diff": 12.6,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -400,
-      "avg_xp_diff": -1500,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 20,
+      "label": "mid_game",
+      "avg_gold_diff": -994,
+      "avg_xp_diff": -1523,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 40,
       "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 758,
-      "avg_xp_diff": -1074,
-      "avg_cs_diff": 12.1,
-      "sample_frames": 8,
-      "advantage": 2
+      "label": "late_game",
+      "avg_gold_diff": -582,
+      "avg_xp_diff": -756,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 14,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "KSante",
+  "champB": "Zac",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Kaenic Rookern",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 2.2,
+      "avgDeaths": 5.2,
+      "avgAssists": 4.4,
+      "kda": 1.27,
+      "avgDamage": 20548
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Spirit Visage",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 3.2,
+      "avgDeaths": 3.6,
+      "avgAssists": 6.2,
+      "kda": 2.61,
+      "avgDamage": 19017
+    }
+  }
 }

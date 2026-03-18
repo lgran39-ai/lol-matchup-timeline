@@ -1,53 +1,53 @@
 {
   "role": "mid",
   "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:25.300706",
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T03:29:39.886471",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -89,
-      "avg_xp_diff": -60,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 10,
-      "advantage": 0
-    },
-    {
-      "phase": "5-10min",
-      "label": "Lv4-6",
-      "avg_gold_diff": -334,
-      "avg_xp_diff": -38,
-      "avg_cs_diff": 6.5,
+      "avg_gold_diff": -150,
+      "avg_xp_diff": -152,
+      "avg_cs_diff": -1.8,
       "sample_frames": 10,
       "advantage": -1
     },
     {
+      "phase": "5-10min",
+      "label": "Lv4-6",
+      "avg_gold_diff": -424,
+      "avg_xp_diff": -538,
+      "avg_cs_diff": -7.1,
+      "sample_frames": 10,
+      "advantage": -2
+    },
+    {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -446,
-      "avg_xp_diff": -327,
-      "avg_cs_diff": 7.3,
+      "avg_gold_diff": -461,
+      "avg_xp_diff": -679,
+      "avg_cs_diff": -6.5,
       "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1114,
-      "avg_xp_diff": -597,
-      "avg_cs_diff": 23.3,
-      "sample_frames": 20,
+      "avg_gold_diff": -654,
+      "avg_xp_diff": -933,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 17,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -596,
-      "avg_xp_diff": -1832,
-      "avg_cs_diff": 41.8,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": 520,
+      "avg_xp_diff": 95,
+      "avg_cs_diff": 12.6,
+      "sample_frames": 8,
+      "advantage": 2
     }
   ],
   "champA": "Lux",
@@ -55,23 +55,50 @@
   "buildStats": {
     "champA": {
       "items": [],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 10.0,
+      "kda": 2.9,
+      "avgDamage": 18598
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
       "avgKills": 5.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 2.0,
-      "kda": 0.7,
-      "avgDamage": 11997
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 11.0,
-      "kda": 12.5,
-      "avgDamage": 28406
+      "avgDeaths": 6.0,
+      "avgAssists": 3.0,
+      "kda": 1.33,
+      "avgDamage": 16454
     }
   }
 }

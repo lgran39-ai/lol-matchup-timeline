@@ -1,46 +1,137 @@
 {
-  "champA": "Aurora",
-  "champB": "Lulu",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.699967",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-19T03:29:38.438543",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -116,
-      "avg_xp_diff": -162,
+      "avg_gold_diff": -69,
+      "avg_xp_diff": -83,
       "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -547,
-      "avg_xp_diff": -690,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -457,
+      "avg_xp_diff": -554,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -741,
-      "avg_xp_diff": -1373,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -761,
+      "avg_xp_diff": -1051,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -950,
-      "avg_xp_diff": -2266,
-      "avg_cs_diff": -24.5,
-      "sample_frames": 8,
+      "label": "mid_game",
+      "avg_gold_diff": -666,
+      "avg_xp_diff": -1484,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 38,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 259,
+      "avg_xp_diff": -1364,
+      "avg_cs_diff": 33.6,
+      "sample_frames": 26,
+      "advantage": 1
     }
-  ]
+  ],
+  "champA": "Aurora",
+  "champB": "Lulu",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 7.0,
+      "avgAssists": 7.8,
+      "kda": 1.71,
+      "avgDamage": 20166
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Bandlepipes",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 5.2,
+      "avgDeaths": 4.5,
+      "avgAssists": 8.5,
+      "kda": 3.06,
+      "avgDamage": 17303
+    }
+  }
 }

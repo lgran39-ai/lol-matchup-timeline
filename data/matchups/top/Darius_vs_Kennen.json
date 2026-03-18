@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 4,
+  "sample_size": 10,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.360645",
+  "updated_at": "2026-03-19T03:29:38.716013",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -59,
-      "avg_xp_diff": -39,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 20,
+      "avg_gold_diff": -22,
+      "avg_xp_diff": 9,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -344,
-      "avg_xp_diff": -319,
-      "avg_cs_diff": -9.3,
-      "sample_frames": 20,
+      "avg_gold_diff": -188,
+      "avg_xp_diff": -111,
+      "avg_cs_diff": -7.9,
+      "sample_frames": 50,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -822,
-      "avg_xp_diff": -1158,
-      "avg_cs_diff": -18.6,
-      "sample_frames": 20,
+      "avg_gold_diff": -504,
+      "avg_xp_diff": -564,
+      "avg_cs_diff": -13.3,
+      "sample_frames": 50,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1468,
-      "avg_xp_diff": -1923,
-      "avg_cs_diff": -25.4,
-      "sample_frames": 32,
+      "avg_gold_diff": -744,
+      "avg_xp_diff": -827,
+      "avg_cs_diff": -20.8,
+      "sample_frames": 76,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1528,
-      "avg_xp_diff": -2072,
-      "avg_cs_diff": -23.2,
-      "sample_frames": 13,
+      "avg_gold_diff": -1349,
+      "avg_xp_diff": -1434,
+      "avg_cs_diff": -30.8,
+      "sample_frames": 42,
       "advantage": -2
     }
   ],
@@ -54,24 +54,144 @@
   "champB": "Kennen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.0,
-      "kda": 0.86,
-      "avgDamage": 13514
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Force of Nature",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dead Man's Plate",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 6,
+          "pickRate": 60.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 44.4
+        }
+      ],
+      "avgKills": 5.1,
+      "avgDeaths": 6.3,
+      "avgAssists": 4.4,
+      "kda": 1.51,
+      "avgDamage": 15062
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 9.0,
-      "kda": 3.2,
-      "avgDamage": 31672
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 6,
+          "pickRate": 60.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 6,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 40.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.4,
+      "avgDeaths": 6.1,
+      "avgAssists": 5.6,
+      "kda": 1.8,
+      "avgDamage": 24527
     }
   }
 }

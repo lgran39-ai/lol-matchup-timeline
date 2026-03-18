@@ -1,43 +1,52 @@
 {
   "role": "bot",
   "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:27.389129",
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:43.739697",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 99,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": 0.0,
+      "avg_gold_diff": 25,
+      "avg_xp_diff": -6,
+      "avg_cs_diff": 0.7,
       "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 116,
-      "avg_xp_diff": -138,
-      "avg_cs_diff": -2.3,
+      "avg_gold_diff": 535,
+      "avg_xp_diff": 74,
+      "avg_cs_diff": 3.3,
       "sample_frames": 10,
-      "advantage": 0
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -153,
-      "avg_xp_diff": -366,
-      "avg_cs_diff": -4.8,
+      "avg_gold_diff": 1161,
+      "avg_xp_diff": 785,
+      "avg_cs_diff": 14.0,
       "sample_frames": 10,
-      "advantage": 0
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1024,
-      "avg_xp_diff": 462,
-      "avg_cs_diff": -3.1,
-      "sample_frames": 11,
+      "avg_gold_diff": 1877,
+      "avg_xp_diff": 1189,
+      "avg_cs_diff": 29.7,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2662,
+      "avg_xp_diff": 1249,
+      "avg_cs_diff": 43.1,
+      "sample_frames": 12,
       "advantage": 2
     }
   ],
@@ -55,50 +64,141 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.5,
-        "avgDeaths": 3.5,
-        "avgAssists": 8.5,
-        "kda": 3.43,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Mortal Reminder",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 12.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 7.0,
+        "kda": 4.22,
+        "avgDamage": 37736
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Ardent Censer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
         "avgDeaths": 3.5,
-        "avgAssists": 11.5,
-        "kda": 3.57,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "avgAssists": 19.5,
+        "kda": 5.86,
+        "avgDamage": 9366
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.5,
-        "avgDeaths": 6.5,
-        "avgAssists": 4.5,
-        "kda": 1.08,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 7.0,
+        "kda": 1.64,
+        "avgDamage": 21888
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Imperial Mandate",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 2.0,
-        "avgDeaths": 4.5,
-        "avgAssists": 5.5,
-        "kda": 1.67,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "avgDeaths": 6.0,
+        "avgAssists": 11.0,
+        "kda": 2.17,
+        "avgDamage": 8122
       }
     }
   }

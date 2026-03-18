@@ -1,77 +1,209 @@
 {
   "role": "top",
-  "sample_size": 8,
-  "overall_winrate_a": 87.5,
-  "updated_at": "2026-03-18T14:05:25.322646",
+  "sample_size": 13,
+  "overall_winrate_a": 61.5,
+  "updated_at": "2026-03-19T03:29:39.915022",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -71,
-      "avg_xp_diff": -33,
-      "avg_cs_diff": -3.5,
-      "sample_frames": 40,
+      "avg_gold_diff": -27,
+      "avg_xp_diff": 4,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 65,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -89,
-      "avg_xp_diff": 184,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 40,
-      "advantage": 0
+      "avg_gold_diff": 234,
+      "avg_xp_diff": 488,
+      "avg_cs_diff": -3.8,
+      "sample_frames": 65,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 195,
-      "avg_xp_diff": 862,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 40,
-      "advantage": 1
+      "avg_gold_diff": 1162,
+      "avg_xp_diff": 2030,
+      "avg_cs_diff": 9.8,
+      "sample_frames": 65,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 432,
-      "avg_xp_diff": 1363,
-      "avg_cs_diff": -8.3,
-      "sample_frames": 75,
+      "avg_gold_diff": 1926,
+      "avg_xp_diff": 2463,
+      "avg_cs_diff": 13.9,
+      "sample_frames": 100,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1345,
-      "avg_xp_diff": 1,
-      "avg_cs_diff": -42.7,
-      "sample_frames": 59,
-      "advantage": -2
+      "avg_gold_diff": 1856,
+      "avg_xp_diff": 2260,
+      "avg_cs_diff": -1.5,
+      "sample_frames": 46,
+      "advantage": 2
     }
   ],
   "champA": "Malphite",
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 4.0,
-      "kda": 7.0,
-      "avgDamage": 13502
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 6,
+          "pickRate": 46.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 5,
+          "pickRate": 38.5,
+          "winRate": 60.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zeke's Convergence",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 50.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 50.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 50.0
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 12,
+          "pickRate": 92.3,
+          "winRate": 58.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 9,
+          "pickRate": 69.2,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 3.8,
+      "avgAssists": 7.1,
+      "kda": 3.73,
+      "avgDamage": 19447
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 6575
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 6,
+          "pickRate": 46.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 6,
+          "pickRate": 46.2,
+          "winRate": 16.7
+        },
+        {
+          "name": "Guinsoo's Rageblade",
+          "count": 5,
+          "pickRate": 38.5,
+          "winRate": 60.0
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 33.3
+        },
+        {
+          "name": "Terminus",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 9,
+          "pickRate": 69.2,
+          "winRate": 44.4
+        },
+        {
+          "name": "Fleet Footwork",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 6,
+          "pickRate": 46.2,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.6,
+      "avgDeaths": 7.8,
+      "avgAssists": 3.0,
+      "kda": 0.72,
+      "avgDamage": 15073
     }
   }
 }

@@ -1,55 +1,137 @@
 {
-  "champA": "Jax",
-  "champB": "Maokai",
   "role": "top",
   "sample_size": 5,
   "overall_winrate_a": 40.0,
-  "updated_at": "2026-03-13T23:57:05.412101",
+  "updated_at": "2026-03-19T03:29:39.433458",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -29,
-      "avg_xp_diff": -18,
-      "avg_cs_diff": 2.1,
+      "avg_gold_diff": 15,
+      "avg_xp_diff": 17,
+      "avg_cs_diff": 2.7,
       "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -217,
-      "avg_xp_diff": -330,
+      "avg_gold_diff": -71,
+      "avg_xp_diff": -181,
       "avg_cs_diff": 1.5,
       "sample_frames": 25,
-      "advantage": -1
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -290,
-      "avg_xp_diff": -547,
-      "avg_cs_diff": -3.7,
+      "avg_gold_diff": 69,
+      "avg_xp_diff": -116,
+      "avg_cs_diff": -0.1,
       "sample_frames": 25,
-      "advantage": -1
+      "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 514,
-      "avg_xp_diff": -3,
-      "avg_cs_diff": 2.7,
-      "sample_frames": 48,
+      "label": "mid_game",
+      "avg_gold_diff": 814,
+      "avg_xp_diff": 348,
+      "avg_cs_diff": 10.4,
+      "sample_frames": 43,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": 3379,
       "avg_xp_diff": 1237,
       "avg_cs_diff": 88.0,
       "sample_frames": 15,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Jax",
+  "champB": "Maokai",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 3.4,
+      "avgDeaths": 3.0,
+      "avgAssists": 2.8,
+      "kda": 2.07,
+      "avgDamage": 21428
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 2.2,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.6,
+      "kda": 2.6,
+      "avgDamage": 18927
+    }
+  }
 }

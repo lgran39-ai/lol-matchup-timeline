@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.942238",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.385982",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 19,
-      "avg_xp_diff": -35,
-      "avg_cs_diff": -2.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -2,
+      "avg_xp_diff": 93,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 40,
-      "avg_xp_diff": -173,
-      "avg_cs_diff": -8.1,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -170,
+      "avg_xp_diff": -52,
+      "avg_cs_diff": -3.7,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -282,
-      "avg_xp_diff": -321,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -386,
+      "avg_xp_diff": -248,
+      "avg_cs_diff": -11.1,
+      "sample_frames": 30,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -762,
-      "avg_xp_diff": -1460,
-      "avg_cs_diff": -31.4,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": -383,
+      "avg_xp_diff": -438,
+      "avg_cs_diff": -26.3,
+      "sample_frames": 53,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -994,
-      "avg_xp_diff": -953,
-      "avg_cs_diff": -36.0,
-      "sample_frames": 22,
+      "avg_gold_diff": -1499,
+      "avg_xp_diff": -1890,
+      "avg_cs_diff": -56.5,
+      "sample_frames": 17,
       "advantage": -2
     }
   ],
@@ -56,69 +56,118 @@
     "champA": {
       "items": [
         {
-          "name": "Echoes of Helia",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "name": "Moonstone Renewer",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
         },
         {
-          "name": "Moonstone Renewer",
+          "name": "Echoes of Helia",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Redemption",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 33.3,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
-          "name": "Glacial Augment",
+          "name": "Press the Attack",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Summon Aery",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 33.3,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 50.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 6.0,
-      "avgAssists": 11.0,
-      "kda": 2.25,
-      "avgDamage": 14265
+      "avgKills": 3.7,
+      "avgDeaths": 4.0,
+      "avgAssists": 11.5,
+      "kda": 3.79,
+      "avgDamage": 10325
     },
     "champB": {
       "items": [
         {
-          "name": "Hextech Rocketbelt",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
         },
         {
           "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Rabadon's Deathcap",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 33.3,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 50.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 17.5,
-      "kda": 6.71,
-      "avgDamage": 26538
+      "avgKills": 7.8,
+      "avgDeaths": 3.8,
+      "avgAssists": 6.2,
+      "kda": 3.65,
+      "avgDamage": 14805
     }
   }
 }

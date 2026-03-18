@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.055475",
+  "sample_size": 9,
+  "overall_winrate_a": 44.4,
+  "updated_at": "2026-03-19T03:29:38.323449",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 77,
-      "avg_xp_diff": 50,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 17,
+      "avg_xp_diff": 12,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 45,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 77,
-      "avg_xp_diff": 232,
-      "avg_cs_diff": 2.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 18,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 45,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 311,
-      "avg_xp_diff": 969,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -100,
+      "avg_xp_diff": -68,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 45,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 814,
-      "avg_xp_diff": 1746,
-      "avg_cs_diff": 18.0,
-      "sample_frames": 17,
+      "avg_gold_diff": 408,
+      "avg_xp_diff": 668,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 67,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1176,
-      "avg_xp_diff": 2937,
-      "avg_cs_diff": 19.4,
-      "sample_frames": 8,
+      "avg_gold_diff": 1382,
+      "avg_xp_diff": 3111,
+      "avg_cs_diff": 12.0,
+      "sample_frames": 20,
       "advantage": 2
     }
   ],
@@ -54,24 +54,102 @@
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 4.5,
-      "avgDamage": 14049
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 7,
+          "pickRate": 77.8,
+          "winRate": 42.9
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 0.0
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 100.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 44.4,
+          "winRate": 25.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 33.3,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 77.8,
+          "winRate": 42.9
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.1,
+      "avgDeaths": 2.4,
+      "avgAssists": 3.8,
+      "kda": 2.82,
+      "avgDamage": 17928
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 2.0,
-      "kda": 0.4,
-      "avgDamage": 11077
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 6,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.8,
+      "avgDeaths": 3.6,
+      "avgAssists": 4.2,
+      "kda": 1.69,
+      "avgDamage": 11302
     }
   }
 }

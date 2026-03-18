@@ -1,55 +1,119 @@
 {
-  "champA": "Nocturne",
-  "champB": "Yone",
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.947076",
+  "updated_at": "2026-03-19T03:29:40.099049",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -35,
-      "avg_xp_diff": -35,
-      "avg_cs_diff": -5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -92,
+      "avg_xp_diff": -54,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 601,
-      "avg_xp_diff": -105,
-      "avg_cs_diff": -8.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 259,
+      "avg_xp_diff": 77,
+      "avg_cs_diff": -6.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1795,
-      "avg_xp_diff": -157,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
-      "advantage": 2
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2809,
-      "avg_xp_diff": 876,
-      "avg_cs_diff": -3.8,
+      "avg_gold_diff": 674,
+      "avg_xp_diff": -500,
+      "avg_cs_diff": -14.6,
       "sample_frames": 10,
       "advantage": 2
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": 2228,
+      "avg_xp_diff": 415,
+      "avg_cs_diff": -9.7,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": 2547,
       "avg_xp_diff": 659,
       "avg_cs_diff": 6.5,
       "sample_frames": 4,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Nocturne",
+  "champB": "Yone",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 4.0,
+      "kda": 2.33,
+      "avgDamage": 17764
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 7.0,
+      "kda": 2.89,
+      "avgDamage": 17882
+    }
+  }
 }

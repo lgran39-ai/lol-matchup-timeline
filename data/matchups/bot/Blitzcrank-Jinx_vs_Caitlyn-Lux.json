@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:26.591335",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:42.184921",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -131,
-      "avg_xp_diff": -38,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -310,
+      "avg_xp_diff": -121,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1333,
-      "avg_xp_diff": -673,
-      "avg_cs_diff": -18.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1727,
+      "avg_xp_diff": -1029,
+      "avg_cs_diff": -22.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -3537,
-      "avg_xp_diff": -1531,
-      "avg_cs_diff": -32.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -3320,
+      "avg_xp_diff": -2172,
+      "avg_cs_diff": -37.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4356,
-      "avg_xp_diff": -1399,
-      "avg_cs_diff": -27.5,
-      "sample_frames": 2,
+      "avg_gold_diff": -1550,
+      "avg_xp_diff": -221,
+      "avg_cs_diff": -20.3,
+      "sample_frames": 12,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -145,
+      "avg_xp_diff": 497,
+      "avg_cs_diff": -24.9,
+      "sample_frames": 15,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -56,49 +65,73 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 0.0,
-        "kda": 0.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "avgKills": 5.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 3.5,
+        "kda": 1.89,
+        "avgDamage": 16564
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 1.0,
-        "kda": 0.67,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "avgKills": 0.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 9.0,
+        "kda": 1.46,
+        "avgDamage": 4431
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 5.0,
-        "kda": 7.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "avgKills": 9.0,
+        "avgDeaths": 3.0,
+        "avgAssists": 2.0,
+        "kda": 3.67,
+        "avgDamage": 17128
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 4.0,
-        "kda": 8.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 11.5,
+        "kda": 3.38,
+        "avgDamage": 12943
       }
     }
   }

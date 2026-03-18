@@ -1,55 +1,149 @@
 {
-  "champA": "KSante",
-  "champB": "RekSai",
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-13T23:57:05.512812",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-19T03:29:39.557380",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -10,
-      "avg_xp_diff": -8,
-      "avg_cs_diff": -1.1,
-      "sample_frames": 20,
+      "avg_gold_diff": -5,
+      "avg_xp_diff": -5,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -201,
-      "avg_xp_diff": -147,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 20,
+      "avg_gold_diff": -215,
+      "avg_xp_diff": -107,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 35,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -262,
-      "avg_xp_diff": -179,
-      "avg_cs_diff": -7.2,
-      "sample_frames": 20,
-      "advantage": -1
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -79,
-      "avg_xp_diff": 218,
-      "avg_cs_diff": -3.1,
-      "sample_frames": 40,
+      "avg_gold_diff": 12,
+      "avg_xp_diff": 257,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": 261,
+      "avg_xp_diff": 866,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 69,
+      "advantage": 1
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -1971,
-      "avg_xp_diff": -1399,
-      "avg_cs_diff": -45.2,
-      "sample_frames": 24,
+      "label": "late_game",
+      "avg_gold_diff": -2215,
+      "avg_xp_diff": -55,
+      "avg_cs_diff": -47.6,
+      "sample_frames": 44,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "KSante",
+  "champB": "RekSai",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        },
+        {
+          "name": "Thornmail",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 20.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Spirit Visage",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.6,
+      "avgAssists": 6.6,
+      "kda": 3.16,
+      "avgDamage": 28574
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 4.3,
+      "avgAssists": 4.9,
+      "kda": 2.13,
+      "avgDamage": 23532
+    }
+  }
 }

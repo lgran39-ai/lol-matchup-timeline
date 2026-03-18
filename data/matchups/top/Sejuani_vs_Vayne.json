@@ -1,46 +1,143 @@
 {
-  "champA": "Sejuani",
-  "champB": "Vayne",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 4,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:06.207330",
+  "updated_at": "2026-03-19T03:29:40.396790",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -74,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -21,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -162,
-      "avg_xp_diff": -258,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 188,
+      "avg_xp_diff": 283,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 181,
-      "avg_xp_diff": 372,
-      "avg_cs_diff": -15.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 657,
+      "avg_xp_diff": 1006,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -113,
-      "avg_xp_diff": 76,
-      "avg_cs_diff": -29.3,
-      "sample_frames": 10,
-      "advantage": 0
+      "label": "mid_game",
+      "avg_gold_diff": 484,
+      "avg_xp_diff": 517,
+      "avg_cs_diff": -8.5,
+      "sample_frames": 36,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1328,
+      "avg_xp_diff": 2629,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 9,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Sejuani",
+  "champB": "Vayne",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zeke's Convergence",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.5,
+      "kda": 2.62,
+      "avgDamage": 15885
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stormrazor",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.8,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.5,
+      "kda": 1.5,
+      "avgDamage": 17507
+    }
+  }
 }

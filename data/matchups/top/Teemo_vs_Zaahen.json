@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.816382",
+  "sample_size": 10,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:40.554079",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 99,
-      "avg_xp_diff": 63,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 20,
+      "avg_gold_diff": 42,
+      "avg_xp_diff": 39,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 231,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": 14.1,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": 89,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": 5.5,
+      "sample_frames": 50,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 577,
-      "avg_xp_diff": 438,
-      "avg_cs_diff": 22.2,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": -18,
+      "avg_xp_diff": -230,
+      "avg_cs_diff": 6.1,
+      "sample_frames": 50,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1137,
-      "avg_xp_diff": 1579,
-      "avg_cs_diff": 30.3,
-      "sample_frames": 27,
+      "avg_gold_diff": 335,
+      "avg_xp_diff": 73,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 94,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 999,
+      "avg_xp_diff": 1232,
+      "avg_cs_diff": 11.2,
+      "sample_frames": 48,
       "advantage": 2
     }
   ],
@@ -47,56 +56,100 @@
     "champA": {
       "items": [
         {
-          "name": "Hextech Gunblade",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "name": "Nashor's Tooth",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 33.3
         },
         {
-          "name": "Nashor's Tooth",
+          "name": "Liandry's Torment",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 7,
+          "pickRate": 70.0,
+          "winRate": 42.9
+        },
+        {
+          "name": "Cryptbloom",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 20.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 10,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 40.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 4.5,
-      "kda": 1.56,
-      "avgDamage": 24617
+      "avgKills": 3.6,
+      "avgDeaths": 5.8,
+      "avgAssists": 5.9,
+      "kda": 1.64,
+      "avgDamage": 28512
     },
     "champB": {
       "items": [
         {
+          "name": "Stridebreaker",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 55.6
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 75.0
+        },
+        {
           "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sundered Sky",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 20.0,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 5.0,
-      "avgAssists": 0.5,
-      "kda": 1.0,
-      "avgDamage": 14448
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 10,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 5.2,
+      "avgAssists": 7.6,
+      "kda": 1.85,
+      "avgDamage": 14302
     }
   }
 }

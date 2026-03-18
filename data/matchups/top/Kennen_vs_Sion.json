@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-18T14:05:25.170256",
+  "sample_size": 15,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:39.692401",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 0,
-      "avg_xp_diff": 21,
-      "avg_cs_diff": 0.9,
-      "sample_frames": 20,
+      "avg_gold_diff": 67,
+      "avg_xp_diff": 57,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 75,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 55,
-      "avg_xp_diff": 42,
-      "avg_cs_diff": 2.3,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": 331,
+      "avg_xp_diff": 117,
+      "avg_cs_diff": 7.9,
+      "sample_frames": 75,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -227,
-      "avg_xp_diff": -153,
-      "avg_cs_diff": 0.1,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": 518,
+      "avg_xp_diff": 235,
+      "avg_cs_diff": 12.4,
+      "sample_frames": 75,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -572,
-      "avg_xp_diff": -639,
-      "avg_cs_diff": 0.5,
-      "sample_frames": 40,
-      "advantage": -2
+      "avg_gold_diff": 1096,
+      "avg_xp_diff": 301,
+      "avg_cs_diff": 13.7,
+      "sample_frames": 121,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2171,
-      "avg_xp_diff": -1507,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 28,
-      "advantage": -2
+      "avg_gold_diff": 2192,
+      "avg_xp_diff": 913,
+      "avg_cs_diff": 15.4,
+      "sample_frames": 78,
+      "advantage": 2
     }
   ],
   "champA": "Kennen",
@@ -56,43 +56,142 @@
     "champA": {
       "items": [
         {
+          "name": "Hextech Rocketbelt",
+          "count": 9,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 8,
+          "pickRate": 53.3,
+          "winRate": 50.0
+        },
+        {
           "name": "Hextech Gunblade",
+          "count": 6,
+          "pickRate": 40.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Void Staff",
+          "count": 4,
+          "pickRate": 26.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 13.3,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 4.5,
-      "kda": 1.06,
-      "avgDamage": 25505
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 6,
+          "pickRate": 40.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "First Strike",
+          "count": 5,
+          "pickRate": 33.3,
+          "winRate": 80.0
+        },
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 26.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 13,
+          "pickRate": 86.7,
+          "winRate": 69.2
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 13.3,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.2,
+      "kda": 2.19,
+      "avgDamage": 26207
     },
     "champB": {
       "items": [
         {
           "name": "Hollow Radiance",
-          "count": 2,
+          "count": 15,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Unending Despair",
+          "count": 5,
+          "pickRate": 33.3,
+          "winRate": 20.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 3,
+          "pickRate": 20.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 13.3,
           "winRate": 100.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 13.3,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 12,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 20.0,
+          "winRate": 66.7
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 15,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 5.0,
-      "avgAssists": 14.0,
-      "kda": 3.7,
-      "avgDamage": 20722
+      "avgKills": 3.1,
+      "avgDeaths": 5.5,
+      "avgAssists": 5.7,
+      "kda": 1.6,
+      "avgDamage": 16083
     }
   }
 }

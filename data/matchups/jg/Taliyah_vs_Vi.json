@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 4,
-  "overall_winrate_a": 75.0,
-  "updated_at": "2026-03-18T14:05:25.791287",
+  "sample_size": 25,
+  "overall_winrate_a": 44.0,
+  "updated_at": "2026-03-19T03:29:40.526180",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 25,
-      "avg_xp_diff": 22,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 20,
+      "avg_gold_diff": 38,
+      "avg_xp_diff": -3,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 125,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 147,
-      "avg_xp_diff": 62,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": 247,
+      "avg_xp_diff": -93,
+      "avg_cs_diff": -2.8,
+      "sample_frames": 125,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 289,
-      "avg_xp_diff": 408,
-      "avg_cs_diff": 9.2,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": 617,
+      "avg_xp_diff": 114,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 125,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1058,
-      "avg_xp_diff": 1453,
-      "avg_cs_diff": 24.3,
-      "sample_frames": 40,
+      "avg_gold_diff": 1097,
+      "avg_xp_diff": 449,
+      "avg_cs_diff": 10.2,
+      "sample_frames": 202,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2958,
-      "avg_xp_diff": 2664,
-      "avg_cs_diff": 44.2,
-      "sample_frames": 12,
+      "avg_gold_diff": 2327,
+      "avg_xp_diff": 1836,
+      "avg_cs_diff": 35.4,
+      "sample_frames": 95,
       "advantage": 2
     }
   ],
@@ -56,82 +56,142 @@
     "champA": {
       "items": [
         {
+          "name": "Blackfire Torch",
+          "count": 22,
+          "pickRate": 88.0,
+          "winRate": 40.9
+        },
+        {
           "name": "Zhonya's Hourglass",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 14,
+          "pickRate": 56.0,
+          "winRate": 57.1
         },
         {
           "name": "Shadowflame",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 10,
+          "pickRate": 40.0,
+          "winRate": 30.0
         },
         {
-          "name": "Blackfire Torch",
+          "name": "Void Staff",
+          "count": 5,
+          "pickRate": 20.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Banshee's Veil",
+          "count": 5,
+          "pickRate": 20.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 12.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 12.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 8.0,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Dark Harvest",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 24,
+          "pickRate": 96.0,
+          "winRate": 41.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 25,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 44.0
         }
       ],
-      "avgKills": 14.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 13.5,
-      "kda": 8.0,
-      "avgDamage": 29608
+      "avgKills": 7.2,
+      "avgDeaths": 4.8,
+      "avgAssists": 8.0,
+      "kda": 3.2,
+      "avgDamage": 21266
     },
     "champB": {
       "items": [
         {
-          "name": "Black Cleaver",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "name": "Sundered Sky",
+          "count": 24,
+          "pickRate": 96.0,
+          "winRate": 54.2
         },
         {
-          "name": "Sundered Sky",
+          "name": "Black Cleaver",
+          "count": 16,
+          "pickRate": 64.0,
+          "winRate": 43.8
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 8,
+          "pickRate": 32.0,
+          "winRate": 62.5
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 12.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 12.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Maw of Malmortius",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 8.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 8.0,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 25,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 56.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 25,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 56.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 6.0,
-      "kda": 1.11,
-      "avgDamage": 11450
+      "avgKills": 4.5,
+      "avgDeaths": 4.6,
+      "avgAssists": 8.3,
+      "kda": 2.81,
+      "avgDamage": 12093
     }
   }
 }

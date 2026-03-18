@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.504039",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:40.115886",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -323,
-      "avg_xp_diff": -199,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 56,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -980,
-      "avg_xp_diff": -737,
-      "avg_cs_diff": -16.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 163,
+      "avg_xp_diff": -189,
+      "avg_cs_diff": 8.9,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1646,
-      "avg_xp_diff": -1627,
-      "avg_cs_diff": -30.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 430,
+      "avg_xp_diff": -211,
+      "avg_cs_diff": 12.5,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 288,
-      "avg_xp_diff": -664,
-      "avg_cs_diff": -25.9,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 1631,
+      "avg_xp_diff": 671,
+      "avg_cs_diff": 25.7,
+      "sample_frames": 31,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2297,
-      "avg_xp_diff": 2497,
-      "avg_cs_diff": -8.5,
-      "sample_frames": 4,
+      "avg_gold_diff": 3746,
+      "avg_xp_diff": 2593,
+      "avg_cs_diff": 57.8,
+      "sample_frames": 12,
       "advantage": 2
     }
   ],
@@ -54,24 +54,78 @@
   "champB": "Poppy",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 8.0,
-      "kda": 2.0,
-      "avgDamage": 30526
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.7,
+      "kda": 1.89,
+      "avgDamage": 27048
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.3,
       "avgDeaths": 6.0,
       "avgAssists": 8.0,
-      "kda": 2.33,
-      "avgDamage": 28677
+      "kda": 1.72,
+      "avgDamage": 20095
     }
   }
 }

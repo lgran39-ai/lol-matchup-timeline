@@ -1,55 +1,130 @@
 {
-  "champA": "Ambessa",
-  "champB": "Naafiri",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:04.543719",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.227067",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -37,
-      "avg_xp_diff": 16,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -26,
+      "avg_xp_diff": 18,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -300,
-      "avg_xp_diff": -25,
-      "avg_cs_diff": -10.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -211,
+      "avg_xp_diff": 21,
+      "avg_cs_diff": -4.7,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -274,
-      "avg_xp_diff": -82,
-      "avg_cs_diff": -10.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -266,
+      "avg_xp_diff": 146,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 372,
-      "avg_xp_diff": 1245,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 21,
-      "advantage": 1
+      "label": "mid_game",
+      "avg_gold_diff": 884,
+      "avg_xp_diff": 1837,
+      "avg_cs_diff": 17.0,
+      "sample_frames": 31,
+      "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 2969,
-      "avg_xp_diff": 4163,
-      "avg_cs_diff": 26.7,
-      "sample_frames": 3,
+      "label": "late_game",
+      "avg_gold_diff": 1892,
+      "avg_xp_diff": 1556,
+      "avg_cs_diff": 29.7,
+      "sample_frames": 14,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Ambessa",
+  "champB": "Naafiri",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Eclipse",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.7,
+      "kda": 1.88,
+      "avgDamage": 27066
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 5.7,
+      "avgAssists": 6.0,
+      "kda": 1.88,
+      "avgDamage": 23756
+    }
+  }
 }

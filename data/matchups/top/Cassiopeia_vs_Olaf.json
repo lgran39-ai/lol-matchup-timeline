@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.298845",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-19T03:29:38.633162",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 272,
-      "avg_xp_diff": 211,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 167,
+      "avg_xp_diff": 76,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 603,
-      "avg_xp_diff": 534,
+      "avg_gold_diff": 399,
+      "avg_xp_diff": 197,
       "avg_cs_diff": 11.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1032,
-      "avg_xp_diff": 1056,
-      "avg_cs_diff": 26.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 190,
+      "avg_xp_diff": -119,
+      "avg_cs_diff": 11.7,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2523,
-      "avg_xp_diff": 2269,
-      "avg_cs_diff": 43.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 420,
+      "avg_xp_diff": 461,
+      "avg_cs_diff": 15.8,
+      "sample_frames": 38,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3760,
-      "avg_xp_diff": 4693,
-      "avg_cs_diff": 38.4,
-      "sample_frames": 8,
+      "avg_gold_diff": 915,
+      "avg_xp_diff": 3141,
+      "avg_cs_diff": 35.2,
+      "sample_frames": 17,
       "advantage": 2
     }
   ],
@@ -54,24 +54,90 @@
   "champB": "Olaf",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 9.0,
-      "kda": 6.33,
-      "avgDamage": 29596
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 3.6,
+      "avgAssists": 5.0,
+      "kda": 3.06,
+      "avgDamage": 21495
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 6.0,
-      "kda": 1.12,
-      "avgDamage": 16219
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 3.6,
+      "avgDeaths": 6.6,
+      "avgAssists": 2.8,
+      "kda": 0.97,
+      "avgDamage": 16334
     }
   }
 }

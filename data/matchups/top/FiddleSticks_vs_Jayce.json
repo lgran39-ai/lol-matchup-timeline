@@ -1,46 +1,98 @@
 {
-  "champA": "FiddleSticks",
-  "champB": "Jayce",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.096103",
+  "updated_at": "2026-03-19T03:29:38.919556",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 7,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -136,
+      "avg_xp_diff": -135,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 116,
-      "avg_xp_diff": 188,
-      "avg_cs_diff": -9.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -573,
+      "avg_xp_diff": -606,
+      "avg_cs_diff": -22.4,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 548,
-      "avg_xp_diff": 1395,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -511,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": -22.4,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 253,
-      "avg_xp_diff": 1938,
-      "avg_cs_diff": -9.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "label": "mid_game",
+      "avg_gold_diff": -2497,
+      "avg_xp_diff": -133,
+      "avg_cs_diff": -23.6,
+      "sample_frames": 15,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4726,
+      "avg_xp_diff": -205,
+      "avg_cs_diff": -38.3,
+      "sample_frames": 3,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "FiddleSticks",
+  "champB": "Jayce",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 7.0,
+      "kda": 2.22,
+      "avgDamage": 14229
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 6.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 1.0,
+      "kda": 1.08,
+      "avgDamage": 23520
+    }
+  }
 }

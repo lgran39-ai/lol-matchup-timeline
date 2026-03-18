@@ -1,46 +1,143 @@
 {
-  "champA": "Gwen",
-  "champB": "RekSai",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.290344",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.248091",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 51,
-      "avg_xp_diff": -25,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 95,
+      "avg_xp_diff": 17,
+      "avg_cs_diff": 5.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -120,
-      "avg_xp_diff": -399,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 40,
+      "avg_xp_diff": -226,
+      "avg_cs_diff": 10.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -120,
-      "avg_xp_diff": -711,
-      "avg_cs_diff": 20.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -122,
+      "avg_xp_diff": -552,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -939,
-      "avg_xp_diff": -1573,
-      "avg_cs_diff": 17.9,
-      "sample_frames": 7,
+      "label": "mid_game",
+      "avg_gold_diff": -794,
+      "avg_xp_diff": -651,
+      "avg_cs_diff": 11.5,
+      "sample_frames": 37,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 973,
+      "avg_xp_diff": 2095,
+      "avg_cs_diff": 16.6,
+      "sample_frames": 27,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Gwen",
+  "champB": "RekSai",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 5.8,
+      "avgAssists": 4.5,
+      "kda": 1.74,
+      "avgDamage": 32628
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Titanic Hydra",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.0,
+      "kda": 2.0,
+      "avgDamage": 22674
+    }
+  }
 }

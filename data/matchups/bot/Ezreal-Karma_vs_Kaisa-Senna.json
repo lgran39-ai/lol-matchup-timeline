@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:27.004886",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:43.105769",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -36,
-      "avg_xp_diff": 46,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 180,
+      "avg_xp_diff": 192,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -508,
-      "avg_xp_diff": 384,
-      "avg_cs_diff": 10.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 821,
+      "avg_xp_diff": 583,
+      "avg_cs_diff": 14.9,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -507,
-      "avg_xp_diff": 786,
-      "avg_cs_diff": 12.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 1095,
+      "avg_xp_diff": 874,
+      "avg_cs_diff": 24.4,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2727,
-      "avg_xp_diff": -933,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 2558,
+      "avg_xp_diff": 1923,
+      "avg_cs_diff": 35.1,
+      "sample_frames": 21,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -5086,
-      "avg_xp_diff": -1626,
-      "avg_cs_diff": 26.3,
-      "sample_frames": 11,
-      "advantage": -2
+      "avg_gold_diff": 3724,
+      "avg_xp_diff": 2574,
+      "avg_cs_diff": 39.5,
+      "sample_frames": 4,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 4.0,
-        "kda": 1.5,
-        "avgDamage": 32690
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 8.5,
+        "kda": 3.2,
+        "avgDamage": 29928
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Redemption",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 19.0,
-        "kda": 3.0,
-        "avgDamage": 9188
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 16.5,
+        "kda": 4.4,
+        "avgDamage": 11374
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 16.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 10.0,
-        "kda": 2.6,
-        "avgDamage": 53265
+        "avgKills": 4.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 6.5,
+        "kda": 1.5,
+        "avgDamage": 15308
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Serpent's Fang",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Edge of Night",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 28.0,
-        "kda": 4.14,
-        "avgDamage": 15138
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 13.0,
+        "kda": 2.62,
+        "avgDamage": 19890
       }
     }
   }

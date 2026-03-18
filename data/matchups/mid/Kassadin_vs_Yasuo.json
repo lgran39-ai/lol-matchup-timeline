@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 5,
-  "overall_winrate_a": 20.0,
-  "updated_at": "2026-03-18T14:05:25.113278",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-19T03:29:39.625195",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -72,
-      "avg_xp_diff": -42,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 25,
+      "avg_gold_diff": -124,
+      "avg_xp_diff": -44,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -321,
-      "avg_xp_diff": -228,
-      "avg_cs_diff": -11.9,
-      "sample_frames": 25,
+      "avg_gold_diff": -399,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": -10.5,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -783,
-      "avg_xp_diff": -463,
-      "avg_cs_diff": -15.8,
-      "sample_frames": 25,
-      "advantage": -2
+      "avg_gold_diff": -52,
+      "avg_xp_diff": 572,
+      "avg_cs_diff": -8.4,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1199,
-      "avg_xp_diff": -1034,
-      "avg_cs_diff": -25.3,
-      "sample_frames": 40,
-      "advantage": -2
+      "avg_gold_diff": 877,
+      "avg_xp_diff": 1196,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 32,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 27,
-      "avg_xp_diff": 2134,
-      "avg_cs_diff": -18.2,
-      "sample_frames": 37,
-      "advantage": 0
+      "avg_gold_diff": 2478,
+      "avg_xp_diff": 2900,
+      "avg_cs_diff": 8.7,
+      "sample_frames": 17,
+      "advantage": 2
     }
   ],
   "champA": "Kassadin",
@@ -56,50 +56,94 @@
     "champA": {
       "items": [
         {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Armored Advance",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
           "name": "Zhonya's Hourglass",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 6.0,
-      "avgDeaths": 8.5,
-      "avgAssists": 8.5,
-      "kda": 1.71,
-      "avgDamage": 32994
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Blade of The Ruined King",
-          "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
-          "name": "Lethal Tempo",
-          "count": 2,
+          "name": "First Strike",
+          "count": 4,
           "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 4.2,
+      "avgAssists": 7.2,
+      "kda": 2.76,
+      "avgDamage": 19520
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 10.5,
-      "kda": 2.64,
-      "avgDamage": 33416
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.8,
+      "avgDeaths": 6.2,
+      "avgAssists": 7.0,
+      "kda": 1.72,
+      "avgDamage": 18962
     }
   }
 }

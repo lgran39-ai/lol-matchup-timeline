@@ -1,55 +1,137 @@
 {
-  "champA": "Skarner",
-  "champB": "Vi",
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:06.262675",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.469104",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -132,
-      "avg_xp_diff": -114,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -48,
+      "avg_xp_diff": -66,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -763,
-      "avg_xp_diff": -302,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -350,
+      "avg_xp_diff": -250,
+      "avg_cs_diff": -4.5,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -489,
-      "avg_xp_diff": 147,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
-      "advantage": -2
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -568,
-      "avg_xp_diff": 218,
-      "avg_cs_diff": -0.5,
+      "avg_gold_diff": -1168,
+      "avg_xp_diff": -567,
+      "avg_cs_diff": -3.3,
       "sample_frames": 10,
       "advantage": -2
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -2394,
+      "avg_xp_diff": -1474,
+      "avg_cs_diff": -15.8,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -432,
-      "avg_xp_diff": 566,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 16,
+      "label": "late_game",
+      "avg_gold_diff": -2222,
+      "avg_xp_diff": -523,
+      "avg_cs_diff": -6.8,
+      "sample_frames": 8,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Skarner",
+  "champB": "Vi",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Bandlepipes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Protoplasm Harness",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zeke's Convergence",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 11.5,
+      "kda": 3.0,
+      "avgDamage": 13696
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 11.0,
+      "kda": 7.0,
+      "avgDamage": 22343
+    }
+  }
 }

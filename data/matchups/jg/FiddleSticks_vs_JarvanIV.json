@@ -1,79 +1,191 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.542171",
+  "sample_size": 17,
+  "overall_winrate_a": 41.2,
+  "updated_at": "2026-03-19T03:29:38.916881",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 73,
-      "avg_xp_diff": -44,
-      "avg_cs_diff": -0.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 24,
+      "avg_xp_diff": 22,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 85,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 176,
-      "avg_xp_diff": -254,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 21,
+      "avg_xp_diff": 0,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 85,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 198,
-      "avg_xp_diff": -78,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": -42,
+      "avg_xp_diff": -59,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 85,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 441,
-      "avg_xp_diff": 75,
-      "avg_cs_diff": 2.5,
-      "sample_frames": 22,
-      "advantage": 2
+      "avg_gold_diff": -274,
+      "avg_xp_diff": -367,
+      "avg_cs_diff": -6.1,
+      "sample_frames": 143,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1153,
-      "avg_xp_diff": 546,
-      "avg_cs_diff": 25.2,
-      "sample_frames": 8,
-      "advantage": 2
+      "avg_gold_diff": -252,
+      "avg_xp_diff": -173,
+      "avg_cs_diff": 7.6,
+      "sample_frames": 64,
+      "advantage": -1
     }
   ],
   "champA": "FiddleSticks",
   "champB": "JarvanIV",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.3,
-      "avgDeaths": 4.0,
-      "avgAssists": 6.7,
-      "kda": 3.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 9,
+          "pickRate": 52.9,
+          "winRate": 55.6
+        },
+        {
+          "name": "Void Staff",
+          "count": 8,
+          "pickRate": 47.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 8,
+          "pickRate": 47.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 7,
+          "pickRate": 41.2,
+          "winRate": 42.9
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 11.8,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 12,
+          "pickRate": 70.6,
+          "winRate": 58.3
+        },
+        {
+          "name": "First Strike",
+          "count": 3,
+          "pickRate": 17.6,
+          "winRate": 0.0
+        },
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 11.8,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 17,
+          "pickRate": 100.0,
+          "winRate": 41.2
+        }
+      ],
+      "avgKills": 5.2,
+      "avgDeaths": 4.6,
+      "avgAssists": 6.4,
+      "kda": 2.51,
+      "avgDamage": 17018
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 14,
+          "pickRate": 82.4,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 7,
+          "pickRate": 41.2,
+          "winRate": 57.1
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 6,
+          "pickRate": 35.3,
+          "winRate": 83.3
+        },
+        {
+          "name": "Spirit Visage",
+          "count": 3,
+          "pickRate": 17.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 3,
+          "pickRate": 17.6,
+          "winRate": 66.7
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 11.8,
+          "winRate": 50.0
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 2,
+          "pickRate": 11.8,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 17,
+          "pickRate": 100.0,
+          "winRate": 58.8
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 17,
+          "pickRate": 100.0,
+          "winRate": 58.8
+        }
+      ],
       "avgKills": 4.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 7.7,
-      "kda": 1.67,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgDeaths": 4.9,
+      "avgAssists": 12.3,
+      "kda": 3.34,
+      "avgDamage": 13616
     }
   }
 }

@@ -1,51 +1,51 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.622092",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.321558",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 1,
-      "avg_xp_diff": 31,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 104,
+      "avg_xp_diff": 61,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 305,
-      "avg_xp_diff": 250,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 433,
+      "avg_xp_diff": 65,
+      "avg_cs_diff": 12.2,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 428,
-      "avg_xp_diff": 411,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 362,
+      "avg_xp_diff": -649,
+      "avg_cs_diff": 7.3,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1040,
-      "avg_xp_diff": 542,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 402,
+      "avg_xp_diff": -2076,
+      "avg_cs_diff": -7.0,
+      "sample_frames": 17,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2687,
-      "avg_xp_diff": -651,
-      "avg_cs_diff": 10.3,
+      "avg_gold_diff": 439,
+      "avg_xp_diff": -3028,
+      "avg_cs_diff": -13.3,
       "sample_frames": 6,
       "advantage": 2
     }
@@ -54,24 +54,72 @@
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 5.0,
-      "avgDamage": 16874
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.2,
+      "avgDeaths": 4.5,
+      "avgAssists": 1.8,
+      "kda": 1.11,
+      "avgDamage": 12574
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 9.0,
-      "kda": 2.75,
-      "avgDamage": 17483
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 6.2,
+      "kda": 5.83,
+      "avgDamage": 12666
     }
   }
 }

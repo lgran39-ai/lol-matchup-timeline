@@ -1,68 +1,167 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.207870",
+  "sample_size": 8,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.751744",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -85,
-      "avg_xp_diff": -97,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -69,
+      "avg_xp_diff": -38,
+      "avg_cs_diff": -1.3,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -874,
-      "avg_xp_diff": -765,
-      "avg_cs_diff": -20.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -278,
+      "avg_xp_diff": -239,
+      "avg_cs_diff": -11.2,
+      "sample_frames": 40,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -273,
-      "avg_xp_diff": -336,
-      "avg_cs_diff": -19.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -577,
+      "avg_xp_diff": -1075,
+      "avg_cs_diff": -24.5,
+      "sample_frames": 40,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -739,
-      "avg_xp_diff": 139,
-      "avg_cs_diff": -11.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -992,
+      "avg_xp_diff": -1525,
+      "avg_cs_diff": -24.0,
+      "sample_frames": 63,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 121,
+      "avg_xp_diff": -722,
+      "avg_cs_diff": -17.4,
+      "sample_frames": 45,
+      "advantage": 0
     }
   ],
   "champA": "Kled",
   "champB": "Rumble",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 0.0,
-      "kda": 0.8,
-      "avgDamage": 9656
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.1,
+      "avgDeaths": 5.1,
+      "avgAssists": 8.0,
+      "kda": 2.37,
+      "avgDamage": 15374
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 2.33,
-      "avgDamage": 17165
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 42.9
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.8,
+      "avgDeaths": 4.6,
+      "avgAssists": 5.2,
+      "kda": 2.38,
+      "avgDamage": 27210
     }
   }
 }

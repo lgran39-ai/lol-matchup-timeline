@@ -1,53 +1,53 @@
 {
   "role": "top",
   "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:24.766745",
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:39.182458",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 8,
-      "avg_xp_diff": 18,
-      "avg_cs_diff": -1.5,
+      "avg_gold_diff": -54,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": -5.1,
       "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 95,
-      "avg_xp_diff": 362,
-      "avg_cs_diff": 0.3,
+      "avg_gold_diff": -178,
+      "avg_xp_diff": 116,
+      "avg_cs_diff": -13.5,
       "sample_frames": 15,
-      "advantage": 0
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 610,
-      "avg_xp_diff": 1027,
-      "avg_cs_diff": 6.1,
+      "avg_gold_diff": -139,
+      "avg_xp_diff": 454,
+      "avg_cs_diff": -10.0,
       "sample_frames": 15,
-      "advantage": 2
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1120,
-      "avg_xp_diff": 1437,
-      "avg_cs_diff": 18.3,
+      "avg_gold_diff": -740,
+      "avg_xp_diff": 215,
+      "avg_cs_diff": -13.5,
       "sample_frames": 30,
-      "advantage": 2
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1200,
-      "avg_xp_diff": 2288,
-      "avg_cs_diff": 17.7,
-      "sample_frames": 17,
-      "advantage": 2
+      "avg_gold_diff": -2207,
+      "avg_xp_diff": 551,
+      "avg_cs_diff": -37.9,
+      "sample_frames": 14,
+      "advantage": -2
     }
   ],
   "champA": "Gragas",
@@ -56,50 +56,70 @@
     "champA": {
       "items": [
         {
-          "name": "Hextech Rocketbelt",
+          "name": "Rod of Ages",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 66.7,
+          "winRate": 0.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 5.5,
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 5.0,
       "avgAssists": 7.0,
-      "kda": 2.18,
-      "avgDamage": 19990
+      "kda": 2.0,
+      "avgDamage": 21343
     },
     "champB": {
       "items": [
         {
           "name": "Experimental Hexplate",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Exhaust+Flash",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.5,
-      "kda": 0.86,
-      "avgDamage": 15942
+      "avgKills": 5.0,
+      "avgDeaths": 6.3,
+      "avgAssists": 4.3,
+      "kda": 1.47,
+      "avgDamage": 23071
     }
   }
 }

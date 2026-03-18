@@ -1,55 +1,149 @@
 {
-  "champA": "Anivia",
-  "champB": "Aurora",
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:04.578531",
+  "sample_size": 10,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T03:29:38.285694",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -108,
-      "avg_xp_diff": -71,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 20,
+      "avg_gold_diff": 2,
+      "avg_xp_diff": -6,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -420,
-      "avg_xp_diff": -121,
-      "avg_cs_diff": -12.6,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": -158,
+      "avg_xp_diff": -97,
+      "avg_cs_diff": -6.8,
+      "sample_frames": 50,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -24,
-      "avg_xp_diff": -11,
-      "avg_cs_diff": -11.3,
-      "sample_frames": 20,
+      "avg_gold_diff": 84,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": -5.4,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -65,
-      "avg_xp_diff": 472,
-      "avg_cs_diff": -5.5,
-      "sample_frames": 30,
-      "advantage": 0
+      "label": "mid_game",
+      "avg_gold_diff": 341,
+      "avg_xp_diff": 1128,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 81,
+      "advantage": 1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 561,
-      "avg_xp_diff": 2852,
-      "avg_cs_diff": 38.5,
-      "sample_frames": 16,
+      "label": "late_game",
+      "avg_gold_diff": 458,
+      "avg_xp_diff": 2540,
+      "avg_cs_diff": 28.1,
+      "sample_frames": 23,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Aurora",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 55.6
+        }
+      ],
+      "avgKills": 2.9,
+      "avgDeaths": 3.5,
+      "avgAssists": 6.9,
+      "kda": 2.8,
+      "avgDamage": 14637
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 7,
+          "pickRate": 70.0,
+          "winRate": 28.6
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 10,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 2.2,
+      "avgDeaths": 5.1,
+      "avgAssists": 3.9,
+      "kda": 1.2,
+      "avgDamage": 17514
+    }
+  }
 }

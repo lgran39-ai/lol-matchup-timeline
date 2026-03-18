@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.812770",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.551242",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -40,
-      "avg_xp_diff": 17,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 15,
+      "avg_gold_diff": 105,
+      "avg_xp_diff": 18,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 268,
-      "avg_xp_diff": 382,
-      "avg_cs_diff": 5.9,
-      "sample_frames": 15,
+      "avg_gold_diff": 339,
+      "avg_xp_diff": 264,
+      "avg_cs_diff": 5.6,
+      "sample_frames": 30,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 938,
-      "avg_xp_diff": 1214,
-      "avg_cs_diff": 14.0,
-      "sample_frames": 15,
+      "avg_gold_diff": 518,
+      "avg_xp_diff": 599,
+      "avg_cs_diff": 12.0,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 802,
-      "avg_xp_diff": 973,
-      "avg_cs_diff": -3.9,
-      "sample_frames": 31,
+      "avg_gold_diff": 675,
+      "avg_xp_diff": 845,
+      "avg_cs_diff": 10.5,
+      "sample_frames": 56,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1856,
-      "avg_xp_diff": 1428,
-      "avg_cs_diff": -21.3,
-      "sample_frames": 9,
+      "avg_gold_diff": 625,
+      "avg_xp_diff": 964,
+      "avg_cs_diff": 15.9,
+      "sample_frames": 21,
       "advantage": 2
     }
   ],
@@ -54,26 +54,102 @@
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 5.7,
-      "avgAssists": 4.3,
-      "kda": 1.65,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        },
+        {
+          "name": "Malignance",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 7.3,
+      "avgAssists": 4.0,
+      "kda": 1.32,
+      "avgDamage": 24293
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.3,
-      "avgDeaths": 5.3,
-      "avgAssists": 1.7,
-      "kda": 1.12,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Wit's End",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Cleanse+Flash",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 6.8,
+      "avgAssists": 3.5,
+      "kda": 1.41,
+      "avgDamage": 15903
     }
   }
 }

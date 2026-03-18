@@ -1,79 +1,149 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:25.505217",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-19T03:29:40.121823",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 124,
-      "avg_xp_diff": 73,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 35,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 272,
-      "avg_xp_diff": 61,
-      "avg_cs_diff": 21.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 204,
+      "avg_xp_diff": 273,
+      "avg_cs_diff": 7.4,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -296,
-      "avg_xp_diff": -690,
-      "avg_cs_diff": 23.3,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 126,
+      "avg_xp_diff": 192,
+      "avg_cs_diff": 14.6,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 170,
-      "avg_xp_diff": -528,
-      "avg_cs_diff": 31.4,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": 547,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": 24.8,
+      "sample_frames": 50,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -423,
-      "avg_xp_diff": -2063,
-      "avg_cs_diff": 30.8,
-      "sample_frames": 6,
-      "advantage": -2
+      "avg_gold_diff": 1129,
+      "avg_xp_diff": 208,
+      "avg_cs_diff": 27.6,
+      "sample_frames": 17,
+      "advantage": 2
     }
   ],
   "champA": "Olaf",
   "champB": "Shen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 5.5,
-      "kda": 1.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        },
+        {
+          "name": "Ravenous Hydra",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 5.8,
+      "avgAssists": 3.2,
+      "kda": 1.41,
+      "avgDamage": 24401
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 9.5,
-      "kda": 5.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Heartsteel",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 3.8,
+      "avgAssists": 11.4,
+      "kda": 4.26,
+      "avgDamage": 17383
     }
   }
 }

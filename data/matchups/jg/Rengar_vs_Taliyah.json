@@ -1,55 +1,191 @@
 {
-  "champA": "Rengar",
-  "champB": "Taliyah",
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:06.153112",
+  "sample_size": 8,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:40.323998",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 45,
-      "avg_xp_diff": 36,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 59,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 479,
-      "avg_xp_diff": 427,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 137,
+      "avg_xp_diff": 52,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 40,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -286,
-      "avg_xp_diff": 104,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 131,
+      "avg_xp_diff": 133,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 40,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 529,
-      "avg_xp_diff": 812,
-      "avg_cs_diff": 15.5,
-      "sample_frames": 10,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": 208,
+      "avg_xp_diff": 819,
+      "avg_cs_diff": 5.4,
+      "sample_frames": 73,
+      "advantage": 1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 1777,
-      "avg_xp_diff": 2941,
-      "avg_cs_diff": 45.0,
-      "sample_frames": 5,
+      "label": "late_game",
+      "avg_gold_diff": 1655,
+      "avg_xp_diff": 1972,
+      "avg_cs_diff": 21.2,
+      "sample_frames": 25,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Rengar",
+  "champB": "Taliyah",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 80.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 100.0
+        },
+        {
+          "name": "Opportunity",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        },
+        {
+          "name": "First Strike",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 100.0
+        },
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 5.2,
+      "avgAssists": 7.4,
+      "kda": 2.93,
+      "avgDamage": 19312
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 28.6
+        },
+        {
+          "name": "Shadowflame",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Dark Harvest",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 5.1,
+      "avgDeaths": 6.8,
+      "avgAssists": 7.8,
+      "kda": 1.91,
+      "avgDamage": 18686
+    }
+  }
 }

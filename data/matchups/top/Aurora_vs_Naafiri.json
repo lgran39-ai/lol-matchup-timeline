@@ -1,77 +1,125 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.144975",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.443239",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -54,
-      "avg_xp_diff": -6,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 74,
+      "avg_xp_diff": 46,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -449,
-      "avg_xp_diff": -74,
-      "avg_cs_diff": -14.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 199,
+      "avg_xp_diff": 154,
+      "avg_cs_diff": 6.9,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -394,
-      "avg_xp_diff": 657,
-      "avg_cs_diff": -7.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -225,
+      "avg_xp_diff": -45,
+      "avg_cs_diff": 7.7,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -840,
-      "avg_xp_diff": 838,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 1435,
+      "avg_xp_diff": 1874,
+      "avg_cs_diff": 26.4,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1470,
-      "avg_xp_diff": 383,
-      "avg_cs_diff": -13.9,
-      "sample_frames": 13,
-      "advantage": -2
+      "avg_gold_diff": 3056,
+      "avg_xp_diff": 4323,
+      "avg_cs_diff": 45.0,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "champA": "Aurora",
   "champB": "Naafiri",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 8.0,
-      "kda": 2.67,
-      "avgDamage": 33337
+      "items": [
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 4.7,
+      "avgAssists": 5.0,
+      "kda": 2.64,
+      "avgDamage": 23948
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
       "avgKills": 7.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 8.0,
-      "kda": 1.88,
-      "avgDamage": 32555
+      "avgDeaths": 6.3,
+      "avgAssists": 2.3,
+      "kda": 1.47,
+      "avgDamage": 18844
     }
   }
 }

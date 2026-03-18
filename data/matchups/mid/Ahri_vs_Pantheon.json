@@ -1,77 +1,191 @@
 {
   "role": "mid",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:23.845446",
+  "sample_size": 8,
+  "overall_winrate_a": 62.5,
+  "updated_at": "2026-03-19T03:29:38.030183",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 13,
-      "avg_xp_diff": -24,
-      "avg_cs_diff": 0.5,
-      "sample_frames": 20,
+      "avg_gold_diff": 38,
+      "avg_xp_diff": 79,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 141,
-      "avg_xp_diff": 138,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 20,
+      "avg_gold_diff": 122,
+      "avg_xp_diff": 443,
+      "avg_cs_diff": 14.1,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 213,
-      "avg_xp_diff": 761,
-      "avg_cs_diff": 19.3,
-      "sample_frames": 20,
+      "avg_gold_diff": 364,
+      "avg_xp_diff": 837,
+      "avg_cs_diff": 24.3,
+      "sample_frames": 40,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 802,
-      "avg_xp_diff": 1264,
-      "avg_cs_diff": 28.7,
-      "sample_frames": 39,
+      "avg_gold_diff": 791,
+      "avg_xp_diff": 1344,
+      "avg_cs_diff": 39.0,
+      "sample_frames": 62,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 27,
-      "avg_xp_diff": 91,
-      "avg_cs_diff": 46.5,
-      "sample_frames": 13,
-      "advantage": 0
+      "avg_gold_diff": -989,
+      "avg_xp_diff": -1187,
+      "avg_cs_diff": 8.9,
+      "sample_frames": 37,
+      "advantage": -2
     }
   ],
   "champA": "Ahri",
   "champB": "Pantheon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 9.0,
-      "kda": 3.5,
-      "avgDamage": 18046
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 57.1
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 80.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 33.3
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 62.5
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.8,
+      "avgAssists": 6.8,
+      "kda": 2.68,
+      "avgDamage": 24051
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 5.0,
-      "kda": 1.57,
-      "avgDamage": 12629
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 40.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 6.6,
+      "avgAssists": 6.9,
+      "kda": 2.02,
+      "avgDamage": 22128
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:23.946571",
+  "sample_size": 13,
+  "overall_winrate_a": 69.2,
+  "updated_at": "2026-03-19T03:29:38.159844",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -88,
-      "avg_xp_diff": -9,
-      "avg_cs_diff": 1.1,
-      "sample_frames": 15,
+      "avg_gold_diff": 23,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 65,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -143,
-      "avg_xp_diff": -201,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 243,
+      "avg_xp_diff": -29,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 65,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 72,
-      "avg_xp_diff": -560,
-      "avg_cs_diff": -12.9,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 807,
+      "avg_xp_diff": 226,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 65,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 402,
-      "avg_xp_diff": -637,
-      "avg_cs_diff": -23.6,
-      "sample_frames": 30,
+      "avg_gold_diff": 1615,
+      "avg_xp_diff": 435,
+      "avg_cs_diff": -8.2,
+      "sample_frames": 116,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 846,
-      "avg_xp_diff": -757,
-      "avg_cs_diff": -35.8,
-      "sample_frames": 12,
+      "avg_gold_diff": 3020,
+      "avg_xp_diff": 848,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 42,
       "advantage": 2
     }
   ],
@@ -56,49 +56,142 @@
     "champA": {
       "items": [
         {
-          "name": "Serpent's Fang",
+          "name": "The Collector",
+          "count": 11,
+          "pickRate": 84.6,
+          "winRate": 63.6
+        },
+        {
+          "name": "Statikk Shiv",
+          "count": 11,
+          "pickRate": 84.6,
+          "winRate": 63.6
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 6,
+          "pickRate": 46.2,
+          "winRate": 83.3
+        },
+        {
+          "name": "Rapid Firecannon",
+          "count": 5,
+          "pickRate": 38.5,
+          "winRate": 40.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 5,
+          "pickRate": 38.5,
+          "winRate": 40.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 75.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hubris",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 15.4,
           "winRate": 100.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.5,
-      "avgDeaths": 5.5,
-      "avgAssists": 7.5,
-      "kda": 3.27,
-      "avgDamage": 25517
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 10,
+          "pickRate": 76.9,
+          "winRate": 60.0
+        },
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 12,
+          "pickRate": 92.3,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 11.7,
+      "avgDeaths": 5.1,
+      "avgAssists": 6.3,
+      "kda": 3.55,
+      "avgDamage": 25802
     },
     "champB": {
       "items": [
         {
-          "name": "Rylai's Crystal Scepter",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "name": "Crimson Lucidity",
+          "count": 11,
+          "pickRate": 84.6,
+          "winRate": 36.4
         },
         {
-          "name": "Crimson Lucidity",
+          "name": "Rylai's Crystal Scepter",
+          "count": 9,
+          "pickRate": 69.2,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 75.0
+        },
+        {
+          "name": "Blackfire Torch",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 15.4,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 12,
+          "pickRate": 92.3,
+          "winRate": 33.3
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.5,
-      "avgAssists": 5.5,
-      "kda": 1.0,
-      "avgDamage": 15527
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 8,
+          "pickRate": 61.5,
+          "winRate": 37.5
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 3.8,
+      "avgDeaths": 6.8,
+      "avgAssists": 9.5,
+      "kda": 1.97,
+      "avgDamage": 17063
     }
   }
 }

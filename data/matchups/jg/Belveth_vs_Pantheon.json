@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.202766",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:38.528937",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 116,
-      "avg_xp_diff": 7,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 20,
+      "avg_xp_diff": 24,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 788,
-      "avg_xp_diff": 275,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 127,
+      "avg_xp_diff": 57,
+      "avg_cs_diff": 3.8,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1271,
-      "avg_xp_diff": 871,
-      "avg_cs_diff": 21.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 402,
+      "avg_xp_diff": 213,
+      "avg_cs_diff": 8.0,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1284,
-      "avg_xp_diff": 594,
-      "avg_cs_diff": 39.4,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 11,
+      "avg_xp_diff": 295,
+      "avg_cs_diff": 13.4,
+      "sample_frames": 32,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 789,
-      "avg_xp_diff": -1218,
-      "avg_cs_diff": 23.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 1676,
+      "avg_xp_diff": 1577,
+      "avg_cs_diff": 32.1,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -54,24 +54,78 @@
   "champB": "Pantheon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 3.0,
-      "kda": 1.75,
-      "avgDamage": 30198
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 5.2,
+      "avgDeaths": 3.0,
+      "avgAssists": 7.0,
+      "kda": 4.08,
+      "avgDamage": 10243
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 10.0,
-      "kda": 3.67,
-      "avgDamage": 25838
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.8,
+      "kda": 2.1,
+      "avgDamage": 14380
     }
   }
 }

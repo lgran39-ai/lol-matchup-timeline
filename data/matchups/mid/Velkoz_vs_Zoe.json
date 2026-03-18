@@ -1,55 +1,118 @@
 {
-  "champA": "Velkoz",
-  "champB": "Zoe",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:06.374418",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.612917",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -28,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -6,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 102,
-      "avg_xp_diff": 99,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 44,
+      "avg_xp_diff": 228,
+      "avg_cs_diff": -1.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -335,
-      "avg_xp_diff": -84,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -246,
+      "avg_xp_diff": -17,
+      "avg_cs_diff": -10.7,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -907,
-      "avg_xp_diff": 165,
-      "avg_cs_diff": -7.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": -207,
+      "avg_xp_diff": 635,
+      "avg_cs_diff": -8.1,
+      "sample_frames": 21,
+      "advantage": -1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": -1726,
       "avg_xp_diff": -947,
       "avg_cs_diff": -5.8,
       "sample_frames": 11,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Velkoz",
+  "champB": "Zoe",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 3.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 8.5,
+      "kda": 2.09,
+      "avgDamage": 18992
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 8.0,
+      "kda": 4.17,
+      "avgDamage": 25510
+    }
+  }
 }

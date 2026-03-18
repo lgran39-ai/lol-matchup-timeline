@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:26.488575",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:41.874080",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -66,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 255,
+      "avg_xp_diff": 158,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -250,
-      "avg_xp_diff": -110,
-      "avg_cs_diff": -14.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 281,
+      "avg_xp_diff": 326,
+      "avg_cs_diff": -3.8,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -622,
-      "avg_xp_diff": -224,
-      "avg_cs_diff": -16.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -171,
+      "avg_xp_diff": 148,
+      "avg_cs_diff": -12.7,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2467,
-      "avg_xp_diff": -457,
-      "avg_cs_diff": -36.9,
-      "sample_frames": 11,
+      "avg_gold_diff": -1960,
+      "avg_xp_diff": -169,
+      "avg_cs_diff": -22.8,
+      "sample_frames": 32,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -6511,
+      "avg_xp_diff": -3096,
+      "avg_cs_diff": -41.3,
+      "sample_frames": 14,
       "advantage": -2
     }
   ],
@@ -55,46 +64,166 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 6.0,
-        "kda": 1.6,
-        "avgDamage": 10879
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.4,
+        "avgDeaths": 5.4,
+        "avgAssists": 5.8,
+        "kda": 1.7,
+        "avgDamage": 14799
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 14.0,
-        "kda": 4.0,
-        "avgDamage": 12159
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.8,
+        "avgDeaths": 4.6,
+        "avgAssists": 11.2,
+        "kda": 2.83,
+        "avgDamage": 9185
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 3.0,
-        "kda": 1.8,
-        "avgDamage": 26612
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 75.0
+          },
+          {
+            "name": "Zhonya's Hourglass",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 6.2,
+        "avgDeaths": 5.2,
+        "avgAssists": 4.8,
+        "kda": 2.12,
+        "avgDamage": 21718
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 3.0,
-        "kda": 2.33,
-        "avgDamage": 13714
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 75.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          }
+        ],
+        "avgKills": 2.2,
+        "avgDeaths": 4.8,
+        "avgAssists": 8.2,
+        "kda": 2.17,
+        "avgDamage": 14122
       }
     }
   }

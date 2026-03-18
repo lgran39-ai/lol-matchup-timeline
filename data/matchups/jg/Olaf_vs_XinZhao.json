@@ -1,55 +1,131 @@
 {
-  "champA": "Olaf",
-  "champB": "XinZhao",
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.964634",
+  "updated_at": "2026-03-19T03:29:40.129657",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -63,
-      "avg_xp_diff": 49,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -73,
+      "avg_xp_diff": 57,
+      "avg_cs_diff": 2.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -624,
-      "avg_xp_diff": -79,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -528,
+      "avg_xp_diff": 66,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -930,
-      "avg_xp_diff": -351,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -431,
+      "avg_xp_diff": 82,
+      "avg_cs_diff": 6.1,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -126,
-      "avg_xp_diff": 398,
-      "avg_cs_diff": -22.4,
-      "sample_frames": 10,
-      "advantage": 0
+      "label": "mid_game",
+      "avg_gold_diff": 394,
+      "avg_xp_diff": 1408,
+      "avg_cs_diff": 11.6,
+      "sample_frames": 28,
+      "advantage": 1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": 679,
       "avg_xp_diff": 240,
       "avg_cs_diff": -39.3,
       "sample_frames": 3,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Olaf",
+  "champB": "XinZhao",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 2.3,
+      "avgAssists": 9.0,
+      "kda": 6.29,
+      "avgDamage": 18180
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.7,
+      "kda": 2.25,
+      "avgDamage": 12640
+    }
+  }
 }

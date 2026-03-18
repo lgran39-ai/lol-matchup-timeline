@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.158516",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-19T03:29:38.471855",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 79,
-      "avg_xp_diff": 3,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -35,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 824,
-      "avg_xp_diff": 968,
-      "avg_cs_diff": 11.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -61,
+      "avg_xp_diff": 29,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1034,
-      "avg_xp_diff": 1642,
-      "avg_cs_diff": 19.1,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 209,
+      "avg_xp_diff": 527,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 35,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2074,
-      "avg_xp_diff": 1878,
-      "avg_cs_diff": 18.9,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": -455,
+      "avg_xp_diff": 14,
+      "avg_cs_diff": -7.1,
+      "sample_frames": 54,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2776,
-      "avg_xp_diff": 1589,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 15,
+      "avg_gold_diff": 921,
+      "avg_xp_diff": 1512,
+      "avg_cs_diff": 8.4,
+      "sample_frames": 22,
       "advantage": 2
     }
   ],
@@ -54,24 +54,108 @@
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 1.0,
-      "kda": 1.33,
-      "avgDamage": 25825
+      "items": [
+        {
+          "name": "Stormsurge",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 4.9,
+      "avgAssists": 4.0,
+      "kda": 1.79,
+      "avgDamage": 17530
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 6.0,
-      "kda": 3.0,
-      "avgDamage": 19824
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormrazor",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.4,
+      "avgDeaths": 5.4,
+      "avgAssists": 3.6,
+      "kda": 1.66,
+      "avgDamage": 18417
     }
   }
 }

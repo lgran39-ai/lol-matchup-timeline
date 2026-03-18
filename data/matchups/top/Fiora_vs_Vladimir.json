@@ -1,55 +1,143 @@
 {
-  "champA": "Fiora",
-  "champB": "Vladimir",
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.147371",
+  "sample_size": 7,
+  "overall_winrate_a": 28.6,
+  "updated_at": "2026-03-19T03:29:38.988383",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -7,
-      "avg_xp_diff": -26,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 15,
+      "avg_gold_diff": -53,
+      "avg_xp_diff": -29,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -39,
-      "avg_xp_diff": -164,
-      "avg_cs_diff": -4.1,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -262,
+      "avg_xp_diff": -220,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -559,
-      "avg_xp_diff": -1110,
-      "avg_cs_diff": -11.7,
-      "sample_frames": 15,
+      "avg_gold_diff": -928,
+      "avg_xp_diff": -1254,
+      "avg_cs_diff": -13.0,
+      "sample_frames": 35,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 394,
-      "avg_xp_diff": -49,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 23,
-      "advantage": 1
+      "label": "mid_game",
+      "avg_gold_diff": -903,
+      "avg_xp_diff": -1313,
+      "avg_cs_diff": -11.9,
+      "sample_frames": 47,
+      "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 2069,
-      "avg_xp_diff": -53,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "label": "late_game",
+      "avg_gold_diff": 53,
+      "avg_xp_diff": -740,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 14,
+      "advantage": 0
     }
-  ]
+  ],
+  "champA": "Fiora",
+  "champB": "Vladimir",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        },
+        {
+          "name": "Trinity Force",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 1.7,
+      "avgDeaths": 5.4,
+      "avgAssists": 1.4,
+      "kda": 0.58,
+      "avgDamage": 15836
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Cosmic Drive",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.1,
+      "avgDeaths": 2.1,
+      "avgAssists": 3.3,
+      "kda": 3.93,
+      "avgDamage": 18633
+    }
+  }
 }

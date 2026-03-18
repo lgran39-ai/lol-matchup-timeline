@@ -1,55 +1,112 @@
 {
-  "champA": "Nidalee",
-  "champB": "Poppy",
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.924581",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:40.065947",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 249,
-      "avg_xp_diff": 194,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 135,
+      "avg_xp_diff": 139,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1313,
-      "avg_xp_diff": 559,
-      "avg_cs_diff": 9.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 799,
+      "avg_xp_diff": 446,
+      "avg_cs_diff": 10.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1004,
-      "avg_xp_diff": 632,
-      "avg_cs_diff": 19.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1056,
+      "avg_xp_diff": 811,
+      "avg_cs_diff": 21.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2015,
-      "avg_xp_diff": 1362,
-      "avg_cs_diff": 29.8,
-      "sample_frames": 10,
+      "label": "mid_game",
+      "avg_gold_diff": 1406,
+      "avg_xp_diff": 585,
+      "avg_cs_diff": 21.7,
+      "sample_frames": 23,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": 3616,
       "avg_xp_diff": 2687,
       "avg_cs_diff": 43.8,
       "sample_frames": 6,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Nidalee",
+  "champB": "Poppy",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 5.7,
+      "kda": 2.59,
+      "avgDamage": 17303
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 7.3,
+      "kda": 2.36,
+      "avgDamage": 14376
+    }
+  }
 }

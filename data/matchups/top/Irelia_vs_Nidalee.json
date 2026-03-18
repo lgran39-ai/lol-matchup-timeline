@@ -1,46 +1,98 @@
 {
-  "champA": "Irelia",
-  "champB": "Nidalee",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.349694",
+  "updated_at": "2026-03-19T03:29:39.345274",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 65,
-      "avg_xp_diff": 85,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 24,
+      "avg_xp_diff": 91,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 462,
-      "avg_xp_diff": 432,
-      "avg_cs_diff": 19.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 589,
+      "avg_xp_diff": 554,
+      "avg_cs_diff": 19.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 144,
-      "avg_xp_diff": 323,
-      "avg_cs_diff": 29.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 873,
+      "avg_xp_diff": 996,
+      "avg_cs_diff": 35.1,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2134,
-      "avg_xp_diff": 2466,
-      "avg_cs_diff": 55.0,
-      "sample_frames": 2,
+      "label": "mid_game",
+      "avg_gold_diff": 4061,
+      "avg_xp_diff": 3764,
+      "avg_cs_diff": 64.8,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 6624,
+      "avg_xp_diff": 7316,
+      "avg_cs_diff": 91.6,
+      "sample_frames": 14,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Irelia",
+  "champB": "Nidalee",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 9.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.5,
+      "kda": 2.6,
+      "avgDamage": 29516
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 2.0,
+      "avgDeaths": 9.5,
+      "avgAssists": 6.0,
+      "kda": 0.84,
+      "avgDamage": 14227
+    }
+  }
 }

@@ -1,52 +1,52 @@
 {
   "role": "top",
   "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.308714",
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.654604",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 103,
-      "avg_xp_diff": 60,
-      "avg_cs_diff": 1.8,
+      "avg_gold_diff": 41,
+      "avg_xp_diff": 10,
+      "avg_cs_diff": 0.0,
       "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 717,
-      "avg_xp_diff": 343,
-      "avg_cs_diff": 10.8,
+      "avg_gold_diff": 101,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": -5.6,
       "sample_frames": 10,
-      "advantage": 2
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1198,
-      "avg_xp_diff": 688,
-      "avg_cs_diff": 19.6,
+      "avg_gold_diff": 551,
+      "avg_xp_diff": 605,
+      "avg_cs_diff": -3.0,
       "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1376,
-      "avg_xp_diff": 1355,
-      "avg_cs_diff": 22.5,
+      "avg_gold_diff": 1342,
+      "avg_xp_diff": 1704,
+      "avg_cs_diff": 2.5,
       "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1353,
-      "avg_xp_diff": 985,
-      "avg_cs_diff": 9.3,
-      "sample_frames": 13,
+      "avg_gold_diff": 696,
+      "avg_xp_diff": 3001,
+      "avg_cs_diff": -30.2,
+      "sample_frames": 18,
       "advantage": 2
     }
   ],
@@ -54,26 +54,64 @@
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
       "avgKills": 9.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 7.5,
-      "kda": 2.06,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgDeaths": 3.5,
+      "avgAssists": 8.0,
+      "kda": 4.86,
+      "avgDamage": 26686
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.5,
-      "avgDeaths": 6.5,
-      "avgAssists": 8.0,
-      "kda": 2.23,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.0,
+      "kda": 1.45,
+      "avgDamage": 23724
     }
   }
 }

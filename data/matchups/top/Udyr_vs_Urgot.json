@@ -1,10 +1,8 @@
 {
-  "champA": "Udyr",
-  "champB": "Urgot",
   "role": "top",
   "sample_size": 2,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:06.353696",
+  "updated_at": "2026-03-19T03:29:40.581709",
   "timeline": [
     {
       "phase": "0-5min",
@@ -35,7 +33,7 @@
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
+      "label": "mid_game",
       "avg_gold_diff": 32,
       "avg_xp_diff": 341,
       "avg_cs_diff": 17.8,
@@ -44,12 +42,57 @@
     },
     {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": -1371,
       "avg_xp_diff": -469,
       "avg_cs_diff": -28.2,
       "sample_frames": 13,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Udyr",
+  "champB": "Urgot",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 2.5,
+      "kda": 2.0,
+      "avgDamage": 12366
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 5.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 2.5,
+      "kda": 2.5,
+      "avgDamage": 15510
+    }
+  }
 }

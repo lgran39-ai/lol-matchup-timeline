@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.855694",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:40.598647",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 65,
-      "avg_xp_diff": 122,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 89,
+      "avg_xp_diff": 34,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 786,
-      "avg_xp_diff": 807,
-      "avg_cs_diff": 13.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 225,
+      "avg_xp_diff": -37,
+      "avg_cs_diff": 11.2,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1429,
-      "avg_xp_diff": 1644,
-      "avg_cs_diff": 28.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 222,
+      "avg_xp_diff": -142,
+      "avg_cs_diff": 14.1,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 729,
-      "avg_xp_diff": 1347,
-      "avg_cs_diff": 31.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 478,
+      "avg_xp_diff": 600,
+      "avg_cs_diff": 19.7,
+      "sample_frames": 52,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2840,
+      "avg_xp_diff": 1762,
+      "avg_cs_diff": 39.8,
+      "sample_frames": 23,
       "advantage": 2
     }
   ],
@@ -45,24 +54,114 @@
   "champB": "Yorick",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 1.25,
-      "avgDamage": 11611
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Guinsoo's Rageblade",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Barrier",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.8,
+      "kda": 1.86,
+      "avgDamage": 27166
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.0,
-      "kda": 1.2,
-      "avgDamage": 11163
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 4.3,
+      "kda": 1.25,
+      "avgDamage": 15108
     }
   }
 }

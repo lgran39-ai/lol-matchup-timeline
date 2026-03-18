@@ -1,77 +1,143 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.065700",
+  "sample_size": 7,
+  "overall_winrate_a": 85.7,
+  "updated_at": "2026-03-19T03:29:38.339313",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 10,
-      "avg_xp_diff": 9,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 77,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -215,
-      "avg_xp_diff": 192,
-      "avg_cs_diff": -12.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 211,
+      "avg_xp_diff": 102,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 35,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 198,
-      "avg_xp_diff": 1348,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 359,
+      "avg_xp_diff": 365,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 35,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 335,
-      "avg_xp_diff": 2235,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 353,
+      "avg_xp_diff": 1292,
+      "avg_cs_diff": 14.8,
+      "sample_frames": 61,
       "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1764,
-      "avg_xp_diff": 3916,
-      "avg_cs_diff": -24.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -515,
+      "avg_xp_diff": 3325,
+      "avg_cs_diff": -10.0,
+      "sample_frames": 21,
+      "advantage": -2
     }
   ],
   "champA": "Anivia",
   "champB": "Zaahen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 10.0,
-      "kda": 19.0,
-      "avgDamage": 23828
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 85.7
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 3.6,
+      "avgDeaths": 3.6,
+      "avgAssists": 6.7,
+      "kda": 2.88,
+      "avgDamage": 22360
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 0.0,
-      "kda": 0.6,
-      "avgDamage": 16047
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 16.7
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 0.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 16.7
+        }
+      ],
+      "avgKills": 3.4,
+      "avgDeaths": 5.6,
+      "avgAssists": 3.3,
+      "kda": 1.21,
+      "avgDamage": 18986
     }
   }
 }

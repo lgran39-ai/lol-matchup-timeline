@@ -1,79 +1,191 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:23.860811",
+  "sample_size": 7,
+  "overall_winrate_a": 57.1,
+  "updated_at": "2026-03-19T03:29:38.049152",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -9,
-      "avg_xp_diff": 1,
-      "avg_cs_diff": 3.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 130,
+      "avg_xp_diff": 58,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -207,
-      "avg_xp_diff": -359,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 466,
+      "avg_xp_diff": 357,
+      "avg_cs_diff": 8.3,
+      "sample_frames": 35,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 235,
-      "avg_xp_diff": 149,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 962,
+      "avg_xp_diff": 888,
+      "avg_cs_diff": 16.9,
+      "sample_frames": 35,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1404,
-      "avg_xp_diff": -1259,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": 580,
+      "avg_xp_diff": 578,
+      "avg_cs_diff": 9.4,
+      "sample_frames": 57,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1846,
-      "avg_xp_diff": -1737,
-      "avg_cs_diff": -30.1,
-      "sample_frames": 25,
-      "advantage": -2
+      "avg_gold_diff": -115,
+      "avg_xp_diff": -746,
+      "avg_cs_diff": 6.2,
+      "sample_frames": 36,
+      "advantage": 0
     }
   ],
   "champA": "Ahri",
   "champB": "Viego",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 11.0,
-      "avgAssists": 9.0,
-      "kda": 1.36,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.1,
+      "avgDeaths": 4.6,
+      "avgAssists": 7.6,
+      "kda": 3.44,
+      "avgDamage": 29517
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 9.5,
-      "avgAssists": 7.5,
-      "kda": 1.84,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Chainlaced Crushers",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "The Collector",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 6.6,
+      "avgAssists": 4.4,
+      "kda": 1.54,
+      "avgDamage": 18497
     }
   }
 }

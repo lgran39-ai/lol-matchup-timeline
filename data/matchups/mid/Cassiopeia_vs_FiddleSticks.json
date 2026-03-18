@@ -1,55 +1,110 @@
 {
-  "champA": "Cassiopeia",
-  "champB": "FiddleSticks",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.864377",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.615739",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 87,
-      "avg_xp_diff": -36,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 109,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": 5.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 215,
-      "avg_xp_diff": -387,
-      "avg_cs_diff": 17.8,
-      "sample_frames": 5,
-      "advantage": 1
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": 137,
-      "avg_xp_diff": -305,
-      "avg_cs_diff": 35.4,
-      "sample_frames": 5,
-      "advantage": 0
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1682,
-      "avg_xp_diff": 875,
-      "avg_cs_diff": 45.2,
+      "avg_gold_diff": 424,
+      "avg_xp_diff": -28,
+      "avg_cs_diff": 18.7,
       "sample_frames": 10,
       "advantage": 2
     },
     {
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": 505,
+      "avg_xp_diff": 80,
+      "avg_cs_diff": 30.0,
+      "sample_frames": 10,
+      "advantage": 2
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": 1205,
+      "avg_xp_diff": 671,
+      "avg_cs_diff": 38.2,
+      "sample_frames": 17,
+      "advantage": 2
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": 2310,
       "avg_xp_diff": 3649,
       "avg_cs_diff": 54.2,
       "sample_frames": 4,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Cassiopeia",
+  "champB": "FiddleSticks",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 5.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 9.0,
+      "kda": 7.0,
+      "avgDamage": 19212
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 6.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 5.5,
+      "kda": 2.18,
+      "avgDamage": 20612
+    }
+  }
 }

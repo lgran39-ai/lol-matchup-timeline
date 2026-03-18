@@ -1,53 +1,53 @@
 {
   "role": "jg",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.515938",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:38.883440",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 31,
-      "avg_xp_diff": -18,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 20,
+      "avg_gold_diff": -73,
+      "avg_xp_diff": -123,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 128,
-      "avg_xp_diff": -215,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": -182,
+      "avg_xp_diff": -494,
+      "avg_cs_diff": -17.9,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 63,
-      "avg_xp_diff": -805,
-      "avg_cs_diff": -11.5,
-      "sample_frames": 20,
+      "avg_gold_diff": -115,
+      "avg_xp_diff": -705,
+      "avg_cs_diff": -27.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 252,
-      "avg_xp_diff": -647,
-      "avg_cs_diff": -12.5,
-      "sample_frames": 32,
-      "advantage": 1
+      "avg_gold_diff": -1299,
+      "avg_xp_diff": -1906,
+      "avg_cs_diff": -52.4,
+      "sample_frames": 37,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1941,
-      "avg_xp_diff": -338,
-      "avg_cs_diff": -20.5,
+      "avg_gold_diff": -2543,
+      "avg_xp_diff": -2316,
+      "avg_cs_diff": -81.4,
       "sample_frames": 24,
-      "advantage": 2
+      "advantage": -2
     }
   ],
   "champA": "Elise",
@@ -57,32 +57,26 @@
       "items": [
         {
           "name": "Lich Bane",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [],
-      "summonerSpells": [
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
         {
-          "spells": "Flash+Smite",
+          "name": "Zhonya's Hourglass",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
           "winRate": 50.0
-        }
-      ],
-      "avgKills": 5.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 3.0,
-      "kda": 3.2,
-      "avgDamage": 9783
-    },
-    "champB": {
-      "items": [
+        },
         {
           "name": "Shadowflame",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
@@ -90,23 +84,78 @@
         {
           "name": "Dark Harvest",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 5.4,
+      "avgDeaths": 6.8,
+      "avgAssists": 8.4,
+      "kda": 2.03,
+      "avgDamage": 12670
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Banshee's Veil",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 6.5,
-      "kda": 2.25,
-      "avgDamage": 12480
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 4.2,
+      "avgAssists": 9.4,
+      "kda": 3.38,
+      "avgDamage": 22635
     }
   }
 }

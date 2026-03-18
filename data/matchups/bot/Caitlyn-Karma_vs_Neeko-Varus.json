@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:26.768415",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:42.486318",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 188,
-      "avg_xp_diff": 91,
+      "avg_gold_diff": 298,
+      "avg_xp_diff": 220,
       "avg_cs_diff": 4.4,
-      "sample_frames": 5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1311,
-      "avg_xp_diff": 101,
-      "avg_cs_diff": 7.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 617,
+      "avg_xp_diff": 220,
+      "avg_cs_diff": 11.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1695,
-      "avg_xp_diff": 299,
-      "avg_cs_diff": 14.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1306,
+      "avg_xp_diff": 846,
+      "avg_cs_diff": 23.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2526,
-      "avg_xp_diff": 616,
-      "avg_cs_diff": 21.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 4076,
+      "avg_xp_diff": 2295,
+      "avg_cs_diff": 31.9,
+      "sample_frames": 17,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 5916,
-      "avg_xp_diff": 4333,
-      "avg_cs_diff": 73.7,
-      "sample_frames": 12,
+      "avg_gold_diff": 6942,
+      "avg_xp_diff": 4675,
+      "avg_cs_diff": 53.6,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -64,50 +64,128 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Stormrazor",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 6.0,
-        "kda": 5.33,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 8.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 8.0,
+        "kda": 2.67,
+        "avgDamage": 24383
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 19.0,
-        "kda": 19.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 2.0,
+        "avgAssists": 18.5,
+        "kda": 10.75,
+        "avgDamage": 14726
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Serpent's Fang",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 3.0,
-        "kda": 1.6,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "avgKills": 4.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 5.5,
+        "kda": 1.33,
+        "avgDamage": 24104
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 6.0,
-        "kda": 1.2,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 9.5,
+        "avgAssists": 7.0,
+        "kda": 0.89,
+        "avgDamage": 11138
       }
     }
   }

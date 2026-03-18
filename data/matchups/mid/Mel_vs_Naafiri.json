@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.369695",
+  "updated_at": "2026-03-19T03:29:39.965050",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -97,
-      "avg_xp_diff": -132,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 106,
+      "avg_xp_diff": 53,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -71,
-      "avg_xp_diff": -104,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 750,
+      "avg_xp_diff": 323,
+      "avg_cs_diff": 9.0,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -449,
-      "avg_xp_diff": -576,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 1043,
+      "avg_xp_diff": 419,
+      "avg_cs_diff": 21.1,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 277,
-      "avg_xp_diff": 1017,
-      "avg_cs_diff": 18.4,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 2388,
+      "avg_xp_diff": 2250,
+      "avg_cs_diff": 56.3,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 478,
-      "avg_xp_diff": 1978,
-      "avg_cs_diff": 11.0,
-      "sample_frames": 4,
+      "avg_gold_diff": 4760,
+      "avg_xp_diff": 3966,
+      "avg_cs_diff": 79.2,
+      "sample_frames": 12,
       "advantage": 2
     }
   ],
@@ -54,24 +54,59 @@
   "champB": "Naafiri",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
+      "items": [
+        {
+          "name": "Horizon Focus",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 13.0,
+      "avgDeaths": 3.5,
       "avgAssists": 5.0,
-      "kda": 1.57,
-      "avgDamage": 19294
+      "kda": 5.14,
+      "avgDamage": 29871
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "avgKills": 4.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 9.0,
-      "kda": 1.44,
-      "avgDamage": 20313
+      "avgDeaths": 7.0,
+      "avgAssists": 4.5,
+      "kda": 1.21,
+      "avgDamage": 17482
     }
   }
 }

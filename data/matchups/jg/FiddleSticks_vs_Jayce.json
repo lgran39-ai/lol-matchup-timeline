@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:24.543348",
+  "sample_size": 8,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:38.918447",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -146,
-      "avg_xp_diff": -123,
-      "avg_cs_diff": -2.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -24,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -820,
-      "avg_xp_diff": -359,
-      "avg_cs_diff": -6.3,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": -202,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 40,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1823,
-      "avg_xp_diff": -998,
-      "avg_cs_diff": -19.5,
-      "sample_frames": 15,
+      "avg_gold_diff": -480,
+      "avg_xp_diff": 53,
+      "avg_cs_diff": -1.5,
+      "sample_frames": 40,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3074,
-      "avg_xp_diff": -1732,
-      "avg_cs_diff": -35.4,
-      "sample_frames": 21,
+      "avg_gold_diff": -1086,
+      "avg_xp_diff": -613,
+      "avg_cs_diff": -9.9,
+      "sample_frames": 60,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4780,
-      "avg_xp_diff": -2401,
-      "avg_cs_diff": -65.4,
-      "sample_frames": 13,
+      "avg_gold_diff": -1254,
+      "avg_xp_diff": 376,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 34,
       "advantage": -2
     }
   ],
@@ -54,24 +54,114 @@
   "champB": "Jayce",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 19.0,
-      "kda": 2.62,
-      "avgDamage": 29383
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 71.4
+        },
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        },
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 100.0
+        },
+        {
+          "name": "Banshee's Veil",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 5.1,
+      "avgDeaths": 3.9,
+      "avgAssists": 7.2,
+      "kda": 3.19,
+      "avgDamage": 13262
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 8.0,
-      "kda": 2.67,
-      "avgDamage": 31190
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 20.0
+        },
+        {
+          "name": "Opportunity",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 14.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 5.8,
+      "avgDeaths": 4.5,
+      "avgAssists": 7.4,
+      "kda": 2.92,
+      "avgDamage": 17702
     }
   }
 }

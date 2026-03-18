@@ -1,55 +1,215 @@
 {
-  "champA": "Ekko",
-  "champB": "Zoe",
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-13T23:57:05.038557",
+  "sample_size": 14,
+  "overall_winrate_a": 35.7,
+  "updated_at": "2026-03-19T03:29:38.869479",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -256,
-      "avg_xp_diff": -76,
-      "avg_cs_diff": -7.1,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": -75,
+      "avg_xp_diff": -33,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 70,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -415,
-      "avg_xp_diff": -220,
-      "avg_cs_diff": -21.1,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": -24,
+      "avg_xp_diff": -83,
+      "avg_cs_diff": -10.9,
+      "sample_frames": 70,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -190,
-      "avg_xp_diff": 102,
-      "avg_cs_diff": -28.0,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": 158,
+      "avg_xp_diff": 65,
+      "avg_cs_diff": -11.3,
+      "sample_frames": 70,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -425,
-      "avg_xp_diff": 37,
-      "avg_cs_diff": -27.0,
-      "sample_frames": 29,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": 642,
+      "avg_xp_diff": 480,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 123,
+      "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -42,
-      "avg_xp_diff": 247,
-      "avg_cs_diff": -28.8,
-      "sample_frames": 16,
-      "advantage": 0
+      "label": "late_game",
+      "avg_gold_diff": 1374,
+      "avg_xp_diff": 878,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 67,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Ekko",
+  "champB": "Zoe",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Lich Bane",
+          "count": 8,
+          "pickRate": 57.1,
+          "winRate": 37.5
+        },
+        {
+          "name": "Shadowflame",
+          "count": 7,
+          "pickRate": 50.0,
+          "winRate": 28.6
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 5,
+          "pickRate": 35.7,
+          "winRate": 40.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 21.4,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 13,
+          "pickRate": 92.9,
+          "winRate": 38.5
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 11,
+          "pickRate": 78.6,
+          "winRate": 36.4
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 21.4,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 7.4,
+      "avgDeaths": 4.8,
+      "avgAssists": 5.4,
+      "kda": 2.67,
+      "avgDamage": 19775
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 14,
+          "pickRate": 100.0,
+          "winRate": 64.3
+        },
+        {
+          "name": "Lich Bane",
+          "count": 8,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 8,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 83.3
+        },
+        {
+          "name": "Void Staff",
+          "count": 4,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Horizon Focus",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Banshee's Veil",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 9,
+          "pickRate": 64.3,
+          "winRate": 55.6
+        },
+        {
+          "name": "Summon Aery",
+          "count": 5,
+          "pickRate": 35.7,
+          "winRate": 80.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 13,
+          "pickRate": 92.9,
+          "winRate": 61.5
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 4.1,
+      "avgAssists": 7.8,
+      "kda": 3.16,
+      "avgDamage": 23144
+    }
+  }
 }

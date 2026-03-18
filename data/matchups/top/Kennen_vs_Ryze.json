@@ -1,79 +1,155 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.169056",
+  "sample_size": 9,
+  "overall_winrate_a": 44.4,
+  "updated_at": "2026-03-19T03:29:39.690229",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -66,
-      "avg_xp_diff": -89,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -42,
+      "avg_xp_diff": -16,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 45,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -350,
-      "avg_xp_diff": -341,
-      "avg_cs_diff": -13.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -163,
+      "avg_xp_diff": -148,
+      "avg_cs_diff": -10.9,
+      "sample_frames": 45,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -856,
-      "avg_xp_diff": -1125,
-      "avg_cs_diff": -24.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -89,
+      "avg_xp_diff": -182,
+      "avg_cs_diff": -15.2,
+      "sample_frames": 45,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -932,
-      "avg_xp_diff": -1921,
-      "avg_cs_diff": -43.3,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -276,
+      "avg_xp_diff": -503,
+      "avg_cs_diff": -20.5,
+      "sample_frames": 71,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1447,
-      "avg_xp_diff": -2461,
-      "avg_cs_diff": -50.0,
-      "sample_frames": 3,
-      "advantage": -2
+      "avg_gold_diff": 0,
+      "avg_xp_diff": -2894,
+      "avg_cs_diff": -35.7,
+      "sample_frames": 33,
+      "advantage": 0
     }
   ],
   "champA": "Kennen",
   "champB": "Ryze",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 8.0,
-      "kda": 3.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 6,
+          "pickRate": 66.7,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 5,
+          "pickRate": 55.6,
+          "winRate": 40.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 44.4,
+          "winRate": 25.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 7,
+          "pickRate": 77.8,
+          "winRate": 28.6
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 55.6,
+          "winRate": 40.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 33.3,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.9,
+      "avgDeaths": 5.1,
+      "avgAssists": 6.6,
+      "kda": 2.24,
+      "avgDamage": 19869
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 1.67,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 50.0
+        },
+        {
+          "name": "Actualizer",
+          "count": 4,
+          "pickRate": 44.4,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 7,
+          "pickRate": 77.8,
+          "winRate": 71.4
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 9,
+          "pickRate": 100.0,
+          "winRate": 55.6
+        }
+      ],
+      "avgKills": 3.8,
+      "avgDeaths": 5.4,
+      "avgAssists": 3.9,
+      "kda": 1.41,
+      "avgDamage": 16693
     }
   }
 }

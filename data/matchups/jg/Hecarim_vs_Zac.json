@@ -1,51 +1,51 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.849816",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:39.285459",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -65,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 64,
+      "avg_xp_diff": 79,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -246,
-      "avg_xp_diff": 153,
-      "avg_cs_diff": 5.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 466,
+      "avg_xp_diff": 391,
+      "avg_cs_diff": 8.7,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 586,
-      "avg_xp_diff": 572,
-      "avg_cs_diff": 7.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1301,
+      "avg_xp_diff": 1084,
+      "avg_cs_diff": 19.6,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 519,
-      "avg_xp_diff": 676,
-      "avg_cs_diff": 22.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 2288,
+      "avg_xp_diff": 2317,
+      "avg_cs_diff": 47.5,
+      "sample_frames": 51,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3608,
-      "avg_xp_diff": 4865,
-      "avg_cs_diff": 90.4,
+      "avg_gold_diff": 1268,
+      "avg_xp_diff": 133,
+      "avg_cs_diff": 32.7,
       "sample_frames": 15,
       "advantage": 2
     }
@@ -54,24 +54,90 @@
   "champB": "Zac",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 12.0,
-      "kda": 2.12,
-      "avgDamage": 28490
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 9.2,
+      "avgDeaths": 5.8,
+      "avgAssists": 8.4,
+      "kda": 3.03,
+      "avgDamage": 26857
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 17.0,
-      "kda": 4.8,
-      "avgDamage": 23471
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 3.8,
+      "avgDeaths": 4.6,
+      "avgAssists": 13.0,
+      "kda": 3.65,
+      "avgDamage": 17692
     }
   }
 }

@@ -1,55 +1,155 @@
 {
-  "champA": "Aurora",
-  "champB": "Vladimir",
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:04.721544",
+  "updated_at": "2026-03-19T03:29:38.476621",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 120,
-      "avg_xp_diff": 73,
-      "avg_cs_diff": 3.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 63,
+      "avg_xp_diff": 21,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 382,
-      "avg_xp_diff": 370,
-      "avg_cs_diff": 13.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 174,
+      "avg_xp_diff": 123,
+      "avg_cs_diff": 5.4,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 395,
-      "avg_xp_diff": 508,
-      "avg_cs_diff": 10.7,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 579,
+      "avg_xp_diff": 672,
+      "avg_cs_diff": 8.0,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 386,
-      "avg_xp_diff": 154,
-      "avg_cs_diff": 3.7,
-      "sample_frames": 20,
-      "advantage": 1
+      "label": "mid_game",
+      "avg_gold_diff": 610,
+      "avg_xp_diff": 288,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 40,
+      "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 736,
-      "avg_xp_diff": -335,
-      "avg_cs_diff": -8.4,
-      "sample_frames": 9,
+      "label": "late_game",
+      "avg_gold_diff": 535,
+      "avg_xp_diff": -650,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 38,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Aurora",
+  "champB": "Vladimir",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 9.5,
+      "kda": 3.56,
+      "avgDamage": 32586
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.8,
+      "avgDeaths": 5.8,
+      "avgAssists": 11.0,
+      "kda": 2.91,
+      "avgDamage": 37114
+    }
+  }
 }

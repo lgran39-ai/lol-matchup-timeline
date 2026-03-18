@@ -1,46 +1,125 @@
 {
-  "champA": "DrMundo",
-  "champB": "Gragas",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.970184",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.781844",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -253,
-      "avg_xp_diff": -123,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -26,
+      "avg_xp_diff": -12,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -532,
-      "avg_xp_diff": -116,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 222,
+      "avg_xp_diff": 166,
+      "avg_cs_diff": 17.1,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1081,
-      "avg_xp_diff": -1420,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 440,
+      "avg_xp_diff": 281,
+      "avg_cs_diff": 22.1,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -1268,
-      "avg_xp_diff": -1588,
-      "avg_cs_diff": -0.5,
-      "sample_frames": 2,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": 2175,
+      "avg_xp_diff": 1088,
+      "avg_cs_diff": 58.4,
+      "sample_frames": 23,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3599,
+      "avg_xp_diff": 539,
+      "avg_cs_diff": 87.7,
+      "sample_frames": 3,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "DrMundo",
+  "champB": "Gragas",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Warmog's Armor",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 3.7,
+      "avgAssists": 3.3,
+      "kda": 1.64,
+      "avgDamage": 21136
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 1.7,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.0,
+      "kda": 1.42,
+      "avgDamage": 18885
+    }
+  }
 }

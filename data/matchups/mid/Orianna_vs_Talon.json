@@ -1,70 +1,215 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:25.517468",
+  "sample_size": 13,
+  "overall_winrate_a": 69.2,
+  "updated_at": "2026-03-19T03:29:40.144535",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -23,
-      "avg_xp_diff": -59,
-      "avg_cs_diff": 3.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -19,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 65,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -31,
-      "avg_xp_diff": 174,
-      "avg_cs_diff": 14.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 100,
+      "avg_xp_diff": 369,
+      "avg_cs_diff": 12.4,
+      "sample_frames": 65,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -12,
-      "avg_xp_diff": 520,
-      "avg_cs_diff": 21.5,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 558,
+      "avg_xp_diff": 920,
+      "avg_cs_diff": 22.8,
+      "sample_frames": 65,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 367,
-      "avg_xp_diff": 1015,
-      "avg_cs_diff": 26.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 1174,
+      "avg_xp_diff": 1440,
+      "avg_cs_diff": 28.8,
+      "sample_frames": 103,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2869,
+      "avg_xp_diff": 2244,
+      "avg_cs_diff": 35.5,
+      "sample_frames": 59,
+      "advantage": 2
     }
   ],
   "champA": "Orianna",
   "champB": "Talon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 0.5,
-      "kda": 1.14,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 9,
+          "pickRate": 69.2,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 8,
+          "pickRate": 61.5,
+          "winRate": 75.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 7,
+          "pickRate": 53.8,
+          "winRate": 85.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 5,
+          "pickRate": 38.5,
+          "winRate": 80.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 0.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 5,
+          "pickRate": 38.5,
+          "winRate": 80.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 5,
+          "pickRate": 38.5,
+          "winRate": 100.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 13,
+          "pickRate": 100.0,
+          "winRate": 69.2
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 3.7,
+      "avgAssists": 9.6,
+      "kda": 4.23,
+      "avgDamage": 23256
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 1.67,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 9,
+          "pickRate": 69.2,
+          "winRate": 22.2
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 7,
+          "pickRate": 53.8,
+          "winRate": 28.6
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 5,
+          "pickRate": 38.5,
+          "winRate": 20.0
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 5,
+          "pickRate": 38.5,
+          "winRate": 20.0
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 66.7
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 15.4,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 12,
+          "pickRate": 92.3,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 13,
+          "pickRate": 100.0,
+          "winRate": 30.8
+        }
+      ],
+      "avgKills": 5.4,
+      "avgDeaths": 6.3,
+      "avgAssists": 4.5,
+      "kda": 1.57,
+      "avgDamage": 16516
     }
   }
 }

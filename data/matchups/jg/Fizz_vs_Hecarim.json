@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.591195",
+  "sample_size": 7,
+  "overall_winrate_a": 28.6,
+  "updated_at": "2026-03-19T03:29:38.998913",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -24,
-      "avg_xp_diff": -13,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -72,
+      "avg_xp_diff": -8,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -175,
-      "avg_xp_diff": -139,
-      "avg_cs_diff": -4.5,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -68,
+      "avg_xp_diff": -180,
+      "avg_cs_diff": -3.7,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -16,
-      "avg_xp_diff": -375,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -431,
+      "avg_xp_diff": -825,
+      "avg_cs_diff": -11.3,
+      "sample_frames": 35,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -976,
-      "avg_xp_diff": -1150,
-      "avg_cs_diff": -25.9,
-      "sample_frames": 20,
+      "avg_gold_diff": -609,
+      "avg_xp_diff": -2035,
+      "avg_cs_diff": -39.2,
+      "sample_frames": 45,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -574,
-      "avg_xp_diff": -1072,
-      "avg_cs_diff": -38.2,
-      "sample_frames": 12,
+      "avg_gold_diff": -1405,
+      "avg_xp_diff": -3770,
+      "avg_cs_diff": -88.6,
+      "sample_frames": 18,
       "advantage": -2
     }
   ],
@@ -56,57 +56,100 @@
     "champA": {
       "items": [
         {
-          "name": "Liandry's Torment",
-          "count": 2,
-          "pickRate": 100.0,
+          "name": "Dusk and Dawn",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 20.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 57.1,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 28.6
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "spells": "Smite+Ignite",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
         }
       ],
       "avgKills": 7.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 5.0,
-      "kda": 2.4,
-      "avgDamage": 24787
+      "avgDeaths": 7.1,
+      "avgAssists": 4.0,
+      "kda": 1.54,
+      "avgDamage": 15476
     },
     "champB": {
       "items": [
         {
           "name": "Spear of Shojin",
-          "count": 2,
+          "count": 7,
           "pickRate": 100.0,
+          "winRate": 71.4
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zeke's Convergence",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 28.6,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 2,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 71.4
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 7.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 7.5,
-      "kda": 5.0,
-      "avgDamage": 19604
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 71.4
+        }
+      ],
+      "avgKills": 7.1,
+      "avgDeaths": 4.3,
+      "avgAssists": 8.7,
+      "kda": 3.7,
+      "avgDamage": 14897
     }
   }
 }

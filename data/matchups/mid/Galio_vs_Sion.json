@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.638823",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:39.057470",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -204,
-      "avg_xp_diff": -88,
-      "avg_cs_diff": -3.9,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -102,
+      "avg_xp_diff": -32,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -895,
-      "avg_xp_diff": -652,
-      "avg_cs_diff": -19.3,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -256,
+      "avg_xp_diff": -139,
+      "avg_cs_diff": -8.7,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2094,
-      "avg_xp_diff": -1336,
-      "avg_cs_diff": -33.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -729,
+      "avg_xp_diff": -270,
+      "avg_cs_diff": -17.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4727,
-      "avg_xp_diff": -3087,
-      "avg_cs_diff": -70.9,
-      "sample_frames": 14,
+      "avg_gold_diff": -1215,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": -28.1,
+      "sample_frames": 35,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -736,
+      "avg_xp_diff": 665,
+      "avg_cs_diff": -4.7,
+      "sample_frames": 16,
       "advantage": -2
     }
   ],
@@ -45,52 +54,90 @@
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
-      "avgKills": 0.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 3.0,
-      "kda": 0.46,
-      "avgDamage": 10910
+      "avgKills": 3.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 17.0,
+      "kda": 4.1,
+      "avgDamage": 24446
     },
     "champB": {
       "items": [
         {
-          "name": "Armored Advance",
-          "count": 2,
+          "name": "Hollow Radiance",
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 25.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 25.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 25.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 5.5,
-      "kda": 4.6,
-      "avgDamage": 18854
+      "avgKills": 3.8,
+      "avgDeaths": 6.2,
+      "avgAssists": 8.2,
+      "kda": 1.92,
+      "avgDamage": 21241
     }
   }
 }

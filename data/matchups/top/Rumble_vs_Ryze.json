@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.643055",
+  "sample_size": 33,
+  "overall_winrate_a": 57.6,
+  "updated_at": "2026-03-19T03:29:40.349466",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -128,
-      "avg_xp_diff": -64,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -38,
+      "avg_xp_diff": -10,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 165,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -194,
-      "avg_xp_diff": 183,
-      "avg_cs_diff": -4.9,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -127,
+      "avg_xp_diff": 21,
+      "avg_cs_diff": -6.1,
+      "sample_frames": 165,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -873,
-      "avg_xp_diff": -547,
-      "avg_cs_diff": -13.8,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -260,
+      "avg_xp_diff": -18,
+      "avg_cs_diff": -9.5,
+      "sample_frames": 165,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2085,
-      "avg_xp_diff": -1781,
-      "avg_cs_diff": -26.9,
-      "sample_frames": 8,
+      "avg_gold_diff": -683,
+      "avg_xp_diff": -698,
+      "avg_cs_diff": -19.0,
+      "sample_frames": 275,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2094,
+      "avg_xp_diff": -3028,
+      "avg_cs_diff": -53.1,
+      "sample_frames": 137,
       "advantage": -2
     }
   ],
@@ -45,45 +54,138 @@
   "champB": "Ryze",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 30,
+          "pickRate": 90.9,
+          "winRate": 56.7
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 11,
+          "pickRate": 33.3,
+          "winRate": 45.5
+        },
+        {
+          "name": "Riftmaker",
+          "count": 6,
+          "pickRate": 18.2,
+          "winRate": 83.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 5,
+          "pickRate": 15.2,
+          "winRate": 80.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 5,
+          "pickRate": 15.2,
+          "winRate": 80.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 12.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 6.1,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 32,
+          "pickRate": 97.0,
+          "winRate": 59.4
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 27,
+          "pickRate": 81.8,
+          "winRate": 55.6
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 18.2,
+          "winRate": 66.7
         }
       ],
-      "avgKills": 1.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 0.0,
-      "kda": 0.4,
-      "avgDamage": 9577
+      "avgKills": 3.8,
+      "avgDeaths": 4.6,
+      "avgAssists": 6.1,
+      "kda": 2.13,
+      "avgDamage": 21499
     },
     "champB": {
       "items": [
         {
           "name": "Rod of Ages",
+          "count": 32,
+          "pickRate": 97.0,
+          "winRate": 43.8
+        },
+        {
+          "name": "Actualizer",
+          "count": 18,
+          "pickRate": 54.5,
+          "winRate": 44.4
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 7,
+          "pickRate": 21.2,
+          "winRate": 42.9
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 4,
+          "pickRate": 12.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Void Staff",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 6.1,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.5,
-      "avgDeaths": 0.5,
-      "avgAssists": 0.0,
-      "kda": 7.0,
-      "avgDamage": 11506
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 30,
+          "pickRate": 90.9,
+          "winRate": 43.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 30,
+          "pickRate": 90.9,
+          "winRate": 40.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 6.1,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 4.7,
+      "avgAssists": 3.7,
+      "kda": 1.74,
+      "avgDamage": 21034
     }
   }
 }

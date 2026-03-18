@@ -1,70 +1,179 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:23.820735",
+  "sample_size": 7,
+  "overall_winrate_a": 71.4,
+  "updated_at": "2026-03-19T03:29:38.003085",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -40,
-      "avg_xp_diff": 54,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -3,
+      "avg_xp_diff": -8,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 337,
-      "avg_xp_diff": 834,
-      "avg_cs_diff": 12.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 21,
+      "avg_xp_diff": 90,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1139,
-      "avg_xp_diff": 1816,
-      "avg_cs_diff": 37.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -216,
+      "avg_xp_diff": -82,
+      "avg_cs_diff": -8.3,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2214,
-      "avg_xp_diff": 2382,
-      "avg_cs_diff": 55.0,
-      "sample_frames": 3,
-      "advantage": 2
+      "avg_gold_diff": -8,
+      "avg_xp_diff": 538,
+      "avg_cs_diff": -7.5,
+      "sample_frames": 66,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -345,
+      "avg_xp_diff": 1097,
+      "avg_cs_diff": -9.5,
+      "sample_frames": 15,
+      "advantage": -1
     }
   ],
   "champA": "Ahri",
   "champB": "Corki",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 3.67,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 71.4
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        },
+        {
+          "name": "Horizon Focus",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 71.4
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.4,
+      "avgDeaths": 4.0,
+      "avgAssists": 8.3,
+      "kda": 3.93,
+      "avgDamage": 22096
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 0.0,
-      "kda": 0.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 28.6
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 28.6
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 7.1,
+      "avgAssists": 4.6,
+      "kda": 1.3,
+      "avgDamage": 23035
     }
   }
 }

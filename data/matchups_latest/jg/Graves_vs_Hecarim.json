@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:27.905923",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:44.605585",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 45,
-      "avg_xp_diff": -30,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 61,
+      "avg_xp_diff": -3,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -61,
-      "avg_xp_diff": -491,
-      "avg_cs_diff": -10.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 286,
+      "avg_xp_diff": 121,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -849,
-      "avg_xp_diff": -1127,
-      "avg_cs_diff": -18.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 290,
+      "avg_xp_diff": 34,
+      "avg_cs_diff": 8.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -982,
-      "avg_xp_diff": -2062,
-      "avg_cs_diff": -37.7,
-      "sample_frames": 7,
+      "avg_gold_diff": -486,
+      "avg_xp_diff": -763,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 21,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3357,
+      "avg_xp_diff": -6098,
+      "avg_cs_diff": -78.9,
+      "sample_frames": 12,
       "advantage": -2
     }
   ],
@@ -46,23 +55,64 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.0,
-      "kda": 0.83,
-      "avgDamage": 8200
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.5,
+      "kda": 2.88,
+      "avgDamage": 19184
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 9.0,
-      "kda": 13.0,
-      "avgDamage": 9625
+      "items": [
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 10.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 8.0,
+      "kda": 3.7,
+      "avgDamage": 23476
     }
   }
 }

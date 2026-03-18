@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.146600",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.448285",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 202,
-      "avg_xp_diff": 194,
-      "avg_cs_diff": 8.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 65,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1035,
-      "avg_xp_diff": 1230,
-      "avg_cs_diff": 43.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 379,
+      "avg_xp_diff": 301,
+      "avg_cs_diff": 13.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2234,
-      "avg_xp_diff": 2534,
-      "avg_cs_diff": 73.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 529,
+      "avg_xp_diff": 391,
+      "avg_cs_diff": 19.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3832,
-      "avg_xp_diff": 2374,
-      "avg_cs_diff": 62.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 626,
+      "avg_xp_diff": 53,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 5610,
-      "avg_xp_diff": 3549,
-      "avg_cs_diff": 58.5,
-      "sample_frames": 4,
+      "avg_gold_diff": 540,
+      "avg_xp_diff": -490,
+      "avg_cs_diff": 12.8,
+      "sample_frames": 6,
       "advantage": 2
     }
   ],
@@ -54,26 +54,59 @@
   "champB": "Ornn",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 9.0,
-      "kda": 9.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 4.5,
+      "kda": 3.8,
+      "avgDamage": 23888
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.0,
-      "kda": 0.43,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 9.0,
+      "kda": 4.2,
+      "avgDamage": 10888
     }
   }
 }

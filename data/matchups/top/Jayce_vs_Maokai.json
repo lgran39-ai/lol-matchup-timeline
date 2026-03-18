@@ -1,55 +1,155 @@
 {
-  "champA": "Jayce",
-  "champB": "Maokai",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.441428",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:39.482424",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 83,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 117,
+      "avg_xp_diff": 68,
+      "avg_cs_diff": 4.4,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 557,
-      "avg_xp_diff": 268,
-      "avg_cs_diff": 17.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 654,
+      "avg_xp_diff": 265,
+      "avg_cs_diff": 20.8,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 578,
-      "avg_xp_diff": 208,
-      "avg_cs_diff": 21.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1040,
+      "avg_xp_diff": 558,
+      "avg_cs_diff": 28.3,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1000,
-      "avg_xp_diff": 498,
-      "avg_cs_diff": 39.5,
-      "sample_frames": 10,
+      "label": "mid_game",
+      "avg_gold_diff": 1752,
+      "avg_xp_diff": 729,
+      "avg_cs_diff": 45.8,
+      "sample_frames": 45,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 2327,
-      "avg_xp_diff": 1260,
-      "avg_cs_diff": 83.6,
-      "sample_frames": 8,
+      "label": "late_game",
+      "avg_gold_diff": 3166,
+      "avg_xp_diff": 1908,
+      "avg_cs_diff": 99.4,
+      "sample_frames": 27,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Jayce",
+  "champB": "Maokai",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.2,
+      "kda": 1.88,
+      "avgDamage": 23889
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Frozen Heart",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Protoplasm Harness",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spirit Visage",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 7.2,
+      "kda": 2.48,
+      "avgDamage": 11604
+    }
+  }
 }

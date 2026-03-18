@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:26.471943",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:41.810177",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 235,
-      "avg_xp_diff": 150,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -24,
+      "avg_xp_diff": 106,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 325,
-      "avg_xp_diff": 164,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 283,
+      "avg_xp_diff": 419,
+      "avg_cs_diff": -4.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 512,
-      "avg_xp_diff": 394,
-      "avg_cs_diff": 10.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 959,
+      "avg_xp_diff": 654,
+      "avg_cs_diff": -5.4,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3735,
-      "avg_xp_diff": 2981,
-      "avg_cs_diff": 32.7,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 88,
+      "avg_xp_diff": -227,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 22,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3820,
-      "avg_xp_diff": 2587,
-      "avg_cs_diff": 26.9,
-      "sample_frames": 7,
+      "avg_gold_diff": 1976,
+      "avg_xp_diff": 1187,
+      "avg_cs_diff": 25.6,
+      "sample_frames": 14,
       "advantage": 2
     }
   ],
@@ -64,46 +64,154 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 13.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 7.0,
-        "kda": 3.33,
-        "avgDamage": 41059
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Serylda's Grudge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 8.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 5.7,
+        "kda": 2.73,
+        "avgDamage": 27140
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 16.0,
-        "kda": 3.8,
-        "avgDamage": 12420
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 1.7,
+        "avgDeaths": 4.7,
+        "avgAssists": 13.0,
+        "kda": 3.14,
+        "avgDamage": 8716
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 9.0,
-        "kda": 2.12,
-        "avgDamage": 28991
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 3.7,
+        "avgDeaths": 7.7,
+        "avgAssists": 8.7,
+        "kda": 1.61,
+        "avgDamage": 27760
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 21.0,
-        "kda": 8.0,
-        "avgDamage": 19216
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Redemption",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 15.0,
+        "kda": 2.83,
+        "avgDamage": 13028
       }
     }
   }

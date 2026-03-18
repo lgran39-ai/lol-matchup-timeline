@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.889056",
+  "sample_size": 3,
+  "overall_winrate_a": 0.0,
+  "updated_at": "2026-03-19T03:29:39.322309",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 14,
-      "avg_xp_diff": -33,
-      "avg_cs_diff": -2.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -47,
+      "avg_xp_diff": -25,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -153,
-      "avg_xp_diff": -166,
-      "avg_cs_diff": -8.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -242,
+      "avg_xp_diff": -179,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -743,
-      "avg_xp_diff": -1248,
-      "avg_cs_diff": -19.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -471,
+      "avg_xp_diff": -682,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -466,
-      "avg_xp_diff": -300,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 12,
+      "avg_gold_diff": -406,
+      "avg_xp_diff": -872,
+      "avg_cs_diff": -9.9,
+      "sample_frames": 26,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -217,
-      "avg_xp_diff": -960,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 6,
-      "advantage": -1
+      "avg_gold_diff": -2592,
+      "avg_xp_diff": -3350,
+      "avg_cs_diff": -51.5,
+      "sample_frames": 2,
+      "advantage": -2
     }
   ],
   "champA": "Illaoi",
@@ -55,23 +55,64 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 5.0,
-      "kda": 1.11,
-      "avgDamage": 19412
+      "keystones": [
+        {
+          "name": "Unsealed Spellbook",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 2.7,
+      "kda": 1.0,
+      "avgDamage": 14168
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 7.0,
-      "kda": 2.4,
-      "avgDamage": 31920
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.3,
+      "kda": 3.33,
+      "avgDamage": 22921
     }
   }
 }

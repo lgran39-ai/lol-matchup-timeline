@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-18T14:05:24.931034",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.370415",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -89,
-      "avg_xp_diff": -98,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 15,
+      "avg_gold_diff": 44,
+      "avg_xp_diff": 24,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -430,
-      "avg_xp_diff": -589,
-      "avg_cs_diff": 7.7,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": 163,
+      "avg_xp_diff": 79,
+      "avg_cs_diff": 10.5,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -919,
-      "avg_xp_diff": -1964,
-      "avg_cs_diff": -0.3,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": 440,
+      "avg_xp_diff": -179,
+      "avg_cs_diff": 17.1,
+      "sample_frames": 30,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1130,
-      "avg_xp_diff": -1529,
-      "avg_cs_diff": -1.3,
-      "sample_frames": 23,
-      "advantage": -2
+      "avg_gold_diff": 2236,
+      "avg_xp_diff": 1017,
+      "avg_cs_diff": 35.9,
+      "sample_frames": 48,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2908,
-      "avg_xp_diff": 3134,
-      "avg_cs_diff": 39.7,
-      "sample_frames": 6,
+      "avg_gold_diff": 3248,
+      "avg_xp_diff": 2464,
+      "avg_cs_diff": 65.0,
+      "sample_frames": 30,
       "advantage": 2
     }
   ],
@@ -54,38 +54,102 @@
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Wit's End",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 0.5,
-      "avgDeaths": 8.5,
-      "avgAssists": 0.5,
-      "kda": 0.12,
-      "avgDamage": 13405
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 7.2,
+      "avgAssists": 5.2,
+      "kda": 1.63,
+      "avgDamage": 24317
     },
     "champB": {
       "items": [
         {
-          "name": "Cosmic Drive",
+          "name": "Hextech Rocketbelt",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Void Staff",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 33.3,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.5,
-      "avgDeaths": 1.0,
-      "avgAssists": 1.0,
-      "kda": 9.5,
-      "avgDamage": 18260
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 4.3,
+      "kda": 1.37,
+      "avgDamage": 20214
     }
   }
 }

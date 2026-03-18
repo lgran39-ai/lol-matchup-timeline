@@ -1,98 +1,117 @@
 {
   "role": "mid",
   "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:25.424450",
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:40.019266",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 12,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": 2.4,
+      "avg_gold_diff": -52,
+      "avg_xp_diff": -53,
+      "avg_cs_diff": -0.7,
       "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 330,
-      "avg_xp_diff": 93,
-      "avg_cs_diff": 3.9,
+      "avg_gold_diff": -307,
+      "avg_xp_diff": -380,
+      "avg_cs_diff": -9.9,
       "sample_frames": 15,
-      "advantage": 1
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 997,
-      "avg_xp_diff": 391,
-      "avg_cs_diff": 8.0,
+      "avg_gold_diff": -338,
+      "avg_xp_diff": -757,
+      "avg_cs_diff": -21.1,
       "sample_frames": 15,
-      "advantage": 2
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -280,
-      "avg_xp_diff": -1191,
-      "avg_cs_diff": -30.8,
-      "sample_frames": 14,
-      "advantage": -1
+      "avg_gold_diff": -83,
+      "avg_xp_diff": -908,
+      "avg_cs_diff": -21.3,
+      "sample_frames": 31,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4815,
-      "avg_xp_diff": -4996,
-      "avg_cs_diff": -76.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 1047,
+      "avg_xp_diff": 327,
+      "avg_cs_diff": -21.8,
+      "sample_frames": 6,
+      "advantage": 2
     }
   ],
   "champA": "Naafiri",
   "champB": "Syndra",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Hail of Blades",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 66.7,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 6.0,
+      "avgKills": 4.7,
       "avgDeaths": 5.0,
-      "avgAssists": 3.5,
-      "kda": 1.9,
-      "avgDamage": 13852
+      "avgAssists": 5.3,
+      "kda": 2.0,
+      "avgDamage": 13830
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Teleport",
+          "name": "Hextech Rocketbelt",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.5,
-      "kda": 2.1,
-      "avgDamage": 28563
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 3.0,
+      "avgDeaths": 3.7,
+      "avgAssists": 11.0,
+      "kda": 3.82,
+      "avgDamage": 18714
     }
   }
 }

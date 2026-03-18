@@ -1,112 +1,197 @@
 {
   "role": "mid",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-18T14:05:25.738297",
+  "sample_size": 8,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:40.463085",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 11,
-      "avg_xp_diff": 22,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 20,
+      "avg_gold_diff": 46,
+      "avg_xp_diff": 13,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -363,
-      "avg_xp_diff": -218,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": 110,
+      "avg_xp_diff": 83,
+      "avg_cs_diff": 8.8,
+      "sample_frames": 40,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -607,
-      "avg_xp_diff": -117,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": 102,
+      "avg_xp_diff": 174,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 40,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1001,
-      "avg_xp_diff": -316,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 32,
-      "advantage": -2
+      "avg_gold_diff": 386,
+      "avg_xp_diff": 766,
+      "avg_cs_diff": 20.0,
+      "sample_frames": 65,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1233,
-      "avg_xp_diff": -4828,
-      "avg_cs_diff": -42.7,
-      "sample_frames": 12,
-      "advantage": -2
+      "avg_gold_diff": -184,
+      "avg_xp_diff": 1440,
+      "avg_cs_diff": 25.8,
+      "sample_frames": 44,
+      "advantage": -1
     }
   ],
   "champA": "Sion",
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Armored Advance",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 83.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 85.7
         }
       ],
-      "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 5.0,
-      "kda": 2.0,
-      "avgDamage": 10793
+      "avgKills": 4.1,
+      "avgDeaths": 4.0,
+      "avgAssists": 10.1,
+      "kda": 3.56,
+      "avgDamage": 20613
     },
     "champB": {
       "items": [
         {
           "name": "Eclipse",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 28.6
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 28.6
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 0.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 0.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 33.3
+        },
+        {
+          "name": "Serpent's Fang",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 25.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "First Strike",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 16.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 20.0
+        },
+        {
+          "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 25.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.5,
-      "kda": 2.33,
-      "avgDamage": 16930
+      "avgKills": 5.5,
+      "avgDeaths": 5.1,
+      "avgAssists": 5.1,
+      "kda": 2.07,
+      "avgDamage": 30262
     }
   }
 }

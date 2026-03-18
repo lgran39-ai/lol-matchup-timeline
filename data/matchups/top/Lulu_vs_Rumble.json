@@ -1,55 +1,173 @@
 {
-  "champA": "Lulu",
-  "champB": "Rumble",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.756639",
+  "sample_size": 6,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:39.874199",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 65,
-      "avg_xp_diff": 58,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 63,
+      "avg_xp_diff": 42,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 209,
-      "avg_xp_diff": 23,
-      "avg_cs_diff": 11.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 219,
+      "avg_xp_diff": 136,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 30,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -384,
-      "avg_xp_diff": -766,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 466,
+      "avg_xp_diff": 468,
+      "avg_cs_diff": 6.8,
+      "sample_frames": 30,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -1875,
-      "avg_xp_diff": -1583,
-      "avg_cs_diff": -16.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": 293,
+      "avg_xp_diff": -61,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 53,
+      "advantage": 1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -3369,
-      "avg_xp_diff": -1278,
-      "avg_cs_diff": -35.7,
-      "sample_frames": 9,
-      "advantage": -2
+      "label": "late_game",
+      "avg_gold_diff": -320,
+      "avg_xp_diff": -483,
+      "avg_cs_diff": -13.5,
+      "sample_frames": 26,
+      "advantage": -1
     }
-  ]
+  ],
+  "champA": "Lulu",
+  "champB": "Rumble",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Bandlepipes",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Morellonomicon",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shurelya's Battlesong",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 3.8,
+      "avgAssists": 9.8,
+      "kda": 3.52,
+      "avgDamage": 15376
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 20.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 4.3,
+      "avgAssists": 6.0,
+      "kda": 2.0,
+      "avgDamage": 17504
+    }
+  }
 }

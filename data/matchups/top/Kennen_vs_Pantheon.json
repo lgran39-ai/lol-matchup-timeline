@@ -1,55 +1,155 @@
 {
-  "champA": "Kennen",
-  "champB": "Pantheon",
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-13T23:57:05.621757",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.685327",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 28,
-      "avg_xp_diff": -8,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 15,
+      "avg_gold_diff": -20,
+      "avg_xp_diff": -21,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 419,
-      "avg_xp_diff": 323,
-      "avg_cs_diff": 18.7,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": 119,
+      "avg_xp_diff": 104,
+      "avg_cs_diff": 14.2,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1109,
-      "avg_xp_diff": 1262,
-      "avg_cs_diff": 33.9,
-      "sample_frames": 15,
-      "advantage": 2
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1426,
-      "avg_xp_diff": 1312,
-      "avg_cs_diff": 38.2,
+      "avg_gold_diff": 454,
+      "avg_xp_diff": 520,
+      "avg_cs_diff": 24.6,
       "sample_frames": 30,
       "advantage": 2
     },
     {
-      "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 723,
-      "avg_xp_diff": 493,
-      "avg_cs_diff": 25.8,
-      "sample_frames": 10,
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": 1032,
+      "avg_xp_diff": 845,
+      "avg_cs_diff": 38.8,
+      "sample_frames": 52,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 312,
+      "avg_xp_diff": 100,
+      "avg_cs_diff": 18.6,
+      "sample_frames": 29,
+      "advantage": 1
     }
-  ]
+  ],
+  "champA": "Kennen",
+  "champB": "Pantheon",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.0,
+      "kda": 1.72,
+      "avgDamage": 22951
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 6.8,
+      "avgAssists": 6.5,
+      "kda": 1.78,
+      "avgDamage": 19090
+    }
+  }
 }

@@ -1,46 +1,131 @@
 {
-  "champA": "Kennen",
-  "champB": "Zed",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.637670",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:39.704711",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 52,
-      "avg_xp_diff": -15,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 44,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 151,
-      "avg_xp_diff": -108,
-      "avg_cs_diff": 15.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -70,
+      "avg_xp_diff": -205,
+      "avg_cs_diff": 7.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -747,
-      "avg_xp_diff": -1291,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1185,
+      "avg_xp_diff": -1450,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -755,
-      "avg_xp_diff": -998,
-      "avg_cs_diff": 12.6,
-      "sample_frames": 9,
+      "label": "mid_game",
+      "avg_gold_diff": -1665,
+      "avg_xp_diff": -1609,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 21,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -5936,
+      "avg_xp_diff": -3703,
+      "avg_cs_diff": -21.8,
+      "sample_frames": 15,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Kennen",
+  "champB": "Zed",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 5.3,
+      "avgAssists": 2.7,
+      "kda": 1.06,
+      "avgDamage": 16277
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 3.0,
+      "avgAssists": 3.3,
+      "kda": 3.33,
+      "avgDamage": 25870
+    }
+  }
 }

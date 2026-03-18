@@ -1,55 +1,191 @@
 {
-  "champA": "FiddleSticks",
-  "champB": "Kindred",
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:05.098733",
+  "sample_size": 11,
+  "overall_winrate_a": 36.4,
+  "updated_at": "2026-03-19T03:29:38.923379",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 52,
-      "avg_xp_diff": 22,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 13,
+      "avg_xp_diff": 84,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 55,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 179,
-      "avg_xp_diff": 140,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -105,
+      "avg_xp_diff": 58,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 55,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 718,
-      "avg_xp_diff": 376,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -78,
+      "avg_xp_diff": -73,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 55,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 554,
-      "avg_xp_diff": 251,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 19,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": -1075,
+      "avg_xp_diff": -931,
+      "avg_cs_diff": -13.9,
+      "sample_frames": 109,
+      "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -1688,
-      "avg_xp_diff": -2472,
-      "avg_cs_diff": -66.2,
-      "sample_frames": 4,
+      "label": "late_game",
+      "avg_gold_diff": -2819,
+      "avg_xp_diff": -1714,
+      "avg_cs_diff": -25.6,
+      "sample_frames": 64,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "FiddleSticks",
+  "champB": "Kindred",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 9,
+          "pickRate": 81.8,
+          "winRate": 44.4
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 6,
+          "pickRate": 54.5,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 5,
+          "pickRate": 45.5,
+          "winRate": 20.0
+        },
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 27.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 18.2,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 10,
+          "pickRate": 90.9,
+          "winRate": 30.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 11,
+          "pickRate": 100.0,
+          "winRate": 36.4
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 4.6,
+      "avgAssists": 7.3,
+      "kda": 2.8,
+      "avgDamage": 15564
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "The Collector",
+          "count": 11,
+          "pickRate": 100.0,
+          "winRate": 63.6
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 9,
+          "pickRate": 81.8,
+          "winRate": 66.7
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 5,
+          "pickRate": 45.5,
+          "winRate": 80.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 75.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 18.2,
+          "winRate": 100.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 18.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 2,
+          "pickRate": 18.2,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lethal Tempo",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 75.0
+        },
+        {
+          "name": "Press the Attack",
+          "count": 3,
+          "pickRate": 27.3,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 11,
+          "pickRate": 100.0,
+          "winRate": 63.6
+        }
+      ],
+      "avgKills": 10.2,
+      "avgDeaths": 6.3,
+      "avgAssists": 5.6,
+      "kda": 2.52,
+      "avgDamage": 24136
+    }
+  }
 }

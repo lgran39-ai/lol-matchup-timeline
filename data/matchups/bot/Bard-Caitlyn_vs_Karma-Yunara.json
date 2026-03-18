@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:26.449796",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T03:29:41.734135",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 310,
-      "avg_xp_diff": 126,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 86,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 376,
-      "avg_xp_diff": 242,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 409,
+      "avg_xp_diff": 139,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1509,
-      "avg_xp_diff": 1783,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 550,
+      "avg_xp_diff": 342,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3204,
-      "avg_xp_diff": 4455,
-      "avg_cs_diff": 28.5,
-      "sample_frames": 2,
+      "avg_gold_diff": 46,
+      "avg_xp_diff": 246,
+      "avg_cs_diff": -10.2,
+      "sample_frames": 40,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3815,
+      "avg_xp_diff": 4747,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 10,
       "advantage": 2
     }
   ],
@@ -55,50 +64,202 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 5.0,
-        "kda": 4.5,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Stormrazor",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          }
+        ],
+        "avgKills": 6.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 6.4,
+        "kda": 2.07,
+        "avgDamage": 20376
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 12.0,
-        "kda": 14.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 60.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 66.7
+          },
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.8,
+        "avgDeaths": 5.6,
+        "avgAssists": 14.6,
+        "kda": 3.29,
+        "avgDamage": 11725
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 0.0,
-        "kda": 0.33,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 40.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 40.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.6,
+        "avgDeaths": 7.0,
+        "avgAssists": 5.4,
+        "kda": 1.57,
+        "avgDamage": 21180
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 3.0,
-        "kda": 0.5,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 40.0
+          }
+        ],
+        "avgKills": 1.2,
+        "avgDeaths": 6.8,
+        "avgAssists": 10.6,
+        "kda": 1.74,
+        "avgDamage": 11203
       }
     }
   }

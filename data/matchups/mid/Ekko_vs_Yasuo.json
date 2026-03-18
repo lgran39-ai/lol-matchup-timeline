@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:24.499157",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-19T03:29:38.865063",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 108,
-      "avg_xp_diff": 61,
-      "avg_cs_diff": -1.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -42,
+      "avg_xp_diff": -7,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 550,
-      "avg_xp_diff": 528,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": -33,
+      "avg_xp_diff": -117,
+      "avg_cs_diff": -9.0,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1143,
-      "avg_xp_diff": 1195,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": -497,
+      "avg_xp_diff": -386,
+      "avg_cs_diff": -13.4,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2115,
-      "avg_xp_diff": 1718,
-      "avg_cs_diff": 20.6,
-      "sample_frames": 19,
-      "advantage": 2
+      "avg_gold_diff": -1948,
+      "avg_xp_diff": -1573,
+      "avg_cs_diff": -26.8,
+      "sample_frames": 39,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3159,
-      "avg_xp_diff": 945,
-      "avg_cs_diff": 13.6,
-      "sample_frames": 8,
-      "advantage": 2
+      "avg_gold_diff": -379,
+      "avg_xp_diff": -1169,
+      "avg_cs_diff": -62.7,
+      "sample_frames": 6,
+      "advantage": -1
     }
   ],
   "champA": "Ekko",
@@ -56,42 +56,94 @@
     "champA": {
       "items": [
         {
-          "name": "Dusk and Dawn",
-          "count": 2,
+          "name": "Spellslinger's Shoes",
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 25.0
         },
         {
-          "name": "Spellslinger's Shoes",
+          "name": "Lich Bane",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
         }
       ],
       "avgKills": 4.5,
-      "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 3.75,
-      "avgDamage": 12152
+      "avgDeaths": 3.8,
+      "avgAssists": 2.0,
+      "kda": 1.73,
+      "avgDamage": 11980
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.5,
-      "avgDeaths": 6.5,
-      "avgAssists": 2.0,
-      "kda": 0.38,
-      "avgDamage": 11662
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 2.2,
+      "avgAssists": 7.0,
+      "kda": 5.78,
+      "avgDamage": 20371
     }
   }
 }

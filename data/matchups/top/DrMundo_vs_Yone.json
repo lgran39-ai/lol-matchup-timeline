@@ -1,77 +1,143 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.461647",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:38.813771",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -100,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": -2.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -60,
+      "avg_xp_diff": -39,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -885,
-      "avg_xp_diff": -648,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -599,
+      "avg_xp_diff": -474,
+      "avg_cs_diff": -14.0,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1989,
-      "avg_xp_diff": -2073,
-      "avg_cs_diff": -33.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -1030,
+      "avg_xp_diff": -914,
+      "avg_cs_diff": -22.2,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4025,
-      "avg_xp_diff": -3732,
-      "avg_cs_diff": -52.7,
-      "sample_frames": 18,
+      "avg_gold_diff": -1603,
+      "avg_xp_diff": -436,
+      "avg_cs_diff": -32.1,
+      "sample_frames": 37,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6405,
-      "avg_xp_diff": -5729,
-      "avg_cs_diff": -66.8,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -26,
+      "avg_xp_diff": 1057,
+      "avg_cs_diff": -27.2,
+      "sample_frames": 8,
+      "advantage": 0
     }
   ],
   "champA": "DrMundo",
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 5.0,
-      "kda": 0.88,
-      "avgDamage": 21390
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Warmog's Armor",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Ghost+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.2,
+      "avgDeaths": 3.4,
+      "avgAssists": 4.2,
+      "kda": 1.88,
+      "avgDamage": 13751
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 9.5,
-      "avgDamage": 53624
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 3.0,
+      "kda": 2.0,
+      "avgDamage": 28117
     }
   }
 }

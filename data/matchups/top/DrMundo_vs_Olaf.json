@@ -1,55 +1,131 @@
 {
-  "champA": "DrMundo",
-  "champB": "Olaf",
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.979650",
+  "updated_at": "2026-03-19T03:29:38.796875",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -181,
-      "avg_xp_diff": -117,
-      "avg_cs_diff": -5.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -159,
+      "avg_xp_diff": -99,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -518,
-      "avg_xp_diff": -230,
-      "avg_cs_diff": -11.4,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -359,
+      "avg_xp_diff": -42,
+      "avg_cs_diff": -13.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -653,
-      "avg_xp_diff": -312,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -324,
+      "avg_xp_diff": 73,
+      "avg_cs_diff": -14.5,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -805,
-      "avg_xp_diff": 785,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 12,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": 33,
+      "avg_xp_diff": 1180,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 22,
+      "advantage": 0
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -754,
-      "avg_xp_diff": 2597,
-      "avg_cs_diff": 21.0,
-      "sample_frames": 11,
-      "advantage": -2
+      "label": "late_game",
+      "avg_gold_diff": -112,
+      "avg_xp_diff": 2402,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 17,
+      "advantage": 0
     }
-  ]
+  ],
+  "champA": "DrMundo",
+  "champB": "Olaf",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spirit Visage",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 3.7,
+      "avgAssists": 6.3,
+      "kda": 2.64,
+      "avgDamage": 24813
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 6.3,
+      "avgAssists": 4.0,
+      "kda": 1.05,
+      "avgDamage": 27107
+    }
+  }
 }

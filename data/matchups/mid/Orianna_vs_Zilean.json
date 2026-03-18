@@ -1,55 +1,143 @@
 {
-  "champA": "Orianna",
-  "champB": "Zilean",
   "role": "mid",
   "sample_size": 5,
   "overall_winrate_a": 80.0,
-  "updated_at": "2026-03-13T23:57:06.012795",
+  "updated_at": "2026-03-19T03:29:40.157633",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": 1.0,
+      "avg_gold_diff": -13,
+      "avg_xp_diff": 15,
+      "avg_cs_diff": 1.7,
       "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 109,
-      "avg_xp_diff": 63,
-      "avg_cs_diff": 7.6,
+      "avg_gold_diff": 84,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": 8.2,
       "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 293,
-      "avg_xp_diff": 173,
-      "avg_cs_diff": 10.8,
+      "avg_gold_diff": -50,
+      "avg_xp_diff": -141,
+      "avg_cs_diff": 8.0,
       "sample_frames": 25,
-      "advantage": 1
+      "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 846,
-      "avg_xp_diff": 685,
-      "avg_cs_diff": 25.1,
+      "label": "mid_game",
+      "avg_gold_diff": -354,
+      "avg_xp_diff": -476,
+      "avg_cs_diff": 15.0,
       "sample_frames": 39,
-      "advantage": 2
+      "advantage": -1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -443,
-      "avg_xp_diff": -2455,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 11,
+      "label": "late_game",
+      "avg_gold_diff": -649,
+      "avg_xp_diff": -1381,
+      "avg_cs_diff": 7.2,
+      "sample_frames": 18,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Orianna",
+  "champB": "Zilean",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Horizon Focus",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 4.2,
+      "avgAssists": 9.6,
+      "kda": 3.43,
+      "avgDamage": 20112
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Shurelya's Battlesong",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 4.4,
+      "avgDeaths": 4.8,
+      "avgAssists": 7.6,
+      "kda": 2.5,
+      "avgDamage": 14421
+    }
+  }
 }

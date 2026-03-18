@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.291057",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-19T03:29:38.617936",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -24,
-      "avg_xp_diff": -47,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 5,
+      "avg_xp_diff": 2,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -336,
-      "avg_xp_diff": -581,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -156,
+      "avg_xp_diff": -68,
+      "avg_cs_diff": 5.0,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -723,
-      "avg_xp_diff": -900,
-      "avg_cs_diff": 8.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -100,
+      "avg_xp_diff": 180,
+      "avg_cs_diff": 6.3,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2666,
-      "avg_xp_diff": -3348,
-      "avg_cs_diff": -18.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -1568,
+      "avg_xp_diff": -653,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 41,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6229,
-      "avg_xp_diff": -5047,
-      "avg_cs_diff": -35.3,
-      "sample_frames": 15,
+      "avg_gold_diff": -4075,
+      "avg_xp_diff": -2914,
+      "avg_cs_diff": -9.9,
+      "sample_frames": 26,
       "advantage": -2
     }
   ],
@@ -54,24 +54,84 @@
   "champB": "Gangplank",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 5.0,
-      "kda": 0.5,
-      "avgDamage": 18924
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 7.5,
+      "avgAssists": 5.2,
+      "kda": 1.27,
+      "avgDamage": 20282
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 11.0,
-      "kda": 22.0,
-      "avgDamage": 66423
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "The Collector",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 9.2,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.5,
+      "kda": 3.15,
+      "avgDamage": 33790
     }
   }
 }

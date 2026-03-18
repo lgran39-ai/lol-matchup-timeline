@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-18T14:05:24.298360",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.631436",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -197,
-      "avg_xp_diff": -53,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": -17,
+      "avg_xp_diff": 75,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -860,
-      "avg_xp_diff": -473,
-      "avg_cs_diff": -8.0,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": 219,
+      "avg_xp_diff": 254,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -676,
-      "avg_xp_diff": 196,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": 404,
+      "avg_xp_diff": 733,
+      "avg_cs_diff": 20.5,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1308,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": -10.4,
-      "sample_frames": 26,
-      "advantage": -2
+      "avg_gold_diff": -377,
+      "avg_xp_diff": 229,
+      "avg_cs_diff": 10.2,
+      "sample_frames": 12,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -621,
-      "avg_xp_diff": 2345,
-      "avg_cs_diff": -7.2,
-      "sample_frames": 6,
+      "avg_gold_diff": -1857,
+      "avg_xp_diff": -39,
+      "avg_cs_diff": -7.0,
+      "sample_frames": 2,
       "advantage": -2
     }
   ],
@@ -56,7 +56,13 @@
     "champA": {
       "items": [
         {
-          "name": "Rylai's Crystal Scepter",
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Swiftmarch",
           "count": 2,
           "pickRate": 100.0,
           "winRate": 50.0
@@ -72,48 +78,34 @@
       ],
       "summonerSpells": [
         {
-          "spells": "Flash+Ghost",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 5.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 9.5,
-      "kda": 2.14,
-      "avgDamage": 17862
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Chainlaced Crushers",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Hail of Blades",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Ignite",
+          "spells": "Flash+Teleport",
           "count": 2,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
       "avgKills": 5.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.5,
-      "kda": 1.07,
-      "avgDamage": 16646
+      "avgDeaths": 3.0,
+      "avgAssists": 6.0,
+      "kda": 3.67,
+      "avgDamage": 13220
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 4.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 3.0,
+      "kda": 2.14,
+      "avgDamage": 14824
     }
   }
 }

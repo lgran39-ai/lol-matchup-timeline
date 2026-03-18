@@ -1,55 +1,118 @@
 {
-  "champA": "Ahri",
-  "champB": "Teemo",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.436266",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.043265",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 209,
-      "avg_xp_diff": 213,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 118,
+      "avg_xp_diff": 168,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1303,
-      "avg_xp_diff": 1102,
-      "avg_cs_diff": 23.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 664,
+      "avg_xp_diff": 721,
+      "avg_cs_diff": 12.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1006,
-      "avg_xp_diff": 1274,
-      "avg_cs_diff": 25.2,
-      "sample_frames": 5,
-      "advantage": 2
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1516,
-      "avg_xp_diff": 1488,
-      "avg_cs_diff": 12.0,
+      "avg_gold_diff": 421,
+      "avg_xp_diff": 867,
+      "avg_cs_diff": 7.6,
       "sample_frames": 10,
       "advantage": 2
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": 1346,
+      "avg_xp_diff": 1355,
+      "avg_cs_diff": 6.6,
+      "sample_frames": 14,
+      "advantage": 2
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": 1849,
       "avg_xp_diff": 1274,
       "avg_cs_diff": -1.0,
       "sample_frames": 7,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Ahri",
+  "champB": "Teemo",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 5.5,
+      "kda": 3.43,
+      "avgDamage": 16769
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.5,
+      "kda": 2.12,
+      "avgDamage": 15785
+    }
+  }
 }

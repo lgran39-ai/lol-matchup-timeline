@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:25.644697",
+  "sample_size": 11,
+  "overall_winrate_a": 72.7,
+  "updated_at": "2026-03-19T03:29:40.350171",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 10,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": 2.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 65,
+      "avg_xp_diff": 29,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 55,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 215,
-      "avg_xp_diff": 224,
-      "avg_cs_diff": 11.5,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 507,
+      "avg_xp_diff": 350,
+      "avg_cs_diff": 15.0,
+      "sample_frames": 55,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 665,
-      "avg_xp_diff": 578,
-      "avg_cs_diff": 28.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 1124,
+      "avg_xp_diff": 1034,
+      "avg_cs_diff": 31.4,
+      "sample_frames": 55,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 866,
-      "avg_xp_diff": 481,
-      "avg_cs_diff": 33.8,
-      "sample_frames": 8,
+      "avg_gold_diff": 2274,
+      "avg_xp_diff": 1540,
+      "avg_cs_diff": 37.4,
+      "sample_frames": 94,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 981,
+      "avg_xp_diff": -465,
+      "avg_cs_diff": 28.7,
+      "sample_frames": 27,
       "advantage": 2
     }
   ],
@@ -48,42 +57,117 @@
       "items": [
         {
           "name": "Liandry's Torment",
-          "count": 2,
+          "count": 11,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 72.7
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 75.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 27.3,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 27.3,
+          "winRate": 66.7
         }
       ],
       "keystones": [
         {
           "name": "First Strike",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 8,
+          "pickRate": 72.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 27.3,
+          "winRate": 66.7
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 1.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 0.88,
-      "avgDamage": 15915
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 10,
+          "pickRate": 90.9,
+          "winRate": 70.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 6.8,
+      "kda": 3.49,
+      "avgDamage": 31264
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 8,
+          "pickRate": 72.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Heartsteel",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hollow Radiance",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 25.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 3,
+          "pickRate": 27.3,
+          "winRate": 33.3
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 11,
           "pickRate": 100.0,
+          "winRate": 27.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 45.5,
+          "winRate": 20.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 4,
+          "pickRate": 36.4,
+          "winRate": 25.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 18.2,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 4.5,
-      "kda": 3.25,
-      "avgDamage": 7996
+      "avgKills": 3.8,
+      "avgDeaths": 5.2,
+      "avgAssists": 7.1,
+      "kda": 2.11,
+      "avgDamage": 13622
     }
   }
 }

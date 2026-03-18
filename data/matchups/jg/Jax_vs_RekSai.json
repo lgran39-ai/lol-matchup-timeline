@@ -1,96 +1,149 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.982250",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:39.441241",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 49,
-      "avg_xp_diff": 141,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -50,
+      "avg_xp_diff": 10,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -165,
-      "avg_xp_diff": 286,
-      "avg_cs_diff": 7.9,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -55,
+      "avg_xp_diff": -67,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -324,
-      "avg_xp_diff": 496,
-      "avg_cs_diff": 14.2,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -45,
+      "avg_xp_diff": 106,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -782,
-      "avg_xp_diff": 705,
-      "avg_cs_diff": 22.0,
-      "sample_frames": 4,
-      "advantage": -2
+      "avg_gold_diff": -56,
+      "avg_xp_diff": -244,
+      "avg_cs_diff": -12.5,
+      "sample_frames": 51,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1635,
+      "avg_xp_diff": 667,
+      "avg_cs_diff": -11.6,
+      "sample_frames": 11,
+      "advantage": 2
     }
   ],
   "champA": "Jax",
   "champB": "RekSai",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Smite",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 2.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 0.5,
-      "kda": 2.0,
-      "avgDamage": 5184
-    },
-    "champB": {
-      "items": [],
-      "keystones": [
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
         {
           "name": "Conqueror",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 6.6,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.4,
+      "kda": 2.86,
+      "avgDamage": 13167
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 2.0,
-      "avgDamage": 6349
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 6.6,
+      "avgDeaths": 2.8,
+      "avgAssists": 6.0,
+      "kda": 4.5,
+      "avgDamage": 12126
     }
   }
 }

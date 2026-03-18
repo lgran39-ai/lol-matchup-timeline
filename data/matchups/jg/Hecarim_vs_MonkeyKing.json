@@ -1,55 +1,149 @@
 {
-  "champA": "Hecarim",
-  "champB": "MonkeyKing",
   "role": "jg",
   "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-13T23:57:05.304915",
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:39.270911",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -21,
-      "avg_xp_diff": 43,
-      "avg_cs_diff": 1.5,
+      "avg_gold_diff": 26,
+      "avg_xp_diff": 95,
+      "avg_cs_diff": 3.0,
       "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -35,
-      "avg_xp_diff": 81,
-      "avg_cs_diff": 3.5,
+      "avg_gold_diff": -8,
+      "avg_xp_diff": 314,
+      "avg_cs_diff": 11.0,
       "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 258,
-      "avg_xp_diff": 419,
-      "avg_cs_diff": 8.7,
+      "avg_gold_diff": 358,
+      "avg_xp_diff": 845,
+      "avg_cs_diff": 21.1,
       "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 641,
-      "avg_xp_diff": 921,
-      "avg_cs_diff": 26.0,
+      "label": "mid_game",
+      "avg_gold_diff": 831,
+      "avg_xp_diff": 1844,
+      "avg_cs_diff": 47.9,
       "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 1603,
-      "avg_xp_diff": 2156,
-      "avg_cs_diff": 25.6,
-      "sample_frames": 27,
+      "label": "late_game",
+      "avg_gold_diff": 2306,
+      "avg_xp_diff": 3169,
+      "avg_cs_diff": 85.9,
+      "sample_frames": 26,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Hecarim",
+  "champB": "MonkeyKing",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 4.3,
+      "avgAssists": 8.7,
+      "kda": 4.08,
+      "avgDamage": 31245
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 8.7,
+      "avgDeaths": 5.3,
+      "avgAssists": 8.7,
+      "kda": 3.25,
+      "avgDamage": 25748
+    }
+  }
 }

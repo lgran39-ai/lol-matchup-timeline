@@ -1,53 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:26.345355",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:41.645730",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 10,
-      "avg_xp_diff": -15,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -250,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -386,
-      "avg_xp_diff": -388,
-      "avg_cs_diff": -13.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -901,
+      "avg_xp_diff": 112,
+      "avg_cs_diff": 5.3,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -683,
-      "avg_xp_diff": -773,
-      "avg_cs_diff": -14.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -1553,
+      "avg_xp_diff": -28,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1301,
-      "avg_xp_diff": 136,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -2120,
+      "avg_xp_diff": -599,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 6,
       "advantage": -2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": 482,
-      "avg_xp_diff": 3038,
-      "avg_cs_diff": 12.1,
-      "sample_frames": 13,
-      "advantage": 1
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +55,123 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 11.0,
-        "kda": 3.33,
-        "avgDamage": 23559
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.7,
+        "avgDeaths": 4.3,
+        "avgAssists": 3.3,
+        "kda": 1.38,
+        "avgDamage": 7056
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 21.0,
-        "kda": 5.75,
-        "avgDamage": 12600
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.7,
+        "avgDeaths": 4.7,
+        "avgAssists": 6.0,
+        "kda": 1.64,
+        "avgDamage": 6542
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 6.0,
-        "kda": 0.89,
-        "avgDamage": 16738
+        "items": [
+          {
+            "name": "Stormrazor",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 5.3,
+        "avgDeaths": 2.7,
+        "avgAssists": 5.3,
+        "kda": 4.0,
+        "avgDamage": 7969
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 8.0,
-        "kda": 2.12,
-        "avgDamage": 20018
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 5.3,
+        "avgDeaths": 2.3,
+        "avgAssists": 6.0,
+        "kda": 4.86,
+        "avgDamage": 8159
       }
     }
   }

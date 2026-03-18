@@ -1,46 +1,118 @@
 {
-  "champA": "Gwen",
-  "champB": "Maokai",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.284583",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:39.238517",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 136,
-      "avg_xp_diff": 81,
+      "avg_gold_diff": 145,
+      "avg_xp_diff": 78,
       "avg_cs_diff": 5.2,
-      "sample_frames": 5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 616,
-      "avg_xp_diff": 628,
-      "avg_cs_diff": 24.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 673,
+      "avg_xp_diff": 534,
+      "avg_cs_diff": 21.9,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 923,
-      "avg_xp_diff": 1243,
-      "avg_cs_diff": 34.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 1404,
+      "avg_xp_diff": 1480,
+      "avg_cs_diff": 36.3,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1333,
-      "avg_xp_diff": 1616,
-      "avg_cs_diff": 49.6,
-      "sample_frames": 8,
+      "label": "mid_game",
+      "avg_gold_diff": 1563,
+      "avg_xp_diff": 1845,
+      "avg_cs_diff": 44.0,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2342,
+      "avg_xp_diff": 2029,
+      "avg_cs_diff": 46.4,
+      "sample_frames": 10,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Gwen",
+  "champB": "Maokai",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 4.3,
+      "avgAssists": 2.3,
+      "kda": 1.69,
+      "avgDamage": 22756
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 0.3,
+      "avgDeaths": 4.3,
+      "avgAssists": 8.3,
+      "kda": 2.0,
+      "avgDamage": 13340
+    }
+  }
 }

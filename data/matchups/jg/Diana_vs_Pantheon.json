@@ -1,53 +1,44 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:24.399609",
+  "sample_size": 2,
+  "overall_winrate_a": 0.0,
+  "updated_at": "2026-03-19T03:29:38.756289",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 75,
-      "avg_xp_diff": 45,
-      "avg_cs_diff": 0.9,
-      "sample_frames": 15,
+      "avg_gold_diff": -45,
+      "avg_xp_diff": 37,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 616,
-      "avg_xp_diff": 275,
-      "avg_cs_diff": 4.9,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": -681,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1404,
-      "avg_xp_diff": 1139,
-      "avg_cs_diff": 18.5,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": -1672,
+      "avg_xp_diff": -1135,
+      "avg_cs_diff": -15.9,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1770,
-      "avg_xp_diff": 1769,
-      "avg_cs_diff": 22.6,
-      "sample_frames": 29,
-      "advantage": 2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": 2761,
-      "avg_xp_diff": 2828,
-      "avg_cs_diff": 38.4,
-      "sample_frames": 14,
-      "advantage": 2
+      "avg_gold_diff": -2756,
+      "avg_xp_diff": -3688,
+      "avg_cs_diff": -45.9,
+      "sample_frames": 15,
+      "advantage": -2
     }
   ],
   "champA": "Diana",
@@ -56,21 +47,40 @@
     "champA": {
       "items": [
         {
-          "name": "Zhonya's Hourglass",
-          "count": 3,
+          "name": "Dusk and Dawn",
+          "count": 2,
           "pickRate": 100.0,
-          "winRate": 66.7
-        },
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
         {
-          "name": "Riftmaker",
+          "name": "Conqueror",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
-        },
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
         {
-          "name": "Hextech Rocketbelt",
+          "spells": "Flash+Smite",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 3.0,
+      "kda": 1.55,
+      "avgDamage": 13118
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
           "winRate": 100.0
         }
       ],
@@ -78,60 +88,23 @@
         {
           "name": "Conqueror",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "pickRate": 100.0,
+          "winRate": 100.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 66.7
-        }
-      ],
-      "avgKills": 13.7,
-      "avgDeaths": 5.7,
-      "avgAssists": 6.3,
-      "kda": 3.53,
-      "avgDamage": 30197
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Sundered Sky",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
-        },
-        {
-          "name": "Black Cleaver",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Conqueror",
-          "count": 3,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 100.0
         }
       ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Smite",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
-        }
-      ],
-      "avgKills": 7.3,
-      "avgDeaths": 7.0,
-      "avgAssists": 10.0,
-      "kda": 2.48,
-      "avgDamage": 18903
+      "avgKills": 13.0,
+      "avgDeaths": 1.0,
+      "avgAssists": 5.0,
+      "kda": 18.0,
+      "avgDamage": 21734
     }
   }
 }

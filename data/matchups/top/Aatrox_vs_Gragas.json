@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 5,
-  "overall_winrate_a": 60.0,
-  "updated_at": "2026-03-18T14:05:23.776854",
+  "sample_size": 9,
+  "overall_winrate_a": 44.4,
+  "updated_at": "2026-03-19T03:29:37.954998",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 22,
-      "avg_xp_diff": 26,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 25,
+      "avg_gold_diff": 12,
+      "avg_xp_diff": 34,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 45,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 116,
-      "avg_xp_diff": 68,
-      "avg_cs_diff": 11.9,
-      "sample_frames": 25,
+      "avg_gold_diff": 136,
+      "avg_xp_diff": 90,
+      "avg_cs_diff": 7.5,
+      "sample_frames": 45,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 20,
-      "avg_xp_diff": 16,
-      "avg_cs_diff": 14.0,
-      "sample_frames": 25,
-      "advantage": 0
+      "avg_gold_diff": 355,
+      "avg_xp_diff": 472,
+      "avg_cs_diff": 15.2,
+      "sample_frames": 45,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 165,
-      "avg_xp_diff": -87,
-      "avg_cs_diff": 16.8,
-      "sample_frames": 41,
-      "advantage": 1
+      "avg_gold_diff": 683,
+      "avg_xp_diff": 330,
+      "avg_cs_diff": 19.6,
+      "sample_frames": 76,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1721,
-      "avg_xp_diff": 1421,
-      "avg_cs_diff": 12.7,
-      "sample_frames": 18,
+      "avg_gold_diff": 1135,
+      "avg_xp_diff": -264,
+      "avg_cs_diff": 22.9,
+      "sample_frames": 22,
       "advantage": 2
     }
   ],
@@ -54,26 +54,96 @@
   "champB": "Gragas",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.2,
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 6,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 4,
+          "pickRate": 44.4,
+          "winRate": 25.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 7,
+          "pickRate": 77.8,
+          "winRate": 57.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 7,
+          "pickRate": 77.8,
+          "winRate": 57.1
+        }
+      ],
+      "avgKills": 4.2,
       "avgDeaths": 4.2,
-      "avgAssists": 4.4,
-      "kda": 1.81,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgAssists": 3.7,
+      "kda": 1.87,
+      "avgDamage": 20996
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.8,
-      "avgDeaths": 4.6,
-      "avgAssists": 3.4,
-      "kda": 1.35,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 5,
+          "pickRate": 55.6,
+          "winRate": 40.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 33.3,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 9,
+          "pickRate": 100.0,
+          "winRate": 55.6
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 9,
+          "pickRate": 100.0,
+          "winRate": 55.6
+        }
+      ],
+      "avgKills": 2.6,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.9,
+      "kda": 2.0,
+      "avgDamage": 20537
     }
   }
 }

@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-18T14:05:23.917155",
+  "sample_size": 15,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.124646",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 16,
-      "avg_xp_diff": -11,
-      "avg_cs_diff": -0.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 59,
+      "avg_xp_diff": 38,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 75,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 97,
-      "avg_xp_diff": -36,
-      "avg_cs_diff": 5.7,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 367,
+      "avg_xp_diff": 301,
+      "avg_cs_diff": 5.4,
+      "sample_frames": 75,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -171,
-      "avg_xp_diff": -325,
-      "avg_cs_diff": 3.5,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": 941,
+      "avg_xp_diff": 1294,
+      "avg_cs_diff": 13.4,
+      "sample_frames": 75,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -741,
-      "avg_xp_diff": -700,
-      "avg_cs_diff": -8.1,
-      "sample_frames": 29,
-      "advantage": -2
+      "avg_gold_diff": 1353,
+      "avg_xp_diff": 1704,
+      "avg_cs_diff": 15.4,
+      "sample_frames": 94,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -597,
-      "avg_xp_diff": -125,
-      "avg_cs_diff": -2.3,
-      "sample_frames": 23,
-      "advantage": -2
+      "avg_gold_diff": -294,
+      "avg_xp_diff": -481,
+      "avg_cs_diff": -20.1,
+      "sample_frames": 29,
+      "advantage": -1
     }
   ],
   "champA": "Akali",
@@ -57,62 +57,141 @@
       "items": [
         {
           "name": "Hextech Gunblade",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 13,
+          "pickRate": 86.7,
+          "winRate": 61.5
         },
         {
           "name": "Shadowflame",
+          "count": 6,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 13.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 13,
+          "pickRate": 86.7,
+          "winRate": 76.9
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 13.3,
           "winRate": 0.0
         }
       ],
-      "keystones": [],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
+          "count": 9,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 26.7,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Teleport+Ignite",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 13.3,
+          "winRate": 100.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 5.5,
-      "avgAssists": 1.0,
-      "kda": 1.0,
-      "avgDamage": 15548
+      "avgKills": 6.5,
+      "avgDeaths": 3.9,
+      "avgAssists": 2.7,
+      "kda": 2.36,
+      "avgDamage": 18220
     },
     "champB": {
       "items": [
         {
+          "name": "Blade of The Ruined King",
+          "count": 10,
+          "pickRate": 66.7,
+          "winRate": 40.0
+        },
+        {
           "name": "Immortal Shieldbow",
+          "count": 6,
+          "pickRate": 40.0,
+          "winRate": 16.7
+        },
+        {
+          "name": "Wit's End",
+          "count": 3,
+          "pickRate": 20.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Infinity Edge",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 13.3,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 9,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 20.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 20.0,
+          "winRate": 0.0
         }
       ],
       "summonerSpells": [
         {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
           "spells": "Exhaust+Flash",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 6,
+          "pickRate": 40.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Barrier",
+          "count": 3,
+          "pickRate": 20.0,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 9.5,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 2.25,
-      "avgDamage": 23784
+      "avgKills": 2.9,
+      "avgDeaths": 6.9,
+      "avgAssists": 2.3,
+      "kda": 0.76,
+      "avgDamage": 13998
     }
   }
 }

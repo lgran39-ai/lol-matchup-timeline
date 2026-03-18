@@ -1,55 +1,112 @@
 {
-  "champA": "Lulu",
-  "champB": "Mel",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.746450",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.869199",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -169,
-      "avg_xp_diff": -230,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -100,
+      "avg_xp_diff": -131,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -508,
-      "avg_xp_diff": -801,
-      "avg_cs_diff": -25.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -384,
+      "avg_xp_diff": -397,
+      "avg_cs_diff": -15.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1065,
-      "avg_xp_diff": -1667,
-      "avg_cs_diff": -54.8,
-      "sample_frames": 5,
-      "advantage": -2
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -1277,
-      "avg_xp_diff": -835,
-      "avg_cs_diff": -67.3,
+      "avg_gold_diff": -953,
+      "avg_xp_diff": -1276,
+      "avg_cs_diff": -37.4,
       "sample_frames": 10,
       "advantage": -2
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -1622,
+      "avg_xp_diff": -1419,
+      "avg_cs_diff": -56.8,
+      "sample_frames": 19,
+      "advantage": -2
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": -1555,
       "avg_xp_diff": -209,
       "avg_cs_diff": -101.2,
       "sample_frames": 5,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Lulu",
+  "champB": "Mel",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 10.5,
+      "kda": 1.86,
+      "avgDamage": 10810
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 2.5,
+      "kda": 1.73,
+      "avgDamage": 22260
+    }
+  }
 }

@@ -1,70 +1,109 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.276950",
+  "sample_size": 3,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T03:29:38.590717",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 32,
-      "avg_xp_diff": -37,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": -3,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 109,
-      "avg_xp_diff": -232,
-      "avg_cs_diff": 10.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 106,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": 5.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -842,
-      "avg_xp_diff": -1916,
-      "avg_cs_diff": -10.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 594,
+      "avg_xp_diff": 279,
+      "avg_cs_diff": 8.3,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2069,
-      "avg_xp_diff": -3540,
-      "avg_cs_diff": -40.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 1840,
+      "avg_xp_diff": 1225,
+      "avg_cs_diff": 17.4,
+      "sample_frames": 27,
+      "advantage": 2
     }
   ],
   "champA": "Camille",
   "champB": "Malphite",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Teleport+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 6.0,
+      "kda": 6.5,
+      "avgDamage": 20324
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 0.0,
+      "avgKills": 2.3,
+      "avgDeaths": 4.3,
       "avgAssists": 3.0,
-      "kda": 6.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "kda": 1.23,
+      "avgDamage": 12402
     }
   }
 }

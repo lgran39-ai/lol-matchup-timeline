@@ -1,55 +1,131 @@
 {
-  "champA": "Nidalee",
-  "champB": "Yone",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.932453",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.083170",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 6,
-      "avg_xp_diff": 66,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 78,
+      "avg_xp_diff": 71,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 71,
-      "avg_xp_diff": 149,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 642,
+      "avg_xp_diff": 380,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 171,
-      "avg_xp_diff": 481,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 807,
+      "avg_xp_diff": 630,
+      "avg_cs_diff": 11.4,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -554,
-      "avg_xp_diff": -967,
-      "avg_cs_diff": -25.1,
-      "sample_frames": 10,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": 35,
+      "avg_xp_diff": -987,
+      "avg_cs_diff": -10.3,
+      "sample_frames": 31,
+      "advantage": 0
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 734,
-      "avg_xp_diff": -647,
-      "avg_cs_diff": -63.3,
-      "sample_frames": 9,
+      "label": "late_game",
+      "avg_gold_diff": 756,
+      "avg_xp_diff": -437,
+      "avg_cs_diff": -34.1,
+      "sample_frames": 14,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Nidalee",
+  "champB": "Yone",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 4.8,
+      "avgAssists": 5.5,
+      "kda": 2.32,
+      "avgDamage": 21448
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.2,
+      "kda": 1.75,
+      "avgDamage": 21084
+    }
+  }
 }

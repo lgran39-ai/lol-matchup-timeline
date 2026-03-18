@@ -1,68 +1,90 @@
 {
   "role": "top",
   "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.039970",
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.539543",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 55,
-      "avg_xp_diff": 69,
-      "avg_cs_diff": 4.0,
+      "avg_gold_diff": 231,
+      "avg_xp_diff": 121,
+      "avg_cs_diff": 3.3,
       "sample_frames": 10,
-      "advantage": 0
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 89,
-      "avg_xp_diff": 178,
-      "avg_cs_diff": 8.7,
+      "avg_gold_diff": 1060,
+      "avg_xp_diff": 866,
+      "avg_cs_diff": 13.7,
       "sample_frames": 10,
-      "advantage": 0
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 147,
-      "avg_xp_diff": 625,
-      "avg_cs_diff": 13.4,
+      "avg_gold_diff": 1999,
+      "avg_xp_diff": 2254,
+      "avg_cs_diff": 34.6,
       "sample_frames": 10,
-      "advantage": 0
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -139,
-      "avg_xp_diff": 30,
-      "avg_cs_diff": 23.1,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 3313,
+      "avg_xp_diff": 2655,
+      "avg_cs_diff": 42.3,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3416,
+      "avg_xp_diff": 1834,
+      "avg_cs_diff": 47.1,
+      "sample_frames": 10,
+      "advantage": 2
     }
   ],
   "champA": "Jayce",
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 0.33,
-      "avgDamage": 8098
+      "avgKills": 7.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 4.5,
+      "kda": 4.6,
+      "avgDamage": 22864
     },
     "champB": {
       "items": [],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 0.0,
-      "kda": 2.0,
-      "avgDamage": 8254
+      "avgKills": 1.5,
+      "avgDeaths": 7.5,
+      "avgAssists": 2.5,
+      "kda": 0.53,
+      "avgDamage": 12958
     }
   }
 }

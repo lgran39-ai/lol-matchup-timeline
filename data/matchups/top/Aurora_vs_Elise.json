@@ -1,55 +1,91 @@
 {
-  "champA": "Aurora",
-  "champB": "Elise",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.688898",
+  "updated_at": "2026-03-19T03:29:38.413980",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -129,
-      "avg_xp_diff": -86,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -27,
+      "avg_xp_diff": -79,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -138,
-      "avg_xp_diff": -155,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -96,
+      "avg_xp_diff": -105,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 328,
-      "avg_xp_diff": 119,
-      "avg_cs_diff": 15.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -438,
+      "avg_xp_diff": -686,
+      "avg_cs_diff": 7.0,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 76,
-      "avg_xp_diff": 472,
-      "avg_cs_diff": 27.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "label": "mid_game",
+      "avg_gold_diff": -215,
+      "avg_xp_diff": 263,
+      "avg_cs_diff": 26.1,
+      "sample_frames": 12,
+      "advantage": -1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": -1058,
       "avg_xp_diff": 217,
       "avg_cs_diff": 36.1,
       "sample_frames": 7,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Aurora",
+  "champB": "Elise",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 4.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 7.0,
+      "kda": 1.57,
+      "avgDamage": 18318
+    },
+    "champB": {
+      "items": [],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 9.0,
+      "avgAssists": 1.5,
+      "kda": 1.06,
+      "avgDamage": 21437
+    }
+  }
 }

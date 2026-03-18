@@ -1,46 +1,128 @@
 {
-  "champA": "Azir",
-  "champB": "Naafiri",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.734027",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.499828",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -112,
-      "avg_xp_diff": 17,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -99,
+      "avg_xp_diff": -3,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -62,
-      "avg_xp_diff": 239,
-      "avg_cs_diff": 12.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -451,
+      "avg_xp_diff": 112,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 808,
-      "avg_xp_diff": 1349,
-      "avg_cs_diff": 30.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -856,
+      "avg_xp_diff": 289,
+      "avg_cs_diff": 7.9,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1416,
-      "avg_xp_diff": 1778,
-      "avg_cs_diff": 35.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": 276,
+      "avg_xp_diff": 1668,
+      "avg_cs_diff": 20.1,
+      "sample_frames": 15,
+      "advantage": 1
     }
-  ]
+  ],
+  "champA": "Azir",
+  "champB": "Naafiri",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.3,
+      "avgDeaths": 1.3,
+      "avgAssists": 5.7,
+      "kda": 6.0,
+      "avgDamage": 12870
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.7,
+      "avgAssists": 5.0,
+      "kda": 2.64,
+      "avgDamage": 11597
+    }
+  }
 }

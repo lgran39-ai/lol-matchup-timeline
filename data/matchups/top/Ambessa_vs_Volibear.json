@@ -1,68 +1,161 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.017322",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-19T03:29:38.269410",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 89,
-      "avg_xp_diff": -7,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -22,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -362,
-      "avg_xp_diff": -65,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -218,
+      "avg_xp_diff": -152,
+      "avg_cs_diff": -6.0,
+      "sample_frames": 25,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -256,
-      "avg_xp_diff": -344,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -254,
+      "avg_xp_diff": -146,
+      "avg_cs_diff": -7.5,
+      "sample_frames": 25,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -52,
-      "avg_xp_diff": 199,
-      "avg_cs_diff": -0.3,
-      "sample_frames": 9,
-      "advantage": 0
+      "avg_gold_diff": 377,
+      "avg_xp_diff": 152,
+      "avg_cs_diff": -8.1,
+      "sample_frames": 46,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1388,
+      "avg_xp_diff": 1824,
+      "avg_cs_diff": -14.4,
+      "sample_frames": 32,
+      "advantage": 2
     }
   ],
   "champA": "Ambessa",
   "champB": "Volibear",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 0.71,
-      "avgDamage": 17098
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.4,
+      "avgDeaths": 5.6,
+      "avgAssists": 4.8,
+      "kda": 2.0,
+      "avgDamage": 28827
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 5.0,
-      "kda": 1.4,
-      "avgDamage": 16413
+      "items": [
+        {
+          "name": "Spirit Visage",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Navori Flickerblade",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 7.4,
+      "kda": 2.23,
+      "avgDamage": 24317
     }
   }
 }

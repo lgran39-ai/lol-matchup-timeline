@@ -1,55 +1,111 @@
 {
-  "champA": "Jayce",
-  "champB": "Zac",
   "role": "mid",
   "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:05.474360",
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T03:29:39.538636",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 133,
-      "avg_xp_diff": -32,
-      "avg_cs_diff": 3.2,
+      "avg_gold_diff": 103,
+      "avg_xp_diff": 35,
+      "avg_cs_diff": 3.5,
       "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 580,
-      "avg_xp_diff": -63,
-      "avg_cs_diff": 11.0,
+      "avg_gold_diff": 280,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": 11.8,
       "sample_frames": 10,
-      "advantage": 2
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1839,
-      "avg_xp_diff": 483,
-      "avg_cs_diff": 27.9,
+      "avg_gold_diff": 568,
+      "avg_xp_diff": 172,
+      "avg_cs_diff": 26.0,
       "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2173,
-      "avg_xp_diff": 335,
-      "avg_cs_diff": 47.1,
-      "sample_frames": 15,
+      "label": "mid_game",
+      "avg_gold_diff": 914,
+      "avg_xp_diff": -479,
+      "avg_cs_diff": 40.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 2915,
-      "avg_xp_diff": 1466,
-      "avg_cs_diff": 89.1,
-      "sample_frames": 8,
+      "label": "late_game",
+      "avg_gold_diff": 2459,
+      "avg_xp_diff": 1009,
+      "avg_cs_diff": 85.5,
+      "sample_frames": 13,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Jayce",
+  "champB": "Zac",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 12.5,
+      "kda": 2.93,
+      "avgDamage": 38724
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 6.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 10.0,
+      "kda": 2.67,
+      "avgDamage": 24177
+    }
+  }
 }

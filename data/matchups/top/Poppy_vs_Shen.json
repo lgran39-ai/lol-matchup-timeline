@@ -1,55 +1,119 @@
 {
-  "champA": "Poppy",
-  "champB": "Shen",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:06.060238",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:40.214217",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 61,
-      "avg_xp_diff": -34,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 183,
+      "avg_xp_diff": 72,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 402,
-      "avg_xp_diff": 375,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 714,
+      "avg_xp_diff": 712,
+      "avg_cs_diff": 12.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 711,
-      "avg_xp_diff": 859,
-      "avg_cs_diff": 22.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 1329,
+      "avg_xp_diff": 1702,
+      "avg_cs_diff": 31.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1036,
-      "avg_xp_diff": 238,
-      "avg_cs_diff": 23.6,
-      "sample_frames": 17,
+      "label": "mid_game",
+      "avg_gold_diff": 1400,
+      "avg_xp_diff": 833,
+      "avg_cs_diff": 30.4,
+      "sample_frames": 21,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": -1521,
       "avg_xp_diff": 80,
       "avg_cs_diff": 8.0,
       "sample_frames": 8,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Poppy",
+  "champB": "Shen",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 5.7,
+      "kda": 2.12,
+      "avgDamage": 22756
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 7.3,
+      "avgAssists": 6.7,
+      "kda": 1.45,
+      "avgDamage": 14456
+    }
+  }
 }

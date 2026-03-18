@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.416652",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:40.009257",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -39,
-      "avg_xp_diff": -82,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 19,
+      "avg_xp_diff": -63,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -96,
-      "avg_xp_diff": -152,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 71,
+      "avg_xp_diff": -317,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -90,
-      "avg_xp_diff": -67,
-      "avg_cs_diff": -6.8,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -158,
+      "avg_xp_diff": -565,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 740,
-      "avg_xp_diff": 1022,
-      "avg_cs_diff": 6.5,
-      "sample_frames": 19,
+      "avg_gold_diff": 987,
+      "avg_xp_diff": 1318,
+      "avg_cs_diff": 22.2,
+      "sample_frames": 22,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 586,
-      "avg_xp_diff": -192,
-      "avg_cs_diff": -14.0,
-      "sample_frames": 8,
+      "avg_gold_diff": 2533,
+      "avg_xp_diff": 4032,
+      "avg_cs_diff": 45.0,
+      "sample_frames": 6,
       "advantage": 2
     }
   ],
@@ -54,24 +54,66 @@
   "champB": "Nunu",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
+      "items": [
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.7,
       "avgDeaths": 2.0,
-      "avgAssists": 11.0,
-      "kda": 10.0,
-      "avgDamage": 22283
+      "avgAssists": 6.3,
+      "kda": 6.5,
+      "avgDamage": 12556
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 13.0,
-      "kda": 5.5,
-      "avgDamage": 22592
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 9.0,
+      "kda": 2.18,
+      "avgDamage": 10426
     }
   }
 }

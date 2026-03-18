@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.224061",
+  "sample_size": 2,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T03:29:39.772401",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 151,
-      "avg_xp_diff": 76,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 44,
+      "avg_xp_diff": -1,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -82,
-      "avg_xp_diff": -342,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 323,
+      "avg_xp_diff": 81,
+      "avg_cs_diff": 4.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 160,
-      "avg_xp_diff": 89,
-      "avg_cs_diff": -12.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 311,
+      "avg_xp_diff": -242,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 581,
-      "avg_xp_diff": 1199,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 822,
+      "avg_xp_diff": -384,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 541,
-      "avg_xp_diff": 1832,
-      "avg_cs_diff": 16.0,
-      "sample_frames": 3,
+      "avg_gold_diff": 2516,
+      "avg_xp_diff": 2094,
+      "avg_cs_diff": 16.5,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -54,24 +54,65 @@
   "champB": "Neeko",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 7.0,
-      "kda": 2.2,
-      "avgDamage": 18490
+      "avgKills": 6.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 9.0,
+      "kda": 5.17,
+      "avgDamage": 25021
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 1.5,
       "avgDeaths": 4.0,
-      "avgAssists": 5.0,
-      "kda": 2.5,
-      "avgDamage": 15833
+      "avgAssists": 6.0,
+      "kda": 1.88,
+      "avgDamage": 17611
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.293732",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:38.623664",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 0,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 3.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 54,
+      "avg_xp_diff": 101,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 464,
-      "avg_xp_diff": 517,
-      "avg_cs_diff": 18.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 243,
+      "avg_xp_diff": 76,
+      "avg_cs_diff": 5.2,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 667,
-      "avg_xp_diff": 919,
-      "avg_cs_diff": 34.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 1100,
+      "avg_xp_diff": 1011,
+      "avg_cs_diff": 11.8,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 396,
-      "avg_xp_diff": 956,
-      "avg_cs_diff": 44.1,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": 1664,
+      "avg_xp_diff": 2062,
+      "avg_cs_diff": 27.0,
+      "sample_frames": 29,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1756,
-      "avg_xp_diff": 3504,
-      "avg_cs_diff": 65.4,
-      "sample_frames": 15,
+      "avg_gold_diff": 2764,
+      "avg_xp_diff": 1986,
+      "avg_cs_diff": 85.2,
+      "sample_frames": 4,
       "advantage": 2
     }
   ],
@@ -54,26 +54,65 @@
   "champB": "Jax",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 5.0,
-      "kda": 1.93,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.3,
+      "kda": 2.27,
+      "avgDamage": 23378
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.5,
-      "avgDeaths": 10.0,
-      "avgAssists": 5.0,
-      "kda": 1.25,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 7.0,
+      "avgAssists": 4.0,
+      "kda": 1.24,
+      "avgDamage": 14877
     }
   }
 }

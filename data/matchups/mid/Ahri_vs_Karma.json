@@ -1,77 +1,137 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:23.832199",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:38.015014",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 2,
-      "avg_xp_diff": -16,
-      "avg_cs_diff": -1.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -24,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -61,
-      "avg_xp_diff": -60,
-      "avg_cs_diff": -7.1,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -190,
+      "avg_xp_diff": -164,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 92,
-      "avg_xp_diff": 139,
-      "avg_cs_diff": -9.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -497,
+      "avg_xp_diff": -386,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 645,
-      "avg_xp_diff": 598,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 12,
-      "advantage": 2
+      "avg_gold_diff": -198,
+      "avg_xp_diff": 187,
+      "avg_cs_diff": 5.8,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2372,
-      "avg_xp_diff": 3274,
-      "avg_cs_diff": 17.2,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -275,
+      "avg_xp_diff": -103,
+      "avg_cs_diff": 22.5,
+      "sample_frames": 25,
+      "advantage": -1
     }
   ],
   "champA": "Ahri",
   "champB": "Karma",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 12.0,
-      "kda": 3.6,
-      "avgDamage": 20939
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 6.3,
+      "kda": 2.0,
+      "avgDamage": 26541
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 6.0,
-      "kda": 1.14,
-      "avgDamage": 16555
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Horizon Focus",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 5.3,
+      "avgAssists": 14.0,
+      "kda": 3.94,
+      "avgDamage": 32030
     }
   }
 }

@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:27.025017",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:43.150163",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -357,
-      "avg_xp_diff": -91,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 370,
+      "avg_xp_diff": 108,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -914,
-      "avg_xp_diff": -311,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 431,
+      "avg_xp_diff": 74,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1190,
-      "avg_xp_diff": -488,
-      "avg_cs_diff": -12.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -816,
+      "avg_xp_diff": -838,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1851,
-      "avg_xp_diff": -1316,
-      "avg_cs_diff": -33.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -1343,
+      "avg_xp_diff": -584,
+      "avg_cs_diff": -7.0,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -254,
-      "avg_xp_diff": 396,
-      "avg_cs_diff": -66.0,
-      "sample_frames": 2,
-      "advantage": 0
+      "avg_gold_diff": 366,
+      "avg_xp_diff": 1295,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 5,
+      "advantage": 1
     }
   ],
   "type": "bot_2v2",
@@ -64,50 +64,130 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 7.0,
-        "kda": 3.2,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 4.5,
+        "kda": 2.44,
+        "avgDamage": 21718
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 19.0,
-        "kda": 2.86,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "avgDeaths": 5.5,
+        "avgAssists": 12.0,
+        "kda": 2.36,
+        "avgDamage": 9496
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 5.0,
-        "kda": 3.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 2.5,
+        "avgAssists": 6.5,
+        "kda": 3.8,
+        "avgDamage": 14118
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 9.0,
-        "kda": 1.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 11.0,
+        "kda": 3.11,
+        "avgDamage": 14466
       }
     }
   }

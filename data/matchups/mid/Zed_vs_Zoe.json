@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 9,
-  "overall_winrate_a": 55.6,
-  "updated_at": "2026-03-18T14:05:25.925070",
+  "sample_size": 12,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:40.670979",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -75,
-      "avg_xp_diff": -42,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 45,
+      "avg_gold_diff": -26,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": -1.5,
+      "sample_frames": 60,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -362,
-      "avg_xp_diff": -182,
-      "avg_cs_diff": -13.0,
-      "sample_frames": 45,
-      "advantage": -1
+      "avg_gold_diff": -130,
+      "avg_xp_diff": -30,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 60,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -248,
-      "avg_xp_diff": -149,
-      "avg_cs_diff": -15.5,
-      "sample_frames": 45,
-      "advantage": -1
+      "avg_gold_diff": 39,
+      "avg_xp_diff": 99,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 60,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 100,
-      "avg_xp_diff": -183,
-      "avg_cs_diff": -18.1,
-      "sample_frames": 83,
-      "advantage": 0
+      "avg_gold_diff": 910,
+      "avg_xp_diff": 677,
+      "avg_cs_diff": 6.0,
+      "sample_frames": 95,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 699,
-      "avg_xp_diff": 812,
-      "avg_cs_diff": -12.5,
-      "sample_frames": 52,
+      "avg_gold_diff": 2717,
+      "avg_xp_diff": 1437,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 36,
       "advantage": 2
     }
   ],
@@ -56,50 +56,178 @@
     "champA": {
       "items": [
         {
+          "name": "Crimson Lucidity",
+          "count": 11,
+          "pickRate": 91.7,
+          "winRate": 81.8
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 9,
+          "pickRate": 75.0,
+          "winRate": 77.8
+        },
+        {
+          "name": "Edge of Night",
+          "count": 6,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
           "name": "Axiom Arc",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 16.7,
           "winRate": 50.0
-        }
-      ],
-      "keystones": [],
-      "summonerSpells": [
+        },
         {
-          "spells": "Flash+Ignite",
+          "name": "Hubris",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 16.7,
+          "winRate": 100.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 6.5,
-      "avgAssists": 5.0,
-      "kda": 1.46,
-      "avgDamage": 16577
-    },
-    "champB": {
-      "items": [],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 6,
+          "pickRate": 50.0,
+          "winRate": 83.3
+        },
+        {
+          "name": "First Strike",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Cleanse+Flash",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.7,
+      "kda": 2.93,
+      "avgDamage": 22511
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 10,
+          "pickRate": 83.3,
+          "winRate": 20.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 6,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 5,
+          "pickRate": 41.7,
+          "winRate": 20.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 5,
+          "pickRate": 41.7,
+          "winRate": 20.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Blackfire Torch",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 16.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 8.0,
-      "kda": 2.88,
-      "avgDamage": 17390
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 7,
+          "pickRate": 58.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Summon Aery",
+          "count": 5,
+          "pickRate": 41.7,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 8,
+          "pickRate": 66.7,
+          "winRate": 12.5
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.2,
+      "kda": 1.82,
+      "avgDamage": 20497
     }
   }
 }

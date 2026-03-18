@@ -1,77 +1,191 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:23.965397",
+  "sample_size": 10,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.185040",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 32,
-      "avg_xp_diff": 51,
+      "avg_gold_diff": 16,
+      "avg_xp_diff": 74,
       "avg_cs_diff": 1.5,
-      "sample_frames": 15,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 74,
-      "avg_xp_diff": 277,
-      "avg_cs_diff": 9.1,
-      "sample_frames": 15,
+      "avg_gold_diff": 38,
+      "avg_xp_diff": 141,
+      "avg_cs_diff": 3.8,
+      "sample_frames": 50,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 295,
-      "avg_xp_diff": 482,
-      "avg_cs_diff": 13.1,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 123,
+      "avg_xp_diff": 225,
+      "avg_cs_diff": 4.7,
+      "sample_frames": 50,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1101,
-      "avg_xp_diff": 2093,
-      "avg_cs_diff": 35.7,
-      "sample_frames": 30,
-      "advantage": 2
+      "avg_gold_diff": -402,
+      "avg_xp_diff": -101,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 81,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -25,
-      "avg_xp_diff": 1489,
-      "avg_cs_diff": 29.3,
-      "sample_frames": 30,
-      "advantage": 0
+      "avg_gold_diff": 774,
+      "avg_xp_diff": 1657,
+      "avg_cs_diff": 21.2,
+      "sample_frames": 38,
+      "advantage": 2
     }
   ],
   "champA": "Ambessa",
   "champB": "Ekko",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 13.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 7.0,
-      "kda": 5.0,
-      "avgDamage": 49277
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Hubris",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Endless Hunger",
+          "count": 3,
+          "pickRate": 30.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 10,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 10,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.2,
+      "avgDeaths": 4.5,
+      "avgAssists": 8.2,
+      "kda": 3.64,
+      "avgDamage": 23771
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 2.5,
-      "avgDamage": 26848
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 20.0
+        },
+        {
+          "name": "First Strike",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 10,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.9,
+      "avgDeaths": 5.1,
+      "avgAssists": 7.2,
+      "kda": 2.76,
+      "avgDamage": 16845
     }
   }
 }

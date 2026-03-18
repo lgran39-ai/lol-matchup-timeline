@@ -1,112 +1,167 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:25.735525",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-19T03:29:40.459646",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -28,
-      "avg_xp_diff": 53,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 20,
+      "avg_gold_diff": -55,
+      "avg_xp_diff": -55,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 189,
-      "avg_xp_diff": 424,
-      "avg_cs_diff": 1.5,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": -91,
+      "avg_xp_diff": -46,
+      "avg_cs_diff": -6.7,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 979,
-      "avg_xp_diff": 1688,
-      "avg_cs_diff": 13.5,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": -157,
+      "avg_xp_diff": -113,
+      "avg_cs_diff": -9.8,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1328,
-      "avg_xp_diff": 2089,
-      "avg_cs_diff": 16.3,
-      "sample_frames": 36,
-      "advantage": 2
+      "avg_gold_diff": -766,
+      "avg_xp_diff": -420,
+      "avg_cs_diff": -21.4,
+      "sample_frames": 66,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1328,
-      "avg_xp_diff": -922,
-      "avg_cs_diff": -15.1,
-      "sample_frames": 22,
-      "advantage": -2
+      "avg_gold_diff": 369,
+      "avg_xp_diff": 2039,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 31,
+      "advantage": 1
     }
   ],
   "champA": "Sion",
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "name": "Phase Rush",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 28.6,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 42.9
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 8.0,
-      "kda": 2.0,
-      "avgDamage": 18739
+      "avgKills": 3.9,
+      "avgDeaths": 4.6,
+      "avgAssists": 10.0,
+      "kda": 3.03,
+      "avgDamage": 16726
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 57.1
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 57.1
         }
       ],
       "summonerSpells": [
         {
-          "spells": "Flash+Ignite",
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Exhaust+Flash",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 28.6,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 8.5,
-      "kda": 2.09,
-      "avgDamage": 25068
+      "avgKills": 4.7,
+      "avgDeaths": 5.4,
+      "avgAssists": 5.9,
+      "kda": 1.95,
+      "avgDamage": 25274
     }
   }
 }

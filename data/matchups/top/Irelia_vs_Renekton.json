@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.918273",
+  "sample_size": 30,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.351403",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 55,
-      "avg_xp_diff": -23,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 20,
+      "avg_gold_diff": -1,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": -0.0,
+      "sample_frames": 150,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -196,
-      "avg_xp_diff": -506,
-      "avg_cs_diff": 3.5,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": 66,
+      "avg_xp_diff": 17,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 150,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -544,
-      "avg_xp_diff": -1163,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": -1,
+      "avg_xp_diff": -156,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 150,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1099,
-      "avg_xp_diff": -1472,
-      "avg_cs_diff": 4.1,
-      "sample_frames": 37,
-      "advantage": -2
+      "avg_gold_diff": -95,
+      "avg_xp_diff": -452,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 216,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -260,
-      "avg_xp_diff": -1525,
-      "avg_cs_diff": 27.0,
-      "sample_frames": 27,
-      "advantage": -1
+      "avg_gold_diff": -663,
+      "avg_xp_diff": -1289,
+      "avg_cs_diff": 5.4,
+      "sample_frames": 62,
+      "advantage": -2
     }
   ],
   "champA": "Irelia",
@@ -56,61 +56,142 @@
     "champA": {
       "items": [
         {
-          "name": "Wit's End",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
-        },
-        {
           "name": "Blade of The Ruined King",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 29,
+          "pickRate": 96.7,
+          "winRate": 51.7
         },
         {
           "name": "Hullbreaker",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 19,
+          "pickRate": 63.3,
+          "winRate": 47.4
+        },
+        {
+          "name": "Wit's End",
+          "count": 6,
+          "pickRate": 20.0,
+          "winRate": 66.7
         },
         {
           "name": "Death's Dance",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
-        }
-      ],
-      "keystones": [],
-      "summonerSpells": [
+          "pickRate": 6.7,
+          "winRate": 50.0
+        },
         {
-          "spells": "Flash+Ignite",
+          "name": "Kraken Slayer",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 6.7,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 7.5,
-      "avgAssists": 3.0,
-      "kda": 1.07,
-      "avgDamage": 21327
-    },
-    "champB": {
-      "items": [],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 30,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 5.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 20,
+          "pickRate": 66.7,
+          "winRate": 60.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 7,
+          "pickRate": 23.3,
+          "winRate": 28.6
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 10.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.2,
       "avgDeaths": 6.0,
-      "avgAssists": 13.0,
-      "kda": 3.0,
-      "avgDamage": 33734
+      "avgAssists": 3.5,
+      "kda": 1.28,
+      "avgDamage": 17279
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 16,
+          "pickRate": 53.3,
+          "winRate": 56.2
+        },
+        {
+          "name": "Eclipse",
+          "count": 15,
+          "pickRate": 50.0,
+          "winRate": 46.7
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 7,
+          "pickRate": 23.3,
+          "winRate": 71.4
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 6,
+          "pickRate": 20.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 5,
+          "pickRate": 16.7,
+          "winRate": 80.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 10.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 28,
+          "pickRate": 93.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 6.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 25,
+          "pickRate": 83.3,
+          "winRate": 52.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 16.7,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 4.5,
+      "kda": 1.94,
+      "avgDamage": 16534
     }
   }
 }

@@ -1,55 +1,155 @@
 {
-  "champA": "Aurora",
-  "champB": "FiddleSticks",
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-13T23:57:04.689292",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T03:29:38.414891",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 46,
-      "avg_xp_diff": 28,
-      "avg_cs_diff": 3.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 108,
+      "avg_xp_diff": 94,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 328,
-      "avg_xp_diff": 412,
-      "avg_cs_diff": 11.7,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 555,
+      "avg_xp_diff": 547,
+      "avg_cs_diff": 12.2,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 647,
-      "avg_xp_diff": 904,
-      "avg_cs_diff": 18.8,
-      "sample_frames": 15,
+      "avg_gold_diff": 1285,
+      "avg_xp_diff": 1023,
+      "avg_cs_diff": 17.1,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1122,
-      "avg_xp_diff": 1222,
-      "avg_cs_diff": 25.2,
-      "sample_frames": 30,
+      "label": "mid_game",
+      "avg_gold_diff": 1345,
+      "avg_xp_diff": 987,
+      "avg_cs_diff": 12.2,
+      "sample_frames": 40,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 1500,
-      "avg_xp_diff": -267,
-      "avg_cs_diff": 27.3,
-      "sample_frames": 24,
-      "advantage": 2
+      "label": "late_game",
+      "avg_gold_diff": -291,
+      "avg_xp_diff": -1432,
+      "avg_cs_diff": 4.3,
+      "sample_frames": 15,
+      "advantage": -1
     }
-  ]
+  ],
+  "champA": "Aurora",
+  "champB": "FiddleSticks",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.8,
+      "avgDeaths": 2.6,
+      "avgAssists": 6.8,
+      "kda": 6.0,
+      "avgDamage": 25298
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 5.8,
+      "avgAssists": 5.0,
+      "kda": 1.72,
+      "avgDamage": 19779
+    }
+  }
 }

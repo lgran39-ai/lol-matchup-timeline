@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 9,
-  "overall_winrate_a": 44.4,
-  "updated_at": "2026-03-18T14:05:25.645511",
+  "sample_size": 33,
+  "overall_winrate_a": 45.5,
+  "updated_at": "2026-03-19T03:29:40.351787",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -1,
-      "avg_xp_diff": -24,
-      "avg_cs_diff": -0.3,
-      "sample_frames": 45,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": 34,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 165,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 67,
-      "avg_xp_diff": 60,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 45,
-      "advantage": 0
+      "avg_gold_diff": 236,
+      "avg_xp_diff": 86,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 165,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 105,
-      "avg_xp_diff": 71,
-      "avg_cs_diff": -2.1,
-      "sample_frames": 45,
-      "advantage": 0
+      "avg_gold_diff": 506,
+      "avg_xp_diff": 355,
+      "avg_cs_diff": 8.0,
+      "sample_frames": 165,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -532,
-      "avg_xp_diff": -732,
-      "avg_cs_diff": -19.4,
-      "sample_frames": 73,
-      "advantage": -2
+      "avg_gold_diff": 806,
+      "avg_xp_diff": 360,
+      "avg_cs_diff": 11.1,
+      "sample_frames": 268,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1034,
-      "avg_xp_diff": -1230,
-      "avg_cs_diff": -21.7,
-      "sample_frames": 37,
-      "advantage": -2
+      "avg_gold_diff": 1745,
+      "avg_xp_diff": 587,
+      "avg_cs_diff": 21.4,
+      "sample_frames": 115,
+      "advantage": 2
     }
   ],
   "champA": "Rumble",
@@ -57,49 +57,147 @@
       "items": [
         {
           "name": "Liandry's Torment",
-          "count": 2,
+          "count": 33,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 45.5
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 15,
+          "pickRate": 45.5,
+          "winRate": 46.7
+        },
+        {
+          "name": "Riftmaker",
+          "count": 9,
+          "pickRate": 27.3,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 7,
+          "pickRate": 21.2,
+          "winRate": 71.4
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 12.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 4,
+          "pickRate": 12.1,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 1.5,
-      "kda": 0.86,
-      "avgDamage": 15973
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 19,
+          "pickRate": 57.6,
+          "winRate": 52.6
+        },
+        {
+          "name": "First Strike",
+          "count": 9,
+          "pickRate": 27.3,
+          "winRate": 22.2
+        },
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 15.2,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 31,
+          "pickRate": 93.9,
+          "winRate": 45.2
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 6.1,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.6,
+      "kda": 2.06,
+      "avgDamage": 29216
     },
     "champB": {
       "items": [
         {
+          "name": "Hollow Radiance",
+          "count": 27,
+          "pickRate": 81.8,
+          "winRate": 59.3
+        },
+        {
           "name": "Unending Despair",
+          "count": 16,
+          "pickRate": 48.5,
+          "winRate": 56.2
+        },
+        {
+          "name": "Kaenic Rookern",
+          "count": 7,
+          "pickRate": 21.2,
+          "winRate": 42.9
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 7,
+          "pickRate": 21.2,
+          "winRate": 57.1
+        },
+        {
+          "name": "Protoplasm Harness",
+          "count": 4,
+          "pickRate": 12.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 4,
+          "pickRate": 12.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Titanic Hydra",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 6.1,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 33,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 54.5
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 33,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 54.5
         }
       ],
-      "avgKills": 1.5,
-      "avgDeaths": 2.0,
-      "avgAssists": 6.5,
-      "kda": 4.0,
-      "avgDamage": 12242
+      "avgKills": 2.8,
+      "avgDeaths": 4.8,
+      "avgAssists": 7.5,
+      "kda": 2.17,
+      "avgDamage": 14181
     }
   }
 }

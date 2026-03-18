@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.417347",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:38.773616",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -36,
-      "avg_xp_diff": -63,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 51,
+      "avg_xp_diff": 39,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 48,
-      "avg_xp_diff": -61,
-      "avg_cs_diff": -10.4,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 432,
+      "avg_xp_diff": 448,
+      "avg_cs_diff": 10.8,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -96,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": -14.2,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 677,
+      "avg_xp_diff": 783,
+      "avg_cs_diff": 19.5,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -322,
-      "avg_xp_diff": -461,
-      "avg_cs_diff": -30.6,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": 1001,
+      "avg_xp_diff": 1107,
+      "avg_cs_diff": 22.7,
+      "sample_frames": 31,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6506,
-      "avg_xp_diff": -6326,
-      "avg_cs_diff": -112.5,
-      "sample_frames": 2,
+      "avg_gold_diff": -503,
+      "avg_xp_diff": -1235,
+      "avg_cs_diff": 6.1,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
@@ -56,63 +56,82 @@
     "champA": {
       "items": [
         {
-          "name": "Stormsurge",
-          "count": 2,
+          "name": "Spellslinger's Shoes",
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         },
         {
-          "name": "Spellslinger's Shoes",
-          "count": 2,
+          "name": "Shadowflame",
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
-          "name": "Electrocute",
-          "count": 2,
+          "name": "Phase Rush",
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 0.93,
-      "avgDamage": 14930
+      "avgKills": 6.7,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.0,
+      "kda": 2.53,
+      "avgDamage": 20890
     },
     "champB": {
       "items": [
         {
           "name": "Immortal Shieldbow",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 7.0,
-      "kda": 3.29,
-      "avgDamage": 17994
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 6.0,
+      "kda": 1.65,
+      "avgDamage": 19545
     }
   }
 }

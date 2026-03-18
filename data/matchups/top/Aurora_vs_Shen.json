@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.151333",
+  "sample_size": 10,
+  "overall_winrate_a": 30.0,
+  "updated_at": "2026-03-19T03:29:38.459547",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 161,
-      "avg_xp_diff": 101,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 127,
+      "avg_xp_diff": 74,
+      "avg_cs_diff": 5.7,
+      "sample_frames": 50,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 826,
-      "avg_xp_diff": 349,
-      "avg_cs_diff": 22.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 597,
+      "avg_xp_diff": 408,
+      "avg_cs_diff": 25.2,
+      "sample_frames": 50,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1127,
-      "avg_xp_diff": 979,
-      "avg_cs_diff": 33.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1416,
+      "avg_xp_diff": 1487,
+      "avg_cs_diff": 49.5,
+      "sample_frames": 50,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2833,
-      "avg_xp_diff": 1703,
-      "avg_cs_diff": 43.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 2608,
+      "avg_xp_diff": 1870,
+      "avg_cs_diff": 68.5,
+      "sample_frames": 85,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3261,
+      "avg_xp_diff": 1356,
+      "avg_cs_diff": 64.1,
+      "sample_frames": 45,
       "advantage": 2
     }
   ],
@@ -45,26 +54,126 @@
   "champB": "Shen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 9.0,
-      "kda": 5.67,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 7,
+          "pickRate": 70.0,
+          "winRate": 28.6
+        },
+        {
+          "name": "Shadowflame",
+          "count": 7,
+          "pickRate": 70.0,
+          "winRate": 42.9
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 40.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 9,
+          "pickRate": 90.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.2,
+      "avgDeaths": 3.4,
+      "avgAssists": 4.6,
+      "kda": 2.88,
+      "avgDamage": 28084
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 1.25,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Hollow Radiance",
+          "count": 5,
+          "pickRate": 50.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Kaenic Rookern",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 8,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 60.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 20.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 1.3,
+      "avgDeaths": 3.2,
+      "avgAssists": 8.0,
+      "kda": 2.91,
+      "avgDamage": 8947
     }
   }
 }

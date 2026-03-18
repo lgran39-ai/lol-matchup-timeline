@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:23.954408",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.169938",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 313,
-      "avg_xp_diff": 241,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 202,
+      "avg_xp_diff": 67,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 815,
-      "avg_xp_diff": 665,
-      "avg_cs_diff": 18.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1013,
+      "avg_xp_diff": 202,
+      "avg_cs_diff": 10.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1516,
-      "avg_xp_diff": 658,
-      "avg_cs_diff": 19.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1951,
+      "avg_xp_diff": 417,
+      "avg_cs_diff": 20.1,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3340,
-      "avg_xp_diff": 1709,
-      "avg_cs_diff": 47.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 3471,
+      "avg_xp_diff": 1132,
+      "avg_cs_diff": 33.9,
+      "sample_frames": 19,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 6052,
-      "avg_xp_diff": 3521,
-      "avg_cs_diff": 95.2,
-      "sample_frames": 4,
+      "avg_gold_diff": 3738,
+      "avg_xp_diff": 193,
+      "avg_cs_diff": 57.2,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -54,26 +54,59 @@
   "champB": "Zilean",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Statikk Shiv",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 9.0,
-      "kda": 5.25,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 11.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.0,
+      "kda": 2.82,
+      "avgDamage": 28249
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 8.0,
-      "kda": 1.43,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Shurelya's Battlesong",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 10.0,
+      "kda": 3.29,
+      "avgDamage": 9688
     }
   }
 }

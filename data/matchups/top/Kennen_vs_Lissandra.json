@@ -1,55 +1,131 @@
 {
-  "champA": "Kennen",
-  "champB": "Lissandra",
   "role": "top",
-  "sample_size": 5,
-  "overall_winrate_a": 40.0,
-  "updated_at": "2026-03-13T23:57:05.614415",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:39.678674",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 83,
-      "avg_xp_diff": 53,
-      "avg_cs_diff": 3.3,
-      "sample_frames": 25,
+      "avg_gold_diff": 102,
+      "avg_xp_diff": 61,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 474,
-      "avg_xp_diff": 293,
-      "avg_cs_diff": 14.1,
-      "sample_frames": 25,
+      "avg_gold_diff": 451,
+      "avg_xp_diff": 316,
+      "avg_cs_diff": 15.6,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 550,
-      "avg_xp_diff": 576,
-      "avg_cs_diff": 18.6,
-      "sample_frames": 25,
+      "avg_gold_diff": 654,
+      "avg_xp_diff": 908,
+      "avg_cs_diff": 24.5,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 556,
-      "avg_xp_diff": 704,
-      "avg_cs_diff": 24.2,
-      "sample_frames": 51,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": 237,
+      "avg_xp_diff": 1010,
+      "avg_cs_diff": 32.3,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 3700,
-      "avg_xp_diff": 4493,
-      "avg_cs_diff": 64.0,
-      "sample_frames": 9,
+      "label": "late_game",
+      "avg_gold_diff": 3579,
+      "avg_xp_diff": 4799,
+      "avg_cs_diff": 67.3,
+      "sample_frames": 7,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Kennen",
+  "champB": "Lissandra",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 3.3,
+      "avgAssists": 5.3,
+      "kda": 2.2,
+      "avgDamage": 16156
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Aftershock",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.7,
+      "avgAssists": 7.7,
+      "kda": 3.36,
+      "avgDamage": 14546
+    }
+  }
 }

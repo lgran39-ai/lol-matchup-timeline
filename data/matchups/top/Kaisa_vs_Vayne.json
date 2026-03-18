@@ -1,55 +1,111 @@
 {
-  "champA": "Kaisa",
-  "champB": "Vayne",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.545440",
+  "updated_at": "2026-03-19T03:29:39.584643",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 221,
-      "avg_xp_diff": -43,
-      "avg_cs_diff": 10.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 119,
+      "avg_xp_diff": -63,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 954,
-      "avg_xp_diff": -148,
-      "avg_cs_diff": 36.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1153,
+      "avg_xp_diff": 69,
+      "avg_cs_diff": 27.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2069,
-      "avg_xp_diff": 676,
-      "avg_cs_diff": 54.8,
-      "sample_frames": 5,
-      "advantage": 2
-    },
-    {
-      "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 3331,
-      "avg_xp_diff": -322,
-      "avg_cs_diff": 55.0,
+      "avg_gold_diff": 3026,
+      "avg_xp_diff": 1351,
+      "avg_cs_diff": 48.5,
       "sample_frames": 10,
       "advantage": 2
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": 4473,
+      "avg_xp_diff": 910,
+      "avg_cs_diff": 61.3,
+      "sample_frames": 15,
+      "advantage": 2
+    },
+    {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": 4154,
       "avg_xp_diff": 844,
       "avg_cs_diff": 69.5,
       "sample_frames": 2,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Kaisa",
+  "champB": "Vayne",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Guinsoo's Rageblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 9.5,
+      "avgDeaths": 1.0,
+      "avgAssists": 4.5,
+      "kda": 14.0,
+      "avgDamage": 18623
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 1.0,
+      "kda": 0.57,
+      "avgDamage": 11276
+    }
+  }
 }

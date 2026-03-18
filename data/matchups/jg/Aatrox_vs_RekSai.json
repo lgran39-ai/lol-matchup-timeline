@@ -1,77 +1,143 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:23.793276",
+  "sample_size": 6,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:37.973733",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -26,
-      "avg_xp_diff": -42,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -32,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -233,
-      "avg_xp_diff": -78,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -258,
+      "avg_xp_diff": 109,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 30,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -715,
-      "avg_xp_diff": -57,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -223,
+      "avg_xp_diff": 320,
+      "avg_cs_diff": 9.0,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -729,
-      "avg_xp_diff": -230,
-      "avg_cs_diff": 2.7,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 228,
+      "avg_xp_diff": 562,
+      "avg_cs_diff": 8.7,
+      "sample_frames": 44,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2070,
-      "avg_xp_diff": -2375,
-      "avg_cs_diff": -5.9,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 218,
+      "avg_xp_diff": -74,
+      "avg_cs_diff": -12.7,
+      "sample_frames": 35,
+      "advantage": 1
     }
   ],
   "champA": "Aatrox",
   "champB": "RekSai",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 6.0,
-      "kda": 1.11,
-      "avgDamage": 18019
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.2,
+      "avgDeaths": 4.7,
+      "avgAssists": 9.3,
+      "kda": 3.54,
+      "avgDamage": 20496
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 9.0,
-      "kda": 9.5,
-      "avgDamage": 26125
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 4.8,
+      "avgAssists": 7.2,
+      "kda": 2.83,
+      "avgDamage": 15151
     }
   }
 }

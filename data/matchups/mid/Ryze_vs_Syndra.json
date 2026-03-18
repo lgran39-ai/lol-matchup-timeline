@@ -1,70 +1,215 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.660276",
+  "sample_size": 16,
+  "overall_winrate_a": 37.5,
+  "updated_at": "2026-03-19T03:29:40.371661",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -177,
-      "avg_xp_diff": -49,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 0,
+      "avg_xp_diff": -17,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 80,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1035,
-      "avg_xp_diff": -715,
-      "avg_cs_diff": -16.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 44,
+      "avg_xp_diff": -49,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 80,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1820,
-      "avg_xp_diff": -1351,
-      "avg_cs_diff": -30.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -206,
+      "avg_xp_diff": -142,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 80,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3937,
-      "avg_xp_diff": -1787,
-      "avg_cs_diff": -50.4,
-      "sample_frames": 9,
-      "advantage": -2
+      "avg_gold_diff": -15,
+      "avg_xp_diff": 487,
+      "avg_cs_diff": 10.2,
+      "sample_frames": 120,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 560,
+      "avg_xp_diff": 2196,
+      "avg_cs_diff": 26.2,
+      "sample_frames": 51,
+      "advantage": 2
     }
   ],
   "champA": "Ryze",
   "champB": "Syndra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 1.0,
-      "kda": 0.43,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 14,
+          "pickRate": 87.5,
+          "winRate": 42.9
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 14,
+          "pickRate": 87.5,
+          "winRate": 42.9
+        },
+        {
+          "name": "Actualizer",
+          "count": 7,
+          "pickRate": 43.8,
+          "winRate": 42.9
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 18.8,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 12.5,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 15,
+          "pickRate": 93.8,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 13,
+          "pickRate": 81.2,
+          "winRate": 46.2
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 18.8,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 3.6,
+      "avgAssists": 4.5,
+      "kda": 2.44,
+      "avgDamage": 17432
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 3.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 11,
+          "pickRate": 68.8,
+          "winRate": 63.6
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 7,
+          "pickRate": 43.8,
+          "winRate": 57.1
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 6,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 6,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 5,
+          "pickRate": 31.2,
+          "winRate": 60.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 25.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 18.8,
+          "winRate": 66.7
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 12.5,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 7,
+          "pickRate": 43.8,
+          "winRate": 57.1
+        },
+        {
+          "name": "Summon Aery",
+          "count": 4,
+          "pickRate": 25.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 18.8,
+          "winRate": 33.3
+        },
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 12.5,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 10,
+          "pickRate": 62.5,
+          "winRate": 60.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 5,
+          "pickRate": 31.2,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 4.6,
+      "avgAssists": 5.9,
+      "kda": 2.34,
+      "avgDamage": 20641
     }
   }
 }

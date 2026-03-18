@@ -1,70 +1,136 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.569016",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.957015",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 28,
-      "avg_xp_diff": 17,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 85,
+      "avg_xp_diff": 34,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -41,
-      "avg_xp_diff": -144,
-      "avg_cs_diff": 13.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 362,
+      "avg_xp_diff": 383,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -283,
-      "avg_xp_diff": -392,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 1051,
+      "avg_xp_diff": 854,
+      "avg_cs_diff": 15.3,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1644,
-      "avg_xp_diff": -1845,
-      "avg_cs_diff": -8.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 646,
+      "avg_xp_diff": 14,
+      "avg_cs_diff": 11.5,
+      "sample_frames": 30,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -173,
+      "avg_xp_diff": 288,
+      "avg_cs_diff": 40.2,
+      "sample_frames": 27,
+      "advantage": -1
     }
   ],
   "champA": "Fiora",
   "champB": "Galio",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 1.0,
-      "kda": 0.4,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 10.3,
+      "kda": 2.3,
+      "avgDamage": 31365
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 16.0,
-      "kda": 5.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgKills": 8.3,
+      "avgDeaths": 6.7,
+      "avgAssists": 9.0,
+      "kda": 2.6,
+      "avgDamage": 33899
     }
   }
 }

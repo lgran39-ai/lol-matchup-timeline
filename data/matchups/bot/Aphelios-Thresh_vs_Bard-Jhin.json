@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:26.224599",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:41.427404",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -484,
-      "avg_xp_diff": -274,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -136,
+      "avg_xp_diff": -68,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -2268,
-      "avg_xp_diff": -1149,
-      "avg_cs_diff": -5.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 30,
+      "avg_xp_diff": 78,
+      "avg_cs_diff": 6.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -4695,
-      "avg_xp_diff": -2923,
-      "avg_cs_diff": -30.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 72,
+      "avg_xp_diff": -81,
+      "avg_cs_diff": 11.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -6437,
-      "avg_xp_diff": -3264,
-      "avg_cs_diff": -47.3,
-      "sample_frames": 6,
+      "avg_gold_diff": -1342,
+      "avg_xp_diff": -1485,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 25,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 469,
+      "avg_xp_diff": 1593,
+      "avg_cs_diff": 26.0,
+      "sample_frames": 8,
+      "advantage": 1
     }
   ],
   "type": "bot_2v2",
@@ -57,48 +66,126 @@
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 0.0,
-        "kda": 0.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 6.3,
+        "avgDeaths": 4.3,
+        "avgAssists": 4.7,
+        "kda": 2.54,
+        "avgDamage": 21766
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 3.0,
-        "kda": 0.5,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 6.3,
+        "avgAssists": 10.3,
+        "kda": 1.95,
+        "avgDamage": 5730
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 6.0,
-        "kda": 11.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Rapid Firecannon",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.3,
+        "avgDeaths": 3.7,
+        "avgAssists": 7.0,
+        "kda": 3.64,
+        "avgDamage": 18870
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 14.0,
-        "kda": 18.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.7,
+        "avgDeaths": 6.3,
+        "avgAssists": 14.7,
+        "kda": 2.74,
+        "avgDamage": 11239
       }
     }
   }

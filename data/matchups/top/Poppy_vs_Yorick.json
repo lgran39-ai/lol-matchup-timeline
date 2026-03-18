@@ -1,46 +1,125 @@
 {
-  "champA": "Poppy",
-  "champB": "Yorick",
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-13T23:57:06.069373",
+  "sample_size": 8,
+  "overall_winrate_a": 37.5,
+  "updated_at": "2026-03-19T03:29:40.227052",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -8,
-      "avg_xp_diff": 17,
-      "avg_cs_diff": -1.7,
-      "sample_frames": 15,
+      "avg_gold_diff": -37,
+      "avg_xp_diff": -1,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -111,
-      "avg_xp_diff": 64,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -155,
+      "avg_xp_diff": -21,
+      "avg_cs_diff": -8.4,
+      "sample_frames": 40,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -147,
-      "avg_xp_diff": 215,
-      "avg_cs_diff": -11.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -129,
+      "avg_xp_diff": -16,
+      "avg_cs_diff": -9.6,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -806,
-      "avg_xp_diff": -159,
-      "avg_cs_diff": -20.4,
-      "sample_frames": 20,
+      "label": "mid_game",
+      "avg_gold_diff": -1084,
+      "avg_xp_diff": -518,
+      "avg_cs_diff": -16.6,
+      "sample_frames": 59,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1187,
+      "avg_xp_diff": 944,
+      "avg_cs_diff": -30.5,
+      "sample_frames": 13,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Poppy",
+  "champB": "Yorick",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 37.5
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 37.5
+        }
+      ],
+      "avgKills": 1.2,
+      "avgDeaths": 3.2,
+      "avgAssists": 3.1,
+      "kda": 1.35,
+      "avgDamage": 17112
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 71.4
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 62.5
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 62.5
+        }
+      ],
+      "avgKills": 2.1,
+      "avgDeaths": 3.4,
+      "avgAssists": 3.0,
+      "kda": 1.52,
+      "avgDamage": 19427
+    }
+  }
 }

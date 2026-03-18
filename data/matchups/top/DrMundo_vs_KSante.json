@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-18T14:05:24.432150",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:38.788895",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -121,
-      "avg_xp_diff": -67,
-      "avg_cs_diff": -1.9,
-      "sample_frames": 15,
+      "avg_gold_diff": -54,
+      "avg_xp_diff": -20,
+      "avg_cs_diff": -3.2,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -579,
-      "avg_xp_diff": -337,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 15,
+      "avg_gold_diff": -665,
+      "avg_xp_diff": -662,
+      "avg_cs_diff": -13.5,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -596,
-      "avg_xp_diff": -374,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 15,
+      "avg_gold_diff": -1157,
+      "avg_xp_diff": -1593,
+      "avg_cs_diff": -24.6,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1307,
-      "avg_xp_diff": -1837,
-      "avg_cs_diff": -15.7,
-      "sample_frames": 30,
+      "avg_gold_diff": -2418,
+      "avg_xp_diff": -2817,
+      "avg_cs_diff": -38.4,
+      "sample_frames": 42,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1587,
-      "avg_xp_diff": -2621,
-      "avg_cs_diff": -6.5,
-      "sample_frames": 36,
+      "avg_gold_diff": -2551,
+      "avg_xp_diff": -2519,
+      "avg_cs_diff": -19.5,
+      "sample_frames": 23,
       "advantage": -2
     }
   ],
@@ -54,24 +54,90 @@
   "champB": "KSante",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Warmog's Armor",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spirit Visage",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 1.8,
       "avgDeaths": 7.0,
-      "avgAssists": 2.0,
-      "kda": 0.57,
-      "avgDamage": 26056
+      "avgAssists": 5.8,
+      "kda": 1.09,
+      "avgDamage": 18536
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 20.0,
-      "kda": 4.4,
-      "avgDamage": 39089
+      "items": [
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 6.6,
+      "avgDeaths": 3.4,
+      "avgAssists": 4.8,
+      "kda": 3.35,
+      "avgDamage": 34288
     }
   }
 }

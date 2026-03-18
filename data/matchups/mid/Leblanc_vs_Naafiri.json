@@ -1,68 +1,130 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.223173",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.771480",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": 31,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -10,
+      "avg_xp_diff": -32,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 505,
-      "avg_xp_diff": -17,
-      "avg_cs_diff": -8.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 150,
+      "avg_xp_diff": 153,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 317,
-      "avg_xp_diff": -221,
-      "avg_cs_diff": -15.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -20,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": -2.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1716,
-      "avg_xp_diff": 1090,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 210,
+      "avg_xp_diff": 570,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 20,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -418,
+      "avg_xp_diff": 146,
+      "avg_cs_diff": 16.3,
+      "sample_frames": 17,
+      "advantage": -2
     }
   ],
   "champA": "Leblanc",
   "champB": "Naafiri",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 2.0,
-      "kda": 7.0,
-      "avgDamage": 10382
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 7.0,
+      "kda": 2.58,
+      "avgDamage": 26775
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zeke's Convergence",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 8752
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 8.0,
+      "kda": 3.0,
+      "avgDamage": 30640
     }
   }
 }

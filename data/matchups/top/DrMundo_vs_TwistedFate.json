@@ -1,68 +1,98 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.454125",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.808298",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -51,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -82,
+      "avg_xp_diff": -31,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -950,
-      "avg_xp_diff": -172,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 68,
+      "avg_xp_diff": 232,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1474,
-      "avg_xp_diff": -306,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 1030,
+      "avg_xp_diff": 1228,
+      "avg_cs_diff": 15.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -246,
-      "avg_xp_diff": 1660,
-      "avg_cs_diff": 18.7,
-      "sample_frames": 9,
-      "advantage": -1
+      "avg_gold_diff": 1588,
+      "avg_xp_diff": 2162,
+      "avg_cs_diff": 47.1,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 888,
+      "avg_xp_diff": 1728,
+      "avg_cs_diff": 70.5,
+      "sample_frames": 6,
+      "advantage": 2
     }
   ],
   "champA": "DrMundo",
   "champB": "TwistedFate",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 2.0,
+      "avgKills": 4.5,
+      "avgDeaths": 2.5,
       "avgAssists": 3.0,
-      "kda": 4.0,
-      "avgDamage": 13538
+      "kda": 3.0,
+      "avgDamage": 12706
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.0,
-      "kda": 0.86,
-      "avgDamage": 28014
+      "avgKills": 2.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 8.5,
+      "kda": 2.1,
+      "avgDamage": 17020
     }
   }
 }

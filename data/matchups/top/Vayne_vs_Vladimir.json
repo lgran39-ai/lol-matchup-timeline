@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.859997",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:40.601548",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -82,
-      "avg_xp_diff": -112,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 174,
+      "avg_xp_diff": 101,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -736,
-      "avg_xp_diff": -927,
-      "avg_cs_diff": -12.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 538,
+      "avg_xp_diff": 288,
+      "avg_cs_diff": 15.7,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -807,
-      "avg_xp_diff": -1443,
-      "avg_cs_diff": -17.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 326,
+      "avg_xp_diff": -133,
+      "avg_cs_diff": 17.5,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3150,
-      "avg_xp_diff": -3766,
-      "avg_cs_diff": -34.8,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 593,
+      "avg_xp_diff": 83,
+      "avg_cs_diff": 14.5,
+      "sample_frames": 31,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4062,
-      "avg_xp_diff": -3506,
-      "avg_cs_diff": -53.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -746,
+      "avg_xp_diff": -1537,
+      "avg_cs_diff": 5.9,
+      "sample_frames": 11,
       "advantage": -2
     }
   ],
@@ -54,24 +54,65 @@
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 12.0,
-      "avgAssists": 7.0,
-      "kda": 0.83,
-      "avgDamage": 18581
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.7,
+      "kda": 1.88,
+      "avgDamage": 25644
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 11.0,
-      "kda": 3.57,
-      "avgDamage": 51932
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 5.3,
+      "avgAssists": 5.0,
+      "kda": 1.88,
+      "avgDamage": 22189
     }
   }
 }

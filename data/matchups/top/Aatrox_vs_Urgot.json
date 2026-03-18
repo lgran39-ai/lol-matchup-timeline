@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 5,
-  "overall_winrate_a": 60.0,
-  "updated_at": "2026-03-18T14:05:23.804213",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:37.984608",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 1,
-      "avg_xp_diff": 1,
-      "avg_cs_diff": -3.1,
-      "sample_frames": 25,
+      "avg_gold_diff": -3,
+      "avg_xp_diff": 0,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 396,
-      "avg_xp_diff": 235,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 25,
+      "avg_gold_diff": 289,
+      "avg_xp_diff": 355,
+      "avg_cs_diff": 11.0,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 288,
-      "avg_xp_diff": 201,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 25,
-      "advantage": 1
+      "avg_gold_diff": 1024,
+      "avg_xp_diff": 1549,
+      "avg_cs_diff": 29.4,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 318,
-      "avg_xp_diff": 377,
-      "avg_cs_diff": 2.7,
-      "sample_frames": 42,
-      "advantage": 1
+      "avg_gold_diff": 3257,
+      "avg_xp_diff": 3298,
+      "avg_cs_diff": 57.9,
+      "sample_frames": 19,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1101,
-      "avg_xp_diff": -380,
-      "avg_cs_diff": -18.9,
-      "sample_frames": 23,
-      "advantage": -2
+      "avg_gold_diff": 6116,
+      "avg_xp_diff": 5488,
+      "avg_cs_diff": 94.6,
+      "sample_frames": 5,
+      "advantage": 2
     }
   ],
   "champA": "Aatrox",
@@ -58,34 +58,55 @@
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 5.5,
-      "avgDeaths": 5.0,
-      "avgAssists": 6.0,
-      "kda": 2.3,
-      "avgDamage": 19047
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 1.7,
+      "avgAssists": 3.7,
+      "kda": 6.6,
+      "avgDamage": 19759
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
       "keystones": [
         {
           "name": "Press the Attack",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.5,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 1.7,
       "avgDeaths": 5.0,
-      "avgAssists": 3.0,
-      "kda": 1.5,
-      "avgDamage": 10990
+      "avgAssists": 1.3,
+      "kda": 0.6,
+      "avgDamage": 12604
     }
   }
 }

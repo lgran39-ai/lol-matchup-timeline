@@ -1,77 +1,185 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.779375",
+  "sample_size": 8,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.514496",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -29,
-      "avg_xp_diff": -23,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -20,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -20,
-      "avg_xp_diff": -79,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 19,
+      "avg_xp_diff": 120,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -268,
-      "avg_xp_diff": -457,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 220,
+      "avg_xp_diff": 284,
+      "avg_cs_diff": 7.2,
+      "sample_frames": 40,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -375,
-      "avg_xp_diff": 38,
-      "avg_cs_diff": 6.3,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 78,
+      "avg_xp_diff": 181,
+      "avg_cs_diff": 14.1,
+      "sample_frames": 56,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1177,
-      "avg_xp_diff": -1198,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 13,
-      "advantage": -2
+      "avg_gold_diff": 496,
+      "avg_xp_diff": -263,
+      "avg_cs_diff": 22.7,
+      "sample_frames": 22,
+      "advantage": 2
     }
   ],
   "champA": "Syndra",
   "champB": "Xerath",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 10.0,
-      "kda": 1.71,
-      "avgDamage": 21971
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 33.3
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 40.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 4.1,
+      "avgAssists": 3.5,
+      "kda": 1.88,
+      "avgDamage": 15757
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 16.0,
-      "kda": 2.5,
-      "avgDamage": 38129
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 57.1
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 57.1
+        },
+        {
+          "name": "Horizon Focus",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 57.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.6,
+      "avgDeaths": 3.5,
+      "avgAssists": 5.9,
+      "kda": 3.0,
+      "avgDamage": 18716
     }
   }
 }

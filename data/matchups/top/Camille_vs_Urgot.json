@@ -1,55 +1,116 @@
 {
-  "champA": "Camille",
-  "champB": "Urgot",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.856623",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:38.604133",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 219,
-      "avg_xp_diff": 209,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 118,
+      "avg_xp_diff": 119,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 809,
-      "avg_xp_diff": 643,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 575,
+      "avg_xp_diff": 511,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1608,
-      "avg_xp_diff": 1390,
-      "avg_cs_diff": 18.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1011,
+      "avg_xp_diff": 772,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 2883,
-      "avg_xp_diff": 1629,
-      "avg_cs_diff": 21.9,
-      "sample_frames": 10,
+      "label": "mid_game",
+      "avg_gold_diff": 2148,
+      "avg_xp_diff": 900,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 5876,
-      "avg_xp_diff": 3078,
-      "avg_cs_diff": 45.2,
-      "sample_frames": 10,
+      "label": "late_game",
+      "avg_gold_diff": 4158,
+      "avg_xp_diff": 2673,
+      "avg_cs_diff": 10.2,
+      "sample_frames": 19,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Camille",
+  "champB": "Urgot",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 11.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 6.5,
+      "kda": 4.0,
+      "avgDamage": 30532
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 5.5,
+      "avgDeaths": 8.0,
+      "avgAssists": 2.0,
+      "kda": 0.94,
+      "avgDamage": 17284
+    }
+  }
 }

@@ -1,111 +1,173 @@
 {
   "role": "top",
-  "sample_size": 8,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:25.845302",
+  "sample_size": 13,
+  "overall_winrate_a": 53.8,
+  "updated_at": "2026-03-19T03:29:40.589078",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -2,
-      "avg_xp_diff": -16,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 40,
+      "avg_gold_diff": 111,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 65,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -11,
-      "avg_xp_diff": 30,
-      "avg_cs_diff": -0.7,
-      "sample_frames": 40,
-      "advantage": 0
+      "avg_gold_diff": 284,
+      "avg_xp_diff": 60,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 65,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -431,
-      "avg_xp_diff": -370,
-      "avg_cs_diff": -6.3,
-      "sample_frames": 40,
-      "advantage": -2
+      "avg_gold_diff": 377,
+      "avg_xp_diff": 261,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 65,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1269,
-      "avg_xp_diff": -655,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 69,
-      "advantage": -2
+      "avg_gold_diff": 658,
+      "avg_xp_diff": 738,
+      "avg_cs_diff": 7.0,
+      "sample_frames": 121,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1314,
-      "avg_xp_diff": -234,
-      "avg_cs_diff": -18.9,
-      "sample_frames": 43,
-      "advantage": -2
+      "avg_gold_diff": -85,
+      "avg_xp_diff": 164,
+      "avg_cs_diff": 5.4,
+      "sample_frames": 71,
+      "advantage": 0
     }
   ],
   "champA": "Udyr",
   "champB": "Zaahen",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 12,
+          "pickRate": 92.3,
+          "winRate": 58.3
+        },
+        {
+          "name": "Thornmail",
+          "count": 7,
+          "pickRate": 53.8,
+          "winRate": 57.1
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 50.0
+        },
+        {
+          "name": "Force of Nature",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 66.7
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 3,
+          "pickRate": 23.1,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
+          "count": 13,
+          "pickRate": 100.0,
+          "winRate": 53.8
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.7,
-      "avgDeaths": 6.3,
-      "avgAssists": 7.7,
-      "kda": 1.63,
-      "avgDamage": 25314
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 12,
+          "pickRate": 92.3,
+          "winRate": 58.3
+        }
+      ],
+      "avgKills": 5.4,
+      "avgDeaths": 4.5,
+      "avgAssists": 6.0,
+      "kda": 2.51,
+      "avgDamage": 27609
     },
     "champB": {
       "items": [
         {
-          "name": "Stridebreaker",
-          "count": 3,
+          "name": "Trinity Force",
+          "count": 13,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 46.2
         },
         {
-          "name": "Trinity Force",
+          "name": "Stridebreaker",
+          "count": 8,
+          "pickRate": 61.5,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 4,
+          "pickRate": 30.8,
+          "winRate": 50.0
+        },
+        {
+          "name": "Maw of Malmortius",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 15.4,
+          "winRate": 100.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 15.4,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
-          "name": "Conqueror",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
+          "name": "Grasp of the Undying",
+          "count": 12,
+          "pickRate": 92.3,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "count": 13,
+          "pickRate": 100.0,
+          "winRate": 46.2
         }
       ],
-      "avgKills": 9.0,
-      "avgDeaths": 4.3,
-      "avgAssists": 3.7,
-      "kda": 2.92,
-      "avgDamage": 32133
+      "avgKills": 4.2,
+      "avgDeaths": 5.2,
+      "avgAssists": 5.5,
+      "kda": 1.88,
+      "avgDamage": 22747
     }
   }
 }

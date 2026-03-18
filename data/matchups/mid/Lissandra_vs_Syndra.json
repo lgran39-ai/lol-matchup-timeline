@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.283988",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.850343",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -65,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -32,
+      "avg_xp_diff": 13,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -40,
-      "avg_xp_diff": 57,
-      "avg_cs_diff": -19.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 44,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 424,
-      "avg_xp_diff": 564,
-      "avg_cs_diff": -12.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 356,
+      "avg_xp_diff": 349,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -298,
-      "avg_xp_diff": -1084,
-      "avg_cs_diff": -17.5,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 937,
+      "avg_xp_diff": 981,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 21,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2447,
-      "avg_xp_diff": -4188,
-      "avg_cs_diff": -43.0,
-      "sample_frames": 3,
+      "avg_gold_diff": -2269,
+      "avg_xp_diff": -957,
+      "avg_cs_diff": -6.8,
+      "sample_frames": 22,
       "advantage": -2
     }
   ],
@@ -54,26 +54,64 @@
   "champB": "Syndra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 7.0,
-      "kda": 2.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 21.0,
+      "kda": 4.0,
+      "avgDamage": 34324
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 8.0,
-      "kda": 3.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgKills": 10.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 8.5,
+      "kda": 2.31,
+      "avgDamage": 38095
     }
   }
 }

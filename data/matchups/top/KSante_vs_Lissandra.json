@@ -1,55 +1,167 @@
 {
-  "champA": "KSante",
-  "champB": "Lissandra",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:05.506085",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:39.547684",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -9,
-      "avg_xp_diff": 32,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -29,
+      "avg_xp_diff": -22,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 204,
-      "avg_xp_diff": 244,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 79,
+      "avg_xp_diff": 112,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1072,
-      "avg_xp_diff": 927,
-      "avg_cs_diff": 7.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 429,
+      "avg_xp_diff": 581,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 1271,
-      "avg_xp_diff": 1478,
-      "avg_cs_diff": 16.8,
-      "sample_frames": 10,
+      "label": "mid_game",
+      "avg_gold_diff": 655,
+      "avg_xp_diff": 822,
+      "avg_cs_diff": 9.4,
+      "sample_frames": 53,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -285,
-      "avg_xp_diff": 836,
-      "avg_cs_diff": 32.0,
-      "sample_frames": 4,
-      "advantage": -1
+      "label": "late_game",
+      "avg_gold_diff": -640,
+      "avg_xp_diff": -421,
+      "avg_cs_diff": 10.4,
+      "sample_frames": 11,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "KSante",
+  "champB": "Lissandra",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Kaenic Rookern",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.2,
+      "avgDeaths": 3.7,
+      "avgAssists": 3.0,
+      "kda": 1.41,
+      "avgDamage": 13356
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 4.3,
+      "avgAssists": 7.7,
+      "kda": 2.58,
+      "avgDamage": 16929
+    }
+  }
 }

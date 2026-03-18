@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.356180",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.948563",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -41,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 24,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 2,
-      "avg_xp_diff": -124,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -230,
+      "avg_xp_diff": -104,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -266,
-      "avg_xp_diff": -546,
-      "avg_cs_diff": -9.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -497,
+      "avg_xp_diff": -443,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1023,
-      "avg_xp_diff": -1155,
-      "avg_cs_diff": -13.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -1273,
+      "avg_xp_diff": -1962,
+      "avg_cs_diff": -32.6,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -653,
-      "avg_xp_diff": 1039,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -3979,
+      "avg_xp_diff": -2754,
+      "avg_cs_diff": -83.0,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -54,26 +54,72 @@
   "champB": "Vi",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 18.0,
-      "kda": 7.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.5,
+      "kda": 2.4,
+      "avgDamage": 12038
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.0,
-      "kda": 1.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 3.8,
+      "avgAssists": 7.0,
+      "kda": 3.0,
+      "avgDamage": 11058
     }
   }
 }

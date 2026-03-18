@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.733405",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-19T03:29:40.457263",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -274,
-      "avg_xp_diff": -14,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -48,
+      "avg_xp_diff": -26,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -809,
-      "avg_xp_diff": -75,
-      "avg_cs_diff": -11.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -116,
+      "avg_xp_diff": 98,
+      "avg_cs_diff": -9.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -974,
-      "avg_xp_diff": -787,
-      "avg_cs_diff": -14.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -73,
+      "avg_xp_diff": 424,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -802,
-      "avg_xp_diff": -493,
-      "avg_cs_diff": -8.4,
-      "sample_frames": 7,
+      "avg_gold_diff": 180,
+      "avg_xp_diff": 1227,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 37,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1811,
+      "avg_xp_diff": -431,
+      "avg_cs_diff": -27.9,
+      "sample_frames": 11,
       "advantage": -2
     }
   ],
@@ -45,24 +54,96 @@
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 0.5,
-      "avgDamage": 8677
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 2.6,
+      "avgDeaths": 2.0,
+      "avgAssists": 4.8,
+      "kda": 3.7,
+      "avgDamage": 16431
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 0.0,
-      "kda": 0.75,
-      "avgDamage": 15907
+      "items": [
+        {
+          "name": "Cosmic Drive",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.2,
+      "avgDeaths": 3.2,
+      "avgAssists": 3.0,
+      "kda": 1.94,
+      "avgDamage": 17618
     }
   }
 }

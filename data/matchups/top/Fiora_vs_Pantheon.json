@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.577193",
+  "sample_size": 6,
+  "overall_winrate_a": 83.3,
+  "updated_at": "2026-03-19T03:29:38.971356",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -215,
-      "avg_xp_diff": -87,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 93,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -511,
-      "avg_xp_diff": -405,
-      "avg_cs_diff": -15.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 12,
+      "avg_xp_diff": -33,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -532,
-      "avg_xp_diff": -473,
-      "avg_cs_diff": -14.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 62,
+      "avg_xp_diff": 172,
+      "avg_cs_diff": 5.2,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1008,
-      "avg_xp_diff": 1918,
-      "avg_cs_diff": 17.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 824,
+      "avg_xp_diff": 802,
+      "avg_cs_diff": 11.9,
+      "sample_frames": 54,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2882,
-      "avg_xp_diff": 2994,
-      "avg_cs_diff": 63.9,
-      "sample_frames": 9,
+      "avg_gold_diff": 3181,
+      "avg_xp_diff": 3315,
+      "avg_cs_diff": 30.6,
+      "sample_frames": 22,
       "advantage": 2
     }
   ],
@@ -54,26 +54,102 @@
   "champB": "Pantheon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 11.0,
-      "kda": 2.43,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 83.3
+        },
+        {
+          "name": "Trinity Force",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 83.3
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 4.8,
+      "avgAssists": 3.5,
+      "kda": 2.03,
+      "avgDamage": 17359
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 12.0,
-      "kda": 2.44,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 6.3,
+      "avgAssists": 4.7,
+      "kda": 1.76,
+      "avgDamage": 21958
     }
   }
 }

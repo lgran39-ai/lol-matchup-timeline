@@ -1,77 +1,173 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.004709",
+  "sample_size": 6,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:39.477042",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 45,
-      "avg_xp_diff": 68,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 69,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 177,
-      "avg_xp_diff": 152,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 114,
+      "avg_xp_diff": 92,
+      "avg_cs_diff": 8.8,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 765,
-      "avg_xp_diff": 67,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 332,
+      "avg_xp_diff": 385,
+      "avg_cs_diff": 17.7,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -176,
-      "avg_xp_diff": -1554,
-      "avg_cs_diff": -8.3,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 635,
+      "avg_xp_diff": 299,
+      "avg_cs_diff": 20.5,
+      "sample_frames": 52,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1620,
-      "avg_xp_diff": -870,
-      "avg_cs_diff": 24.5,
-      "sample_frames": 11,
-      "advantage": 2
+      "avg_gold_diff": -158,
+      "avg_xp_diff": -115,
+      "avg_cs_diff": 16.6,
+      "sample_frames": 28,
+      "advantage": -1
     }
   ],
   "champA": "Jayce",
   "champB": "Lissandra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.8,
       "avgDeaths": 6.0,
-      "avgAssists": 7.0,
-      "kda": 2.33,
-      "avgDamage": 33677
+      "avgAssists": 6.3,
+      "kda": 2.19,
+      "avgDamage": 25822
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 18.0,
-      "kda": 5.75,
-      "avgDamage": 27184
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 6.8,
+      "avgAssists": 11.2,
+      "kda": 2.51,
+      "avgDamage": 19706
     }
   }
 }

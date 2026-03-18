@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.281494",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-19T03:29:39.841595",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -198,
-      "avg_xp_diff": -120,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -12,
+      "avg_xp_diff": 43,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -951,
-      "avg_xp_diff": -279,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 175,
+      "avg_xp_diff": 451,
+      "avg_cs_diff": 5.0,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2171,
-      "avg_xp_diff": -1018,
-      "avg_cs_diff": -15.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 557,
+      "avg_xp_diff": 1057,
+      "avg_cs_diff": 15.9,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2790,
-      "avg_xp_diff": -1307,
-      "avg_cs_diff": -11.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -301,
+      "avg_xp_diff": 541,
+      "avg_cs_diff": 8.8,
+      "sample_frames": 32,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -725,
+      "avg_xp_diff": -1251,
+      "avg_cs_diff": 37.2,
+      "sample_frames": 5,
       "advantage": -2
     }
   ],
@@ -45,24 +54,71 @@
   "champB": "Naafiri",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 2.0,
-      "kda": 0.33,
-      "avgDamage": 7757
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 5.2,
+      "avgAssists": 6.8,
+      "kda": 1.86,
+      "avgDamage": 18295
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Opportunity",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 7.0,
-      "kda": 15.0,
-      "avgDamage": 12753
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.8,
+      "kda": 2.5,
+      "avgDamage": 16149
     }
   }
 }

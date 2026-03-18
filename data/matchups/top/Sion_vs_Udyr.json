@@ -1,77 +1,110 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-18T14:05:25.730050",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:40.451576",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -49,
-      "avg_xp_diff": 28,
-      "avg_cs_diff": -0.7,
-      "sample_frames": 20,
+      "avg_gold_diff": -9,
+      "avg_xp_diff": 40,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -333,
-      "avg_xp_diff": -143,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": -435,
+      "avg_xp_diff": -191,
+      "avg_cs_diff": -13.5,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -743,
-      "avg_xp_diff": -795,
-      "avg_cs_diff": -9.1,
-      "sample_frames": 20,
+      "avg_gold_diff": -465,
+      "avg_xp_diff": -103,
+      "avg_cs_diff": -14.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1135,
-      "avg_xp_diff": -1305,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 40,
+      "avg_gold_diff": -1181,
+      "avg_xp_diff": -1343,
+      "avg_cs_diff": -19.8,
+      "sample_frames": 17,
       "advantage": -2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": -328,
-      "avg_xp_diff": -1829,
-      "avg_cs_diff": 12.0,
-      "sample_frames": 41,
-      "advantage": -1
     }
   ],
   "champA": "Sion",
   "champB": "Udyr",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 12.0,
-      "avgAssists": 19.0,
-      "kda": 1.92,
-      "avgDamage": 46301
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 1.3,
+      "avgDeaths": 2.3,
+      "avgAssists": 2.3,
+      "kda": 1.57,
+      "avgDamage": 11455
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 26.0,
-      "kda": 7.0,
-      "avgDamage": 72627
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 2.0,
+      "avgAssists": 2.7,
+      "kda": 3.17,
+      "avgDamage": 21707
     }
   }
 }

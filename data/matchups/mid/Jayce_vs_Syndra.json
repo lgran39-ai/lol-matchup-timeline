@@ -1,55 +1,155 @@
 {
-  "champA": "Jayce",
-  "champB": "Syndra",
   "role": "mid",
   "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:05.459897",
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-19T03:29:39.516079",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -22,
-      "avg_xp_diff": 17,
-      "avg_cs_diff": 0.2,
+      "avg_gold_diff": 38,
+      "avg_xp_diff": 82,
+      "avg_cs_diff": 1.8,
       "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 88,
-      "avg_xp_diff": 223,
-      "avg_cs_diff": 5.6,
+      "avg_gold_diff": 276,
+      "avg_xp_diff": 443,
+      "avg_cs_diff": 8.0,
       "sample_frames": 20,
-      "advantage": 0
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 148,
-      "avg_xp_diff": 334,
-      "avg_cs_diff": 3.8,
+      "avg_gold_diff": 286,
+      "avg_xp_diff": 472,
+      "avg_cs_diff": 7.2,
       "sample_frames": 20,
-      "advantage": 0
+      "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 460,
-      "avg_xp_diff": 875,
-      "avg_cs_diff": 3.5,
-      "sample_frames": 37,
+      "label": "mid_game",
+      "avg_gold_diff": 572,
+      "avg_xp_diff": 1555,
+      "avg_cs_diff": 25.5,
+      "sample_frames": 33,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -2324,
-      "avg_xp_diff": 549,
-      "avg_cs_diff": 11.7,
-      "sample_frames": 15,
+      "label": "late_game",
+      "avg_gold_diff": -407,
+      "avg_xp_diff": 2665,
+      "avg_cs_diff": 47.6,
+      "sample_frames": 16,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Jayce",
+  "champB": "Syndra",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.0,
+      "kda": 2.28,
+      "avgDamage": 22845
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 6.5,
+      "avgAssists": 6.5,
+      "kda": 2.0,
+      "avgDamage": 19994
+    }
+  }
 }

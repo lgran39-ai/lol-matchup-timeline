@@ -1,55 +1,185 @@
 {
-  "champA": "Annie",
-  "champB": "Leblanc",
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.623044",
+  "sample_size": 8,
+  "overall_winrate_a": 62.5,
+  "updated_at": "2026-03-19T03:29:38.355885",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -38,
-      "avg_xp_diff": -66,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -26,
+      "avg_xp_diff": -37,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -551,
-      "avg_xp_diff": -486,
-      "avg_cs_diff": -17.1,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -71,
+      "avg_xp_diff": -21,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 40,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1502,
-      "avg_xp_diff": -1262,
-      "avg_cs_diff": -32.7,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -181,
+      "avg_xp_diff": -132,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 40,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -2621,
-      "avg_xp_diff": -1558,
-      "avg_cs_diff": -41.9,
-      "sample_frames": 20,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": -228,
+      "avg_xp_diff": 140,
+      "avg_cs_diff": 7.4,
+      "sample_frames": 82,
+      "advantage": -1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -2597,
-      "avg_xp_diff": -37,
-      "avg_cs_diff": -58.0,
-      "sample_frames": 16,
-      "advantage": -2
+      "label": "late_game",
+      "avg_gold_diff": -24,
+      "avg_xp_diff": 641,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 42,
+      "advantage": 0
     }
-  ]
+  ],
+  "champA": "Annie",
+  "champB": "Leblanc",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 62.5
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 40.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 57.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 6.1,
+      "avgAssists": 9.0,
+      "kda": 2.53,
+      "avgDamage": 25016
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 40.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 33.3
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 37.5
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 37.5
+        }
+      ],
+      "avgKills": 7.6,
+      "avgDeaths": 6.0,
+      "avgAssists": 7.2,
+      "kda": 2.48,
+      "avgDamage": 21128
+    }
+  }
 }

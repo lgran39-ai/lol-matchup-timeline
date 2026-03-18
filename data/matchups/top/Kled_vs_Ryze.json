@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.208277",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.752764",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -87,
-      "avg_xp_diff": -175,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 11,
+      "avg_xp_diff": 29,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -751,
-      "avg_xp_diff": -1066,
-      "avg_cs_diff": -22.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 293,
+      "avg_xp_diff": 314,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1365,
-      "avg_xp_diff": -1538,
-      "avg_cs_diff": -42.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 906,
+      "avg_xp_diff": 1534,
+      "avg_cs_diff": 5.2,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2125,
-      "avg_xp_diff": -2593,
-      "avg_cs_diff": -68.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 416,
+      "avg_xp_diff": -369,
+      "avg_cs_diff": -14.9,
+      "sample_frames": 16,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1877,
-      "avg_xp_diff": -4392,
-      "avg_cs_diff": -81.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -2091,
+      "avg_xp_diff": -5298,
+      "avg_cs_diff": -50.5,
+      "sample_frames": 6,
       "advantage": -2
     }
   ],
@@ -55,23 +55,37 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 7.0,
-      "kda": 2.0,
-      "avgDamage": 12547
+      "avgKills": 5.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 4.5,
+      "kda": 2.71,
+      "avgDamage": 20950
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 12.0,
+      "avgKills": 4.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 6.5,
       "kda": 2.33,
-      "avgDamage": 27634
+      "avgDamage": 20121
     }
   }
 }

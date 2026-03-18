@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:24.568586",
+  "sample_size": 12,
+  "overall_winrate_a": 58.3,
+  "updated_at": "2026-03-19T03:29:38.956444",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 15,
+      "avg_gold_diff": -87,
+      "avg_xp_diff": -83,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 60,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 10,
-      "avg_xp_diff": -213,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -420,
+      "avg_xp_diff": -538,
+      "avg_cs_diff": -9.5,
+      "sample_frames": 60,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -141,
-      "avg_xp_diff": -890,
-      "avg_cs_diff": -21.0,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -438,
+      "avg_xp_diff": -798,
+      "avg_cs_diff": -15.4,
+      "sample_frames": 60,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -954,
-      "avg_xp_diff": -2096,
-      "avg_cs_diff": -42.3,
-      "sample_frames": 30,
+      "avg_gold_diff": -663,
+      "avg_xp_diff": -1341,
+      "avg_cs_diff": -28.2,
+      "sample_frames": 94,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1752,
-      "avg_xp_diff": -3525,
-      "avg_cs_diff": -64.6,
-      "sample_frames": 30,
+      "avg_gold_diff": -1229,
+      "avg_xp_diff": -1331,
+      "avg_cs_diff": -58.8,
+      "sample_frames": 58,
       "advantage": -2
     }
   ],
@@ -54,24 +54,126 @@
   "champB": "Zyra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 9.0,
-      "kda": 5.67,
-      "avgDamage": 17266
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 10,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 7,
+          "pickRate": 58.3,
+          "winRate": 57.1
+        },
+        {
+          "name": "Banshee's Veil",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 75.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 8,
+          "pickRate": 66.7,
+          "winRate": 62.5
+        },
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 12,
+          "pickRate": 100.0,
+          "winRate": 58.3
+        }
+      ],
+      "avgKills": 5.4,
+      "avgDeaths": 4.5,
+      "avgAssists": 7.8,
+      "kda": 2.93,
+      "avgDamage": 15830
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 9.0,
-      "kda": 3.0,
-      "avgDamage": 17231
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 12,
+          "pickRate": 100.0,
+          "winRate": 41.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 5,
+          "pickRate": 41.7,
+          "winRate": 60.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 25.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 7,
+          "pickRate": 58.3,
+          "winRate": 42.9
+        },
+        {
+          "name": "Dark Harvest",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 12,
+          "pickRate": 100.0,
+          "winRate": 41.7
+        }
+      ],
+      "avgKills": 4.6,
+      "avgDeaths": 5.9,
+      "avgAssists": 9.5,
+      "kda": 2.38,
+      "avgDamage": 23617
     }
   }
 }

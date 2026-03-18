@@ -1,79 +1,109 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.193708",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.518359",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -40,
-      "avg_xp_diff": 32,
-      "avg_cs_diff": 1.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -7,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -149,
-      "avg_xp_diff": -76,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -162,
+      "avg_xp_diff": 181,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1541,
-      "avg_xp_diff": -870,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 36,
+      "avg_xp_diff": 436,
+      "avg_cs_diff": 10.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 236,
-      "avg_xp_diff": 588,
-      "avg_cs_diff": 11.8,
-      "sample_frames": 12,
+      "avg_gold_diff": 307,
+      "avg_xp_diff": 425,
+      "avg_cs_diff": 9.3,
+      "sample_frames": 6,
       "advantage": 1
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": 2421,
-      "avg_xp_diff": 3136,
-      "avg_cs_diff": 55.1,
-      "sample_frames": 8,
-      "advantage": 2
     }
   ],
   "champA": "Belveth",
   "champB": "Elise",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 4.0,
-      "kda": 3.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 1.0,
+      "avgAssists": 2.0,
+      "kda": 7.0,
+      "avgDamage": 6338
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 6.5,
-      "kda": 4.57,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 2.3,
+      "avgAssists": 4.3,
+      "kda": 3.29,
+      "avgDamage": 7260
     }
   }
 }

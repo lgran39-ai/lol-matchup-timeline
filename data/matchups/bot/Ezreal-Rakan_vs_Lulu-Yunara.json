@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:27.124967",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-19T03:29:43.369377",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -454,
-      "avg_xp_diff": -187,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 19,
+      "avg_xp_diff": 9,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -587,
-      "avg_xp_diff": -258,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -130,
+      "avg_xp_diff": -52,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -64,
-      "avg_xp_diff": 293,
-      "avg_cs_diff": 6.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -1165,
+      "avg_xp_diff": -666,
+      "avg_cs_diff": -13.8,
+      "sample_frames": 25,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 945,
-      "avg_xp_diff": 1440,
-      "avg_cs_diff": 16.5,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -2748,
+      "avg_xp_diff": -834,
+      "avg_cs_diff": -27.0,
+      "sample_frames": 42,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4200,
-      "avg_xp_diff": 4230,
-      "avg_cs_diff": 22.5,
-      "sample_frames": 8,
-      "advantage": 2
+      "avg_gold_diff": -2483,
+      "avg_xp_diff": 690,
+      "avg_cs_diff": -23.4,
+      "sample_frames": 14,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -64,50 +64,172 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 6.0,
-        "kda": 3.6,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 80.0
+          },
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 80.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 80.0
+          }
+        ],
+        "avgKills": 3.8,
+        "avgDeaths": 4.0,
+        "avgAssists": 5.6,
+        "kda": 2.35,
+        "avgDamage": 19350
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 29.0,
-        "kda": 9.67,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 80.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 66.7
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Unsealed Spellbook",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 80.0
+          }
+        ],
+        "avgKills": 0.8,
+        "avgDeaths": 4.0,
+        "avgAssists": 10.8,
+        "kda": 2.9,
+        "avgDamage": 5220
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 3.0,
-        "kda": 0.75,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 20.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 25.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 33.3
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 20.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 20.0
+          }
+        ],
+        "avgKills": 5.2,
+        "avgDeaths": 5.2,
+        "avgAssists": 5.6,
+        "kda": 2.08,
+        "avgDamage": 23013
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 11.0,
-        "kda": 2.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Ardent Censer",
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 25.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 20.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 5,
+            "pickRate": 100.0,
+            "winRate": 20.0
+          }
+        ],
+        "avgKills": 0.6,
+        "avgDeaths": 1.8,
+        "avgAssists": 10.0,
+        "kda": 5.89,
+        "avgDamage": 6676
       }
     }
   }

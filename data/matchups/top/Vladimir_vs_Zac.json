@@ -1,68 +1,98 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.896286",
+  "sample_size": 2,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T03:29:40.641011",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 203,
-      "avg_xp_diff": 24,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 131,
+      "avg_xp_diff": 96,
+      "avg_cs_diff": 4.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 602,
-      "avg_xp_diff": 488,
-      "avg_cs_diff": 12.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 516,
+      "avg_xp_diff": 170,
+      "avg_cs_diff": 16.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -314,
-      "avg_xp_diff": -174,
-      "avg_cs_diff": 9.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 1471,
+      "avg_xp_diff": 1501,
+      "avg_cs_diff": 40.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1308,
-      "avg_xp_diff": -2374,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": 2212,
+      "avg_xp_diff": 2166,
+      "avg_cs_diff": 53.4,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2418,
+      "avg_xp_diff": 2822,
+      "avg_cs_diff": 51.6,
+      "sample_frames": 13,
+      "advantage": 2
     }
   ],
   "champA": "Vladimir",
   "champB": "Zac",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 0.6,
-      "avgDamage": 31120
+      "items": [
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 8.0,
+      "kda": 4.14,
+      "avgDamage": 31353
     },
     "champB": {
       "items": [],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 2.0,
-      "avgDamage": 26615
+      "avgKills": 1.5,
+      "avgDeaths": 7.5,
+      "avgAssists": 6.0,
+      "kda": 1.0,
+      "avgDamage": 13716
     }
   }
 }

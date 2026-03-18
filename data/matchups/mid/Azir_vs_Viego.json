@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.186267",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:38.510351",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 136,
-      "avg_xp_diff": 108,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -45,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 359,
-      "avg_xp_diff": 142,
-      "avg_cs_diff": 6.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -335,
+      "avg_xp_diff": -429,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 479,
-      "avg_xp_diff": 686,
-      "avg_cs_diff": 15.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -576,
+      "avg_xp_diff": -544,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 492,
-      "avg_xp_diff": 1022,
-      "avg_cs_diff": 17.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 474,
+      "avg_xp_diff": 943,
+      "avg_cs_diff": 35.5,
+      "sample_frames": 22,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1250,
-      "avg_xp_diff": 2048,
-      "avg_cs_diff": 27.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 1775,
+      "avg_xp_diff": 2188,
+      "avg_cs_diff": 30.6,
+      "sample_frames": 14,
       "advantage": 2
     }
   ],
@@ -54,24 +54,90 @@
   "champB": "Viego",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 7.0,
-      "kda": 1.38,
-      "avgDamage": 29341
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 7.3,
+      "kda": 1.82,
+      "avgDamage": 20498
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 12.0,
-      "avgAssists": 6.0,
-      "kda": 0.75,
-      "avgDamage": 16490
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.3,
+      "kda": 1.71,
+      "avgDamage": 15274
     }
   }
 }

@@ -1,46 +1,125 @@
 {
-  "champA": "Camille",
-  "champB": "Gragas",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:04.837101",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-19T03:29:38.580823",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 93,
-      "avg_xp_diff": 84,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 16,
+      "avg_xp_diff": 45,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": -104,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -2,
+      "avg_xp_diff": 152,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 226,
-      "avg_xp_diff": 286,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 276,
+      "avg_xp_diff": 311,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 129,
-      "avg_xp_diff": 120,
-      "avg_cs_diff": 9.8,
-      "sample_frames": 6,
+      "label": "mid_game",
+      "avg_gold_diff": -44,
+      "avg_xp_diff": -450,
+      "avg_cs_diff": 6.1,
+      "sample_frames": 40,
       "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5675,
+      "avg_xp_diff": 1377,
+      "avg_cs_diff": 86.3,
+      "sample_frames": 6,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Camille",
+  "champB": "Gragas",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        },
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Teleport+Ignite",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.4,
+      "avgDeaths": 2.8,
+      "avgAssists": 0.8,
+      "kda": 1.14,
+      "avgDamage": 17433
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.4,
+      "avgDeaths": 2.2,
+      "avgAssists": 3.4,
+      "kda": 2.64,
+      "avgDamage": 14684
+    }
+  }
 }

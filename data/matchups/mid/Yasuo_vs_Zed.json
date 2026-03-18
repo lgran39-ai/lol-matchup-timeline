@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 16,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:25.914660",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-19T03:29:40.656934",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 38,
-      "avg_xp_diff": 1,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 80,
+      "avg_gold_diff": 83,
+      "avg_xp_diff": 75,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 158,
-      "avg_xp_diff": 117,
-      "avg_cs_diff": 9.5,
-      "sample_frames": 80,
-      "advantage": 1
+      "avg_gold_diff": 503,
+      "avg_xp_diff": 336,
+      "avg_cs_diff": 11.8,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 217,
-      "avg_xp_diff": 286,
-      "avg_cs_diff": 17.2,
-      "sample_frames": 80,
+      "avg_gold_diff": 154,
+      "avg_xp_diff": 135,
+      "avg_cs_diff": 10.3,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 294,
-      "avg_xp_diff": 535,
-      "avg_cs_diff": 26.0,
-      "sample_frames": 136,
-      "advantage": 1
+      "avg_gold_diff": -574,
+      "avg_xp_diff": -350,
+      "avg_cs_diff": 11.5,
+      "sample_frames": 40,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 186,
-      "avg_xp_diff": 348,
-      "avg_cs_diff": 37.1,
-      "sample_frames": 57,
-      "advantage": 1
+      "avg_gold_diff": -578,
+      "avg_xp_diff": -1350,
+      "avg_cs_diff": 24.8,
+      "sample_frames": 13,
+      "advantage": -2
     }
   ],
   "champA": "Yasuo",
@@ -56,62 +56,94 @@
     "champA": {
       "items": [
         {
-          "name": "Immortal Shieldbow",
-          "count": 2,
+          "name": "Blade of The Ruined King",
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 25.0
         },
         {
-          "name": "Kraken Slayer",
+          "name": "Immortal Shieldbow",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Infinity Edge",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 7.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 7.5,
-      "kda": 5.0,
-      "avgDamage": 21984
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 7.5,
+      "avgAssists": 2.2,
+      "kda": 0.93,
+      "avgDamage": 19981
     },
     "champB": {
       "items": [
         {
-          "name": "Eclipse",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         },
         {
-          "name": "Crimson Lucidity",
+          "name": "Serpent's Fang",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
-          "name": "Conqueror",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 9.5,
-      "avgAssists": 2.0,
-      "kda": 0.68,
-      "avgDamage": 13632
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 10.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.2,
+      "kda": 2.68,
+      "avgDamage": 22911
     }
   }
 }

@@ -1,68 +1,125 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.940989",
+  "sample_size": 2,
+  "overall_winrate_a": 0.0,
+  "updated_at": "2026-03-19T03:29:39.384655",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -21,
-      "avg_xp_diff": -29,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 38,
+      "avg_xp_diff": 55,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -255,
-      "avg_xp_diff": -250,
-      "avg_cs_diff": -6.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 88,
+      "avg_xp_diff": 46,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -187,
-      "avg_xp_diff": 172,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -173,
+      "avg_xp_diff": 184,
+      "avg_cs_diff": 9.6,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -330,
-      "avg_xp_diff": -387,
-      "avg_cs_diff": -24.2,
-      "sample_frames": 6,
-      "advantage": -1
+      "avg_gold_diff": -1390,
+      "avg_xp_diff": -178,
+      "avg_cs_diff": 12.2,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1056,
+      "avg_xp_diff": 234,
+      "avg_cs_diff": 21.6,
+      "sample_frames": 8,
+      "advantage": -2
     }
   ],
   "champA": "Ivern",
   "champB": "MasterYi",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "avgKills": 1.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 6.0,
-      "kda": 7.0,
-      "avgDamage": 3552
+      "avgDeaths": 4.0,
+      "avgAssists": 9.5,
+      "kda": 2.62,
+      "avgDamage": 12402
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 3.0,
-      "kda": 1.25,
-      "avgDamage": 3776
+      "items": [
+        {
+          "name": "Guinsoo's Rageblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 7.5,
+      "kda": 5.0,
+      "avgDamage": 21320
     }
   }
 }

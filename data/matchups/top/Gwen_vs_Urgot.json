@@ -1,68 +1,131 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.826957",
+  "updated_at": "2026-03-19T03:29:39.257705",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -362,
-      "avg_xp_diff": -111,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -56,
+      "avg_xp_diff": -51,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -398,
-      "avg_xp_diff": -26,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -298,
+      "avg_xp_diff": -218,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 54,
-      "avg_xp_diff": 877,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -701,
+      "avg_xp_diff": -449,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 132,
-      "avg_xp_diff": 1275,
-      "avg_cs_diff": 3.1,
-      "sample_frames": 7,
-      "advantage": 0
+      "avg_gold_diff": -709,
+      "avg_xp_diff": 234,
+      "avg_cs_diff": 5.4,
+      "sample_frames": 27,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2604,
+      "avg_xp_diff": -637,
+      "avg_cs_diff": -6.2,
+      "sample_frames": 6,
+      "advantage": -2
     }
   ],
   "champA": "Gwen",
   "champB": "Urgot",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 2.0,
-      "kda": 1.6,
-      "avgDamage": 14435
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 4.3,
+      "avgAssists": 5.7,
+      "kda": 2.31,
+      "avgDamage": 21280
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 0.0,
-      "kda": 0.62,
-      "avgDamage": 16306
+      "items": [
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 1.7,
+      "kda": 1.53,
+      "avgDamage": 21336
     }
   }
 }

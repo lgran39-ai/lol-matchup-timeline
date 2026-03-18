@@ -1,79 +1,149 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.674958",
+  "sample_size": 7,
+  "overall_winrate_a": 57.1,
+  "updated_at": "2026-03-19T03:29:39.098557",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 36,
-      "avg_xp_diff": 38,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -62,
+      "avg_xp_diff": -62,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 547,
-      "avg_xp_diff": 418,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -143,
+      "avg_xp_diff": -94,
+      "avg_cs_diff": -14.5,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1325,
-      "avg_xp_diff": 1645,
-      "avg_cs_diff": 10.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 107,
+      "avg_xp_diff": -138,
+      "avg_cs_diff": -18.0,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2438,
-      "avg_xp_diff": 2630,
-      "avg_cs_diff": 15.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 472,
+      "avg_xp_diff": -507,
+      "avg_cs_diff": -21.1,
+      "sample_frames": 48,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4525,
-      "avg_xp_diff": 2212,
-      "avg_cs_diff": 14.3,
-      "sample_frames": 11,
-      "advantage": 2
+      "avg_gold_diff": -39,
+      "avg_xp_diff": -3359,
+      "avg_cs_diff": -51.9,
+      "sample_frames": 17,
+      "advantage": 0
     }
   ],
   "champA": "Gangplank",
   "champB": "Ryze",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 14.0,
-      "kda": 4.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        },
+        {
+          "name": "The Collector",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 57.1
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 2.6,
+      "avgDeaths": 3.0,
+      "avgAssists": 6.4,
+      "kda": 3.0,
+      "avgDamage": 17077
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 9.0,
-      "kda": 1.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 42.9
+        },
+        {
+          "name": "Actualizer",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 3.4,
+      "avgAssists": 3.7,
+      "kda": 1.88,
+      "avgDamage": 16878
     }
   }
 }

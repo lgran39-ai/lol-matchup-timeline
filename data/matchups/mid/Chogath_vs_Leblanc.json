@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.321737",
+  "sample_size": 2,
+  "overall_winrate_a": 0.0,
+  "updated_at": "2026-03-19T03:29:38.661971",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 15,
-      "avg_xp_diff": 64,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -107,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -311,
-      "avg_xp_diff": 263,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -443,
+      "avg_xp_diff": -330,
+      "avg_cs_diff": -8.3,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1451,
-      "avg_xp_diff": -326,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -939,
+      "avg_xp_diff": -695,
+      "avg_cs_diff": -13.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3615,
-      "avg_xp_diff": -2046,
-      "avg_cs_diff": -28.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -1823,
+      "avg_xp_diff": -1376,
+      "avg_cs_diff": -20.2,
+      "sample_frames": 18,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6818,
-      "avg_xp_diff": -4334,
-      "avg_cs_diff": -48.7,
-      "sample_frames": 16,
+      "avg_gold_diff": -2549,
+      "avg_xp_diff": -2481,
+      "avg_cs_diff": -22.8,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -54,26 +54,63 @@
   "champB": "Leblanc",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 15.0,
-      "avgAssists": 5.0,
-      "kda": 0.4,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 2.0,
+      "kda": 1.6,
+      "avgDamage": 18138
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 17.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 9.0,
-      "kda": 8.67,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgKills": 10.5,
+      "avgDeaths": 1.0,
+      "avgAssists": 7.0,
+      "kda": 17.5,
+      "avgDamage": 31677
     }
   }
 }

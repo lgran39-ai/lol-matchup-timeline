@@ -1,68 +1,245 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.036468",
+  "sample_size": 73,
+  "overall_winrate_a": 56.2,
+  "updated_at": "2026-03-19T03:29:39.535459",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 60,
-      "avg_xp_diff": 32,
-      "avg_cs_diff": -0.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 67,
+      "avg_xp_diff": 33,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 365,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -61,
-      "avg_xp_diff": -285,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 281,
+      "avg_xp_diff": 58,
+      "avg_cs_diff": 6.3,
+      "sample_frames": 365,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -400,
-      "avg_xp_diff": -917,
-      "avg_cs_diff": -14.1,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 337,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 365,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1101,
-      "avg_xp_diff": -1602,
-      "avg_cs_diff": -12.5,
-      "sample_frames": 13,
-      "advantage": -2
+      "avg_gold_diff": 481,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": 9.2,
+      "sample_frames": 605,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 374,
+      "avg_xp_diff": -477,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 287,
+      "advantage": 1
     }
   ],
   "champA": "Jayce",
   "champB": "Yorick",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 0.0,
-      "kda": 0.33,
-      "avgDamage": 5343
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 60,
+          "pickRate": 82.2,
+          "winRate": 60.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 28,
+          "pickRate": 38.4,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 17,
+          "pickRate": 23.3,
+          "winRate": 52.9
+        },
+        {
+          "name": "Edge of Night",
+          "count": 10,
+          "pickRate": 13.7,
+          "winRate": 60.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 8,
+          "pickRate": 11.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 7,
+          "pickRate": 9.6,
+          "winRate": 42.9
+        },
+        {
+          "name": "Eclipse",
+          "count": 6,
+          "pickRate": 8.2,
+          "winRate": 83.3
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 4,
+          "pickRate": 5.5,
+          "winRate": 25.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 30,
+          "pickRate": 41.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 26,
+          "pickRate": 35.6,
+          "winRate": 61.5
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 13,
+          "pickRate": 17.8,
+          "winRate": 69.2
+        },
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 5.5,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 54,
+          "pickRate": 74.0,
+          "winRate": 59.3
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 19,
+          "pickRate": 26.0,
+          "winRate": 47.4
+        }
+      ],
+      "avgKills": 5.1,
+      "avgDeaths": 5.2,
+      "avgAssists": 5.1,
+      "kda": 1.96,
+      "avgDamage": 24568
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 2.0,
-      "kda": 4.0,
-      "avgDamage": 8141
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 65,
+          "pickRate": 89.0,
+          "winRate": 44.6
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 45,
+          "pickRate": 61.6,
+          "winRate": 46.7
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 9,
+          "pickRate": 12.3,
+          "winRate": 66.7
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 8,
+          "pickRate": 11.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 8,
+          "pickRate": 11.0,
+          "winRate": 12.5
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 6,
+          "pickRate": 8.2,
+          "winRate": 83.3
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 6,
+          "pickRate": 8.2,
+          "winRate": 33.3
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 4,
+          "pickRate": 5.5,
+          "winRate": 25.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 42,
+          "pickRate": 57.5,
+          "winRate": 40.5
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 24,
+          "pickRate": 32.9,
+          "winRate": 50.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 7,
+          "pickRate": 9.6,
+          "winRate": 42.9
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 69,
+          "pickRate": 94.5,
+          "winRate": 44.9
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 5.5,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 4.9,
+      "avgAssists": 4.3,
+      "kda": 1.63,
+      "avgDamage": 17919
     }
   }
 }

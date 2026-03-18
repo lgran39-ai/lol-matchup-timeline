@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:24.181879",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:38.504427",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -80,
-      "avg_xp_diff": -58,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 21,
+      "avg_xp_diff": 14,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -281,
-      "avg_xp_diff": -36,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 432,
+      "avg_xp_diff": 171,
+      "avg_cs_diff": 10.5,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -288,
-      "avg_xp_diff": 486,
-      "avg_cs_diff": 3.9,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 813,
+      "avg_xp_diff": 471,
+      "avg_cs_diff": 16.9,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -251,
-      "avg_xp_diff": -116,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": 1787,
+      "avg_xp_diff": 532,
+      "avg_cs_diff": 24.0,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1328,
-      "avg_xp_diff": 196,
-      "avg_cs_diff": 17.5,
-      "sample_frames": 13,
+      "avg_gold_diff": 3754,
+      "avg_xp_diff": -300,
+      "avg_cs_diff": 53.7,
+      "sample_frames": 3,
       "advantage": 2
     }
   ],
@@ -56,69 +56,76 @@
     "champA": {
       "items": [
         {
-          "name": "Nashor's Tooth",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
-        },
-        {
           "name": "Spellslinger's Shoes",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         },
         {
-          "name": "Liandry's Torment",
-          "count": 2,
+          "name": "Nashor's Tooth",
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.0,
+      "avgAssists": 4.0,
+      "kda": 2.89,
+      "avgDamage": 24978
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
-        }
-      ],
-      "avgKills": 7.0,
-      "avgDeaths": 7.5,
-      "avgAssists": 6.0,
-      "kda": 1.73,
-      "avgDamage": 40749
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Titanic Hydra",
-          "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
-      "keystones": [
-        {
-          "name": "Grasp of the Undying",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
-        }
-      ],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 11.0,
-      "kda": 2.67,
-      "avgDamage": 23202
+      "avgKills": 1.3,
+      "avgDeaths": 3.3,
+      "avgAssists": 4.3,
+      "kda": 1.7,
+      "avgDamage": 10892
     }
   }
 }

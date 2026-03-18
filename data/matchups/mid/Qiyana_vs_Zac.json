@@ -1,55 +1,173 @@
 {
-  "champA": "Qiyana",
-  "champB": "Zac",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:06.099559",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:40.262849",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 124,
-      "avg_xp_diff": 101,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 234,
+      "avg_xp_diff": 118,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 735,
-      "avg_xp_diff": 743,
-      "avg_cs_diff": 19.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 898,
+      "avg_xp_diff": 483,
+      "avg_cs_diff": 8.6,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 888,
-      "avg_xp_diff": 824,
-      "avg_cs_diff": 22.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1189,
+      "avg_xp_diff": 324,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 10,
-      "avg_xp_diff": -339,
-      "avg_cs_diff": 6.9,
-      "sample_frames": 10,
-      "advantage": 0
+      "label": "mid_game",
+      "avg_gold_diff": 2599,
+      "avg_xp_diff": 1310,
+      "avg_cs_diff": 22.1,
+      "sample_frames": 40,
+      "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 168,
-      "avg_xp_diff": -674,
-      "avg_cs_diff": 35.2,
-      "sample_frames": 4,
-      "advantage": 1
+      "label": "late_game",
+      "avg_gold_diff": 3273,
+      "avg_xp_diff": 1378,
+      "avg_cs_diff": 17.5,
+      "sample_frames": 34,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Qiyana",
+  "champB": "Zac",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 15.0,
+      "avgDeaths": 7.8,
+      "avgAssists": 7.0,
+      "kda": 2.84,
+      "avgDamage": 46363
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Spirit Visage",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 9.2,
+      "avgAssists": 8.8,
+      "kda": 1.65,
+      "avgDamage": 29265
+    }
+  }
 }

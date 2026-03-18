@@ -1,51 +1,51 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.917862",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.661313",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -19,
-      "avg_xp_diff": -84,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -181,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -97,
-      "avg_xp_diff": -381,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -839,
+      "avg_xp_diff": -442,
+      "avg_cs_diff": -10.0,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -295,
-      "avg_xp_diff": -1117,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -1060,
+      "avg_xp_diff": -1006,
+      "avg_cs_diff": -15.8,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 256,
-      "avg_xp_diff": -298,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 196,
+      "avg_xp_diff": -851,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1381,
-      "avg_xp_diff": 2130,
-      "avg_cs_diff": 18.0,
+      "avg_gold_diff": 1422,
+      "avg_xp_diff": 958,
+      "avg_cs_diff": 25.1,
       "sample_frames": 7,
       "advantage": 2
     }
@@ -54,24 +54,65 @@
   "champB": "Zac",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 1.5,
-      "avgDamage": 23421
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 8.0,
+      "avgAssists": 1.5,
+      "kda": 0.75,
+      "avgDamage": 21909
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 1.67,
-      "avgDamage": 27404
+      "avgKills": 4.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 12.5,
+      "kda": 4.25,
+      "avgDamage": 22372
     }
   }
 }

@@ -1,46 +1,167 @@
 {
-  "champA": "RekSai",
-  "champB": "Rumble",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:06.117063",
+  "sample_size": 6,
+  "overall_winrate_a": 16.7,
+  "updated_at": "2026-03-19T03:29:40.279964",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -128,
-      "avg_xp_diff": -68,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -101,
+      "avg_xp_diff": -12,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -323,
-      "avg_xp_diff": -79,
-      "avg_cs_diff": -16.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -307,
+      "avg_xp_diff": -226,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 30,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 41,
-      "avg_xp_diff": 988,
-      "avg_cs_diff": -20.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -668,
+      "avg_xp_diff": -527,
+      "avg_cs_diff": -19.0,
+      "sample_frames": 30,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 304,
-      "avg_xp_diff": 2184,
-      "avg_cs_diff": -27.1,
-      "sample_frames": 9,
-      "advantage": 1
+      "label": "mid_game",
+      "avg_gold_diff": -2176,
+      "avg_xp_diff": -1733,
+      "avg_cs_diff": -39.7,
+      "sample_frames": 50,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1094,
+      "avg_xp_diff": -852,
+      "avg_cs_diff": -19.8,
+      "sample_frames": 26,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "RekSai",
+  "champB": "Rumble",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 16.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 2.5,
+      "kda": 1.03,
+      "avgDamage": 12438
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 83.3
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 83.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 4.2,
+      "avgAssists": 7.0,
+      "kda": 3.44,
+      "avgDamage": 30605
+    }
+  }
 }

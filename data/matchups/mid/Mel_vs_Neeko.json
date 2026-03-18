@@ -1,55 +1,191 @@
 {
-  "champA": "Mel",
-  "champB": "Neeko",
   "role": "mid",
-  "sample_size": 4,
+  "sample_size": 8,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:05.824077",
+  "updated_at": "2026-03-19T03:29:39.965525",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 32,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 20,
+      "avg_gold_diff": 57,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 69,
-      "avg_xp_diff": 54,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": 228,
+      "avg_xp_diff": 164,
+      "avg_cs_diff": 6.6,
+      "sample_frames": 40,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 398,
-      "avg_xp_diff": 256,
-      "avg_cs_diff": 11.4,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": 542,
+      "avg_xp_diff": 399,
+      "avg_cs_diff": 13.9,
+      "sample_frames": 40,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 931,
-      "avg_xp_diff": 348,
-      "avg_cs_diff": 17.1,
-      "sample_frames": 32,
+      "label": "mid_game",
+      "avg_gold_diff": 1263,
+      "avg_xp_diff": 835,
+      "avg_cs_diff": 27.4,
+      "sample_frames": 57,
       "advantage": 2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": 1357,
       "avg_xp_diff": 224,
       "avg_cs_diff": 25.2,
       "sample_frames": 20,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Mel",
+  "champB": "Neeko",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 33.3
+        },
+        {
+          "name": "Horizon Focus",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.4,
+      "avgDeaths": 4.8,
+      "avgAssists": 4.0,
+      "kda": 2.18,
+      "avgDamage": 19337
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 8,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 4.1,
+      "avgAssists": 6.5,
+      "kda": 2.42,
+      "avgDamage": 15294
+    }
+  }
 }

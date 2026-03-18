@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.460583",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.051976",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 30,
-      "avg_xp_diff": 50,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 101,
+      "avg_xp_diff": 112,
+      "avg_cs_diff": 5.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 171,
-      "avg_xp_diff": -167,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 492,
+      "avg_xp_diff": 306,
+      "avg_cs_diff": 16.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 141,
-      "avg_xp_diff": -438,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 1075,
+      "avg_xp_diff": 936,
+      "avg_cs_diff": 24.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1313,
-      "avg_xp_diff": -2045,
-      "avg_cs_diff": -11.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -338,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 12,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -644,
-      "avg_xp_diff": -1354,
-      "avg_cs_diff": -8.8,
-      "sample_frames": 8,
+      "avg_gold_diff": -2863,
+      "avg_xp_diff": -3230,
+      "avg_cs_diff": -20.4,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
@@ -54,24 +54,59 @@
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 8.0,
-      "kda": 1.8,
-      "avgDamage": 19843
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 4.0,
+      "kda": 2.43,
+      "avgDamage": 16995
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 0.0,
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 1.5,
       "avgAssists": 7.0,
-      "kda": 9.0,
-      "avgDamage": 21311
+      "kda": 6.33,
+      "avgDamage": 11400
     }
   }
 }

@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.840846",
+  "sample_size": 16,
+  "overall_winrate_a": 56.2,
+  "updated_at": "2026-03-19T03:29:39.275581",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -89,
-      "avg_xp_diff": 9,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -25,
+      "avg_xp_diff": 14,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 80,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 606,
-      "avg_xp_diff": 750,
-      "avg_cs_diff": 20.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -61,
+      "avg_xp_diff": 72,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 80,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1337,
-      "avg_xp_diff": 1629,
-      "avg_cs_diff": 33.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -246,
+      "avg_xp_diff": 52,
+      "avg_cs_diff": 6.8,
+      "sample_frames": 80,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2629,
-      "avg_xp_diff": 2882,
-      "avg_cs_diff": 50.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -28,
+      "avg_xp_diff": 862,
+      "avg_cs_diff": 22.0,
+      "sample_frames": 130,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1130,
+      "avg_xp_diff": 2441,
+      "avg_cs_diff": 45.9,
+      "sample_frames": 58,
       "advantage": 2
     }
   ],
@@ -45,26 +54,156 @@
   "champB": "Qiyana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 8.0,
-      "kda": 5.67,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 15,
+          "pickRate": 93.8,
+          "winRate": 53.3
+        },
+        {
+          "name": "Zeke's Convergence",
+          "count": 7,
+          "pickRate": 43.8,
+          "winRate": 71.4
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 6,
+          "pickRate": 37.5,
+          "winRate": 83.3
+        },
+        {
+          "name": "Death's Dance",
+          "count": 6,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 5,
+          "pickRate": 31.2,
+          "winRate": 80.0
+        },
+        {
+          "name": "Endless Hunger",
+          "count": 3,
+          "pickRate": 18.8,
+          "winRate": 33.3
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 2,
+          "pickRate": 12.5,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 13,
+          "pickRate": 81.2,
+          "winRate": 53.8
+        },
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 18.8,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 16,
+          "pickRate": 100.0,
+          "winRate": 56.2
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 4.3,
+      "avgAssists": 9.8,
+      "kda": 4.01,
+      "avgDamage": 20684
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.0,
-      "kda": 1.4,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Serylda's Grudge",
+          "count": 9,
+          "pickRate": 56.2,
+          "winRate": 22.2
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 9,
+          "pickRate": 56.2,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hubris",
+          "count": 8,
+          "pickRate": 50.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 7,
+          "pickRate": 43.8,
+          "winRate": 71.4
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 5,
+          "pickRate": 31.2,
+          "winRate": 20.0
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 4,
+          "pickRate": 25.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 4,
+          "pickRate": 25.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 12.5,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 12,
+          "pickRate": 75.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 18.8,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 16,
+          "pickRate": 100.0,
+          "winRate": 43.8
+        }
+      ],
+      "avgKills": 6.4,
+      "avgDeaths": 5.9,
+      "avgAssists": 6.2,
+      "kda": 2.12,
+      "avgDamage": 19792
     }
   }
 }

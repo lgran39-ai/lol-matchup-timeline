@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 5,
-  "overall_winrate_a": 60.0,
-  "updated_at": "2026-03-18T14:05:25.850649",
+  "sample_size": 7,
+  "overall_winrate_a": 14.3,
+  "updated_at": "2026-03-19T03:29:40.594722",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -18,
+      "avg_gold_diff": 8,
       "avg_xp_diff": 12,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 25,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 3,
-      "avg_xp_diff": -163,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 25,
+      "avg_gold_diff": -87,
+      "avg_xp_diff": -25,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 157,
-      "avg_xp_diff": -340,
+      "avg_gold_diff": -330,
+      "avg_xp_diff": -442,
       "avg_cs_diff": -2.7,
-      "sample_frames": 25,
-      "advantage": 1
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -418,
-      "avg_xp_diff": -660,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 43,
-      "advantage": -2
+      "avg_gold_diff": 904,
+      "avg_xp_diff": 168,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 47,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1342,
-      "avg_xp_diff": 842,
-      "avg_cs_diff": 18.9,
-      "sample_frames": 16,
+      "avg_gold_diff": 1471,
+      "avg_xp_diff": 715,
+      "avg_cs_diff": -9.3,
+      "sample_frames": 44,
       "advantage": 2
     }
   ],
@@ -54,24 +54,108 @@
   "champB": "Zaahen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 0.0,
-      "kda": 4.0,
-      "avgDamage": 9169
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 20.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 0.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 14.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 16.7
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 5.3,
+      "avgAssists": 3.0,
+      "kda": 1.65,
+      "avgDamage": 24458
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 0.0,
-      "kda": 1.0,
-      "avgDamage": 4084
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 5.1,
+      "avgDeaths": 4.1,
+      "avgAssists": 4.9,
+      "kda": 2.41,
+      "avgDamage": 18244
     }
   }
 }

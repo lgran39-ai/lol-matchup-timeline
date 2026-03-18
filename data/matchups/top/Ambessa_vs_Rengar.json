@@ -1,55 +1,119 @@
 {
-  "champA": "Ambessa",
-  "champB": "Rengar",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.552443",
+  "updated_at": "2026-03-19T03:29:38.242057",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -35,
-      "avg_xp_diff": -50,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -182,
+      "avg_xp_diff": -97,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -133,
-      "avg_xp_diff": -78,
-      "avg_cs_diff": -11.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -436,
+      "avg_xp_diff": -244,
+      "avg_cs_diff": -12.0,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 110,
-      "avg_xp_diff": 579,
-      "avg_cs_diff": -13.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -628,
+      "avg_xp_diff": -624,
+      "avg_cs_diff": -15.8,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 418,
-      "avg_xp_diff": 1781,
-      "avg_cs_diff": 0.5,
-      "sample_frames": 10,
-      "advantage": 2
+      "label": "mid_game",
+      "avg_gold_diff": -524,
+      "avg_xp_diff": 549,
+      "avg_cs_diff": -9.7,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 1513,
-      "avg_xp_diff": 2001,
-      "avg_cs_diff": -11.1,
-      "sample_frames": 9,
+      "label": "late_game",
+      "avg_gold_diff": 974,
+      "avg_xp_diff": 1792,
+      "avg_cs_diff": -10.5,
+      "sample_frames": 11,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Ambessa",
+  "champB": "Rengar",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 7.0,
+      "kda": 2.67,
+      "avgDamage": 31616
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 5.5,
+      "kda": 2.71,
+      "avgDamage": 28684
+    }
+  }
 }

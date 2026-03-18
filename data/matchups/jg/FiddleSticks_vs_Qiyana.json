@@ -1,70 +1,179 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.553201",
+  "sample_size": 7,
+  "overall_winrate_a": 28.6,
+  "updated_at": "2026-03-19T03:29:38.935350",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 162,
-      "avg_xp_diff": 133,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -54,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 732,
-      "avg_xp_diff": 661,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -506,
+      "avg_xp_diff": -240,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 35,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1812,
-      "avg_xp_diff": 1451,
-      "avg_cs_diff": 8.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -1177,
+      "avg_xp_diff": -679,
+      "avg_cs_diff": -15.0,
+      "sample_frames": 35,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2340,
-      "avg_xp_diff": 1492,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -2984,
+      "avg_xp_diff": -2090,
+      "avg_cs_diff": -35.9,
+      "sample_frames": 68,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3085,
+      "avg_xp_diff": -2421,
+      "avg_cs_diff": -48.5,
+      "sample_frames": 28,
+      "advantage": -2
     }
   ],
   "champA": "FiddleSticks",
   "champB": "Qiyana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 5.0,
-      "kda": 14.0,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 28.6
+        }
+      ],
+      "avgKills": 7.4,
+      "avgDeaths": 5.3,
+      "avgAssists": 6.3,
+      "kda": 2.59,
+      "avgDamage": 17586
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 0.33,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Serylda's Grudge",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 83.3
+        },
+        {
+          "name": "Edge of Night",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 83.3
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Hubris",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 83.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 71.4
+        }
+      ],
+      "avgKills": 11.3,
+      "avgDeaths": 3.9,
+      "avgAssists": 7.0,
+      "kda": 4.74,
+      "avgDamage": 26287
     }
   }
 }

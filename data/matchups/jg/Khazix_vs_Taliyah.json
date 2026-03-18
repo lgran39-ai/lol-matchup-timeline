@@ -1,68 +1,191 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-18T14:05:25.188961",
+  "sample_size": 12,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.723207",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -40,
-      "avg_xp_diff": -4,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 15,
+      "avg_gold_diff": 26,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 60,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -519,
-      "avg_xp_diff": -251,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": 20,
+      "avg_xp_diff": 9,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 60,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1045,
-      "avg_xp_diff": -750,
-      "avg_cs_diff": -6.1,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": 381,
+      "avg_xp_diff": 42,
+      "avg_cs_diff": -6.2,
+      "sample_frames": 60,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2103,
-      "avg_xp_diff": -2203,
-      "avg_cs_diff": -24.2,
-      "sample_frames": 26,
-      "advantage": -2
+      "avg_gold_diff": 551,
+      "avg_xp_diff": 68,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 110,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 372,
+      "avg_xp_diff": -1299,
+      "avg_cs_diff": -35.9,
+      "sample_frames": 58,
+      "advantage": 1
     }
   ],
   "champA": "Khazix",
   "champB": "Taliyah",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 5.0,
-      "kda": 1.0,
-      "avgDamage": 11468
+      "items": [
+        {
+          "name": "Umbral Glaive",
+          "count": 9,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Edge of Night",
+          "count": 7,
+          "pickRate": 58.3,
+          "winRate": 42.9
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 7,
+          "pickRate": 58.3,
+          "winRate": 28.6
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Opportunity",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 9,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 12,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.8,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.2,
+      "kda": 3.06,
+      "avgDamage": 19800
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 18.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 15.0,
-      "kda": 16.5,
-      "avgDamage": 38935
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 11,
+          "pickRate": 91.7,
+          "winRate": 54.5
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 10,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 6,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 11,
+          "pickRate": 91.7,
+          "winRate": 54.5
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 12,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.8,
+      "avgDeaths": 5.2,
+      "avgAssists": 7.4,
+      "kda": 2.55,
+      "avgDamage": 18399
     }
   }
 }

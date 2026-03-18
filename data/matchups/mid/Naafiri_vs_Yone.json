@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 5,
-  "overall_winrate_a": 20.0,
-  "updated_at": "2026-03-18T14:05:25.434819",
+  "sample_size": 3,
+  "overall_winrate_a": 0.0,
+  "updated_at": "2026-03-19T03:29:40.029507",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -59,
-      "avg_xp_diff": -67,
-      "avg_cs_diff": -1.1,
-      "sample_frames": 25,
+      "avg_gold_diff": -54,
+      "avg_xp_diff": -137,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -439,
-      "avg_xp_diff": -434,
-      "avg_cs_diff": -8.7,
-      "sample_frames": 25,
+      "avg_gold_diff": -581,
+      "avg_xp_diff": -590,
+      "avg_cs_diff": -12.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -401,
-      "avg_xp_diff": -750,
-      "avg_cs_diff": -10.1,
-      "sample_frames": 25,
+      "avg_gold_diff": -1129,
+      "avg_xp_diff": -1182,
+      "avg_cs_diff": -25.5,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -931,
-      "avg_xp_diff": -1019,
-      "avg_cs_diff": -19.5,
-      "sample_frames": 37,
+      "avg_gold_diff": -2055,
+      "avg_xp_diff": -2840,
+      "avg_cs_diff": -52.6,
+      "sample_frames": 22,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1795,
-      "avg_xp_diff": -2038,
-      "avg_cs_diff": -36.2,
-      "sample_frames": 24,
+      "avg_gold_diff": -2881,
+      "avg_xp_diff": -3415,
+      "avg_cs_diff": -61.3,
+      "sample_frames": 12,
       "advantage": -2
     }
   ],
@@ -56,55 +56,76 @@
     "champA": {
       "items": [
         {
-          "name": "Black Cleaver",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
-        },
-        {
-          "name": "Armored Advance",
-          "count": 2,
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 9.0,
-      "kda": 1.88,
-      "avgDamage": 22620
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 3.7,
+      "kda": 1.0,
+      "avgDamage": 16187
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         },
         {
           "name": "Immortal Shieldbow",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [
         {
-          "spells": "Exhaust+Flash",
-          "count": 2,
+          "spells": "Flash+Teleport",
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 12.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 9.5,
-      "kda": 3.14,
-      "avgDamage": 48094
+      "avgKills": 4.0,
+      "avgDeaths": 4.3,
+      "avgAssists": 9.7,
+      "kda": 3.15,
+      "avgDamage": 28020
     }
   }
 }

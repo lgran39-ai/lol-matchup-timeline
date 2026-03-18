@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-18T14:05:24.140825",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T03:29:38.439048",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -4,
-      "avg_xp_diff": 48,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 15,
+      "avg_gold_diff": -73,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -156,
-      "avg_xp_diff": -13,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": 51,
+      "avg_xp_diff": 292,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 180,
-      "avg_xp_diff": 463,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 610,
+      "avg_xp_diff": 1052,
+      "avg_cs_diff": 8.7,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 962,
-      "avg_xp_diff": 1384,
-      "avg_cs_diff": 17.3,
-      "sample_frames": 26,
+      "avg_gold_diff": 1703,
+      "avg_xp_diff": 2093,
+      "avg_cs_diff": 23.1,
+      "sample_frames": 27,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2489,
-      "avg_xp_diff": 2677,
-      "avg_cs_diff": 49.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 2048,
+      "avg_xp_diff": 947,
+      "avg_cs_diff": 56.4,
+      "sample_frames": 14,
       "advantage": 2
     }
   ],
@@ -54,45 +54,96 @@
   "champB": "Lux",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.0,
+      "kda": 2.82,
+      "avgDamage": 20521
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 3.5,
-      "kda": 2.38,
-      "avgDamage": 22442
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Crimson Lucidity",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
-        }
-      ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 10.0,
-      "kda": 3.0,
-      "avgDamage": 16849
+      "avgKills": 2.8,
+      "avgDeaths": 8.0,
+      "avgAssists": 6.0,
+      "kda": 1.09,
+      "avgDamage": 16156
     }
   }
 }

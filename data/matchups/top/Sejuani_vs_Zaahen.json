@@ -1,55 +1,125 @@
 {
-  "champA": "Sejuani",
-  "champB": "Zaahen",
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:06.211650",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T03:29:40.402281",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -86,
-      "avg_xp_diff": -25,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -68,
+      "avg_xp_diff": -18,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -522,
-      "avg_xp_diff": -364,
-      "avg_cs_diff": -25.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -195,
+      "avg_xp_diff": 63,
+      "avg_cs_diff": -10.4,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1089,
-      "avg_xp_diff": -1400,
-      "avg_cs_diff": -37.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -131,
+      "avg_xp_diff": 182,
+      "avg_cs_diff": -7.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -2323,
-      "avg_xp_diff": -3283,
-      "avg_cs_diff": -56.2,
-      "sample_frames": 10,
+      "label": "mid_game",
+      "avg_gold_diff": -1047,
+      "avg_xp_diff": -1429,
+      "avg_cs_diff": -23.9,
+      "sample_frames": 21,
       "advantage": -2
     },
     {
       "phase": "25min+",
-      "label": "終盤",
+      "label": "late_game",
       "avg_gold_diff": -4344,
       "avg_xp_diff": -6214,
       "avg_cs_diff": -96.2,
       "sample_frames": 6,
       "advantage": -2
     }
-  ]
+  ],
+  "champA": "Sejuani",
+  "champB": "Zaahen",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Teleport+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.3,
+      "kda": 1.07,
+      "avgDamage": 18193
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 4.0,
+      "avgAssists": 6.7,
+      "kda": 2.5,
+      "avgDamage": 19737
+    }
+  }
 }

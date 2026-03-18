@@ -1,70 +1,131 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:25.750706",
+  "sample_size": 3,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T03:29:40.477607",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -76,
-      "avg_xp_diff": -31,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -23,
+      "avg_xp_diff": 2,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 133,
-      "avg_xp_diff": 597,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -191,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": 7.7,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -389,
-      "avg_xp_diff": 689,
-      "avg_cs_diff": 7.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -328,
+      "avg_xp_diff": -250,
+      "avg_cs_diff": 11.7,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1178,
-      "avg_xp_diff": 682,
-      "avg_cs_diff": 9.5,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": -162,
+      "avg_xp_diff": -1062,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 20,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -181,
+      "avg_xp_diff": -3014,
+      "avg_cs_diff": -38.5,
+      "sample_frames": 4,
+      "advantage": -1
     }
   ],
   "champA": "Swain",
   "champB": "Talon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 0.0,
-      "kda": 0.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 4.0,
+      "avgAssists": 6.0,
+      "kda": 2.42,
+      "avgDamage": 16481
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.0,
-      "kda": 1.5,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "items": [
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 3.7,
+      "avgAssists": 4.0,
+      "kda": 2.91,
+      "avgDamage": 18827
     }
   }
 }

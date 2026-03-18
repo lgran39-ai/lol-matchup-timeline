@@ -1,55 +1,143 @@
 {
-  "champA": "Rengar",
-  "champB": "Rumble",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-13T23:57:06.150165",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:40.319303",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 13,
-      "avg_xp_diff": 22,
-      "avg_cs_diff": 1.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": 60,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -348,
-      "avg_xp_diff": -375,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 160,
+      "avg_xp_diff": 65,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1314,
-      "avg_xp_diff": -1854,
-      "avg_cs_diff": -28.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -12,
+      "avg_xp_diff": -351,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -2552,
-      "avg_xp_diff": -2021,
-      "avg_cs_diff": -32.4,
-      "sample_frames": 20,
-      "advantage": -2
+      "label": "mid_game",
+      "avg_gold_diff": 396,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 58,
+      "advantage": 1
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": -3232,
-      "avg_xp_diff": -2639,
-      "avg_cs_diff": -30.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "label": "late_game",
+      "avg_gold_diff": 3725,
+      "avg_xp_diff": 2574,
+      "avg_cs_diff": 59.8,
+      "sample_frames": 28,
+      "advantage": 2
     }
-  ]
+  ],
+  "champA": "Rengar",
+  "champB": "Rumble",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 6.2,
+      "avgAssists": 5.8,
+      "kda": 1.73,
+      "avgDamage": 19758
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 6.2,
+      "avgAssists": 5.7,
+      "kda": 1.73,
+      "avgDamage": 25081
+    }
+  }
 }

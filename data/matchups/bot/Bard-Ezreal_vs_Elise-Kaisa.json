@@ -1,52 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:26.462416",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:41.785264",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -629,
-      "avg_xp_diff": -223,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 16,
+      "avg_xp_diff": 51,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1748,
-      "avg_xp_diff": -653,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -120,
+      "avg_xp_diff": 442,
+      "avg_cs_diff": 4.4,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1799,
-      "avg_xp_diff": -377,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -225,
+      "avg_xp_diff": 555,
+      "avg_cs_diff": -1.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4337,
-      "avg_xp_diff": -846,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 10,
-      "advantage": -2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": -5398,
-      "avg_xp_diff": 479,
-      "avg_cs_diff": 14.2,
-      "sample_frames": 15,
+      "avg_gold_diff": -3704,
+      "avg_xp_diff": -2084,
+      "avg_cs_diff": -6.6,
+      "sample_frames": 22,
       "advantage": -2
     }
   ],
@@ -64,50 +55,129 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 18.0,
-        "kda": 3.57,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 2.7,
+        "avgDeaths": 4.7,
+        "avgAssists": 3.0,
+        "kda": 1.21,
+        "avgDamage": 11792
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 21.0,
-        "kda": 3.67,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "avgDeaths": 3.3,
+        "avgAssists": 8.3,
+        "kda": 2.8,
+        "avgDamage": 7847
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 17.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 10.0,
-        "kda": 3.38,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 4.7,
+        "avgAssists": 5.0,
+        "kda": 1.93,
+        "avgDamage": 14022
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 13.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 13.0,
-        "kda": 3.25,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 5.7,
+        "avgDeaths": 3.3,
+        "avgAssists": 5.7,
+        "kda": 3.4,
+        "avgDamage": 12884
       }
     }
   }

@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:27.012218",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:43.127967",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -369,
-      "avg_xp_diff": -305,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 38,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -517,
-      "avg_xp_diff": -595,
-      "avg_cs_diff": -18.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 304,
+      "avg_xp_diff": 123,
+      "avg_cs_diff": 10.5,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1770,
-      "avg_xp_diff": -1186,
-      "avg_cs_diff": -27.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 1111,
+      "avg_xp_diff": 548,
+      "avg_cs_diff": 20.5,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1203,
-      "avg_xp_diff": -71,
-      "avg_cs_diff": -24.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 346,
+      "avg_xp_diff": -425,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 29,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2625,
-      "avg_xp_diff": 4018,
-      "avg_cs_diff": -7.5,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -5850,
+      "avg_xp_diff": -5058,
+      "avg_cs_diff": -27.7,
+      "sample_frames": 6,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -64,50 +64,142 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 15.0,
-        "kda": 2.45,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 5.3,
+        "avgDeaths": 7.3,
+        "avgAssists": 4.7,
+        "kda": 1.36,
+        "avgDamage": 26016
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 22.0,
-        "kda": 5.0,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 1.7,
+        "avgDeaths": 6.3,
+        "avgAssists": 13.3,
+        "kda": 2.37,
+        "avgDamage": 10902
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 9.0,
-        "kda": 3.6,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 10.0,
+        "avgDeaths": 4.7,
+        "avgAssists": 8.0,
+        "kda": 3.86,
+        "avgDamage": 28308
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 15.0,
-        "kda": 2.11,
-        "avgDamage": 0,
-        "note": "ビルドデータ収集中"
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 0.7,
+        "avgDeaths": 5.7,
+        "avgAssists": 16.0,
+        "kda": 2.94,
+        "avgDamage": 5882
       }
     }
   }

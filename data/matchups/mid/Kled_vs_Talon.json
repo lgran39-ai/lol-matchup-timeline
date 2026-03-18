@@ -1,46 +1,118 @@
 {
-  "champA": "Kled",
-  "champB": "Talon",
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:05.662628",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.755852",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 13,
-      "avg_xp_diff": 16,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -108,
+      "avg_xp_diff": -45,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -302,
-      "avg_xp_diff": 159,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -350,
+      "avg_xp_diff": -148,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -239,
-      "avg_xp_diff": 230,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -584,
+      "avg_xp_diff": -577,
+      "avg_cs_diff": -15.3,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 14,
-      "avg_xp_diff": 241,
-      "avg_cs_diff": -15.0,
-      "sample_frames": 2,
-      "advantage": 0
+      "label": "mid_game",
+      "avg_gold_diff": -1616,
+      "avg_xp_diff": -3170,
+      "avg_cs_diff": -45.9,
+      "sample_frames": 12,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4141,
+      "avg_xp_diff": -7493,
+      "avg_cs_diff": -100.2,
+      "sample_frames": 5,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Kled",
+  "champB": "Talon",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 8.5,
+      "kda": 1.79,
+      "avgDamage": 13974
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 2.0,
+      "avgAssists": 3.5,
+      "kda": 5.5,
+      "avgDamage": 20958
+    }
+  }
 }

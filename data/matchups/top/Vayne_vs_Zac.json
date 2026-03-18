@@ -1,46 +1,91 @@
 {
-  "champA": "Vayne",
-  "champB": "Zac",
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:06.368647",
+  "updated_at": "2026-03-19T03:29:40.606220",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 30,
-      "avg_xp_diff": 46,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 110,
+      "avg_xp_diff": -82,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 107,
-      "avg_xp_diff": -183,
-      "avg_cs_diff": 9.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 74,
+      "avg_xp_diff": -520,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 596,
-      "avg_xp_diff": 791,
-      "avg_cs_diff": 13.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 228,
+      "avg_xp_diff": -233,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 3627,
-      "avg_xp_diff": 3609,
-      "avg_cs_diff": 33.3,
-      "sample_frames": 7,
+      "label": "mid_game",
+      "avg_gold_diff": 662,
+      "avg_xp_diff": 251,
+      "avg_cs_diff": 16.6,
+      "sample_frames": 17,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1923,
+      "avg_xp_diff": -1316,
+      "avg_cs_diff": 29.4,
+      "sample_frames": 7,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Vayne",
+  "champB": "Zac",
+  "buildStats": {
+    "champA": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [],
+      "avgKills": 6.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 7.0,
+      "kda": 2.45,
+      "avgDamage": 27138
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 5.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 4.5,
+      "kda": 1.67,
+      "avgDamage": 14594
+    }
+  }
 }

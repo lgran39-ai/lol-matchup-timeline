@@ -1,77 +1,96 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:24.011366",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:38.259955",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 13,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 84,
+      "avg_xp_diff": 100,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 206,
-      "avg_xp_diff": 79,
-      "avg_cs_diff": 2.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 172,
+      "avg_xp_diff": 269,
+      "avg_cs_diff": 9.7,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 692,
-      "avg_xp_diff": 449,
-      "avg_cs_diff": 6.1,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 42,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": 10.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1048,
-      "avg_xp_diff": 1278,
-      "avg_cs_diff": 9.2,
-      "sample_frames": 16,
+      "avg_gold_diff": 4074,
+      "avg_xp_diff": 3105,
+      "avg_cs_diff": 62.2,
+      "sample_frames": 14,
       "advantage": 2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": -95,
-      "avg_xp_diff": 184,
-      "avg_cs_diff": -17.3,
-      "sample_frames": 3,
-      "advantage": 0
     }
   ],
   "champA": "Ambessa",
   "champB": "Udyr",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 7.0,
-      "kda": 3.5,
-      "avgDamage": 14582
+      "items": [
+        {
+          "name": "Axiom Arc",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 3.0,
+      "avgAssists": 2.7,
+      "kda": 3.0,
+      "avgDamage": 10482
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 0.83,
-      "avgDamage": 7987
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 2.7,
+      "avgAssists": 5.3,
+      "kda": 4.0,
+      "avgDamage": 10137
     }
   }
 }

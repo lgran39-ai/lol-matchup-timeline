@@ -1,77 +1,137 @@
 {
   "role": "top",
   "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:25.847338",
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T03:29:40.591423",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 55,
-      "avg_xp_diff": -67,
-      "avg_cs_diff": -3.0,
+      "avg_gold_diff": -54,
+      "avg_xp_diff": -44,
+      "avg_cs_diff": -3.2,
       "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 47,
-      "avg_xp_diff": -133,
-      "avg_cs_diff": -7.2,
+      "avg_gold_diff": -312,
+      "avg_xp_diff": -99,
+      "avg_cs_diff": -7.6,
       "sample_frames": 15,
-      "advantage": 0
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 59,
-      "avg_xp_diff": 64,
-      "avg_cs_diff": -10.4,
+      "avg_gold_diff": -1093,
+      "avg_xp_diff": -969,
+      "avg_cs_diff": -21.7,
       "sample_frames": 15,
-      "advantage": 0
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 812,
-      "avg_xp_diff": 1337,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 19,
-      "advantage": 2
+      "avg_gold_diff": -2443,
+      "avg_xp_diff": -3206,
+      "avg_cs_diff": -48.0,
+      "sample_frames": 30,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1107,
-      "avg_xp_diff": 1437,
-      "avg_cs_diff": -13.8,
-      "sample_frames": 9,
-      "advantage": 2
+      "avg_gold_diff": -5098,
+      "avg_xp_diff": -5108,
+      "avg_cs_diff": -77.1,
+      "sample_frames": 30,
+      "advantage": -2
     }
   ],
   "champA": "Urgot",
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 9.0,
-      "kda": 9.5,
-      "avgDamage": 20073
+      "items": [
+        {
+          "name": "Edge of Night",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 10.7,
+      "avgAssists": 5.0,
+      "kda": 0.84,
+      "avgDamage": 19146
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.0,
-      "kda": 2.0,
-      "avgDamage": 20317
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 11.7,
+      "avgDeaths": 6.3,
+      "avgAssists": 7.3,
+      "kda": 3.0,
+      "avgDamage": 40323
     }
   }
 }

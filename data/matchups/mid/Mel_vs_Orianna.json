@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 7,
-  "overall_winrate_a": 28.6,
-  "updated_at": "2026-03-18T14:05:25.370895",
+  "sample_size": 14,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.967033",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 85,
-      "avg_xp_diff": 59,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 35,
+      "avg_gold_diff": -34,
+      "avg_xp_diff": -38,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 70,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 443,
-      "avg_xp_diff": 160,
-      "avg_cs_diff": 5.3,
-      "sample_frames": 35,
-      "advantage": 2
+      "avg_gold_diff": -249,
+      "avg_xp_diff": -219,
+      "avg_cs_diff": -7.5,
+      "sample_frames": 70,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 338,
-      "avg_xp_diff": -93,
-      "avg_cs_diff": 5.3,
-      "sample_frames": 35,
-      "advantage": 1
+      "avg_gold_diff": -626,
+      "avg_xp_diff": -637,
+      "avg_cs_diff": -13.1,
+      "sample_frames": 70,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 446,
-      "avg_xp_diff": -270,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 70,
-      "advantage": 2
+      "avg_gold_diff": -431,
+      "avg_xp_diff": -194,
+      "avg_cs_diff": -14.3,
+      "sample_frames": 107,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 672,
-      "avg_xp_diff": 163,
-      "avg_cs_diff": 2.1,
-      "sample_frames": 30,
-      "advantage": 2
+      "avg_gold_diff": 68,
+      "avg_xp_diff": 242,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 38,
+      "advantage": 0
     }
   ],
   "champA": "Mel",
@@ -56,88 +56,172 @@
     "champA": {
       "items": [
         {
+          "name": "Luden's Echo",
+          "count": 12,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 7,
+          "pickRate": 50.0,
+          "winRate": 57.1
+        },
+        {
+          "name": "Shadowflame",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Horizon Focus",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        },
+        {
           "name": "Blackfire Torch",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 14.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 14,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 11,
+          "pickRate": 78.6,
+          "winRate": 54.5
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 21.4,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.9,
+      "avgDeaths": 4.7,
+      "avgAssists": 4.1,
+      "kda": 2.14,
+      "avgDamage": 18502
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 10,
+          "pickRate": 71.4,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 7,
+          "pickRate": 50.0,
+          "winRate": 71.4
+        },
+        {
+          "name": "Shadowflame",
+          "count": 6,
+          "pickRate": 42.9,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 5,
+          "pickRate": 35.7,
           "winRate": 0.0
         },
         {
           "name": "Spellslinger's Shoes",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
+          "count": 4,
+          "pickRate": 28.6,
+          "winRate": 50.0
         },
         {
-          "name": "Shadowflame",
+          "name": "Horizon Focus",
+          "count": 3,
+          "pickRate": 21.4,
+          "winRate": 33.3
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 21.4,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 14.3,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 0.0
-        }
-      ],
-      "avgKills": 7.3,
-      "avgDeaths": 7.7,
-      "avgAssists": 1.3,
-      "kda": 1.13,
-      "avgDamage": 19737
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Luden's Echo",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 7,
+          "pickRate": 50.0,
+          "winRate": 28.6
         },
-        {
-          "name": "Shadowflame",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
-        },
-        {
-          "name": "Spellslinger's Shoes",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
-        }
-      ],
-      "keystones": [
         {
           "name": "Phase Rush",
+          "count": 5,
+          "pickRate": 35.7,
+          "winRate": 80.0
+        },
+        {
+          "name": "Summon Aery",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
+          "pickRate": 14.3,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 10,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 4,
+          "pickRate": 28.6,
+          "winRate": 25.0
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.3,
-      "kda": 4.44,
-      "avgDamage": 23657
+      "avgKills": 4.9,
+      "avgDeaths": 4.4,
+      "avgAssists": 5.6,
+      "kda": 2.43,
+      "avgDamage": 18362
     }
   }
 }

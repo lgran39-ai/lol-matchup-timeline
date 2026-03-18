@@ -1,77 +1,185 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:25.568613",
+  "sample_size": 7,
+  "overall_winrate_a": 28.6,
+  "updated_at": "2026-03-19T03:29:40.240802",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -39,
-      "avg_xp_diff": 3,
-      "avg_cs_diff": -2.3,
-      "sample_frames": 15,
+      "avg_gold_diff": -50,
+      "avg_xp_diff": -79,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -280,
-      "avg_xp_diff": -291,
-      "avg_cs_diff": -9.9,
-      "sample_frames": 15,
+      "avg_gold_diff": -225,
+      "avg_xp_diff": -521,
+      "avg_cs_diff": -19.1,
+      "sample_frames": 35,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -424,
-      "avg_xp_diff": -437,
-      "avg_cs_diff": -17.6,
-      "sample_frames": 15,
+      "avg_gold_diff": -663,
+      "avg_xp_diff": -849,
+      "avg_cs_diff": -28.2,
+      "sample_frames": 35,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 500,
-      "avg_xp_diff": -147,
-      "avg_cs_diff": -23.7,
-      "sample_frames": 22,
-      "advantage": 2
+      "avg_gold_diff": -683,
+      "avg_xp_diff": -874,
+      "avg_cs_diff": -35.5,
+      "sample_frames": 65,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1841,
-      "avg_xp_diff": 434,
-      "avg_cs_diff": -20.6,
-      "sample_frames": 17,
-      "advantage": 2
+      "avg_gold_diff": -1395,
+      "avg_xp_diff": -2572,
+      "avg_cs_diff": -45.6,
+      "sample_frames": 18,
+      "advantage": -2
     }
   ],
   "champA": "Qiyana",
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 4.0,
-      "avgDamage": 9647
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 4.6,
+      "kda": 1.87,
+      "avgDamage": 23325
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 1.0,
-      "avgDamage": 9776
+      "items": [
+        {
+          "name": "Armored Advance",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 71.4
+        },
+        {
+          "name": "Unending Despair",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 80.0
+        },
+        {
+          "name": "Titanic Hydra",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Overlord's Bloodmail",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 7,
+          "pickRate": 100.0,
+          "winRate": 71.4
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.3,
+      "kda": 2.6,
+      "avgDamage": 22022
     }
   }
 }

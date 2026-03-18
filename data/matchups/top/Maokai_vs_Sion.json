@@ -1,77 +1,105 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.354612",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T03:29:39.945992",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 18,
-      "avg_xp_diff": -80,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 10,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -483,
-      "avg_xp_diff": -565,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 60,
+      "avg_xp_diff": 131,
+      "avg_cs_diff": -6.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -771,
-      "avg_xp_diff": -542,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -147,
+      "avg_xp_diff": 56,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1575,
-      "avg_xp_diff": -651,
-      "avg_cs_diff": -19.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -360,
+      "avg_xp_diff": 37,
+      "avg_cs_diff": -11.2,
+      "sample_frames": 13,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1522,
-      "avg_xp_diff": -1074,
-      "avg_cs_diff": -37.2,
-      "sample_frames": 13,
-      "advantage": -2
+      "avg_gold_diff": 911,
+      "avg_xp_diff": 2493,
+      "avg_cs_diff": 9.8,
+      "sample_frames": 8,
+      "advantage": 2
     }
   ],
   "champA": "Maokai",
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 19.0,
-      "kda": 3.71,
-      "avgDamage": 51073
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.5,
+      "kda": 2.83,
+      "avgDamage": 25574
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 16.0,
-      "kda": 3.17,
-      "avgDamage": 48643
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.0,
+      "kda": 1.67,
+      "avgDamage": 24306
     }
   }
 }

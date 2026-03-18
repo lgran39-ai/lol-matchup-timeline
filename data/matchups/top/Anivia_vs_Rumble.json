@@ -1,55 +1,185 @@
 {
-  "champA": "Anivia",
-  "champB": "Rumble",
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-13T23:57:04.601300",
+  "sample_size": 9,
+  "overall_winrate_a": 44.4,
+  "updated_at": "2026-03-19T03:29:38.319278",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -6,
-      "avg_xp_diff": -15,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 15,
+      "avg_gold_diff": -37,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 45,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -33,
-      "avg_xp_diff": -26,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 15,
+      "avg_gold_diff": -1,
+      "avg_xp_diff": 164,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 45,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 65,
-      "avg_xp_diff": -147,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 343,
+      "avg_xp_diff": 676,
+      "avg_cs_diff": 5.4,
+      "sample_frames": 45,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": -156,
-      "avg_xp_diff": -143,
-      "avg_cs_diff": 2.5,
-      "sample_frames": 30,
-      "advantage": -1
+      "label": "mid_game",
+      "avg_gold_diff": -44,
+      "avg_xp_diff": 834,
+      "avg_cs_diff": 11.2,
+      "sample_frames": 82,
+      "advantage": 0
     },
     {
       "phase": "25min+",
-      "label": "終盤",
-      "avg_gold_diff": 113,
-      "avg_xp_diff": 2670,
-      "avg_cs_diff": 14.1,
-      "sample_frames": 29,
-      "advantage": 0
+      "label": "late_game",
+      "avg_gold_diff": -932,
+      "avg_xp_diff": 1452,
+      "avg_cs_diff": 12.8,
+      "sample_frames": 46,
+      "advantage": -2
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Rumble",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 9,
+          "pickRate": 100.0,
+          "winRate": 44.4
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shurelya's Battlesong",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 6,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.4,
+      "avgDeaths": 4.3,
+      "avgAssists": 6.2,
+      "kda": 2.23,
+      "avgDamage": 19499
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 50.0
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 3,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 33.3,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.2,
+      "kda": 2.11,
+      "avgDamage": 24062
+    }
+  }
 }

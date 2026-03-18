@@ -1,46 +1,116 @@
 {
-  "champA": "Anivia",
-  "champB": "Gwen",
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-13T23:57:04.585709",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T03:29:38.297790",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 27,
-      "avg_xp_diff": 118,
-      "avg_cs_diff": 1.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 2,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 338,
-      "avg_xp_diff": 434,
-      "avg_cs_diff": 7.4,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 76,
+      "avg_xp_diff": 224,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 535,
-      "avg_xp_diff": 773,
-      "avg_cs_diff": 11.2,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 31,
+      "avg_xp_diff": 267,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
-      "label": "中盤",
-      "avg_gold_diff": 513,
-      "avg_xp_diff": 803,
-      "avg_cs_diff": 16.3,
-      "sample_frames": 9,
+      "label": "mid_game",
+      "avg_gold_diff": 531,
+      "avg_xp_diff": 1387,
+      "avg_cs_diff": 11.7,
+      "sample_frames": 29,
       "advantage": 2
     }
-  ]
+  ],
+  "champA": "Anivia",
+  "champB": "Gwen",
+  "buildStats": {
+    "champA": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 1.8,
+      "avgDeaths": 1.4,
+      "avgAssists": 2.4,
+      "kda": 3.0,
+      "avgDamage": 13713
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 1.8,
+      "avgDeaths": 3.4,
+      "avgAssists": 1.0,
+      "kda": 0.82,
+      "avgDamage": 10902
+    }
+  }
 }

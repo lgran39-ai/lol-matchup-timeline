@@ -1,77 +1,185 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:23.887102",
+  "sample_size": 12,
+  "overall_winrate_a": 41.7,
+  "updated_at": "2026-03-19T03:29:38.087572",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 62,
-      "avg_xp_diff": 27,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 15,
+      "avg_gold_diff": -82,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 60,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 251,
-      "avg_xp_diff": -61,
-      "avg_cs_diff": 2.5,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": -351,
+      "avg_xp_diff": -108,
+      "avg_cs_diff": -6.2,
+      "sample_frames": 60,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 308,
-      "avg_xp_diff": -325,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": -355,
+      "avg_xp_diff": -126,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 60,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1981,
-      "avg_xp_diff": 1305,
-      "avg_cs_diff": 37.5,
-      "sample_frames": 22,
-      "advantage": 2
+      "avg_gold_diff": -76,
+      "avg_xp_diff": 454,
+      "avg_cs_diff": -6.4,
+      "sample_frames": 103,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1703,
-      "avg_xp_diff": -508,
-      "avg_cs_diff": 40.7,
-      "sample_frames": 12,
-      "advantage": 2
+      "avg_gold_diff": 38,
+      "avg_xp_diff": 333,
+      "avg_cs_diff": -12.9,
+      "sample_frames": 44,
+      "advantage": 0
     }
   ],
   "champA": "Akali",
   "champB": "Kennen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 7.0,
-      "kda": 2.33,
-      "avgDamage": 29271
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 10,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 6,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 12,
+          "pickRate": 100.0,
+          "winRate": 41.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 50.0,
+          "winRate": 16.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Teleport+Ignite",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 5.5,
+      "avgAssists": 2.8,
+      "kda": 1.38,
+      "avgDamage": 18383
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 11.0,
-      "kda": 1.7,
-      "avgDamage": 32687
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 10,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 5,
+          "pickRate": 41.7,
+          "winRate": 60.0
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 25.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Banshee's Veil",
+          "count": 2,
+          "pickRate": 16.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 12,
+          "pickRate": 100.0,
+          "winRate": 58.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.1,
+      "avgDeaths": 4.7,
+      "avgAssists": 5.5,
+      "kda": 2.27,
+      "avgDamage": 20929
     }
   }
 }

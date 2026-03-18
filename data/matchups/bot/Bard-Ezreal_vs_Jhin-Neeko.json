@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:26.463412",
+  "sample_size": 2,
+  "overall_winrate_a": 0.0,
+  "updated_at": "2026-03-19T03:29:41.792149",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 26,
-      "avg_xp_diff": -65,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -243,
+      "avg_xp_diff": -108,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 311,
-      "avg_xp_diff": -314,
-      "avg_cs_diff": -12.6,
-      "sample_frames": 5,
-      "advantage": 1
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": 460,
-      "avg_xp_diff": -631,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
-      "advantage": 1
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": -1156,
-      "avg_xp_diff": -2049,
-      "avg_cs_diff": -3.4,
+      "avg_gold_diff": -1382,
+      "avg_xp_diff": -759,
+      "avg_cs_diff": -15.3,
       "sample_frames": 10,
       "advantage": -2
     },
     {
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": -2600,
+      "avg_xp_diff": -1154,
+      "avg_cs_diff": -27.3,
+      "sample_frames": 10,
+      "advantage": -2
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -680,
+      "avg_xp_diff": 781,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 12,
+      "advantage": -1
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1952,
-      "avg_xp_diff": -3873,
-      "avg_cs_diff": 12.0,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 33,
+      "avg_xp_diff": 124,
+      "avg_cs_diff": 35.3,
+      "sample_frames": 3,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -66,44 +66,93 @@
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 12.0,
-        "avgAssists": 8.0,
-        "kda": 1.33,
-        "avgDamage": 29328
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 2.0,
+        "kda": 1.3,
+        "avgDamage": 17730
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 0.0,
         "avgDeaths": 5.0,
-        "avgAssists": 19.0,
-        "kda": 4.6,
-        "avgDamage": 11450
+        "avgAssists": 7.5,
+        "kda": 1.5,
+        "avgDamage": 5152
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 13.0,
-        "kda": 4.4,
-        "avgDamage": 38752
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 2.0,
+        "avgAssists": 7.5,
+        "kda": 7.25,
+        "avgDamage": 14626
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 21.0,
-        "kda": 3.0,
-        "avgDamage": 26140
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 2.5,
+        "avgAssists": 10.5,
+        "kda": 4.8,
+        "avgDamage": 11689
       }
     }
   }

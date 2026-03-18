@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:25.552211",
+  "updated_at": "2026-03-19T03:29:40.202269",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 138,
-      "avg_xp_diff": 112,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 118,
+      "avg_xp_diff": 104,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -21,
-      "avg_xp_diff": 9,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 358,
+      "avg_xp_diff": 684,
+      "avg_cs_diff": 18.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 642,
-      "avg_xp_diff": 794,
-      "avg_cs_diff": 9.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -575,
+      "avg_xp_diff": -441,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1444,
-      "avg_xp_diff": 1708,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -722,
+      "avg_xp_diff": -372,
+      "avg_cs_diff": 8.7,
+      "sample_frames": 19,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2788,
-      "avg_xp_diff": 3901,
-      "avg_cs_diff": 12.2,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -1834,
+      "avg_xp_diff": -1448,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 14,
+      "advantage": -2
     }
   ],
   "champA": "Pantheon",
@@ -55,23 +55,64 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 10.0,
-      "kda": 3.5,
-      "avgDamage": 29716
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 10.5,
+      "avgAssists": 10.5,
+      "kda": 1.52,
+      "avgDamage": 23752
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 11.0,
-      "avgAssists": 6.0,
-      "kda": 0.91,
-      "avgDamage": 15178
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 11.5,
+      "avgAssists": 7.0,
+      "kda": 1.39,
+      "avgDamage": 32560
     }
   }
 }
