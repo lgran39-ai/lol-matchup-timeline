@@ -1,43 +1,43 @@
 {
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.683073",
+  "updated_at": "2026-03-19T12:18:13.470385",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 125,
-      "avg_xp_diff": 14,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 70,
+      "avg_xp_diff": 35,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 842,
-      "avg_xp_diff": 370,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 268,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1201,
-      "avg_xp_diff": 1303,
-      "avg_cs_diff": 12.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 613,
+      "avg_xp_diff": 461,
+      "avg_cs_diff": 4.4,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1743,
-      "avg_xp_diff": 2028,
-      "avg_cs_diff": 26.3,
-      "sample_frames": 11,
+      "avg_gold_diff": 1625,
+      "avg_xp_diff": 1851,
+      "avg_cs_diff": 24.1,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -46,23 +46,58 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.5,
       "avgDeaths": 2.0,
-      "avgAssists": 9.0,
-      "kda": 8.0,
-      "avgDamage": 10399
+      "avgAssists": 6.5,
+      "kda": 6.0,
+      "avgDamage": 7606
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "avgKills": 2.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 8.0,
-      "kda": 1.67,
-      "avgDamage": 12373
+      "avgDeaths": 4.5,
+      "avgAssists": 4.5,
+      "kda": 1.44,
+      "avgDamage": 9052
     }
   }
 }

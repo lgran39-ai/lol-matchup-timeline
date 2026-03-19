@@ -1,68 +1,105 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.671396",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:13.427202",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 24,
-      "avg_xp_diff": -4,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 39,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 397,
-      "avg_xp_diff": 1,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 436,
+      "avg_xp_diff": 66,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 857,
-      "avg_xp_diff": 395,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 971,
+      "avg_xp_diff": 515,
+      "avg_cs_diff": 8.4,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1747,
-      "avg_xp_diff": 1121,
-      "avg_cs_diff": 15.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": 319,
+      "avg_xp_diff": -851,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 12,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1319,
+      "avg_xp_diff": -2525,
+      "avg_cs_diff": 6.0,
+      "sample_frames": 8,
+      "advantage": -2
     }
   ],
   "champA": "MasterYi",
   "champB": "Shyvana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 3.0,
-      "kda": 5.0,
-      "avgDamage": 4986
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 4.5,
+      "kda": 3.14,
+      "avgDamage": 16336
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 5983
+      "avgKills": 7.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 6.5,
+      "kda": 3.86,
+      "avgDamage": 22398
     }
   }
 }

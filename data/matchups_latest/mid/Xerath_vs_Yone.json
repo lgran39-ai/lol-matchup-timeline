@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:44.720307",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:13.642181",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -14,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 8,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -400,
-      "avg_xp_diff": -417,
-      "avg_cs_diff": -14.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -152,
+      "avg_xp_diff": -249,
+      "avg_cs_diff": -8.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1166,
-      "avg_xp_diff": -952,
-      "avg_cs_diff": -22.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -599,
+      "avg_xp_diff": -746,
+      "avg_cs_diff": -18.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3148,
-      "avg_xp_diff": -2934,
-      "avg_cs_diff": -50.7,
-      "sample_frames": 7,
+      "avg_gold_diff": -2439,
+      "avg_xp_diff": -2467,
+      "avg_cs_diff": -45.0,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
@@ -45,24 +45,65 @@
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 1.0,
-      "avgDeaths": 6.0,
+      "avgDeaths": 3.0,
       "avgAssists": 2.0,
-      "kda": 0.5,
-      "avgDamage": 11824
+      "kda": 1.0,
+      "avgDamage": 11212
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 1.0,
+      "avgAssists": 2.5,
       "kda": 5.5,
-      "avgDamage": 16437
+      "avgDamage": 12072
     }
   }
 }

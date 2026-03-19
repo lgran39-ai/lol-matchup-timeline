@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T03:29:39.261735",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T12:18:06.888857",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -171,
-      "avg_xp_diff": -86,
-      "avg_cs_diff": -3.1,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -12,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -992,
-      "avg_xp_diff": -609,
-      "avg_cs_diff": -19.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -495,
+      "avg_xp_diff": -279,
+      "avg_cs_diff": -8.4,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1835,
-      "avg_xp_diff": -1774,
-      "avg_cs_diff": -37.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -725,
+      "avg_xp_diff": -679,
+      "avg_cs_diff": -15.0,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2787,
-      "avg_xp_diff": -2152,
-      "avg_cs_diff": -47.4,
-      "sample_frames": 18,
+      "avg_gold_diff": -1191,
+      "avg_xp_diff": -1228,
+      "avg_cs_diff": -20.4,
+      "sample_frames": 28,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1976,
+      "avg_xp_diff": 588,
+      "avg_cs_diff": 40.7,
+      "sample_frames": 6,
+      "advantage": 2
     }
   ],
   "champA": "Gwen",
@@ -48,61 +57,68 @@
       "items": [
         {
           "name": "Riftmaker",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         },
         {
           "name": "Dusk and Dawn",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 8.0,
-      "kda": 1.8,
-      "avgDamage": 10449
+      "avgKills": 3.0,
+      "avgDeaths": 6.3,
+      "avgAssists": 6.3,
+      "kda": 1.47,
+      "avgDamage": 16166
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         },
         {
           "name": "Immortal Shieldbow",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [],
-      "avgKills": 8.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.5,
-      "kda": 2.75,
-      "avgDamage": 23648
+      "avgKills": 7.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 3.7,
+      "kda": 1.94,
+      "avgDamage": 23926
     }
   }
 }

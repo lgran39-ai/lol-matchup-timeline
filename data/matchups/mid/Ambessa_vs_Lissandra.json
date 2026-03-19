@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:38.218184",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T12:18:05.816890",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 50,
-      "avg_xp_diff": -16,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 10,
+      "avg_xp_diff": 9,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -66,
-      "avg_xp_diff": -208,
-      "avg_cs_diff": -15.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -42,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": -6.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -577,
-      "avg_xp_diff": -230,
-      "avg_cs_diff": -19.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -153,
+      "avg_xp_diff": 194,
+      "avg_cs_diff": -8.3,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1423,
-      "avg_xp_diff": -1450,
-      "avg_cs_diff": -33.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -964,
+      "avg_xp_diff": -696,
+      "avg_cs_diff": -16.9,
+      "sample_frames": 31,
       "advantage": -2
     },
     {
@@ -54,24 +54,77 @@
   "champB": "Lissandra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 15.0,
-      "avgAssists": 5.0,
-      "kda": 0.67,
-      "avgDamage": 23388
+      "avgKills": 4.0,
+      "avgDeaths": 9.0,
+      "avgAssists": 4.3,
+      "kda": 0.93,
+      "avgDamage": 20253
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 11.0,
-      "avgAssists": 15.0,
-      "kda": 1.82,
-      "avgDamage": 32183
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 11.0,
+      "kda": 2.55,
+      "avgDamage": 24200
     }
   }
 }

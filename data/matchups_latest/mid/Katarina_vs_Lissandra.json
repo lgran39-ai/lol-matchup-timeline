@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:44.646828",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T12:18:13.333241",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -132,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -105,
+      "avg_xp_diff": -23,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -423,
-      "avg_xp_diff": -130,
-      "avg_cs_diff": -13.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -120,
+      "avg_xp_diff": -15,
+      "avg_cs_diff": -6.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -529,
-      "avg_xp_diff": 65,
-      "avg_cs_diff": -11.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -258,
+      "avg_xp_diff": -290,
+      "avg_cs_diff": -11.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3848,
-      "avg_xp_diff": -1370,
-      "avg_cs_diff": -27.9,
-      "sample_frames": 9,
+      "avg_gold_diff": -2761,
+      "avg_xp_diff": -1659,
+      "avg_cs_diff": -23.4,
+      "sample_frames": 21,
       "advantage": -2
     }
   ],
@@ -45,24 +45,66 @@
   "champB": "Lissandra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 4.0,
-      "kda": 1.25,
-      "avgDamage": 17541
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 6.7,
+      "avgAssists": 3.0,
+      "kda": 1.0,
+      "avgDamage": 14544
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 17.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 7.0,
-      "kda": 6.0,
-      "avgDamage": 28540
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 5.7,
+      "kda": 4.6,
+      "avgDamage": 18680
     }
   }
 }

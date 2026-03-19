@@ -1,77 +1,137 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:44.638451",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:13.304633",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 140,
-      "avg_xp_diff": 66,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 50,
+      "avg_xp_diff": 24,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 268,
-      "avg_xp_diff": -150,
-      "avg_cs_diff": 14.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 384,
+      "avg_xp_diff": 236,
+      "avg_cs_diff": 9.4,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -146,
-      "avg_xp_diff": -941,
-      "avg_cs_diff": 14.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 608,
+      "avg_xp_diff": 96,
+      "avg_cs_diff": 15.2,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -56,
-      "avg_xp_diff": -2084,
-      "avg_cs_diff": 12.6,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 1193,
+      "avg_xp_diff": -215,
+      "avg_cs_diff": 20.6,
+      "sample_frames": 34,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -617,
-      "avg_xp_diff": -3319,
-      "avg_cs_diff": -17.5,
-      "sample_frames": 11,
-      "advantage": -2
+      "avg_gold_diff": 301,
+      "avg_xp_diff": -2201,
+      "avg_cs_diff": -7.9,
+      "sample_frames": 14,
+      "advantage": 1
     }
   ],
   "champA": "Jayce",
   "champB": "Teemo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 15.0,
-      "kda": 1.7,
-      "avgDamage": 34519
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 5.2,
+      "kda": 2.72,
+      "avgDamage": 23624
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 16.0,
-      "kda": 4.4,
-      "avgDamage": 30766
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 4.2,
+      "avgAssists": 6.0,
+      "kda": 2.35,
+      "avgDamage": 17507
     }
   }
 }

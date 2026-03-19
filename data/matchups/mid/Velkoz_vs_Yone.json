@@ -1,77 +1,124 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:40.610563",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:08.584187",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 323,
-      "avg_xp_diff": 131,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 154,
+      "avg_xp_diff": 59,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 587,
-      "avg_xp_diff": 223,
-      "avg_cs_diff": 14.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 106,
+      "avg_xp_diff": 10,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1418,
-      "avg_xp_diff": 802,
-      "avg_cs_diff": 25.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 158,
+      "avg_xp_diff": 139,
+      "avg_cs_diff": 3.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1577,
-      "avg_xp_diff": -131,
-      "avg_cs_diff": 15.0,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -316,
+      "avg_xp_diff": -1478,
+      "avg_cs_diff": -13.4,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 909,
-      "avg_xp_diff": -2406,
-      "avg_cs_diff": -8.2,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -254,
+      "avg_xp_diff": -2218,
+      "avg_cs_diff": -31.3,
+      "sample_frames": 7,
+      "advantage": -1
     }
   ],
   "champA": "Velkoz",
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 5.0,
-      "kda": 1.6,
-      "avgDamage": 16025
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
       "avgKills": 6.0,
-      "avgDeaths": 7.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.5,
+      "kda": 2.3,
+      "avgDamage": 21578
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 5.0,
       "avgAssists": 3.0,
-      "kda": 1.29,
-      "avgDamage": 25929
+      "kda": 1.9,
+      "avgDamage": 22128
     }
   }
 }

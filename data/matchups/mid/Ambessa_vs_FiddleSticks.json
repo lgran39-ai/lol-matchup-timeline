@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:38.188496",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:05.786606",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 32,
-      "avg_xp_diff": 157,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -16,
+      "avg_xp_diff": 71,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 501,
-      "avg_xp_diff": 896,
-      "avg_cs_diff": 9.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 150,
+      "avg_xp_diff": 515,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 226,
-      "avg_xp_diff": 950,
-      "avg_cs_diff": 14.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -10,
+      "avg_xp_diff": 368,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1804,
-      "avg_xp_diff": 2702,
-      "avg_cs_diff": 23.8,
-      "sample_frames": 11,
+      "avg_gold_diff": 524,
+      "avg_xp_diff": 1058,
+      "avg_cs_diff": 6.8,
+      "sample_frames": 17,
       "advantage": 2
     }
   ],
@@ -46,23 +46,64 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 3.67,
-      "avgDamage": 20765
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 2.5,
+      "kda": 1.86,
+      "avgDamage": 16068
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 2.0,
-      "kda": 0.67,
-      "avgDamage": 16917
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 5.5,
+      "kda": 2.29,
+      "avgDamage": 16319
     }
   }
 }

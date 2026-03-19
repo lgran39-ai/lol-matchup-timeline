@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.534128",
+  "sample_size": 6,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T12:18:12.874468",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -24,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -69,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 233,
-      "avg_xp_diff": 114,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -309,
+      "avg_xp_diff": -48,
+      "avg_cs_diff": -7.2,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1584,
-      "avg_xp_diff": 708,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 89,
+      "avg_xp_diff": 79,
+      "avg_cs_diff": -11.2,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3027,
-      "avg_xp_diff": 2064,
-      "avg_cs_diff": 14.3,
-      "sample_frames": 3,
+      "avg_gold_diff": 613,
+      "avg_xp_diff": -71,
+      "avg_cs_diff": -16.1,
+      "sample_frames": 49,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1414,
+      "avg_xp_diff": -741,
+      "avg_cs_diff": -27.5,
+      "sample_frames": 17,
       "advantage": 2
     }
   ],
@@ -45,24 +54,108 @@
   "champB": "Ryze",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
       "avgKills": 9.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 1.0,
-      "kda": 10.0,
-      "avgDamage": 14812
+      "avgDeaths": 4.7,
+      "avgAssists": 3.3,
+      "kda": 2.64,
+      "avgDamage": 21940
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.0,
-      "kda": 0.8,
-      "avgDamage": 8590
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Actualizer",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.2,
+      "kda": 1.78,
+      "avgDamage": 20988
     }
   }
 }

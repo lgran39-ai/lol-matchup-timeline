@@ -1,68 +1,112 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:40.522158",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:08.498766",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -165,
-      "avg_xp_diff": -90,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -162,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 179,
-      "avg_xp_diff": 522,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -280,
+      "avg_xp_diff": 101,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 847,
-      "avg_xp_diff": 1295,
-      "avg_cs_diff": 15.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 386,
+      "avg_xp_diff": 861,
+      "avg_cs_diff": 7.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2666,
-      "avg_xp_diff": 3434,
-      "avg_cs_diff": 42.0,
-      "sample_frames": 11,
+      "avg_gold_diff": 1342,
+      "avg_xp_diff": 1751,
+      "avg_cs_diff": 17.7,
+      "sample_frames": 21,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1763,
+      "avg_xp_diff": 509,
+      "avg_cs_diff": -30.8,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "champA": "Taliyah",
   "champB": "Tristana",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 7.0,
-      "kda": 6.0,
-      "avgDamage": 23612
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 10.0,
+      "kda": 3.5,
+      "avgDamage": 27680
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 3.0,
-      "kda": 0.67,
-      "avgDamage": 13060
+      "items": [
+        {
+          "name": "Yun Tal Wildarrows",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 9.5,
+      "avgAssists": 4.0,
+      "kda": 0.95,
+      "avgDamage": 19012
     }
   }
 }

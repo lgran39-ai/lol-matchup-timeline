@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:39.882918",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:07.491325",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 213,
-      "avg_xp_diff": 22,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -18,
+      "avg_xp_diff": -144,
+      "avg_cs_diff": -3.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 965,
-      "avg_xp_diff": 778,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 192,
+      "avg_xp_diff": 154,
+      "avg_cs_diff": -6.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1356,
-      "avg_xp_diff": 772,
-      "avg_cs_diff": 15.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 444,
+      "avg_xp_diff": 176,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 969,
-      "avg_xp_diff": -302,
-      "avg_cs_diff": 12.5,
-      "sample_frames": 2,
+      "avg_gold_diff": 333,
+      "avg_xp_diff": 654,
+      "avg_cs_diff": -34.2,
+      "sample_frames": 12,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1382,
+      "avg_xp_diff": 2104,
+      "avg_cs_diff": -66.3,
+      "sample_frames": 3,
       "advantage": 2
     }
   ],
@@ -46,23 +55,51 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
       "avgDeaths": 2.0,
-      "avgAssists": 1.0,
-      "kda": 3.5,
-      "avgDamage": 10608
+      "avgAssists": 9.5,
+      "kda": 8.0,
+      "avgDamage": 15482
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 3.0,
+      "avgKills": 3.5,
+      "avgDeaths": 6.0,
       "avgAssists": 2.0,
-      "kda": 1.67,
-      "avgDamage": 6841
+      "kda": 0.92,
+      "avgDamage": 12407
     }
   }
 }

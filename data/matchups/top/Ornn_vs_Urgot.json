@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-19T03:29:40.168074",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:08.144153",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 2,
-      "avg_xp_diff": -25,
-      "avg_cs_diff": -2.5,
-      "sample_frames": 15,
+      "avg_gold_diff": -7,
+      "avg_xp_diff": -30,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -149,
-      "avg_xp_diff": -11,
-      "avg_cs_diff": -6.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -113,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": -4.8,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -167,
-      "avg_xp_diff": 185,
-      "avg_cs_diff": -6.3,
-      "sample_frames": 15,
+      "avg_gold_diff": -335,
+      "avg_xp_diff": -210,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -345,
-      "avg_xp_diff": 328,
-      "avg_cs_diff": -13.9,
-      "sample_frames": 28,
-      "advantage": -1
+      "avg_gold_diff": -949,
+      "avg_xp_diff": -457,
+      "avg_cs_diff": -17.1,
+      "sample_frames": 38,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4672,
-      "avg_xp_diff": -1815,
-      "avg_cs_diff": -93.0,
-      "sample_frames": 7,
+      "avg_gold_diff": -4455,
+      "avg_xp_diff": -2328,
+      "avg_cs_diff": -80.3,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
@@ -54,59 +54,84 @@
   "champB": "Urgot",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Protoplasm Harness",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 50.0
         }
       ],
-      "avgKills": 3.3,
-      "avgDeaths": 3.0,
-      "avgAssists": 5.7,
-      "kda": 3.0,
-      "avgDamage": 12078
+      "avgKills": 3.0,
+      "avgDeaths": 3.8,
+      "avgAssists": 5.0,
+      "kda": 2.13,
+      "avgDamage": 11602
     },
     "champB": {
       "items": [
         {
           "name": "Black Cleaver",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 50.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Overlord's Bloodmail",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 50.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 4.7,
-      "avgAssists": 0.7,
-      "kda": 1.21,
-      "avgDamage": 22048
+      "avgKills": 5.5,
+      "avgDeaths": 4.2,
+      "avgAssists": 1.8,
+      "kda": 1.71,
+      "avgDamage": 22729
     }
   }
 }

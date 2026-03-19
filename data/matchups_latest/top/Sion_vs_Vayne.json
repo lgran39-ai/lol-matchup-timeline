@@ -1,68 +1,155 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.710038",
+  "sample_size": 6,
+  "overall_winrate_a": 83.3,
+  "updated_at": "2026-03-19T12:18:13.586576",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 154,
-      "avg_xp_diff": 120,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -105,
+      "avg_xp_diff": -67,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 743,
-      "avg_xp_diff": 754,
-      "avg_cs_diff": 15.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -540,
+      "avg_xp_diff": -192,
+      "avg_cs_diff": -20.6,
+      "sample_frames": 30,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 649,
-      "avg_xp_diff": 1620,
-      "avg_cs_diff": 37.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -1088,
+      "avg_xp_diff": -697,
+      "avg_cs_diff": -29.4,
+      "sample_frames": 30,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 462,
-      "avg_xp_diff": 1446,
-      "avg_cs_diff": 31.9,
-      "sample_frames": 9,
-      "advantage": 2
+      "avg_gold_diff": -1737,
+      "avg_xp_diff": -798,
+      "avg_cs_diff": -37.6,
+      "sample_frames": 46,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3207,
+      "avg_xp_diff": -1271,
+      "avg_cs_diff": -73.7,
+      "sample_frames": 26,
+      "advantage": -2
     }
   ],
   "champA": "Sion",
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 4.0,
-      "avgDamage": 11117
+      "items": [
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.3,
+      "kda": 2.04,
+      "avgDamage": 11796
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 1.0,
-      "kda": 0.57,
-      "avgDamage": 18872
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Stormrazor",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 16.7
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 5.2,
+      "avgAssists": 2.2,
+      "kda": 1.45,
+      "avgDamage": 25022
     }
   }
 }

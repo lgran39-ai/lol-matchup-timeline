@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T03:29:44.605585",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-19T12:18:13.200284",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 61,
-      "avg_xp_diff": -3,
-      "avg_cs_diff": 0.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 47,
+      "avg_xp_diff": -26,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 286,
-      "avg_xp_diff": 121,
-      "avg_cs_diff": 3.3,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 113,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": -3.7,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 290,
-      "avg_xp_diff": 34,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -276,
+      "avg_xp_diff": -634,
+      "avg_cs_diff": -10.1,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -486,
-      "avg_xp_diff": -763,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 21,
+      "avg_gold_diff": -1087,
+      "avg_xp_diff": -2003,
+      "avg_cs_diff": -23.0,
+      "sample_frames": 52,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3357,
-      "avg_xp_diff": -6098,
-      "avg_cs_diff": -78.9,
-      "sample_frames": 12,
+      "avg_gold_diff": -4533,
+      "avg_xp_diff": -6387,
+      "avg_cs_diff": -95.7,
+      "sample_frames": 28,
       "advantage": -2
     }
   ],
@@ -54,65 +54,108 @@
   "champB": "Hecarim",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hubris",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "The Collector",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Dark Harvest",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 20.0
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.5,
-      "kda": 2.88,
-      "avgDamage": 19184
+      "avgKills": 6.4,
+      "avgDeaths": 7.4,
+      "avgAssists": 5.6,
+      "kda": 1.62,
+      "avgDamage": 19820
     },
     "champB": {
       "items": [
         {
           "name": "Death's Dance",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 80.0
         },
         {
           "name": "Spear of Shojin",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 80.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Ghost+Smite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 80.0
         }
       ],
-      "avgKills": 10.5,
-      "avgDeaths": 5.0,
-      "avgAssists": 8.0,
-      "kda": 3.7,
-      "avgDamage": 23476
+      "avgKills": 11.8,
+      "avgDeaths": 4.4,
+      "avgAssists": 11.6,
+      "kda": 5.32,
+      "avgDamage": 26320
     }
   }
 }

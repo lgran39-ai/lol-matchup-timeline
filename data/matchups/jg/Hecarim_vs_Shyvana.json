@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:24.843889",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:06.906003",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 45,
-      "avg_xp_diff": 103,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 66,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 641,
-      "avg_xp_diff": 988,
-      "avg_cs_diff": 20.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 216,
+      "avg_xp_diff": -101,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 839,
-      "avg_xp_diff": 1763,
-      "avg_cs_diff": 34.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 280,
+      "avg_xp_diff": -125,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2054,
-      "avg_xp_diff": 2320,
-      "avg_cs_diff": 54.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 1250,
+      "avg_xp_diff": 1068,
+      "avg_cs_diff": 17.2,
+      "sample_frames": 29,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4379,
-      "avg_xp_diff": 5323,
-      "avg_cs_diff": 95.2,
-      "sample_frames": 9,
+      "avg_gold_diff": 3182,
+      "avg_xp_diff": 2678,
+      "avg_cs_diff": 60.4,
+      "sample_frames": 16,
       "advantage": 2
     }
   ],
@@ -54,24 +54,84 @@
   "champB": "Shyvana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 8.0,
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.8,
+      "avgDeaths": 4.8,
       "avgAssists": 10.0,
-      "kda": 2.62,
-      "avgDamage": 36106
+      "kda": 3.53,
+      "avgDamage": 18241
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 11.0,
-      "kda": 2.71,
-      "avgDamage": 24886
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.8,
+      "kda": 2.55,
+      "avgDamage": 18568
     }
   }
 }

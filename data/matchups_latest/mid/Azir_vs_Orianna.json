@@ -1,68 +1,167 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:44.572721",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T12:18:13.052855",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 86,
-      "avg_xp_diff": 35,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 8,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -51,
-      "avg_xp_diff": 36,
-      "avg_cs_diff": 15.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -28,
+      "avg_xp_diff": 79,
+      "avg_cs_diff": 4.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -987,
-      "avg_xp_diff": -1581,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -20,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": 4.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1757,
-      "avg_xp_diff": -3154,
-      "avg_cs_diff": -7.5,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 526,
+      "avg_xp_diff": 564,
+      "avg_cs_diff": 5.7,
+      "sample_frames": 32,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1895,
+      "avg_xp_diff": 2865,
+      "avg_cs_diff": 7.2,
+      "sample_frames": 12,
+      "advantage": 2
     }
   ],
   "champA": "Azir",
   "champB": "Orianna",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 10144
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 4.4,
+      "avgDeaths": 3.8,
+      "avgAssists": 4.0,
+      "kda": 2.21,
+      "avgDamage": 18423
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 1.0,
-      "kda": 7.0,
-      "avgDamage": 11409
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.6,
+      "avgDeaths": 3.6,
+      "avgAssists": 4.2,
+      "kda": 1.89,
+      "avgDamage": 13709
     }
   }
 }

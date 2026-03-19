@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:42.329369",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:10.220968",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -124,
-      "avg_xp_diff": -158,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -38,
+      "avg_xp_diff": -105,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -56,
-      "avg_xp_diff": -81,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 678,
+      "avg_xp_diff": 217,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1803,
-      "avg_xp_diff": -710,
-      "avg_cs_diff": -22.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 630,
+      "avg_xp_diff": 236,
+      "avg_cs_diff": -6.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3423,
-      "avg_xp_diff": -2258,
-      "avg_cs_diff": -33.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 1363,
+      "avg_xp_diff": 370,
+      "avg_cs_diff": -8.2,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
@@ -65,45 +65,94 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 14.0,
-        "kda": 3.33,
-        "avgDamage": 24731
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 10.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 10.0,
+        "kda": 5.0,
+        "avgDamage": 26266
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 18.0,
-        "kda": 2.71,
-        "avgDamage": 8461
+        "avgDeaths": 5.0,
+        "avgAssists": 19.5,
+        "kda": 4.1,
+        "avgDamage": 7508
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 7.0,
-        "kda": 3.4,
-        "avgDamage": 32658
+        "avgKills": 6.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 5.0,
+        "kda": 1.92,
+        "avgDamage": 21776
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 19.0,
-        "kda": 4.4,
-        "avgDamage": 8069
+        "avgKills": 1.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 13.0,
+        "kda": 2.23,
+        "avgDamage": 6624
       }
     }
   }

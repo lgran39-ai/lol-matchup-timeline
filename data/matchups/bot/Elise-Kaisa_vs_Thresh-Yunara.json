@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:42.998842",
+  "updated_at": "2026-03-19T12:18:10.905021",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -102,
-      "avg_xp_diff": 38,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 49,
+      "avg_xp_diff": 80,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1836,
-      "avg_xp_diff": -150,
-      "avg_cs_diff": -10.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -656,
+      "avg_xp_diff": -34,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -4792,
-      "avg_xp_diff": -1620,
-      "avg_cs_diff": -37.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -2510,
+      "avg_xp_diff": -1132,
+      "avg_cs_diff": -23.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4408,
-      "avg_xp_diff": -1288,
-      "avg_cs_diff": -45.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -3631,
+      "avg_xp_diff": -1130,
+      "avg_cs_diff": -39.2,
+      "sample_frames": 12,
       "advantage": -2
     },
     {
@@ -64,46 +64,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 14.0,
-        "avgAssists": 11.0,
-        "kda": 1.64,
-        "avgDamage": 44327
+        "avgKills": 8.0,
+        "avgDeaths": 9.0,
+        "avgAssists": 7.5,
+        "kda": 1.72,
+        "avgDamage": 26231
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 24.0,
-        "kda": 5.17,
-        "avgDamage": 22911
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 15.5,
+        "kda": 4.2,
+        "avgDamage": 14810
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 19.0,
-        "avgDeaths": 13.0,
-        "avgAssists": 15.0,
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 13.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 8.0,
         "kda": 2.62,
-        "avgDamage": 76534
+        "avgDamage": 44308
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 31.0,
-        "kda": 3.2,
-        "avgDamage": 15303
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 20.0,
+        "kda": 3.15,
+        "avgDamage": 9454
       }
     }
   }

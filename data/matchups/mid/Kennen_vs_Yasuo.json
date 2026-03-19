@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:39.699319",
+  "updated_at": "2026-03-19T12:18:07.312870",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 92,
-      "avg_xp_diff": -3,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 110,
+      "avg_xp_diff": 70,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 507,
-      "avg_xp_diff": 513,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 482,
+      "avg_xp_diff": 390,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 876,
-      "avg_xp_diff": 1239,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 497,
+      "avg_xp_diff": 759,
+      "avg_cs_diff": -11.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1735,
-      "avg_xp_diff": 1951,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 1168,
+      "avg_xp_diff": 1492,
+      "avg_cs_diff": -8.3,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1202,
+      "avg_xp_diff": -44,
+      "avg_cs_diff": -26.0,
+      "sample_frames": 2,
       "advantage": 2
     }
   ],
@@ -45,24 +54,58 @@
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 7.0,
+      "avgKills": 9.0,
       "avgDeaths": 4.0,
-      "avgAssists": 9.0,
-      "kda": 4.0,
-      "avgDamage": 21738
+      "avgAssists": 7.5,
+      "kda": 4.12,
+      "avgDamage": 23602
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 11.0,
-      "avgAssists": 3.0,
-      "kda": 0.27,
-      "avgDamage": 10664
+      "avgKills": 2.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 4.0,
+      "kda": 0.75,
+      "avgDamage": 14662
     }
   }
 }

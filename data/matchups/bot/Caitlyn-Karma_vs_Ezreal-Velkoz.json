@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:42.471826",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:10.362107",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -224,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -2,
+      "avg_xp_diff": -61,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -587,
-      "avg_xp_diff": -649,
-      "avg_cs_diff": -12.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -102,
+      "avg_xp_diff": -484,
+      "avg_cs_diff": -6.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2371,
-      "avg_xp_diff": -1621,
-      "avg_cs_diff": -26.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -933,
+      "avg_xp_diff": -951,
+      "avg_cs_diff": -8.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -5657,
-      "avg_xp_diff": -3597,
-      "avg_cs_diff": -34.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -2054,
+      "avg_xp_diff": -1634,
+      "avg_cs_diff": -4.8,
+      "sample_frames": 20,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5877,
+      "avg_xp_diff": 3166,
+      "avg_cs_diff": 48.7,
+      "sample_frames": 14,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,141 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 2.0,
-        "kda": 0.56,
-        "avgDamage": 10626
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 10.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 6.0,
+        "kda": 2.2,
+        "avgDamage": 38038
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 6.0,
-        "kda": 0.7,
-        "avgDamage": 7278
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 8.0,
+        "avgAssists": 17.0,
+        "kda": 2.31,
+        "avgDamage": 12536
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 10.0,
-        "kda": 3.5,
-        "avgDamage": 16890
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 9.5,
+        "kda": 1.81,
+        "avgDamage": 23296
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 16.0,
-        "kda": 5.2,
-        "avgDamage": 25920
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Zhonya's Hourglass",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 17.0,
+        "kda": 3.43,
+        "avgDamage": 27728
       }
     }
   }

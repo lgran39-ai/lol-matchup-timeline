@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.541290",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T12:18:12.905814",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -23,
-      "avg_xp_diff": -70,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -77,
+      "avg_xp_diff": -118,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -267,
-      "avg_xp_diff": -230,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -487,
+      "avg_xp_diff": -329,
+      "avg_cs_diff": -15.8,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -756,
-      "avg_xp_diff": 327,
-      "avg_cs_diff": -11.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1677,
+      "avg_xp_diff": -905,
+      "avg_cs_diff": -26.0,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -781,
-      "avg_xp_diff": 1438,
-      "avg_cs_diff": -11.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -3419,
+      "avg_xp_diff": -695,
+      "avg_cs_diff": -28.8,
+      "sample_frames": 18,
       "advantage": -2
     }
   ],
@@ -45,24 +45,72 @@
   "champB": "Irelia",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 7.0,
-      "kda": 3.67,
-      "avgDamage": 19880
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.0,
+      "kda": 1.2,
+      "avgDamage": 15581
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 0.0,
-      "kda": 1.0,
-      "avgDamage": 15722
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 4.0,
+      "avgAssists": 3.3,
+      "kda": 2.5,
+      "avgDamage": 17961
     }
   }
 }

@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:39.542487",
+  "updated_at": "2026-03-19T12:18:07.159422",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 0,
-      "avg_xp_diff": -4,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -16,
+      "avg_xp_diff": -63,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -183,
-      "avg_xp_diff": -128,
-      "avg_cs_diff": -9.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -334,
+      "avg_xp_diff": -404,
+      "avg_cs_diff": -11.1,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -815,
-      "avg_xp_diff": -984,
-      "avg_cs_diff": -19.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1147,
+      "avg_xp_diff": -1330,
+      "avg_cs_diff": -25.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1485,
-      "avg_xp_diff": -1981,
-      "avg_cs_diff": -18.1,
-      "sample_frames": 9,
+      "avg_gold_diff": -1999,
+      "avg_xp_diff": -2402,
+      "avg_cs_diff": -28.4,
+      "sample_frames": 19,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3301,
+      "avg_xp_diff": -3495,
+      "avg_cs_diff": -41.6,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
@@ -45,24 +54,57 @@
   "champB": "Orianna",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 0.4,
-      "avgDamage": 8205
+      "avgKills": 2.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 2.0,
+      "kda": 0.64,
+      "avgDamage": 12248
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 6.0,
-      "kda": 5.5,
-      "avgDamage": 20571
+      "avgKills": 7.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 7.5,
+      "kda": 3.22,
+      "avgDamage": 25797
     }
   }
 }

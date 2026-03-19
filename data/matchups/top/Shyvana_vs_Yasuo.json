@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T03:29:40.432030",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T12:18:08.408641",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -92,
-      "avg_xp_diff": -22,
-      "avg_cs_diff": -2.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -28,
+      "avg_xp_diff": -12,
+      "avg_cs_diff": -1.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -815,
-      "avg_xp_diff": -701,
-      "avg_cs_diff": -23.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -573,
+      "avg_xp_diff": -631,
+      "avg_cs_diff": -17.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1325,
-      "avg_xp_diff": -1450,
-      "avg_cs_diff": -37.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -1240,
+      "avg_xp_diff": -1495,
+      "avg_cs_diff": -37.5,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3282,
-      "avg_xp_diff": -3782,
-      "avg_cs_diff": -62.5,
-      "sample_frames": 11,
+      "avg_gold_diff": -2983,
+      "avg_xp_diff": -2502,
+      "avg_cs_diff": -55.2,
+      "sample_frames": 21,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4460,
+      "avg_xp_diff": -1970,
+      "avg_cs_diff": -68.4,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
@@ -46,35 +55,48 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 1.0,
-      "kda": 0.62,
-      "avgDamage": 10276
+      "avgKills": 5.0,
+      "avgDeaths": 7.7,
+      "avgAssists": 3.0,
+      "kda": 1.04,
+      "avgDamage": 15325
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
@@ -82,15 +104,15 @@
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 5.5,
-      "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 4.25,
-      "avgDamage": 14462
+      "avgKills": 8.3,
+      "avgDeaths": 3.3,
+      "avgAssists": 5.3,
+      "kda": 4.1,
+      "avgDamage": 22324
     }
   }
 }

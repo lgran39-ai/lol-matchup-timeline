@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:39.935137",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:07.538447",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -2,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -29,
+      "avg_xp_diff": 12,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 218,
-      "avg_xp_diff": 284,
-      "avg_cs_diff": 16.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -48,
+      "avg_xp_diff": 296,
+      "avg_cs_diff": 8.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 522,
-      "avg_xp_diff": 433,
-      "avg_cs_diff": 26.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -157,
+      "avg_xp_diff": 77,
+      "avg_cs_diff": 15.1,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -131,
-      "avg_xp_diff": -35,
-      "avg_cs_diff": 22.1,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -1136,
+      "avg_xp_diff": -1278,
+      "avg_cs_diff": 7.3,
+      "sample_frames": 21,
+      "advantage": -2
     },
     {
       "phase": "25min+",
@@ -54,24 +54,70 @@
   "champB": "Talon",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 11.0,
-      "kda": 2.6,
-      "avgDamage": 29464
+      "avgKills": 1.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 8.0,
+      "kda": 2.11,
+      "avgDamage": 21219
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.0,
-      "kda": 1.67,
-      "avgDamage": 22845
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 10.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.0,
+      "kda": 5.17,
+      "avgDamage": 20310
     }
   }
 }

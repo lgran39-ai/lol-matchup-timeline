@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:39.338151",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T12:18:06.962737",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 11,
-      "avg_xp_diff": -47,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": -17,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 68,
-      "avg_xp_diff": -134,
-      "avg_cs_diff": 1.5,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 396,
+      "avg_xp_diff": 166,
+      "avg_cs_diff": 7.0,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 460,
-      "avg_xp_diff": -5,
-      "avg_cs_diff": 11.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 1000,
+      "avg_xp_diff": 866,
+      "avg_cs_diff": 20.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3012,
-      "avg_xp_diff": 1660,
-      "avg_cs_diff": 43.4,
-      "sample_frames": 12,
+      "avg_gold_diff": 2810,
+      "avg_xp_diff": 2108,
+      "avg_cs_diff": 52.2,
+      "sample_frames": 32,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 5300,
-      "avg_xp_diff": 4015,
-      "avg_cs_diff": 67.7,
-      "sample_frames": 3,
+      "avg_gold_diff": 4096,
+      "avg_xp_diff": 2820,
+      "avg_cs_diff": 97.0,
+      "sample_frames": 20,
       "advantage": 2
     }
   ],
@@ -57,56 +57,87 @@
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 75.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Wit's End",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 75.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 3.5,
-      "kda": 2.3,
-      "avgDamage": 18420
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.2,
+      "avgDeaths": 6.2,
+      "avgAssists": 3.0,
+      "kda": 1.64,
+      "avgDamage": 19519
     },
     "champB": {
       "items": [
         {
           "name": "Nashor's Tooth",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Bandlepipes",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 25.0
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 6.0,
-      "kda": 1.45,
-      "avgDamage": 11624
+      "avgKills": 3.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 11.5,
+      "kda": 2.07,
+      "avgDamage": 15587
     }
   }
 }

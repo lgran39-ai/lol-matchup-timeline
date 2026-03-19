@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:42.972084",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T12:18:10.866164",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -79,
-      "avg_xp_diff": -67,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -47,
+      "avg_xp_diff": -93,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -804,
-      "avg_xp_diff": -870,
-      "avg_cs_diff": -18.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -595,
+      "avg_xp_diff": -663,
+      "avg_cs_diff": -19.0,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -947,
-      "avg_xp_diff": -460,
-      "avg_cs_diff": -24.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1430,
+      "avg_xp_diff": -763,
+      "avg_cs_diff": -30.9,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -384,
-      "avg_xp_diff": -635,
-      "avg_cs_diff": -26.9,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -885,
+      "avg_xp_diff": 91,
+      "avg_cs_diff": -40.0,
+      "sample_frames": 31,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 393,
-      "avg_xp_diff": -1296,
-      "avg_cs_diff": -50.4,
-      "sample_frames": 13,
-      "advantage": 1
+      "avg_gold_diff": 927,
+      "avg_xp_diff": -673,
+      "avg_cs_diff": -51.9,
+      "sample_frames": 15,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,172 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Mortal Reminder",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 8.7,
         "avgDeaths": 5.0,
-        "avgAssists": 5.0,
-        "kda": 2.8,
-        "avgDamage": 27337
+        "avgAssists": 7.3,
+        "kda": 3.2,
+        "avgDamage": 20860
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 10.0,
-        "kda": 1.6,
-        "avgDamage": 24541
+        "items": [
+          {
+            "name": "Stormsurge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 6.7,
+        "avgDeaths": 7.7,
+        "avgAssists": 12.0,
+        "kda": 2.43,
+        "avgDamage": 20023
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 14.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 6.0,
-        "kda": 2.86,
-        "avgDamage": 51535
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 8.0,
+        "avgDeaths": 6.7,
+        "avgAssists": 6.3,
+        "kda": 2.15,
+        "avgDamage": 30339
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 20.0,
-        "kda": 3.29,
-        "avgDamage": 13713
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 2.3,
+        "avgDeaths": 7.7,
+        "avgAssists": 14.3,
+        "kda": 2.17,
+        "avgDamage": 12191
       }
     }
   }

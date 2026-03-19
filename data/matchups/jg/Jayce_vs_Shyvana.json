@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:39.509117",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-19T12:18:07.126634",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 179,
-      "avg_xp_diff": -60,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 164,
+      "avg_xp_diff": -20,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1677,
-      "avg_xp_diff": 172,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 505,
+      "avg_xp_diff": -169,
+      "avg_cs_diff": -6.0,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2794,
-      "avg_xp_diff": 717,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 934,
+      "avg_xp_diff": 75,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3097,
-      "avg_xp_diff": 1637,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 3,
+      "avg_gold_diff": 1250,
+      "avg_xp_diff": 834,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 35,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1138,
+      "avg_xp_diff": 761,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 15,
       "advantage": 2
     }
   ],
@@ -45,24 +54,102 @@
   "champB": "Shyvana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 5.33,
-      "avgDamage": 13646
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Opportunity",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 2.6,
+      "avgAssists": 9.4,
+      "kda": 7.08,
+      "avgDamage": 21858
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 6.0,
       "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 0.6,
-      "avgDamage": 4807
+      "avgAssists": 4.0,
+      "kda": 2.0,
+      "avgDamage": 15810
     }
   }
 }

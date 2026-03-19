@@ -1,68 +1,131 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.527372",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T12:18:12.847712",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 31,
-      "avg_xp_diff": 56,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1,
+      "avg_xp_diff": 1,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 261,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 8,
+      "avg_xp_diff": -226,
+      "avg_cs_diff": 5.6,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 778,
-      "avg_xp_diff": 169,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 281,
+      "avg_xp_diff": -102,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1313,
-      "avg_xp_diff": 458,
-      "avg_cs_diff": 18.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -141,
+      "avg_xp_diff": -1040,
+      "avg_cs_diff": 7.4,
+      "sample_frames": 21,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1636,
+      "avg_xp_diff": -3444,
+      "avg_cs_diff": -33.9,
+      "sample_frames": 8,
+      "advantage": -2
     }
   ],
   "champA": "Ahri",
   "champB": "Neeko",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 1.0,
-      "kda": 3.0,
-      "avgDamage": 7281
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 3.3,
+      "avgAssists": 5.3,
+      "kda": 2.6,
+      "avgDamage": 15969
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 4355
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.0,
+      "kda": 2.67,
+      "avgDamage": 14299
     }
   }
 }

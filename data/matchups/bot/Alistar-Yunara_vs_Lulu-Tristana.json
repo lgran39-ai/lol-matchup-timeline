@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:41.038293",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:08.972217",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -59,
-      "avg_xp_diff": 102,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -103,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 508,
-      "avg_xp_diff": 266,
-      "avg_cs_diff": -11.8,
-      "sample_frames": 5,
-      "advantage": 1
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": 861,
-      "avg_xp_diff": 333,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 5,
-      "advantage": 2
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": -56,
-      "avg_xp_diff": 789,
-      "avg_cs_diff": -40.0,
+      "avg_gold_diff": -219,
+      "avg_xp_diff": -40,
+      "avg_cs_diff": -2.2,
       "sample_frames": 10,
       "advantage": 0
     },
     {
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": -376,
+      "avg_xp_diff": -264,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 10,
+      "advantage": -1
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -950,
+      "avg_xp_diff": 312,
+      "avg_cs_diff": -11.1,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 339,
-      "avg_xp_diff": 321,
-      "avg_cs_diff": -57.7,
-      "sample_frames": 3,
-      "advantage": 1
+      "avg_gold_diff": -1464,
+      "avg_xp_diff": -544,
+      "avg_cs_diff": -22.2,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,127 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 6.0,
-        "kda": 2.17,
-        "avgDamage": 21694
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 4.5,
+        "kda": 1.64,
+        "avgDamage": 17086
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 17.0,
-        "kda": 18.0,
-        "avgDamage": 5530
+        "avgKills": 0.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 12.0,
+        "kda": 2.78,
+        "avgDamage": 5288
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 3.0,
-        "kda": 1.8,
-        "avgDamage": 21037
+        "items": [
+          {
+            "name": "Yun Tal Wildarrows",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 3.5,
+        "kda": 2.75,
+        "avgDamage": 21324
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 6.0,
-        "kda": 1.2,
-        "avgDamage": 5691
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 10.5,
+        "kda": 2.67,
+        "avgDamage": 7826
       }
     }
   }

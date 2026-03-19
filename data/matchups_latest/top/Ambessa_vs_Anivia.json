@@ -1,84 +1,118 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T03:29:44.536332",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T12:18:12.894049",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 14,
-      "avg_xp_diff": -35,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -35,
+      "avg_xp_diff": -76,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 68,
-      "avg_xp_diff": -74,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -128,
+      "avg_xp_diff": -185,
+      "avg_cs_diff": 6.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 13,
-      "avg_xp_diff": -198,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -573,
+      "avg_xp_diff": -756,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1348,
-      "avg_xp_diff": 410,
-      "avg_cs_diff": 5.3,
-      "sample_frames": 19,
-      "advantage": 2
+      "avg_gold_diff": -472,
+      "avg_xp_diff": -1401,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 29,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 188,
-      "avg_xp_diff": -2746,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 4,
-      "advantage": 1
+      "avg_gold_diff": -2938,
+      "avg_xp_diff": -4693,
+      "avg_cs_diff": -13.0,
+      "sample_frames": 9,
+      "advantage": -2
     }
   ],
   "champA": "Ambessa",
   "champB": "Anivia",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 6.5,
-      "kda": 2.56,
-      "avgDamage": 24574
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.3,
+      "avgAssists": 6.0,
+      "kda": 1.58,
+      "avgDamage": 22842
     },
     "champB": {
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 6.0,
-      "kda": 2.0,
-      "avgDamage": 16012
+      "avgKills": 5.0,
+      "avgDeaths": 2.7,
+      "avgAssists": 7.3,
+      "kda": 4.62,
+      "avgDamage": 24037
     }
   }
 }

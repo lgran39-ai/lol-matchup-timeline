@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-19T03:29:41.431038",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:09.350315",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 32,
-      "avg_xp_diff": 43,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 15,
+      "avg_gold_diff": 18,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 372,
-      "avg_xp_diff": 163,
-      "avg_cs_diff": 10.1,
-      "sample_frames": 15,
+      "avg_gold_diff": 487,
+      "avg_xp_diff": 114,
+      "avg_cs_diff": 15.2,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 879,
-      "avg_xp_diff": 199,
-      "avg_cs_diff": 14.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 1287,
+      "avg_xp_diff": 304,
+      "avg_cs_diff": 24.1,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -431,
-      "avg_xp_diff": -657,
-      "avg_cs_diff": -4.3,
-      "sample_frames": 22,
-      "advantage": -1
+      "avg_gold_diff": 663,
+      "avg_xp_diff": -118,
+      "avg_cs_diff": 14.7,
+      "sample_frames": 32,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2098,
-      "avg_xp_diff": -1576,
-      "avg_cs_diff": -31.6,
-      "sample_frames": 24,
+      "avg_gold_diff": -888,
+      "avg_xp_diff": -744,
+      "avg_cs_diff": -17.1,
+      "sample_frames": 28,
       "advantage": -2
     }
   ],
@@ -67,34 +67,40 @@
         "items": [
           {
             "name": "Infinity Edge",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 33.3
+            "winRate": 50.0
           },
           {
             "name": "Stormrazor",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 0.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
           },
           {
             "name": "Immortal Shieldbow",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 0.0
           },
           {
-            "name": "Lord Dominik's Regards",
+            "name": "The Collector",
             "count": 2,
-            "pickRate": 66.7,
-            "winRate": 0.0
+            "pickRate": 50.0,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Press the Attack",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 50.0
           }
         ],
@@ -102,39 +108,58 @@
           {
             "spells": "Flash+Ghost",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          },
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 50.0,
             "winRate": 50.0
           }
         ],
-        "avgKills": 7.0,
-        "avgDeaths": 6.7,
-        "avgAssists": 8.3,
-        "kda": 2.3,
-        "avgDamage": 26935
+        "avgKills": 9.2,
+        "avgDeaths": 5.5,
+        "avgAssists": 6.8,
+        "kda": 2.91,
+        "avgDamage": 28385
       },
       "sup": {
         "items": [
           {
             "name": "Locket of the Iron Solari",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Bandlepipes",
             "count": 2,
-            "pickRate": 66.7,
-            "winRate": 0.0
+            "pickRate": 50.0,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Aftershock",
             "count": 3,
-            "pickRate": 100.0,
+            "pickRate": 75.0,
             "winRate": 33.3
           }
         ],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 16.3,
-        "kda": 2.17,
-        "avgDamage": 8175
+        "avgDeaths": 7.2,
+        "avgAssists": 17.5,
+        "kda": 2.55,
+        "avgDamage": 8125
       }
     },
     "teamB": {
@@ -142,81 +167,87 @@
         "items": [
           {
             "name": "Infinity Edge",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 100.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Phantom Dancer",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
           },
           {
             "name": "Kraken Slayer",
             "count": 2,
-            "pickRate": 66.7,
-            "winRate": 100.0
-          },
-          {
-            "name": "Hexoptics C44",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 100.0
-          },
-          {
-            "name": "Phantom Dancer",
-            "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 66.7
+            "winRate": 50.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Cleanse+Flash",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 100.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
           }
         ],
-        "avgKills": 10.3,
-        "avgDeaths": 5.7,
-        "avgAssists": 9.0,
-        "kda": 3.41,
-        "avgDamage": 32689
+        "avgKills": 9.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 7.2,
+        "kda": 3.05,
+        "avgDamage": 28253
       },
       "sup": {
         "items": [
           {
             "name": "Locket of the Iron Solari",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Zeke's Convergence",
             "count": 2,
-            "pickRate": 66.7,
-            "winRate": 100.0
+            "pickRate": 50.0,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Glacial Augment",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 100.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 66.7
+            "winRate": 50.0
           }
         ],
-        "avgKills": 0.3,
-        "avgDeaths": 5.3,
-        "avgAssists": 16.0,
-        "kda": 3.06,
-        "avgDamage": 6190
+        "avgKills": 0.5,
+        "avgDeaths": 6.2,
+        "avgAssists": 15.0,
+        "kda": 2.48,
+        "avgDamage": 6862
       }
     }
   }

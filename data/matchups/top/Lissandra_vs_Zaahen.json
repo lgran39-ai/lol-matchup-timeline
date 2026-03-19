@@ -1,44 +1,44 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:39.859892",
+  "updated_at": "2026-03-19T12:18:07.468997",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 222,
-      "avg_xp_diff": 227,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 227,
+      "avg_xp_diff": 139,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 783,
-      "avg_xp_diff": 794,
-      "avg_cs_diff": 15.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 618,
+      "avg_xp_diff": 405,
+      "avg_cs_diff": 11.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1088,
-      "avg_xp_diff": 1066,
-      "avg_cs_diff": 22.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 1155,
+      "avg_xp_diff": 1064,
+      "avg_cs_diff": 20.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1261,
-      "avg_xp_diff": -207,
-      "avg_cs_diff": 13.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -15,
+      "avg_xp_diff": 501,
+      "avg_cs_diff": 10.3,
+      "sample_frames": 21,
+      "advantage": 0
     },
     {
       "phase": "25min+",
@@ -56,22 +56,50 @@
     "champA": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 3.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 2.5,
       "kda": 1.25,
-      "avgDamage": 26054
+      "avgDamage": 26390
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 3.75,
-      "avgDamage": 31515
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 5.5,
+      "kda": 3.43,
+      "avgDamage": 23002
     }
   }
 }

@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:43.153279",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:11.110160",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -263,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -8,
+      "avg_xp_diff": 70,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -249,
-      "avg_xp_diff": 67,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 318,
+      "avg_xp_diff": 280,
+      "avg_cs_diff": -9.6,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1512,
-      "avg_xp_diff": 904,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 734,
+      "avg_xp_diff": 306,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3076,
-      "avg_xp_diff": 2375,
-      "avg_cs_diff": 32.0,
+      "avg_gold_diff": -1182,
+      "avg_xp_diff": -1552,
+      "avg_cs_diff": -32.8,
+      "sample_frames": 12,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -5838,
+      "avg_xp_diff": -5964,
+      "avg_cs_diff": -75.5,
       "sample_frames": 2,
-      "advantage": 2
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,116 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 2.0,
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.0,
+        "avgDeaths": 4.5,
         "avgAssists": 2.0,
-        "kda": 5.0,
-        "avgDamage": 14008
+        "kda": 1.78,
+        "avgDamage": 16962
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
         "avgDeaths": 6.0,
-        "avgAssists": 10.0,
+        "avgAssists": 8.5,
         "kda": 1.67,
-        "avgDamage": 5042
+        "avgDamage": 7606
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 5.0,
-        "kda": 1.4,
-        "avgDamage": 10828
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 6.5,
+        "kda": 3.14,
+        "avgDamage": 15966
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Umbral Glaive",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 3.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 5.0,
-        "kda": 1.33,
-        "avgDamage": 10223
+        "avgDeaths": 7.0,
+        "avgAssists": 9.0,
+        "kda": 1.71,
+        "avgDamage": 12098
       }
     }
   }

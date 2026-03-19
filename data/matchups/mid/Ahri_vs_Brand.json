@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-18T14:05:23.818975",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:05.597169",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 2,
-      "avg_xp_diff": -6,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -28,
+      "avg_xp_diff": 58,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 366,
-      "avg_xp_diff": -55,
+      "avg_gold_diff": 473,
+      "avg_xp_diff": 275,
       "avg_cs_diff": 2.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 761,
-      "avg_xp_diff": -22,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 879,
+      "avg_xp_diff": 585,
+      "avg_cs_diff": 6.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1488,
-      "avg_xp_diff": 417,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 1579,
+      "avg_xp_diff": 1493,
+      "avg_cs_diff": 32.0,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1774,
-      "avg_xp_diff": 296,
-      "avg_cs_diff": -15.3,
-      "sample_frames": 14,
+      "avg_gold_diff": 5105,
+      "avg_xp_diff": 3782,
+      "avg_cs_diff": 81.5,
+      "sample_frames": 19,
       "advantage": 2
     }
   ],
@@ -54,26 +54,70 @@
   "champB": "Brand",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 14.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 15.0,
-      "kda": 3.22,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "avgKills": 13.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 10.5,
+      "kda": 4.0,
+      "avgDamage": 34818
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 14.0,
-      "kda": 2.44,
-      "avgDamage": 0,
-      "note": "ビルドデータ収集中"
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 7.5,
+      "avgAssists": 16.5,
+      "kda": 3.07,
+      "avgDamage": 28236
     }
   }
 }

@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.603479",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T12:18:13.190178",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -8,
-      "avg_xp_diff": -30,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 76,
+      "avg_xp_diff": 47,
+      "avg_cs_diff": 5.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 337,
-      "avg_xp_diff": -74,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 416,
+      "avg_xp_diff": 311,
+      "avg_cs_diff": 14.1,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1088,
-      "avg_xp_diff": 650,
-      "avg_cs_diff": 28.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 1174,
+      "avg_xp_diff": 1111,
+      "avg_cs_diff": 28.5,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1076,
-      "avg_xp_diff": 633,
-      "avg_cs_diff": 29.0,
-      "sample_frames": 3,
+      "avg_gold_diff": 2274,
+      "avg_xp_diff": 1755,
+      "avg_cs_diff": 40.2,
+      "sample_frames": 23,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5411,
+      "avg_xp_diff": 4854,
+      "avg_cs_diff": 73.7,
+      "sample_frames": 24,
       "advantage": 2
     }
   ],
@@ -45,24 +54,78 @@
   "champB": "Singed",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.0,
-      "kda": 3.0,
-      "avgDamage": 11162
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 7.3,
+      "kda": 2.79,
+      "avgDamage": 26635
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.0,
-      "kda": 1.33,
-      "avgDamage": 7464
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Unsealed Spellbook",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.0,
+      "avgDeaths": 6.3,
+      "avgAssists": 9.3,
+      "kda": 1.63,
+      "avgDamage": 14380
     }
   }
 }

@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T03:29:38.391544",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T12:18:05.994213",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -186,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -154,
+      "avg_xp_diff": -52,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -504,
-      "avg_xp_diff": -162,
-      "avg_cs_diff": -11.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -483,
+      "avg_xp_diff": -179,
+      "avg_cs_diff": -8.1,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -584,
-      "avg_xp_diff": -71,
-      "avg_cs_diff": -18.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -746,
+      "avg_xp_diff": -321,
+      "avg_cs_diff": -16.8,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -12,
-      "avg_xp_diff": 1228,
-      "avg_cs_diff": -21.8,
-      "sample_frames": 13,
+      "avg_gold_diff": -30,
+      "avg_xp_diff": 483,
+      "avg_cs_diff": -23.5,
+      "sample_frames": 23,
       "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 349,
+      "avg_xp_diff": 302,
+      "avg_cs_diff": -18.6,
+      "sample_frames": 10,
+      "advantage": 1
     }
   ],
   "champA": "AurelionSol",
@@ -48,62 +57,87 @@
       "items": [
         {
           "name": "Rylai's Crystal Scepter",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 10.7,
+      "kda": 5.22,
+      "avgDamage": 19410
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 2.0,
-      "avgAssists": 9.0,
-      "kda": 6.25,
-      "avgDamage": 11202
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Spellslinger's Shoes",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        },
-        {
-          "name": "Luden's Echo",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Arcane Comet",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 2.0,
-      "kda": 1.0,
-      "avgDamage": 11122
+      "avgKills": 5.0,
+      "avgDeaths": 4.3,
+      "avgAssists": 3.3,
+      "kda": 1.92,
+      "avgDamage": 18060
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T03:29:38.374218",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T12:18:05.976594",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 69,
-      "avg_xp_diff": 54,
-      "avg_cs_diff": -2.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 37,
+      "avg_xp_diff": 24,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -190,
-      "avg_xp_diff": 294,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -115,
+      "avg_xp_diff": 173,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -496,
-      "avg_xp_diff": 47,
-      "avg_cs_diff": -8.5,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -191,
+      "avg_xp_diff": 141,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -964,
-      "avg_xp_diff": -416,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": -352,
+      "avg_xp_diff": -148,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1188,
-      "avg_xp_diff": 1729,
-      "avg_cs_diff": 5.5,
-      "sample_frames": 4,
+      "avg_gold_diff": 1452,
+      "avg_xp_diff": 2192,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 15,
       "advantage": 2
     }
   ],
@@ -57,8 +57,14 @@
       "items": [
         {
           "name": "Malignance",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
@@ -66,46 +72,53 @@
         {
           "name": "Electrocute",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.5,
-      "kda": 2.25,
-      "avgDamage": 20830
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.3,
+      "avgAssists": 7.3,
+      "kda": 2.5,
+      "avgDamage": 22225
     },
     "champB": {
       "items": [
         {
           "name": "Nashor's Tooth",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         },
         {
           "name": "Dusk and Dawn",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [],
-      "avgKills": 7.5,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.0,
-      "kda": 2.25,
-      "avgDamage": 18953
+      "avgKills": 6.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 4.0,
+      "kda": 1.5,
+      "avgDamage": 17239
     }
   }
 }

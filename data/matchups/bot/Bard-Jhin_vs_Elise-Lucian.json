@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:41.860585",
+  "updated_at": "2026-03-19T12:18:09.769308",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -215,
-      "avg_xp_diff": -220,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -100,
+      "avg_xp_diff": -94,
+      "avg_cs_diff": -4.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1236,
-      "avg_xp_diff": -422,
-      "avg_cs_diff": -11.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -335,
+      "avg_xp_diff": -27,
+      "avg_cs_diff": -10.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2391,
-      "avg_xp_diff": -906,
-      "avg_cs_diff": -26.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -826,
+      "avg_xp_diff": -103,
+      "avg_cs_diff": -20.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2429,
-      "avg_xp_diff": 468,
-      "avg_cs_diff": -30.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -1244,
+      "avg_xp_diff": -168,
+      "avg_cs_diff": -26.9,
+      "sample_frames": 20,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -92,
+      "avg_xp_diff": 310,
+      "avg_cs_diff": -36.3,
+      "sample_frames": 10,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -56,45 +65,100 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 5.0,
-        "kda": 1.33,
-        "avgDamage": 12427
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 7.0,
+        "kda": 3.11,
+        "avgDamage": 21204
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 11.0,
-        "kda": 2.8,
-        "avgDamage": 7706
-      }
-    },
-    "teamB": {
-      "adc": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
         "avgKills": 2.0,
         "avgDeaths": 5.0,
-        "avgAssists": 5.0,
-        "kda": 1.4,
-        "avgDamage": 17779
+        "avgAssists": 15.0,
+        "kda": 3.4,
+        "avgDamage": 11169
+      }
+    },
+    "teamB": {
+      "adc": {
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 5.5,
+        "kda": 1.64,
+        "avgDamage": 20964
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 6.0,
-        "kda": 1.43,
-        "avgDamage": 11841
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 7.5,
+        "kda": 1.69,
+        "avgDamage": 12622
       }
     }
   }

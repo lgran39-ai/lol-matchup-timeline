@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.748264",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:13.792429",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -121,
-      "avg_xp_diff": -122,
-      "avg_cs_diff": -6.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -178,
+      "avg_xp_diff": -83,
+      "avg_cs_diff": -4.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -54,
-      "avg_xp_diff": -228,
-      "avg_cs_diff": -17.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -123,
+      "avg_xp_diff": -275,
+      "avg_cs_diff": -20.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1455,
-      "avg_xp_diff": 1226,
-      "avg_cs_diff": -9.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 287,
+      "avg_xp_diff": 372,
+      "avg_cs_diff": -20.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2994,
-      "avg_xp_diff": 2863,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 33,
+      "avg_xp_diff": 314,
+      "avg_cs_diff": -19.7,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 5647,
-      "avg_xp_diff": 5194,
-      "avg_cs_diff": -3.5,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": 46,
+      "avg_xp_diff": 1636,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 8,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Mortal Reminder",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 1.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 4.0,
         "avgAssists": 9.0,
-        "kda": 15.0,
-        "avgDamage": 21426
+        "kda": 3.0,
+        "avgDamage": 18684
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 19.0,
-        "kda": 10.0,
-        "avgDamage": 12933
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 15.5,
+        "kda": 4.0,
+        "avgDamage": 14906
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 2.0,
-        "kda": 0.5,
-        "avgDamage": 14847
+        "avgKills": 4.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 5.0,
+        "kda": 1.9,
+        "avgDamage": 24769
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 4.0,
-        "kda": 0.44,
-        "avgDamage": 5617
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 16.5,
+        "kda": 2.62,
+        "avgDamage": 7005
       }
     }
   }

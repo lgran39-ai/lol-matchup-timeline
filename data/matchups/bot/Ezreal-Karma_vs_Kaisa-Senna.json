@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T03:29:43.105769",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T12:18:11.053445",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 180,
-      "avg_xp_diff": 192,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 123,
+      "avg_xp_diff": 140,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 821,
-      "avg_xp_diff": 583,
-      "avg_cs_diff": 14.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 857,
+      "avg_xp_diff": 508,
+      "avg_cs_diff": 12.9,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1095,
-      "avg_xp_diff": 874,
-      "avg_cs_diff": 24.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 905,
+      "avg_xp_diff": 535,
+      "avg_cs_diff": 19.5,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2558,
-      "avg_xp_diff": 1923,
-      "avg_cs_diff": 35.1,
-      "sample_frames": 21,
+      "avg_gold_diff": 2277,
+      "avg_xp_diff": 1467,
+      "avg_cs_diff": 23.9,
+      "sample_frames": 31,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3724,
-      "avg_xp_diff": 2574,
-      "avg_cs_diff": 39.5,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -829,
+      "avg_xp_diff": -1930,
+      "avg_cs_diff": -65.6,
+      "sample_frames": 24,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -67,56 +67,99 @@
         "items": [
           {
             "name": "Trinity Force",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          },
+          {
+            "name": "Serylda's Grudge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 7.5,
-        "avgDeaths": 5.0,
-        "avgAssists": 8.5,
-        "kda": 3.2,
-        "avgDamage": 29928
+        "avgKills": 8.0,
+        "avgDeaths": 6.3,
+        "avgAssists": 9.0,
+        "kda": 2.68,
+        "avgDamage": 37792
       },
       "sup": {
         "items": [
           {
             "name": "Redemption",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          },
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 5.5,
-        "avgDeaths": 5.0,
-        "avgAssists": 16.5,
-        "kda": 4.4,
-        "avgDamage": 11374
+        "avgKills": 5.3,
+        "avgDeaths": 6.0,
+        "avgAssists": 16.3,
+        "kda": 3.61,
+        "avgDamage": 14241
       }
     },
     "teamB": {
@@ -124,55 +167,75 @@
         "items": [
           {
             "name": "Kraken Slayer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 6.5,
-        "kda": 1.5,
-        "avgDamage": 15308
+        "avgKills": 7.0,
+        "avgDeaths": 6.7,
+        "avgAssists": 6.7,
+        "kda": 2.05,
+        "avgDamage": 30188
       },
       "sup": {
         "items": [
           {
             "name": "Serpent's Fang",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           },
           {
             "name": "Edge of Night",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Grasp of the Undying",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
         "avgKills": 4.0,
-        "avgDeaths": 6.5,
-        "avgAssists": 13.0,
-        "kda": 2.62,
-        "avgDamage": 19890
+        "avgDeaths": 6.3,
+        "avgAssists": 15.0,
+        "kda": 3.0,
+        "avgDamage": 25785
       }
     }
   }

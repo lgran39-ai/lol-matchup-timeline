@@ -1,68 +1,105 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.602559",
+  "updated_at": "2026-03-19T12:18:13.185570",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -47,
-      "avg_xp_diff": 13,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 6,
+      "avg_xp_diff": 36,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 588,
-      "avg_xp_diff": 634,
-      "avg_cs_diff": 13.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 427,
+      "avg_xp_diff": 380,
+      "avg_cs_diff": 11.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1780,
-      "avg_xp_diff": 2507,
-      "avg_cs_diff": 32.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1144,
+      "avg_xp_diff": 1344,
+      "avg_cs_diff": 25.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3551,
-      "avg_xp_diff": 3622,
-      "avg_cs_diff": 41.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1225,
+      "avg_xp_diff": 689,
+      "avg_cs_diff": 29.1,
+      "sample_frames": 15,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 396,
+      "avg_xp_diff": 1284,
+      "avg_cs_diff": 29.1,
+      "sample_frames": 8,
+      "advantage": 1
     }
   ],
   "champA": "Gnar",
   "champB": "Jax",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 6.5,
-      "avgDamage": 16924
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 10.0,
+      "kda": 4.0,
+      "avgDamage": 19812
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 0.0,
-      "kda": 0.17,
-      "avgDamage": 6533
+      "avgKills": 1.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 2.5,
+      "kda": 0.57,
+      "avgDamage": 10904
     }
   }
 }

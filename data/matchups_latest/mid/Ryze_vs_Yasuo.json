@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T03:29:44.703444",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T12:18:13.558403",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -25,
-      "avg_xp_diff": 2,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -16,
+      "avg_xp_diff": -1,
+      "avg_cs_diff": -1.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 158,
-      "avg_xp_diff": 13,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 116,
+      "avg_xp_diff": -78,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -82,
-      "avg_xp_diff": -140,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -18,
+      "avg_xp_diff": -236,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 472,
-      "avg_xp_diff": 332,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -378,
+      "avg_xp_diff": -117,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 14,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -680,
+      "avg_xp_diff": 324,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 2,
+      "advantage": -2
     }
   ],
   "champA": "Ryze",
@@ -48,56 +57,62 @@
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ghost",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 3.0,
-      "kda": 3.67,
-      "avgDamage": 9876
+      "avgKills": 3.0,
+      "avgDeaths": 2.3,
+      "avgAssists": 2.3,
+      "kda": 2.29,
+      "avgDamage": 10734
     },
     "champB": {
       "items": [],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 0.0,
-      "kda": 1.0,
-      "avgDamage": 7679
+      "avgKills": 3.3,
+      "avgDeaths": 2.0,
+      "avgAssists": 2.0,
+      "kda": 2.67,
+      "avgDamage": 10140
     }
   }
 }

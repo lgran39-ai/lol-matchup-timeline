@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.558106",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-19T12:18:12.961324",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 30,
-      "avg_xp_diff": 9,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 74,
+      "avg_xp_diff": -18,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 445,
-      "avg_xp_diff": 18,
-      "avg_cs_diff": -0.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 28,
+      "avg_xp_diff": -226,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 798,
-      "avg_xp_diff": -32,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 173,
+      "avg_xp_diff": -265,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2242,
-      "avg_xp_diff": 1109,
-      "avg_cs_diff": -19.5,
-      "sample_frames": 13,
+      "avg_gold_diff": 1023,
+      "avg_xp_diff": 607,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 25,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -218,
+      "avg_xp_diff": 1797,
+      "avg_cs_diff": -26.7,
+      "sample_frames": 3,
+      "advantage": -1
     }
   ],
   "champA": "Anivia",
@@ -47,49 +56,76 @@
     "champA": {
       "items": [
         {
-          "name": "Swiftmarch",
-          "count": 2,
+          "name": "Rod of Ages",
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 75.0
         },
         {
-          "name": "Rod of Ages",
+          "name": "Swiftmarch",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
-      "avgKills": 5.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 12.0,
-      "kda": 11.67,
-      "avgDamage": 22696
+      "avgKills": 3.5,
+      "avgDeaths": 3.2,
+      "avgAssists": 9.2,
+      "kda": 3.92,
+      "avgDamage": 19574
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Teleport",
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Immortal Shieldbow",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 1.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 1.5,
-      "kda": 0.38,
-      "avgDamage": 13538
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 2.2,
+      "avgDeaths": 6.0,
+      "avgAssists": 3.5,
+      "kda": 0.96,
+      "avgDamage": 15103
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:27.898734",
+  "sample_size": 2,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-03-19T12:18:13.103168",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -115,
-      "avg_xp_diff": -69,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -12,
+      "avg_xp_diff": -51,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -638,
-      "avg_xp_diff": 32,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -396,
+      "avg_xp_diff": -125,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -527,
-      "avg_xp_diff": 17,
-      "avg_cs_diff": -8.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -692,
+      "avg_xp_diff": -240,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -453,
-      "avg_xp_diff": 639,
-      "avg_cs_diff": -21.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -874,
+      "avg_xp_diff": 228,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -609,
-      "avg_xp_diff": -1438,
-      "avg_cs_diff": -55.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -2135,
+      "avg_xp_diff": 788,
+      "avg_cs_diff": -9.2,
+      "sample_frames": 6,
       "advantage": -2
     }
   ],
@@ -55,23 +55,51 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 1.83,
-      "avgDamage": 19570
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 10.5,
+      "kda": 3.3,
+      "avgDamage": 19170
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 6.0,
-      "avgDamage": 15538
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 8.5,
+      "avgAssists": 7.5,
+      "kda": 1.94,
+      "avgDamage": 21306
     }
   }
 }

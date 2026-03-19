@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:40.021910",
+  "updated_at": "2026-03-19T12:18:07.627263",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -103,
-      "avg_xp_diff": -62,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -154,
+      "avg_xp_diff": -137,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -582,
-      "avg_xp_diff": -497,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -525,
+      "avg_xp_diff": -741,
+      "avg_cs_diff": -9.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1503,
-      "avg_xp_diff": -1894,
-      "avg_cs_diff": -32.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1265,
+      "avg_xp_diff": -1871,
+      "avg_cs_diff": -27.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1768,
-      "avg_xp_diff": -1805,
-      "avg_cs_diff": -33.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -2442,
+      "avg_xp_diff": -2999,
+      "avg_cs_diff": -33.6,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1015,
-      "avg_xp_diff": -153,
-      "avg_cs_diff": -21.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -3061,
+      "avg_xp_diff": -4004,
+      "avg_cs_diff": -31.6,
+      "sample_frames": 17,
       "advantage": -2
     }
   ],
@@ -54,24 +54,65 @@
   "champB": "Teemo",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 6.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 9.0,
       "avgAssists": 4.0,
-      "kda": 2.0,
-      "avgDamage": 17555
+      "kda": 1.39,
+      "avgDamage": 21512
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 2.75,
-      "avgDamage": 21951
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 11.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 6.5,
+      "kda": 3.89,
+      "avgDamage": 35773
     }
   }
 }

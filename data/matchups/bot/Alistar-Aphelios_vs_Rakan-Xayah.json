@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:40.694811",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T12:18:08.667092",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -129,
-      "avg_xp_diff": -144,
+      "avg_gold_diff": -113,
+      "avg_xp_diff": -99,
       "avg_cs_diff": -3.3,
-      "sample_frames": 10,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -701,
-      "avg_xp_diff": -669,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -480,
+      "avg_xp_diff": -183,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1839,
-      "avg_xp_diff": -1425,
-      "avg_cs_diff": -27.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -987,
+      "avg_xp_diff": -579,
+      "avg_cs_diff": -15.5,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4259,
-      "avg_xp_diff": -2387,
-      "avg_cs_diff": -38.8,
-      "sample_frames": 21,
+      "avg_gold_diff": -1859,
+      "avg_xp_diff": -1036,
+      "avg_cs_diff": -26.9,
+      "sample_frames": 31,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -5294,
-      "avg_xp_diff": -3838,
-      "avg_cs_diff": -44.5,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 1586,
+      "avg_xp_diff": 743,
+      "avg_cs_diff": -17.0,
+      "sample_frames": 10,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -66,111 +66,151 @@
       "adc": {
         "items": [
           {
-            "name": "The Collector",
-            "count": 2,
+            "name": "Infinity Edge",
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
           },
           {
-            "name": "Infinity Edge",
+            "name": "The Collector",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 0.0
           }
         ],
         "keystones": [
           {
             "name": "Press the Attack",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
           }
         ],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 6.0,
-        "kda": 1.12,
-        "avgDamage": 15929
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ghost",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.3,
+        "avgDeaths": 7.0,
+        "avgAssists": 7.3,
+        "kda": 1.67,
+        "avgDamage": 24706
       },
       "sup": {
         "items": [
           {
             "name": "Zeke's Convergence",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Unsealed Spellbook",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 0.5,
-        "avgDeaths": 8.5,
-        "avgAssists": 10.0,
-        "kda": 1.24,
-        "avgDamage": 6030
+        "avgKills": 1.3,
+        "avgDeaths": 7.7,
+        "avgAssists": 13.3,
+        "kda": 1.91,
+        "avgDamage": 6652
       }
     },
     "teamB": {
       "adc": {
         "items": [
           {
-            "name": "Essence Reaver",
-            "count": 2,
+            "name": "Navori Flickerblade",
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           },
           {
-            "name": "Navori Flickerblade",
+            "name": "Infinity Edge",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 15.0,
-        "kda": 5.25,
-        "avgDamage": 27952
+        "avgKills": 5.3,
+        "avgDeaths": 5.0,
+        "avgAssists": 13.3,
+        "kda": 3.73,
+        "avgDamage": 25308
       },
       "sup": {
         "items": [
           {
             "name": "Zeke's Convergence",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           },
           {
             "name": "Locket of the Iron Solari",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Unsealed Spellbook",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 3.0,
-        "avgDeaths": 3.5,
-        "avgAssists": 20.0,
-        "kda": 6.57,
-        "avgDamage": 7597
+        "avgKills": 2.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 21.0,
+        "kda": 4.6,
+        "avgDamage": 7750
       }
     }
   }

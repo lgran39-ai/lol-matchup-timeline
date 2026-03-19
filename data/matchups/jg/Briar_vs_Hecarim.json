@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:38.553735",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:06.159097",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 75,
-      "avg_xp_diff": 120,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 39,
+      "avg_xp_diff": 93,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 101,
-      "avg_xp_diff": -126,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 284,
+      "avg_xp_diff": 282,
+      "avg_cs_diff": 7.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -829,
-      "avg_xp_diff": -556,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -493,
+      "avg_xp_diff": -195,
+      "avg_cs_diff": 5.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -81,
-      "avg_xp_diff": -1319,
-      "avg_cs_diff": -12.3,
-      "sample_frames": 11,
+      "avg_gold_diff": -203,
+      "avg_xp_diff": -1156,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 21,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -30,
+      "avg_xp_diff": 1362,
+      "avg_cs_diff": 25.5,
+      "sample_frames": 8,
       "advantage": 0
     }
   ],
@@ -45,24 +54,66 @@
   "champB": "Hecarim",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 1.29,
-      "avgDamage": 20609
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 8.5,
+      "kda": 2.5,
+      "avgDamage": 23196
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 12.0,
-      "kda": 4.75,
-      "avgDamage": 20668
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 9.5,
+      "kda": 4.22,
+      "avgDamage": 21339
     }
   }
 }

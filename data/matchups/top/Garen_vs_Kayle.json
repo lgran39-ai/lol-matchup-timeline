@@ -1,68 +1,105 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:39.119504",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:06.748251",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 175,
-      "avg_xp_diff": 151,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 99,
+      "avg_xp_diff": 78,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1019,
-      "avg_xp_diff": 1570,
-      "avg_cs_diff": 17.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 570,
+      "avg_xp_diff": 639,
+      "avg_cs_diff": 9.3,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2194,
-      "avg_xp_diff": 3478,
-      "avg_cs_diff": 36.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1046,
+      "avg_xp_diff": 1116,
+      "avg_cs_diff": 15.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4097,
-      "avg_xp_diff": 5925,
-      "avg_cs_diff": 62.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1563,
+      "avg_xp_diff": 1402,
+      "avg_cs_diff": 11.6,
+      "sample_frames": 15,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -762,
+      "avg_xp_diff": -2242,
+      "avg_cs_diff": -26.6,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "champA": "Garen",
   "champB": "Kayle",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 4.0,
-      "kda": 6.5,
-      "avgDamage": 17952
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 2.5,
+      "kda": 1.64,
+      "avgDamage": 16737
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 5916
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 4.5,
+      "kda": 1.17,
+      "avgDamage": 12304
     }
   }
 }

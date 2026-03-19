@@ -1,105 +1,137 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T03:29:39.165729",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-19T12:18:06.795616",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -49,
-      "avg_xp_diff": -31,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 30,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -530,
-      "avg_xp_diff": -456,
-      "avg_cs_diff": -17.3,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -124,
+      "avg_xp_diff": -219,
+      "avg_cs_diff": -10.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1203,
-      "avg_xp_diff": -1312,
-      "avg_cs_diff": -31.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -174,
+      "avg_xp_diff": -284,
+      "avg_cs_diff": -12.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2547,
-      "avg_xp_diff": -1638,
-      "avg_cs_diff": -35.3,
-      "sample_frames": 20,
+      "avg_gold_diff": -932,
+      "avg_xp_diff": -365,
+      "avg_cs_diff": -10.3,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2220,
-      "avg_xp_diff": -289,
-      "avg_cs_diff": -29.0,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": 810,
+      "avg_xp_diff": 1609,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 18,
+      "advantage": 2
     }
   ],
   "champA": "Gragas",
   "champB": "Kennen",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 1.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 6.0,
-      "kda": 2.14,
-      "avgDamage": 13584
+      "avgKills": 3.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 8.3,
+      "kda": 3.6,
+      "avgDamage": 20061
     },
     "champB": {
       "items": [
         {
           "name": "Hextech Gunblade",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 3.33,
-      "avgDamage": 28188
+      "avgKills": 5.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 5.0,
+      "kda": 1.82,
+      "avgDamage": 29121
     }
   }
 }

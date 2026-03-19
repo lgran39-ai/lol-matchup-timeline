@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T03:29:44.566669",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-19T12:18:12.994414",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 24,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 284,
-      "avg_xp_diff": 191,
-      "avg_cs_diff": 12.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 228,
+      "avg_xp_diff": 178,
+      "avg_cs_diff": 14.2,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1098,
-      "avg_xp_diff": 1305,
-      "avg_cs_diff": 35.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 885,
+      "avg_xp_diff": 1052,
+      "avg_cs_diff": 32.0,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1875,
-      "avg_xp_diff": 1252,
-      "avg_cs_diff": 52.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 1856,
+      "avg_xp_diff": 1395,
+      "avg_cs_diff": 51.9,
+      "sample_frames": 12,
       "advantage": 2
     },
     {
@@ -55,23 +55,44 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 5.0,
-      "kda": 2.75,
-      "avgDamage": 35014
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 3.0,
+      "kda": 3.0,
+      "avgDamage": 22824
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 13.0,
-      "kda": 7.0,
-      "avgDamage": 8944
+      "avgKills": 0.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 8.5,
+      "kda": 6.0,
+      "avgDamage": 6670
     }
   }
 }

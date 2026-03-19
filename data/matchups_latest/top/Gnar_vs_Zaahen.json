@@ -1,68 +1,137 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:44.604307",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-19T12:18:13.193922",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 5,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 61,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 621,
-      "avg_xp_diff": 445,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 623,
+      "avg_xp_diff": 506,
+      "avg_cs_diff": 13.9,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1278,
-      "avg_xp_diff": 1399,
-      "avg_cs_diff": 24.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 884,
+      "avg_xp_diff": 740,
+      "avg_cs_diff": 22.9,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2049,
-      "avg_xp_diff": 1578,
-      "avg_cs_diff": 22.9,
-      "sample_frames": 11,
+      "avg_gold_diff": 876,
+      "avg_xp_diff": 376,
+      "avg_cs_diff": 25.6,
+      "sample_frames": 32,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4,
+      "avg_xp_diff": 633,
+      "avg_cs_diff": 41.1,
+      "sample_frames": 7,
+      "advantage": 0
     }
   ],
   "champA": "Gnar",
   "champB": "Zaahen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
       "avgKills": 5.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 10.0,
-      "kda": 15.0,
-      "avgDamage": 32186
+      "avgDeaths": 4.0,
+      "avgAssists": 5.7,
+      "kda": 2.67,
+      "avgDamage": 32911
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.0,
-      "kda": 0.67,
-      "avgDamage": 12258
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 4.3,
+      "kda": 1.93,
+      "avgDamage": 22232
     }
   }
 }

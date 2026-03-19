@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T03:29:42.974133",
+  "updated_at": "2026-03-19T12:18:10.869188",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 254,
-      "avg_xp_diff": 122,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 171,
+      "avg_xp_diff": 78,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 630,
-      "avg_xp_diff": 36,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 394,
+      "avg_xp_diff": 90,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 368,
-      "avg_xp_diff": -287,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -102,
+      "avg_xp_diff": -177,
+      "avg_cs_diff": -9.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1,
-      "avg_xp_diff": -695,
-      "avg_cs_diff": -3.7,
-      "sample_frames": 3,
-      "advantage": 0
+      "avg_gold_diff": 565,
+      "avg_xp_diff": 879,
+      "avg_cs_diff": -28.4,
+      "sample_frames": 11,
+      "advantage": 1
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,101 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 4.0,
+        "avgKills": 4.5,
         "avgDeaths": 1.0,
-        "avgAssists": 9.0,
-        "kda": 13.0,
-        "avgDamage": 13129
+        "avgAssists": 9.5,
+        "kda": 14.0,
+        "avgDamage": 13512
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
         "avgDeaths": 5.0,
-        "avgAssists": 9.0,
-        "kda": 2.0,
-        "avgDamage": 5588
+        "avgAssists": 9.5,
+        "kda": 2.2,
+        "avgDamage": 5011
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 3.0,
-        "kda": 1.6,
-        "avgDamage": 15256
+        "avgKills": 4.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 2.0,
+        "kda": 1.5,
+        "avgDamage": 14030
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 7.0,
-        "kda": 1.4,
-        "avgDamage": 5709
+        "avgDeaths": 5.5,
+        "avgAssists": 6.5,
+        "kda": 1.18,
+        "avgDamage": 5154
       }
     }
   }
