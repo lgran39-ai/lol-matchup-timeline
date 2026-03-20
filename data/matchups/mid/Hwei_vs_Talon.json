@@ -1,105 +1,173 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:06.937153",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-20T14:47:40.018128",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 92,
-      "avg_xp_diff": 45,
-      "avg_cs_diff": 3.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 63,
+      "avg_xp_diff": 50,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 509,
-      "avg_xp_diff": 282,
-      "avg_cs_diff": 10.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 216,
+      "avg_xp_diff": 128,
+      "avg_cs_diff": 10.1,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1205,
-      "avg_xp_diff": 1036,
-      "avg_cs_diff": 21.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 686,
+      "avg_xp_diff": 417,
+      "avg_cs_diff": 14.4,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1906,
-      "avg_xp_diff": 2371,
-      "avg_cs_diff": 42.5,
-      "sample_frames": 20,
+      "avg_gold_diff": 588,
+      "avg_xp_diff": 329,
+      "avg_cs_diff": 12.8,
+      "sample_frames": 40,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2974,
-      "avg_xp_diff": 3375,
-      "avg_cs_diff": 51.9,
-      "sample_frames": 11,
-      "advantage": 2
+      "avg_gold_diff": -313,
+      "avg_xp_diff": -674,
+      "avg_cs_diff": -17.8,
+      "sample_frames": 30,
+      "advantage": -1
     }
   ],
   "champA": "Hwei",
   "champB": "Talon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 7.5,
-      "avgDeaths": 2.5,
-      "avgAssists": 10.5,
-      "kda": 7.2,
-      "avgDamage": 30124
-    },
-    "champB": {
       "items": [
         {
-          "name": "Serpent's Fang",
+          "name": "Blackfire Torch",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Crimson Lucidity",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
-          "name": "Electrocute",
+          "name": "Summon Aery",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
-          "spells": "Flash+Ignite",
-          "count": 2,
+          "spells": "Flash+Teleport",
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 75.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 1.58,
-      "avgDamage": 16083
+      "avgKills": 8.0,
+      "avgDeaths": 5.2,
+      "avgAssists": 9.5,
+      "kda": 3.33,
+      "avgDamage": 29698
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Serpent's Fang",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 7.2,
+      "avgDeaths": 5.2,
+      "avgAssists": 4.5,
+      "kda": 2.24,
+      "avgDamage": 21966
     }
   }
 }

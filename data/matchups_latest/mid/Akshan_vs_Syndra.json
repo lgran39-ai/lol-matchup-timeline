@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:12.890213",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:48.867430",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -205,
-      "avg_xp_diff": -79,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -116,
+      "avg_xp_diff": -69,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -467,
-      "avg_xp_diff": -177,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -139,
+      "avg_xp_diff": 5,
+      "avg_cs_diff": -11.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 355,
-      "avg_xp_diff": 703,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 28,
+      "avg_xp_diff": 190,
+      "avg_cs_diff": -18.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2518,
-      "avg_xp_diff": 3283,
-      "avg_cs_diff": 25.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 1026,
+      "avg_xp_diff": 1662,
+      "avg_cs_diff": -15.3,
+      "sample_frames": 19,
       "advantage": 2
     }
   ],
@@ -45,24 +45,51 @@
   "champB": "Syndra",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Statikk Shiv",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 13.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.5,
       "avgDeaths": 5.0,
-      "avgAssists": 8.0,
-      "kda": 4.2,
-      "avgDamage": 23828
+      "avgAssists": 5.0,
+      "kda": 2.9,
+      "avgDamage": 21601
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 9.0,
-      "kda": 1.4,
-      "avgDamage": 15778
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 7.0,
+      "kda": 1.57,
+      "avgDamage": 16284
     }
   }
 }

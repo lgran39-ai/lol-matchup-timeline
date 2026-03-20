@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.185570",
+  "sample_size": 6,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:49.343402",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 6,
-      "avg_xp_diff": 36,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -10,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 427,
-      "avg_xp_diff": 380,
-      "avg_cs_diff": 11.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 148,
+      "avg_xp_diff": 163,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1144,
-      "avg_xp_diff": 1344,
-      "avg_cs_diff": 25.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 417,
+      "avg_xp_diff": 380,
+      "avg_cs_diff": 7.0,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1225,
-      "avg_xp_diff": 689,
-      "avg_cs_diff": 29.1,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": 131,
+      "avg_xp_diff": -136,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 52,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 396,
-      "avg_xp_diff": 1284,
-      "avg_cs_diff": 29.1,
-      "sample_frames": 8,
-      "advantage": 1
+      "avg_gold_diff": -1316,
+      "avg_xp_diff": -1007,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 18,
+      "advantage": -2
     }
   ],
   "champA": "Gnar",
@@ -57,49 +57,99 @@
       "items": [
         {
           "name": "Trinity Force",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Fleet Footwork",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 10.0,
-      "kda": 4.0,
-      "avgDamage": 19812
+      "avgKills": 4.0,
+      "avgDeaths": 3.7,
+      "avgAssists": 4.7,
+      "kda": 2.36,
+      "avgDamage": 16740
     },
     "champB": {
-      "items": [],
-      "keystones": [
+      "items": [
         {
-          "name": "Grasp of the Undying",
+          "name": "Trinity Force",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Dusk and Dawn",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 33.3,
           "winRate": 0.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 1.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.5,
-      "kda": 0.57,
-      "avgDamage": 10904
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 4.3,
+      "avgAssists": 3.5,
+      "kda": 1.42,
+      "avgDamage": 15321
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:05.624591",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:38.229610",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -67,
-      "avg_xp_diff": -9,
-      "avg_cs_diff": 0.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -74,
+      "avg_xp_diff": -1,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -161,
-      "avg_xp_diff": 258,
-      "avg_cs_diff": 7.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -189,
+      "avg_xp_diff": 261,
+      "avg_cs_diff": 6.7,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 52,
-      "avg_xp_diff": 708,
-      "avg_cs_diff": 22.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -136,
+      "avg_xp_diff": 463,
+      "avg_cs_diff": 18.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1156,
-      "avg_xp_diff": 1696,
-      "avg_cs_diff": 58.6,
-      "sample_frames": 20,
+      "avg_gold_diff": 629,
+      "avg_xp_diff": 1256,
+      "avg_cs_diff": 48.0,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1587,
-      "avg_xp_diff": 881,
-      "avg_cs_diff": 43.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 799,
+      "avg_xp_diff": 1238,
+      "avg_cs_diff": 54.4,
+      "sample_frames": 19,
       "advantage": 2
     }
   ],
@@ -56,62 +56,94 @@
     "champA": {
       "items": [
         {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
           "name": "Blackfire Torch",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         },
         {
           "name": "Spellslinger's Shoes",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 8.5,
-      "kda": 2.92,
-      "avgDamage": 29720
+      "avgKills": 8.7,
+      "avgDeaths": 5.7,
+      "avgAssists": 9.0,
+      "kda": 3.12,
+      "avgDamage": 28381
     },
     "champB": {
       "items": [
         {
           "name": "Stormsurge",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         },
         {
           "name": "Spellslinger's Shoes",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 8.5,
-      "avgDeaths": 5.5,
-      "avgAssists": 7.5,
-      "kda": 2.91,
-      "avgDamage": 22494
+      "avgKills": 8.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 7.7,
+      "kda": 2.61,
+      "avgDamage": 24398
     }
   }
 }

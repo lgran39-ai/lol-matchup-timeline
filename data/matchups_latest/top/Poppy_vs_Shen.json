@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.505730",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:49.930043",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 426,
-      "avg_xp_diff": 283,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 188,
+      "avg_xp_diff": 175,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1339,
-      "avg_xp_diff": 1385,
-      "avg_cs_diff": 18.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 498,
+      "avg_xp_diff": 663,
+      "avg_cs_diff": 9.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2567,
-      "avg_xp_diff": 3388,
-      "avg_cs_diff": 48.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1382,
+      "avg_xp_diff": 1962,
+      "avg_cs_diff": 32.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2944,
-      "avg_xp_diff": 3362,
-      "avg_cs_diff": 59.2,
-      "sample_frames": 4,
+      "avg_gold_diff": 1214,
+      "avg_xp_diff": 1551,
+      "avg_cs_diff": 31.6,
+      "sample_frames": 14,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1829,
+      "avg_xp_diff": 3290,
+      "avg_cs_diff": 36.1,
+      "sample_frames": 10,
       "advantage": 2
     }
   ],
@@ -46,23 +55,44 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.0,
-      "kda": 3.67,
-      "avgDamage": 20209
+      "avgKills": 5.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 8.0,
+      "kda": 6.5,
+      "avgDamage": 21088
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 4.0,
-      "kda": 0.88,
-      "avgDamage": 7099
+      "avgKills": 2.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 2.5,
+      "kda": 0.69,
+      "avgDamage": 8143
     }
   }
 }

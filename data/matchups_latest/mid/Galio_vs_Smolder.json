@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-19T12:18:13.166995",
+  "sample_size": 7,
+  "overall_winrate_a": 57.1,
+  "updated_at": "2026-03-20T14:47:49.309577",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -94,
-      "avg_xp_diff": -17,
-      "avg_cs_diff": -4.5,
-      "sample_frames": 15,
+      "avg_gold_diff": -62,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -399,
-      "avg_xp_diff": -103,
-      "avg_cs_diff": -12.2,
-      "sample_frames": 15,
+      "avg_gold_diff": -251,
+      "avg_xp_diff": -53,
+      "avg_cs_diff": -6.3,
+      "sample_frames": 35,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -587,
-      "avg_xp_diff": -253,
-      "avg_cs_diff": -16.7,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": -247,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": -9.6,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1963,
-      "avg_xp_diff": -827,
-      "avg_cs_diff": -20.8,
-      "sample_frames": 28,
+      "avg_gold_diff": -581,
+      "avg_xp_diff": 246,
+      "avg_cs_diff": -15.8,
+      "sample_frames": 64,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2506,
+      "avg_xp_diff": 163,
+      "avg_cs_diff": -39.8,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
@@ -47,82 +56,124 @@
     "champA": {
       "items": [
         {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
           "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Armored Advance",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stormsurge",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 28.6,
           "winRate": 50.0
         },
         {
-          "name": "Spellslinger's Shoes",
+          "name": "Sunfire Aegis",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
         }
       ],
-      "avgKills": 1.3,
-      "avgDeaths": 4.0,
-      "avgAssists": 6.7,
-      "kda": 2.0,
-      "avgDamage": 10091
+      "avgKills": 3.0,
+      "avgDeaths": 3.7,
+      "avgAssists": 8.6,
+      "kda": 3.12,
+      "avgDamage": 12669
     },
     "champB": {
       "items": [
         {
-          "name": "Crimson Lucidity",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
+          "name": "Essence Reaver",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 33.3
         },
         {
-          "name": "Essence Reaver",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
         },
         {
           "name": "Spear of Shojin",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Rapid Firecannon",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Fleet Footwork",
-          "count": 3,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 42.9
         }
       ],
       "summonerSpells": [
         {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 20.0
+        },
+        {
           "spells": "Flash+Ghost",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 28.6,
           "winRate": 100.0
         }
       ],
-      "avgKills": 7.7,
-      "avgDeaths": 4.3,
-      "avgAssists": 5.0,
-      "kda": 2.92,
-      "avgDamage": 27272
+      "avgKills": 5.6,
+      "avgDeaths": 5.1,
+      "avgAssists": 3.9,
+      "kda": 1.83,
+      "avgDamage": 24269
     }
   }
 }

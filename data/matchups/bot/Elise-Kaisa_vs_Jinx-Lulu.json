@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:10.897135",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:45.591644",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 209,
-      "avg_xp_diff": 7,
-      "avg_cs_diff": -0.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 204,
+      "avg_xp_diff": -18,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1565,
-      "avg_xp_diff": 632,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 1570,
+      "avg_xp_diff": 478,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2306,
-      "avg_xp_diff": 847,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 2028,
+      "avg_xp_diff": 579,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 5991,
-      "avg_xp_diff": 2986,
-      "avg_cs_diff": 22.5,
-      "sample_frames": 11,
+      "avg_gold_diff": 5172,
+      "avg_xp_diff": 2973,
+      "avg_cs_diff": 13.4,
+      "sample_frames": 21,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3466,
+      "avg_xp_diff": 1065,
+      "avg_cs_diff": 12.2,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -58,98 +67,139 @@
         "items": [
           {
             "name": "Guinsoo's Rageblade",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           },
           {
             "name": "Kraken Slayer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
-          }
-        ],
-        "summonerSpells": [],
-        "avgKills": 5.5,
-        "avgDeaths": 2.0,
-        "avgAssists": 8.0,
-        "kda": 6.75,
-        "avgDamage": 13603
-      },
-      "sup": {
-        "items": [],
-        "keystones": [
-          {
-            "name": "Electrocute",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 100.0
-          }
-        ],
-        "summonerSpells": [
-          {
-            "spells": "Flash+Ignite",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 100.0
-          }
-        ],
-        "avgKills": 5.0,
-        "avgDeaths": 1.5,
-        "avgAssists": 7.5,
-        "kda": 8.33,
-        "avgDamage": 9387
-      }
-    },
-    "teamB": {
-      "adc": {
-        "items": [],
-        "keystones": [
-          {
-            "name": "Lethal Tempo",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
             "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 3.7,
+        "avgAssists": 10.7,
+        "kda": 4.82,
+        "avgDamage": 18951
+      },
+      "sup": {
+        "items": [
+          {
+            "name": "Stormsurge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 9.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 10.3,
+        "kda": 4.83,
+        "avgDamage": 16307
+      }
+    },
+    "teamB": {
+      "adc": {
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 0.0
           }
         ],
-        "avgKills": 0.5,
-        "avgDeaths": 6.0,
-        "avgAssists": 3.0,
-        "kda": 0.58,
-        "avgDamage": 9056
+        "avgKills": 5.3,
+        "avgDeaths": 7.7,
+        "avgAssists": 5.3,
+        "kda": 1.39,
+        "avgDamage": 21556
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Ardent Censer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
           }
         ],
         "avgKills": 1.0,
-        "avgDeaths": 4.5,
-        "avgAssists": 3.5,
-        "kda": 1.0,
-        "avgDamage": 4800
+        "avgDeaths": 7.0,
+        "avgAssists": 13.0,
+        "kda": 2.0,
+        "avgDamage": 7211
       }
     }
   }

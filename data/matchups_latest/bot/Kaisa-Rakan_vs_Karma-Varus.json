@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:14.037672",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:51.039767",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 34,
-      "avg_xp_diff": 91,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -70,
+      "avg_xp_diff": 43,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -144,
-      "avg_xp_diff": -67,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -763,
+      "avg_xp_diff": -318,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1555,
-      "avg_xp_diff": -1299,
-      "avg_cs_diff": -35.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -1846,
+      "avg_xp_diff": -1313,
+      "avg_cs_diff": -22.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2078,
-      "avg_xp_diff": -1549,
-      "avg_cs_diff": -51.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -1822,
+      "avg_xp_diff": -1188,
+      "avg_cs_diff": -27.7,
+      "sample_frames": 20,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -180,
+      "avg_xp_diff": 216,
+      "avg_cs_diff": 15.3,
+      "sample_frames": 10,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,141 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 8.0,
-        "kda": 2.2,
-        "avgDamage": 10875
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 8.5,
+        "kda": 1.71,
+        "avgDamage": 17512
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 3.0,
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 5.5,
         "avgAssists": 14.0,
-        "kda": 5.33,
-        "avgDamage": 6487
+        "kda": 2.82,
+        "avgDamage": 6521
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 9.0,
-        "kda": 2.2,
-        "avgDamage": 17154
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 12.0,
+        "kda": 4.12,
+        "avgDamage": 27998
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Redemption",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 10.0,
-        "kda": 4.0,
-        "avgDamage": 8779
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 15.0,
+        "kda": 3.89,
+        "avgDamage": 9162
       }
     }
   }

@@ -1,68 +1,112 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:08.309445",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:41.369323",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 60,
-      "avg_xp_diff": 50,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 36,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 283,
-      "avg_xp_diff": 147,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 116,
+      "avg_xp_diff": -138,
+      "avg_cs_diff": 2.1,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1206,
-      "avg_xp_diff": 874,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 411,
+      "avg_xp_diff": -78,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1913,
-      "avg_xp_diff": 1601,
-      "avg_cs_diff": 24.7,
-      "sample_frames": 3,
-      "advantage": 2
+      "avg_gold_diff": -214,
+      "avg_xp_diff": -951,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 23,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -673,
+      "avg_xp_diff": -1781,
+      "avg_cs_diff": -13.1,
+      "sample_frames": 13,
+      "advantage": -2
     }
   ],
   "champA": "Riven",
   "champB": "Skarner",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 1.0,
-      "kda": 3.0,
-      "avgDamage": 6981
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.2,
+      "avgDeaths": 3.5,
+      "avgAssists": 3.5,
+      "kda": 1.64,
+      "avgDamage": 12112
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 10230
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 4.5,
+      "kda": 1.57,
+      "avgDamage": 14570
     }
   }
 }

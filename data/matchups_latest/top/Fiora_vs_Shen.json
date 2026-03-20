@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.150408",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:49.273003",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 227,
-      "avg_xp_diff": 57,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 70,
+      "avg_xp_diff": -10,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 849,
-      "avg_xp_diff": 348,
-      "avg_cs_diff": 19.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 542,
+      "avg_xp_diff": -60,
+      "avg_cs_diff": 10.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1571,
-      "avg_xp_diff": 1442,
-      "avg_cs_diff": 39.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1231,
+      "avg_xp_diff": 817,
+      "avg_cs_diff": 25.4,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3159,
-      "avg_xp_diff": 1428,
-      "avg_cs_diff": 44.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 2685,
+      "avg_xp_diff": 1218,
+      "avg_cs_diff": 41.6,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3138,
-      "avg_xp_diff": 510,
-      "avg_cs_diff": 53.1,
-      "sample_frames": 8,
+      "avg_gold_diff": 2851,
+      "avg_xp_diff": 622,
+      "avg_cs_diff": 52.3,
+      "sample_frames": 12,
       "advantage": 2
     }
   ],
@@ -54,24 +54,71 @@
   "champB": "Shen",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 6.0,
-      "kda": 1.67,
-      "avgDamage": 33845
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 4.7,
+      "kda": 1.6,
+      "avgDamage": 23685
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 11.0,
-      "kda": 1.62,
-      "avgDamage": 13112
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.3,
+      "avgDeaths": 7.0,
+      "avgAssists": 8.3,
+      "kda": 1.52,
+      "avgDamage": 13942
     }
   }
 }

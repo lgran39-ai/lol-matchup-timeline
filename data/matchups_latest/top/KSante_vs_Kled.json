@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:13.313646",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-20T14:47:49.587564",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 29,
-      "avg_xp_diff": 28,
+      "avg_gold_diff": -9,
+      "avg_xp_diff": -17,
       "avg_cs_diff": -1.8,
-      "sample_frames": 10,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 560,
-      "avg_xp_diff": 406,
-      "avg_cs_diff": 7.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 237,
+      "avg_xp_diff": 45,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1464,
-      "avg_xp_diff": 1668,
-      "avg_cs_diff": 33.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 987,
+      "avg_xp_diff": 1015,
+      "avg_cs_diff": 14.5,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2054,
-      "avg_xp_diff": 2331,
-      "avg_cs_diff": 57.9,
-      "sample_frames": 13,
+      "avg_gold_diff": 1322,
+      "avg_xp_diff": 1438,
+      "avg_cs_diff": 22.7,
+      "sample_frames": 42,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -46,
+      "avg_xp_diff": 486,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 17,
+      "advantage": 0
     }
   ],
   "champA": "KSante",
@@ -48,49 +57,81 @@
       "items": [
         {
           "name": "Iceborn Gauntlet",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 80.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 80.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 2.0,
-      "kda": 2.4,
-      "avgDamage": 17899
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.8,
+      "avgDeaths": 2.6,
+      "avgAssists": 6.8,
+      "kda": 4.08,
+      "avgDamage": 21780
     },
     "champB": {
       "items": [
         {
           "name": "Titanic Hydra",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Conqueror",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
-      "summonerSpells": [],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        }
+      ],
       "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 2.5,
-      "kda": 1.1,
-      "avgDamage": 12888
+      "avgDeaths": 6.0,
+      "avgAssists": 2.2,
+      "kda": 0.87,
+      "avgDamage": 17450
     }
   }
 }

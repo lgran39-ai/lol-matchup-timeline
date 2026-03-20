@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:13.192529",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-20T14:47:49.357362",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 53,
-      "avg_xp_diff": 57,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 79,
+      "avg_xp_diff": 42,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 109,
-      "avg_xp_diff": 158,
-      "avg_cs_diff": 10.2,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 283,
+      "avg_xp_diff": 172,
+      "avg_cs_diff": 7.3,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 770,
-      "avg_xp_diff": 1312,
-      "avg_cs_diff": 25.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 783,
+      "avg_xp_diff": 1044,
+      "avg_cs_diff": 21.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2979,
-      "avg_xp_diff": 2835,
-      "avg_cs_diff": 35.2,
-      "sample_frames": 20,
+      "avg_gold_diff": 2564,
+      "avg_xp_diff": 2282,
+      "avg_cs_diff": 37.3,
+      "sample_frames": 32,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4068,
-      "avg_xp_diff": 4025,
-      "avg_cs_diff": 49.8,
-      "sample_frames": 16,
+      "avg_gold_diff": 3444,
+      "avg_xp_diff": 3547,
+      "avg_cs_diff": 50.0,
+      "sample_frames": 23,
       "advantage": 2
     }
   ],
@@ -56,69 +56,88 @@
     "champA": {
       "items": [
         {
-          "name": "Sterak's Gage",
-          "count": 2,
+          "name": "Trinity Force",
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 25.0
         },
         {
-          "name": "Trinity Force",
+          "name": "Sterak's Gage",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Wit's End",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 50.0,
+          "winRate": 0.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 25.0
         }
       ],
-      "avgKills": 10.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 7.5,
-      "kda": 3.89,
-      "avgDamage": 34605
+      "avgKills": 7.2,
+      "avgDeaths": 3.5,
+      "avgAssists": 6.2,
+      "kda": 3.86,
+      "avgDamage": 29266
     },
     "champB": {
       "items": [
         {
+          "name": "Black Cleaver",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
           "name": "Sterak's Gage",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 50.0
         },
         {
-          "name": "Black Cleaver",
+          "name": "Jak'Sho, The Protean",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 50.0,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 75.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 75.0
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 6.0,
-      "kda": 1.12,
-      "avgDamage": 18886
+      "avgKills": 4.0,
+      "avgDeaths": 5.8,
+      "avgAssists": 5.0,
+      "kda": 1.57,
+      "avgDamage": 16603
     }
   }
 }

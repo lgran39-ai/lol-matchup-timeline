@@ -1,44 +1,53 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.497777",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:49.914603",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 97,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 93,
+      "avg_xp_diff": -34,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 299,
-      "avg_xp_diff": -154,
-      "avg_cs_diff": -6.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 267,
+      "avg_xp_diff": -249,
+      "avg_cs_diff": -9.7,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1338,
-      "avg_xp_diff": 605,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 183,
+      "avg_xp_diff": 125,
+      "avg_cs_diff": -11.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2351,
-      "avg_xp_diff": 2677,
-      "avg_cs_diff": 21.7,
-      "sample_frames": 11,
+      "avg_gold_diff": 425,
+      "avg_xp_diff": 852,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 21,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3569,
+      "avg_xp_diff": -2612,
+      "avg_cs_diff": -67.0,
+      "sample_frames": 17,
+      "advantage": -2
     }
   ],
   "champA": "Pantheon",
@@ -46,23 +55,57 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 13.0,
-      "kda": 6.25,
-      "avgDamage": 28027
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 13.5,
+      "kda": 4.0,
+      "avgDamage": 25520
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 6.0,
-      "kda": 0.9,
-      "avgDamage": 14390
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 8.5,
+      "kda": 1.93,
+      "avgDamage": 22510
     }
   }
 }

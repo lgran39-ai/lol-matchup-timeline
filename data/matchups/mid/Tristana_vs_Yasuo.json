@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:08.534453",
+  "updated_at": "2026-03-20T14:47:41.668069",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -72,
-      "avg_xp_diff": 67,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -236,
+      "avg_xp_diff": -22,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 516,
-      "avg_xp_diff": 356,
-      "avg_cs_diff": 15.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -226,
+      "avg_xp_diff": 35,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1310,
-      "avg_xp_diff": 861,
-      "avg_cs_diff": 32.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 106,
+      "avg_xp_diff": 205,
+      "avg_cs_diff": 8.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2316,
-      "avg_xp_diff": 1551,
-      "avg_cs_diff": 43.5,
-      "sample_frames": 8,
+      "avg_gold_diff": 798,
+      "avg_xp_diff": 497,
+      "avg_cs_diff": 17.3,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -46,23 +46,57 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 4.0,
-      "kda": 5.5,
-      "avgDamage": 19258
+      "avgKills": 3.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 3.0,
+      "kda": 2.6,
+      "avgDamage": 15612
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 1.0,
-      "kda": 0.67,
-      "avgDamage": 8300
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 1.5,
+      "kda": 1.25,
+      "avgDamage": 11470
     }
   }
 }

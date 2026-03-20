@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:09.503109",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:42.996853",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -362,
-      "avg_xp_diff": -174,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -286,
+      "avg_xp_diff": -85,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1180,
-      "avg_xp_diff": -641,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1365,
+      "avg_xp_diff": -786,
+      "avg_cs_diff": -3.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1003,
-      "avg_xp_diff": -576,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -2009,
+      "avg_xp_diff": -1118,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -469,
-      "avg_xp_diff": -237,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -5770,
+      "avg_xp_diff": -3309,
+      "avg_cs_diff": -19.6,
+      "sample_frames": 15,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -10990,
+      "avg_xp_diff": -4204,
+      "avg_cs_diff": -22.5,
+      "sample_frames": 2,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -56,45 +65,87 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 5.0,
-        "kda": 1.4,
-        "avgDamage": 11956
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 6.0,
+        "kda": 1.38,
+        "avgDamage": 16826
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 6.0,
-        "kda": 1.17,
-        "avgDamage": 4444
+        "avgKills": 0.5,
+        "avgDeaths": 11.0,
+        "avgAssists": 9.0,
+        "kda": 0.86,
+        "avgDamage": 6034
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 7.0,
-        "kda": 2.2,
-        "avgDamage": 11686
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 16.0,
+        "avgDeaths": 3.5,
+        "avgAssists": 9.0,
+        "kda": 7.14,
+        "avgDamage": 32142
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
         "avgKills": 2.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 9.0,
-        "kda": 11.0,
-        "avgDamage": 4254
+        "avgDeaths": 3.5,
+        "avgAssists": 17.5,
+        "kda": 5.57,
+        "avgDamage": 4882
       }
     }
   }

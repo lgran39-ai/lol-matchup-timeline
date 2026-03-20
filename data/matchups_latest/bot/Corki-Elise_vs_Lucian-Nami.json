@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.874202",
+  "updated_at": "2026-03-20T14:47:50.690597",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -172,
-      "avg_xp_diff": -174,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -125,
+      "avg_xp_diff": -104,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -626,
-      "avg_xp_diff": -885,
-      "avg_cs_diff": -21.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -665,
+      "avg_xp_diff": -536,
+      "avg_cs_diff": -16.3,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1963,
-      "avg_xp_diff": -1333,
-      "avg_cs_diff": -33.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1526,
+      "avg_xp_diff": -930,
+      "avg_cs_diff": -25.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1652,
-      "avg_xp_diff": 34,
-      "avg_cs_diff": -15.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -1098,
+      "avg_xp_diff": 580,
+      "avg_cs_diff": -9.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1900,
-      "avg_xp_diff": 157,
-      "avg_cs_diff": -13.9,
-      "sample_frames": 12,
+      "avg_gold_diff": -2260,
+      "avg_xp_diff": -495,
+      "avg_cs_diff": -3.8,
+      "sample_frames": 26,
       "advantage": -2
     }
   ],
@@ -64,46 +64,134 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 18.0,
-        "kda": 3.14,
-        "avgDamage": 29191
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Conqueror",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 13.0,
+        "kda": 2.77,
+        "avgDamage": 34466
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 15.0,
-        "kda": 1.45,
-        "avgDamage": 11234
+        "avgKills": 1.5,
+        "avgDeaths": 8.5,
+        "avgAssists": 12.0,
+        "kda": 1.59,
+        "avgDamage": 13648
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 8.0,
-        "avgDeaths": 12.0,
-        "avgAssists": 11.0,
-        "kda": 1.58,
-        "avgDamage": 35571
+        "avgDeaths": 8.5,
+        "avgAssists": 10.0,
+        "kda": 2.12,
+        "avgDamage": 41342
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 22.0,
-        "kda": 2.3,
-        "avgDamage": 11209
+        "items": [
+          {
+            "name": "Imperial Mandate",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 20.5,
+        "kda": 3.14,
+        "avgDamage": 11286
       }
     }
   }

@@ -1,68 +1,111 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.624253",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:50.140722",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 124,
-      "avg_xp_diff": 133,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 107,
+      "avg_xp_diff": 57,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 732,
-      "avg_xp_diff": 810,
-      "avg_cs_diff": -5.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 79,
+      "avg_xp_diff": -39,
+      "avg_cs_diff": -7.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1312,
-      "avg_xp_diff": 1521,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 161,
+      "avg_xp_diff": -48,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3173,
-      "avg_xp_diff": 2516,
-      "avg_cs_diff": 10.1,
-      "sample_frames": 11,
-      "advantage": 2
+      "avg_gold_diff": 188,
+      "avg_xp_diff": -426,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 21,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -5543,
+      "avg_xp_diff": -6226,
+      "avg_cs_diff": -60.0,
+      "sample_frames": 2,
+      "advantage": -2
     }
   ],
   "champA": "Udyr",
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 7.0,
-      "kda": 15.0,
-      "avgDamage": 23263
+      "avgKills": 5.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 3.5,
+      "kda": 2.0,
+      "avgDamage": 16435
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 2.0,
-      "kda": 0.5,
-      "avgDamage": 18336
+      "avgKills": 6.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 3.0,
+      "kda": 1.73,
+      "avgDamage": 23633
     }
   }
 }

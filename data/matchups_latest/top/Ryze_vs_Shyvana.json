@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.551209",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:50.016828",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -2,
-      "avg_xp_diff": -4,
-      "avg_cs_diff": 3.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 37,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 296,
-      "avg_xp_diff": 28,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 349,
+      "avg_xp_diff": 100,
+      "avg_cs_diff": 8.9,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 538,
-      "avg_xp_diff": 122,
-      "avg_cs_diff": 7.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 693,
+      "avg_xp_diff": 524,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 758,
-      "avg_xp_diff": 290,
-      "avg_cs_diff": 13.1,
-      "sample_frames": 20,
+      "avg_gold_diff": 896,
+      "avg_xp_diff": 978,
+      "avg_cs_diff": 19.7,
+      "sample_frames": 29,
       "advantage": 2
     },
     {
@@ -54,38 +54,52 @@
   "champB": "Shyvana",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Phase Rush",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 0.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.5,
-      "kda": 1.25,
-      "avgDamage": 19540
+      "avgKills": 3.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.3,
+      "kda": 1.67,
+      "avgDamage": 20391
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.5,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.0,
       "avgDeaths": 3.0,
-      "avgAssists": 7.5,
-      "kda": 4.0,
-      "avgDamage": 22046
+      "avgAssists": 5.7,
+      "kda": 2.89,
+      "avgDamage": 16551
     }
   }
 }

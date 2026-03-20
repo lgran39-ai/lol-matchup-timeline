@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:07.509344",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:40.782564",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -210,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -114,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1626,
-      "avg_xp_diff": -730,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1210,
+      "avg_xp_diff": -565,
+      "avg_cs_diff": -13.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2710,
-      "avg_xp_diff": -921,
-      "avg_cs_diff": -12.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -2053,
+      "avg_xp_diff": -781,
+      "avg_cs_diff": -22.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3336,
-      "avg_xp_diff": -2009,
-      "avg_cs_diff": -34.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -2652,
+      "avg_xp_diff": -1588,
+      "avg_cs_diff": -34.1,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2601,
+      "avg_xp_diff": -1395,
+      "avg_cs_diff": -19.0,
+      "sample_frames": 3,
       "advantage": -2
     }
   ],
@@ -46,23 +55,57 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.0,
-      "kda": 1.17,
-      "avgDamage": 12454
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 0.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 9.0,
+      "kda": 2.38,
+      "avgDamage": 17561
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 10.0,
+      "avgKills": 7.5,
       "avgDeaths": 4.0,
-      "avgAssists": 3.0,
-      "kda": 3.25,
-      "avgDamage": 23434
+      "avgAssists": 7.0,
+      "kda": 3.62,
+      "avgDamage": 21344
     }
   }
 }

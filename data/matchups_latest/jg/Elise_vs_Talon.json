@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.129539",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:49.241320",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 46,
-      "avg_xp_diff": -37,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 31,
+      "avg_xp_diff": -31,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -247,
-      "avg_xp_diff": -364,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 91,
+      "avg_xp_diff": -92,
+      "avg_cs_diff": -7.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1161,
-      "avg_xp_diff": -1128,
-      "avg_cs_diff": -26.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -172,
+      "avg_xp_diff": -273,
+      "avg_cs_diff": -12.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1585,
-      "avg_xp_diff": -1370,
-      "avg_cs_diff": -56.3,
-      "sample_frames": 7,
+      "avg_gold_diff": -534,
+      "avg_xp_diff": -547,
+      "avg_cs_diff": -25.6,
+      "sample_frames": 17,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -772,
+      "avg_xp_diff": -1236,
+      "avg_cs_diff": -22.5,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -47,22 +56,56 @@
     "champA": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
       "avgDeaths": 4.0,
       "avgAssists": 6.0,
-      "kda": 2.75,
-      "avgDamage": 13285
+      "kda": 2.88,
+      "avgDamage": 17346
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 0.0,
-      "kda": 3.0,
-      "avgDamage": 8700
+      "items": [
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 6.0,
+      "kda": 2.44,
+      "avgDamage": 14572
     }
   }
 }

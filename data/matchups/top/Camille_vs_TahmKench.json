@@ -1,77 +1,130 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:06.208868",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:39.097456",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 214,
-      "avg_xp_diff": 40,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 123,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 167,
-      "avg_xp_diff": -369,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -54,
+      "avg_xp_diff": -402,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -500,
-      "avg_xp_diff": -616,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1018,
+      "avg_xp_diff": -1524,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 135,
-      "avg_xp_diff": -509,
-      "avg_cs_diff": -12.1,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -1546,
+      "avg_xp_diff": -2145,
+      "avg_cs_diff": -18.2,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 80,
-      "avg_xp_diff": -364,
-      "avg_cs_diff": -32.1,
-      "sample_frames": 8,
-      "advantage": 0
+      "avg_gold_diff": -1010,
+      "avg_xp_diff": -2150,
+      "avg_cs_diff": -13.9,
+      "sample_frames": 15,
+      "advantage": -2
     }
   ],
   "champA": "Camille",
   "champB": "TahmKench",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 10.0,
-      "kda": 3.2,
-      "avgDamage": 27058
+      "avgKills": 4.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 6.0,
+      "kda": 1.54,
+      "avgDamage": 21286
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 6.0,
-      "kda": 2.8,
-      "avgDamage": 24105
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 8.0,
+      "kda": 6.6,
+      "avgDamage": 23670
     }
   }
 }

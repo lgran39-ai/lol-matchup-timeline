@@ -1,89 +1,119 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:13.565374",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:50.040772",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 6,
-      "avg_xp_diff": 23,
-      "avg_cs_diff": -0.3,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 159,
+      "avg_xp_diff": 67,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -190,
-      "avg_xp_diff": -298,
-      "avg_cs_diff": -10.9,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 130,
+      "avg_xp_diff": -59,
+      "avg_cs_diff": -7.6,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -526,
-      "avg_xp_diff": -855,
-      "avg_cs_diff": -30.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -270,
+      "avg_xp_diff": -683,
+      "avg_cs_diff": -23.5,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1528,
-      "avg_xp_diff": -1896,
-      "avg_cs_diff": -59.0,
-      "sample_frames": 18,
+      "avg_gold_diff": -576,
+      "avg_xp_diff": -1185,
+      "avg_cs_diff": -42.4,
+      "sample_frames": 28,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4123,
+      "avg_xp_diff": 3175,
+      "avg_cs_diff": 22.1,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "champA": "Shen",
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [
+      "items": [
         {
-          "name": "Grasp of the Undying",
+          "name": "Titanic Hydra",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 2.83,
-      "avgDamage": 15186
-    },
-    "champB": {
-      "items": [],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 2.0,
-      "avgAssists": 7.0,
-      "kda": 4.75,
-      "avgDamage": 16795
+      "avgKills": 5.0,
+      "avgDeaths": 3.3,
+      "avgAssists": 6.7,
+      "kda": 3.5,
+      "avgDamage": 22471
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 3.7,
+      "avgAssists": 7.7,
+      "kda": 2.64,
+      "avgDamage": 18158
     }
   }
 }

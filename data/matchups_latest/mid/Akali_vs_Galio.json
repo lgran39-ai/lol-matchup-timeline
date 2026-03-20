@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:12.863993",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:48.812728",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 40,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 508,
-      "avg_xp_diff": 335,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 337,
+      "avg_xp_diff": 236,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1378,
-      "avg_xp_diff": 1133,
-      "avg_cs_diff": 13.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 667,
+      "avg_xp_diff": 216,
+      "avg_cs_diff": 5.1,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2450,
-      "avg_xp_diff": 2159,
-      "avg_cs_diff": 32.0,
-      "sample_frames": 2,
+      "avg_gold_diff": 734,
+      "avg_xp_diff": -38,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 44,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1832,
+      "avg_xp_diff": 976,
+      "avg_cs_diff": 15.4,
+      "sample_frames": 14,
       "advantage": 2
     }
   ],
@@ -45,24 +54,114 @@
   "champB": "Galio",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 2.0,
-      "kda": 6.0,
-      "avgDamage": 8855
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 3.5,
+      "avgAssists": 4.0,
+      "kda": 2.76,
+      "avgDamage": 19924
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.0,
-      "kda": 1.0,
-      "avgDamage": 8604
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Aftershock",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 9.2,
+      "kda": 2.59,
+      "avgDamage": 19111
     }
   }
 }

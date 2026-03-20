@@ -1,68 +1,105 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.620455",
+  "updated_at": "2026-03-20T14:47:50.135215",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 14,
-      "avg_xp_diff": 79,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 58,
+      "avg_xp_diff": 86,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -118,
-      "avg_xp_diff": 38,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 334,
+      "avg_xp_diff": 470,
+      "avg_cs_diff": 7.5,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -736,
-      "avg_xp_diff": -655,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -259,
+      "avg_xp_diff": 179,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 96,
-      "avg_xp_diff": 80,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 11,
+      "avg_gold_diff": -60,
+      "avg_xp_diff": 861,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 21,
       "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -833,
+      "avg_xp_diff": 1615,
+      "avg_cs_diff": -26.2,
+      "sample_frames": 4,
+      "advantage": -2
     }
   ],
   "champA": "Tryndamere",
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 6.0,
-      "kda": 1.6,
-      "avgDamage": 12984
+      "avgKills": 6.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 8.5,
+      "kda": 3.22,
+      "avgDamage": 19826
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.0,
-      "kda": 1.4,
-      "avgDamage": 26104
+      "avgKills": 4.5,
+      "avgDeaths": 8.0,
+      "avgAssists": 3.0,
+      "kda": 0.94,
+      "avgDamage": 30512
     }
   }
 }

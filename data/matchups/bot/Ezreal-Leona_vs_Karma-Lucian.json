@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:11.158537",
+  "updated_at": "2026-03-20T14:47:45.880835",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 307,
-      "avg_xp_diff": -7,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 170,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 76,
-      "avg_xp_diff": -325,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 84,
+      "avg_xp_diff": -59,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -895,
-      "avg_xp_diff": -684,
-      "avg_cs_diff": -28.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -609,
+      "avg_xp_diff": -238,
+      "avg_cs_diff": -4.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1145,
-      "avg_xp_diff": 120,
-      "avg_cs_diff": -39.5,
-      "sample_frames": 11,
+      "avg_gold_diff": -1464,
+      "avg_xp_diff": 2,
+      "avg_cs_diff": -14.6,
+      "sample_frames": 21,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 296,
+      "avg_xp_diff": 5807,
+      "avg_cs_diff": 38.5,
+      "sample_frames": 2,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 9.0,
-        "kda": 3.33,
-        "avgDamage": 35321
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 7.0,
+        "kda": 3.38,
+        "avgDamage": 23909
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 24.0,
-        "kda": 5.4,
-        "avgDamage": 12246
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 16.5,
+        "kda": 3.45,
+        "avgDamage": 8374
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 4.0,
-        "kda": 1.62,
-        "avgDamage": 21707
+        "avgKills": 7.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 3.5,
+        "kda": 2.2,
+        "avgDamage": 19212
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 9.0,
-        "kda": 1.22,
-        "avgDamage": 8100
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 10.0,
+        "kda": 1.92,
+        "avgDamage": 8065
       }
     }
   }

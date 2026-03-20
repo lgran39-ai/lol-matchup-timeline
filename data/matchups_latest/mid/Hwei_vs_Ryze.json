@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 6,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.237892",
+  "updated_at": "2026-03-20T14:47:49.454306",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 27,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 21,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 216,
-      "avg_xp_diff": 315,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 251,
+      "avg_xp_diff": 135,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 30,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1064,
-      "avg_xp_diff": 887,
-      "avg_cs_diff": 13.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 739,
+      "avg_xp_diff": 428,
+      "avg_cs_diff": 9.0,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2427,
-      "avg_xp_diff": 1447,
-      "avg_cs_diff": 9.7,
-      "sample_frames": 11,
+      "avg_gold_diff": 956,
+      "avg_xp_diff": 592,
+      "avg_cs_diff": 14.6,
+      "sample_frames": 43,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 495,
+      "avg_xp_diff": 1701,
+      "avg_cs_diff": 17.8,
+      "sample_frames": 20,
       "advantage": 2
     }
   ],
@@ -48,55 +57,99 @@
       "items": [
         {
           "name": "Blackfire Torch",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 5,
+          "pickRate": 83.3,
           "winRate": 100.0
         },
         {
           "name": "Crimson Lucidity",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Cosmic Drive",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 5,
+          "pickRate": 83.3,
           "winRate": 100.0
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 0.5,
-      "avgAssists": 4.5,
-      "kda": 23.0,
-      "avgDamage": 20215
+      "avgKills": 5.5,
+      "avgDeaths": 2.8,
+      "avgAssists": 8.8,
+      "kda": 5.06,
+      "avgDamage": 21360
     },
     "champB": {
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Actualizer",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
           "winRate": 0.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 0.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 3.0,
-      "kda": 0.78,
-      "avgDamage": 8098
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 5.8,
+      "avgAssists": 2.8,
+      "kda": 1.11,
+      "avgDamage": 16375
     }
   }
 }

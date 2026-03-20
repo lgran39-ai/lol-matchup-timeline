@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.370959",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:49.695946",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 190,
-      "avg_xp_diff": 83,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 100,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 453,
-      "avg_xp_diff": 316,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 420,
+      "avg_xp_diff": 109,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 932,
-      "avg_xp_diff": 643,
-      "avg_cs_diff": 7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 688,
+      "avg_xp_diff": 240,
+      "avg_cs_diff": -5.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 914,
-      "avg_xp_diff": -483,
-      "avg_cs_diff": 15.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 543,
+      "avg_xp_diff": -285,
+      "avg_cs_diff": -6.6,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -570,
-      "avg_xp_diff": -2381,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 11,
+      "avg_gold_diff": -460,
+      "avg_xp_diff": -2185,
+      "avg_cs_diff": -6.8,
+      "sample_frames": 13,
       "advantage": -2
     }
   ],
@@ -54,24 +54,72 @@
   "champB": "Orianna",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 8.0,
-      "kda": 2.12,
-      "avgDamage": 30005
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.0,
+      "kda": 2.8,
+      "avgDamage": 24982
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 14.0,
-      "kda": 3.0,
-      "avgDamage": 36271
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 11.5,
+      "kda": 3.4,
+      "avgDamage": 27802
     }
   }
 }

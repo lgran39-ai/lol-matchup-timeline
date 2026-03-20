@@ -1,89 +1,112 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.543088",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:50.002555",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -84,
-      "avg_xp_diff": -15,
-      "avg_cs_diff": -4.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -88,
+      "avg_xp_diff": -64,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -395,
-      "avg_xp_diff": -311,
-      "avg_cs_diff": -15.3,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -430,
+      "avg_xp_diff": -406,
+      "avg_cs_diff": -14.6,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 192,
-      "avg_xp_diff": 142,
-      "avg_cs_diff": -12.2,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -211,
+      "avg_xp_diff": -282,
+      "avg_cs_diff": -13.3,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 71,
-      "avg_xp_diff": 44,
-      "avg_cs_diff": -15.8,
-      "sample_frames": 4,
-      "advantage": 0
+      "avg_gold_diff": 511,
+      "avg_xp_diff": 1197,
+      "avg_cs_diff": 6.4,
+      "sample_frames": 14,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2705,
+      "avg_xp_diff": 3468,
+      "avg_cs_diff": 45.4,
+      "sample_frames": 9,
+      "advantage": 2
     }
   ],
   "champA": "Riven",
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 0.5,
-      "kda": 1.25,
-      "avgDamage": 4700
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 3.0,
+      "avgAssists": 2.3,
+      "kda": 2.22,
+      "avgDamage": 10648
     },
     "champB": {
       "items": [
         {
           "name": "Experimental Hexplate",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 1.0,
-      "kda": 0.8,
-      "avgDamage": 7854
+      "avgKills": 2.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 3.0,
+      "kda": 1.21,
+      "avgDamage": 12602
     }
   }
 }

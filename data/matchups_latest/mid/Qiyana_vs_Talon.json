@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.515278",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-20T14:47:49.955085",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -77,
-      "avg_xp_diff": 30,
-      "avg_cs_diff": -4.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -25,
+      "avg_xp_diff": 12,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -210,
-      "avg_xp_diff": -404,
-      "avg_cs_diff": -14.3,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 114,
+      "avg_xp_diff": -83,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -831,
-      "avg_xp_diff": -1147,
-      "avg_cs_diff": -19.5,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 128,
+      "avg_xp_diff": -289,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1177,
-      "avg_xp_diff": -1844,
-      "avg_cs_diff": -20.0,
-      "sample_frames": 11,
-      "advantage": -2
+      "avg_gold_diff": 464,
+      "avg_xp_diff": -532,
+      "avg_cs_diff": -10.9,
+      "sample_frames": 42,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 590,
+      "avg_xp_diff": -294,
+      "avg_cs_diff": -27.3,
+      "sample_frames": 6,
+      "advantage": 2
     }
   ],
   "champA": "Qiyana",
@@ -48,49 +57,105 @@
       "items": [
         {
           "name": "Profane Hydra",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
+          "winRate": 20.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 3,
+          "pickRate": 60.0,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 20.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 20.0
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 1.0,
-      "kda": 0.89,
-      "avgDamage": 8396
+      "avgKills": 5.6,
+      "avgDeaths": 5.2,
+      "avgAssists": 4.2,
+      "kda": 1.88,
+      "avgDamage": 16625
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Ignite",
+          "name": "Edge of Night",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Armored Advance",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Youmuu's Ghostblade",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 6.5,
-      "avgDeaths": 1.0,
-      "avgAssists": 3.5,
-      "kda": 10.0,
-      "avgDamage": 13294
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.0,
+      "kda": 2.62,
+      "avgDamage": 16454
     }
   }
 }

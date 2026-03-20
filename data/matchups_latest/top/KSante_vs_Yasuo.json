@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:13.323453",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-20T14:47:49.603844",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -72,
-      "avg_xp_diff": -48,
-      "avg_cs_diff": -3.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -50,
+      "avg_xp_diff": -32,
+      "avg_cs_diff": -2.8,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -341,
-      "avg_xp_diff": -49,
-      "avg_cs_diff": -8.0,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -444,
+      "avg_xp_diff": -195,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -107,
-      "avg_xp_diff": 232,
-      "avg_cs_diff": -9.1,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -535,
+      "avg_xp_diff": -368,
+      "avg_cs_diff": -11.1,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -945,
-      "avg_xp_diff": -607,
-      "avg_cs_diff": -22.7,
-      "sample_frames": 20,
+      "avg_gold_diff": -1944,
+      "avg_xp_diff": -1645,
+      "avg_cs_diff": -32.9,
+      "sample_frames": 34,
       "advantage": -2
     },
     {
@@ -57,62 +57,81 @@
       "items": [
         {
           "name": "Iceborn Gauntlet",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.2,
+      "kda": 1.61,
+      "avgDamage": 14624
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 8.0,
-      "kda": 3.29,
-      "avgDamage": 19099
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Blade of The Ruined King",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        },
-        {
-          "name": "Immortal Shieldbow",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Lethal Tempo",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 3.5,
-      "kda": 2.38,
-      "avgDamage": 28775
+      "avgKills": 7.2,
+      "avgDeaths": 2.5,
+      "avgAssists": 3.2,
+      "kda": 4.2,
+      "avgDamage": 25223
     }
   }
 }

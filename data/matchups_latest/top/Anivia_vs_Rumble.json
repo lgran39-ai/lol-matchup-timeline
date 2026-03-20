@@ -1,68 +1,143 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:12.954030",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-20T14:47:48.979184",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 44,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 59,
+      "avg_xp_diff": 35,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 6,
-      "avg_xp_diff": -353,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 335,
+      "avg_xp_diff": 152,
+      "avg_cs_diff": 8.6,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 93,
-      "avg_xp_diff": 63,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 673,
+      "avg_xp_diff": 829,
+      "avg_cs_diff": 18.8,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -158,
-      "avg_xp_diff": 691,
-      "avg_cs_diff": 13.4,
-      "sample_frames": 11,
-      "advantage": -1
+      "avg_gold_diff": 1617,
+      "avg_xp_diff": 2606,
+      "avg_cs_diff": 26.7,
+      "sample_frames": 43,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3297,
+      "avg_xp_diff": 5537,
+      "avg_cs_diff": 19.4,
+      "sample_frames": 12,
+      "advantage": 2
     }
   ],
   "champA": "Anivia",
   "champB": "Rumble",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 11.0,
-      "kda": 4.0,
-      "avgDamage": 35348
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 5.6,
+      "avgDeaths": 3.0,
+      "avgAssists": 6.8,
+      "kda": 4.13,
+      "avgDamage": 24791
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 1.14,
-      "avgDamage": 25617
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.4,
+      "avgDeaths": 6.4,
+      "avgAssists": 3.6,
+      "kda": 0.94,
+      "avgDamage": 17667
     }
   }
 }

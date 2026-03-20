@@ -1,68 +1,111 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:08.525719",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:41.656962",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 121,
-      "avg_xp_diff": 83,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 77,
+      "avg_xp_diff": 59,
+      "avg_cs_diff": 4.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 168,
-      "avg_xp_diff": -184,
-      "avg_cs_diff": 23.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 314,
+      "avg_xp_diff": 63,
+      "avg_cs_diff": 17.0,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -276,
-      "avg_xp_diff": -894,
-      "avg_cs_diff": 21.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 740,
+      "avg_xp_diff": 765,
+      "avg_cs_diff": 30.6,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -133,
-      "avg_xp_diff": 501,
-      "avg_cs_diff": 21.5,
-      "sample_frames": 6,
-      "advantage": 0
+      "avg_gold_diff": 1279,
+      "avg_xp_diff": 1984,
+      "avg_cs_diff": 34.4,
+      "sample_frames": 16,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3486,
+      "avg_xp_diff": 3778,
+      "avg_cs_diff": 22.0,
+      "sample_frames": 9,
+      "advantage": 2
     }
   ],
   "champA": "Teemo",
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.0,
-      "kda": 0.71,
-      "avgDamage": 18412
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.0,
+      "kda": 2.7,
+      "avgDamage": 27294
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 0.8,
-      "avgDamage": 7017
+      "avgKills": 2.5,
+      "avgDeaths": 10.0,
+      "avgAssists": 2.0,
+      "kda": 0.45,
+      "avgDamage": 13923
     }
   }
 }

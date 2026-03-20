@@ -1,64 +1,77 @@
 {
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:08.320151",
+  "updated_at": "2026-03-20T14:47:41.380919",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": 102,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 99,
+      "avg_xp_diff": 84,
+      "avg_cs_diff": 3.8,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 677,
-      "avg_xp_diff": 413,
-      "avg_cs_diff": 4.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 586,
+      "avg_xp_diff": 376,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1125,
-      "avg_xp_diff": 1024,
-      "avg_cs_diff": 7.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 1047,
+      "avg_xp_diff": 809,
+      "avg_cs_diff": 12.7,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1679,
-      "avg_xp_diff": 720,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 12,
+      "avg_gold_diff": 1176,
+      "avg_xp_diff": 320,
+      "avg_cs_diff": 8.9,
+      "sample_frames": 32,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -709,
-      "avg_xp_diff": -3742,
-      "avg_cs_diff": -32.3,
-      "sample_frames": 3,
-      "advantage": -2
+      "avg_gold_diff": 1126,
+      "avg_xp_diff": -1421,
+      "avg_cs_diff": -4.7,
+      "sample_frames": 12,
+      "advantage": 2
     }
   ],
   "champA": "Riven",
   "champB": "Yorick",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
@@ -66,26 +79,53 @@
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.5,
-      "kda": 1.83,
-      "avgDamage": 12522
+      "avgKills": 6.2,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.0,
+      "kda": 2.56,
+      "avgDamage": 17778
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.5,
-      "avgDeaths": 2.5,
-      "avgAssists": 2.5,
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.8,
       "kda": 2.0,
-      "avgDamage": 10740
+      "avgDamage": 15694
     }
   }
 }

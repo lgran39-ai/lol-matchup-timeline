@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-19T12:18:05.750772",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-20T14:47:38.384018",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 83,
-      "avg_xp_diff": 79,
-      "avg_cs_diff": 2.5,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 152,
+      "avg_xp_diff": 89,
+      "avg_cs_diff": 2.1,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 317,
-      "avg_xp_diff": 401,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 458,
+      "avg_xp_diff": 380,
+      "avg_cs_diff": 10.7,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 206,
-      "avg_xp_diff": 326,
-      "avg_cs_diff": 17.8,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 950,
+      "avg_xp_diff": 545,
+      "avg_cs_diff": 17.1,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1194,
-      "avg_xp_diff": 1089,
-      "avg_cs_diff": 41.2,
-      "sample_frames": 22,
+      "avg_gold_diff": 1767,
+      "avg_xp_diff": 567,
+      "avg_cs_diff": 29.6,
+      "sample_frames": 32,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4494,
+      "avg_xp_diff": -572,
+      "avg_cs_diff": 21.0,
+      "sample_frames": 3,
       "advantage": 2
     }
   ],
@@ -45,71 +54,96 @@
   "champB": "Nocturne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [
-        {
-          "name": "Press the Attack",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Ignite",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 5.0,
-      "avgDeaths": 3.3,
-      "avgAssists": 3.3,
-      "kda": 2.5,
-      "avgDamage": 12739
-    },
-    "champB": {
       "items": [
         {
-          "name": "Stridebreaker",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 66.7
-        },
-        {
-          "name": "Black Cleaver",
+          "name": "The Collector",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 50.0
         },
         {
           "name": "Armored Advance",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.2,
+      "avgAssists": 3.5,
+      "kda": 2.47,
+      "avgDamage": 19232
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Armored Advance",
+          "count": 3,
+          "pickRate": 75.0,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 75.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 75.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 3.3,
-      "avgAssists": 4.7,
-      "kda": 2.6,
-      "avgDamage": 8565
+      "avgKills": 5.2,
+      "avgDeaths": 4.0,
+      "avgAssists": 6.0,
+      "kda": 2.81,
+      "avgDamage": 11287
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:13.413861",
+  "updated_at": "2026-03-20T14:47:49.767646",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -93,
-      "avg_xp_diff": -23,
-      "avg_cs_diff": -4.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -80,
+      "avg_xp_diff": -40,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -6,
-      "avg_xp_diff": 457,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 2,
+      "avg_xp_diff": 324,
+      "avg_cs_diff": -10.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1042,
-      "avg_xp_diff": 1984,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 498,
+      "avg_xp_diff": 1148,
+      "avg_cs_diff": -8.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1020,
-      "avg_xp_diff": 936,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 13,
-      "advantage": 2
+      "avg_gold_diff": 208,
+      "avg_xp_diff": 681,
+      "avg_cs_diff": -24.9,
+      "sample_frames": 33,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2225,
-      "avg_xp_diff": 1980,
-      "avg_cs_diff": -26.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 583,
+      "avg_xp_diff": 1549,
+      "avg_cs_diff": -35.3,
+      "sample_frames": 15,
       "advantage": 2
     }
   ],
@@ -54,11 +54,24 @@
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
@@ -67,25 +80,52 @@
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 5.0,
-      "kda": 3.43,
-      "avgDamage": 19836
+      "avgKills": 5.5,
+      "avgDeaths": 3.2,
+      "avgAssists": 4.5,
+      "kda": 3.08,
+      "avgDamage": 17519
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 4.0,
-      "kda": 1.09,
-      "avgDamage": 9550
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.2,
+      "avgDeaths": 5.0,
+      "avgAssists": 2.8,
+      "kda": 1.0,
+      "avgDamage": 10802
     }
   }
 }

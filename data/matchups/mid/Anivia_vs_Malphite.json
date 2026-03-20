@@ -1,68 +1,112 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:05.908994",
+  "updated_at": "2026-03-20T14:47:38.582194",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 14,
-      "avg_xp_diff": 57,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 6,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 465,
-      "avg_xp_diff": 631,
-      "avg_cs_diff": 15.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 300,
+      "avg_xp_diff": 452,
+      "avg_cs_diff": 9.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 895,
-      "avg_xp_diff": 375,
-      "avg_cs_diff": 15.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 24,
+      "avg_xp_diff": 84,
+      "avg_cs_diff": 14.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2236,
-      "avg_xp_diff": 1917,
-      "avg_cs_diff": 18.4,
-      "sample_frames": 9,
-      "advantage": 2
+      "avg_gold_diff": 330,
+      "avg_xp_diff": 1011,
+      "avg_cs_diff": 19.4,
+      "sample_frames": 19,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -131,
+      "avg_xp_diff": 3500,
+      "avg_cs_diff": 29.3,
+      "sample_frames": 7,
+      "advantage": 0
     }
   ],
   "champA": "Anivia",
   "champB": "Malphite",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 10.0,
-      "kda": 3.2,
-      "avgDamage": 19442
+      "avgKills": 5.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 12.5,
+      "kda": 2.92,
+      "avgDamage": 21502
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.0,
-      "kda": 1.33,
-      "avgDamage": 13560
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 9.0,
+      "kda": 1.79,
+      "avgDamage": 19828
     }
   }
 }

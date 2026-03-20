@@ -1,68 +1,95 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.617631",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:50.131777",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 60,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 50,
+      "avg_xp_diff": 1,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -298,
-      "avg_xp_diff": -71,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 167,
+      "avg_xp_diff": -30,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -706,
-      "avg_xp_diff": -699,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 313,
+      "avg_xp_diff": -111,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -420,
-      "avg_xp_diff": -770,
-      "avg_cs_diff": -5.3,
-      "sample_frames": 6,
-      "advantage": -2
+      "avg_gold_diff": 481,
+      "avg_xp_diff": -339,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 13,
+      "advantage": 2
     }
   ],
   "champA": "Tristana",
   "champB": "Zoe",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 3.0,
+      "avgKills": 4.0,
       "avgDeaths": 5.0,
-      "avgAssists": 5.0,
+      "avgAssists": 4.0,
       "kda": 1.6,
-      "avgDamage": 14921
+      "avgDamage": 17934
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
       "avgDeaths": 5.0,
       "avgAssists": 1.0,
-      "kda": 1.2,
-      "avgDamage": 13603
+      "kda": 1.0,
+      "avgDamage": 13702
     }
   }
 }

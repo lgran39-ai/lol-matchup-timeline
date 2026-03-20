@@ -1,77 +1,136 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.031718",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:49.058237",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 15,
-      "avg_xp_diff": 112,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 67,
+      "avg_xp_diff": 52,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 225,
-      "avg_xp_diff": 867,
-      "avg_cs_diff": 15.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 271,
+      "avg_xp_diff": 469,
+      "avg_cs_diff": 5.7,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -274,
-      "avg_xp_diff": 155,
-      "avg_cs_diff": 10.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 69,
+      "avg_xp_diff": 68,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -998,
-      "avg_xp_diff": -332,
-      "avg_cs_diff": 2.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -439,
+      "avg_xp_diff": -257,
+      "avg_cs_diff": -7.9,
+      "sample_frames": 29,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1752,
-      "avg_xp_diff": -1110,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 205,
+      "avg_xp_diff": 853,
+      "avg_cs_diff": 6.8,
+      "sample_frames": 4,
+      "advantage": 1
     }
   ],
   "champA": "Aurora",
   "champB": "Tristana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 1.17,
-      "avgDamage": 17091
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 4.3,
+      "avgAssists": 5.7,
+      "kda": 2.15,
+      "avgDamage": 19163
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Navori Flickerblade",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 6.0,
-      "kda": 2.8,
-      "avgDamage": 17404
+      "avgKills": 5.0,
+      "avgDeaths": 4.3,
+      "avgAssists": 3.7,
+      "kda": 2.0,
+      "avgDamage": 14458
     }
   }
 }

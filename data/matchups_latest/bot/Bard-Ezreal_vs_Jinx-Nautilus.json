@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.779408",
+  "updated_at": "2026-03-20T14:47:50.468345",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 770,
-      "avg_xp_diff": 215,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 551,
+      "avg_xp_diff": 150,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 2178,
-      "avg_xp_diff": 869,
-      "avg_cs_diff": 14.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 984,
+      "avg_xp_diff": 420,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 3627,
-      "avg_xp_diff": 2070,
-      "avg_cs_diff": 32.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1832,
+      "avg_xp_diff": 1330,
+      "avg_cs_diff": -3.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3285,
-      "avg_xp_diff": 1830,
-      "avg_cs_diff": 39.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 2536,
+      "avg_xp_diff": 2294,
+      "avg_cs_diff": 7.2,
+      "sample_frames": 17,
       "advantage": 2
     },
     {
@@ -64,46 +64,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 16.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 8.0,
-        "kda": 6.0,
-        "avgDamage": 41604
+        "avgKills": 13.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 9.0,
+        "kda": 4.89,
+        "avgDamage": 32750
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 2.5,
         "avgDeaths": 3.0,
-        "avgAssists": 29.0,
-        "kda": 11.0,
-        "avgDamage": 11093
+        "avgAssists": 26.0,
+        "kda": 9.5,
+        "avgDamage": 10164
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 3.0,
-        "kda": 0.82,
-        "avgDamage": 24948
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 9.5,
+        "avgAssists": 4.5,
+        "kda": 1.05,
+        "avgDamage": 23282
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 12.0,
+        "avgKills": 1.0,
+        "avgDeaths": 10.0,
         "avgAssists": 8.0,
-        "kda": 0.67,
-        "avgDamage": 8195
+        "kda": 0.9,
+        "avgDamage": 7112
       }
     }
   }

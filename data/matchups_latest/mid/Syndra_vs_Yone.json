@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
+  "sample_size": 4,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.602022",
+  "updated_at": "2026-03-20T14:47:50.102476",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": 29,
-      "avg_cs_diff": -2.9,
-      "sample_frames": 15,
+      "avg_gold_diff": 72,
+      "avg_xp_diff": 7,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 110,
-      "avg_xp_diff": 43,
-      "avg_cs_diff": -3.7,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 159,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -196,
-      "avg_xp_diff": -297,
-      "avg_cs_diff": -9.7,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": -68,
+      "avg_xp_diff": -380,
+      "avg_cs_diff": -7.8,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2153,
-      "avg_xp_diff": -2560,
-      "avg_cs_diff": -41.8,
-      "sample_frames": 15,
+      "avg_gold_diff": -1904,
+      "avg_xp_diff": -2626,
+      "avg_cs_diff": -36.2,
+      "sample_frames": 25,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1648,
+      "avg_xp_diff": -3298,
+      "avg_cs_diff": -30.5,
+      "sample_frames": 2,
       "advantage": -2
     }
   ],
@@ -49,13 +58,13 @@
         {
           "name": "Luden's Echo",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 0.0
         },
         {
           "name": "Spellslinger's Shoes",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 0.0
         }
       ],
@@ -63,47 +72,66 @@
         {
           "name": "Summon Aery",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 0.0
-        }
-      ],
-      "summonerSpells": [],
-      "avgKills": 2.7,
-      "avgDeaths": 5.0,
-      "avgAssists": 3.0,
-      "kda": 1.13,
-      "avgDamage": 12805
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Blade of The Ruined King",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 100.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Fleet Footwork",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 5.2,
+      "avgAssists": 3.5,
+      "kda": 1.19,
+      "avgDamage": 15337
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 4.3,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.7,
-      "kda": 2.33,
-      "avgDamage": 14072
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 2.8,
+      "avgAssists": 2.5,
+      "kda": 2.64,
+      "avgDamage": 15637
     }
   }
 }

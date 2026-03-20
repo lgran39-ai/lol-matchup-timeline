@@ -1,68 +1,105 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.307718",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:49.576877",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -78,
-      "avg_xp_diff": 52,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 97,
-      "avg_xp_diff": -22,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 224,
+      "avg_xp_diff": -52,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -170,
-      "avg_xp_diff": 32,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 660,
+      "avg_xp_diff": 401,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 275,
-      "avg_xp_diff": -17,
-      "avg_cs_diff": 16.3,
-      "sample_frames": 11,
-      "advantage": 1
+      "avg_gold_diff": 1780,
+      "avg_xp_diff": 1447,
+      "avg_cs_diff": 25.2,
+      "sample_frames": 21,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5374,
+      "avg_xp_diff": 3983,
+      "avg_cs_diff": 60.8,
+      "sample_frames": 4,
+      "advantage": 2
     }
   ],
   "champA": "Jayce",
   "champB": "XinZhao",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
+      "items": [
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
       "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 2.0,
-      "avgDamage": 17745
+      "avgAssists": 9.5,
+      "kda": 4.0,
+      "avgDamage": 22214
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 8.0,
-      "kda": 9.0,
-      "avgDamage": 17409
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 9.0,
+      "kda": 2.64,
+      "avgDamage": 15614
     }
   }
 }

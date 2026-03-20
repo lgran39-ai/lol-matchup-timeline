@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:06.040325",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:38.756903",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 68,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 127,
+      "avg_xp_diff": 88,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 563,
-      "avg_xp_diff": 373,
-      "avg_cs_diff": 7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 413,
+      "avg_xp_diff": 399,
+      "avg_cs_diff": 7.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1105,
-      "avg_xp_diff": 990,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 719,
+      "avg_xp_diff": 873,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1977,
-      "avg_xp_diff": 1898,
-      "avg_cs_diff": 30.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 1313,
+      "avg_xp_diff": 1449,
+      "avg_cs_diff": 24.2,
+      "sample_frames": 17,
       "advantage": 2
     },
     {
@@ -54,24 +54,58 @@
   "champB": "Lissandra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 13.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 11.0,
-      "kda": 3.43,
-      "avgDamage": 26011
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 3.7,
+      "avgAssists": 5.0,
+      "kda": 2.82,
+      "avgDamage": 15713
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 14.0,
-      "kda": 1.4,
-      "avgDamage": 15126
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 0.3,
+      "avgDeaths": 4.7,
+      "avgAssists": 6.7,
+      "kda": 1.5,
+      "avgDamage": 9540
     }
   }
 }

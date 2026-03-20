@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.252550",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:49.484294",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -16,
-      "avg_xp_diff": 50,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -8,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -255,
-      "avg_xp_diff": -262,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -501,
+      "avg_xp_diff": -662,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -483,
-      "avg_xp_diff": -879,
-      "avg_cs_diff": -16.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1466,
+      "avg_xp_diff": -2199,
+      "avg_cs_diff": -21.7,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1142,
-      "avg_xp_diff": 633,
-      "avg_cs_diff": 10.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -1371,
+      "avg_xp_diff": -1748,
+      "avg_cs_diff": -19.3,
+      "sample_frames": 28,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2780,
-      "avg_xp_diff": 1889,
-      "avg_cs_diff": 37.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1241,
+      "avg_xp_diff": 167,
+      "avg_cs_diff": 11.8,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -54,24 +54,78 @@
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 2.25,
-      "avgDamage": 25408
+      "items": [
+        {
+          "name": "Hullbreaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 6.7,
+      "avgAssists": 2.7,
+      "kda": 0.9,
+      "avgDamage": 15806
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.7,
       "avgDeaths": 4.0,
-      "avgAssists": 12.0,
-      "kda": 4.25,
-      "avgDamage": 25192
+      "avgAssists": 6.3,
+      "kda": 3.25,
+      "avgDamage": 20849
     }
   }
 }

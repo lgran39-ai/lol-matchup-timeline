@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.953186",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:50.859759",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 580,
-      "avg_xp_diff": 133,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 218,
+      "avg_xp_diff": -35,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 744,
-      "avg_xp_diff": 82,
-      "avg_cs_diff": 14.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 770,
+      "avg_xp_diff": -57,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 781,
-      "avg_xp_diff": 96,
-      "avg_cs_diff": 12.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 1196,
+      "avg_xp_diff": 137,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 348,
-      "avg_xp_diff": -398,
-      "avg_cs_diff": 23.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 687,
+      "avg_xp_diff": -671,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 21,
       "advantage": 1
     },
     {
@@ -64,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 8.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 10.0,
-        "kda": 1.8,
-        "avgDamage": 36677
+        "avgDeaths": 9.0,
+        "avgAssists": 9.0,
+        "kda": 1.89,
+        "avgDamage": 27744
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 11.0,
-        "kda": 1.89,
-        "avgDamage": 17385
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 10.5,
+        "avgAssists": 12.0,
+        "kda": 1.67,
+        "avgDamage": 18528
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 7.0,
-        "kda": 1.75,
-        "avgDamage": 19442
+        "avgKills": 9.0,
+        "avgDeaths": 7.5,
+        "avgAssists": 6.5,
+        "kda": 2.07,
+        "avgDamage": 21356
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 0.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 15.0,
-        "kda": 1.36,
-        "avgDamage": 9785
+        "avgDeaths": 9.5,
+        "avgAssists": 17.5,
+        "kda": 1.84,
+        "avgDamage": 8832
       }
     }
   }

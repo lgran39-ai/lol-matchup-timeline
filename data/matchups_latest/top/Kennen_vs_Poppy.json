@@ -1,68 +1,103 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.347472",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:49.648522",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 12,
-      "avg_xp_diff": -99,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -11,
+      "avg_xp_diff": -81,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -116,
-      "avg_xp_diff": 14,
-      "avg_cs_diff": 14.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 184,
+      "avg_xp_diff": 50,
+      "avg_cs_diff": 16.5,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -238,
-      "avg_xp_diff": 133,
-      "avg_cs_diff": 9.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 677,
+      "avg_xp_diff": 777,
+      "avg_cs_diff": 24.1,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 154,
-      "avg_xp_diff": 708,
-      "avg_cs_diff": -6.9,
-      "sample_frames": 7,
-      "advantage": 1
+      "avg_gold_diff": 683,
+      "avg_xp_diff": 1228,
+      "avg_cs_diff": 14.0,
+      "sample_frames": 11,
+      "advantage": 2
     }
   ],
   "champA": "Kennen",
   "champB": "Poppy",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 1.75,
-      "avgDamage": 14707
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 2.3,
+      "avgAssists": 2.0,
+      "kda": 2.0,
+      "avgDamage": 12896
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 0.6,
-      "avgDamage": 11564
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 1.7,
+      "avgDeaths": 4.0,
+      "avgAssists": 0.7,
+      "kda": 0.58,
+      "avgDamage": 9175
     }
   }
 }

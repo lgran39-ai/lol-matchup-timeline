@@ -1,77 +1,155 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.057340",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:49.085095",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -91,
-      "avg_xp_diff": 67,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -52,
+      "avg_xp_diff": 4,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 153,
-      "avg_xp_diff": 275,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -22,
+      "avg_xp_diff": 271,
+      "avg_cs_diff": 7.3,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 204,
-      "avg_xp_diff": 691,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -250,
+      "avg_xp_diff": 210,
+      "avg_cs_diff": 10.5,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1356,
-      "avg_xp_diff": 923,
-      "avg_cs_diff": 20.1,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 297,
+      "avg_xp_diff": 320,
+      "avg_cs_diff": 18.1,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2570,
-      "avg_xp_diff": 1950,
-      "avg_cs_diff": 12.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -397,
+      "avg_xp_diff": -1689,
+      "avg_cs_diff": 19.4,
+      "sample_frames": 7,
+      "advantage": -1
     }
   ],
   "champA": "Azir",
   "champB": "TwistedFate",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 15.0,
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.2,
       "avgDeaths": 4.0,
-      "avgAssists": 10.0,
-      "kda": 6.25,
-      "avgDamage": 34026
+      "avgAssists": 5.2,
+      "kda": 2.88,
+      "avgDamage": 24747
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 4.0,
-      "kda": 1.0,
-      "avgDamage": 11753
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rapid Firecannon",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Unsealed Spellbook",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.2,
+      "avgDeaths": 3.5,
+      "avgAssists": 6.0,
+      "kda": 2.64,
+      "avgDamage": 12477
     }
   }
 }

@@ -1,103 +1,143 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:13.113265",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-20T14:47:49.213911",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -160,
-      "avg_xp_diff": -68,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -75,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -444,
-      "avg_xp_diff": -350,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -132,
+      "avg_xp_diff": -117,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -847,
-      "avg_xp_diff": -491,
-      "avg_cs_diff": -16.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -170,
+      "avg_xp_diff": -108,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2708,
-      "avg_xp_diff": -3086,
-      "avg_cs_diff": -57.9,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 298,
+      "avg_xp_diff": -15,
+      "avg_cs_diff": -12.5,
+      "sample_frames": 37,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2525,
+      "avg_xp_diff": 2441,
+      "avg_cs_diff": 16.4,
+      "sample_frames": 19,
+      "advantage": 2
     }
   ],
   "champA": "Ekko",
   "champB": "Graves",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Dark Harvest",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.5,
-      "kda": 1.58,
-      "avgDamage": 10090
+      "avgKills": 7.4,
+      "avgDeaths": 4.8,
+      "avgAssists": 7.4,
+      "kda": 3.08,
+      "avgDamage": 18963
     },
     "champB": {
       "items": [
         {
           "name": "Hubris",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Dark Harvest",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         }
       ],
-      "avgKills": 9.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 3.5,
-      "kda": 3.12,
-      "avgDamage": 13012
+      "avgKills": 7.8,
+      "avgDeaths": 5.8,
+      "avgAssists": 5.4,
+      "kda": 2.28,
+      "avgDamage": 17019
     }
   }
 }

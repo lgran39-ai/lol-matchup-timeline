@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:07.722433",
+  "updated_at": "2026-03-20T14:47:41.072925",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -70,
-      "avg_xp_diff": -147,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -36,
+      "avg_xp_diff": -167,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 30,
-      "avg_xp_diff": -328,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 57,
+      "avg_xp_diff": -363,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 217,
-      "avg_xp_diff": -592,
-      "avg_cs_diff": -9.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 1,
+      "avg_xp_diff": -704,
+      "avg_cs_diff": -15.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 595,
-      "avg_xp_diff": -216,
-      "avg_cs_diff": -9.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 735,
+      "avg_xp_diff": 372,
+      "avg_cs_diff": -12.1,
+      "sample_frames": 15,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2281,
+      "avg_xp_diff": 2341,
+      "avg_cs_diff": -14.7,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -45,24 +54,59 @@
   "champB": "Zyra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 10.0,
-      "kda": 3.5,
-      "avgDamage": 10523
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 14.0,
+      "kda": 6.14,
+      "avgDamage": 21077
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 1.25,
-      "avgDamage": 12544
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.0,
+      "kda": 1.33,
+      "avgDamage": 25569
     }
   }
 }

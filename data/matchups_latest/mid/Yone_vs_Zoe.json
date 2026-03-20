@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.647291",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:50.179505",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 45,
-      "avg_xp_diff": 58,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -14,
+      "avg_xp_diff": -24,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 513,
-      "avg_xp_diff": 789,
-      "avg_cs_diff": 25.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 146,
+      "avg_xp_diff": 300,
+      "avg_cs_diff": 9.2,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1504,
-      "avg_xp_diff": 1938,
-      "avg_cs_diff": 59.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 500,
+      "avg_xp_diff": 912,
+      "avg_cs_diff": 26.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4058,
-      "avg_xp_diff": 4360,
-      "avg_cs_diff": 115.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 2609,
+      "avg_xp_diff": 2600,
+      "avg_cs_diff": 61.0,
+      "sample_frames": 23,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4036,
-      "avg_xp_diff": 3273,
-      "avg_cs_diff": 147.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 3445,
+      "avg_xp_diff": 2616,
+      "avg_cs_diff": 81.3,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -54,24 +54,84 @@
   "champB": "Zoe",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 2.0,
-      "kda": 1.2,
-      "avgDamage": 16511
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 4.7,
+      "kda": 2.8,
+      "avgDamage": 15445
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 14.0,
-      "kda": 2.43,
-      "avgDamage": 20350
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 9.7,
+      "kda": 2.44,
+      "avgDamage": 23007
     }
   }
 }

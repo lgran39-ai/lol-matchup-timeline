@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:11.260769",
+  "updated_at": "2026-03-20T14:47:45.990113",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -181,
-      "avg_xp_diff": -153,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -54,
+      "avg_xp_diff": -44,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -981,
-      "avg_xp_diff": -1482,
-      "avg_cs_diff": -19.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -373,
+      "avg_xp_diff": -601,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -3927,
-      "avg_xp_diff": -3262,
-      "avg_cs_diff": -40.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1623,
+      "avg_xp_diff": -1095,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -7713,
-      "avg_xp_diff": -5803,
-      "avg_cs_diff": -63.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -2831,
+      "avg_xp_diff": -1657,
+      "avg_cs_diff": 13.9,
+      "sample_frames": 15,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -569,
+      "avg_xp_diff": 1897,
+      "avg_cs_diff": 78.7,
+      "sample_frames": 3,
+      "advantage": -1
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 1.0,
-        "kda": 0.25,
-        "avgDamage": 7078
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 2.0,
+        "kda": 0.71,
+        "avgDamage": 9102
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 1.0,
-        "kda": 0.33,
-        "avgDamage": 1188
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 2.5,
+        "kda": 1.0,
+        "avgDamage": 4687
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "avgKills": 5.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 6.0,
-        "kda": 11.0,
-        "avgDamage": 15845
+        "avgDeaths": 2.5,
+        "avgAssists": 4.5,
+        "kda": 3.8,
+        "avgDamage": 14827
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
+        "avgKills": 0.5,
         "avgDeaths": 0.0,
-        "avgAssists": 10.0,
-        "kda": 11.0,
-        "avgDamage": 8804
+        "avgAssists": 14.5,
+        "kda": 30.0,
+        "avgDamage": 10538
       }
     }
   }

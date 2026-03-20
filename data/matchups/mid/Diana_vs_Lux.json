@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:06.355759",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:39.287605",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -13,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 13,
+      "avg_xp_diff": -19,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 69,
-      "avg_xp_diff": 133,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -87,
+      "avg_xp_diff": -188,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 163,
-      "avg_xp_diff": 298,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -397,
+      "avg_xp_diff": -505,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -246,
-      "avg_xp_diff": -472,
-      "avg_cs_diff": 10.3,
-      "sample_frames": 19,
-      "advantage": -1
+      "avg_gold_diff": -427,
+      "avg_xp_diff": -689,
+      "avg_cs_diff": 7.7,
+      "sample_frames": 21,
+      "advantage": -2
     },
     {
       "phase": "25min+",
@@ -57,42 +57,55 @@
       "items": [
         {
           "name": "Hextech Rocketbelt",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 3.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.0,
       "avgDeaths": 8.0,
-      "avgAssists": 5.5,
-      "kda": 1.06,
-      "avgDamage": 13662
+      "avgAssists": 4.3,
+      "kda": 0.79,
+      "avgDamage": 11412
     },
     "champB": {
       "items": [
         {
           "name": "Spellslinger's Shoes",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 8.0,
-      "kda": 3.71,
-      "avgDamage": 17482
+      "avgKills": 5.7,
+      "avgDeaths": 2.3,
+      "avgAssists": 6.7,
+      "kda": 5.29,
+      "avgDamage": 16870
     }
   }
 }

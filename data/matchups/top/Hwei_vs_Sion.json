@@ -1,77 +1,118 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:06.934598",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:40.015451",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 28,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 55,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 381,
-      "avg_xp_diff": 418,
-      "avg_cs_diff": 12.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 375,
+      "avg_xp_diff": 399,
+      "avg_cs_diff": 10.8,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 363,
-      "avg_xp_diff": 741,
-      "avg_cs_diff": 19.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 590,
+      "avg_xp_diff": 770,
+      "avg_cs_diff": 19.0,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -84,
-      "avg_xp_diff": 773,
-      "avg_cs_diff": 28.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 6,
+      "avg_xp_diff": 93,
+      "avg_cs_diff": 24.9,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -490,
-      "avg_xp_diff": 410,
-      "avg_cs_diff": 22.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 1277,
+      "avg_xp_diff": 216,
+      "avg_cs_diff": 48.2,
+      "sample_frames": 14,
+      "advantage": 2
     }
   ],
   "champA": "Hwei",
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 4.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 10.0,
-      "kda": 4.67,
-      "avgDamage": 28459
+      "avgDeaths": 4.0,
+      "avgAssists": 9.0,
+      "kda": 3.25,
+      "avgDamage": 36368
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 7.0,
-      "kda": 1.71,
-      "avgDamage": 12051
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 7.5,
+      "avgAssists": 12.5,
+      "kda": 2.07,
+      "avgDamage": 15108
     }
   }
 }

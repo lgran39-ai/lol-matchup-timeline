@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:12.878765",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-20T14:47:48.844311",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 18,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 101,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 87,
-      "avg_xp_diff": -95,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 291,
+      "avg_xp_diff": 150,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 764,
-      "avg_xp_diff": 665,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 738,
+      "avg_xp_diff": 723,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 542,
-      "avg_xp_diff": 552,
-      "avg_cs_diff": -11.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 1013,
+      "avg_xp_diff": 1003,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 42,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 698,
-      "avg_xp_diff": -144,
-      "avg_cs_diff": -15.8,
-      "sample_frames": 11,
+      "avg_gold_diff": 1585,
+      "avg_xp_diff": 1696,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 45,
       "advantage": 2
     }
   ],
@@ -54,24 +54,120 @@
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 6.0,
-      "kda": 2.86,
-      "avgDamage": 34190
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 11.0,
+      "avgDeaths": 5.6,
+      "avgAssists": 5.8,
+      "kda": 3.0,
+      "avgDamage": 32880
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 4.0,
-      "kda": 2.0,
-      "avgDamage": 32133
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.4,
+      "avgDeaths": 7.8,
+      "avgAssists": 4.2,
+      "kda": 1.36,
+      "avgDamage": 27473
     }
   }
 }

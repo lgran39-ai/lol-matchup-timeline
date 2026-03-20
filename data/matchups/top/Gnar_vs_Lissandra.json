@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:06.767989",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:39.786966",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -90,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -86,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -493,
-      "avg_xp_diff": -340,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -482,
+      "avg_xp_diff": -258,
+      "avg_cs_diff": -7.2,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1168,
-      "avg_xp_diff": -1415,
-      "avg_cs_diff": -13.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -1229,
+      "avg_xp_diff": -1490,
+      "avg_cs_diff": -17.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2518,
-      "avg_xp_diff": -1979,
-      "avg_cs_diff": -4.9,
-      "sample_frames": 12,
+      "avg_gold_diff": -2351,
+      "avg_xp_diff": -1989,
+      "avg_cs_diff": -15.5,
+      "sample_frames": 22,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4279,
-      "avg_xp_diff": -3740,
-      "avg_cs_diff": -18.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -1389,
+      "avg_xp_diff": -366,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -54,31 +54,59 @@
   "champB": "Lissandra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 1.5,
-      "kda": 0.27,
-      "avgDamage": 11143
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 1.5,
-      "avgAssists": 9.5,
-      "kda": 8.33,
-      "avgDamage": 17704
+      "avgKills": 2.0,
+      "avgDeaths": 6.3,
+      "avgAssists": 3.7,
+      "kda": 0.89,
+      "avgDamage": 15637
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 9.7,
+      "kda": 4.0,
+      "avgDamage": 20858
     }
   }
 }

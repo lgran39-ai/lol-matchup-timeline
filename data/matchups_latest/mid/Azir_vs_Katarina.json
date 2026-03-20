@@ -1,77 +1,137 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.050077",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:49.073860",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -98,
-      "avg_xp_diff": 138,
-      "avg_cs_diff": 8.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -69,
+      "avg_xp_diff": 17,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 102,
-      "avg_xp_diff": -70,
-      "avg_cs_diff": 15.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -423,
+      "avg_xp_diff": -306,
+      "avg_cs_diff": 4.6,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -668,
-      "avg_xp_diff": -486,
-      "avg_cs_diff": 21.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -704,
+      "avg_xp_diff": -247,
+      "avg_cs_diff": 10.9,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -671,
-      "avg_xp_diff": 327,
-      "avg_cs_diff": 43.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -1355,
+      "avg_xp_diff": -144,
+      "avg_cs_diff": 20.6,
+      "sample_frames": 31,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -112,
-      "avg_xp_diff": 1970,
-      "avg_cs_diff": 42.2,
-      "sample_frames": 4,
-      "advantage": 0
+      "avg_gold_diff": -656,
+      "avg_xp_diff": 1641,
+      "avg_cs_diff": 24.9,
+      "sample_frames": 13,
+      "advantage": -2
     }
   ],
   "champA": "Azir",
   "champB": "Katarina",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 9.0,
-      "kda": 3.33,
-      "avgDamage": 19341
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.3,
+      "avgAssists": 7.0,
+      "kda": 1.74,
+      "avgDamage": 21006
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 6.0,
-      "kda": 1.86,
-      "avgDamage": 20719
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 11.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 4.3,
+      "kda": 2.3,
+      "avgDamage": 25352
     }
   }
 }

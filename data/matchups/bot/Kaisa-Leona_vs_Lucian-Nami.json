@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:11.850593",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:46.798484",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -43,
-      "avg_xp_diff": -76,
-      "avg_cs_diff": -5.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -40,
+      "avg_xp_diff": -67,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 271,
-      "avg_xp_diff": 106,
-      "avg_cs_diff": -9.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 184,
+      "avg_xp_diff": 473,
+      "avg_cs_diff": 4.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -81,
-      "avg_xp_diff": -485,
-      "avg_cs_diff": -8.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 501,
+      "avg_xp_diff": 456,
+      "avg_cs_diff": 11.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2155,
-      "avg_xp_diff": -2891,
-      "avg_cs_diff": -20.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 687,
+      "avg_xp_diff": 257,
+      "avg_cs_diff": 20.1,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2658,
-      "avg_xp_diff": -4382,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 6,
-      "advantage": -2
+      "avg_gold_diff": -458,
+      "avg_xp_diff": -1613,
+      "avg_cs_diff": 15.6,
+      "sample_frames": 8,
+      "advantage": -1
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,121 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 12.0,
-        "kda": 2.17,
-        "avgDamage": 21085
+        "items": [
+          {
+            "name": "Dusk and Dawn",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 3.5,
+        "avgAssists": 9.0,
+        "kda": 3.71,
+        "avgDamage": 21148
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 9.0,
-        "kda": 1.25,
-        "avgDamage": 8754
+        "avgKills": 0.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 10.5,
+        "kda": 2.0,
+        "avgDamage": 7068
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 17.0,
-        "kda": 9.0,
-        "avgDamage": 38068
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 10.0,
+        "kda": 3.67,
+        "avgDamage": 25808
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Imperial Mandate",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 27.0,
-        "kda": 3.62,
-        "avgDamage": 9377
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 16.5,
+        "kda": 2.5,
+        "avgDamage": 8445
       }
     }
   }

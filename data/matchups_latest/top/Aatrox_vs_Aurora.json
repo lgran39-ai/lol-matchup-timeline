@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:12.813331",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:48.746809",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 15,
-      "avg_xp_diff": 37,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -100,
+      "avg_xp_diff": 2,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -185,
-      "avg_xp_diff": -96,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -240,
+      "avg_xp_diff": -114,
+      "avg_cs_diff": -14.9,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -206,
-      "avg_xp_diff": 347,
-      "avg_cs_diff": -15.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -352,
+      "avg_xp_diff": -38,
+      "avg_cs_diff": -16.9,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -982,
-      "avg_xp_diff": -489,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -139,
+      "avg_xp_diff": 452,
+      "avg_cs_diff": -6.5,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1813,
-      "avg_xp_diff": -1696,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 4,
+      "avg_gold_diff": -836,
+      "avg_xp_diff": -318,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -54,24 +54,65 @@
   "champB": "Aurora",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
       "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 1.17,
-      "avgDamage": 17594
+      "avgDeaths": 4.0,
+      "avgAssists": 3.0,
+      "kda": 1.5,
+      "avgDamage": 16812
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 9.0,
-      "kda": 2.83,
-      "avgDamage": 32527
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 4.7,
+      "avgAssists": 6.0,
+      "kda": 2.21,
+      "avgDamage": 26402
     }
   }
 }

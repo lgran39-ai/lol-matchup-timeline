@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:11.824579",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:46.768828",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -161,
-      "avg_xp_diff": -113,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -102,
+      "avg_xp_diff": -105,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -765,
-      "avg_xp_diff": -380,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -427,
+      "avg_xp_diff": -330,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1161,
-      "avg_xp_diff": -517,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -696,
+      "avg_xp_diff": -495,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 797,
-      "avg_xp_diff": 526,
-      "avg_cs_diff": 2.9,
-      "sample_frames": 12,
+      "avg_gold_diff": 344,
+      "avg_xp_diff": -589,
+      "avg_cs_diff": -11.8,
+      "sample_frames": 23,
       "advantage": 1
     },
     {
@@ -64,52 +64,59 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Phantom Dancer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "avgKills": 5.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 8.0,
-        "kda": 3.25,
-        "avgDamage": 17033
+        "avgDeaths": 3.7,
+        "avgAssists": 7.0,
+        "kda": 3.27,
+        "avgDamage": 16551
       },
       "sup": {
         "items": [],
         "keystones": [
           {
             "name": "Aftershock",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 2.0,
-        "avgDeaths": 5.5,
-        "avgAssists": 14.5,
-        "kda": 3.0,
-        "avgDamage": 8587
+        "avgKills": 1.7,
+        "avgDeaths": 5.0,
+        "avgAssists": 12.3,
+        "kda": 2.8,
+        "avgDamage": 7648
       }
     },
     "teamB": {
@@ -117,41 +124,68 @@
         "items": [
           {
             "name": "Navori Flickerblade",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           },
           {
             "name": "Hexoptics C44",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 7.5,
-        "avgDeaths": 5.5,
-        "avgAssists": 3.0,
-        "kda": 1.91,
-        "avgDamage": 18876
+        "avgKills": 6.7,
+        "avgDeaths": 4.7,
+        "avgAssists": 5.3,
+        "kda": 2.57,
+        "avgDamage": 20558
       },
       "sup": {
         "items": [
           {
             "name": "Locket of the Iron Solari",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.5,
-        "avgDeaths": 7.5,
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.7,
+        "avgDeaths": 7.3,
         "avgAssists": 10.0,
-        "kda": 1.53,
-        "avgDamage": 6962
+        "kda": 1.59,
+        "avgDamage": 7170
       }
     }
   }

@@ -1,42 +1,51 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.585652",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:50.070332",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -146,
-      "avg_xp_diff": -49,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -80,
+      "avg_xp_diff": -23,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -658,
-      "avg_xp_diff": -140,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -578,
+      "avg_xp_diff": 37,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1015,
-      "avg_xp_diff": -479,
-      "avg_cs_diff": -16.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1372,
+      "avg_xp_diff": -347,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1359,
-      "avg_xp_diff": -730,
-      "avg_cs_diff": -17.8,
+      "avg_gold_diff": -2314,
+      "avg_xp_diff": -818,
+      "avg_cs_diff": -22.1,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -5260,
+      "avg_xp_diff": -1781,
+      "avg_cs_diff": -77.2,
       "sample_frames": 5,
       "advantage": -2
     }
@@ -45,24 +54,71 @@
   "champB": "TwistedFate",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
       "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 0.67,
-      "avgDamage": 5585
+      "avgDeaths": 1.7,
+      "avgAssists": 5.0,
+      "kda": 3.6,
+      "avgDamage": 8948
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 4.0,
-      "kda": 8.0,
-      "avgDamage": 11810
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 3.0,
+      "avgAssists": 4.3,
+      "kda": 4.0,
+      "avgDamage": 18617
     }
   }
 }

@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:11.562064",
+  "updated_at": "2026-03-20T14:47:46.388124",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": 77,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -169,
+      "avg_xp_diff": 0,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -913,
-      "avg_xp_diff": -136,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1348,
+      "avg_xp_diff": -224,
+      "avg_cs_diff": -8.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2835,
-      "avg_xp_diff": -1141,
-      "avg_cs_diff": -20.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -3599,
+      "avg_xp_diff": -1538,
+      "avg_cs_diff": -27.0,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -5059,
-      "avg_xp_diff": -1793,
-      "avg_cs_diff": -34.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -5487,
+      "avg_xp_diff": -2174,
+      "avg_cs_diff": -36.2,
+      "sample_frames": 13,
       "advantage": -2
     }
   ],
@@ -57,44 +57,85 @@
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 8.0,
-        "kda": 1.83,
-        "avgDamage": 8961
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 5.5,
+        "kda": 1.15,
+        "avgDamage": 8121
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 10.0,
-        "kda": 1.71,
-        "avgDamage": 9084
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 6.5,
+        "kda": 1.15,
+        "avgDamage": 6490
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 3.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 10.5,
+        "avgDeaths": 2.5,
         "avgAssists": 6.0,
-        "kda": 5.0,
-        "avgDamage": 17221
+        "kda": 6.6,
+        "avgDamage": 17710
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 1.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 19.0,
-        "kda": 6.67,
-        "avgDamage": 6923
+        "avgDeaths": 2.5,
+        "avgAssists": 17.0,
+        "kda": 7.2,
+        "avgDamage": 7110
       }
     }
   }

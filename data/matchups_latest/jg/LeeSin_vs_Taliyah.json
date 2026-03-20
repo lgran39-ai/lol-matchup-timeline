@@ -1,68 +1,143 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.385040",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:49.717325",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 31,
-      "avg_xp_diff": 70,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -10,
+      "avg_xp_diff": -67,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 168,
-      "avg_xp_diff": -201,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 161,
+      "avg_xp_diff": -290,
+      "avg_cs_diff": -11.2,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1359,
-      "avg_xp_diff": -971,
-      "avg_cs_diff": -11.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 163,
+      "avg_xp_diff": -200,
+      "avg_cs_diff": -12.9,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2856,
-      "avg_xp_diff": -2773,
-      "avg_cs_diff": -25.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 325,
+      "avg_xp_diff": -48,
+      "avg_cs_diff": -9.4,
+      "sample_frames": 32,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3935,
+      "avg_xp_diff": 3796,
+      "avg_cs_diff": 38.3,
+      "sample_frames": 12,
+      "advantage": 2
     }
   ],
   "champA": "LeeSin",
   "champB": "Taliyah",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.0,
-      "kda": 1.67,
-      "avgDamage": 4734
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.8,
+      "kda": 2.46,
+      "avgDamage": 14912
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 6.0,
-      "kda": 14.0,
-      "avgDamage": 12801
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 9.0,
+      "kda": 2.64,
+      "avgDamage": 19157
     }
   }
 }

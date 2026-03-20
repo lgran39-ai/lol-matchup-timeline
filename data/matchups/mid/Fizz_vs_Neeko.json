@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:06.643569",
+  "updated_at": "2026-03-20T14:47:39.617234",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -97,
-      "avg_xp_diff": -40,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -33,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": -2.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -636,
-      "avg_xp_diff": -471,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -511,
+      "avg_xp_diff": -483,
+      "avg_cs_diff": -15.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -833,
-      "avg_xp_diff": -448,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -714,
+      "avg_xp_diff": -719,
+      "avg_cs_diff": -14.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -24,
-      "avg_xp_diff": -422,
-      "avg_cs_diff": 2.5,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -765,
+      "avg_xp_diff": -892,
+      "avg_cs_diff": -14.9,
+      "sample_frames": 21,
+      "advantage": -2
     },
     {
       "phase": "25min+",
@@ -55,23 +55,63 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.0,
-      "kda": 1.83,
-      "avgDamage": 15955
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.5,
+      "kda": 2.1,
+      "avgDamage": 14686
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 2.17,
-      "avgDamage": 19855
+      "avgKills": 6.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 6.0,
+      "kda": 2.78,
+      "avgDamage": 19392
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:09.649007",
+  "updated_at": "2026-03-20T14:47:43.286750",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 186,
-      "avg_xp_diff": 78,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 174,
+      "avg_xp_diff": 80,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 899,
-      "avg_xp_diff": 514,
-      "avg_cs_diff": 7.5,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 744,
+      "avg_xp_diff": 269,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1648,
-      "avg_xp_diff": 1004,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 1153,
+      "avg_xp_diff": 544,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3038,
-      "avg_xp_diff": 2263,
-      "avg_cs_diff": 7.0,
-      "sample_frames": 20,
+      "avg_gold_diff": 2847,
+      "avg_xp_diff": 1935,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 36,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4621,
-      "avg_xp_diff": 4595,
-      "avg_cs_diff": 16.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 4535,
+      "avg_xp_diff": 3674,
+      "avg_cs_diff": 18.2,
+      "sample_frames": 17,
       "advantage": 2
     }
   ],
@@ -64,35 +64,91 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Stormrazor",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 100.0
           }
         ],
-        "avgKills": 9.5,
-        "avgDeaths": 4.0,
-        "avgAssists": 10.5,
-        "kda": 5.0,
-        "avgDamage": 25120
+        "avgKills": 8.2,
+        "avgDeaths": 4.2,
+        "avgAssists": 9.2,
+        "kda": 4.12,
+        "avgDamage": 23785
       },
       "sup": {
         "items": [
           {
             "name": "Mikael's Blessing",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 50.0,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Electrocute",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 100.0
           }
@@ -100,16 +156,16 @@
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 100.0
           }
         ],
-        "avgKills": 2.5,
-        "avgDeaths": 6.0,
-        "avgAssists": 22.0,
-        "kda": 4.08,
-        "avgDamage": 9732
+        "avgKills": 2.2,
+        "avgDeaths": 5.0,
+        "avgAssists": 20.5,
+        "kda": 4.55,
+        "avgDamage": 9866
       }
     },
     "teamB": {
@@ -117,32 +173,51 @@
         "items": [
           {
             "name": "Youmuu's Ghostblade",
-            "count": 2,
-            "pickRate": 100.0,
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Edge of Night",
+            "count": 3,
+            "pickRate": 75.0,
             "winRate": 0.0
           }
         ],
         "keystones": [
           {
             "name": "Arcane Comet",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "summonerSpells": [],
-        "avgKills": 2.5,
-        "avgDeaths": 10.0,
-        "avgAssists": 7.0,
-        "kda": 0.95,
-        "avgDamage": 19366
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 8.2,
+        "avgAssists": 5.2,
+        "kda": 1.0,
+        "avgDamage": 21766
       },
       "sup": {
         "items": [
           {
+            "name": "Echoes of Helia",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 0.0
+          },
+          {
             "name": "Moonstone Renewer",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 50.0,
             "winRate": 0.0
           }
         ],
@@ -150,23 +225,29 @@
           {
             "name": "Summon Aery",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 50.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 50.0,
             "winRate": 0.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 1.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 10.0,
-        "kda": 1.22,
-        "avgDamage": 7931
+        "avgKills": 1.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 9.5,
+        "kda": 1.47,
+        "avgDamage": 8268
       }
     }
   }

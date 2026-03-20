@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:12.914508",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:48.907176",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -44,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": -4.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -18,
+      "avg_xp_diff": -23,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -326,
-      "avg_xp_diff": -106,
+      "avg_gold_diff": -338,
+      "avg_xp_diff": -225,
       "avg_cs_diff": -18.6,
-      "sample_frames": 10,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -550,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": -29.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -681,
+      "avg_xp_diff": -308,
+      "avg_cs_diff": -31.1,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4185,
-      "avg_xp_diff": -2251,
-      "avg_cs_diff": -63.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -3055,
+      "avg_xp_diff": -1874,
+      "avg_cs_diff": -61.0,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3139,
+      "avg_xp_diff": -1613,
+      "avg_cs_diff": -115.7,
+      "sample_frames": 18,
       "advantage": -2
     }
   ],
@@ -48,55 +57,81 @@
       "items": [
         {
           "name": "Chainlaced Crushers",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
       "avgKills": 5.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 4.5,
-      "kda": 2.11,
-      "avgDamage": 11807
+      "avgDeaths": 5.7,
+      "avgAssists": 5.7,
+      "kda": 1.88,
+      "avgDamage": 13263
     },
     "champB": {
       "items": [
         {
           "name": "Luden's Echo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         },
         {
           "name": "Crimson Lucidity",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 2.0,
+      "avgKills": 9.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.3,
       "kda": 2.67,
-      "avgDamage": 19752
+      "avgDamage": 27196
     }
   }
 }

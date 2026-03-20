@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.505307",
+  "updated_at": "2026-03-20T14:47:49.929370",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 9,
-      "avg_xp_diff": -49,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -18,
+      "avg_xp_diff": -40,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 229,
-      "avg_xp_diff": -316,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -135,
+      "avg_xp_diff": -276,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 30,
-      "avg_xp_diff": -355,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -758,
+      "avg_xp_diff": -654,
+      "avg_cs_diff": -18.1,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -31,
-      "avg_xp_diff": -1138,
-      "avg_cs_diff": 11.5,
-      "sample_frames": 11,
-      "advantage": 0
+      "avg_gold_diff": -1678,
+      "avg_xp_diff": -1818,
+      "avg_cs_diff": -30.0,
+      "sample_frames": 21,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4689,
+      "avg_xp_diff": -4179,
+      "avg_cs_diff": -101.8,
+      "sample_frames": 13,
+      "advantage": -2
     }
   ],
   "champA": "Poppy",
@@ -46,23 +55,58 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 0.0,
-      "kda": 0.75,
-      "avgDamage": 16658
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.0,
+      "kda": 1.2,
+      "avgDamage": 20318
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 6.0,
-      "kda": 9.0,
-      "avgDamage": 14183
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 9.0,
+      "kda": 5.4,
+      "avgDamage": 23923
     }
   }
 }

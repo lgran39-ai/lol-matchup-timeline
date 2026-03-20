@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:06.785091",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:39.807609",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 41,
-      "avg_xp_diff": 44,
-      "avg_cs_diff": 3.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -64,
+      "avg_xp_diff": 49,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 21,
-      "avg_xp_diff": 163,
-      "avg_cs_diff": 9.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -143,
+      "avg_xp_diff": 14,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 56,
-      "avg_xp_diff": 130,
-      "avg_cs_diff": 8.5,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -406,
+      "avg_xp_diff": -383,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2035,
-      "avg_xp_diff": 1770,
-      "avg_cs_diff": 46.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 1504,
+      "avg_xp_diff": 1155,
+      "avg_cs_diff": 29.3,
+      "sample_frames": 19,
       "advantage": 2
     }
   ],
@@ -48,49 +48,75 @@
       "items": [
         {
           "name": "Trinity Force",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 2.0,
+      "avgAssists": 2.3,
+      "kda": 3.0,
+      "avgDamage": 10114
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shurelya's Battlesong",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 1.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 2.0,
-      "kda": 2.33,
-      "avgDamage": 6498
-    },
-    "champB": {
-      "items": [],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 1.5,
+      "avgKills": 2.0,
       "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 2.25,
-      "avgDamage": 11212
+      "avgAssists": 2.7,
+      "kda": 2.33,
+      "avgDamage": 11129
     }
   }
 }

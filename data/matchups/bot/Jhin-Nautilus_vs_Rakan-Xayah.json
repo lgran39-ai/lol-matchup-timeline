@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:11.606045",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:46.454918",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 32,
-      "avg_xp_diff": 16,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 12,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -111,
-      "avg_xp_diff": -106,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -311,
+      "avg_xp_diff": -115,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 529,
-      "avg_xp_diff": 441,
-      "avg_cs_diff": 6.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 131,
+      "avg_xp_diff": 318,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1874,
-      "avg_xp_diff": 1533,
-      "avg_cs_diff": 23.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1470,
+      "avg_xp_diff": 1023,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 15,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -853,
+      "avg_xp_diff": -1996,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 3,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,108 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 3.0,
-        "kda": 3.0,
-        "avgDamage": 9093
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 2.0,
+        "kda": 1.62,
+        "avgDamage": 16205
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 9.0,
-        "kda": 10.0,
-        "avgDamage": 6694
+        "avgKills": 0.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 11.0,
+        "kda": 3.29,
+        "avgDamage": 8700
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 1.0,
-        "kda": 1.0,
-        "avgDamage": 9810
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 3.0,
+        "kda": 1.6,
+        "avgDamage": 14294
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
         "avgDeaths": 2.0,
-        "avgAssists": 3.0,
-        "kda": 1.5,
-        "avgDamage": 2308
+        "avgAssists": 12.0,
+        "kda": 6.75,
+        "avgDamage": 6336
       }
     }
   }

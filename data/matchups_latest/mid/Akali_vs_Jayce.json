@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:12.865365",
+  "updated_at": "2026-03-20T14:47:48.817934",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 56,
-      "avg_xp_diff": 49,
+      "avg_gold_diff": 3,
+      "avg_xp_diff": 51,
       "avg_cs_diff": -1.4,
-      "sample_frames": 10,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 774,
-      "avg_xp_diff": 542,
-      "avg_cs_diff": 6.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 307,
+      "avg_xp_diff": 420,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1635,
-      "avg_xp_diff": 1862,
-      "avg_cs_diff": 24.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 804,
+      "avg_xp_diff": 1326,
+      "avg_cs_diff": 15.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1296,
-      "avg_xp_diff": 3167,
-      "avg_cs_diff": 40.2,
-      "sample_frames": 13,
+      "avg_gold_diff": 741,
+      "avg_xp_diff": 2358,
+      "avg_cs_diff": 20.4,
+      "sample_frames": 23,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1305,
+      "avg_xp_diff": 4200,
+      "avg_cs_diff": -9.3,
+      "sample_frames": 3,
       "advantage": 2
     }
   ],
@@ -48,15 +57,27 @@
       "items": [
         {
           "name": "Hextech Gunblade",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         }
@@ -65,32 +86,39 @@
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
-      "avgKills": 11.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 2.0,
-      "kda": 3.86,
-      "avgDamage": 25460
+      "avgKills": 11.3,
+      "avgDeaths": 3.7,
+      "avgAssists": 4.7,
+      "kda": 4.36,
+      "avgDamage": 26344
     },
     "champB": {
       "items": [
         {
           "name": "Youmuu's Ghostblade",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 0.0
         }
       ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.5,
-      "avgDeaths": 9.5,
-      "avgAssists": 2.0,
-      "kda": 0.58,
-      "avgDamage": 15331
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 9.0,
+      "avgAssists": 2.7,
+      "kda": 0.78,
+      "avgDamage": 16878
     }
   }
 }

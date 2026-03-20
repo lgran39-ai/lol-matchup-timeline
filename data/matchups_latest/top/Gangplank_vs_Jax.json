@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-18T14:05:27.904063",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:49.319966",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 47,
-      "avg_xp_diff": 49,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -55,
+      "avg_xp_diff": 22,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 854,
-      "avg_xp_diff": 346,
-      "avg_cs_diff": 21.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 175,
+      "avg_xp_diff": 362,
+      "avg_cs_diff": 4.7,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1526,
-      "avg_xp_diff": 1131,
-      "avg_cs_diff": 43.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 464,
+      "avg_xp_diff": 550,
+      "avg_cs_diff": 12.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3597,
-      "avg_xp_diff": 1141,
-      "avg_cs_diff": 69.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 895,
+      "avg_xp_diff": 694,
+      "avg_cs_diff": 15.1,
+      "sample_frames": 34,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4276,
-      "avg_xp_diff": 748,
-      "avg_cs_diff": 67.5,
-      "sample_frames": 2,
+      "avg_gold_diff": 1797,
+      "avg_xp_diff": 1579,
+      "avg_cs_diff": 35.3,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -54,24 +54,78 @@
   "champB": "Jax",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.0,
-      "kda": 3.0,
-      "avgDamage": 24043
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.2,
+      "avgDeaths": 6.0,
+      "avgAssists": 7.2,
+      "kda": 2.08,
+      "avgDamage": 25170
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 0.4,
-      "avgDamage": 12852
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.8,
+      "avgAssists": 5.5,
+      "kda": 1.41,
+      "avgDamage": 20228
     }
   }
 }

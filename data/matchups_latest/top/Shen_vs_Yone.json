@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:13.567449",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-20T14:47:50.045362",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 142,
-      "avg_xp_diff": 143,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -29,
+      "avg_xp_diff": 14,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 391,
-      "avg_xp_diff": 416,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -153,
+      "avg_xp_diff": -26,
+      "avg_cs_diff": -5.4,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 782,
-      "avg_xp_diff": 1079,
-      "avg_cs_diff": 12.1,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -669,
+      "avg_xp_diff": -367,
+      "avg_cs_diff": -14.1,
+      "sample_frames": 25,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 471,
-      "avg_xp_diff": 729,
-      "avg_cs_diff": -6.2,
-      "sample_frames": 19,
-      "advantage": 2
+      "avg_gold_diff": -1713,
+      "avg_xp_diff": -662,
+      "avg_cs_diff": -37.7,
+      "sample_frames": 48,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -404,
-      "avg_xp_diff": 2513,
-      "avg_cs_diff": -20.3,
-      "sample_frames": 3,
+      "avg_gold_diff": -3010,
+      "avg_xp_diff": 1351,
+      "avg_cs_diff": -49.4,
+      "sample_frames": 16,
       "advantage": -2
     }
   ],
@@ -54,58 +54,102 @@
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [
+      "items": [
         {
-          "name": "Grasp of the Undying",
+          "name": "Titanic Hydra",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Thornmail",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 5.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 8.0,
-      "kda": 3.86,
-      "avgDamage": 19404
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.4,
+      "avgDeaths": 4.4,
+      "avgAssists": 8.4,
+      "kda": 2.68,
+      "avgDamage": 16332
     },
     "champB": {
       "items": [
         {
           "name": "Immortal Shieldbow",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         },
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 0.0,
-      "kda": 0.64,
-      "avgDamage": 18090
+      "avgKills": 6.6,
+      "avgDeaths": 6.0,
+      "avgAssists": 1.4,
+      "kda": 1.33,
+      "avgDamage": 26570
     }
   }
 }

@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-19T12:18:13.646350",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:50.176927",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -69,
-      "avg_xp_diff": -80,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 15,
+      "avg_gold_diff": -64,
+      "avg_xp_diff": -57,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 75,
-      "avg_xp_diff": -150,
-      "avg_cs_diff": 0.9,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -285,
+      "avg_xp_diff": -190,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 306,
-      "avg_xp_diff": -89,
-      "avg_cs_diff": 6.3,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": -501,
+      "avg_xp_diff": -272,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 30,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -834,
-      "avg_xp_diff": -1129,
-      "avg_cs_diff": 2.3,
-      "sample_frames": 23,
+      "avg_gold_diff": -704,
+      "avg_xp_diff": -381,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 46,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2124,
-      "avg_xp_diff": -2655,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": -172,
+      "avg_xp_diff": -619,
+      "avg_cs_diff": 11.2,
+      "sample_frames": 9,
+      "advantage": -1
     }
   ],
   "champA": "Yasuo",
@@ -57,74 +57,87 @@
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
         },
         {
           "name": "Immortal Shieldbow",
-          "count": 2,
+          "count": 4,
           "pickRate": 66.7,
-          "winRate": 50.0
+          "winRate": 75.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 4,
           "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 1.7,
+      "summonerSpells": [
+        {
+          "spells": "Cleanse+Flash",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 5.2,
+      "avgAssists": 4.3,
       "kda": 1.42,
-      "avgDamage": 10486
+      "avgDamage": 12388
     },
     "champB": {
       "items": [
         {
           "name": "Luden's Echo",
-          "count": 3,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 66.7
-        },
-        {
-          "name": "Lich Bane",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
+          "winRate": 50.0
         },
         {
           "name": "Spellslinger's Shoes",
-          "count": 2,
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 4,
           "pickRate": 66.7,
-          "winRate": 100.0
+          "winRate": 75.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 3,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
         }
       ],
-      "avgKills": 5.3,
-      "avgDeaths": 2.3,
-      "avgAssists": 6.3,
-      "kda": 5.0,
-      "avgDamage": 18989
+      "avgKills": 6.2,
+      "avgDeaths": 2.7,
+      "avgAssists": 7.8,
+      "kda": 5.25,
+      "avgDamage": 19116
     }
   }
 }

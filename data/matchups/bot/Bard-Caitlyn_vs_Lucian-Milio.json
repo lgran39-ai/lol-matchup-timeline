@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:09.651889",
+  "updated_at": "2026-03-20T14:47:43.290875",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 18,
-      "avg_xp_diff": 93,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 122,
+      "avg_xp_diff": 108,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -140,
-      "avg_xp_diff": 380,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 52,
+      "avg_xp_diff": 77,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -447,
-      "avg_xp_diff": 921,
-      "avg_cs_diff": -8.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -312,
+      "avg_xp_diff": 261,
+      "avg_cs_diff": -16.0,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1,
-      "avg_xp_diff": 1724,
-      "avg_cs_diff": -17.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 792,
+      "avg_xp_diff": 912,
+      "avg_cs_diff": -23.6,
+      "sample_frames": 15,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3928,
+      "avg_xp_diff": 4630,
+      "avg_cs_diff": -13.6,
+      "sample_frames": 8,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,136 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 7.0,
-        "kda": 3.0,
-        "avgDamage": 11872
+        "items": [
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 6.5,
+        "kda": 2.67,
+        "avgDamage": 21863
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 11.0,
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 16.0,
         "kda": 3.67,
-        "avgDamage": 7415
+        "avgDamage": 11102
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 5.0,
-        "kda": 2.33,
-        "avgDamage": 17617
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 5.5,
+        "kda": 1.45,
+        "avgDamage": 23699
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 4.0,
-        "kda": 1.0,
-        "avgDamage": 4802
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 8.0,
+        "kda": 1.46,
+        "avgDamage": 5454
       }
     }
   }

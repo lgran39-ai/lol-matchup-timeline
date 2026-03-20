@@ -1,68 +1,96 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:12.961806",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:48.991408",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 1,
-      "avg_xp_diff": -50,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 36,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 388,
-      "avg_xp_diff": 190,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 706,
+      "avg_xp_diff": 663,
+      "avg_cs_diff": 15.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 880,
-      "avg_xp_diff": 1020,
-      "avg_cs_diff": 20.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1476,
+      "avg_xp_diff": 1978,
+      "avg_cs_diff": 27.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1034,
-      "avg_xp_diff": -1791,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -323,
+      "avg_xp_diff": -693,
+      "avg_cs_diff": 5.3,
+      "sample_frames": 12,
+      "advantage": -1
     }
   ],
   "champA": "Anivia",
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 0.71,
-      "avgDamage": 21548
+      "avgKills": 4.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 2.5,
+      "kda": 2.0,
+      "avgDamage": 18314
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 5.0,
-      "kda": 3.0,
-      "avgDamage": 30005
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 2.5,
+      "kda": 1.0,
+      "avgDamage": 17462
     }
   }
 }

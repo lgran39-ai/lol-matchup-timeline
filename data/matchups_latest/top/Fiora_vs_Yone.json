@@ -1,68 +1,111 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.153490",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:49.280026",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -3,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 40,
+      "avg_xp_diff": -11,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -147,
-      "avg_xp_diff": -107,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 35,
+      "avg_xp_diff": -204,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -261,
-      "avg_xp_diff": -192,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 340,
+      "avg_xp_diff": 223,
+      "avg_cs_diff": 5.6,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3010,
-      "avg_xp_diff": -2206,
-      "avg_cs_diff": -22.9,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 522,
+      "avg_xp_diff": 830,
+      "avg_cs_diff": 9.8,
+      "sample_frames": 17,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5459,
+      "avg_xp_diff": 4958,
+      "avg_cs_diff": 46.3,
+      "sample_frames": 3,
+      "advantage": 2
     }
   ],
   "champA": "Fiora",
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 1.0,
-      "kda": 0.5,
-      "avgDamage": 11427
+      "avgKills": 7.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 3.0,
+      "kda": 2.22,
+      "avgDamage": 18181
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 8.0,
-      "kda": 4.25,
-      "avgDamage": 26740
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 5.5,
+      "kda": 1.57,
+      "avgDamage": 23004
     }
   }
 }

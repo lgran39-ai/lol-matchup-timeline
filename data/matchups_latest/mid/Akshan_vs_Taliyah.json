@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:12.890717",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:48.867888",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 9,
-      "avg_xp_diff": -43,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 7,
+      "avg_xp_diff": -46,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 691,
-      "avg_xp_diff": -333,
-      "avg_cs_diff": -6.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 362,
+      "avg_xp_diff": -92,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2481,
-      "avg_xp_diff": -70,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 1086,
+      "avg_xp_diff": -37,
+      "avg_cs_diff": -6.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2187,
-      "avg_xp_diff": -1169,
-      "avg_cs_diff": -13.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 725,
+      "avg_xp_diff": -732,
+      "avg_cs_diff": -10.7,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4396,
-      "avg_xp_diff": 941,
-      "avg_cs_diff": 10.5,
-      "sample_frames": 8,
+      "avg_gold_diff": 3019,
+      "avg_xp_diff": 1190,
+      "avg_cs_diff": 11.6,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -54,24 +54,78 @@
   "champB": "Taliyah",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 21.0,
-      "avgDeaths": 14.0,
+      "items": [
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 13.5,
+      "avgDeaths": 8.0,
       "avgAssists": 7.0,
-      "kda": 2.0,
-      "avgDamage": 41349
+      "kda": 2.56,
+      "avgDamage": 30268
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 18.0,
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 12.0,
       "kda": 3.33,
-      "avgDamage": 34286
+      "avgDamage": 28962
     }
   }
 }

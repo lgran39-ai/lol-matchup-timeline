@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:10.306821",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:44.193065",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -86,
-      "avg_xp_diff": -23,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -12,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -654,
-      "avg_xp_diff": 145,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -348,
+      "avg_xp_diff": 146,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -446,
-      "avg_xp_diff": 96,
-      "avg_cs_diff": 4.7,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 173,
+      "avg_xp_diff": 274,
+      "avg_cs_diff": 8.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1863,
-      "avg_xp_diff": -839,
-      "avg_cs_diff": -11.7,
-      "sample_frames": 20,
+      "avg_gold_diff": -959,
+      "avg_xp_diff": -770,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2429,
-      "avg_xp_diff": 728,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 9,
-      "advantage": 2
+      "avg_gold_diff": 220,
+      "avg_xp_diff": -398,
+      "avg_cs_diff": 28.6,
+      "sample_frames": 34,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -64,52 +64,96 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Cleanse+Flash",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 6.5,
-        "avgDeaths": 6.0,
-        "avgAssists": 9.0,
-        "kda": 2.58,
-        "avgDamage": 27034
+        "avgKills": 8.7,
+        "avgDeaths": 7.3,
+        "avgAssists": 12.0,
+        "kda": 2.82,
+        "avgDamage": 46416
       },
       "sup": {
         "items": [
           {
             "name": "Bandlepipes",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          },
+          {
+            "name": "Protoplasm Harness",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "keystones": [],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 0.5,
-        "avgDeaths": 5.5,
-        "avgAssists": 17.0,
-        "kda": 3.18,
-        "avgDamage": 8164
+        "avgKills": 1.0,
+        "avgDeaths": 7.3,
+        "avgAssists": 21.0,
+        "kda": 3.0,
+        "avgDamage": 8459
       }
     },
     "teamB": {
@@ -117,61 +161,87 @@
         "items": [
           {
             "name": "Kraken Slayer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
           },
           {
             "name": "Nashor's Tooth",
             "count": 2,
-            "pickRate": 100.0,
-            "winRate": 50.0
-          },
-          {
-            "name": "Guinsoo's Rageblade",
-            "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 10.5,
-        "avgDeaths": 3.5,
-        "avgAssists": 6.5,
-        "kda": 4.86,
-        "avgDamage": 30597
+        "avgKills": 12.3,
+        "avgDeaths": 5.3,
+        "avgAssists": 9.7,
+        "kda": 4.12,
+        "avgDamage": 38996
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          },
+          {
+            "name": "Protoplasm Harness",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [
           {
             "name": "Aftershock",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "summonerSpells": [],
         "avgKills": 1.0,
-        "avgDeaths": 5.5,
-        "avgAssists": 17.5,
-        "kda": 3.36,
-        "avgDamage": 8060
+        "avgDeaths": 7.7,
+        "avgAssists": 22.3,
+        "kda": 3.04,
+        "avgDamage": 9099
       }
     }
   }

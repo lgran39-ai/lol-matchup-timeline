@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-19T12:18:05.933186",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:38.612227",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -2,
-      "avg_xp_diff": -51,
-      "avg_cs_diff": -1.9,
-      "sample_frames": 20,
+      "avg_gold_diff": -62,
+      "avg_xp_diff": -74,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -738,
-      "avg_xp_diff": -692,
-      "avg_cs_diff": -19.5,
-      "sample_frames": 20,
+      "avg_gold_diff": -665,
+      "avg_xp_diff": -480,
+      "avg_cs_diff": -16.3,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1481,
-      "avg_xp_diff": -1990,
-      "avg_cs_diff": -33.4,
-      "sample_frames": 20,
+      "avg_gold_diff": -1084,
+      "avg_xp_diff": -1369,
+      "avg_cs_diff": -26.7,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3030,
-      "avg_xp_diff": -3415,
-      "avg_cs_diff": -40.1,
-      "sample_frames": 29,
+      "avg_gold_diff": -2790,
+      "avg_xp_diff": -2807,
+      "avg_cs_diff": -39.0,
+      "sample_frames": 42,
       "advantage": -2
     }
   ],
@@ -48,8 +48,14 @@
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 3,
           "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
@@ -57,53 +63,72 @@
         {
           "name": "Electrocute",
           "count": 4,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 25.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 1.8,
-      "avgDeaths": 8.0,
-      "avgAssists": 1.5,
-      "kda": 0.41,
-      "avgDamage": 9179
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.2,
+      "avgDeaths": 6.2,
+      "avgAssists": 1.0,
+      "kda": 0.51,
+      "avgDamage": 9331
     },
     "champB": {
       "items": [
         {
-          "name": "Experimental Hexplate",
-          "count": 4,
+          "name": "Essence Reaver",
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 75.0
+          "winRate": 66.7
         },
         {
-          "name": "Essence Reaver",
-          "count": 4,
-          "pickRate": 100.0,
-          "winRate": 75.0
+          "name": "Experimental Hexplate",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 4,
-          "pickRate": 100.0,
-          "winRate": 75.0
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Exhaust+Flash",
           "count": 4,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 75.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 9.2,
+      "avgKills": 7.2,
       "avgDeaths": 2.2,
-      "avgAssists": 3.0,
-      "kda": 5.44,
-      "avgDamage": 19416
+      "avgAssists": 2.2,
+      "kda": 4.31,
+      "avgDamage": 17722
     }
   }
 }

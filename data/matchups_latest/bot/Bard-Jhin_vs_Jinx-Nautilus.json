@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.787879",
+  "updated_at": "2026-03-20T14:47:50.485640",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -24,
-      "avg_xp_diff": -63,
-      "avg_cs_diff": -5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -93,
+      "avg_xp_diff": -29,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -364,
-      "avg_xp_diff": -365,
-      "avg_cs_diff": -20.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 16,
+      "avg_xp_diff": 139,
+      "avg_cs_diff": -15.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -3008,
-      "avg_xp_diff": -1758,
-      "avg_cs_diff": -53.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1267,
+      "avg_xp_diff": -390,
+      "avg_cs_diff": -36.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -5086,
-      "avg_xp_diff": -2521,
-      "avg_cs_diff": -62.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -1506,
+      "avg_xp_diff": 68,
+      "avg_cs_diff": -30.9,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
@@ -57,44 +57,72 @@
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 1.0,
-        "kda": 0.4,
-        "avgDamage": 4346
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 2.5,
+        "kda": 1.22,
+        "avgDamage": 8218
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 2.0,
-        "kda": 0.33,
-        "avgDamage": 2408
+        "avgKills": 0.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 4.5,
+        "kda": 0.91,
+        "avgDamage": 4001
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 0.0,
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 2.0,
         "avgAssists": 8.0,
-        "kda": 12.0,
-        "avgDamage": 11514
+        "kda": 5.75,
+        "avgDamage": 11072
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 11.0,
-        "kda": 6.0,
-        "avgDamage": 4846
+        "avgKills": 1.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 10.0,
+        "kda": 3.29,
+        "avgDamage": 5622
       }
     }
   }

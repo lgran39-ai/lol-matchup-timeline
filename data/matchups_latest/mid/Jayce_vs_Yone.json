@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.309041",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:49.578593",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 67,
-      "avg_xp_diff": 50,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 76,
+      "avg_xp_diff": 63,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 241,
-      "avg_xp_diff": 286,
-      "avg_cs_diff": 9.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 414,
+      "avg_xp_diff": 247,
+      "avg_cs_diff": 10.9,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1642,
-      "avg_xp_diff": 998,
-      "avg_cs_diff": 13.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 1946,
+      "avg_xp_diff": 1317,
+      "avg_cs_diff": 22.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2624,
-      "avg_xp_diff": 1759,
-      "avg_cs_diff": 24.1,
-      "sample_frames": 9,
+      "avg_gold_diff": 4308,
+      "avg_xp_diff": 3256,
+      "avg_cs_diff": 43.4,
+      "sample_frames": 19,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 7842,
+      "avg_xp_diff": 6865,
+      "avg_cs_diff": 70.3,
+      "sample_frames": 3,
       "advantage": 2
     }
   ],
@@ -45,24 +54,70 @@
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.0,
-      "kda": 2.67,
-      "avgDamage": 22698
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 12.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.5,
+      "kda": 4.12,
+      "avgDamage": 33904
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 5.0,
-      "kda": 2.75,
-      "avgDamage": 18328
+      "avgKills": 4.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 5.5,
+      "kda": 1.19,
+      "avgDamage": 15325
     }
   }
 }

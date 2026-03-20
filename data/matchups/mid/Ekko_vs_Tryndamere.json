@@ -1,77 +1,137 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:06.460909",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:39.421813",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 50,
-      "avg_xp_diff": 113,
-      "avg_cs_diff": 6.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -25,
+      "avg_xp_diff": 10,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 209,
-      "avg_xp_diff": 272,
-      "avg_cs_diff": 14.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 184,
+      "avg_xp_diff": 44,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 159,
-      "avg_xp_diff": 435,
-      "avg_cs_diff": 15.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -249,
+      "avg_xp_diff": -172,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 563,
-      "avg_xp_diff": 709,
-      "avg_cs_diff": 25.1,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 20,
+      "avg_xp_diff": 504,
+      "avg_cs_diff": 19.5,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -239,
-      "avg_xp_diff": 579,
-      "avg_cs_diff": 20.3,
-      "sample_frames": 7,
-      "advantage": -1
+      "avg_gold_diff": -752,
+      "avg_xp_diff": 212,
+      "avg_cs_diff": 21.4,
+      "sample_frames": 13,
+      "advantage": -2
     }
   ],
   "champA": "Ekko",
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
+      "items": [
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
       "avgDeaths": 4.0,
-      "avgAssists": 8.0,
-      "kda": 4.25,
-      "avgDamage": 34457
+      "avgAssists": 7.5,
+      "kda": 3.38,
+      "avgDamage": 27070
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 2.0,
-      "kda": 1.33,
-      "avgDamage": 33523
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 3.0,
+      "kda": 1.57,
+      "avgDamage": 25644
     }
   }
 }

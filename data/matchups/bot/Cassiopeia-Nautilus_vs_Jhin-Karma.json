@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:10.536121",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:45.208775",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -138,
-      "avg_xp_diff": -87,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 0,
+      "avg_xp_diff": 13,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -636,
-      "avg_xp_diff": -473,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -58,
+      "avg_xp_diff": 161,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -466,
-      "avg_xp_diff": 18,
-      "avg_cs_diff": 13.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 628,
+      "avg_xp_diff": 1006,
+      "avg_cs_diff": 17.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1678,
-      "avg_xp_diff": 1769,
-      "avg_cs_diff": 22.5,
-      "sample_frames": 11,
+      "avg_gold_diff": 1701,
+      "avg_xp_diff": 1856,
+      "avg_cs_diff": 25.5,
+      "sample_frames": 21,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2507,
+      "avg_xp_diff": 5649,
+      "avg_cs_diff": 30.1,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -55,46 +64,128 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Actualizer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Rod of Ages",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Conqueror",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 8.0,
-        "kda": 7.5,
-        "avgDamage": 14911
+        "avgKills": 11.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 11.5,
+        "kda": 5.0,
+        "avgDamage": 33950
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 10.0,
-        "kda": 2.5,
-        "avgDamage": 4925
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 18.0,
+        "kda": 3.23,
+        "avgDamage": 10166
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 7.0,
-        "kda": 1.75,
-        "avgDamage": 15693
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 10.5,
+        "kda": 2.77,
+        "avgDamage": 39341
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 3.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 5.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 13.0,
         "kda": 2.0,
-        "avgDamage": 7836
+        "avgDamage": 12509
       }
     }
   }

@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.035072",
+  "sample_size": 8,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-20T14:47:49.064882",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 56,
-      "avg_xp_diff": 58,
-      "avg_cs_diff": 3.1,
-      "sample_frames": 15,
+      "avg_gold_diff": 92,
+      "avg_xp_diff": 59,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -177,
-      "avg_xp_diff": -50,
-      "avg_cs_diff": 2.1,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": 156,
+      "avg_xp_diff": 172,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 40,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -248,
-      "avg_xp_diff": -345,
-      "avg_cs_diff": 1.5,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": 272,
+      "avg_xp_diff": 172,
+      "avg_cs_diff": 11.1,
+      "sample_frames": 40,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -965,
-      "avg_xp_diff": -1368,
-      "avg_cs_diff": -12.7,
-      "sample_frames": 31,
-      "advantage": -2
+      "avg_gold_diff": 426,
+      "avg_xp_diff": 407,
+      "avg_cs_diff": 11.6,
+      "sample_frames": 67,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1339,
-      "avg_xp_diff": -1436,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 16,
+      "avg_gold_diff": -527,
+      "avg_xp_diff": -866,
+      "avg_cs_diff": -15.0,
+      "sample_frames": 24,
       "advantage": -2
     }
   ],
@@ -56,100 +56,124 @@
     "champA": {
       "items": [
         {
-          "name": "Shadowflame",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 0.0
-        },
-        {
           "name": "Hextech Rocketbelt",
-          "count": 3,
+          "count": 8,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 25.0
         },
         {
           "name": "Spellslinger's Shoes",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 28.6
+        },
+        {
+          "name": "Shadowflame",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 33.3
         },
         {
           "name": "Stormsurge",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 25.0,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 3,
+          "count": 8,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 25.0
         }
       ],
       "summonerSpells": [
         {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 25.0
+        },
+        {
           "spells": "Flash+Ignite",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 25.0
         }
       ],
-      "avgKills": 6.3,
-      "avgDeaths": 7.3,
-      "avgAssists": 6.3,
-      "kda": 1.73,
-      "avgDamage": 35177
+      "avgKills": 6.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.5,
+      "kda": 2.3,
+      "avgDamage": 27421
     },
     "champB": {
       "items": [
         {
-          "name": "Immortal Shieldbow",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "name": "Blade of The Ruined King",
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 71.4
         },
         {
-          "name": "Blade of The Ruined King",
+          "name": "Immortal Shieldbow",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 37.5,
           "winRate": 100.0
         },
         {
           "name": "Guardian Angel",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 25.0,
           "winRate": 100.0
         },
         {
           "name": "Infinity Edge",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 25.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 25.0,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
-          "pickRate": 66.7,
+          "count": 4,
+          "pickRate": 50.0,
           "winRate": 100.0
+        },
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 83.3
+        },
+        {
+          "spells": "Exhaust+Flash",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
+          "pickRate": 25.0,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 13.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 9.0,
-      "kda": 5.5,
-      "avgDamage": 35819
+      "avgKills": 6.9,
+      "avgDeaths": 4.9,
+      "avgAssists": 5.8,
+      "kda": 2.59,
+      "avgDamage": 20285
     }
   }
 }

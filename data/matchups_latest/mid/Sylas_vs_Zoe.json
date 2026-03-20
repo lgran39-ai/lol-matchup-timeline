@@ -1,77 +1,137 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.599356",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:50.098463",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 59,
-      "avg_xp_diff": 105,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -73,
+      "avg_xp_diff": -24,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 212,
-      "avg_xp_diff": 148,
-      "avg_cs_diff": -14.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -460,
+      "avg_xp_diff": -250,
+      "avg_cs_diff": -11.1,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1008,
-      "avg_xp_diff": 714,
-      "avg_cs_diff": -8.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -468,
+      "avg_xp_diff": -329,
+      "avg_cs_diff": -17.5,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1570,
-      "avg_xp_diff": 1588,
-      "avg_cs_diff": 15.2,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -612,
+      "avg_xp_diff": -16,
+      "avg_cs_diff": -14.0,
+      "sample_frames": 22,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1519,
-      "avg_xp_diff": 1014,
-      "avg_cs_diff": 8.1,
-      "sample_frames": 9,
-      "advantage": 2
+      "avg_gold_diff": -1395,
+      "avg_xp_diff": -414,
+      "avg_cs_diff": -10.2,
+      "sample_frames": 16,
+      "advantage": -2
     }
   ],
   "champA": "Sylas",
   "champB": "Zoe",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 7.0,
-      "kda": 3.2,
-      "avgDamage": 17856
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 8.0,
+      "avgAssists": 6.0,
+      "kda": 1.29,
+      "avgDamage": 14147
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 8.0,
-      "kda": 1.25,
-      "avgDamage": 28954
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 9.3,
+      "kda": 3.12,
+      "avgDamage": 29097
     }
   }
 }

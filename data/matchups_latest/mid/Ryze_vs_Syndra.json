@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.552147",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:50.018586",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -3,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -25,
+      "avg_xp_diff": 62,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -138,
-      "avg_xp_diff": -228,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -242,
+      "avg_xp_diff": -49,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1087,
-      "avg_xp_diff": -1249,
-      "avg_cs_diff": -8.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -490,
+      "avg_xp_diff": 40,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1952,
-      "avg_xp_diff": -1058,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -744,
+      "avg_xp_diff": 244,
+      "avg_cs_diff": 14.6,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
@@ -54,24 +54,83 @@
   "champB": "Syndra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.0,
-      "kda": 0.8,
-      "avgDamage": 9575
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Actualizer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 3.7,
+      "avgAssists": 3.0,
+      "kda": 1.55,
+      "avgDamage": 11425
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 5.0,
-      "kda": 5.67,
-      "avgDamage": 27360
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 4.3,
+      "kda": 3.6,
+      "avgDamage": 20306
     }
   }
 }

@@ -1,105 +1,143 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:13.644566",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:50.174263",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 131,
-      "avg_xp_diff": 104,
-      "avg_cs_diff": 3.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 127,
+      "avg_xp_diff": 99,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 498,
-      "avg_xp_diff": 200,
-      "avg_cs_diff": 8.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 634,
+      "avg_xp_diff": 409,
+      "avg_cs_diff": 12.0,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 356,
-      "avg_xp_diff": 154,
-      "avg_cs_diff": 11.3,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 936,
+      "avg_xp_diff": 838,
+      "avg_cs_diff": 18.0,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -252,
-      "avg_xp_diff": -1479,
-      "avg_cs_diff": -15.4,
-      "sample_frames": 12,
-      "advantage": -1
+      "avg_gold_diff": 537,
+      "avg_xp_diff": 200,
+      "avg_cs_diff": 5.8,
+      "sample_frames": 24,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4647,
-      "avg_xp_diff": -4790,
-      "avg_cs_diff": -52.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 945,
+      "avg_xp_diff": 792,
+      "avg_cs_diff": 10.5,
+      "sample_frames": 17,
+      "advantage": 2
     }
   ],
   "champA": "Yasuo",
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 1.5,
-      "kda": 0.82,
-      "avgDamage": 13618
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.2,
+      "avgDeaths": 3.8,
+      "avgAssists": 3.0,
+      "kda": 2.2,
+      "avgDamage": 18717
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 50.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 3.0,
-      "kda": 1.82,
-      "avgDamage": 23858
+      "avgKills": 4.2,
+      "avgDeaths": 5.8,
+      "avgAssists": 2.8,
+      "kda": 1.22,
+      "avgDamage": 17938
     }
   }
 }

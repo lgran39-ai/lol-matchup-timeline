@@ -1,68 +1,91 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:06.398915",
+  "updated_at": "2026-03-20T14:47:39.341395",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 86,
-      "avg_xp_diff": 130,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 18,
+      "avg_xp_diff": 46,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 396,
-      "avg_xp_diff": 312,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -137,
+      "avg_xp_diff": -106,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1630,
-      "avg_xp_diff": 2130,
-      "avg_cs_diff": 28.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 254,
+      "avg_xp_diff": 531,
+      "avg_cs_diff": 5.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2955,
-      "avg_xp_diff": 3536,
-      "avg_cs_diff": 48.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -501,
+      "avg_xp_diff": -283,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 12,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1851,
+      "avg_xp_diff": -2153,
+      "avg_cs_diff": -20.2,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "champA": "DrMundo",
   "champB": "Nasus",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 0.0,
-      "kda": 4.0,
-      "avgDamage": 17552
+      "avgKills": 2.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 1.5,
+      "kda": 1.6,
+      "avgDamage": 19530
     },
     "champB": {
       "items": [],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 0.33,
-      "avgDamage": 9216
+      "avgKills": 1.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 3.0,
+      "kda": 1.0,
+      "avgDamage": 17668
     }
   }
 }

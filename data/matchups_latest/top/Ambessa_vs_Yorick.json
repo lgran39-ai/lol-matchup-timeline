@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:12.938863",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:48.951341",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 132,
-      "avg_xp_diff": 99,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 121,
+      "avg_xp_diff": 60,
+      "avg_cs_diff": 2.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 663,
-      "avg_xp_diff": 703,
-      "avg_cs_diff": 7.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 615,
+      "avg_xp_diff": 484,
+      "avg_cs_diff": 9.4,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1199,
-      "avg_xp_diff": 1647,
-      "avg_cs_diff": 14.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1041,
+      "avg_xp_diff": 1102,
+      "avg_cs_diff": 16.9,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1500,
-      "avg_xp_diff": 1757,
-      "avg_cs_diff": 14.2,
-      "sample_frames": 11,
+      "avg_gold_diff": 1976,
+      "avg_xp_diff": 2168,
+      "avg_cs_diff": 29.7,
+      "sample_frames": 31,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2011,
+      "avg_xp_diff": 1984,
+      "avg_cs_diff": 29.2,
+      "sample_frames": 10,
       "advantage": 2
     }
   ],
@@ -45,24 +54,78 @@
   "champB": "Yorick",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.0,
-      "kda": 2.33,
-      "avgDamage": 19482
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.7,
+      "kda": 2.27,
+      "avgDamage": 24255
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 5.0,
-      "kda": 1.2,
-      "avgDamage": 12370
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 4.7,
+      "kda": 1.06,
+      "avgDamage": 18147
     }
   }
 }

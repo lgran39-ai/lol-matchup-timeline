@@ -1,68 +1,118 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:05.864574",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-20T14:47:38.529766",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -263,
-      "avg_xp_diff": -94,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -150,
+      "avg_xp_diff": -41,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -643,
-      "avg_xp_diff": -271,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -442,
+      "avg_xp_diff": -106,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -753,
-      "avg_xp_diff": -544,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -713,
+      "avg_xp_diff": -411,
+      "avg_cs_diff": -11.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1697,
-      "avg_xp_diff": -1282,
-      "avg_cs_diff": -12.5,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": -339,
+      "avg_xp_diff": 387,
+      "avg_cs_diff": -18.5,
+      "sample_frames": 12,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 10,
+      "avg_xp_diff": 666,
+      "avg_cs_diff": -37.5,
+      "sample_frames": 12,
+      "advantage": 0
     }
   ],
   "champA": "Ambessa",
   "champB": "Vex",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
       "avgDeaths": 6.0,
-      "avgAssists": 0.0,
-      "kda": 0.5,
-      "avgDamage": 4281
+      "avgAssists": 8.0,
+      "kda": 2.25,
+      "avgDamage": 17636
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 4.5,
-      "avgDamage": 9259
+      "avgKills": 5.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 7.0,
+      "kda": 2.27,
+      "avgDamage": 22864
     }
   }
 }

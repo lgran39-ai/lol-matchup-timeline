@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:12.091480",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-20T14:47:47.142300",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 69,
-      "avg_xp_diff": 55,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 50,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 255,
-      "avg_xp_diff": 108,
-      "avg_cs_diff": -7.1,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 506,
+      "avg_xp_diff": 376,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -19,
-      "avg_xp_diff": 146,
-      "avg_cs_diff": -5.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 1021,
+      "avg_xp_diff": 841,
+      "avg_cs_diff": 7.3,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1661,
-      "avg_xp_diff": -1231,
-      "avg_cs_diff": -14.3,
-      "sample_frames": 21,
-      "advantage": -2
+      "avg_gold_diff": 502,
+      "avg_xp_diff": -121,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 31,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 191,
-      "avg_xp_diff": -598,
-      "avg_cs_diff": 7.0,
-      "sample_frames": 2,
-      "advantage": 0
+      "avg_gold_diff": 3648,
+      "avg_xp_diff": 1007,
+      "avg_cs_diff": 26.0,
+      "sample_frames": 5,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -67,76 +67,102 @@
         "items": [
           {
             "name": "Essence Reaver",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
           },
           {
             "name": "Rapid Firecannon",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
           }
         ],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 3.5,
-        "avgAssists": 3.0,
-        "kda": 1.71,
-        "avgDamage": 17246
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.7,
+        "avgDeaths": 4.0,
+        "avgAssists": 5.0,
+        "kda": 2.92,
+        "avgDamage": 22453
       },
       "sup": {
         "items": [
           {
             "name": "Imperial Mandate",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
+          },
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Summon Aery",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 1.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 7.0,
-        "kda": 1.14,
-        "avgDamage": 6202
+        "avgKills": 1.3,
+        "avgDeaths": 6.7,
+        "avgAssists": 13.7,
+        "kda": 2.25,
+        "avgDamage": 8150
       }
     },
     "teamB": {
       "adc": {
         "items": [
           {
-            "name": "Infinity Edge",
-            "count": 2,
+            "name": "Statikk Shiv",
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           },
           {
-            "name": "Statikk Shiv",
+            "name": "Infinity Edge",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 100.0
           },
           {
             "name": "Runaan's Hurricane",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
@@ -144,47 +170,60 @@
           {
             "name": "Lethal Tempo",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 4.5,
-        "avgDeaths": 5.0,
-        "avgAssists": 8.5,
-        "kda": 2.6,
-        "avgDamage": 23182
+        "avgKills": 3.3,
+        "avgDeaths": 7.0,
+        "avgAssists": 7.7,
+        "kda": 1.57,
+        "avgDamage": 20852
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Ardent Censer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [
           {
             "name": "Summon Aery",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 2.0,
-        "avgDeaths": 4.5,
-        "avgAssists": 12.0,
-        "kda": 3.11,
-        "avgDamage": 6997
+        "avgKills": 2.3,
+        "avgDeaths": 6.7,
+        "avgAssists": 11.7,
+        "kda": 2.1,
+        "avgDamage": 8315
       }
     }
   }

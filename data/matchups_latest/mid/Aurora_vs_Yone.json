@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-19T12:18:13.035590",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-20T14:47:49.065457",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 36,
-      "avg_xp_diff": 16,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 108,
+      "avg_xp_diff": 38,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 184,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": 9.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 232,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": 7.2,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 434,
-      "avg_xp_diff": 348,
-      "avg_cs_diff": 11.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 422,
+      "avg_xp_diff": 257,
+      "avg_cs_diff": 7.3,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 519,
-      "avg_xp_diff": 756,
-      "avg_cs_diff": 13.9,
-      "sample_frames": 20,
+      "avg_gold_diff": 604,
+      "avg_xp_diff": 364,
+      "avg_cs_diff": 12.4,
+      "sample_frames": 42,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 311,
-      "avg_xp_diff": 602,
-      "avg_cs_diff": 14.9,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": 684,
+      "avg_xp_diff": -15,
+      "avg_cs_diff": 15.3,
+      "sample_frames": 37,
+      "advantage": 2
     }
   ],
   "champA": "Aurora",
@@ -56,55 +56,100 @@
     "champA": {
       "items": [
         {
-          "name": "Hextech Rocketbelt",
-          "count": 2,
-          "pickRate": 100.0,
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
         },
         {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
           "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Stormsurge",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 18.0,
-      "kda": 3.33,
-      "avgDamage": 32974
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 4.6,
+      "avgAssists": 9.8,
+      "kda": 2.78,
+      "avgDamage": 29197
     },
     "champB": {
       "items": [
         {
-          "name": "Immortal Shieldbow",
-          "count": 2,
+          "name": "Blade of The Ruined King",
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         },
         {
-          "name": "Blade of The Ruined King",
+          "name": "Immortal Shieldbow",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Lethal Tempo",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 7.5,
-      "avgAssists": 9.5,
-      "kda": 1.8,
-      "avgDamage": 23484
+      "avgKills": 4.2,
+      "avgDeaths": 6.4,
+      "avgAssists": 5.6,
+      "kda": 1.53,
+      "avgDamage": 21280
     }
   }
 }

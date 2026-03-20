@@ -1,77 +1,173 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-19T12:18:12.875475",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-20T14:47:48.833920",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -48,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 54,
+      "avg_xp_diff": 63,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -90,
-      "avg_xp_diff": 347,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 193,
+      "avg_xp_diff": 291,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -401,
-      "avg_xp_diff": 256,
-      "avg_cs_diff": -8.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 321,
+      "avg_xp_diff": 588,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 206,
-      "avg_xp_diff": 825,
-      "avg_cs_diff": 5.1,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 818,
+      "avg_xp_diff": 1044,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 33,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 325,
-      "avg_xp_diff": 1352,
-      "avg_cs_diff": 30.0,
-      "sample_frames": 3,
-      "advantage": 1
+      "avg_gold_diff": 2323,
+      "avg_xp_diff": 2898,
+      "avg_cs_diff": 38.0,
+      "sample_frames": 10,
+      "advantage": 2
     }
   ],
   "champA": "Akali",
   "champB": "Taliyah",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.0,
-      "kda": 3.33,
-      "avgDamage": 20264
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.4,
+      "avgDeaths": 2.6,
+      "avgAssists": 4.4,
+      "kda": 4.54,
+      "avgDamage": 19086
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 10.0,
-      "kda": 8.0,
-      "avgDamage": 19917
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.2,
+      "avgDeaths": 5.8,
+      "avgAssists": 4.8,
+      "kda": 1.38,
+      "avgDamage": 12634
     }
   }
 }

@@ -1,91 +1,137 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-19T12:18:13.195838",
+  "sample_size": 6,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-20T14:47:49.365271",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 29,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -73,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -402,
-      "avg_xp_diff": -302,
-      "avg_cs_diff": -9.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -306,
+      "avg_xp_diff": -59,
+      "avg_cs_diff": -11.6,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -613,
-      "avg_xp_diff": -400,
-      "avg_cs_diff": -15.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -598,
+      "avg_xp_diff": -257,
+      "avg_cs_diff": -16.3,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -799,
-      "avg_xp_diff": 115,
-      "avg_cs_diff": -23.4,
-      "sample_frames": 20,
+      "avg_gold_diff": -597,
+      "avg_xp_diff": 227,
+      "avg_cs_diff": -22.0,
+      "sample_frames": 52,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -186,
-      "avg_xp_diff": 2702,
-      "avg_cs_diff": -43.0,
-      "sample_frames": 2,
-      "advantage": -1
+      "avg_gold_diff": 1498,
+      "avg_xp_diff": 3766,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 12,
+      "advantage": 2
     }
   ],
   "champA": "Gragas",
   "champB": "Jayce",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "name": "Rod of Ages",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 8.5,
-      "kda": 2.75,
-      "avgDamage": 15946
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 3.8,
+      "avgAssists": 6.7,
+      "kda": 2.52,
+      "avgDamage": 15832
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 0.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 1.0,
-      "kda": 0.64,
-      "avgDamage": 20864
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 5.8,
+      "avgAssists": 2.2,
+      "kda": 0.86,
+      "avgDamage": 19909
     }
   }
 }
