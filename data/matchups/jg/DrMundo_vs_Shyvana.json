@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:39.351692",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:53.334264",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -12,
-      "avg_xp_diff": -28,
+      "avg_gold_diff": -76,
+      "avg_xp_diff": -57,
       "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -182,
-      "avg_xp_diff": -396,
-      "avg_cs_diff": -8.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -356,
+      "avg_xp_diff": -417,
+      "avg_cs_diff": -10.8,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -252,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -1051,
+      "avg_xp_diff": -725,
+      "avg_cs_diff": -19.9,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2244,
-      "avg_xp_diff": -696,
-      "avg_cs_diff": -14.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -2285,
+      "avg_xp_diff": -1463,
+      "avg_cs_diff": -20.0,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4530,
-      "avg_xp_diff": -835,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 9,
+      "avg_gold_diff": -2725,
+      "avg_xp_diff": -320,
+      "avg_cs_diff": -4.9,
+      "sample_frames": 15,
       "advantage": -2
     }
   ],
@@ -54,24 +54,78 @@
   "champB": "Shyvana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
+      "items": [
+        {
+          "name": "Spirit Visage",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
       "avgDeaths": 5.0,
-      "avgAssists": 8.0,
-      "kda": 2.2,
-      "avgDamage": 23882
+      "avgAssists": 8.5,
+      "kda": 2.5,
+      "avgDamage": 23098
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 21.0,
-      "kda": 15.0,
-      "avgDamage": 64724
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 16.0,
+      "kda": 7.83,
+      "avgDamage": 44914
     }
   }
 }

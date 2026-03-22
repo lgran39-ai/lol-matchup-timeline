@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:49.768343",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-21T14:07:02.218711",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -245,
-      "avg_xp_diff": -87,
-      "avg_cs_diff": -4.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -184,
+      "avg_xp_diff": -62,
+      "avg_cs_diff": -4.5,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1341,
-      "avg_xp_diff": -910,
-      "avg_cs_diff": -20.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -945,
+      "avg_xp_diff": -487,
+      "avg_cs_diff": -14.2,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2534,
-      "avg_xp_diff": -2082,
-      "avg_cs_diff": -36.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -1611,
+      "avg_xp_diff": -851,
+      "avg_cs_diff": -23.7,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3575,
-      "avg_xp_diff": -2195,
-      "avg_cs_diff": -36.9,
-      "sample_frames": 20,
+      "avg_gold_diff": -2104,
+      "avg_xp_diff": -755,
+      "avg_cs_diff": -21.3,
+      "sample_frames": 31,
       "advantage": -2
     },
     {
@@ -56,62 +56,82 @@
     "champA": {
       "items": [
         {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
           "name": "Frozen Heart",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 1.0,
-      "avgDeaths": 9.5,
-      "avgAssists": 8.5,
-      "kda": 1.0,
-      "avgDamage": 13358
+      "avgKills": 2.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 8.0,
+      "kda": 1.25,
+      "avgDamage": 16348
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         },
         {
           "name": "Immortal Shieldbow",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         },
         {
           "name": "Lord Dominik's Regards",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 8.5,
-      "kda": 3.9,
-      "avgDamage": 33414
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 6.3,
+      "kda": 2.75,
+      "avgDamage": 25698
     }
   }
 }

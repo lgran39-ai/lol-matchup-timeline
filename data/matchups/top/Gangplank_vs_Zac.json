@@ -1,68 +1,90 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:39.753118",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:53.665256",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 17,
-      "avg_xp_diff": 39,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": 72,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -292,
-      "avg_xp_diff": -341,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 250,
+      "avg_xp_diff": 215,
+      "avg_cs_diff": 12.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 179,
-      "avg_xp_diff": 284,
-      "avg_cs_diff": 8.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 825,
+      "avg_xp_diff": 770,
+      "avg_cs_diff": 25.1,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -462,
-      "avg_xp_diff": -2206,
-      "avg_cs_diff": -7.7,
-      "sample_frames": 11,
-      "advantage": -2
+      "avg_gold_diff": 963,
+      "avg_xp_diff": -613,
+      "avg_cs_diff": 15.2,
+      "sample_frames": 21,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3641,
+      "avg_xp_diff": 2770,
+      "avg_cs_diff": 41.1,
+      "sample_frames": 10,
+      "advantage": 2
     }
   ],
   "champA": "Gangplank",
   "champB": "Zac",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 2.0,
-      "kda": 0.83,
-      "avgDamage": 21297
+      "avgKills": 6.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 9.5,
+      "kda": 2.91,
+      "avgDamage": 36166
     },
     "champB": {
       "items": [],
       "keystones": [],
       "summonerSpells": [],
       "avgKills": 3.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 12.0,
-      "kda": 7.5,
-      "avgDamage": 16764
+      "avgDeaths": 5.5,
+      "avgAssists": 9.0,
+      "kda": 2.18,
+      "avgDamage": 17195
     }
   }
 }

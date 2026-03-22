@@ -1,75 +1,143 @@
 {
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:50.013052",
+  "updated_at": "2026-03-21T14:07:02.445108",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 29,
-      "avg_xp_diff": 14,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 15,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 269,
-      "avg_xp_diff": 59,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 328,
+      "avg_xp_diff": 214,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 636,
-      "avg_xp_diff": 166,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 745,
+      "avg_xp_diff": 679,
+      "avg_cs_diff": 6.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -76,
-      "avg_xp_diff": -1498,
-      "avg_cs_diff": -26.2,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": 884,
+      "avg_xp_diff": 261,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 40,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2163,
+      "avg_xp_diff": 1828,
+      "avg_cs_diff": 14.5,
+      "sample_frames": 6,
+      "advantage": 2
     }
   ],
   "champA": "Rumble",
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Teleport",
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Bloodletter's Curse",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 7.5,
-      "avgAssists": 6.5,
-      "kda": 1.53,
-      "avgDamage": 17840
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.8,
+      "avgAssists": 6.0,
+      "kda": 2.09,
+      "avgDamage": 23525
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 6.5,
-      "kda": 1.79,
-      "avgDamage": 17326
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 5.8,
+      "kda": 1.86,
+      "avgDamage": 15967
     }
   }
 }

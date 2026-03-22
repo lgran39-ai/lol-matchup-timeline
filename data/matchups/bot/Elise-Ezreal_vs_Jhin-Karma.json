@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:45.537131",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-21T14:06:57.914702",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 60,
-      "avg_xp_diff": -81,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 20,
+      "avg_gold_diff": -42,
+      "avg_xp_diff": -93,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -265,
-      "avg_xp_diff": -615,
+      "avg_gold_diff": -585,
+      "avg_xp_diff": -709,
       "avg_cs_diff": -6.0,
-      "sample_frames": 20,
-      "advantage": 0
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -672,
-      "avg_xp_diff": -823,
-      "avg_cs_diff": -4.1,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": -1221,
+      "avg_xp_diff": -1003,
+      "avg_cs_diff": -7.0,
+      "sample_frames": 25,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 761,
-      "avg_xp_diff": -172,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 25,
-      "advantage": 1
+      "avg_gold_diff": -644,
+      "avg_xp_diff": -758,
+      "avg_cs_diff": -6.4,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2506,
-      "avg_xp_diff": 638,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -547,
+      "avg_xp_diff": -161,
+      "avg_cs_diff": -10.8,
+      "sample_frames": 13,
+      "advantage": -1
     }
   ],
   "type": "bot_2v2",
@@ -67,63 +67,75 @@
         "items": [
           {
             "name": "Trinity Force",
-            "count": 4,
+            "count": 5,
             "pickRate": 100.0,
+            "winRate": 40.0
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 40.0,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 4,
+            "count": 5,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 40.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 4,
+            "count": 5,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 40.0
           }
         ],
-        "avgKills": 4.5,
-        "avgDeaths": 4.8,
-        "avgAssists": 5.8,
-        "kda": 2.16,
-        "avgDamage": 17752
+        "avgKills": 4.0,
+        "avgDeaths": 5.4,
+        "avgAssists": 5.6,
+        "kda": 1.78,
+        "avgDamage": 18866
       },
       "sup": {
         "items": [
           {
             "name": "Bandlepipes",
             "count": 2,
-            "pickRate": 50.0,
+            "pickRate": 40.0,
             "winRate": 50.0
+          },
+          {
+            "name": "Stormsurge",
+            "count": 2,
+            "pickRate": 40.0,
+            "winRate": 0.0
           }
         ],
         "keystones": [
           {
             "name": "Electrocute",
-            "count": 3,
-            "pickRate": 75.0,
-            "winRate": 66.7
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 50.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Ignite",
-            "count": 3,
-            "pickRate": 75.0,
-            "winRate": 33.3
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 25.0
           }
         ],
-        "avgKills": 2.8,
-        "avgDeaths": 5.2,
-        "avgAssists": 7.5,
-        "kda": 1.95,
-        "avgDamage": 8290
+        "avgKills": 3.4,
+        "avgDeaths": 6.2,
+        "avgAssists": 8.2,
+        "kda": 1.87,
+        "avgDamage": 9774
       }
     },
     "teamB": {
@@ -131,87 +143,93 @@
         "items": [
           {
             "name": "Rapid Firecannon",
-            "count": 3,
-            "pickRate": 75.0,
-            "winRate": 33.3
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 50.0
           },
           {
             "name": "Hubris",
-            "count": 2,
-            "pickRate": 50.0,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 66.7
           },
           {
             "name": "The Collector",
-            "count": 2,
-            "pickRate": 50.0,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 66.7
           }
         ],
         "keystones": [
           {
             "name": "Fleet Footwork",
-            "count": 3,
-            "pickRate": 75.0,
-            "winRate": 66.7
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 75.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 4,
+            "count": 5,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 60.0
           }
         ],
-        "avgKills": 5.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 5.8,
-        "kda": 2.69,
-        "avgDamage": 15094
+        "avgKills": 6.0,
+        "avgDeaths": 3.8,
+        "avgAssists": 7.0,
+        "kda": 3.42,
+        "avgDamage": 18587
       },
       "sup": {
         "items": [
           {
             "name": "Echoes of Helia",
-            "count": 3,
-            "pickRate": 75.0,
-            "winRate": 66.7
+            "count": 4,
+            "pickRate": 80.0,
+            "winRate": 75.0
           },
           {
             "name": "Moonstone Renewer",
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Mikael's Blessing",
             "count": 2,
-            "pickRate": 50.0,
-            "winRate": 0.0
+            "pickRate": 40.0,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Summon Aery",
-            "count": 2,
-            "pickRate": 50.0,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 60.0,
+            "winRate": 66.7
           },
           {
             "name": "Arcane Comet",
             "count": 2,
-            "pickRate": 50.0,
+            "pickRate": 40.0,
             "winRate": 50.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 4,
+            "count": 5,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 60.0
           }
         ],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 12.8,
-        "kda": 3.44,
-        "avgDamage": 8428
+        "avgKills": 1.2,
+        "avgDeaths": 3.4,
+        "avgAssists": 15.6,
+        "kda": 4.94,
+        "avgDamage": 8813
       }
     }
   }

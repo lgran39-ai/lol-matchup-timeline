@@ -1,96 +1,167 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.632055",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-21T14:07:02.081689",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 4,
-      "avg_xp_diff": 107,
-      "avg_cs_diff": -1.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 26,
+      "avg_xp_diff": 50,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 141,
-      "avg_xp_diff": 170,
-      "avg_cs_diff": -4.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 331,
+      "avg_xp_diff": 173,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -424,
-      "avg_xp_diff": -752,
-      "avg_cs_diff": -17.5,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 466,
+      "avg_xp_diff": 53,
+      "avg_cs_diff": -8.9,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -854,
-      "avg_xp_diff": -927,
-      "avg_cs_diff": -20.5,
-      "sample_frames": 11,
-      "advantage": -2
+      "avg_gold_diff": 1742,
+      "avg_xp_diff": 1687,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 41,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2404,
+      "avg_xp_diff": 3070,
+      "avg_cs_diff": -24.6,
+      "sample_frames": 5,
+      "advantage": 2
     }
   ],
   "champA": "Katarina",
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 60.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 60.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 0.5,
-      "kda": 0.82,
-      "avgDamage": 10931
+      "avgKills": 9.8,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.0,
+      "kda": 3.52,
+      "avgDamage": 22717
     },
     "champB": {
       "items": [
         {
           "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Black Cleaver",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 3.0,
-      "avgDamage": 11618
+      "avgKills": 4.2,
+      "avgDeaths": 5.8,
+      "avgAssists": 3.2,
+      "kda": 1.28,
+      "avgDamage": 13751
     }
   }
 }

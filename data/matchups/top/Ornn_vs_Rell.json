@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:41.129157",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-21T14:06:54.789512",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 64,
-      "avg_xp_diff": -26,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 46,
+      "avg_xp_diff": 120,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 42,
-      "avg_xp_diff": 154,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 268,
+      "avg_xp_diff": 589,
+      "avg_cs_diff": 8.8,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -359,
-      "avg_xp_diff": 57,
-      "avg_cs_diff": -10.4,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -52,
+      "avg_xp_diff": 372,
+      "avg_cs_diff": 6.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -152,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 20,
+      "avg_gold_diff": -295,
+      "avg_xp_diff": -308,
+      "avg_cs_diff": 6.9,
+      "sample_frames": 30,
       "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1745,
-      "avg_xp_diff": -486,
-      "avg_cs_diff": 5.9,
-      "sample_frames": 9,
+      "avg_gold_diff": -808,
+      "avg_xp_diff": -295,
+      "avg_cs_diff": 21.5,
+      "sample_frames": 22,
       "advantage": -2
     }
   ],
@@ -56,62 +56,75 @@
     "champA": {
       "items": [
         {
-          "name": "Hollow Radiance",
-          "count": 2,
+          "name": "Unending Despair",
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         },
         {
-          "name": "Unending Despair",
+          "name": "Hollow Radiance",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 7.0,
-      "kda": 1.69,
-      "avgDamage": 19770
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 8.3,
+      "avgAssists": 7.7,
+      "kda": 1.48,
+      "avgDamage": 20450
     },
     "champB": {
       "items": [
         {
           "name": "Hollow Radiance",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         },
         {
           "name": "Kaenic Rookern",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 12.5,
-      "kda": 2.29,
-      "avgDamage": 16122
+      "avgKills": 3.7,
+      "avgDeaths": 7.3,
+      "avgAssists": 16.7,
+      "kda": 2.77,
+      "avgDamage": 19443
     }
   }
 }

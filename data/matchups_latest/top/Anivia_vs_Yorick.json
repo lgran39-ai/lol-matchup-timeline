@@ -1,44 +1,44 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:48.992021",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:01.379837",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -108,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -39,
+      "avg_xp_diff": -90,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -243,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -472,
+      "avg_xp_diff": -160,
+      "avg_cs_diff": -15.3,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 716,
-      "avg_xp_diff": 955,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -98,
+      "avg_xp_diff": 39,
+      "avg_cs_diff": -15.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 746,
-      "avg_xp_diff": 1020,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -331,
+      "avg_xp_diff": 180,
+      "avg_cs_diff": -15.7,
+      "sample_frames": 11,
+      "advantage": -1
     }
   ],
   "champA": "Anivia",
@@ -47,22 +47,43 @@
     "champA": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
       "avgDeaths": 2.0,
       "avgAssists": 1.0,
-      "kda": 2.5,
-      "avgDamage": 14795
+      "kda": 1.75,
+      "avgDamage": 11760
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 0.5,
       "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 0.33,
-      "avgDamage": 9065
+      "avgAssists": 1.5,
+      "kda": 0.67,
+      "avgDamage": 12632
     }
   }
 }

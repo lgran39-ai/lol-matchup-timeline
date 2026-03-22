@@ -1,68 +1,143 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.016789",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-21T14:07:01.402471",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -6,
-      "avg_xp_diff": -103,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 12,
+      "avg_xp_diff": -42,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -258,
-      "avg_xp_diff": -669,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -50,
+      "avg_xp_diff": -200,
+      "avg_cs_diff": 5.0,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 72,
-      "avg_xp_diff": -960,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -79,
+      "avg_xp_diff": -737,
+      "avg_cs_diff": -1.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1014,
-      "avg_xp_diff": -1825,
-      "avg_cs_diff": -22.3,
-      "sample_frames": 3,
-      "advantage": -2
+      "avg_gold_diff": -388,
+      "avg_xp_diff": -1387,
+      "avg_cs_diff": -6.6,
+      "sample_frames": 23,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2284,
+      "avg_xp_diff": 1507,
+      "avg_cs_diff": 39.5,
+      "sample_frames": 10,
+      "advantage": 2
     }
   ],
   "champA": "AurelionSol",
   "champB": "Lissandra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 1.0,
-      "avgDamage": 8848
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 4.0,
+      "kda": 1.86,
+      "avgDamage": 18966
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 6.0,
-      "kda": 7.0,
-      "avgDamage": 6793
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.7,
+      "kda": 3.33,
+      "avgDamage": 18645
     }
   }
 }

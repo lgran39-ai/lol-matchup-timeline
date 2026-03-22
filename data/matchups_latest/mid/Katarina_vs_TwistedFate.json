@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.628778",
+  "sample_size": 6,
+  "overall_winrate_a": 16.7,
+  "updated_at": "2026-03-21T14:07:02.078310",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -134,
-      "avg_xp_diff": -33,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -83,
+      "avg_xp_diff": -18,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -401,
-      "avg_xp_diff": -143,
-      "avg_cs_diff": -9.5,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -246,
+      "avg_xp_diff": -27,
+      "avg_cs_diff": -6.1,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -965,
-      "avg_xp_diff": -614,
-      "avg_cs_diff": -21.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -437,
+      "avg_xp_diff": -122,
+      "avg_cs_diff": -10.4,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1558,
-      "avg_xp_diff": -2542,
-      "avg_cs_diff": -51.7,
-      "sample_frames": 19,
+      "avg_gold_diff": -848,
+      "avg_xp_diff": -1533,
+      "avg_cs_diff": -23.4,
+      "sample_frames": 59,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3673,
-      "avg_xp_diff": -5982,
-      "avg_cs_diff": -105.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -752,
+      "avg_xp_diff": -2302,
+      "avg_cs_diff": -28.3,
+      "sample_frames": 38,
       "advantage": -2
     }
   ],
@@ -54,43 +54,132 @@
   "champB": "TwistedFate",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 4.5,
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 9.7,
+      "avgDeaths": 7.0,
+      "avgAssists": 7.5,
       "kda": 2.45,
-      "avgDamage": 20768
+      "avgDamage": 30307
     },
     "champB": {
       "items": [
         {
           "name": "Lich Bane",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 100.0
-        },
-        {
-          "name": "Rapid Firecannon",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 83.3
         },
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
+          "winRate": 83.3
+        },
+        {
+          "name": "Rapid Firecannon",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Unsealed Spellbook",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 100.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 10.5,
-      "kda": 9.33,
-      "avgDamage": 17520
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 4.3,
+      "avgAssists": 13.3,
+      "kda": 4.38,
+      "avgDamage": 23159
     }
   }
 }

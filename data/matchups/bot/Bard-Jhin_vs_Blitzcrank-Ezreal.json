@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:43.428574",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:56.662391",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -413,
-      "avg_xp_diff": -113,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -187,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1971,
-      "avg_xp_diff": -983,
-      "avg_cs_diff": -19.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -935,
+      "avg_xp_diff": -412,
+      "avg_cs_diff": -9.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -4632,
-      "avg_xp_diff": -1998,
-      "avg_cs_diff": -34.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1438,
+      "avg_xp_diff": -107,
+      "avg_cs_diff": -9.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -7895,
-      "avg_xp_diff": -3541,
-      "avg_cs_diff": -48.7,
-      "sample_frames": 9,
+      "avg_gold_diff": -4213,
+      "avg_xp_diff": -1422,
+      "avg_cs_diff": -21.7,
+      "sample_frames": 15,
       "advantage": -2
     }
   ],
@@ -55,46 +55,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.0,
         "avgDeaths": 5.0,
-        "avgAssists": 2.0,
-        "kda": 0.6,
-        "avgDamage": 6484
+        "avgAssists": 3.5,
+        "kda": 1.1,
+        "avgDamage": 9428
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 3.0,
-        "kda": 0.67,
-        "avgDamage": 5654
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 8.0,
+        "kda": 2.11,
+        "avgDamage": 6708
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 6.0,
-        "kda": 9.0,
-        "avgDamage": 30700
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 5.0,
+        "kda": 2.88,
+        "avgDamage": 22636
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 2.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 18.0,
-        "kda": 6.67,
-        "avgDamage": 6680
+        "avgDeaths": 2.0,
+        "avgAssists": 10.5,
+        "kda": 6.25,
+        "avgDamage": 5129
       }
     }
   }

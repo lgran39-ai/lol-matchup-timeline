@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 4,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.287534",
+  "updated_at": "2026-03-21T14:07:01.685060",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -101,
-      "avg_xp_diff": -98,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -33,
+      "avg_xp_diff": -20,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1190,
-      "avg_xp_diff": -441,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -649,
+      "avg_xp_diff": -179,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2952,
-      "avg_xp_diff": -1427,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1673,
+      "avg_xp_diff": -669,
+      "avg_cs_diff": -5.8,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4620,
-      "avg_xp_diff": -3240,
-      "avg_cs_diff": -8.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1749,
+      "avg_xp_diff": -1678,
+      "avg_cs_diff": -16.5,
+      "sample_frames": 35,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3339,
+      "avg_xp_diff": -5052,
+      "avg_cs_diff": -64.2,
+      "sample_frames": 12,
       "advantage": -2
     }
   ],
@@ -45,24 +54,96 @@
   "champB": "Nidalee",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.0,
-      "kda": 0.5,
-      "avgDamage": 9050
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 7.2,
+      "avgAssists": 5.2,
+      "kda": 1.59,
+      "avgDamage": 16924
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 8.0,
-      "kda": 7.33,
-      "avgDamage": 19884
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 11.8,
+      "avgDeaths": 4.2,
+      "avgAssists": 12.8,
+      "kda": 5.76,
+      "avgDamage": 23759
     }
   }
 }

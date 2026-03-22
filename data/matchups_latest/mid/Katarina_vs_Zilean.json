@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.632688",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:02.082208",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -25,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 0,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -311,
-      "avg_xp_diff": -233,
-      "avg_cs_diff": -8.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -164,
+      "avg_xp_diff": -252,
+      "avg_cs_diff": -6.2,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -686,
-      "avg_xp_diff": -243,
-      "avg_cs_diff": -14.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -211,
+      "avg_xp_diff": -64,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 857,
-      "avg_xp_diff": -574,
-      "avg_cs_diff": -23.7,
-      "sample_frames": 9,
+      "avg_gold_diff": 1280,
+      "avg_xp_diff": 296,
+      "avg_cs_diff": -9.0,
+      "sample_frames": 14,
       "advantage": 2
     }
   ],
@@ -45,24 +45,77 @@
   "champB": "Zilean",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 2.67,
-      "avgDamage": 15860
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 5.0,
+      "kda": 5.67,
+      "avgDamage": 12006
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 3.0,
+      "avgKills": 1.5,
       "avgDeaths": 3.0,
-      "avgAssists": 10.0,
-      "kda": 4.33,
-      "avgDamage": 10668
+      "avgAssists": 5.0,
+      "kda": 2.17,
+      "avgDamage": 7978
     }
   }
 }

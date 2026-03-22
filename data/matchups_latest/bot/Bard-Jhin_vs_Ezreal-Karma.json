@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:50.484142",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-21T14:07:02.986202",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 306,
-      "avg_xp_diff": 138,
-      "avg_cs_diff": 0.1,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 89,
+      "avg_xp_diff": 175,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 521,
-      "avg_xp_diff": 526,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 170,
+      "avg_xp_diff": 544,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1182,
-      "avg_xp_diff": 1252,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 597,
+      "avg_xp_diff": 857,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 338,
-      "avg_xp_diff": 511,
-      "avg_cs_diff": 5.8,
-      "sample_frames": 16,
-      "advantage": 1
+      "avg_gold_diff": -1318,
+      "avg_xp_diff": -725,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 26,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -7703,
+      "avg_xp_diff": -5760,
+      "avg_cs_diff": -30.5,
+      "sample_frames": 4,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,45 +64,66 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [
+        "items": [
           {
-            "spells": "Flash+Barrier",
+            "name": "Rapid Firecannon",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "avgKills": 4.5,
-        "avgDeaths": 1.5,
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 3.3,
+        "avgDeaths": 3.0,
         "avgAssists": 9.0,
-        "kda": 9.0,
-        "avgDamage": 13934
+        "kda": 4.11,
+        "avgDamage": 14125
       },
       "sup": {
         "items": [
           {
             "name": "Locket of the Iron Solari",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 0.5,
-        "avgDeaths": 3.5,
-        "avgAssists": 14.0,
-        "kda": 4.14,
-        "avgDamage": 9240
+        "avgKills": 0.3,
+        "avgDeaths": 5.3,
+        "avgAssists": 12.3,
+        "kda": 2.38,
+        "avgDamage": 8506
       }
     },
     "teamB": {
@@ -101,63 +131,75 @@
         "items": [
           {
             "name": "Trinity Force",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 2.0,
-        "kda": 1.0,
-        "avgDamage": 16192
+        "avgKills": 4.7,
+        "avgDeaths": 3.3,
+        "avgAssists": 5.0,
+        "kda": 2.9,
+        "avgDamage": 26289
       },
       "sup": {
         "items": [
           {
             "name": "Echoes of Helia",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Summon Aery",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 1.5,
+        "avgKills": 1.7,
         "avgDeaths": 5.0,
-        "avgAssists": 6.5,
-        "kda": 1.6,
-        "avgDamage": 7270
+        "avgAssists": 11.7,
+        "kda": 2.67,
+        "avgDamage": 8411
       }
     }
   }

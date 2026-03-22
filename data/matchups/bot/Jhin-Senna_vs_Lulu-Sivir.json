@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:46.529853",
+  "updated_at": "2026-03-21T14:06:58.904427",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 75,
-      "avg_xp_diff": 210,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 148,
+      "avg_xp_diff": 158,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 890,
-      "avg_xp_diff": 517,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1322,
+      "avg_xp_diff": 664,
+      "avg_cs_diff": 6.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1234,
-      "avg_xp_diff": -133,
-      "avg_cs_diff": 6.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 2809,
+      "avg_xp_diff": 1145,
+      "avg_cs_diff": 25.1,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1977,
-      "avg_xp_diff": 662,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 4856,
+      "avg_xp_diff": 2741,
+      "avg_cs_diff": 30.1,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2455,
-      "avg_xp_diff": 939,
-      "avg_cs_diff": -28.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 5683,
+      "avg_xp_diff": 3049,
+      "avg_cs_diff": 15.0,
+      "sample_frames": 9,
       "advantage": 2
     }
   ],
@@ -64,46 +64,141 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 20.0,
-        "kda": 4.0,
-        "avgDamage": 19782
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 19.0,
+        "kda": 5.78,
+        "avgDamage": 25912
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 21.0,
-        "kda": 5.4,
-        "avgDamage": 19402
+        "items": [
+          {
+            "name": "Serpent's Fang",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Black Cleaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 20.5,
+        "kda": 6.88,
+        "avgDamage": 21850
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 8.0,
-        "kda": 1.62,
-        "avgDamage": 24925
+        "items": [
+          {
+            "name": "Mortal Reminder",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 9.5,
+        "avgAssists": 6.5,
+        "kda": 1.05,
+        "avgDamage": 21248
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 17.0,
-        "kda": 1.55,
-        "avgDamage": 9590
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 9.5,
+        "avgAssists": 13.0,
+        "kda": 1.47,
+        "avgDamage": 8516
       }
     }
   }

@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:39.154965",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-21T14:06:53.167399",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -19,
-      "avg_xp_diff": 37,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -13,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -470,
-      "avg_xp_diff": 42,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -314,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -888,
-      "avg_xp_diff": -322,
-      "avg_cs_diff": -8.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -322,
+      "avg_xp_diff": -256,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -653,
-      "avg_xp_diff": -335,
-      "avg_cs_diff": -6.9,
-      "sample_frames": 21,
+      "avg_gold_diff": -482,
+      "avg_xp_diff": -295,
+      "avg_cs_diff": -7.1,
+      "sample_frames": 31,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -5576,
-      "avg_xp_diff": -5367,
-      "avg_cs_diff": -88.3,
-      "sample_frames": 3,
+      "avg_gold_diff": -1288,
+      "avg_xp_diff": -693,
+      "avg_cs_diff": -29.2,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -57,25 +57,14 @@
       "items": [
         {
           "name": "Rylai's Crystal Scepter",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.5,
-      "kda": 1.8,
-      "avgDamage": 18310
-    },
-    "champB": {
-      "items": [
+          "winRate": 66.7
+        },
         {
-          "name": "Crimson Lucidity",
+          "name": "Swiftmarch",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
@@ -83,16 +72,60 @@
         {
           "name": "Phase Rush",
           "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.3,
+      "avgAssists": 6.0,
+      "kda": 2.25,
+      "avgDamage": 19395
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 10.0,
-      "kda": 3.33,
-      "avgDamage": 25528
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 5.0,
+      "avgAssists": 9.0,
+      "kda": 2.73,
+      "avgDamage": 27240
     }
   }
 }

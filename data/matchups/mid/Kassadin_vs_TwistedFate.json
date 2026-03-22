@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:40.415386",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-21T14:06:54.214474",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -105,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": -3.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -103,
+      "avg_xp_diff": -20,
+      "avg_cs_diff": -3.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -597,
-      "avg_xp_diff": -225,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -517,
+      "avg_xp_diff": -94,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -645,
-      "avg_xp_diff": -493,
-      "avg_cs_diff": -8.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -480,
+      "avg_xp_diff": -165,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 629,
-      "avg_xp_diff": -1247,
-      "avg_cs_diff": -9.8,
-      "sample_frames": 12,
-      "advantage": 2
+      "avg_gold_diff": 347,
+      "avg_xp_diff": -562,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 18,
+      "advantage": 1
     },
     {
       "phase": "25min+",
@@ -54,29 +54,61 @@
   "champB": "TwistedFate",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Teleport",
+          "name": "Chainlaced Crushers",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 4.5,
-      "kda": 2.56,
-      "avgDamage": 20894
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.0,
+      "avgAssists": 3.7,
+      "kda": 2.78,
+      "avgDamage": 17362
     },
     "champB": {
       "items": [
         {
           "name": "Chainlaced Crushers",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Rapid Firecannon",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
         }
       ],
       "keystones": [],
@@ -84,15 +116,15 @@
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 2.5,
-      "avgAssists": 9.0,
-      "kda": 5.4,
-      "avgDamage": 14962
+      "avgKills": 3.3,
+      "avgDeaths": 2.0,
+      "avgAssists": 6.3,
+      "kda": 4.83,
+      "avgDamage": 12887
     }
   }
 }

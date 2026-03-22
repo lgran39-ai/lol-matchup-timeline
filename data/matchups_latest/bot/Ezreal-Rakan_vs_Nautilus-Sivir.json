@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:50.873638",
+  "updated_at": "2026-03-21T14:07:03.430187",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 6,
-      "avg_xp_diff": 26,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -168,
+      "avg_xp_diff": 32,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -450,
-      "avg_xp_diff": -330,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -833,
+      "avg_xp_diff": -291,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -309,
-      "avg_xp_diff": -124,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -1227,
+      "avg_xp_diff": -291,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1178,
-      "avg_xp_diff": -388,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -1424,
+      "avg_xp_diff": -393,
+      "avg_cs_diff": -9.0,
+      "sample_frames": 12,
       "advantage": -2
     },
     {
@@ -64,46 +64,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 3.0,
-        "kda": 1.33,
-        "avgDamage": 24514
+        "avgKills": 3.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 1.5,
+        "kda": 0.9,
+        "avgDamage": 16019
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 11.0,
-        "kda": 2.17,
-        "avgDamage": 5522
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 7.5,
+        "kda": 1.89,
+        "avgDamage": 4329
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 7.0,
-        "kda": 9.5,
-        "avgDamage": 30317
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 8.0,
+        "avgDeaths": 1.0,
+        "avgAssists": 5.5,
+        "kda": 13.5,
+        "avgDamage": 18653
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 15.0,
-        "kda": 4.0,
-        "avgDamage": 7850
+        "avgKills": 0.5,
+        "avgDeaths": 2.0,
+        "avgAssists": 10.5,
+        "kda": 5.5,
+        "avgDamage": 5266
       }
     }
   }

@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:47.028900",
+  "updated_at": "2026-03-21T14:06:59.312370",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -553,
-      "avg_xp_diff": -181,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -176,
+      "avg_xp_diff": -45,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1168,
-      "avg_xp_diff": -665,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 206,
+      "avg_xp_diff": -8,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1445,
-      "avg_xp_diff": -436,
-      "avg_cs_diff": -11.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 664,
+      "avg_xp_diff": 217,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -762,
-      "avg_xp_diff": 1266,
-      "avg_cs_diff": 1.7,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 1430,
+      "avg_xp_diff": 1210,
+      "avg_cs_diff": 10.2,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1158,
-      "avg_xp_diff": 2607,
-      "avg_cs_diff": 5.1,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 2932,
+      "avg_xp_diff": 626,
+      "avg_cs_diff": 25.0,
+      "sample_frames": 19,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 11.0,
-        "kda": 2.14,
-        "avgDamage": 28308
+        "avgKills": 7.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 14.5,
+        "kda": 4.3,
+        "avgDamage": 33052
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 17.0,
-        "kda": 1.82,
-        "avgDamage": 11309
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 21.0,
+        "kda": 3.0,
+        "avgDamage": 12013
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 12.0,
-        "kda": 2.25,
-        "avgDamage": 26834
+        "avgKills": 4.0,
+        "avgDeaths": 8.5,
+        "avgAssists": 9.0,
+        "kda": 1.53,
+        "avgDamage": 23192
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 21.0,
-        "kda": 3.43,
-        "avgDamage": 11130
+        "avgKills": 2.0,
+        "avgDeaths": 7.5,
+        "avgAssists": 15.5,
+        "kda": 2.33,
+        "avgDamage": 8860
       }
     }
   }

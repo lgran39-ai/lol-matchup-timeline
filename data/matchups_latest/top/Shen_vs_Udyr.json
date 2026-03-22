@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:50.042852",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-21T14:07:02.476448",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -135,
-      "avg_xp_diff": -50,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -94,
+      "avg_xp_diff": -24,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -335,
-      "avg_xp_diff": -253,
-      "avg_cs_diff": -10.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -299,
+      "avg_xp_diff": -83,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -643,
-      "avg_xp_diff": -993,
-      "avg_cs_diff": -22.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -655,
+      "avg_xp_diff": -642,
+      "avg_cs_diff": -17.9,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1246,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": -30.1,
-      "sample_frames": 19,
+      "avg_gold_diff": -1074,
+      "avg_xp_diff": 57,
+      "avg_cs_diff": -23.3,
+      "sample_frames": 39,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2342,
-      "avg_xp_diff": 173,
-      "avg_cs_diff": -46.0,
-      "sample_frames": 7,
+      "avg_gold_diff": -2112,
+      "avg_xp_diff": 701,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 19,
       "advantage": -2
     }
   ],
@@ -54,45 +54,66 @@
   "champB": "Udyr",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 75.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 3,
+          "pickRate": 75.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 14.5,
-      "kda": 5.14,
-      "avgDamage": 17887
+      "avgKills": 2.5,
+      "avgDeaths": 3.8,
+      "avgAssists": 13.5,
+      "kda": 4.27,
+      "avgDamage": 19802
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 25.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.5,
-      "kda": 1.0,
-      "avgDamage": 25336
+      "avgKills": 4.2,
+      "avgDeaths": 4.8,
+      "avgAssists": 4.8,
+      "kda": 1.89,
+      "avgDamage": 24595
     }
   }
 }

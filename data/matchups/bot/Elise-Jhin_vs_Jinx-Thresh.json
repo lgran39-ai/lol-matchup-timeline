@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:45.560193",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-21T14:06:57.934467",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 12,
-      "avg_xp_diff": -64,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 2,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 321,
-      "avg_xp_diff": 155,
-      "avg_cs_diff": 18.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 362,
+      "avg_xp_diff": 37,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 506,
-      "avg_xp_diff": 451,
-      "avg_cs_diff": 23.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 504,
+      "avg_xp_diff": 46,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1780,
-      "avg_xp_diff": 1049,
-      "avg_cs_diff": 32.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 1671,
+      "avg_xp_diff": 1030,
+      "avg_cs_diff": 9.2,
+      "sample_frames": 22,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1693,
-      "avg_xp_diff": -640,
-      "avg_cs_diff": 46.2,
-      "sample_frames": 11,
+      "avg_gold_diff": 2345,
+      "avg_xp_diff": 550,
+      "avg_cs_diff": 19.8,
+      "sample_frames": 22,
       "advantage": 2
     }
   ],
@@ -64,46 +64,178 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 10.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 13.0,
-        "kda": 3.29,
-        "avgDamage": 40034
+        "avgDeaths": 5.3,
+        "avgAssists": 8.7,
+        "kda": 3.5,
+        "avgDamage": 36147
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 16.0,
-        "kda": 3.71,
-        "avgDamage": 22287
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 3.7,
+        "avgDeaths": 5.3,
+        "avgAssists": 13.3,
+        "kda": 3.19,
+        "avgDamage": 13571
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 18.0,
-        "kda": 2.4,
-        "avgDamage": 33393
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          },
+          {
+            "name": "Phantom Dancer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 4.3,
+        "avgDeaths": 7.0,
+        "avgAssists": 11.7,
+        "kda": 2.29,
+        "avgDamage": 26558
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 21.0,
-        "kda": 2.4,
-        "avgDamage": 10459
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 2.7,
+        "avgDeaths": 6.3,
+        "avgAssists": 15.3,
+        "kda": 2.84,
+        "avgDamage": 8174
       }
     }
   }

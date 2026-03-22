@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:50.814989",
+  "updated_at": "2026-03-21T14:07:03.358904",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -471,
-      "avg_xp_diff": -53,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -379,
+      "avg_xp_diff": -27,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1280,
-      "avg_xp_diff": -138,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1091,
+      "avg_xp_diff": -93,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2413,
-      "avg_xp_diff": -749,
-      "avg_cs_diff": -22.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1716,
+      "avg_xp_diff": -272,
+      "avg_cs_diff": -9.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -878,
-      "avg_xp_diff": -334,
-      "avg_cs_diff": -32.6,
-      "sample_frames": 7,
+      "avg_gold_diff": -1391,
+      "avg_xp_diff": -269,
+      "avg_cs_diff": -11.1,
+      "sample_frames": 17,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1798,
+      "avg_xp_diff": 3009,
+      "avg_cs_diff": 13.0,
+      "sample_frames": 23,
       "advantage": -2
     }
   ],
@@ -55,46 +64,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 5.0,
-        "kda": 3.33,
-        "avgDamage": 16986
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 6.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 8.0,
+        "kda": 3.5,
+        "avgDamage": 37444
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 9.0,
-        "kda": 2.5,
-        "avgDamage": 6136
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 18.5,
+        "kda": 5.71,
+        "avgDamage": 7424
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 2.0,
-        "kda": 2.33,
-        "avgDamage": 16240
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 6.0,
+        "kda": 2.08,
+        "avgDamage": 28284
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 7.0,
-        "kda": 2.25,
-        "avgDamage": 9280
+        "avgDeaths": 4.5,
+        "avgAssists": 15.5,
+        "kda": 3.89,
+        "avgDamage": 15233
       }
     }
   }

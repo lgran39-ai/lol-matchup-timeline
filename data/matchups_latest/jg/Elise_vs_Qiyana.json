@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.239182",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:01.630489",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 58,
-      "avg_xp_diff": 35,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -10,
+      "avg_xp_diff": -70,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 699,
-      "avg_xp_diff": -186,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 228,
+      "avg_xp_diff": -319,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 471,
-      "avg_xp_diff": -290,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -464,
+      "avg_xp_diff": -851,
+      "avg_cs_diff": -17.8,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -541,
-      "avg_xp_diff": -2452,
-      "avg_cs_diff": -53.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -1039,
+      "avg_xp_diff": -1836,
+      "avg_cs_diff": -44.0,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3203,
-      "avg_xp_diff": -5962,
-      "avg_cs_diff": -113.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -2552,
+      "avg_xp_diff": -3387,
+      "avg_cs_diff": -79.0,
+      "sample_frames": 12,
       "advantage": -2
     }
   ],
@@ -55,23 +55,64 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 10.0,
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 6.0,
       "avgAssists": 13.0,
-      "kda": 2.2,
-      "avgDamage": 23355
+      "kda": 3.42,
+      "avgDamage": 22560
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 15.0,
-      "kda": 5.2,
-      "avgDamage": 25412
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.5,
+      "avgDeaths": 6.5,
+      "avgAssists": 11.0,
+      "kda": 3.15,
+      "avgDamage": 25550
     }
   }
 }

@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:45.801927",
+  "updated_at": "2026-03-21T14:06:58.135187",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 14,
-      "avg_xp_diff": 46,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 32,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -460,
-      "avg_xp_diff": -429,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 91,
+      "avg_xp_diff": -100,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1605,
-      "avg_xp_diff": -1173,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1176,
+      "avg_xp_diff": -869,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1848,
-      "avg_xp_diff": -1127,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -2191,
+      "avg_xp_diff": -1511,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
@@ -65,45 +65,94 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 9.0,
+        "avgKills": 4.0,
+        "avgDeaths": 6.5,
         "avgAssists": 2.0,
-        "kda": 0.78,
-        "avgDamage": 22492
+        "kda": 0.92,
+        "avgDamage": 17054
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 11.0,
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 8.5,
         "avgAssists": 8.0,
-        "kda": 0.91,
-        "avgDamage": 8973
+        "kda": 1.06,
+        "avgDamage": 7360
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 8.0,
-        "kda": 3.5,
-        "avgDamage": 29373
+        "items": [
+          {
+            "name": "Luden's Echo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 3.0,
+        "avgAssists": 8.5,
+        "kda": 5.17,
+        "avgDamage": 27116
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 3.0,
+        "avgKills": 2.0,
         "avgDeaths": 4.0,
-        "avgAssists": 19.0,
-        "kda": 5.5,
-        "avgDamage": 12985
+        "avgAssists": 17.5,
+        "kda": 4.88,
+        "avgDamage": 8710
       }
     }
   }

@@ -1,44 +1,44 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:39.827581",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-21T14:06:53.728698",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -128,
-      "avg_xp_diff": -24,
-      "avg_cs_diff": -5.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -53,
+      "avg_xp_diff": -113,
+      "avg_cs_diff": -6.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -196,
-      "avg_xp_diff": 27,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -191,
+      "avg_xp_diff": -191,
+      "avg_cs_diff": -15.9,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -592,
-      "avg_xp_diff": -481,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -327,
+      "avg_xp_diff": -278,
+      "avg_cs_diff": -14.3,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -251,
-      "avg_xp_diff": -606,
-      "avg_cs_diff": -29.0,
-      "sample_frames": 12,
-      "advantage": -1
+      "avg_gold_diff": -100,
+      "avg_xp_diff": 108,
+      "avg_cs_diff": -24.3,
+      "sample_frames": 22,
+      "advantage": 0
     },
     {
       "phase": "25min+",
@@ -54,45 +54,72 @@
   "champB": "Lulu",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 5.5,
-      "avgAssists": 4.0,
-      "kda": 1.18,
-      "avgDamage": 13748
+      "avgKills": 3.3,
+      "avgDeaths": 4.7,
+      "avgAssists": 5.3,
+      "kda": 1.86,
+      "avgDamage": 13389
     },
     "champB": {
       "items": [
         {
           "name": "Luden's Echo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
       "avgKills": 3.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 3.5,
-      "kda": 1.44,
-      "avgDamage": 15778
+      "avgDeaths": 5.0,
+      "avgAssists": 5.0,
+      "kda": 1.6,
+      "avgDamage": 15974
     }
   }
 }

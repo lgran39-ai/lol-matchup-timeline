@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:49.657105",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-21T14:07:02.107841",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -34,
-      "avg_xp_diff": -8,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -32,
+      "avg_xp_diff": 7,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -59,
-      "avg_xp_diff": 199,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 40,
+      "avg_xp_diff": 211,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -527,
-      "avg_xp_diff": 425,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 17,
+      "avg_xp_diff": 826,
+      "avg_cs_diff": 9.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1122,
-      "avg_xp_diff": -992,
-      "avg_cs_diff": -11.2,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": 199,
+      "avg_xp_diff": 175,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1137,
-      "avg_xp_diff": -649,
-      "avg_cs_diff": -22.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 2011,
+      "avg_xp_diff": 1965,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 11,
+      "advantage": 2
     }
   ],
   "champA": "Kennen",
@@ -57,56 +57,75 @@
       "items": [
         {
           "name": "Shadowflame",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.5,
-      "avgDeaths": 5.5,
-      "avgAssists": 10.0,
-      "kda": 2.27,
-      "avgDamage": 20706
+      "avgKills": 4.7,
+      "avgDeaths": 5.0,
+      "avgAssists": 9.7,
+      "kda": 2.87,
+      "avgDamage": 24129
     },
     "champB": {
       "items": [
         {
+          "name": "Navori Flickerblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
           "name": "Stridebreaker",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 10.0,
-      "kda": 4.83,
-      "avgDamage": 14064
+      "avgKills": 3.7,
+      "avgDeaths": 3.7,
+      "avgAssists": 8.0,
+      "kda": 3.18,
+      "avgDamage": 12986
     }
   }
 }

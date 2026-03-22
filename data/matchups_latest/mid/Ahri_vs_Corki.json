@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:48.778493",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-21T14:07:01.190842",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -3,
-      "avg_xp_diff": -304,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -42,
+      "avg_xp_diff": -109,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -188,
-      "avg_xp_diff": -303,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -18,
+      "avg_xp_diff": 46,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 66,
-      "avg_xp_diff": 463,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 271,
+      "avg_xp_diff": 660,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1815,
-      "avg_xp_diff": 1432,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 948,
+      "avg_xp_diff": 1250,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 40,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2006,
-      "avg_xp_diff": 1033,
-      "avg_cs_diff": -2.5,
-      "sample_frames": 6,
+      "avg_gold_diff": 617,
+      "avg_xp_diff": 1079,
+      "avg_cs_diff": 5.0,
+      "sample_frames": 28,
       "advantage": 2
     }
   ],
@@ -54,24 +54,108 @@
   "champB": "Corki",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 13.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 3.0,
-      "avgDamage": 36116
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Banshee's Veil",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.8,
+      "avgAssists": 9.8,
+      "kda": 3.53,
+      "avgDamage": 31266
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 3.8,
       "avgDeaths": 7.0,
-      "avgAssists": 6.0,
-      "kda": 1.86,
-      "avgDamage": 28632
+      "avgAssists": 7.5,
+      "kda": 1.61,
+      "avgDamage": 25036
     }
   }
 }

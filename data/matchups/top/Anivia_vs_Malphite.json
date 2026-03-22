@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:38.582653",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:52.805097",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 205,
-      "avg_xp_diff": 118,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 188,
+      "avg_xp_diff": 123,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 546,
-      "avg_xp_diff": 450,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 678,
+      "avg_xp_diff": 470,
+      "avg_cs_diff": 10.4,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1099,
-      "avg_xp_diff": 1947,
-      "avg_cs_diff": 15.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 1144,
+      "avg_xp_diff": 1672,
+      "avg_cs_diff": 18.3,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1767,
-      "avg_xp_diff": 2905,
-      "avg_cs_diff": 21.5,
-      "sample_frames": 11,
+      "avg_gold_diff": 1641,
+      "avg_xp_diff": 2441,
+      "avg_cs_diff": 23.0,
+      "sample_frames": 14,
       "advantage": 2
     }
   ],
@@ -45,24 +45,59 @@
   "champB": "Malphite",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 6.0,
-      "kda": 6.0,
-      "avgDamage": 26118
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 3.0,
+      "kda": 5.0,
+      "avgDamage": 16962
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 4.0,
-      "kda": 1.11,
-      "avgDamage": 16734
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 2.5,
+      "kda": 1.2,
+      "avgDamage": 11367
     }
   }
 }

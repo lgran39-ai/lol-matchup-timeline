@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:49.358012",
+  "sample_size": 7,
+  "overall_winrate_a": 57.1,
+  "updated_at": "2026-03-21T14:07:01.761235",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -186,
-      "avg_xp_diff": -159,
-      "avg_cs_diff": -2.1,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -129,
+      "avg_xp_diff": -147,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 35,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1034,
-      "avg_xp_diff": -805,
-      "avg_cs_diff": -8.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -600,
+      "avg_xp_diff": -426,
+      "avg_cs_diff": -9.5,
+      "sample_frames": 35,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2164,
-      "avg_xp_diff": -2713,
-      "avg_cs_diff": -31.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -1155,
+      "avg_xp_diff": -1090,
+      "avg_cs_diff": -20.2,
+      "sample_frames": 35,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2723,
-      "avg_xp_diff": -1643,
-      "avg_cs_diff": -27.0,
-      "sample_frames": 12,
+      "avg_gold_diff": -1462,
+      "avg_xp_diff": -394,
+      "avg_cs_diff": -18.7,
+      "sample_frames": 62,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6300,
-      "avg_xp_diff": -1668,
-      "avg_cs_diff": -32.8,
-      "sample_frames": 11,
+      "avg_gold_diff": -3827,
+      "avg_xp_diff": -1444,
+      "avg_cs_diff": -42.7,
+      "sample_frames": 55,
       "advantage": -2
     }
   ],
@@ -54,52 +54,132 @@
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 75.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Fleet Footwork",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Barrier",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 28.6,
           "winRate": 50.0
         }
       ],
-      "avgKills": 1.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 4.0,
-      "kda": 0.77,
-      "avgDamage": 10088
+      "avgKills": 4.1,
+      "avgDeaths": 6.7,
+      "avgAssists": 6.4,
+      "kda": 1.57,
+      "avgDamage": 19951
     },
     "champB": {
       "items": [
         {
           "name": "Experimental Hexplate",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 0.0
+        },
+        {
+          "name": "Stormrazor",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 28.6,
+          "winRate": 0.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Fiendhunter Bolts",
+          "count": 2,
+          "pickRate": 28.6,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "name": "Fleet Footwork",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 28.6,
+          "winRate": 0.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 11.5,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.5,
-      "kda": 6.5,
-      "avgDamage": 29484
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 10.7,
+      "avgDeaths": 6.6,
+      "avgAssists": 5.3,
+      "kda": 2.43,
+      "avgDamage": 35064
     }
   }
 }

@@ -1,42 +1,51 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.680054",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:02.130622",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 118,
-      "avg_xp_diff": -160,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 60,
+      "avg_xp_diff": -103,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -124,
-      "avg_xp_diff": -756,
-      "avg_cs_diff": -21.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -77,
+      "avg_xp_diff": -479,
+      "avg_cs_diff": -15.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1696,
-      "avg_xp_diff": -1741,
-      "avg_cs_diff": -30.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1145,
+      "avg_xp_diff": -1235,
+      "avg_cs_diff": -20.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2623,
-      "avg_xp_diff": -4373,
-      "avg_cs_diff": -78.3,
+      "avg_gold_diff": -1718,
+      "avg_xp_diff": -3213,
+      "avg_cs_diff": -52.5,
+      "sample_frames": 19,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1468,
+      "avg_xp_diff": -2884,
+      "avg_cs_diff": -37.2,
       "sample_frames": 9,
       "advantage": -2
     }
@@ -45,24 +54,64 @@
   "champB": "Zyra",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 1.2,
-      "avgDamage": 8494
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 7.0,
+      "kda": 1.93,
+      "avgDamage": 15859
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 11.0,
-      "kda": 17.0,
-      "avgDamage": 21301
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 9.0,
+      "kda": 12.33,
+      "avgDamage": 32063
     }
   }
 }

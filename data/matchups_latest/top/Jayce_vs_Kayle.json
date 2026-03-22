@@ -1,44 +1,44 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:49.540746",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-21T14:07:01.969856",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -4,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": 0.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 15,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -115,
-      "avg_xp_diff": -149,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -38,
+      "avg_xp_diff": -142,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -224,
-      "avg_xp_diff": -549,
-      "avg_cs_diff": -6.7,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -140,
+      "avg_xp_diff": -452,
+      "avg_cs_diff": -7.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -664,
-      "avg_xp_diff": -1593,
-      "avg_cs_diff": -27.9,
-      "sample_frames": 20,
-      "advantage": -2
+      "avg_gold_diff": -227,
+      "avg_xp_diff": -872,
+      "avg_cs_diff": -26.2,
+      "sample_frames": 31,
+      "advantage": -1
     },
     {
       "phase": "25min+",
@@ -57,35 +57,75 @@
       "items": [
         {
           "name": "Youmuu's Ghostblade",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 4.5,
-      "kda": 1.57,
-      "avgDamage": 22250
+      "avgKills": 7.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.3,
+      "kda": 2.06,
+      "avgDamage": 21433
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 5.0,
-      "kda": 5.2,
-      "avgDamage": 16928
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 3.7,
+      "avgAssists": 3.7,
+      "kda": 2.64,
+      "avgDamage": 14977
     }
   }
 }

@@ -1,77 +1,112 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.623707",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:02.073930",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 184,
-      "avg_xp_diff": 13,
-      "avg_cs_diff": -6.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 80,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": -4.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 705,
-      "avg_xp_diff": 29,
-      "avg_cs_diff": -24.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 278,
+      "avg_xp_diff": -82,
+      "avg_cs_diff": -21.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 866,
-      "avg_xp_diff": -354,
-      "avg_cs_diff": -34.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 300,
+      "avg_xp_diff": -453,
+      "avg_cs_diff": -36.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 456,
-      "avg_xp_diff": -958,
-      "avg_cs_diff": -66.4,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -550,
+      "avg_xp_diff": -2022,
+      "avg_cs_diff": -67.2,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1834,
-      "avg_xp_diff": -2185,
-      "avg_cs_diff": -92.0,
-      "sample_frames": 3,
-      "advantage": 2
+      "avg_gold_diff": -1884,
+      "avg_xp_diff": -6055,
+      "avg_cs_diff": -106.1,
+      "sample_frames": 8,
+      "advantage": -2
     }
   ],
   "champA": "Katarina",
   "champB": "Orianna",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 16.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 10.0,
-      "kda": 6.5,
-      "avgDamage": 28684
+      "items": [
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.0,
+      "kda": 2.67,
+      "avgDamage": 23373
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 11.0,
-      "kda": 2.8,
-      "avgDamage": 16521
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 13.5,
+      "kda": 6.17,
+      "avgDamage": 20392
     }
   }
 }

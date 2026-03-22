@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 7,
-  "overall_winrate_a": 57.1,
-  "updated_at": "2026-03-20T14:47:41.622713",
+  "sample_size": 8,
+  "overall_winrate_a": 62.5,
+  "updated_at": "2026-03-21T14:06:55.182736",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 4,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 35,
+      "avg_gold_diff": 32,
+      "avg_xp_diff": -7,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -28,
-      "avg_xp_diff": -3,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 35,
+      "avg_gold_diff": 109,
+      "avg_xp_diff": 41,
+      "avg_cs_diff": 8.0,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -189,
-      "avg_xp_diff": 77,
-      "avg_cs_diff": 10.1,
-      "sample_frames": 35,
-      "advantage": -1
+      "avg_gold_diff": 149,
+      "avg_xp_diff": 226,
+      "avg_cs_diff": 12.9,
+      "sample_frames": 40,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 122,
-      "avg_xp_diff": 40,
-      "avg_cs_diff": -0.0,
-      "sample_frames": 33,
-      "advantage": 0
+      "avg_gold_diff": 1328,
+      "avg_xp_diff": 808,
+      "avg_cs_diff": 11.1,
+      "sample_frames": 43,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 7310,
+      "avg_xp_diff": 3597,
+      "avg_cs_diff": 52.0,
+      "sample_frames": 9,
+      "advantage": 2
     }
   ],
   "champA": "Syndra",
@@ -48,46 +57,46 @@
       "items": [
         {
           "name": "Luden's Echo",
-          "count": 5,
-          "pickRate": 71.4,
-          "winRate": 60.0
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 66.7
         },
         {
           "name": "Crimson Lucidity",
-          "count": 4,
-          "pickRate": 57.1,
-          "winRate": 75.0
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 80.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 100.0
         },
         {
           "name": "Blackfire Torch",
           "count": 2,
-          "pickRate": 28.6,
+          "pickRate": 25.0,
           "winRate": 50.0
         },
         {
           "name": "Spellslinger's Shoes",
           "count": 2,
-          "pickRate": 28.6,
+          "pickRate": 25.0,
           "winRate": 50.0
-        },
-        {
-          "name": "Stormsurge",
-          "count": 2,
-          "pickRate": 28.6,
-          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "First Strike",
-          "count": 2,
-          "pickRate": 28.6,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
         },
         {
           "name": "Arcane Comet",
           "count": 2,
-          "pickRate": 28.6,
+          "pickRate": 25.0,
           "winRate": 100.0
         }
       ],
@@ -95,82 +104,88 @@
         {
           "spells": "Flash+Ghost",
           "count": 4,
-          "pickRate": 57.1,
+          "pickRate": 50.0,
           "winRate": 25.0
         },
         {
           "spells": "Flash+Barrier",
           "count": 2,
-          "pickRate": 28.6,
+          "pickRate": 25.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 3.4,
-      "avgDeaths": 3.3,
-      "avgAssists": 2.7,
-      "kda": 1.87,
-      "avgDamage": 10770
+      "avgKills": 5.5,
+      "avgDeaths": 3.6,
+      "avgAssists": 3.9,
+      "kda": 2.59,
+      "avgDamage": 14680
     },
     "champB": {
       "items": [
         {
-          "name": "Voltaic Cyclosword",
-          "count": 4,
-          "pickRate": 57.1,
-          "winRate": 75.0
+          "name": "Crimson Lucidity",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 20.0
         },
         {
-          "name": "Crimson Lucidity",
+          "name": "Voltaic Cyclosword",
           "count": 4,
-          "pickRate": 57.1,
-          "winRate": 25.0
+          "pickRate": 50.0,
+          "winRate": 75.0
         },
         {
           "name": "Chainlaced Crushers",
           "count": 3,
-          "pickRate": 42.9,
+          "pickRate": 37.5,
           "winRate": 66.7
         },
         {
           "name": "Bastionbreaker",
           "count": 2,
-          "pickRate": 28.6,
+          "pickRate": 25.0,
           "winRate": 0.0
         },
         {
           "name": "Eclipse",
           "count": 2,
-          "pickRate": 28.6,
+          "pickRate": 25.0,
           "winRate": 50.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 6,
-          "pickRate": 85.7,
-          "winRate": 50.0
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 42.9
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 5,
-          "pickRate": 71.4,
-          "winRate": 60.0
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 50.0
         },
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 28.6,
+          "pickRate": 25.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 4.4,
-      "avgDeaths": 3.7,
-      "avgAssists": 2.1,
-      "kda": 1.77,
-      "avgDamage": 11086
+      "avgKills": 4.6,
+      "avgDeaths": 5.1,
+      "avgAssists": 2.8,
+      "kda": 1.44,
+      "avgDamage": 13201
     }
   }
 }

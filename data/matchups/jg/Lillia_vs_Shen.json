@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:40.685745",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:54.433193",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -38,
-      "avg_xp_diff": -15,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 22,
+      "avg_xp_diff": 59,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 548,
-      "avg_xp_diff": 448,
-      "avg_cs_diff": 7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 595,
+      "avg_xp_diff": 495,
+      "avg_cs_diff": 12.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1153,
-      "avg_xp_diff": 1050,
-      "avg_cs_diff": 11.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1084,
+      "avg_xp_diff": 1100,
+      "avg_cs_diff": 19.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3158,
-      "avg_xp_diff": 4013,
-      "avg_cs_diff": 43.9,
-      "sample_frames": 9,
+      "avg_gold_diff": 2193,
+      "avg_xp_diff": 2073,
+      "avg_cs_diff": 42.4,
+      "sample_frames": 19,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 979,
+      "avg_xp_diff": -573,
+      "avg_cs_diff": 60.0,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -45,24 +54,65 @@
   "champB": "Shen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 11.0,
-      "kda": 17.0,
-      "avgDamage": 17138
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 8.5,
+      "kda": 3.88,
+      "avgDamage": 20298
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Protoplasm Harness",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 1.33,
-      "avgDamage": 4835
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 10.5,
+      "kda": 3.5,
+      "avgDamage": 13882
     }
   }
 }

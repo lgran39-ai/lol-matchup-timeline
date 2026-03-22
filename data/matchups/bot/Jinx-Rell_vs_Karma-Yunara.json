@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:46.716740",
+  "updated_at": "2026-03-21T14:06:59.053252",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -57,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 2,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 136,
-      "avg_xp_diff": -18,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -289,
+      "avg_xp_diff": -356,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 10,
-      "avg_xp_diff": -249,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -1152,
+      "avg_xp_diff": -967,
+      "avg_cs_diff": -9.1,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 97,
-      "avg_xp_diff": -754,
-      "avg_cs_diff": 11.6,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -2458,
+      "avg_xp_diff": -1646,
+      "avg_cs_diff": -10.1,
+      "sample_frames": 16,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,128 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 4.5,
         "avgAssists": 3.0,
-        "kda": 2.0,
-        "avgDamage": 10600
+        "kda": 1.0,
+        "avgDamage": 11772
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 5.0,
-        "kda": 1.0,
-        "avgDamage": 5030
+        "keystones": [
+          {
+            "name": "Unsealed Spellbook",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 4.5,
+        "kda": 0.92,
+        "avgDamage": 5214
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.5,
         "avgDeaths": 4.0,
-        "avgAssists": 1.0,
-        "kda": 0.75,
-        "avgDamage": 8826
+        "avgAssists": 1.5,
+        "kda": 2.25,
+        "avgDamage": 15375
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "avgKills": 1.0,
         "avgDeaths": 1.0,
-        "avgAssists": 16.0,
-        "kda": 17.0,
-        "avgDamage": 8288
+        "avgAssists": 16.5,
+        "kda": 17.5,
+        "avgDamage": 7966
       }
     }
   }

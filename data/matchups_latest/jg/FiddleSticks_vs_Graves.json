@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.253537",
+  "updated_at": "2026-03-21T14:07:01.646120",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 38,
-      "avg_xp_diff": 101,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 32,
+      "avg_xp_diff": 90,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 184,
-      "avg_xp_diff": 270,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -253,
+      "avg_xp_diff": 115,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -350,
-      "avg_xp_diff": -695,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -604,
+      "avg_xp_diff": -574,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -803,
-      "avg_xp_diff": -1290,
-      "avg_cs_diff": -17.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -994,
+      "avg_xp_diff": -818,
+      "avg_cs_diff": -12.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1131,
-      "avg_xp_diff": 842,
-      "avg_cs_diff": -26.6,
-      "sample_frames": 22,
+      "avg_gold_diff": -1178,
+      "avg_xp_diff": 718,
+      "avg_cs_diff": -26.5,
+      "sample_frames": 26,
       "advantage": -2
     }
   ],
@@ -54,24 +54,72 @@
   "champB": "Graves",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 22.0,
-      "kda": 10.0,
-      "avgDamage": 42023
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 14.5,
+      "kda": 6.57,
+      "avgDamage": 33582
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 7.0,
-      "kda": 1.8,
-      "avgDamage": 43741
+      "items": [
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 7.5,
+      "kda": 2.06,
+      "avgDamage": 35102
     }
   }
 }

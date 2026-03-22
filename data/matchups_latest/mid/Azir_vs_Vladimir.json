@@ -1,68 +1,112 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.086530",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:01.474607",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -29,
-      "avg_xp_diff": -50,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -18,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 167,
-      "avg_xp_diff": 3,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 95,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 653,
-      "avg_xp_diff": 476,
-      "avg_cs_diff": 17.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 289,
+      "avg_xp_diff": 65,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1562,
-      "avg_xp_diff": 1411,
-      "avg_cs_diff": 32.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": 356,
+      "avg_xp_diff": 876,
+      "avg_cs_diff": 11.6,
+      "sample_frames": 12,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 160,
+      "avg_xp_diff": 288,
+      "avg_cs_diff": 11.0,
+      "sample_frames": 10,
+      "advantage": 1
     }
   ],
   "champA": "Azir",
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 4.0,
-      "kda": 6.0,
-      "avgDamage": 15687
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 9.0,
+      "kda": 4.17,
+      "avgDamage": 26250
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
       "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 0.5,
-      "avgDamage": 7886
+      "avgAssists": 5.0,
+      "kda": 2.25,
+      "avgDamage": 22936
     }
   }
 }

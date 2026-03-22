@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:48.809000",
+  "updated_at": "2026-03-21T14:07:01.219885",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -139,
-      "avg_xp_diff": -109,
-      "avg_cs_diff": -4.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -88,
+      "avg_xp_diff": -70,
+      "avg_cs_diff": -4.8,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -578,
-      "avg_xp_diff": -401,
-      "avg_cs_diff": -15.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -353,
+      "avg_xp_diff": -191,
+      "avg_cs_diff": -14.1,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -630,
-      "avg_xp_diff": -686,
-      "avg_cs_diff": -21.3,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -398,
+      "avg_xp_diff": -449,
+      "avg_cs_diff": -20.8,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1170,
-      "avg_xp_diff": -2391,
-      "avg_cs_diff": -37.6,
-      "sample_frames": 12,
-      "advantage": -2
+      "avg_gold_diff": 175,
+      "avg_xp_diff": -377,
+      "avg_cs_diff": -25.7,
+      "sample_frames": 32,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 620,
-      "avg_xp_diff": -1467,
-      "avg_cs_diff": -36.9,
-      "sample_frames": 14,
+      "avg_gold_diff": 1430,
+      "avg_xp_diff": 311,
+      "avg_cs_diff": -23.6,
+      "sample_frames": 25,
       "advantage": 2
     }
   ],
@@ -54,38 +54,84 @@
   "champB": "Aurora",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 7.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.5,
-      "kda": 2.5,
-      "avgDamage": 20834
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 8.8,
+      "avgDeaths": 3.8,
+      "avgAssists": 2.8,
+      "kda": 3.07,
+      "avgDamage": 25089
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 3.5,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 5.2,
       "avgAssists": 3.5,
-      "kda": 1.86,
-      "avgDamage": 19458
+      "kda": 1.43,
+      "avgDamage": 21471
     }
   }
 }

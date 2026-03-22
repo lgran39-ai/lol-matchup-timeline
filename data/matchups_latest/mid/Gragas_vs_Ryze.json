@@ -1,68 +1,103 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.371582",
+  "updated_at": "2026-03-21T14:07:01.774467",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -115,
-      "avg_xp_diff": 37,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -86,
+      "avg_xp_diff": -1,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1147,
-      "avg_xp_diff": -401,
-      "avg_cs_diff": -21.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -653,
+      "avg_xp_diff": -222,
+      "avg_cs_diff": -17.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1042,
-      "avg_xp_diff": -261,
-      "avg_cs_diff": -28.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -351,
+      "avg_xp_diff": 121,
+      "avg_cs_diff": -16.0,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -483,
-      "avg_xp_diff": 400,
-      "avg_cs_diff": -32.7,
-      "sample_frames": 3,
-      "advantage": -2
+      "avg_gold_diff": 677,
+      "avg_xp_diff": 787,
+      "avg_cs_diff": -21.1,
+      "sample_frames": 12,
+      "advantage": 2
     }
   ],
   "champA": "Gragas",
   "champB": "Ryze",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 2.0,
-      "avgDamage": 8886
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 1.0,
+      "avgAssists": 4.5,
+      "kda": 7.0,
+      "avgDamage": 14040
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.0,
-      "kda": 1.5,
-      "avgDamage": 8570
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 1.5,
+      "kda": 0.86,
+      "avgDamage": 10008
     }
   }
 }

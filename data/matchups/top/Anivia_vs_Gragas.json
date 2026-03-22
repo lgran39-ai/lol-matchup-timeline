@@ -1,44 +1,44 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:38.568977",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-21T14:06:52.792209",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 192,
-      "avg_xp_diff": 183,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 159,
+      "avg_xp_diff": 130,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 240,
-      "avg_xp_diff": 180,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 231,
+      "avg_xp_diff": 153,
+      "avg_cs_diff": 5.9,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 240,
-      "avg_xp_diff": 398,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 319,
+      "avg_xp_diff": 686,
+      "avg_cs_diff": 7.3,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -354,
-      "avg_xp_diff": -519,
-      "avg_cs_diff": -10.9,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": -100,
+      "avg_xp_diff": -99,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "25min+",
@@ -57,35 +57,56 @@
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 5.5,
-      "kda": 1.89,
-      "avgDamage": 17566
-    },
-    "champB": {
-      "items": [],
       "keystones": [],
       "summonerSpells": [
         {
-          "spells": "Flash+Teleport",
+          "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.0,
+      "kda": 1.92,
+      "avgDamage": 15826
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 3.5,
-      "kda": 1.33,
-      "avgDamage": 10812
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 4.3,
+      "avgAssists": 3.3,
+      "kda": 1.38,
+      "avgDamage": 10579
     }
   }
 }

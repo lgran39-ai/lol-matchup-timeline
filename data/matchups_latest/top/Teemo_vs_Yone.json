@@ -1,77 +1,124 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:50.125914",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-21T14:07:02.564974",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 185,
-      "avg_xp_diff": 110,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 82,
+      "avg_xp_diff": 77,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -52,
-      "avg_xp_diff": -233,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -250,
+      "avg_xp_diff": -366,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1380,
-      "avg_xp_diff": -1821,
-      "avg_cs_diff": -15.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -583,
+      "avg_xp_diff": -558,
+      "avg_cs_diff": -8.1,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1585,
-      "avg_xp_diff": -1975,
-      "avg_cs_diff": -29.1,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 16,
+      "avg_xp_diff": 192,
+      "avg_cs_diff": -9.4,
+      "sample_frames": 26,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4018,
-      "avg_xp_diff": -4590,
-      "avg_cs_diff": -57.3,
-      "sample_frames": 3,
-      "advantage": -2
+      "avg_gold_diff": -379,
+      "avg_xp_diff": 329,
+      "avg_cs_diff": -17.3,
+      "sample_frames": 9,
+      "advantage": -1
     }
   ],
   "champA": "Teemo",
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 3.0,
-      "kda": 0.67,
-      "avgDamage": 25314
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 6.3,
+      "avgAssists": 6.0,
+      "kda": 1.68,
+      "avgDamage": 22856
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 11.0,
+      "avgKills": 6.3,
       "avgDeaths": 7.0,
-      "avgAssists": 2.0,
-      "kda": 1.86,
-      "avgDamage": 25532
+      "avgAssists": 4.3,
+      "kda": 1.52,
+      "avgDamage": 20366
     }
   }
 }

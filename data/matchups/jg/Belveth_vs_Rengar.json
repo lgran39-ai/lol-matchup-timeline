@@ -1,43 +1,43 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:38.878787",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-21T14:06:53.043820",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 47,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 28,
+      "avg_xp_diff": 24,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 94,
-      "avg_xp_diff": -141,
-      "avg_cs_diff": -3.9,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -253,
+      "avg_xp_diff": -183,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -20,
-      "avg_xp_diff": -31,
-      "avg_cs_diff": -2.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -497,
+      "avg_xp_diff": -358,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1557,
-      "avg_xp_diff": -1523,
-      "avg_cs_diff": -13.1,
-      "sample_frames": 13,
+      "avg_gold_diff": -1605,
+      "avg_xp_diff": -1482,
+      "avg_cs_diff": -12.6,
+      "sample_frames": 18,
       "advantage": -2
     },
     {
@@ -54,52 +54,72 @@
   "champB": "Rengar",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 11.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 5.5,
-      "kda": 4.71,
-      "avgDamage": 16762
+      "avgKills": 8.3,
+      "avgDeaths": 3.3,
+      "avgAssists": 4.0,
+      "kda": 3.7,
+      "avgDamage": 12819
     },
     "champB": {
       "items": [
         {
           "name": "Profane Hydra",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 8.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 4.5,
-      "kda": 2.27,
-      "avgDamage": 19337
+      "avgKills": 8.3,
+      "avgDeaths": 3.7,
+      "avgAssists": 3.7,
+      "kda": 3.27,
+      "avgDamage": 15207
     }
   }
 }

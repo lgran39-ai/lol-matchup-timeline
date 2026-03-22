@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-20T14:47:41.548188",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-21T14:06:55.116908",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 64,
-      "avg_xp_diff": 82,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 15,
+      "avg_gold_diff": 56,
+      "avg_xp_diff": 35,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 729,
-      "avg_xp_diff": 909,
-      "avg_cs_diff": 10.9,
-      "sample_frames": 15,
+      "avg_gold_diff": 425,
+      "avg_xp_diff": 532,
+      "avg_cs_diff": 8.6,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1327,
-      "avg_xp_diff": 1793,
-      "avg_cs_diff": 22.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 786,
+      "avg_xp_diff": 1043,
+      "avg_cs_diff": 16.2,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2505,
-      "avg_xp_diff": 2700,
-      "avg_cs_diff": 32.7,
-      "sample_frames": 19,
+      "avg_gold_diff": 1177,
+      "avg_xp_diff": 1402,
+      "avg_cs_diff": 21.0,
+      "sample_frames": 38,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1448,
+      "avg_xp_diff": -814,
+      "avg_cs_diff": -12.7,
+      "sample_frames": 7,
+      "advantage": -2
     }
   ],
   "champA": "Sion",
@@ -48,69 +57,99 @@
       "items": [
         {
           "name": "Armored Advance",
-          "count": 3,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 40.0
+        },
+        {
+          "name": "Sunfire Aegis",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         },
         {
           "name": "Thornmail",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 40.0,
           "winRate": 100.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 3,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 40.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.8,
+      "avgDeaths": 3.8,
+      "avgAssists": 4.4,
+      "kda": 2.42,
+      "avgDamage": 18883
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 60.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 60.0,
           "winRate": 66.7
-        }
-      ],
-      "avgKills": 5.7,
-      "avgDeaths": 3.3,
-      "avgAssists": 5.3,
-      "kda": 3.3,
-      "avgDamage": 18193
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Blade of The Ruined King",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Lethal Tempo",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
-        }
-      ],
-      "summonerSpells": [
+        },
         {
           "spells": "Exhaust+Flash",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 1.7,
-      "avgDeaths": 7.7,
-      "avgAssists": 2.7,
-      "kda": 0.57,
-      "avgDamage": 11394
+      "avgKills": 2.8,
+      "avgDeaths": 6.0,
+      "avgAssists": 2.6,
+      "kda": 0.9,
+      "avgDamage": 14120
     }
   }
 }

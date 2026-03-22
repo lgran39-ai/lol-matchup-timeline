@@ -1,118 +1,179 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.989115",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-21T14:07:02.422851",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -109,
-      "avg_xp_diff": -91,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 15,
+      "avg_gold_diff": -28,
+      "avg_xp_diff": -37,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -72,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 190,
+      "avg_xp_diff": 231,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 35,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 223,
-      "avg_xp_diff": 207,
-      "avg_cs_diff": 10.5,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 707,
+      "avg_xp_diff": 833,
+      "avg_cs_diff": 9.4,
+      "sample_frames": 35,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1056,
-      "avg_xp_diff": 1340,
-      "avg_cs_diff": 15.1,
-      "sample_frames": 22,
+      "avg_gold_diff": 1333,
+      "avg_xp_diff": 1264,
+      "avg_cs_diff": 5.8,
+      "sample_frames": 63,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1726,
-      "avg_xp_diff": -1451,
-      "avg_cs_diff": -18.5,
-      "sample_frames": 16,
-      "advantage": -2
+      "avg_gold_diff": -91,
+      "avg_xp_diff": 153,
+      "avg_cs_diff": -13.9,
+      "sample_frames": 55,
+      "advantage": 0
     }
   ],
   "champA": "Renekton",
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 40.0
+        },
+        {
+          "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
+          "pickRate": 28.6,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 6.3,
-      "avgAssists": 4.3,
-      "kda": 1.32,
-      "avgDamage": 17211
+      "avgKills": 5.6,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.3,
+      "kda": 1.98,
+      "avgDamage": 20453
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 3,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 57.1
         },
         {
           "name": "Immortal Shieldbow",
+          "count": 6,
+          "pickRate": 85.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Guardian Angel",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 28.6,
           "winRate": 100.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 3,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 57.1
         }
       ],
       "summonerSpells": [
         {
           "spells": "Exhaust+Flash",
-          "count": 3,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 57.1
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 5.0,
-      "kda": 2.4,
-      "avgDamage": 24311
+      "avgKills": 6.1,
+      "avgDeaths": 6.1,
+      "avgAssists": 6.1,
+      "kda": 2.0,
+      "avgDamage": 26556
     }
   }
 }

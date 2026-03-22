@@ -1,77 +1,111 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:48.953358",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:01.345056",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 62,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 46,
+      "avg_xp_diff": 37,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -346,
-      "avg_xp_diff": -459,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -56,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": 9.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 221,
-      "avg_xp_diff": -251,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 507,
+      "avg_xp_diff": 345,
+      "avg_cs_diff": 22.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -723,
-      "avg_xp_diff": -908,
-      "avg_cs_diff": 16.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 615,
+      "avg_xp_diff": 452,
+      "avg_cs_diff": 41.4,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2219,
-      "avg_xp_diff": -1026,
-      "avg_cs_diff": 35.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 1493,
+      "avg_xp_diff": 1449,
+      "avg_cs_diff": 64.3,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "champA": "Ambessa",
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 8.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.0,
       "avgAssists": 3.0,
-      "kda": 0.75,
-      "avgDamage": 19166
+      "kda": 1.17,
+      "avgDamage": 20617
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 4.67,
-      "avgDamage": 28657
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 3.5,
+      "kda": 2.33,
+      "avgDamage": 27601
     }
   }
 }

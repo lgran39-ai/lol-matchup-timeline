@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.298205",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:01.699411",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 93,
-      "avg_xp_diff": 1,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -84,
+      "avg_xp_diff": -46,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 458,
-      "avg_xp_diff": 258,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -230,
+      "avg_xp_diff": 123,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 506,
-      "avg_xp_diff": 763,
-      "avg_cs_diff": 5.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -502,
+      "avg_xp_diff": 93,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 278,
-      "avg_xp_diff": 1536,
-      "avg_cs_diff": 2.5,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -1523,
+      "avg_xp_diff": -442,
+      "avg_cs_diff": -8.7,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1260,
-      "avg_xp_diff": 3414,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -1742,
+      "avg_xp_diff": -583,
+      "avg_cs_diff": -10.0,
+      "sample_frames": 4,
+      "advantage": -2
     }
   ],
   "champA": "Galio",
@@ -56,22 +56,49 @@
     "champA": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 6.0,
-      "kda": 4.0,
-      "avgDamage": 20953
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 6.5,
+      "avgAssists": 5.0,
+      "kda": 1.77,
+      "avgDamage": 15744
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.0,
-      "kda": 1.29,
-      "avgDamage": 23260
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 11.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.0,
+      "kda": 2.8,
+      "avgDamage": 34367
     }
   }
 }

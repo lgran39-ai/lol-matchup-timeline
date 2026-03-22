@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:40.783040",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:54.510450",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -106,
-      "avg_xp_diff": -68,
+      "avg_gold_diff": -157,
+      "avg_xp_diff": -132,
       "avg_cs_diff": -6.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1033,
-      "avg_xp_diff": -826,
-      "avg_cs_diff": -35.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -967,
+      "avg_xp_diff": -667,
+      "avg_cs_diff": -27.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1896,
-      "avg_xp_diff": -2192,
-      "avg_cs_diff": -61.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1737,
+      "avg_xp_diff": -1707,
+      "avg_cs_diff": -46.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2308,
-      "avg_xp_diff": -3196,
-      "avg_cs_diff": -98.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -2216,
+      "avg_xp_diff": -2469,
+      "avg_cs_diff": -77.4,
+      "sample_frames": 15,
       "advantage": -2
     }
   ],
@@ -45,24 +45,66 @@
   "champB": "Ryze",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 4.0,
-      "kda": 7.0,
-      "avgDamage": 7232
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 2.0,
+      "kda": 1.6,
+      "avgDamage": 7089
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.0,
-      "kda": 1.0,
-      "avgDamage": 14751
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 1.5,
+      "avgAssists": 1.5,
+      "kda": 3.0,
+      "avgDamage": 14694
     }
   }
 }

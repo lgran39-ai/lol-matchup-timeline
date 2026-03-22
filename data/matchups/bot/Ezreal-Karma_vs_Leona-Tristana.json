@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:45.762282",
+  "updated_at": "2026-03-21T14:06:58.103995",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 312,
-      "avg_xp_diff": 36,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 166,
+      "avg_xp_diff": 114,
+      "avg_cs_diff": 7.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1878,
-      "avg_xp_diff": 780,
-      "avg_cs_diff": 33.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 402,
+      "avg_xp_diff": 340,
+      "avg_cs_diff": 26.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 3496,
-      "avg_xp_diff": 888,
-      "avg_cs_diff": 59.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1087,
+      "avg_xp_diff": 329,
+      "avg_cs_diff": 37.3,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 5389,
-      "avg_xp_diff": 1891,
-      "avg_cs_diff": 78.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 1417,
+      "avg_xp_diff": 828,
+      "avg_cs_diff": 40.6,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 8496,
-      "avg_xp_diff": 4378,
-      "avg_cs_diff": 91.0,
-      "sample_frames": 2,
+      "avg_gold_diff": 2832,
+      "avg_xp_diff": 4261,
+      "avg_cs_diff": 46.0,
+      "sample_frames": 5,
       "advantage": 2
     }
   ],
@@ -64,46 +64,107 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 7.0,
-        "kda": 14.0,
-        "avgDamage": 28275
+        "avgKills": 5.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 9.0,
+        "kda": 3.22,
+        "avgDamage": 22997
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 17.0,
-        "kda": 18.0,
-        "avgDamage": 9040
+        "avgDeaths": 3.5,
+        "avgAssists": 19.0,
+        "kda": 5.71,
+        "avgDamage": 8806
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 2.0,
-        "kda": 0.29,
-        "avgDamage": 5616
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 6.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 3.5,
+        "kda": 1.58,
+        "avgDamage": 16730
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 2.0,
-        "kda": 0.5,
-        "avgDamage": 3375
+        "avgKills": 0.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 7.5,
+        "kda": 1.14,
+        "avgDamage": 4148
       }
     }
   }

@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:50.133339",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:02.571065",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -263,
-      "avg_xp_diff": -144,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 38,
+      "avg_xp_diff": 74,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -901,
-      "avg_xp_diff": -430,
-      "avg_cs_diff": -23.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 47,
+      "avg_xp_diff": 295,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -223,
-      "avg_xp_diff": 651,
-      "avg_cs_diff": -16.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 284,
+      "avg_xp_diff": 556,
+      "avg_cs_diff": 4.6,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1482,
-      "avg_xp_diff": 2465,
-      "avg_cs_diff": -15.8,
-      "sample_frames": 9,
+      "avg_gold_diff": 830,
+      "avg_xp_diff": 1028,
+      "avg_cs_diff": -7.6,
+      "sample_frames": 14,
       "advantage": 2
     }
   ],
@@ -45,24 +45,59 @@
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
       "avgDeaths": 5.0,
-      "avgAssists": 5.0,
-      "kda": 2.6,
-      "avgDamage": 16893
+      "avgAssists": 3.0,
+      "kda": 1.5,
+      "avgDamage": 13398
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 4.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.0,
-      "kda": 0.86,
-      "avgDamage": 15120
+      "avgDeaths": 4.5,
+      "avgAssists": 1.5,
+      "kda": 1.22,
+      "avgDamage": 14710
     }
   }
 }

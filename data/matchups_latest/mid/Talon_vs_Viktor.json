@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:50.117595",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:02.556113",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -97,
-      "avg_xp_diff": -115,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -73,
+      "avg_xp_diff": -118,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -452,
-      "avg_xp_diff": -540,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -180,
+      "avg_xp_diff": -254,
+      "avg_cs_diff": -10.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -883,
-      "avg_xp_diff": -1125,
-      "avg_cs_diff": -26.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -357,
+      "avg_xp_diff": -660,
+      "avg_cs_diff": -19.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2227,
-      "avg_xp_diff": -2495,
-      "avg_cs_diff": -45.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -480,
+      "avg_xp_diff": -1019,
+      "avg_cs_diff": -32.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3544,
-      "avg_xp_diff": -4295,
-      "avg_cs_diff": -58.6,
-      "sample_frames": 12,
+      "avg_gold_diff": -1967,
+      "avg_xp_diff": -2058,
+      "avg_cs_diff": -33.4,
+      "sample_frames": 19,
       "advantage": -2
     }
   ],
@@ -54,24 +54,70 @@
   "champB": "Viktor",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 13.0,
-      "avgAssists": 7.0,
-      "kda": 0.77,
-      "avgDamage": 31045
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 7.5,
+      "avgAssists": 9.0,
+      "kda": 1.8,
+      "avgDamage": 27110
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 13.0,
+      "avgKills": 8.5,
       "avgDeaths": 6.0,
-      "avgAssists": 8.0,
-      "kda": 3.5,
-      "avgDamage": 42452
+      "avgAssists": 6.5,
+      "kda": 2.5,
+      "avgDamage": 33882
     }
   }
 }

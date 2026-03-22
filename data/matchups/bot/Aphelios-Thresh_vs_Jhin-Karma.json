@@ -1,42 +1,51 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:42.821738",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:56.188021",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 55,
-      "avg_xp_diff": 38,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 2,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 262,
-      "avg_xp_diff": 30,
-      "avg_cs_diff": 11.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 266,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 2.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 574,
-      "avg_xp_diff": 80,
-      "avg_cs_diff": 32.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 662,
+      "avg_xp_diff": -135,
+      "avg_cs_diff": 7.7,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1141,
-      "avg_xp_diff": -1779,
-      "avg_cs_diff": 37.0,
+      "avg_gold_diff": -802,
+      "avg_xp_diff": -1256,
+      "avg_cs_diff": -28.0,
+      "sample_frames": 15,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1965,
+      "avg_xp_diff": 85,
+      "avg_cs_diff": -95.2,
       "sample_frames": 5,
       "advantage": -2
     }
@@ -56,45 +65,87 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 1.0,
-        "kda": 0.75,
-        "avgDamage": 10520
+        "avgKills": 3.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 5.5,
+        "kda": 1.7,
+        "avgDamage": 13637
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 3.0,
-        "kda": 0.8,
-        "avgDamage": 2716
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 10.5,
+        "kda": 2.75,
+        "avgDamage": 3951
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 2.0,
-        "kda": 13.0,
-        "avgDamage": 13561
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 8.0,
+        "avgDeaths": 1.5,
+        "avgAssists": 3.5,
+        "kda": 7.67,
+        "avgDamage": 15342
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 9.0,
-        "kda": 3.0,
-        "avgDamage": 6869
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 9.5,
+        "kda": 2.1,
+        "avgDamage": 8535
       }
     }
   }

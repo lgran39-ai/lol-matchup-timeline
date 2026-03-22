@@ -1,68 +1,124 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.962890",
+  "updated_at": "2026-03-21T14:07:02.399811",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 39,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 50,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 21,
-      "avg_xp_diff": -43,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 331,
+      "avg_xp_diff": 84,
+      "avg_cs_diff": 6.9,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -125,
-      "avg_xp_diff": -153,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 959,
+      "avg_xp_diff": 566,
+      "avg_cs_diff": 10.4,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 233,
-      "avg_xp_diff": 1193,
-      "avg_cs_diff": 23.1,
-      "sample_frames": 11,
-      "advantage": 1
+      "avg_gold_diff": 1998,
+      "avg_xp_diff": 2041,
+      "avg_cs_diff": 21.2,
+      "sample_frames": 21,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5526,
+      "avg_xp_diff": 3828,
+      "avg_cs_diff": 17.0,
+      "sample_frames": 2,
+      "advantage": 2
     }
   ],
   "champA": "Quinn",
   "champB": "Rumble",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 1.0,
-      "kda": 5.0,
-      "avgDamage": 16361
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 10.5,
+      "avgDeaths": 1.0,
+      "avgAssists": 2.5,
+      "kda": 13.0,
+      "avgDamage": 24199
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
       "avgKills": 1.0,
-      "avgDeaths": 4.0,
+      "avgDeaths": 5.5,
       "avgAssists": 2.0,
-      "kda": 0.75,
-      "avgDamage": 10787
+      "kda": 0.55,
+      "avgDamage": 12496
     }
   }
 }

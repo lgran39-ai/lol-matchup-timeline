@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:46.751220",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:59.085689",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -264,
-      "avg_xp_diff": -82,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -139,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -212,
-      "avg_xp_diff": -44,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -240,
+      "avg_xp_diff": -104,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -378,
-      "avg_xp_diff": 268,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -420,
+      "avg_xp_diff": -25,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 173,
-      "avg_xp_diff": -225,
-      "avg_cs_diff": -4.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -1218,
+      "avg_xp_diff": -1124,
+      "avg_cs_diff": -16.6,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
@@ -65,45 +65,127 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 14.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 8.0,
-        "kda": 4.4,
-        "avgDamage": 30266
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 9.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 6.5,
+        "kda": 3.44,
+        "avgDamage": 20392
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 25.0,
-        "kda": 3.25,
-        "avgDamage": 8234
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 16.5,
+        "kda": 2.43,
+        "avgDamage": 6517
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 7.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 11.0,
-        "kda": 3.6,
-        "avgDamage": 40209
+        "avgDeaths": 4.5,
+        "avgAssists": 8.0,
+        "kda": 3.33,
+        "avgDamage": 30866
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 17.0,
-        "kda": 3.0,
-        "avgDamage": 16600
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 14.5,
+        "kda": 2.83,
+        "avgDamage": 13770
       }
     }
   }

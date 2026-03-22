@@ -1,77 +1,131 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.980215",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-21T14:07:02.413637",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 4,
-      "avg_xp_diff": -29,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -2,
+      "avg_xp_diff": -1,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 116,
-      "avg_xp_diff": -47,
-      "avg_cs_diff": 16.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -118,
+      "avg_xp_diff": -266,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1398,
-      "avg_xp_diff": 1710,
-      "avg_cs_diff": 40.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 187,
+      "avg_xp_diff": -134,
+      "avg_cs_diff": 10.0,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2760,
-      "avg_xp_diff": 3680,
-      "avg_cs_diff": 91.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 806,
+      "avg_xp_diff": 453,
+      "avg_cs_diff": 29.7,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2599,
-      "avg_xp_diff": 2598,
-      "avg_cs_diff": 120.0,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -1403,
+      "avg_xp_diff": -2456,
+      "avg_cs_diff": 4.1,
+      "sample_frames": 27,
+      "advantage": -2
     }
   ],
   "champA": "Renekton",
   "champB": "Rumble",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 1.5,
-      "avgDamage": 26960
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 6.7,
+      "avgAssists": 7.0,
+      "kda": 1.7,
+      "avgDamage": 22007
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.7,
       "avgDeaths": 6.0,
-      "avgAssists": 8.0,
-      "kda": 2.67,
-      "avgDamage": 32551
+      "avgAssists": 9.7,
+      "kda": 2.39,
+      "avgDamage": 35445
     }
   }
 }

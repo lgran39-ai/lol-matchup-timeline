@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:43.636652",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:56.833616",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 79,
-      "avg_xp_diff": 62,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 329,
+      "avg_xp_diff": 160,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 946,
-      "avg_xp_diff": 193,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1167,
+      "avg_xp_diff": 319,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1021,
-      "avg_xp_diff": 147,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1945,
+      "avg_xp_diff": 853,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 697,
-      "avg_xp_diff": 306,
-      "avg_cs_diff": 8.9,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 1389,
+      "avg_xp_diff": 757,
+      "avg_cs_diff": 9.2,
+      "sample_frames": 12,
+      "advantage": 2
     },
     {
       "phase": "25min+",
@@ -64,46 +64,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 4.0,
-        "kda": 1.0,
-        "avgDamage": 21019
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 3.5,
+        "avgAssists": 5.0,
+        "kda": 2.86,
+        "avgDamage": 17049
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 1.0,
-        "avgDeaths": 8.0,
+        "avgDeaths": 4.5,
         "avgAssists": 12.0,
-        "kda": 1.62,
-        "avgDamage": 9037
+        "kda": 2.89,
+        "avgDamage": 7388
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 6.0,
-        "kda": 3.0,
-        "avgDamage": 33237
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.0,
+        "avgDeaths": 5.5,
+        "avgAssists": 3.5,
+        "kda": 1.73,
+        "avgDamage": 19332
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 17.0,
-        "kda": 3.4,
-        "avgDamage": 11564
+        "avgKills": 0.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 9.0,
+        "kda": 1.58,
+        "avgDamage": 8600
       }
     }
   }

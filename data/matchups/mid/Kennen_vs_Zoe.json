@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:40.529180",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:54.305178",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -236,
-      "avg_xp_diff": -163,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -201,
+      "avg_xp_diff": -122,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1135,
-      "avg_xp_diff": -640,
-      "avg_cs_diff": -21.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -723,
+      "avg_xp_diff": -578,
+      "avg_cs_diff": -19.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2569,
-      "avg_xp_diff": -1741,
-      "avg_cs_diff": -42.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -1761,
+      "avg_xp_diff": -1582,
+      "avg_cs_diff": -34.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2505,
-      "avg_xp_diff": -1988,
-      "avg_cs_diff": -42.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -2279,
+      "avg_xp_diff": -1869,
+      "avg_cs_diff": -39.6,
+      "sample_frames": 12,
       "advantage": -2
     },
     {
@@ -55,23 +55,57 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 10.0,
-      "kda": 2.0,
-      "avgDamage": 24577
+      "avgKills": 3.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.5,
+      "kda": 1.42,
+      "avgDamage": 14478
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 12.0,
-      "kda": 2.1,
-      "avgDamage": 38364
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.5,
+      "kda": 2.6,
+      "avgDamage": 22822
     }
   }
 }

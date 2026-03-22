@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:43.582373",
+  "updated_at": "2026-03-21T14:06:56.786668",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 40,
-      "avg_xp_diff": 73,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -46,
+      "avg_xp_diff": -21,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 471,
-      "avg_xp_diff": 136,
-      "avg_cs_diff": -8.0,
-      "sample_frames": 5,
-      "advantage": 1
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": 1149,
-      "avg_xp_diff": 63,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 5,
-      "advantage": 2
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": 236,
-      "avg_xp_diff": -764,
-      "avg_cs_diff": -12.6,
+      "avg_gold_diff": 230,
+      "avg_xp_diff": 44,
+      "avg_cs_diff": -7.0,
       "sample_frames": 10,
       "advantage": 0
     },
     {
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": 548,
+      "avg_xp_diff": 149,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 10,
+      "advantage": 1
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -485,
+      "avg_xp_diff": -105,
+      "avg_cs_diff": -3.2,
+      "sample_frames": 20,
+      "advantage": -1
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -840,
-      "avg_xp_diff": -1162,
-      "avg_cs_diff": -12.1,
-      "sample_frames": 9,
+      "avg_gold_diff": -2068,
+      "avg_xp_diff": -1686,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 18,
       "advantage": -2
     }
   ],
@@ -64,46 +64,128 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Luden's Echo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Shadowflame",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 6.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 4.0,
-        "kda": 1.67,
-        "avgDamage": 21324
+        "avgDeaths": 9.5,
+        "avgAssists": 5.5,
+        "kda": 1.21,
+        "avgDamage": 23994
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 16.0,
-        "kda": 1.9,
-        "avgDamage": 10333
+        "avgKills": 1.5,
+        "avgDeaths": 9.5,
+        "avgAssists": 18.0,
+        "kda": 2.05,
+        "avgDamage": 9141
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 7.0,
-        "kda": 19.0,
-        "avgDamage": 34130
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 13.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 10.5,
+        "kda": 5.88,
+        "avgDamage": 34702
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Protoplasm Harness",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 26.0,
-        "kda": 6.5,
-        "avgDamage": 11904
+        "avgKills": 2.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 26.5,
+        "kda": 6.33,
+        "avgDamage": 12854
       }
     }
   }

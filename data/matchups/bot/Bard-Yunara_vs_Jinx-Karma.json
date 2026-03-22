@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:43.770633",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:56.944887",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -365,
-      "avg_xp_diff": -75,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -163,
+      "avg_xp_diff": -6,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1661,
-      "avg_xp_diff": -608,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -836,
+      "avg_xp_diff": -271,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -3173,
-      "avg_xp_diff": -805,
-      "avg_cs_diff": -24.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1440,
+      "avg_xp_diff": -143,
+      "avg_cs_diff": -13.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4695,
-      "avg_xp_diff": -1132,
-      "avg_cs_diff": -49.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -1125,
+      "avg_xp_diff": 743,
+      "avg_cs_diff": -23.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6250,
-      "avg_xp_diff": -2966,
-      "avg_cs_diff": -63.0,
-      "sample_frames": 3,
+      "avg_gold_diff": -1371,
+      "avg_xp_diff": 915,
+      "avg_cs_diff": -30.2,
+      "sample_frames": 5,
       "advantage": -2
     }
   ],
@@ -64,46 +64,142 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 2.0,
-        "kda": 0.38,
-        "avgDamage": 14826
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 4.0,
+        "kda": 1.89,
+        "avgDamage": 20730
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 10.0,
-        "kda": 1.57,
-        "avgDamage": 10058
+        "avgDeaths": 4.5,
+        "avgAssists": 11.0,
+        "kda": 2.67,
+        "avgDamage": 10345
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 2.0,
-        "kda": 4.67,
-        "avgDamage": 30869
+        "items": [
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 1.0,
+        "kda": 1.88,
+        "avgDamage": 21988
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 19.0,
-        "kda": 5.0,
-        "avgDamage": 8871
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 12.0,
+        "kda": 2.5,
+        "avgDamage": 9572
       }
     }
   }

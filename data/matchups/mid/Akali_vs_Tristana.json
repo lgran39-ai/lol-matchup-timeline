@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:38.333079",
+  "updated_at": "2026-03-21T14:06:52.598027",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 1,
-      "avg_xp_diff": -3,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -84,
+      "avg_xp_diff": -12,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 53,
-      "avg_xp_diff": 7,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -310,
+      "avg_xp_diff": 71,
+      "avg_cs_diff": -7.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 140,
-      "avg_xp_diff": 685,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -264,
+      "avg_xp_diff": 520,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -396,
-      "avg_xp_diff": 1129,
-      "avg_cs_diff": -4.1,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -31,
+      "avg_xp_diff": 1376,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 17,
+      "advantage": 0
     },
     {
       "phase": "25min+",
@@ -54,24 +54,65 @@
   "champB": "Tristana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 11.0,
       "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 6.67,
-      "avgDamage": 30715
+      "avgAssists": 4.5,
+      "kda": 5.17,
+      "avgDamage": 23706
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 7.0,
-      "kda": 1.4,
-      "avgDamage": 22981
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 5.5,
+      "kda": 1.31,
+      "avgDamage": 17742
     }
   }
 }

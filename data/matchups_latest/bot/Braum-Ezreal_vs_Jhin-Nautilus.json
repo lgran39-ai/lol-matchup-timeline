@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:50.592509",
+  "updated_at": "2026-03-21T14:07:03.110852",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -551,
-      "avg_xp_diff": -160,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -169,
+      "avg_xp_diff": 68,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1746,
-      "avg_xp_diff": -1257,
-      "avg_cs_diff": -17.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -535,
+      "avg_xp_diff": -327,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -3092,
-      "avg_xp_diff": -2468,
-      "avg_cs_diff": -20.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1043,
+      "avg_xp_diff": -1000,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4878,
-      "avg_xp_diff": -4038,
-      "avg_cs_diff": -31.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 712,
+      "avg_xp_diff": 726,
+      "avg_cs_diff": 36.6,
+      "sample_frames": 12,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3722,
+      "avg_xp_diff": 3869,
+      "avg_cs_diff": 105.6,
+      "sample_frames": 15,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,108 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 1.0,
-        "kda": 0.29,
-        "avgDamage": 8737
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 7.5,
+        "avgDeaths": 8.5,
+        "avgAssists": 5.5,
+        "kda": 1.53,
+        "avgDamage": 39401
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 1.0,
-        "kda": 0.5,
-        "avgDamage": 3114
+        "avgDeaths": 7.0,
+        "avgAssists": 12.0,
+        "kda": 2.0,
+        "avgDamage": 6905
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 6.0,
-        "kda": 17.0,
-        "avgDamage": 14814
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 11.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 10.0,
+        "kda": 4.3,
+        "avgDamage": 27346
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 14.0,
-        "kda": 8.0,
-        "avgDamage": 5997
+        "avgKills": 1.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 18.0,
+        "kda": 2.79,
+        "avgDamage": 8240
       }
     }
   }

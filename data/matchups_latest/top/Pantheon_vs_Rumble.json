@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.912066",
+  "updated_at": "2026-03-21T14:07:02.359744",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 129,
-      "avg_xp_diff": 93,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 75,
+      "avg_xp_diff": 59,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 656,
-      "avg_xp_diff": 441,
-      "avg_cs_diff": 15.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 545,
+      "avg_xp_diff": 229,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1073,
-      "avg_xp_diff": 298,
-      "avg_cs_diff": 21.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1358,
+      "avg_xp_diff": 755,
+      "avg_cs_diff": 11.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4315,
-      "avg_xp_diff": 2716,
-      "avg_cs_diff": 45.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 3610,
+      "avg_xp_diff": 2356,
+      "avg_cs_diff": 23.1,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3172,
+      "avg_xp_diff": 1339,
+      "avg_cs_diff": -13.6,
+      "sample_frames": 11,
       "advantage": 2
     }
   ],
@@ -45,24 +54,59 @@
   "champB": "Rumble",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 5.0,
-      "kda": 17.0,
-      "avgDamage": 21262
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 11.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 6.5,
+      "kda": 5.14,
+      "avgDamage": 25651
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 3.0,
-      "kda": 0.5,
-      "avgDamage": 15005
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 9.0,
+      "avgAssists": 6.0,
+      "kda": 0.89,
+      "avgDamage": 17620
     }
   }
 }

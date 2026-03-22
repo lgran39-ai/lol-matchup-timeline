@@ -1,73 +1,78 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:40.411812",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-21T14:06:54.210989",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 40,
-      "avg_xp_diff": -11,
-      "avg_cs_diff": 0.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 28,
+      "avg_xp_diff": -19,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -278,
-      "avg_xp_diff": -16,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -268,
+      "avg_xp_diff": -194,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -266,
-      "avg_xp_diff": 140,
-      "avg_cs_diff": 10.1,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -63,
+      "avg_xp_diff": -113,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 257,
-      "avg_xp_diff": 1142,
-      "avg_cs_diff": 33.9,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 1225,
+      "avg_xp_diff": 1477,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 25,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4199,
+      "avg_xp_diff": 3621,
+      "avg_cs_diff": -41.7,
+      "sample_frames": 12,
+      "advantage": 2
     }
   ],
   "champA": "Kassadin",
   "champB": "Sylas",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 5.5,
-      "kda": 2.83,
-      "avgDamage": 16436
-    },
-    "champB": {
       "items": [
         {
-          "name": "Hextech Rocketbelt",
+          "name": "Malignance",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
-          "name": "Conqueror",
+          "name": "First Strike",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
@@ -75,15 +80,58 @@
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 5.5,
-      "kda": 2.22,
-      "avgDamage": 19355
+      "avgKills": 9.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.3,
+      "kda": 3.27,
+      "avgDamage": 30209
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 7.0,
+      "avgAssists": 5.3,
+      "kda": 1.71,
+      "avgDamage": 24650
     }
   }
 }

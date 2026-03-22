@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.464251",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-21T14:07:01.867973",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -140,
-      "avg_xp_diff": -223,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -51,
+      "avg_xp_diff": -67,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -598,
-      "avg_xp_diff": -551,
-      "avg_cs_diff": -12.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -166,
+      "avg_xp_diff": -140,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -723,
-      "avg_xp_diff": -488,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -202,
+      "avg_xp_diff": -101,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -459,
-      "avg_xp_diff": -790,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 111,
+      "avg_xp_diff": 423,
+      "avg_cs_diff": 12.2,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -104,
-      "avg_xp_diff": -248,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 9,
+      "avg_gold_diff": -135,
+      "avg_xp_diff": -181,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 18,
       "advantage": 0
     }
   ],
@@ -54,24 +54,90 @@
   "champB": "Zoe",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 11.0,
-      "kda": 1.6,
-      "avgDamage": 21909
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Horizon Focus",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 7.7,
+      "kda": 1.94,
+      "avgDamage": 22767
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 10.0,
-      "kda": 1.6,
-      "avgDamage": 35080
+      "items": [
+        {
+          "name": "Lich Bane",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 7.0,
+      "kda": 2.12,
+      "avgDamage": 27252
     }
   }
 }

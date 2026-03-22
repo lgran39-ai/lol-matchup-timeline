@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.769730",
+  "updated_at": "2026-03-21T14:07:02.220018",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -211,
-      "avg_xp_diff": -67,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -114,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": -2.8,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -891,
-      "avg_xp_diff": -564,
-      "avg_cs_diff": -18.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -446,
+      "avg_xp_diff": -205,
+      "avg_cs_diff": -9.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1241,
-      "avg_xp_diff": -1130,
-      "avg_cs_diff": -36.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -617,
+      "avg_xp_diff": -346,
+      "avg_cs_diff": -16.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2477,
-      "avg_xp_diff": -2049,
-      "avg_cs_diff": -62.3,
-      "sample_frames": 15,
+      "avg_gold_diff": -648,
+      "avg_xp_diff": 176,
+      "avg_cs_diff": -22.3,
+      "sample_frames": 36,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6048,
-      "avg_xp_diff": -2154,
-      "avg_cs_diff": -95.6,
-      "sample_frames": 8,
+      "avg_gold_diff": -4314,
+      "avg_xp_diff": -1042,
+      "avg_cs_diff": -72.3,
+      "sample_frames": 10,
       "advantage": -2
     }
   ],
@@ -57,32 +57,57 @@
       "items": [
         {
           "name": "Sunfire Aegis",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 1.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 13.5,
-      "kda": 4.14,
-      "avgDamage": 19748
+      "avgKills": 2.8,
+      "avgDeaths": 3.2,
+      "avgAssists": 10.5,
+      "kda": 4.08,
+      "avgDamage": 20856
     },
     "champB": {
       "items": [
         {
           "name": "Trinity Force",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 0.0
         }
       ],
@@ -90,7 +115,13 @@
         {
           "name": "Grasp of the Undying",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 0.0
         }
       ],
@@ -98,15 +129,21 @@
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 3.0,
-      "kda": 1.8,
-      "avgDamage": 23672
+      "avgKills": 3.8,
+      "avgDeaths": 5.2,
+      "avgAssists": 2.8,
+      "kda": 1.24,
+      "avgDamage": 19100
     }
   }
 }

@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:39.235960",
+  "updated_at": "2026-03-21T14:06:53.228392",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -128,
-      "avg_xp_diff": -101,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -121,
+      "avg_xp_diff": -88,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 276,
-      "avg_xp_diff": 307,
-      "avg_cs_diff": 11.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 88,
+      "avg_xp_diff": 81,
+      "avg_cs_diff": 7.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 845,
-      "avg_xp_diff": 1629,
-      "avg_cs_diff": 30.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 488,
+      "avg_xp_diff": 596,
+      "avg_cs_diff": 21.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2937,
-      "avg_xp_diff": 3086,
-      "avg_cs_diff": 49.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1188,
+      "avg_xp_diff": 204,
+      "avg_cs_diff": 17.5,
+      "sample_frames": 15,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2463,
+      "avg_xp_diff": 1089,
+      "avg_cs_diff": 18.8,
+      "sample_frames": 4,
       "advantage": 2
     }
   ],
@@ -45,24 +54,52 @@
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.5,
       "avgDeaths": 4.0,
-      "avgAssists": 3.0,
-      "kda": 2.25,
-      "avgDamage": 22988
+      "avgAssists": 4.5,
+      "kda": 3.0,
+      "avgDamage": 26199
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
       "avgKills": 3.0,
       "avgDeaths": 6.0,
-      "avgAssists": 1.0,
-      "kda": 0.67,
-      "avgDamage": 10901
+      "avgAssists": 1.5,
+      "kda": 0.75,
+      "avgDamage": 18570
     }
   }
 }

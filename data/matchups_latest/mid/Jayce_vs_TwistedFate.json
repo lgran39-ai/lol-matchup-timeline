@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 4,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.571237",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-21T14:07:02.007830",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 69,
-      "avg_xp_diff": 9,
-      "avg_cs_diff": 2.5,
-      "sample_frames": 20,
+      "avg_gold_diff": 46,
+      "avg_xp_diff": 13,
+      "avg_cs_diff": 2.1,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 470,
-      "avg_xp_diff": 327,
-      "avg_cs_diff": 11.9,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": 210,
+      "avg_xp_diff": 148,
+      "avg_cs_diff": 7.1,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 775,
-      "avg_xp_diff": 670,
-      "avg_cs_diff": 20.6,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": 295,
+      "avg_xp_diff": 312,
+      "avg_cs_diff": 11.4,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1730,
-      "avg_xp_diff": 1037,
-      "avg_cs_diff": 29.4,
-      "sample_frames": 35,
+      "avg_gold_diff": 797,
+      "avg_xp_diff": 248,
+      "avg_cs_diff": 11.1,
+      "sample_frames": 45,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -5055,
+      "avg_xp_diff": -6367,
+      "avg_cs_diff": -99.6,
+      "sample_frames": 15,
+      "advantage": -2
     }
   ],
   "champA": "Jayce",
@@ -48,71 +57,101 @@
       "items": [
         {
           "name": "Youmuu's Ghostblade",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 80.0
         },
         {
           "name": "Chainlaced Crushers",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 100.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "First Strike",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 100.0
+        },
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 9.0,
-      "avgDeaths": 2.0,
+      "avgKills": 8.8,
+      "avgDeaths": 3.8,
       "avgAssists": 6.2,
-      "kda": 7.62,
-      "avgDamage": 22908
+      "kda": 3.95,
+      "avgDamage": 24380
     },
     "champB": {
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 20.0
         },
         {
           "name": "Lich Bane",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 20.0
         },
         {
           "name": "Armored Advance",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 0.0
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Rapid Firecannon",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
-          "name": "Unsealed Spellbook",
-          "count": 2,
-          "pickRate": 50.0,
-          "winRate": 0.0
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
         },
         {
-          "name": "Arcane Comet",
+          "name": "Unsealed Spellbook",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 0.0
         }
       ],
@@ -120,15 +159,15 @@
         {
           "spells": "Flash+Teleport",
           "count": 4,
-          "pickRate": 100.0,
+          "pickRate": 80.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 3.2,
-      "avgDeaths": 5.8,
-      "avgAssists": 5.0,
-      "kda": 1.43,
-      "avgDamage": 10791
+      "avgKills": 5.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.6,
+      "kda": 2.32,
+      "avgDamage": 17350
     }
   }
 }

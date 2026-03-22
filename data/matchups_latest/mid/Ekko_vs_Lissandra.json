@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.218720",
+  "updated_at": "2026-03-21T14:07:01.607615",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -59,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": -2.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -72,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -150,
-      "avg_xp_diff": -59,
-      "avg_cs_diff": -6.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -277,
+      "avg_xp_diff": -115,
+      "avg_cs_diff": -5.6,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -182,
-      "avg_xp_diff": 96,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -636,
+      "avg_xp_diff": -278,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1089,
-      "avg_xp_diff": -290,
-      "avg_cs_diff": 5.8,
-      "sample_frames": 11,
+      "avg_gold_diff": -1359,
+      "avg_xp_diff": -649,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 19,
       "advantage": -2
     }
   ],
@@ -45,11 +45,24 @@
   "champB": "Lissandra",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Hail of Blades",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 0.0
         }
@@ -57,33 +70,71 @@
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 3,
+          "pickRate": 75.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 3.5,
-      "kda": 1.57,
-      "avgDamage": 10259
+      "avgKills": 1.2,
+      "avgDeaths": 4.8,
+      "avgAssists": 3.2,
+      "kda": 0.95,
+      "avgDamage": 9717
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Teleport",
+          "name": "Hextech Rocketbelt",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 9.0,
-      "kda": 7.0,
-      "avgDamage": 16670
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 1.8,
+      "avgAssists": 7.5,
+      "kda": 7.43,
+      "avgDamage": 16106
     }
   }
 }

@@ -1,68 +1,104 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:39.204778",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:53.205909",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -266,
-      "avg_xp_diff": -184,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -223,
+      "avg_xp_diff": -138,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -95,
-      "avg_xp_diff": -9,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -51,
+      "avg_xp_diff": -42,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -7,
-      "avg_xp_diff": 66,
-      "avg_cs_diff": 10.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -146,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": 3.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 201,
-      "avg_xp_diff": 412,
-      "avg_cs_diff": 14.2,
-      "sample_frames": 4,
+      "avg_gold_diff": 318,
+      "avg_xp_diff": 524,
+      "avg_cs_diff": 5.1,
+      "sample_frames": 14,
       "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 466,
+      "avg_xp_diff": 593,
+      "avg_cs_diff": -9.4,
+      "sample_frames": 13,
+      "advantage": 2
     }
   ],
   "champA": "Corki",
   "champB": "Jayce",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 1.0,
-      "kda": 2.0,
-      "avgDamage": 8348
+      "avgKills": 3.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.0,
+      "kda": 1.75,
+      "avgDamage": 23154
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 1.0,
-      "kda": 2.0,
-      "avgDamage": 9073
+      "avgKills": 5.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.5,
+      "kda": 2.5,
+      "avgDamage": 22419
     }
   }
 }

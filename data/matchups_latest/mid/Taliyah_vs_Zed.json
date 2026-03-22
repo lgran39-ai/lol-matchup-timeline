@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:50.113423",
+  "updated_at": "2026-03-21T14:07:02.551041",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 83,
-      "avg_xp_diff": 1,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 70,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 558,
-      "avg_xp_diff": -107,
-      "avg_cs_diff": 13.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 186,
+      "avg_xp_diff": -102,
+      "avg_cs_diff": 13.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1158,
-      "avg_xp_diff": 222,
-      "avg_cs_diff": 18.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 924,
+      "avg_xp_diff": 229,
+      "avg_cs_diff": 18.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2217,
-      "avg_xp_diff": 675,
-      "avg_cs_diff": 34.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 1601,
+      "avg_xp_diff": 579,
+      "avg_cs_diff": 15.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2657,
-      "avg_xp_diff": 354,
-      "avg_cs_diff": 30.8,
-      "sample_frames": 8,
+      "avg_gold_diff": 852,
+      "avg_xp_diff": 45,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 21,
       "advantage": 2
     }
   ],
@@ -54,24 +54,51 @@
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 19.0,
-      "kda": 2.9,
-      "avgDamage": 32721
+      "avgKills": 13.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 15.5,
+      "kda": 3.56,
+      "avgDamage": 40168
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 11.0,
-      "avgAssists": 9.0,
-      "kda": 1.45,
-      "avgDamage": 21135
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 9.5,
+      "avgDeaths": 8.0,
+      "avgAssists": 8.0,
+      "kda": 2.19,
+      "avgDamage": 25256
     }
   }
 }

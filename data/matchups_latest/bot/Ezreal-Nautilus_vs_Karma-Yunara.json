@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:50.843648",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:03.398851",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 562,
-      "avg_xp_diff": 132,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 160,
+      "avg_xp_diff": 53,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 718,
-      "avg_xp_diff": 64,
-      "avg_cs_diff": -14.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 459,
+      "avg_xp_diff": 220,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1198,
-      "avg_xp_diff": 373,
-      "avg_cs_diff": -19.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 540,
+      "avg_xp_diff": 428,
+      "avg_cs_diff": -5.9,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2433,
-      "avg_xp_diff": 2008,
-      "avg_cs_diff": -9.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 1667,
+      "avg_xp_diff": 1253,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 32,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2454,
-      "avg_xp_diff": 2952,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 4,
+      "avg_gold_diff": 2997,
+      "avg_xp_diff": 1259,
+      "avg_cs_diff": -6.0,
+      "sample_frames": 11,
       "advantage": 2
     }
   ],
@@ -64,46 +64,172 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 16.0,
-        "kda": 4.8,
-        "avgDamage": 32149
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 8.8,
+        "avgDeaths": 3.8,
+        "avgAssists": 8.2,
+        "kda": 4.53,
+        "avgDamage": 26708
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 25.0,
-        "kda": 7.25,
-        "avgDamage": 12029
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          },
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.2,
+        "avgDeaths": 5.2,
+        "avgAssists": 13.8,
+        "kda": 3.05,
+        "avgDamage": 8512
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 9.0,
+        "items": [
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 7.0,
         "avgAssists": 5.0,
-        "kda": 1.33,
-        "avgDamage": 28294
+        "kda": 1.5,
+        "avgDamage": 19688
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 12.0,
-        "avgAssists": 15.0,
-        "kda": 1.25,
-        "avgDamage": 7201
+        "items": [
+          {
+            "name": "Moonstone Renewer",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Echoes of Helia",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.2,
+        "avgDeaths": 7.0,
+        "avgAssists": 11.5,
+        "kda": 1.82,
+        "avgDamage": 7386
       }
     }
   }

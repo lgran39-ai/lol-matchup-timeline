@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:50.137266",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-21T14:07:02.576323",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -58,
-      "avg_xp_diff": 18,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -25,
+      "avg_xp_diff": 17,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -127,
-      "avg_xp_diff": 57,
-      "avg_cs_diff": -15.8,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 211,
+      "avg_xp_diff": 108,
+      "avg_cs_diff": -8.8,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 200,
-      "avg_xp_diff": 348,
-      "avg_cs_diff": -22.7,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 553,
+      "avg_xp_diff": 344,
+      "avg_cs_diff": -13.8,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 93,
-      "avg_xp_diff": 675,
-      "avg_cs_diff": -18.7,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 1027,
+      "avg_xp_diff": 836,
+      "avg_cs_diff": -14.3,
+      "sample_frames": 27,
+      "advantage": 2
     },
     {
       "phase": "25min+",
@@ -57,55 +57,81 @@
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 75.0
         },
         {
           "name": "Armored Advance",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rapid Firecannon",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 75.0
         }
       ],
-      "avgKills": 1.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 8.5,
-      "kda": 3.33,
-      "avgDamage": 12608
+      "avgKills": 2.5,
+      "avgDeaths": 2.2,
+      "avgAssists": 7.2,
+      "kda": 4.33,
+      "avgDamage": 11343
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 25.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 25.0
         }
       ],
-      "summonerSpells": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
       "avgKills": 1.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 6.0,
-      "kda": 1.88,
-      "avgDamage": 12858
+      "avgDeaths": 4.5,
+      "avgAssists": 3.8,
+      "kda": 1.17,
+      "avgDamage": 12354
     }
   }
 }

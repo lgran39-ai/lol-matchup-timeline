@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-20T14:47:49.314659",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:01.716333",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 11,
-      "avg_xp_diff": -7,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 15,
+      "avg_gold_diff": -2,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 241,
-      "avg_xp_diff": 317,
-      "avg_cs_diff": 5.9,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 150,
+      "avg_xp_diff": 249,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 311,
-      "avg_xp_diff": 610,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 15,
+      "avg_gold_diff": 210,
+      "avg_xp_diff": 588,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -291,
-      "avg_xp_diff": 573,
-      "avg_cs_diff": 14.2,
-      "sample_frames": 23,
-      "advantage": -1
+      "avg_gold_diff": -149,
+      "avg_xp_diff": 744,
+      "avg_cs_diff": 7.2,
+      "sample_frames": 33,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 386,
+      "avg_xp_diff": 716,
+      "avg_cs_diff": -10.5,
+      "sample_frames": 2,
+      "advantage": 1
     }
   ],
   "champA": "Galio",
@@ -48,68 +57,87 @@
       "items": [
         {
           "name": "Hextech Rocketbelt",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 50.0
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
         },
         {
           "name": "Spellslinger's Shoes",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
         }
       ],
-      "avgKills": 3.3,
-      "avgDeaths": 2.3,
-      "avgAssists": 5.3,
-      "kda": 3.71,
-      "avgDamage": 11825
+      "avgKills": 2.8,
+      "avgDeaths": 2.5,
+      "avgAssists": 9.0,
+      "kda": 4.7,
+      "avgDamage": 11235
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 50.0
         },
         {
           "name": "Immortal Shieldbow",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 75.0,
           "winRate": 66.7
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 2.67,
-      "avgDamage": 13928
+      "summonerSpells": [
+        {
+          "spells": "Cleanse+Flash",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.2,
+      "avgDeaths": 3.8,
+      "avgAssists": 4.5,
+      "kda": 2.07,
+      "avgDamage": 13172
     }
   }
 }

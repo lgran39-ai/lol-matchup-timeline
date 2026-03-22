@@ -1,68 +1,110 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.329147",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-21T14:07:01.730132",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 4,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -60,
+      "avg_xp_diff": -20,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 337,
-      "avg_xp_diff": -3,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -176,
+      "avg_xp_diff": -278,
+      "avg_cs_diff": -10.2,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 738,
-      "avg_xp_diff": 221,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -579,
+      "avg_xp_diff": -1245,
+      "avg_cs_diff": -19.3,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1766,
-      "avg_xp_diff": 988,
-      "avg_cs_diff": 20.0,
-      "sample_frames": 3,
-      "advantage": 2
+      "avg_gold_diff": -953,
+      "avg_xp_diff": -1278,
+      "avg_cs_diff": -20.7,
+      "sample_frames": 10,
+      "advantage": -2
     }
   ],
   "champA": "Gangplank",
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
       "avgKills": 1.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 6.0,
-      "kda": 7.0,
-      "avgDamage": 8170
+      "avgDeaths": 4.0,
+      "avgAssists": 3.0,
+      "kda": 1.0,
+      "avgDamage": 9612
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 7116
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.3,
+      "avgDeaths": 1.3,
+      "avgAssists": 2.7,
+      "kda": 3.75,
+      "avgDamage": 12498
     }
   }
 }

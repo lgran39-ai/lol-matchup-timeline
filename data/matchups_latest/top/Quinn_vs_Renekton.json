@@ -1,89 +1,112 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:49.962375",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-21T14:07:02.399199",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 131,
-      "avg_xp_diff": 143,
-      "avg_cs_diff": 6.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 130,
+      "avg_xp_diff": 122,
+      "avg_cs_diff": 5.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 400,
-      "avg_xp_diff": 154,
-      "avg_cs_diff": 11.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 454,
+      "avg_xp_diff": 310,
+      "avg_cs_diff": 15.6,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 743,
-      "avg_xp_diff": 269,
-      "avg_cs_diff": 6.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 991,
+      "avg_xp_diff": 981,
+      "avg_cs_diff": 22.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -414,
-      "avg_xp_diff": -2041,
-      "avg_cs_diff": -6.7,
-      "sample_frames": 13,
-      "advantage": -2
+      "avg_gold_diff": 1444,
+      "avg_xp_diff": 548,
+      "avg_cs_diff": 30.9,
+      "sample_frames": 23,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 6691,
+      "avg_xp_diff": 6841,
+      "avg_cs_diff": 98.1,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "champA": "Quinn",
   "champB": "Renekton",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 4.0,
-      "kda": 1.69,
-      "avgDamage": 20765
+      "avgKills": 9.7,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.7,
+      "kda": 2.53,
+      "avgDamage": 32503
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "keystones": [
         {
-          "spells": "Flash+Teleport",
+          "name": "Conqueror",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 1.62,
-      "avgDamage": 7746
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.3,
+      "kda": 1.18,
+      "avgDamage": 8020
     }
   }
 }

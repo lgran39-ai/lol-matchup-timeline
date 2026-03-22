@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:44.305547",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:06:57.394335",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -89,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 24,
+      "avg_xp_diff": 36,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -306,
-      "avg_xp_diff": 228,
-      "avg_cs_diff": 11.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 307,
+      "avg_xp_diff": 275,
+      "avg_cs_diff": 9.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1042,
-      "avg_xp_diff": 73,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 605,
+      "avg_xp_diff": 585,
+      "avg_cs_diff": 7.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2161,
-      "avg_xp_diff": -1157,
-      "avg_cs_diff": -11.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 102,
+      "avg_xp_diff": 356,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 18,
+      "advantage": 0
     },
     {
       "phase": "25min+",
@@ -64,46 +64,108 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 4.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 9.0,
-        "kda": 1.3,
-        "avgDamage": 21601
+        "avgDeaths": 7.0,
+        "avgAssists": 7.0,
+        "kda": 1.57,
+        "avgDamage": 19242
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 14.0,
-        "avgAssists": 14.0,
-        "kda": 1.07,
-        "avgDamage": 10736
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 12.5,
+        "kda": 2.21,
+        "avgDamage": 12192
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 14.0,
-        "kda": 5.2,
-        "avgDamage": 37747
+        "avgKills": 6.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 7.5,
+        "kda": 2.55,
+        "avgDamage": 22916
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 19.0,
-        "kda": 4.67,
-        "avgDamage": 25729
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 5.5,
+        "avgAssists": 11.0,
+        "kda": 2.91,
+        "avgDamage": 15744
       }
     }
   }

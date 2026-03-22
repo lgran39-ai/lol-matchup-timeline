@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:41.936126",
+  "updated_at": "2026-03-21T14:06:55.460798",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 337,
-      "avg_xp_diff": 33,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -59,
+      "avg_xp_diff": -23,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 621,
-      "avg_xp_diff": 152,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -369,
+      "avg_xp_diff": -120,
+      "avg_cs_diff": -3.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 120,
-      "avg_xp_diff": -440,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -2423,
+      "avg_xp_diff": -1492,
+      "avg_cs_diff": -21.3,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 30,
-      "avg_xp_diff": -794,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 2,
-      "advantage": 0
+      "avg_gold_diff": -3959,
+      "avg_xp_diff": -2584,
+      "avg_cs_diff": -29.0,
+      "sample_frames": 4,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -56,45 +56,87 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 3.0,
-        "kda": 2.0,
-        "avgDamage": 11997
+        "avgDeaths": 5.5,
+        "avgAssists": 1.5,
+        "kda": 0.45,
+        "avgDamage": 12542
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 3.0,
-        "kda": 5.0,
-        "avgDamage": 1750
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 2.5,
+        "avgAssists": 2.0,
+        "kda": 1.2,
+        "avgDamage": 2408
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 3.0,
-        "kda": 2.5,
-        "avgDamage": 8926
+        "avgKills": 7.5,
+        "avgDeaths": 1.0,
+        "avgAssists": 4.5,
+        "kda": 12.0,
+        "avgDamage": 13732
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 3.0,
-        "kda": 2.0,
-        "avgDamage": 5328
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 1.5,
+        "avgAssists": 9.5,
+        "kda": 7.33,
+        "avgDamage": 6370
       }
     }
   }

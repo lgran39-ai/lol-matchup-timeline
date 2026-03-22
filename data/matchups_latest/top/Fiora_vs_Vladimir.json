@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.278150",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:01.675026",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -185,
-      "avg_xp_diff": -96,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -145,
+      "avg_xp_diff": -120,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1109,
-      "avg_xp_diff": -772,
-      "avg_cs_diff": -31.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -443,
+      "avg_xp_diff": -379,
+      "avg_cs_diff": -14.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2280,
-      "avg_xp_diff": -2852,
-      "avg_cs_diff": -62.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -997,
+      "avg_xp_diff": -1290,
+      "avg_cs_diff": -30.8,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3587,
-      "avg_xp_diff": -2430,
-      "avg_cs_diff": -79.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -2277,
+      "avg_xp_diff": -2142,
+      "avg_cs_diff": -46.7,
+      "sample_frames": 29,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3969,
-      "avg_xp_diff": -2262,
-      "avg_cs_diff": -68.3,
-      "sample_frames": 3,
+      "avg_gold_diff": -2662,
+      "avg_xp_diff": -2850,
+      "avg_cs_diff": -41.4,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
@@ -54,24 +54,90 @@
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 3.0,
-      "kda": 0.38,
-      "avgDamage": 9012
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 4.2,
+      "avgAssists": 1.5,
+      "kda": 0.71,
+      "avgDamage": 10618
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 3.0,
-      "kda": 2.0,
-      "avgDamage": 24782
+      "items": [
+        {
+          "name": "Void Staff",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 4.5,
+      "avgAssists": 2.2,
+      "kda": 1.89,
+      "avgDamage": 20097
     }
   }
 }

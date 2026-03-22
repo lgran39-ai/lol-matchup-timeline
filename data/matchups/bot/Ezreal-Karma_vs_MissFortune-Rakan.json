@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:45.791598",
+  "updated_at": "2026-03-21T14:06:58.126732",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 276,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 375,
+      "avg_xp_diff": 67,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 533,
-      "avg_xp_diff": 296,
-      "avg_cs_diff": -7.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 696,
+      "avg_xp_diff": 222,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -66,
-      "avg_xp_diff": 630,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 1211,
+      "avg_xp_diff": 812,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3426,
-      "avg_xp_diff": -1378,
-      "avg_cs_diff": -31.8,
-      "sample_frames": 11,
+      "avg_gold_diff": -1465,
+      "avg_xp_diff": -767,
+      "avg_cs_diff": -25.4,
+      "sample_frames": 21,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1785,
+      "avg_xp_diff": -1897,
+      "avg_cs_diff": -32.6,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -55,46 +64,141 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 7.0,
-        "kda": 1.12,
-        "avgDamage": 19139
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 8.5,
+        "kda": 2.18,
+        "avgDamage": 24440
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 7.0,
-        "kda": 1.33,
-        "avgDamage": 14673
+        "items": [
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 12.5,
+        "kda": 2.43,
+        "avgDamage": 11654
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Bloodthirster",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Mortal Reminder",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 8.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 5.0,
-        "kda": 2.17,
-        "avgDamage": 22663
+        "avgDeaths": 6.5,
+        "avgAssists": 4.5,
+        "kda": 1.92,
+        "avgDamage": 24530
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 0.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 14.0,
-        "kda": 2.33,
-        "avgDamage": 6729
+        "avgDeaths": 6.5,
+        "avgAssists": 15.0,
+        "kda": 2.31,
+        "avgDamage": 6991
       }
     }
   }

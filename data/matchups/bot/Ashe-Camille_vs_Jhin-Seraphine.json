@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:42.909554",
+  "updated_at": "2026-03-21T14:06:56.288125",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -528,
-      "avg_xp_diff": -244,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -286,
+      "avg_xp_diff": -85,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1226,
-      "avg_xp_diff": -460,
-      "avg_cs_diff": -21.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -590,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": -7.1,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1214,
-      "avg_xp_diff": -344,
-      "avg_cs_diff": -15.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -650,
+      "avg_xp_diff": 4,
+      "avg_cs_diff": -6.5,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 104,
-      "avg_xp_diff": 608,
-      "avg_cs_diff": -13.0,
-      "sample_frames": 6,
+      "avg_gold_diff": -515,
+      "avg_xp_diff": 916,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 16,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 188,
+      "avg_xp_diff": 2360,
+      "avg_cs_diff": 18.0,
+      "sample_frames": 5,
       "advantage": 0
     }
   ],
@@ -55,46 +64,95 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 3.0,
-        "kda": 3.5,
-        "avgDamage": 5801
+        "avgKills": 3.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 7.0,
+        "kda": 2.22,
+        "avgDamage": 10850
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
+        "keystones": [
+          {
+            "name": "Hail of Blades",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 2.0,
         "avgDeaths": 2.0,
-        "avgAssists": 5.0,
-        "kda": 2.5,
-        "avgDamage": 4914
+        "avgAssists": 9.5,
+        "kda": 5.75,
+        "avgDamage": 14207
       }
     },
     "teamB": {
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 3.0,
-        "kda": 1.0,
-        "avgDamage": 6911
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 4.5,
+        "kda": 1.25,
+        "avgDamage": 15649
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 4.0,
-        "kda": 1.25,
-        "avgDamage": 7034
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 7.5,
+        "kda": 1.64,
+        "avgDamage": 8058
       }
     }
   }

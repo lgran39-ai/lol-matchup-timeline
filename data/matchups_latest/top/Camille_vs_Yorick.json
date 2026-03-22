@@ -1,77 +1,124 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.133541",
+  "updated_at": "2026-03-21T14:07:01.526117",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 5,
-      "avg_xp_diff": 18,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -85,
+      "avg_xp_diff": -57,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -667,
-      "avg_xp_diff": -432,
-      "avg_cs_diff": -10.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -660,
+      "avg_xp_diff": -421,
+      "avg_cs_diff": -14.5,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1687,
-      "avg_xp_diff": -1336,
-      "avg_cs_diff": -17.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -697,
+      "avg_xp_diff": -670,
+      "avg_cs_diff": -19.0,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2993,
-      "avg_xp_diff": -1665,
-      "avg_cs_diff": -27.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -1013,
+      "avg_xp_diff": -1465,
+      "avg_cs_diff": -21.0,
+      "sample_frames": 22,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2703,
-      "avg_xp_diff": -477,
-      "avg_cs_diff": -24.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 832,
+      "avg_xp_diff": -1306,
+      "avg_cs_diff": -25.5,
+      "sample_frames": 11,
+      "advantage": 2
     }
   ],
   "champA": "Camille",
   "champB": "Yorick",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 10.0,
-      "kda": 2.6,
-      "avgDamage": 12745
+      "summonerSpells": [
+        {
+          "spells": "Teleport+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 6.0,
+      "kda": 2.29,
+      "avgDamage": 18677
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 3.0,
-      "kda": 1.8,
-      "avgDamage": 18565
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 4.3,
+      "avgAssists": 4.0,
+      "kda": 1.92,
+      "avgDamage": 22533
     }
   }
 }

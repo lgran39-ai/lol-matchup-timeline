@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:50.165398",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:02.606691",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 48,
-      "avg_xp_diff": 68,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 64,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 128,
-      "avg_xp_diff": 221,
-      "avg_cs_diff": 10.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 610,
+      "avg_xp_diff": 347,
+      "avg_cs_diff": 12.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 285,
-      "avg_xp_diff": 699,
-      "avg_cs_diff": 24.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 1261,
+      "avg_xp_diff": 792,
+      "avg_cs_diff": 27.9,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -9,
-      "avg_xp_diff": 761,
-      "avg_cs_diff": 16.5,
+      "avg_gold_diff": 3049,
+      "avg_xp_diff": 1949,
+      "avg_cs_diff": 38.6,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5748,
+      "avg_xp_diff": 3982,
+      "avg_cs_diff": 44.0,
       "sample_frames": 2,
-      "advantage": 0
+      "advantage": 2
     }
   ],
   "champA": "Vladimir",
@@ -46,23 +55,51 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
       "avgDeaths": 1.0,
-      "avgAssists": 0.0,
-      "kda": 1.0,
-      "avgDamage": 12329
+      "avgAssists": 3.5,
+      "kda": 10.5,
+      "avgDamage": 22152
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 1.0,
-      "kda": 2.0,
-      "avgDamage": 7925
+      "avgKills": 0.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 1.5,
+      "kda": 0.67,
+      "avgDamage": 9909
     }
   }
 }

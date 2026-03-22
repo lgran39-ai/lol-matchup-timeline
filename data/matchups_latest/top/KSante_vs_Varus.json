@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-20T14:47:49.601579",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-21T14:07:02.046430",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -108,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -172,
+      "avg_xp_diff": -104,
+      "avg_cs_diff": -7.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -151,
-      "avg_xp_diff": 194,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -420,
+      "avg_xp_diff": -6,
+      "avg_cs_diff": -13.5,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 852,
-      "avg_xp_diff": 1597,
-      "avg_cs_diff": 10.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -94,
+      "avg_xp_diff": 520,
+      "avg_cs_diff": -9.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1172,
-      "avg_xp_diff": 2108,
-      "avg_cs_diff": 32.2,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -235,
+      "avg_xp_diff": 935,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 186,
-      "avg_xp_diff": 1128,
-      "avg_cs_diff": 28.6,
-      "sample_frames": 8,
-      "advantage": 1
+      "avg_gold_diff": -507,
+      "avg_xp_diff": 1307,
+      "avg_cs_diff": 6.4,
+      "sample_frames": 14,
+      "advantage": -2
     }
   ],
   "champA": "KSante",
@@ -55,23 +55,57 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "keystones": [
+        {
+          "name": "Aftershock",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 6.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 5.0,
-      "kda": 1.22,
-      "avgDamage": 19827
+      "avgDeaths": 8.0,
+      "avgAssists": 8.0,
+      "kda": 1.75,
+      "avgDamage": 15797
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 9.0,
-      "kda": 1.4,
-      "avgDamage": 28121
+      "avgKills": 6.5,
+      "avgDeaths": 9.0,
+      "avgAssists": 7.5,
+      "kda": 1.56,
+      "avgDamage": 30539
     }
   }
 }

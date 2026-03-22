@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-20T14:47:42.822869",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-21T14:06:56.189157",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -23,
-      "avg_xp_diff": 26,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 15,
+      "avg_gold_diff": -8,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -389,
-      "avg_xp_diff": -308,
-      "avg_cs_diff": -6.7,
-      "sample_frames": 15,
+      "avg_gold_diff": -397,
+      "avg_xp_diff": -292,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -658,
-      "avg_xp_diff": -777,
-      "avg_cs_diff": -11.7,
-      "sample_frames": 15,
+      "avg_gold_diff": -608,
+      "avg_xp_diff": -630,
+      "avg_cs_diff": -12.6,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -122,
-      "avg_xp_diff": -651,
-      "avg_cs_diff": -14.2,
-      "sample_frames": 22,
+      "avg_gold_diff": -204,
+      "avg_xp_diff": -906,
+      "avg_cs_diff": -15.6,
+      "sample_frames": 32,
       "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 5,
-      "avg_xp_diff": -223,
-      "avg_cs_diff": 7.3,
-      "sample_frames": 9,
-      "advantage": 0
+      "avg_gold_diff": -1125,
+      "avg_xp_diff": -2649,
+      "avg_cs_diff": -28.3,
+      "sample_frames": 26,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -67,69 +67,87 @@
         "items": [
           {
             "name": "Stormrazor",
-            "count": 2,
-            "pickRate": 66.7,
+            "count": 3,
+            "pickRate": 75.0,
             "winRate": 100.0
           },
           {
             "name": "Infinity Edge",
-            "count": 2,
-            "pickRate": 66.7,
+            "count": 3,
+            "pickRate": 75.0,
             "winRate": 100.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Press the Attack",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 50.0
+          },
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
           }
         ],
-        "avgKills": 4.7,
-        "avgDeaths": 6.0,
+        "avgKills": 8.8,
+        "avgDeaths": 7.8,
         "avgAssists": 6.0,
-        "kda": 1.78,
-        "avgDamage": 15662
+        "kda": 1.9,
+        "avgDamage": 24692
       },
       "sup": {
         "items": [
           {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          },
+          {
             "name": "Locket of the Iron Solari",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Aftershock",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 66.7
+            "winRate": 75.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 66.7
+            "winRate": 75.0
           }
         ],
-        "avgKills": 1.0,
-        "avgDeaths": 7.7,
-        "avgAssists": 14.7,
-        "kda": 2.04,
-        "avgDamage": 6226
+        "avgKills": 0.8,
+        "avgDeaths": 8.8,
+        "avgAssists": 18.0,
+        "kda": 2.14,
+        "avgDamage": 7338
       }
     },
     "teamB": {
@@ -137,20 +155,26 @@
         "items": [
           {
             "name": "Hubris",
-            "count": 2,
-            "pickRate": 66.7,
+            "count": 3,
+            "pickRate": 75.0,
             "winRate": 0.0
           },
           {
             "name": "Rapid Firecannon",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Mortal Reminder",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 0.0
           },
           {
             "name": "The Collector",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 50.0
           }
         ],
@@ -158,30 +182,36 @@
           {
             "name": "Fleet Footwork",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 50.0
+          },
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 0.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 7.7,
-        "avgDeaths": 5.3,
-        "avgAssists": 8.7,
-        "kda": 3.06,
-        "avgDamage": 20580
+        "avgKills": 10.2,
+        "avgDeaths": 5.5,
+        "avgAssists": 10.2,
+        "kda": 3.73,
+        "avgDamage": 31792
       },
       "sup": {
         "items": [
           {
             "name": "Locket of the Iron Solari",
-            "count": 2,
-            "pickRate": 66.7,
+            "count": 3,
+            "pickRate": 75.0,
             "winRate": 0.0
           }
         ],
@@ -189,7 +219,7 @@
           {
             "name": "Aftershock",
             "count": 3,
-            "pickRate": 100.0,
+            "pickRate": 75.0,
             "winRate": 33.3
           }
         ],
@@ -197,15 +227,15 @@
           {
             "spells": "Flash+Ignite",
             "count": 3,
-            "pickRate": 100.0,
+            "pickRate": 75.0,
             "winRate": 33.3
           }
         ],
-        "avgKills": 1.7,
-        "avgDeaths": 8.3,
-        "avgAssists": 11.3,
-        "kda": 1.56,
-        "avgDamage": 8381
+        "avgKills": 1.8,
+        "avgDeaths": 9.0,
+        "avgAssists": 16.0,
+        "kda": 1.97,
+        "avgDamage": 9311
       }
     }
   }

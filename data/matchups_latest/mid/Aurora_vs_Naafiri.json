@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-20T14:47:49.044226",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-21T14:07:01.428980",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 161,
-      "avg_xp_diff": 153,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 171,
+      "avg_xp_diff": 146,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 320,
-      "avg_xp_diff": 322,
-      "avg_cs_diff": 14.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 209,
+      "avg_xp_diff": 288,
+      "avg_cs_diff": 9.6,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 902,
-      "avg_xp_diff": 1031,
-      "avg_cs_diff": 21.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 639,
+      "avg_xp_diff": 775,
+      "avg_cs_diff": 14.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1578,
-      "avg_xp_diff": 1661,
-      "avg_cs_diff": 12.6,
-      "sample_frames": 20,
+      "avg_gold_diff": 895,
+      "avg_xp_diff": 1385,
+      "avg_cs_diff": 11.8,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3162,
-      "avg_xp_diff": 3571,
-      "avg_cs_diff": 6.7,
-      "sample_frames": 13,
+      "avg_gold_diff": 1785,
+      "avg_xp_diff": 2548,
+      "avg_cs_diff": 10.8,
+      "sample_frames": 20,
       "advantage": 2
     }
   ],
@@ -56,55 +56,88 @@
     "champA": {
       "items": [
         {
-          "name": "Rabadon's Deathcap",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
-        },
-        {
           "name": "Shadowflame",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         },
         {
           "name": "Spellslinger's Shoes",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 100.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 18.5,
-      "avgDeaths": 5.0,
-      "avgAssists": 12.5,
-      "kda": 6.2,
-      "avgDamage": 47311
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 8.0,
-      "avgDeaths": 8.5,
-      "avgAssists": 7.5,
-      "kda": 1.82,
-      "avgDamage": 24550
+      "avgKills": 13.7,
+      "avgDeaths": 5.3,
+      "avgAssists": 9.0,
+      "kda": 4.25,
+      "avgDamage": 36670
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 8.3,
+      "avgAssists": 8.3,
+      "kda": 1.8,
+      "avgDamage": 23810
     }
   }
 }

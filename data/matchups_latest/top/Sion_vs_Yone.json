@@ -1,103 +1,155 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-20T14:47:50.075928",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-21T14:07:02.508572",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -125,
-      "avg_xp_diff": -34,
-      "avg_cs_diff": -4.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -72,
+      "avg_xp_diff": -30,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -302,
-      "avg_xp_diff": 84,
-      "avg_cs_diff": -12.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -324,
+      "avg_xp_diff": -123,
+      "avg_cs_diff": -8.9,
+      "sample_frames": 25,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -723,
-      "avg_xp_diff": -69,
-      "avg_cs_diff": -14.4,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -369,
+      "avg_xp_diff": -177,
+      "avg_cs_diff": -12.2,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 43,
-      "avg_xp_diff": 1301,
-      "avg_cs_diff": 15.9,
-      "sample_frames": 13,
-      "advantage": 0
+      "avg_gold_diff": -362,
+      "avg_xp_diff": 2,
+      "avg_cs_diff": -12.9,
+      "sample_frames": 43,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1920,
+      "avg_xp_diff": -1507,
+      "avg_cs_diff": -56.8,
+      "sample_frames": 28,
+      "advantage": -2
     }
   ],
   "champA": "Sion",
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 3.5,
-      "kda": 1.71,
-      "avgDamage": 12414
+      "avgKills": 2.4,
+      "avgDeaths": 4.4,
+      "avgAssists": 8.6,
+      "kda": 2.5,
+      "avgDamage": 18893
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         }
       ],
       "avgKills": 5.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 3.0,
-      "kda": 2.29,
-      "avgDamage": 21355
+      "avgDeaths": 4.2,
+      "avgAssists": 5.0,
+      "kda": 2.38,
+      "avgDamage": 27927
     }
   }
 }
