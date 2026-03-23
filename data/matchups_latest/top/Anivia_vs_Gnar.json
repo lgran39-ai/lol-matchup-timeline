@@ -1,68 +1,119 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:01.353882",
+  "updated_at": "2026-03-23T10:04:46.936259",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -47,
-      "avg_xp_diff": -83,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -29,
+      "avg_xp_diff": -17,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -360,
-      "avg_xp_diff": -485,
-      "avg_cs_diff": -17.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -116,
+      "avg_xp_diff": -185,
+      "avg_cs_diff": -6.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1066,
-      "avg_xp_diff": -1601,
-      "avg_cs_diff": -36.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -401,
+      "avg_xp_diff": -752,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1730,
-      "avg_xp_diff": -2845,
-      "avg_cs_diff": -56.8,
-      "sample_frames": 6,
+      "avg_gold_diff": -623,
+      "avg_xp_diff": -787,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 16,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 207,
+      "avg_xp_diff": 642,
+      "avg_cs_diff": 6.3,
+      "sample_frames": 7,
+      "advantage": 1
     }
   ],
   "champA": "Anivia",
   "champB": "Gnar",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 0.75,
-      "avgDamage": 9705
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 10.0,
+      "kda": 4.0,
+      "avgDamage": 22714
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 2.5,
-      "avgDamage": 18352
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.0,
+      "kda": 2.0,
+      "avgDamage": 18538
     }
   }
 }

@@ -1,68 +1,131 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.425703",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-23T10:04:48.109466",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -135,
-      "avg_xp_diff": -101,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -9,
+      "avg_xp_diff": -29,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -348,
-      "avg_xp_diff": -578,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -238,
+      "avg_xp_diff": -433,
+      "avg_cs_diff": -8.2,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -81,
-      "avg_xp_diff": -443,
-      "avg_cs_diff": -14.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -493,
+      "avg_xp_diff": -1066,
+      "avg_cs_diff": -20.9,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 25,
-      "avg_xp_diff": -628,
-      "avg_cs_diff": -29.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -636,
+      "avg_xp_diff": -1629,
+      "avg_cs_diff": -28.2,
+      "sample_frames": 39,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -290,
+      "avg_xp_diff": -1996,
+      "avg_cs_diff": -34.4,
+      "sample_frames": 9,
+      "advantage": -1
     }
   ],
   "champA": "Rengar",
   "champB": "Rumble",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 4.0,
-      "kda": 5.0,
-      "avgDamage": 11025
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 6.2,
+      "avgAssists": 4.5,
+      "kda": 1.76,
+      "avgDamage": 15829
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 0.0,
-      "kda": 0.25,
-      "avgDamage": 19797
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 5.5,
+      "avgAssists": 6.0,
+      "kda": 1.86,
+      "avgDamage": 22924
     }
   }
 }

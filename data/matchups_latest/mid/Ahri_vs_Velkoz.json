@@ -1,68 +1,118 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.211327",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:46.777292",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -10,
+      "avg_gold_diff": -15,
       "avg_xp_diff": -37,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -8,
-      "avg_xp_diff": -17,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 59,
+      "avg_xp_diff": 38,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -160,
-      "avg_xp_diff": -115,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 128,
+      "avg_xp_diff": 162,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -718,
-      "avg_xp_diff": -180,
-      "avg_cs_diff": 11.7,
-      "sample_frames": 6,
-      "advantage": -2
+      "avg_gold_diff": 1065,
+      "avg_xp_diff": 1512,
+      "avg_cs_diff": 16.0,
+      "sample_frames": 16,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5138,
+      "avg_xp_diff": 5131,
+      "avg_cs_diff": 26.0,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "champA": "Ahri",
   "champB": "Velkoz",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 4.0,
-      "kda": 2.0,
-      "avgDamage": 11763
+      "avgKills": 6.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 9.5,
+      "kda": 5.33,
+      "avgDamage": 28875
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 2.0,
-      "kda": 4.0,
-      "avgDamage": 14785
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.0,
+      "kda": 1.11,
+      "avgDamage": 17542
     }
   }
 }

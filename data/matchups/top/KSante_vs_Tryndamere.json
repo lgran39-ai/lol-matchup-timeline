@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:06:54.159619",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-23T10:04:39.083763",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 125,
-      "avg_xp_diff": 38,
-      "avg_cs_diff": -3.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 43,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 51,
-      "avg_xp_diff": 164,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -159,
+      "avg_xp_diff": 69,
+      "avg_cs_diff": -7.5,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 306,
-      "avg_xp_diff": 337,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -457,
+      "avg_xp_diff": -300,
+      "avg_cs_diff": -13.8,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -203,
-      "avg_xp_diff": 160,
-      "avg_cs_diff": -17.6,
-      "sample_frames": 12,
-      "advantage": -1
+      "avg_gold_diff": -1935,
+      "avg_xp_diff": -853,
+      "avg_cs_diff": -28.4,
+      "sample_frames": 22,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2394,
-      "avg_xp_diff": -2330,
-      "avg_cs_diff": -57.5,
-      "sample_frames": 6,
+      "avg_gold_diff": -4674,
+      "avg_xp_diff": -3605,
+      "avg_cs_diff": -63.8,
+      "sample_frames": 11,
       "advantage": -2
     }
   ],
@@ -58,55 +58,80 @@
         {
           "name": "Iceborn Gauntlet",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 6.3,
+      "avgAssists": 3.7,
+      "kda": 1.37,
+      "avgDamage": 22747
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Phantom Dancer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 7.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 2.5,
-      "kda": 1.9,
-      "avgDamage": 24144
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Ravenous Hydra",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 6.5,
-      "kda": 1.64,
-      "avgDamage": 23936
+      "avgKills": 8.7,
+      "avgDeaths": 6.3,
+      "avgAssists": 6.7,
+      "kda": 2.42,
+      "avgDamage": 31409
     }
   }
 }

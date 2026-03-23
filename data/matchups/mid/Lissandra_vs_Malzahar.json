@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:06:54.440647",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-23T10:04:39.374291",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 68,
-      "avg_xp_diff": 46,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 60,
+      "avg_xp_diff": 43,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 310,
-      "avg_xp_diff": 167,
-      "avg_cs_diff": 8.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 245,
+      "avg_xp_diff": 107,
+      "avg_cs_diff": 6.7,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 252,
-      "avg_xp_diff": 97,
-      "avg_cs_diff": 8.2,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 512,
+      "avg_xp_diff": 211,
+      "avg_cs_diff": 7.5,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 386,
-      "avg_xp_diff": 113,
-      "avg_cs_diff": -1.1,
-      "sample_frames": 18,
-      "advantage": 1
+      "avg_gold_diff": 581,
+      "avg_xp_diff": 277,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
@@ -56,9 +56,15 @@
     "champA": {
       "items": [
         {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
           "name": "Spellslinger's Shoes",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
@@ -66,7 +72,7 @@
         {
           "name": "Electrocute",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
@@ -74,39 +80,46 @@
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 7.0,
-      "kda": 2.88,
-      "avgDamage": 16366
+      "avgKills": 4.0,
+      "avgDeaths": 2.7,
+      "avgAssists": 6.7,
+      "kda": 4.0,
+      "avgDamage": 14723
     },
     "champB": {
       "items": [
         {
           "name": "Blackfire Torch",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.0,
-      "kda": 1.5,
-      "avgDamage": 14507
+      "avgKills": 2.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.3,
+      "kda": 1.12,
+      "avgDamage": 11478
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:58.198094",
+  "updated_at": "2026-03-23T10:04:43.236000",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -56,
-      "avg_xp_diff": 129,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -43,
+      "avg_xp_diff": 85,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 2,
-      "avg_xp_diff": 668,
-      "avg_cs_diff": 9.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -277,
+      "avg_xp_diff": 181,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1385,
-      "avg_xp_diff": 1760,
-      "avg_cs_diff": 24.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -493,
+      "avg_xp_diff": 92,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 435,
-      "avg_xp_diff": 931,
-      "avg_cs_diff": 27.1,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -1948,
+      "avg_xp_diff": -1053,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2250,
-      "avg_xp_diff": -2896,
-      "avg_cs_diff": 35.0,
-      "sample_frames": 4,
+      "avg_gold_diff": -4699,
+      "avg_xp_diff": -4226,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -64,46 +64,114 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 3.0,
-        "kda": 1.43,
-        "avgDamage": 28845
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 7.5,
+        "avgAssists": 5.0,
+        "kda": 1.2,
+        "avgDamage": 22686
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 6.0,
-        "kda": 0.67,
-        "avgDamage": 6973
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 9.5,
+        "avgAssists": 8.0,
+        "kda": 0.89,
+        "avgDamage": 6492
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 12.0,
-        "kda": 1.8,
-        "avgDamage": 23124
+        "avgKills": 7.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 14.5,
+        "kda": 2.93,
+        "avgDamage": 31660
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 21.0,
-        "kda": 23.0,
-        "avgDamage": 9764
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 2.5,
+        "avgAssists": 20.5,
+        "kda": 9.4,
+        "avgDamage": 10782
       }
     }
   }

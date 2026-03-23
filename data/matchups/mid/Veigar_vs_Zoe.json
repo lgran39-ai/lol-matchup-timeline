@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:55.281447",
+  "updated_at": "2026-03-23T10:04:40.230956",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -10,
-      "avg_xp_diff": -11,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -32,
+      "avg_xp_diff": -26,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 47,
-      "avg_xp_diff": 188,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 61,
+      "avg_xp_diff": 191,
+      "avg_cs_diff": -4.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 690,
-      "avg_xp_diff": 847,
-      "avg_cs_diff": 16.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 687,
+      "avg_xp_diff": 890,
+      "avg_cs_diff": 8.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2052,
-      "avg_xp_diff": 2463,
-      "avg_cs_diff": 24.3,
-      "sample_frames": 21,
+      "avg_gold_diff": 1753,
+      "avg_xp_diff": 2098,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 31,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1939,
+      "avg_xp_diff": 3575,
+      "avg_cs_diff": -21.5,
+      "sample_frames": 11,
       "advantage": 2
     }
   ],
@@ -48,48 +57,87 @@
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Cryptbloom",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Summon Aery",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 5.0,
+      "summonerSpells": [
+        {
+          "spells": "Cleanse+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.7,
       "avgDeaths": 2.0,
-      "avgAssists": 5.5,
-      "kda": 5.25,
-      "avgDamage": 15612
+      "avgAssists": 7.0,
+      "kda": 7.33,
+      "avgDamage": 24281
     },
     "champB": {
       "items": [
         {
           "name": "Luden's Echo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         },
         {
           "name": "Crimson Lucidity",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 0.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 3.0,
-      "kda": 1.22,
-      "avgDamage": 11288
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 4.7,
+      "kda": 1.53,
+      "avgDamage": 18415
     }
   }
 }

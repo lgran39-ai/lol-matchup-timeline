@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.464282",
+  "updated_at": "2026-03-23T10:04:48.151918",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 27,
-      "avg_xp_diff": 45,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 19,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 399,
-      "avg_xp_diff": 65,
-      "avg_cs_diff": 12.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 246,
+      "avg_xp_diff": 56,
+      "avg_cs_diff": 6.8,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1279,
-      "avg_xp_diff": 1300,
-      "avg_cs_diff": 32.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 793,
+      "avg_xp_diff": 760,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2158,
-      "avg_xp_diff": 2416,
-      "avg_cs_diff": 49.0,
-      "sample_frames": 2,
+      "avg_gold_diff": 1531,
+      "avg_xp_diff": 1614,
+      "avg_cs_diff": 18.8,
+      "sample_frames": 4,
       "advantage": 2
     }
   ],
@@ -45,24 +45,59 @@
   "champB": "Zilean",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 2.0,
       "avgDeaths": 1.0,
-      "avgAssists": 5.0,
-      "kda": 6.0,
-      "avgDamage": 8713
+      "avgAssists": 5.5,
+      "kda": 7.5,
+      "avgDamage": 8597
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "avgKills": 0.0,
       "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 0.25,
-      "avgDamage": 5740
+      "avgAssists": 2.0,
+      "kda": 0.5,
+      "avgDamage": 6063
     }
   }
 }

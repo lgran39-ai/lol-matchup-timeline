@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.522711",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-23T10:04:47.129326",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -45,
-      "avg_xp_diff": -91,
-      "avg_cs_diff": -2.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -1,
+      "avg_xp_diff": -27,
+      "avg_cs_diff": -2.8,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -310,
-      "avg_xp_diff": -236,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -338,
+      "avg_xp_diff": -385,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 25,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -556,
-      "avg_xp_diff": -780,
-      "avg_cs_diff": -17.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -676,
+      "avg_xp_diff": -921,
+      "avg_cs_diff": -20.7,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1099,
-      "avg_xp_diff": -1843,
-      "avg_cs_diff": -33.7,
-      "sample_frames": 19,
+      "avg_gold_diff": -577,
+      "avg_xp_diff": -1013,
+      "avg_cs_diff": -28.7,
+      "sample_frames": 45,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1769,
+      "avg_xp_diff": -1066,
+      "avg_cs_diff": -23.3,
+      "sample_frames": 9,
+      "advantage": 2
     }
   ],
   "champA": "Camille",
@@ -48,48 +57,81 @@
       "items": [
         {
           "name": "Ravenous Hydra",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 20.0
         },
         {
           "name": "Trinity Force",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 20.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
           "winRate": 0.0
+        },
+        {
+          "spells": "Teleport+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 1.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 1.5,
-      "kda": 0.75,
-      "avgDamage": 17012
+      "avgKills": 4.2,
+      "avgDeaths": 5.4,
+      "avgAssists": 3.2,
+      "kda": 1.37,
+      "avgDamage": 19508
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 100.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 7.5,
-      "kda": 10.5,
-      "avgDamage": 19690
+      "avgKills": 4.2,
+      "avgDeaths": 3.0,
+      "avgAssists": 7.2,
+      "kda": 3.8,
+      "avgDamage": 20045
     }
   }
 }

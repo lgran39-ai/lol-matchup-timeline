@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 3,
+  "sample_size": 4,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:58.112671",
+  "updated_at": "2026-03-23T10:04:43.145046",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -171,
-      "avg_xp_diff": -105,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 15,
+      "avg_gold_diff": -132,
+      "avg_xp_diff": -84,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1048,
-      "avg_xp_diff": -618,
-      "avg_cs_diff": -9.9,
-      "sample_frames": 15,
+      "avg_gold_diff": -1116,
+      "avg_xp_diff": -793,
+      "avg_cs_diff": -10.8,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2606,
-      "avg_xp_diff": -1246,
-      "avg_cs_diff": -27.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -2708,
+      "avg_xp_diff": -1460,
+      "avg_cs_diff": -28.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -5384,
-      "avg_xp_diff": -2705,
-      "avg_cs_diff": -50.0,
-      "sample_frames": 18,
+      "avg_gold_diff": -4635,
+      "avg_xp_diff": -2067,
+      "avg_cs_diff": -42.4,
+      "sample_frames": 28,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1511,
+      "avg_xp_diff": 45,
+      "avg_cs_diff": -24.8,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
@@ -58,7 +67,7 @@
         "items": [
           {
             "name": "Trinity Force",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 0.0
           }
@@ -66,38 +75,44 @@
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
-            "pickRate": 66.7,
+            "count": 3,
+            "pickRate": 75.0,
             "winRate": 0.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
-            "pickRate": 66.7,
+            "count": 3,
+            "pickRate": 75.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 2.3,
-        "avgDeaths": 5.0,
-        "avgAssists": 2.3,
-        "kda": 0.93,
-        "avgDamage": 11376
+        "avgKills": 2.2,
+        "avgDeaths": 6.2,
+        "avgAssists": 3.8,
+        "kda": 0.96,
+        "avgDamage": 14796
       },
       "sup": {
         "items": [
           {
             "name": "Moonstone Renewer",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Shurelya's Battlesong",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 0.0
           }
         ],
         "keystones": [
           {
             "name": "Arcane Comet",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 0.0
           }
@@ -105,16 +120,16 @@
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 0.7,
+        "avgKills": 0.8,
         "avgDeaths": 6.0,
-        "avgAssists": 5.7,
-        "kda": 1.06,
-        "avgDamage": 6720
+        "avgAssists": 8.5,
+        "kda": 1.54,
+        "avgDamage": 8645
       }
     },
     "teamB": {
@@ -122,21 +137,27 @@
         "items": [
           {
             "name": "Essence Reaver",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 100.0
           },
           {
             "name": "Navori Flickerblade",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Infinity Edge",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Press the Attack",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 100.0
           }
@@ -144,30 +165,36 @@
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 100.0
           }
         ],
-        "avgKills": 8.7,
-        "avgDeaths": 3.3,
-        "avgAssists": 4.3,
-        "kda": 3.9,
-        "avgDamage": 22516
+        "avgKills": 8.5,
+        "avgDeaths": 3.8,
+        "avgAssists": 5.0,
+        "kda": 3.6,
+        "avgDamage": 22570
       },
       "sup": {
         "items": [
           {
             "name": "Zeke's Convergence",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 50.0,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Glacial Augment",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 100.0
           }
@@ -175,16 +202,16 @@
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
-            "pickRate": 66.7,
+            "count": 3,
+            "pickRate": 75.0,
             "winRate": 100.0
           }
         ],
-        "avgKills": 0.0,
-        "avgDeaths": 2.3,
-        "avgAssists": 16.0,
-        "kda": 6.86,
-        "avgDamage": 3767
+        "avgKills": 0.2,
+        "avgDeaths": 3.0,
+        "avgAssists": 16.8,
+        "kda": 5.67,
+        "avgDamage": 3895
       }
     }
   }

@@ -1,68 +1,118 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:52.470782",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:37.373323",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -14,
-      "avg_xp_diff": -42,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -111,
+      "avg_xp_diff": -27,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -489,
-      "avg_xp_diff": -79,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -672,
+      "avg_xp_diff": -10,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -381,
-      "avg_xp_diff": 124,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -342,
+      "avg_xp_diff": 129,
+      "avg_cs_diff": -6.1,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -448,
-      "avg_xp_diff": -583,
-      "avg_cs_diff": -1.5,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -244,
+      "avg_xp_diff": -465,
+      "avg_cs_diff": -10.3,
+      "sample_frames": 20,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1286,
+      "avg_xp_diff": 1246,
+      "avg_cs_diff": -13.3,
+      "sample_frames": 6,
+      "advantage": 2
     }
   ],
   "champA": "Aatrox",
   "champB": "Zyra",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 1.0,
-      "avgDamage": 9841
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 6.0,
+      "kda": 1.85,
+      "avgDamage": 17627
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 11.0,
-      "kda": 8.5,
-      "avgDamage": 14947
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 12.0,
+      "kda": 4.75,
+      "avgDamage": 28558
     }
   }
 }

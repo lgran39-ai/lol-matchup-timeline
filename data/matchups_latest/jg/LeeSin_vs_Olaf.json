@@ -1,55 +1,77 @@
 {
   "role": "jg",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:07:02.158787",
+  "updated_at": "2026-03-23T10:04:47.804748",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -92,
-      "avg_xp_diff": 18,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 0,
+      "avg_xp_diff": 4,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 177,
-      "avg_xp_diff": 367,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 199,
+      "avg_xp_diff": 257,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 739,
-      "avg_xp_diff": 1236,
-      "avg_cs_diff": 22.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 773,
+      "avg_xp_diff": 1161,
+      "avg_cs_diff": 20.1,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 796,
-      "avg_xp_diff": 1655,
-      "avg_cs_diff": 30.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 742,
+      "avg_xp_diff": 1792,
+      "avg_cs_diff": 37.6,
+      "sample_frames": 25,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -43,
+      "avg_xp_diff": 2036,
+      "avg_cs_diff": 50.2,
+      "sample_frames": 13,
+      "advantage": 0
     }
   ],
   "champA": "LeeSin",
   "champB": "Olaf",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
@@ -57,33 +79,59 @@
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 6.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.5,
-      "kda": 3.67,
-      "avgDamage": 9205
+      "avgKills": 6.0,
+      "avgDeaths": 3.8,
+      "avgAssists": 8.2,
+      "kda": 3.8,
+      "avgDamage": 17979
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Death's Dance",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 3.5,
-      "kda": 1.78,
-      "avgDamage": 8430
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 5.8,
+      "avgAssists": 4.0,
+      "kda": 1.91,
+      "avgDamage": 16275
     }
   }
 }

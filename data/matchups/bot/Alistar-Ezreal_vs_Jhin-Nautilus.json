@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:55.446147",
+  "updated_at": "2026-03-23T10:04:40.431877",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -185,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": -8.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -78,
+      "avg_xp_diff": 17,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -23,
-      "avg_xp_diff": 284,
-      "avg_cs_diff": -16.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 248,
+      "avg_xp_diff": 230,
+      "avg_cs_diff": -6.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 679,
-      "avg_xp_diff": 1265,
-      "avg_cs_diff": -21.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 1484,
+      "avg_xp_diff": 1169,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2163,
-      "avg_xp_diff": 2427,
-      "avg_cs_diff": -22.0,
-      "sample_frames": 2,
+      "avg_gold_diff": 4663,
+      "avg_xp_diff": 1869,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 12,
       "advantage": 2
     }
   ],
@@ -55,46 +55,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 4.5,
         "avgDeaths": 0.0,
-        "avgAssists": 5.0,
-        "kda": 7.0,
-        "avgDamage": 10663
+        "avgAssists": 7.0,
+        "kda": 23.0,
+        "avgDamage": 17265
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 9.0,
-        "kda": 11.0,
-        "avgDamage": 3582
+        "avgKills": 1.5,
+        "avgDeaths": 1.0,
+        "avgAssists": 15.0,
+        "kda": 16.5,
+        "avgDamage": 4444
       }
     },
     "teamB": {
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 0.0,
-        "kda": 0.0,
-        "avgDamage": 5977
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 0.5,
+        "kda": 0.2,
+        "avgDamage": 9818
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 0.0,
-        "kda": 0.0,
-        "avgDamage": 4304
+        "avgDeaths": 6.5,
+        "avgAssists": 1.0,
+        "kda": 0.15,
+        "avgDamage": 5248
       }
     }
   }

@@ -1,52 +1,43 @@
 {
   "role": "top",
-  "sample_size": 6,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-18T14:05:24.738743",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:38.622755",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -138,
-      "avg_xp_diff": -125,
-      "avg_cs_diff": -3.1,
-      "sample_frames": 30,
+      "avg_gold_diff": -69,
+      "avg_xp_diff": -61,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -703,
-      "avg_xp_diff": -609,
-      "avg_cs_diff": -16.1,
-      "sample_frames": 30,
+      "avg_gold_diff": -808,
+      "avg_xp_diff": -797,
+      "avg_cs_diff": -28.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -969,
-      "avg_xp_diff": -650,
-      "avg_cs_diff": -16.0,
-      "sample_frames": 30,
+      "avg_gold_diff": -1505,
+      "avg_xp_diff": -2192,
+      "avg_cs_diff": -45.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1058,
-      "avg_xp_diff": 234,
-      "avg_cs_diff": -16.1,
-      "sample_frames": 42,
-      "advantage": -2
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": -2432,
-      "avg_xp_diff": 343,
-      "avg_cs_diff": -21.0,
-      "sample_frames": 13,
+      "avg_gold_diff": -3611,
+      "avg_xp_diff": -2629,
+      "avg_cs_diff": -47.7,
+      "sample_frames": 15,
       "advantage": -2
     }
   ],
@@ -54,21 +45,28 @@
   "champB": "Varus",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [
+      "items": [
         {
-          "name": "Fleet Footwork",
+          "name": "Trinity Force",
           "count": 2,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 4.5,
-      "kda": 1.0,
-      "avgDamage": 8334
+      "keystones": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 2.5,
+      "kda": 0.57,
+      "avgDamage": 11058
     },
     "champB": {
       "items": [
@@ -88,11 +86,11 @@
         }
       ],
       "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 1.75,
-      "avgDamage": 14412
+      "avgKills": 9.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.0,
+      "kda": 2.4,
+      "avgDamage": 24947
     }
   }
 }

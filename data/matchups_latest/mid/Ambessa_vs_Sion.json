@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:01.326781",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:46.905904",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 35,
-      "avg_xp_diff": 33,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 46,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 267,
-      "avg_xp_diff": -401,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 365,
+      "avg_xp_diff": -232,
+      "avg_cs_diff": -3.8,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 932,
-      "avg_xp_diff": -252,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 806,
+      "avg_xp_diff": -145,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 779,
-      "avg_xp_diff": -975,
-      "avg_cs_diff": -0.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 1262,
+      "avg_xp_diff": -487,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2386,
-      "avg_xp_diff": 1237,
-      "avg_cs_diff": 16.1,
-      "sample_frames": 8,
+      "avg_gold_diff": 1952,
+      "avg_xp_diff": 9,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 15,
       "advantage": 2
     }
   ],
@@ -54,24 +54,65 @@
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 13.0,
-      "kda": 4.75,
-      "avgDamage": 30393
+      "avgKills": 8.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 9.5,
+      "kda": 3.18,
+      "avgDamage": 33730
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 6.0,
-      "kda": 1.14,
-      "avgDamage": 16046
+      "items": [
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 5.5,
+      "kda": 1.62,
+      "avgDamage": 21051
     }
   }
 }

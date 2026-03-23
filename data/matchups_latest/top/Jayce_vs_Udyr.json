@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:02.008397",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:47.641316",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 56,
-      "avg_xp_diff": 31,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 102,
+      "avg_xp_diff": 55,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 428,
-      "avg_xp_diff": 211,
-      "avg_cs_diff": 14.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 561,
+      "avg_xp_diff": 225,
+      "avg_cs_diff": 10.6,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1582,
-      "avg_xp_diff": 1218,
-      "avg_cs_diff": 34.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 944,
+      "avg_xp_diff": 133,
+      "avg_cs_diff": 14.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1828,
-      "avg_xp_diff": -290,
-      "avg_cs_diff": 25.8,
-      "sample_frames": 8,
+      "avg_gold_diff": 622,
+      "avg_xp_diff": -923,
+      "avg_cs_diff": 9.6,
+      "sample_frames": 38,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 489,
+      "avg_xp_diff": -389,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 25,
       "advantage": 2
     }
   ],
@@ -45,24 +54,90 @@
   "champB": "Udyr",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 0.0,
-      "kda": 0.5,
-      "avgDamage": 17613
+      "items": [
+        {
+          "name": "Serpent's Fang",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 8.8,
+      "avgAssists": 3.0,
+      "kda": 1.06,
+      "avgDamage": 27136
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 2.0,
+      "items": [
+        {
+          "name": "Protoplasm Harness",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 4.2,
       "avgAssists": 5.0,
-      "kda": 3.5,
-      "avgDamage": 6183
+      "kda": 1.88,
+      "avgDamage": 12962
     }
   }
 }

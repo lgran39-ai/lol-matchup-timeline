@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:55.826560",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:40.824989",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 40,
-      "avg_xp_diff": -67,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 66,
+      "avg_xp_diff": -54,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -24,
-      "avg_xp_diff": -138,
-      "avg_cs_diff": -14.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -294,
+      "avg_xp_diff": -466,
+      "avg_cs_diff": -9.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1823,
-      "avg_xp_diff": -1056,
-      "avg_cs_diff": -27.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -1611,
+      "avg_xp_diff": -1024,
+      "avg_cs_diff": -21.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -6033,
-      "avg_xp_diff": -4068,
-      "avg_cs_diff": -44.3,
-      "sample_frames": 11,
+      "avg_gold_diff": -4707,
+      "avg_xp_diff": -3606,
+      "avg_cs_diff": -34.7,
+      "sample_frames": 21,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -5586,
+      "avg_xp_diff": -3844,
+      "avg_cs_diff": -10.2,
+      "sample_frames": 6,
       "advantage": -2
     }
   ],
@@ -55,46 +64,128 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 2.0,
-        "kda": 0.5,
-        "avgDamage": 10836
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 1.5,
+        "kda": 0.57,
+        "avgDamage": 13228
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Rod of Ages",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 6.0,
-        "kda": 1.29,
-        "avgDamage": 11711
+        "avgKills": 2.0,
+        "avgDeaths": 7.5,
+        "avgAssists": 6.5,
+        "kda": 1.13,
+        "avgDamage": 11962
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 18.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 7.0,
-        "kda": 8.33,
-        "avgDamage": 42899
+        "avgKills": 15.0,
+        "avgDeaths": 3.5,
+        "avgAssists": 8.0,
+        "kda": 6.57,
+        "avgDamage": 42198
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 21.0,
-        "kda": 5.25,
-        "avgDamage": 10552
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 18.0,
+        "kda": 3.36,
+        "avgDamage": 11178
       }
     }
   }

@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-21T14:06:55.108560",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-23T10:04:40.058541",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -45,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 20,
+      "avg_gold_diff": -53,
+      "avg_xp_diff": 1,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -511,
-      "avg_xp_diff": -187,
-      "avg_cs_diff": -15.6,
-      "sample_frames": 20,
+      "avg_gold_diff": -508,
+      "avg_xp_diff": -194,
+      "avg_cs_diff": -14.9,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -570,
-      "avg_xp_diff": -119,
-      "avg_cs_diff": -15.4,
-      "sample_frames": 20,
+      "avg_gold_diff": -609,
+      "avg_xp_diff": -219,
+      "avg_cs_diff": -16.4,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1307,
-      "avg_xp_diff": -1154,
-      "avg_cs_diff": -22.9,
-      "sample_frames": 24,
+      "avg_gold_diff": -1249,
+      "avg_xp_diff": -1116,
+      "avg_cs_diff": -24.3,
+      "sample_frames": 34,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -742,
+      "avg_xp_diff": 51,
+      "avg_cs_diff": -23.0,
+      "sample_frames": 2,
       "advantage": -2
     }
   ],
@@ -49,62 +58,74 @@
         {
           "name": "Hollow Radiance",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 60.0,
           "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 25.0
+          "winRate": 40.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 25.0
+          "winRate": 40.0
         }
       ],
-      "avgKills": 1.0,
-      "avgDeaths": 2.8,
-      "avgAssists": 2.0,
-      "kda": 1.09,
-      "avgDamage": 10571
+      "avgKills": 0.8,
+      "avgDeaths": 2.6,
+      "avgAssists": 2.4,
+      "kda": 1.23,
+      "avgDamage": 10340
     },
     "champB": {
       "items": [
         {
           "name": "Liandry's Torment",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spirit Visage",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 75.0
+          "winRate": 60.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 75.0
+          "winRate": 60.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 2.5,
-      "kda": 4.0,
-      "avgDamage": 20256
+      "avgKills": 3.0,
+      "avgDeaths": 1.4,
+      "avgAssists": 2.4,
+      "kda": 3.86,
+      "avgDamage": 19254
     }
   }
 }

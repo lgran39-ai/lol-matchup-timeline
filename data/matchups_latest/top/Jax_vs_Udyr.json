@@ -1,96 +1,143 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-21T14:07:01.961430",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-23T10:04:47.600417",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -175,
-      "avg_xp_diff": -113,
-      "avg_cs_diff": -4.9,
-      "sample_frames": 15,
+      "avg_gold_diff": -162,
+      "avg_xp_diff": -117,
+      "avg_cs_diff": -4.5,
+      "sample_frames": 25,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -700,
-      "avg_xp_diff": -490,
-      "avg_cs_diff": -18.5,
-      "sample_frames": 15,
+      "avg_gold_diff": -728,
+      "avg_xp_diff": -652,
+      "avg_cs_diff": -20.5,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1369,
-      "avg_xp_diff": -1406,
-      "avg_cs_diff": -36.5,
-      "sample_frames": 15,
+      "avg_gold_diff": -1468,
+      "avg_xp_diff": -1685,
+      "avg_cs_diff": -38.3,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2378,
-      "avg_xp_diff": -2683,
-      "avg_cs_diff": -42.0,
-      "sample_frames": 15,
+      "avg_gold_diff": -2062,
+      "avg_xp_diff": -2612,
+      "avg_cs_diff": -41.9,
+      "sample_frames": 31,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 591,
+      "avg_xp_diff": -2091,
+      "avg_cs_diff": -34.1,
+      "sample_frames": 14,
+      "advantage": 2
     }
   ],
   "champA": "Jax",
   "champB": "Udyr",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 2.0,
-      "avgDeaths": 4.7,
-      "avgAssists": 2.0,
-      "kda": 0.86,
-      "avgDamage": 13204
-    },
-    "champB": {
       "items": [
         {
-          "name": "Riftmaker",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 66.7
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 66.7
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 3,
-          "pickRate": 100.0,
-          "winRate": 66.7
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.0,
-      "kda": 2.0,
-      "avgDamage": 15336
+      "avgKills": 2.4,
+      "avgDeaths": 5.8,
+      "avgAssists": 3.0,
+      "kda": 0.93,
+      "avgDamage": 16375
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "avgKills": 4.4,
+      "avgDeaths": 2.2,
+      "avgAssists": 5.6,
+      "kda": 4.55,
+      "avgDamage": 18816
     }
   }
 }

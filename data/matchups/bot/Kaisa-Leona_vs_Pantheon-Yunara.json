@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:59.134620",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:44.069018",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -133,
-      "avg_xp_diff": -121,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -112,
+      "avg_xp_diff": -91,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -82,
-      "avg_xp_diff": -99,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -335,
+      "avg_xp_diff": -294,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -748,
-      "avg_xp_diff": -181,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -880,
+      "avg_xp_diff": -536,
+      "avg_cs_diff": -10.4,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2208,
-      "avg_xp_diff": -1469,
-      "avg_cs_diff": -13.8,
-      "sample_frames": 6,
+      "avg_gold_diff": -874,
+      "avg_xp_diff": 89,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 16,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 642,
+      "avg_xp_diff": 2224,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 6,
+      "advantage": 1
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,107 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 2.0,
-        "kda": 1.25,
-        "avgDamage": 7343
+        "avgKills": 10.0,
+        "avgDeaths": 5.5,
+        "avgAssists": 6.0,
+        "kda": 2.91,
+        "avgDamage": 28038
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 6.0,
-        "kda": 1.33,
-        "avgDamage": 6700
+        "avgKills": 1.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 14.0,
+        "kda": 2.14,
+        "avgDamage": 8554
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 4.0,
-        "kda": 11.0,
-        "avgDamage": 14175
+        "avgKills": 6.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 8.5,
+        "kda": 2.42,
+        "avgDamage": 21221
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 11.0,
-        "kda": 2.2,
-        "avgDamage": 9558
+        "keystones": [
+          {
+            "name": "Conqueror",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 13.5,
+        "kda": 2.54,
+        "avgDamage": 16032
       }
     }
   }

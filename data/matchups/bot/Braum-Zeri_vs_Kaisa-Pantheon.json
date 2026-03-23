@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:57.319629",
+  "updated_at": "2026-03-23T10:04:42.357680",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 763,
-      "avg_xp_diff": 121,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 296,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 2207,
-      "avg_xp_diff": 763,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 645,
+      "avg_xp_diff": 123,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 3749,
-      "avg_xp_diff": 543,
-      "avg_cs_diff": 12.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1642,
+      "avg_xp_diff": 359,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4052,
-      "avg_xp_diff": 1133,
-      "avg_cs_diff": 21.3,
-      "sample_frames": 7,
+      "avg_gold_diff": 1019,
+      "avg_xp_diff": 796,
+      "avg_cs_diff": 5.1,
+      "sample_frames": 17,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1372,
+      "avg_xp_diff": 4526,
+      "avg_cs_diff": 9.0,
+      "sample_frames": 2,
       "advantage": 2
     }
   ],
@@ -55,46 +64,108 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 1.0,
-        "kda": 3.67,
-        "avgDamage": 20439
+        "avgKills": 9.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 6.5,
+        "kda": 3.2,
+        "avgDamage": 23050
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 14.0,
-        "kda": 14.0,
-        "avgDamage": 4828
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 19.0,
+        "kda": 3.9,
+        "avgDamage": 5845
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 1.0,
-        "kda": 0.5,
-        "avgDamage": 7218
+        "avgKills": 7.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 3.0,
+        "kda": 1.25,
+        "avgDamage": 14004
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Umbral Glaive",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 4.0,
-        "kda": 1.6,
-        "avgDamage": 10429
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 9.0,
+        "kda": 1.67,
+        "avgDamage": 12955
       }
     }
   }

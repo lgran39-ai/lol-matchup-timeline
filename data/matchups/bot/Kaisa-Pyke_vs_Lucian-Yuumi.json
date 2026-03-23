@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:59.220742",
+  "updated_at": "2026-03-23T10:04:44.162228",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 290,
-      "avg_xp_diff": 51,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 234,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 545,
-      "avg_xp_diff": 221,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 847,
+      "avg_xp_diff": 246,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -764,
-      "avg_xp_diff": -272,
-      "avg_cs_diff": -11.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 1064,
+      "avg_xp_diff": 430,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 976,
-      "avg_xp_diff": -167,
-      "avg_cs_diff": -35.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 5049,
+      "avg_xp_diff": 2612,
+      "avg_cs_diff": 6.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
@@ -64,46 +64,122 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 11.0,
-        "kda": 3.14,
-        "avgDamage": 29973
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 15.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 9.0,
+        "kda": 5.33,
+        "avgDamage": 29666
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 17.0,
-        "kda": 4.8,
-        "avgDamage": 14107
+        "items": [
+          {
+            "name": "Edge of Night",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Hail of Blades",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 18.0,
+        "kda": 4.08,
+        "avgDamage": 12692
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 7.0,
-        "kda": 2.57,
-        "avgDamage": 42604
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 8.5,
+        "avgDeaths": 10.0,
+        "avgAssists": 5.5,
+        "kda": 1.4,
+        "avgDamage": 31438
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 18.0,
-        "kda": 3.8,
-        "avgDamage": 6624
+        "avgKills": 2.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 13.5,
+        "kda": 2.21,
+        "avgDamage": 5678
       }
     }
   }

@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:06:52.950445",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-23T10:04:37.856228",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 176,
-      "avg_xp_diff": 163,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 147,
+      "avg_xp_diff": 118,
+      "avg_cs_diff": 6.1,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 531,
-      "avg_xp_diff": 866,
-      "avg_cs_diff": 25.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 518,
+      "avg_xp_diff": 660,
+      "avg_cs_diff": 21.5,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1211,
-      "avg_xp_diff": 1574,
-      "avg_cs_diff": 43.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 1161,
+      "avg_xp_diff": 1365,
+      "avg_cs_diff": 36.1,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 150,
-      "avg_xp_diff": 616,
-      "avg_cs_diff": 38.1,
-      "sample_frames": 7,
-      "advantage": 0
+      "avg_gold_diff": 1055,
+      "avg_xp_diff": 683,
+      "avg_cs_diff": 34.8,
+      "sample_frames": 19,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2308,
+      "avg_xp_diff": -885,
+      "avg_cs_diff": 33.7,
+      "sample_frames": 3,
+      "advantage": 2
     }
   ],
   "champA": "Aurora",
@@ -48,62 +57,81 @@
       "items": [
         {
           "name": "Hextech Rocketbelt",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 75.0
         },
         {
           "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 50.0,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 75.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 2.5,
+      "avgAssists": 4.0,
+      "kda": 4.1,
+      "avgDamage": 18140
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Chainlaced Crushers",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 2.0,
-      "kda": 1.71,
-      "avgDamage": 12752
-    },
-    "champB": {
-      "items": [],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 5.5,
-      "avgAssists": 3.5,
-      "kda": 1.45,
-      "avgDamage": 7394
+      "avgKills": 3.5,
+      "avgDeaths": 4.8,
+      "avgAssists": 3.8,
+      "kda": 1.53,
+      "avgDamage": 9564
     }
   }
 }

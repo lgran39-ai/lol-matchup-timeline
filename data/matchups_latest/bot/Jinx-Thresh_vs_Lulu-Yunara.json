@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:03.601718",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-23T10:04:49.601129",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 96,
-      "avg_xp_diff": -120,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -16,
+      "avg_xp_diff": -60,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1041,
-      "avg_xp_diff": 558,
-      "avg_cs_diff": 22.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -177,
+      "avg_xp_diff": -157,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1521,
-      "avg_xp_diff": 916,
-      "avg_cs_diff": 41.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -607,
+      "avg_xp_diff": -292,
+      "avg_cs_diff": 4.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2570,
-      "avg_xp_diff": 1518,
-      "avg_cs_diff": 40.3,
-      "sample_frames": 6,
-      "advantage": 2
+      "avg_gold_diff": -1194,
+      "avg_xp_diff": -590,
+      "avg_cs_diff": -5.4,
+      "sample_frames": 27,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -642,
+      "avg_xp_diff": -862,
+      "avg_cs_diff": -39.3,
+      "sample_frames": 11,
+      "advantage": -1
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,153 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 4.0,
-        "kda": 2.75,
-        "avgDamage": 19154
+        "items": [
+          {
+            "name": "Phantom Dancer",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.7,
+        "avgDeaths": 7.0,
+        "avgAssists": 10.0,
+        "kda": 2.38,
+        "avgDamage": 23117
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 7.0,
-        "kda": 2.5,
-        "avgDamage": 6384
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.3,
+        "avgDeaths": 6.3,
+        "avgAssists": 14.7,
+        "kda": 2.68,
+        "avgDamage": 6771
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 7.0,
-        "kda": 2.0,
-        "avgDamage": 13175
+        "avgKills": 9.7,
+        "avgDeaths": 7.3,
+        "avgAssists": 7.3,
+        "kda": 2.32,
+        "avgDamage": 32598
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Ardent Censer",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
         "avgKills": 2.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 9.0,
-        "kda": 2.2,
-        "avgDamage": 5875
+        "avgDeaths": 4.7,
+        "avgAssists": 15.3,
+        "kda": 3.71,
+        "avgDamage": 9239
       }
     }
   }

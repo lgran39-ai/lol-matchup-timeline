@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.526363",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:48.219372",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -76,
-      "avg_xp_diff": 37,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -107,
+      "avg_xp_diff": -39,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -442,
-      "avg_xp_diff": -436,
-      "avg_cs_diff": -22.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -550,
+      "avg_xp_diff": -820,
+      "avg_cs_diff": -27.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -850,
-      "avg_xp_diff": -896,
-      "avg_cs_diff": -26.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1271,
+      "avg_xp_diff": -1308,
+      "avg_cs_diff": -43.9,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -417,
-      "avg_xp_diff": 708,
-      "avg_cs_diff": -22.7,
-      "sample_frames": 9,
+      "avg_gold_diff": -926,
+      "avg_xp_diff": 192,
+      "avg_cs_diff": -31.3,
+      "sample_frames": 11,
       "advantage": -2
     }
   ],
@@ -45,24 +45,45 @@
   "champB": "Tristana",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 11.0,
-      "kda": 2.8,
-      "avgDamage": 19816
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 6.0,
+      "kda": 1.54,
+      "avgDamage": 14657
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 3.0,
-      "kda": 1.0,
-      "avgDamage": 21721
+      "avgKills": 5.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.5,
+      "kda": 1.8,
+      "avgDamage": 19138
     }
   }
 }

@@ -1,68 +1,98 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:01.334521",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:46.915132",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 42,
-      "avg_xp_diff": 93,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -22,
+      "avg_xp_diff": 36,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 635,
-      "avg_xp_diff": 540,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 177,
+      "avg_xp_diff": 287,
+      "avg_cs_diff": -8.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1980,
-      "avg_xp_diff": 2461,
-      "avg_cs_diff": 12.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 303,
+      "avg_xp_diff": 524,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3105,
-      "avg_xp_diff": 3343,
-      "avg_cs_diff": 36.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 470,
+      "avg_xp_diff": 580,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 20,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1194,
+      "avg_xp_diff": -807,
+      "avg_cs_diff": -27.4,
+      "sample_frames": 20,
+      "advantage": -2
     }
   ],
   "champA": "Ambessa",
   "champB": "Varus",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 6.0,
-      "kda": 6.5,
-      "avgDamage": 23848
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 6.5,
+      "avgAssists": 5.5,
+      "kda": 1.69,
+      "avgDamage": 27004
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 3.0,
-      "kda": 0.4,
-      "avgDamage": 13310
+      "avgKills": 4.0,
+      "avgDeaths": 11.0,
+      "avgAssists": 4.0,
+      "kda": 0.73,
+      "avgDamage": 31280
     }
   }
 }

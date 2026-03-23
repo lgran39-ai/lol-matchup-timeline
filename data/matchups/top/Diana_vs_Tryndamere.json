@@ -1,44 +1,44 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:53.294863",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:38.211651",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 35,
-      "avg_xp_diff": 99,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -65,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 570,
-      "avg_xp_diff": 490,
-      "avg_cs_diff": 17.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -95,
+      "avg_xp_diff": -110,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1279,
-      "avg_xp_diff": 992,
-      "avg_cs_diff": 28.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 49,
+      "avg_xp_diff": -121,
+      "avg_cs_diff": 7.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2613,
-      "avg_xp_diff": 1861,
-      "avg_cs_diff": 26.9,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -190,
+      "avg_xp_diff": 46,
+      "avg_cs_diff": 13.2,
+      "sample_frames": 21,
+      "advantage": -1
     },
     {
       "phase": "25min+",
@@ -54,24 +54,59 @@
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 9.0,
-      "kda": 16.0,
-      "avgDamage": 29329
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 5.0,
+      "kda": 3.6,
+      "avgDamage": 22443
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 0.25,
-      "avgDamage": 6671
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 2.5,
+      "kda": 2.33,
+      "avgDamage": 13376
     }
   }
 }

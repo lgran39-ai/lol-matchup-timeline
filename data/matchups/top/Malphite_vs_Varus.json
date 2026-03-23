@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 75.0,
-  "updated_at": "2026-03-21T14:06:54.519134",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:39.454275",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -160,
-      "avg_xp_diff": -60,
-      "avg_cs_diff": -7.7,
-      "sample_frames": 20,
+      "avg_gold_diff": -151,
+      "avg_xp_diff": -49,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 30,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -477,
-      "avg_xp_diff": -42,
-      "avg_cs_diff": -24.2,
-      "sample_frames": 20,
+      "avg_gold_diff": -465,
+      "avg_xp_diff": -20,
+      "avg_cs_diff": -20.7,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -512,
-      "avg_xp_diff": -134,
-      "avg_cs_diff": -35.9,
-      "sample_frames": 20,
+      "avg_gold_diff": -553,
+      "avg_xp_diff": -208,
+      "avg_cs_diff": -30.5,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -225,
-      "avg_xp_diff": 596,
-      "avg_cs_diff": -42.9,
-      "sample_frames": 25,
-      "advantage": -1
+      "avg_gold_diff": -474,
+      "avg_xp_diff": 335,
+      "avg_cs_diff": -39.8,
+      "sample_frames": 37,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -856,
+      "avg_xp_diff": 299,
+      "avg_cs_diff": -38.4,
+      "sample_frames": 14,
+      "advantage": -2
     }
   ],
   "champA": "Malphite",
@@ -47,76 +56,88 @@
     "champA": {
       "items": [
         {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
           "name": "Sunfire Aegis",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 33.3,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 4,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 75.0
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 4,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 75.0
+          "winRate": 50.0
         }
       ],
-      "avgKills": 2.2,
-      "avgDeaths": 1.2,
-      "avgAssists": 3.2,
-      "kda": 4.4,
-      "avgDamage": 9768
+      "avgKills": 2.5,
+      "avgDeaths": 2.8,
+      "avgAssists": 3.8,
+      "kda": 2.24,
+      "avgDamage": 11640
     },
     "champB": {
       "items": [
         {
           "name": "Dusk and Dawn",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 0.0
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
         },
         {
           "name": "Nashor's Tooth",
-          "count": 2,
+          "count": 3,
           "pickRate": 50.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 0.0
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 50.0,
-          "winRate": 50.0
+          "winRate": 66.7
         },
         {
           "spells": "Flash+Barrier",
-          "count": 2,
+          "count": 3,
           "pickRate": 50.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 1.2,
-      "avgDeaths": 4.2,
-      "avgAssists": 1.0,
-      "kda": 0.53,
-      "avgDamage": 13442
+      "avgKills": 3.7,
+      "avgDeaths": 4.8,
+      "avgAssists": 2.5,
+      "kda": 1.28,
+      "avgDamage": 17689
     }
   }
 }

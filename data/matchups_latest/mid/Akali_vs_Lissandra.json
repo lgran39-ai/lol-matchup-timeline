@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 6,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-21T14:07:01.233053",
+  "sample_size": 8,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-23T10:04:46.802241",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -19,
-      "avg_xp_diff": 10,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 30,
+      "avg_gold_diff": -46,
+      "avg_xp_diff": -15,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -27,
-      "avg_xp_diff": -34,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 30,
+      "avg_gold_diff": -122,
+      "avg_xp_diff": -86,
+      "avg_cs_diff": -8.2,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 122,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": -14.2,
-      "sample_frames": 30,
+      "avg_gold_diff": 39,
+      "avg_xp_diff": -35,
+      "avg_cs_diff": -13.1,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -323,
-      "avg_xp_diff": -707,
-      "avg_cs_diff": -31.5,
-      "sample_frames": 35,
+      "avg_gold_diff": -250,
+      "avg_xp_diff": -349,
+      "avg_cs_diff": -20.5,
+      "sample_frames": 55,
       "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1332,
+      "avg_xp_diff": -1089,
+      "avg_cs_diff": -16.2,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "champA": "Akali",
@@ -49,110 +58,128 @@
         {
           "name": "Chainlaced Crushers",
           "count": 5,
-          "pickRate": 83.3,
+          "pickRate": 62.5,
           "winRate": 20.0
         },
         {
           "name": "Shadowflame",
-          "count": 3,
-          "pickRate": 50.0,
-          "winRate": 33.3
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 20.0
         },
         {
           "name": "Hextech Gunblade",
-          "count": 3,
+          "count": 4,
           "pickRate": 50.0,
-          "winRate": 33.3
+          "winRate": 25.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 6,
+          "count": 8,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 25.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
+          "count": 4,
           "pickRate": 50.0,
-          "winRate": 33.3
+          "winRate": 25.0
         },
         {
           "spells": "Flash+Ignite",
           "count": 3,
-          "pickRate": 50.0,
+          "pickRate": 37.5,
           "winRate": 33.3
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 4.2,
-      "avgAssists": 2.7,
-      "kda": 1.6,
-      "avgDamage": 12792
+      "avgKills": 3.6,
+      "avgDeaths": 4.9,
+      "avgAssists": 2.5,
+      "kda": 1.26,
+      "avgDamage": 14169
     },
     "champB": {
       "items": [
         {
           "name": "Spellslinger's Shoes",
-          "count": 4,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 60.0
         },
         {
           "name": "Malignance",
-          "count": 3,
+          "count": 4,
           "pickRate": 50.0,
-          "winRate": 33.3
+          "winRate": 50.0
         },
         {
           "name": "Hextech Rocketbelt",
-          "count": 3,
+          "count": 4,
           "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 25.0,
           "winRate": 100.0
         },
         {
           "name": "Banshee's Veil",
           "count": 2,
-          "pickRate": 33.3,
+          "pickRate": 25.0,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 3,
+          "count": 4,
           "pickRate": 50.0,
-          "winRate": 66.7
+          "winRate": 75.0
         },
         {
           "name": "Electrocute",
-          "count": 3,
+          "count": 4,
           "pickRate": 50.0,
-          "winRate": 66.7
+          "winRate": 75.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 4,
-          "pickRate": 66.7,
-          "winRate": 75.0
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 80.0
         },
         {
           "spells": "Flash+Ignite",
-          "count": 2,
-          "pickRate": 33.3,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 3.3,
-      "avgAssists": 7.2,
-      "kda": 3.05,
-      "avgDamage": 15229
+      "avgKills": 3.5,
+      "avgDeaths": 3.9,
+      "avgAssists": 7.6,
+      "kda": 2.87,
+      "avgDamage": 16517
     }
   }
 }

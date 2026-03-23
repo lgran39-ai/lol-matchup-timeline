@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:02.005518",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:47.638481",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -6,
-      "avg_xp_diff": 10,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -29,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 348,
-      "avg_xp_diff": 339,
-      "avg_cs_diff": 21.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 385,
+      "avg_xp_diff": 412,
+      "avg_cs_diff": 19.9,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 301,
-      "avg_xp_diff": 222,
-      "avg_cs_diff": 32.8,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 527,
+      "avg_xp_diff": 435,
+      "avg_cs_diff": 30.1,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 285,
-      "avg_xp_diff": 76,
-      "avg_cs_diff": 37.4,
-      "sample_frames": 9,
-      "advantage": 1
+      "avg_gold_diff": 618,
+      "avg_xp_diff": 254,
+      "avg_cs_diff": 33.2,
+      "sample_frames": 21,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 476,
+      "avg_xp_diff": -261,
+      "avg_cs_diff": 36.3,
+      "sample_frames": 3,
+      "advantage": 2
     }
   ],
   "champA": "Jayce",
@@ -48,41 +57,75 @@
       "items": [
         {
           "name": "Youmuu's Ghostblade",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         },
         {
           "name": "Armored Advance",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
       "avgDeaths": 4.5,
-      "avgAssists": 2.5,
-      "kda": 1.22,
-      "avgDamage": 17920
+      "avgAssists": 3.5,
+      "kda": 1.78,
+      "avgDamage": 19473
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 50.0
         }
       ],
-      "avgKills": 5.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 1.5,
-      "kda": 2.0,
-      "avgDamage": 9530
+      "avgKills": 4.8,
+      "avgDeaths": 4.8,
+      "avgAssists": 3.2,
+      "kda": 1.68,
+      "avgDamage": 11828
     }
   }
 }

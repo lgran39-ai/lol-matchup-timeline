@@ -1,82 +1,125 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:07:01.502475",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-23T10:04:47.105608",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -38,
-      "avg_xp_diff": -84,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -28,
+      "avg_xp_diff": -68,
+      "avg_cs_diff": -2.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -216,
-      "avg_xp_diff": -109,
-      "avg_cs_diff": -5.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -256,
+      "avg_xp_diff": -133,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -279,
-      "avg_xp_diff": -170,
-      "avg_cs_diff": -0.3,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -463,
+      "avg_xp_diff": -264,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 127,
-      "avg_xp_diff": -837,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -600,
+      "avg_xp_diff": -1148,
+      "avg_cs_diff": -8.2,
+      "sample_frames": 25,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3792,
+      "avg_xp_diff": -3489,
+      "avg_cs_diff": -40.1,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "champA": "Briar",
   "champB": "Nunu",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 4.0,
-      "kda": 2.0,
-      "avgDamage": 9194
+      "avgKills": 2.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 5.7,
+      "kda": 1.41,
+      "avgDamage": 9823
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Smite",
+          "name": "Hextech Rocketbelt",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 11.0,
-      "kda": 9.67,
-      "avgDamage": 8330
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 3.3,
+      "avgAssists": 13.7,
+      "kda": 5.4,
+      "avgDamage": 9915
     }
   }
 }

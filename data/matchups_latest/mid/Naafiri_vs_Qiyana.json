@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:02.268948",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-23T10:04:47.926008",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 155,
-      "avg_xp_diff": 38,
-      "avg_cs_diff": 5.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 18,
+      "avg_xp_diff": 18,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 617,
-      "avg_xp_diff": 568,
-      "avg_cs_diff": 23.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -9,
+      "avg_xp_diff": 455,
+      "avg_cs_diff": 18.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 489,
-      "avg_xp_diff": 808,
-      "avg_cs_diff": 31.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -475,
+      "avg_xp_diff": 322,
+      "avg_cs_diff": 21.7,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -844,
-      "avg_xp_diff": -220,
-      "avg_cs_diff": 33.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -971,
+      "avg_xp_diff": 60,
+      "avg_cs_diff": 20.7,
+      "sample_frames": 30,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2403,
+      "avg_xp_diff": -1240,
+      "avg_cs_diff": -35.9,
+      "sample_frames": 16,
       "advantage": -2
     }
   ],
@@ -45,24 +54,84 @@
   "champB": "Qiyana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 6.0,
-      "kda": 1.14,
-      "avgDamage": 18097
+      "items": [
+        {
+          "name": "Edge of Night",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 7.7,
+      "avgAssists": 6.7,
+      "kda": 1.48,
+      "avgDamage": 22404
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 7.0,
-      "kda": 2.17,
-      "avgDamage": 18232
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 10.7,
+      "avgDeaths": 5.7,
+      "avgAssists": 9.3,
+      "kda": 3.53,
+      "avgDamage": 30101
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:07:01.712541",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-23T10:04:47.351883",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -95,
-      "avg_xp_diff": -53,
-      "avg_cs_diff": -1.9,
-      "sample_frames": 20,
+      "avg_gold_diff": -59,
+      "avg_xp_diff": -58,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -334,
-      "avg_xp_diff": -139,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 20,
+      "avg_gold_diff": -231,
+      "avg_xp_diff": -241,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 25,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -235,
-      "avg_xp_diff": 55,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": -46,
+      "avg_xp_diff": -37,
+      "avg_cs_diff": -9.0,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -351,
-      "avg_xp_diff": -218,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 29,
-      "advantage": -1
+      "avg_gold_diff": -41,
+      "avg_xp_diff": 39,
+      "avg_cs_diff": -12.0,
+      "sample_frames": 39,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2232,
-      "avg_xp_diff": -2471,
-      "avg_cs_diff": -39.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -1106,
+      "avg_xp_diff": -1340,
+      "avg_cs_diff": -30.5,
+      "sample_frames": 4,
       "advantage": -2
     }
   ],
@@ -56,72 +56,78 @@
     "champA": {
       "items": [
         {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
           "name": "Hollow Radiance",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 60.0,
           "winRate": 33.3
         },
         {
           "name": "Chainlaced Crushers",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 60.0,
           "winRate": 33.3
-        },
-        {
-          "name": "Hextech Rocketbelt",
-          "count": 2,
-          "pickRate": 50.0,
-          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 60.0,
           "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
         }
       ],
-      "avgKills": 1.5,
-      "avgDeaths": 3.8,
-      "avgAssists": 5.8,
-      "kda": 1.93,
-      "avgDamage": 9568
+      "avgKills": 3.0,
+      "avgDeaths": 3.2,
+      "avgAssists": 7.0,
+      "kda": 3.12,
+      "avgDamage": 11128
     },
     "champB": {
       "items": [
         {
           "name": "Crimson Lucidity",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 33.3
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
         },
         {
           "name": "Rylai's Crystal Scepter",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 2,
-          "pickRate": 50.0,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
         },
         {
           "name": "Summon Aery",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
@@ -129,15 +135,15 @@
         {
           "spells": "Flash+Ghost",
           "count": 4,
-          "pickRate": 100.0,
+          "pickRate": 80.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 2.2,
-      "avgDeaths": 4.2,
-      "avgAssists": 6.0,
-      "kda": 1.94,
-      "avgDamage": 13907
+      "avgKills": 3.0,
+      "avgDeaths": 4.6,
+      "avgAssists": 5.4,
+      "kda": 1.83,
+      "avgDamage": 16027
     }
   }
 }

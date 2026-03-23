@@ -1,43 +1,43 @@
 {
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.490715",
+  "updated_at": "2026-03-23T10:04:47.091111",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -108,
-      "avg_xp_diff": 2,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": 56,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -200,
-      "avg_xp_diff": 228,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 83,
+      "avg_xp_diff": 303,
+      "avg_cs_diff": 4.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1262,
-      "avg_xp_diff": -522,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -550,
+      "avg_xp_diff": -25,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1367,
-      "avg_xp_diff": -924,
-      "avg_cs_diff": -7.5,
-      "sample_frames": 2,
+      "avg_gold_diff": -773,
+      "avg_xp_diff": -496,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 10,
       "advantage": -2
     }
   ],
@@ -47,22 +47,50 @@
     "champA": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 2.0,
-      "kda": 1.0,
-      "avgDamage": 4227
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 3.0,
+      "kda": 1.29,
+      "avgDamage": 8418
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 5.0,
-      "kda": 8.0,
-      "avgDamage": 5395
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 1.5,
+      "avgAssists": 6.0,
+      "kda": 6.67,
+      "avgDamage": 8137
     }
   }
 }

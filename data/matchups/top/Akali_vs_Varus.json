@@ -1,42 +1,51 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:52.601671",
+  "updated_at": "2026-03-23T10:04:37.505054",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -52,
-      "avg_xp_diff": -115,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -80,
+      "avg_xp_diff": -26,
+      "avg_cs_diff": -4.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 75,
-      "avg_xp_diff": -20,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 139,
+      "avg_xp_diff": 442,
+      "avg_cs_diff": -6.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 778,
-      "avg_xp_diff": 1429,
-      "avg_cs_diff": -7.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 696,
+      "avg_xp_diff": 1395,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1694,
-      "avg_xp_diff": 2630,
-      "avg_cs_diff": 9.0,
+      "avg_gold_diff": 2238,
+      "avg_xp_diff": 3154,
+      "avg_cs_diff": 15.9,
+      "sample_frames": 14,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4204,
+      "avg_xp_diff": 4986,
+      "avg_cs_diff": 0.0,
       "sample_frames": 2,
       "advantage": 2
     }
@@ -45,24 +54,59 @@
   "champB": "Varus",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 0.0,
-      "kda": 4.0,
-      "avgDamage": 9390
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 1.0,
+      "avgAssists": 5.3,
+      "kda": 11.67,
+      "avgDamage": 18150
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 4.0,
+      "avgKills": 1.0,
+      "avgDeaths": 6.3,
       "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 7433
+      "kda": 0.16,
+      "avgDamage": 8925
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:01.673773",
+  "updated_at": "2026-03-23T10:04:47.310617",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -337,
-      "avg_xp_diff": -167,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -215,
+      "avg_xp_diff": -94,
+      "avg_cs_diff": -6.1,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -779,
-      "avg_xp_diff": -498,
-      "avg_cs_diff": -27.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -458,
+      "avg_xp_diff": -205,
+      "avg_cs_diff": -17.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1338,
-      "avg_xp_diff": -1684,
-      "avg_cs_diff": -46.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 7,
+      "avg_xp_diff": -28,
+      "avg_cs_diff": -18.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2866,
-      "avg_xp_diff": -1517,
-      "avg_cs_diff": -52.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 13,
+      "avg_xp_diff": -65,
+      "avg_cs_diff": -27.2,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3972,
-      "avg_xp_diff": -1598,
-      "avg_cs_diff": -84.5,
-      "sample_frames": 6,
+      "avg_gold_diff": -532,
+      "avg_xp_diff": 38,
+      "avg_cs_diff": -53.2,
+      "sample_frames": 10,
       "advantage": -2
     }
   ],
@@ -54,24 +54,58 @@
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 1.67,
-      "avgDamage": 15273
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 9.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.5,
+      "kda": 3.0,
+      "avgDamage": 28508
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 5.0,
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 7.5,
       "avgAssists": 3.0,
-      "kda": 2.2,
-      "avgDamage": 20249
+      "kda": 1.27,
+      "avgDamage": 20264
     }
   }
 }

@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.947667",
+  "updated_at": "2026-03-23T10:04:48.705111",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 37,
-      "avg_xp_diff": 68,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 53,
+      "avg_xp_diff": 91,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 164,
-      "avg_xp_diff": 299,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -39,
+      "avg_xp_diff": 302,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1273,
-      "avg_xp_diff": 1303,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1328,
+      "avg_xp_diff": 1246,
+      "avg_cs_diff": 15.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1883,
-      "avg_xp_diff": 1928,
-      "avg_cs_diff": 12.1,
-      "sample_frames": 9,
+      "avg_gold_diff": 2629,
+      "avg_xp_diff": 2861,
+      "avg_cs_diff": 29.3,
+      "sample_frames": 19,
       "advantage": 2
     }
   ],
@@ -55,46 +55,108 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Stormrazor",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 9.0,
-        "kda": 12.0,
-        "avgDamage": 19082
+        "avgKills": 3.5,
+        "avgDeaths": 0.5,
+        "avgAssists": 8.5,
+        "kda": 24.0,
+        "avgDamage": 21782
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 12.0,
-        "kda": 14.0,
-        "avgDamage": 8519
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 2.5,
+        "avgAssists": 11.0,
+        "kda": 5.0,
+        "avgDamage": 7608
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.0,
         "avgDeaths": 2.0,
         "avgAssists": 2.0,
-        "kda": 2.0,
-        "avgDamage": 13682
+        "kda": 2.5,
+        "avgDamage": 18568
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 0.0,
         "avgDeaths": 5.0,
-        "avgAssists": 6.0,
-        "kda": 1.2,
-        "avgDamage": 4691
+        "avgAssists": 5.5,
+        "kda": 1.1,
+        "avgDamage": 4260
       }
     }
   }

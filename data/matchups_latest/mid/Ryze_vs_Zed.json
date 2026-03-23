@@ -1,68 +1,137 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:02.463507",
+  "updated_at": "2026-03-23T10:04:48.151068",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -33,
-      "avg_xp_diff": 9,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 32,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -306,
-      "avg_xp_diff": -134,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 11,
+      "avg_xp_diff": -69,
+      "avg_cs_diff": 6.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1020,
-      "avg_xp_diff": -43,
-      "avg_cs_diff": -19.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -288,
+      "avg_xp_diff": 40,
+      "avg_cs_diff": 5.2,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3420,
-      "avg_xp_diff": -1600,
-      "avg_cs_diff": -39.7,
-      "sample_frames": 6,
+      "avg_gold_diff": -1164,
+      "avg_xp_diff": 13,
+      "avg_cs_diff": 5.1,
+      "sample_frames": 18,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -278,
+      "avg_xp_diff": 1741,
+      "avg_cs_diff": 48.7,
+      "sample_frames": 3,
+      "advantage": -1
     }
   ],
   "champA": "Ryze",
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 1.25,
-      "avgDamage": 8956
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 1.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 2.3,
+      "kda": 1.2,
+      "avgDamage": 9463
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 6.0,
-      "kda": 2.75,
-      "avgDamage": 19290
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 2.7,
+      "avgAssists": 5.0,
+      "kda": 3.25,
+      "avgDamage": 16481
     }
   }
 }

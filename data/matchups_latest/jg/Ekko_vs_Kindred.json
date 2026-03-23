@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:07:01.606181",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-23T10:04:47.233034",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 45,
-      "avg_xp_diff": 81,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 5,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -152,
-      "avg_xp_diff": 162,
-      "avg_cs_diff": 9.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -171,
+      "avg_xp_diff": 236,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -555,
-      "avg_xp_diff": 777,
-      "avg_cs_diff": 18.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -491,
+      "avg_xp_diff": 729,
+      "avg_cs_diff": 20.7,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 204,
-      "avg_xp_diff": 1935,
-      "avg_cs_diff": 27.2,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": -214,
+      "avg_xp_diff": 1092,
+      "avg_cs_diff": 20.1,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1519,
-      "avg_xp_diff": 1053,
-      "avg_cs_diff": 11.5,
-      "sample_frames": 18,
+      "avg_gold_diff": -1992,
+      "avg_xp_diff": 173,
+      "avg_cs_diff": 7.0,
+      "sample_frames": 22,
       "advantage": -2
     }
   ],
@@ -56,56 +56,100 @@
     "champA": {
       "items": [
         {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
           "name": "Rabadon's Deathcap",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         },
         {
           "name": "Dusk and Dawn",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.3,
+      "kda": 3.08,
+      "avgDamage": 18768
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 7.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 5.0,
-      "kda": 3.57,
-      "avgDamage": 19304
-    },
-    "champB": {
-      "items": [],
       "keystones": [
         {
           "name": "Press the Attack",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 9.5,
-      "avgAssists": 6.0,
-      "kda": 1.26,
-      "avgDamage": 27930
+      "avgKills": 9.7,
+      "avgDeaths": 7.7,
+      "avgAssists": 8.7,
+      "kda": 2.39,
+      "avgDamage": 30612
     }
   }
 }

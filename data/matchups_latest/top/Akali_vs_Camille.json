@@ -1,68 +1,105 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:01.220948",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:46.787960",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 238,
-      "avg_xp_diff": 169,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 74,
+      "avg_xp_diff": 103,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 936,
-      "avg_xp_diff": 822,
-      "avg_cs_diff": 24.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 304,
+      "avg_xp_diff": 508,
+      "avg_cs_diff": 16.6,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2519,
-      "avg_xp_diff": 2775,
-      "avg_cs_diff": 47.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 924,
+      "avg_xp_diff": 1291,
+      "avg_cs_diff": 27.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3837,
-      "avg_xp_diff": 2919,
-      "avg_cs_diff": 47.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 160,
+      "avg_xp_diff": -343,
+      "avg_cs_diff": 11.7,
+      "sample_frames": 15,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3265,
+      "avg_xp_diff": -4771,
+      "avg_cs_diff": -22.7,
+      "sample_frames": 7,
+      "advantage": -2
     }
   ],
   "champA": "Akali",
   "champB": "Camille",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.0,
-      "kda": 4.0,
-      "avgDamage": 20348
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
+      "avgKills": 5.0,
       "avgDeaths": 6.0,
       "avgAssists": 2.0,
-      "kda": 0.5,
-      "avgDamage": 9889
+      "kda": 1.17,
+      "avgDamage": 16096
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.5,
+      "kda": 2.0,
+      "avgDamage": 16249
     }
   }
 }

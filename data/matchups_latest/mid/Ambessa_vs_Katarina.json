@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.300199",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:46.877555",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -20,
-      "avg_xp_diff": -68,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 26,
+      "avg_xp_diff": -87,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -60,
-      "avg_xp_diff": -301,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 567,
+      "avg_xp_diff": 265,
+      "avg_cs_diff": 16.2,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -369,
-      "avg_xp_diff": -851,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 613,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": 22.6,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -147,
-      "avg_xp_diff": -231,
-      "avg_cs_diff": 7.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 1024,
+      "avg_xp_diff": 964,
+      "avg_cs_diff": 34.7,
+      "sample_frames": 19,
+      "advantage": 2
     },
     {
       "phase": "25min+",
@@ -54,24 +54,71 @@
   "champB": "Katarina",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 9.0,
-      "kda": 1.88,
-      "avgDamage": 31144
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 6.5,
+      "kda": 2.36,
+      "avgDamage": 26190
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 15.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 12.0,
-      "kda": 3.38,
-      "avgDamage": 46897
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 10.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 7.0,
+      "kda": 2.5,
+      "avgDamage": 30876
     }
   }
 }

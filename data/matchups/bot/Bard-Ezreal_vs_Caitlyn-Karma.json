@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:56.588656",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:41.594621",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 76,
-      "avg_xp_diff": 78,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 20,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 571,
-      "avg_xp_diff": 457,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 527,
+      "avg_xp_diff": 311,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -454,
-      "avg_xp_diff": 100,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 612,
+      "avg_xp_diff": 598,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1156,
-      "avg_xp_diff": 1744,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 681,
+      "avg_xp_diff": 650,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2486,
-      "avg_xp_diff": 3896,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -1107,
+      "avg_xp_diff": -378,
+      "avg_cs_diff": -11.2,
+      "sample_frames": 6,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 12.0,
-        "kda": 9.0,
-        "avgDamage": 33496
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 10.0,
+        "kda": 4.12,
+        "avgDamage": 28582
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 12.0,
-        "kda": 5.67,
-        "avgDamage": 10922
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 13.5,
+        "kda": 2.75,
+        "avgDamage": 9666
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 6.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 4.0,
-        "kda": 1.43,
-        "avgDamage": 13601
+        "avgDeaths": 6.0,
+        "avgAssists": 5.0,
+        "kda": 1.83,
+        "avgDamage": 17485
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 9.0,
-        "kda": 1.67,
-        "avgDamage": 10070
+        "avgDeaths": 5.5,
+        "avgAssists": 16.0,
+        "kda": 3.09,
+        "avgDamage": 9346
       }
     }
   }

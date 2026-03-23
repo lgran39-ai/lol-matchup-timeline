@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.031186",
+  "updated_at": "2026-03-23T10:04:47.661799",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 113,
-      "avg_xp_diff": 74,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 27,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1023,
-      "avg_xp_diff": 903,
-      "avg_cs_diff": 24.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 706,
+      "avg_xp_diff": 576,
+      "avg_cs_diff": 11.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2480,
-      "avg_xp_diff": 2623,
-      "avg_cs_diff": 47.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 2059,
+      "avg_xp_diff": 2250,
+      "avg_cs_diff": 30.3,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3160,
-      "avg_xp_diff": 2858,
-      "avg_cs_diff": 55.5,
-      "sample_frames": 2,
+      "avg_gold_diff": 3209,
+      "avg_xp_diff": 2773,
+      "avg_cs_diff": 23.6,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4690,
+      "avg_xp_diff": 3277,
+      "avg_cs_diff": 9.2,
+      "sample_frames": 6,
       "advantage": 2
     }
   ],
@@ -45,24 +54,59 @@
   "champB": "Ornn",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 3.0,
-      "kda": 6.0,
-      "avgDamage": 9339
+      "items": [
+        {
+          "name": "Iceborn Gauntlet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 9.0,
+      "kda": 9.67,
+      "avgDamage": 22414
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
       "avgKills": 0.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 4194
+      "avgDeaths": 6.0,
+      "avgAssists": 3.5,
+      "kda": 0.58,
+      "avgDamage": 12356
     }
   }
 }

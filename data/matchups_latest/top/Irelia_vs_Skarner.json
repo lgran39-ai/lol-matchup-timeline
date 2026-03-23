@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.885506",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:47.534418",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -127,
-      "avg_xp_diff": -221,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 166,
+      "avg_xp_diff": 48,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -185,
-      "avg_xp_diff": -294,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 1089,
+      "avg_xp_diff": 607,
+      "avg_cs_diff": 17.2,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 243,
-      "avg_xp_diff": -111,
-      "avg_cs_diff": 11.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 2178,
+      "avg_xp_diff": 1528,
+      "avg_cs_diff": 39.6,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1417,
-      "avg_xp_diff": -72,
-      "avg_cs_diff": 44.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 2300,
+      "avg_xp_diff": 803,
+      "avg_cs_diff": 49.8,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
@@ -54,24 +54,65 @@
   "champB": "Skarner",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 6.0,
-      "kda": 1.0,
-      "avgDamage": 28566
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 4.8,
+      "avgAssists": 2.5,
+      "kda": 1.84,
+      "avgDamage": 18931
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 18.0,
-      "kda": 4.8,
-      "avgDamage": 27070
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 5.8,
+      "avgAssists": 6.5,
+      "kda": 1.61,
+      "avgDamage": 16218
     }
   }
 }

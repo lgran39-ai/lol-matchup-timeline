@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.068080",
+  "updated_at": "2026-03-23T10:04:47.698921",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -100,
-      "avg_xp_diff": -39,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -137,
+      "avg_xp_diff": -52,
+      "avg_cs_diff": -5.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -356,
-      "avg_xp_diff": 169,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -536,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": -9.2,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -150,
-      "avg_xp_diff": 490,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -756,
+      "avg_xp_diff": 58,
+      "avg_cs_diff": -6.0,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -216,
-      "avg_xp_diff": 808,
-      "avg_cs_diff": 10.5,
-      "sample_frames": 6,
-      "advantage": -1
+      "avg_gold_diff": 2,
+      "avg_xp_diff": 111,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 16,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1912,
+      "avg_xp_diff": -468,
+      "avg_cs_diff": -27.1,
+      "sample_frames": 8,
+      "advantage": 2
     }
   ],
   "champA": "Kassadin",
@@ -48,21 +57,40 @@
       "items": [],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 2.0,
-      "kda": 2.0,
-      "avgDamage": 10297
+      "avgKills": 5.5,
+      "avgDeaths": 2.0,
+      "avgAssists": 7.0,
+      "kda": 6.25,
+      "avgDamage": 22167
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Rapid Firecannon",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 1.0,
-      "kda": 2.0,
-      "avgDamage": 8737
+      "avgKills": 2.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 3.5,
+      "kda": 1.57,
+      "avgDamage": 15118
     }
   }
 }

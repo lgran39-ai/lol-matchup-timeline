@@ -1,68 +1,110 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:54.826744",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:39.771241",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 193,
-      "avg_xp_diff": 53,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 158,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 450,
-      "avg_xp_diff": -139,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 287,
+      "avg_xp_diff": -144,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 745,
-      "avg_xp_diff": -249,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 599,
+      "avg_xp_diff": -277,
+      "avg_cs_diff": -10.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1489,
-      "avg_xp_diff": 613,
-      "avg_cs_diff": -11.7,
-      "sample_frames": 7,
+      "avg_gold_diff": 801,
+      "avg_xp_diff": -256,
+      "avg_cs_diff": -29.3,
+      "sample_frames": 17,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -625,
+      "avg_xp_diff": -1111,
+      "avg_cs_diff": -66.6,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "champA": "Pantheon",
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 6.0,
-      "kda": 10.0,
-      "avgDamage": 17975
+      "avgKills": 5.5,
+      "avgDeaths": 2.0,
+      "avgAssists": 9.0,
+      "kda": 7.25,
+      "avgDamage": 20008
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 0.0,
-      "kda": 0.2,
-      "avgDamage": 14247
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 2.0,
+      "kda": 1.11,
+      "avgDamage": 17068
     }
   }
 }

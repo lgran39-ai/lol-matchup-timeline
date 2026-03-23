@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.574952",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-23T10:04:48.272235",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 22,
-      "avg_xp_diff": 8,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 15,
+      "avg_gold_diff": 18,
+      "avg_xp_diff": -25,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 569,
-      "avg_xp_diff": 384,
-      "avg_cs_diff": 3.1,
-      "sample_frames": 15,
+      "avg_gold_diff": 462,
+      "avg_xp_diff": 161,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1172,
-      "avg_xp_diff": 600,
-      "avg_cs_diff": 2.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 855,
+      "avg_xp_diff": 175,
+      "avg_cs_diff": -7.3,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1818,
-      "avg_xp_diff": 1040,
-      "avg_cs_diff": 6.9,
-      "sample_frames": 8,
+      "avg_gold_diff": 946,
+      "avg_xp_diff": 396,
+      "avg_cs_diff": -18.4,
+      "sample_frames": 18,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -516,
+      "avg_xp_diff": -1526,
+      "avg_cs_diff": -66.7,
+      "sample_frames": 11,
+      "advantage": -2
     }
   ],
   "champA": "TwistedFate",
@@ -48,69 +57,81 @@
       "items": [
         {
           "name": "Swiftmarch",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 75.0
         },
         {
           "name": "Rod of Ages",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 75.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 100.0
+        },
+        {
+          "name": "Unsealed Spellbook",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 75.0
         }
       ],
-      "avgKills": 2.3,
-      "avgDeaths": 0.3,
-      "avgAssists": 5.3,
-      "kda": 23.0,
-      "avgDamage": 7305
+      "avgKills": 2.0,
+      "avgDeaths": 1.5,
+      "avgAssists": 6.0,
+      "kda": 5.33,
+      "avgDamage": 8494
     },
     "champB": {
       "items": [
         {
           "name": "Blackfire Torch",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 25.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Summon Aery",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 25.0
         }
       ],
-      "avgKills": 0.7,
+      "avgKills": 2.2,
       "avgDeaths": 4.0,
-      "avgAssists": 0.3,
-      "kda": 0.25,
-      "avgDamage": 9741
+      "avgAssists": 2.8,
+      "kda": 1.25,
+      "avgDamage": 15650
     }
   }
 }

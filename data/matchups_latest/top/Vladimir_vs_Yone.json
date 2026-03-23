@@ -1,68 +1,118 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.607951",
+  "updated_at": "2026-03-23T10:04:48.307010",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 52,
-      "avg_xp_diff": 11,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -20,
+      "avg_xp_diff": -30,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 223,
-      "avg_xp_diff": 148,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -278,
+      "avg_xp_diff": -204,
+      "avg_cs_diff": -5.8,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 634,
-      "avg_xp_diff": 1302,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 126,
+      "avg_xp_diff": 818,
+      "avg_cs_diff": -7.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2107,
-      "avg_xp_diff": 2410,
-      "avg_cs_diff": 1.5,
-      "sample_frames": 11,
+      "avg_gold_diff": 1585,
+      "avg_xp_diff": 2541,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 21,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -655,
+      "avg_xp_diff": 1553,
+      "avg_cs_diff": -40.7,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "champA": "Vladimir",
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 5.0,
-      "kda": 12.0,
-      "avgDamage": 22423
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 7.0,
+      "kda": 5.2,
+      "avgDamage": 27812
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 1.0,
-      "kda": 0.33,
-      "avgDamage": 21157
+      "avgKills": 4.0,
+      "avgDeaths": 8.5,
+      "avgAssists": 1.5,
+      "kda": 0.65,
+      "avgDamage": 31834
     }
   }
 }

@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.456817",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-23T10:04:48.144448",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 33,
-      "avg_xp_diff": 20,
-      "avg_cs_diff": 0.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 19,
+      "avg_xp_diff": 12,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 239,
-      "avg_xp_diff": 70,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 15,
+      "avg_gold_diff": 182,
+      "avg_xp_diff": 98,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 629,
-      "avg_xp_diff": 531,
-      "avg_cs_diff": 9.9,
-      "sample_frames": 15,
+      "avg_gold_diff": 416,
+      "avg_xp_diff": 394,
+      "avg_cs_diff": 5.6,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1601,
-      "avg_xp_diff": 1483,
-      "avg_cs_diff": 16.6,
-      "sample_frames": 19,
+      "avg_gold_diff": 764,
+      "avg_xp_diff": 409,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 39,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1478,
+      "avg_xp_diff": -1434,
+      "avg_cs_diff": -6.4,
+      "sample_frames": 10,
+      "advantage": -2
     }
   ],
   "champA": "Ryze",
@@ -48,68 +57,93 @@
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 3,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 60.0
+        },
+        {
+          "name": "Actualizer",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
         },
         {
           "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Crimson Lucidity",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
+          "pickRate": 40.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 3,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 60.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ghost",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 2.3,
-      "avgDeaths": 2.0,
-      "avgAssists": 7.7,
-      "kda": 5.0,
-      "avgDamage": 13326
+      "avgKills": 3.0,
+      "avgDeaths": 3.4,
+      "avgAssists": 7.2,
+      "kda": 3.0,
+      "avgDamage": 16709
     },
     "champB": {
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 3,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 40.0
         },
         {
           "name": "Crimson Lucidity",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 40.0,
           "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Unsealed Spellbook",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 40.0
         }
       ],
-      "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.3,
-      "kda": 0.78,
-      "avgDamage": 7650
+      "avgKills": 2.4,
+      "avgDeaths": 3.4,
+      "avgAssists": 5.6,
+      "kda": 2.35,
+      "avgDamage": 14142
     }
   }
 }

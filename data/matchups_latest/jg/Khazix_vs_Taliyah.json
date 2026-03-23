@@ -1,68 +1,118 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.117724",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:47.755859",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -161,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -58,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -822,
-      "avg_xp_diff": 40,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -180,
+      "avg_xp_diff": -176,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1041,
-      "avg_xp_diff": 184,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 602,
+      "avg_xp_diff": -126,
+      "avg_cs_diff": -9.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": -229,
-      "avg_cs_diff": -19.3,
-      "sample_frames": 7,
-      "advantage": 0
+      "avg_gold_diff": 1480,
+      "avg_xp_diff": -790,
+      "avg_cs_diff": -31.4,
+      "sample_frames": 17,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3486,
+      "avg_xp_diff": -1951,
+      "avg_cs_diff": -73.2,
+      "sample_frames": 11,
+      "advantage": 2
     }
   ],
   "champA": "Khazix",
   "champB": "Taliyah",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
+      "items": [
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 11.5,
       "avgDeaths": 5.0,
-      "avgAssists": 6.0,
-      "kda": 2.4,
-      "avgDamage": 16675
+      "avgAssists": 8.5,
+      "kda": 4.0,
+      "avgDamage": 36430
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 6.0,
-      "kda": 2.4,
-      "avgDamage": 12161
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 10.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 5.5,
+      "kda": 3.56,
+      "avgDamage": 23244
     }
   }
 }

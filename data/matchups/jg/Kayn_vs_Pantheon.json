@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:54.266139",
+  "updated_at": "2026-03-23T10:04:39.192773",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 308,
-      "avg_xp_diff": 195,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 23,
+      "avg_xp_diff": 92,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -208,
-      "avg_xp_diff": -267,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -579,
+      "avg_xp_diff": -260,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -937,
-      "avg_xp_diff": -994,
-      "avg_cs_diff": 11.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1465,
+      "avg_xp_diff": -950,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1788,
-      "avg_xp_diff": -1124,
-      "avg_cs_diff": 22.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -1819,
+      "avg_xp_diff": -2103,
+      "avg_cs_diff": -18.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2864,
-      "avg_xp_diff": -1583,
-      "avg_cs_diff": 22.2,
-      "sample_frames": 4,
+      "avg_gold_diff": -3964,
+      "avg_xp_diff": -4069,
+      "avg_cs_diff": -49.1,
+      "sample_frames": 12,
       "advantage": -2
     }
   ],
@@ -54,24 +54,58 @@
   "champB": "Pantheon",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 8.0,
-      "kda": 2.0,
-      "avgDamage": 19820
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 7.5,
+      "avgAssists": 6.5,
+      "kda": 1.73,
+      "avgDamage": 18742
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 18.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 13.0,
-      "kda": 31.0,
-      "avgDamage": 32621
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 17.0,
+      "avgDeaths": 1.5,
+      "avgAssists": 10.0,
+      "kda": 18.0,
+      "avgDamage": 37040
     }
   }
 }

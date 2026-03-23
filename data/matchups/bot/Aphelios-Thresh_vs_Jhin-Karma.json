@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:06:56.188021",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-23T10:04:41.198984",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 2,
-      "avg_xp_diff": 11,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 66,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 266,
-      "avg_xp_diff": 27,
-      "avg_cs_diff": 2.1,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 428,
+      "avg_xp_diff": 44,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 662,
-      "avg_xp_diff": -135,
-      "avg_cs_diff": 7.7,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 1179,
+      "avg_xp_diff": 184,
+      "avg_cs_diff": 12.4,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -802,
-      "avg_xp_diff": -1256,
-      "avg_cs_diff": -28.0,
-      "sample_frames": 15,
-      "advantage": -2
+      "avg_gold_diff": 954,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": -10.8,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1965,
-      "avg_xp_diff": 85,
-      "avg_cs_diff": -95.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 643,
+      "avg_xp_diff": 1428,
+      "avg_cs_diff": -69.6,
+      "sample_frames": 7,
+      "advantage": 1
     }
   ],
   "type": "bot_2v2",
@@ -64,88 +64,135 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [
           {
             "name": "Fleet Footwork",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 5.5,
-        "kda": 1.7,
-        "avgDamage": 13637
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 5.7,
+        "avgDeaths": 3.7,
+        "avgAssists": 4.7,
+        "kda": 2.82,
+        "avgDamage": 16628
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "avgKills": 0.5,
-        "avgDeaths": 4.0,
-        "avgAssists": 10.5,
-        "kda": 2.75,
-        "avgDamage": 3951
+        "avgKills": 1.0,
+        "avgDeaths": 3.7,
+        "avgAssists": 11.3,
+        "kda": 3.36,
+        "avgDamage": 4661
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [
           {
             "name": "Fleet Footwork",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Cleanse+Flash",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 8.0,
-        "avgDeaths": 1.5,
-        "avgAssists": 3.5,
-        "kda": 7.67,
-        "avgDamage": 15342
+        "avgKills": 6.3,
+        "avgDeaths": 2.3,
+        "avgAssists": 3.7,
+        "kda": 4.29,
+        "avgDamage": 15726
       },
       "sup": {
         "items": [
           {
             "name": "Echoes of Helia",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 1.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 9.5,
-        "kda": 2.1,
-        "avgDamage": 8535
+        "avgKills": 0.7,
+        "avgDeaths": 5.7,
+        "avgAssists": 9.3,
+        "kda": 1.76,
+        "avgDamage": 7718
       }
     }
   }

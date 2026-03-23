@@ -1,68 +1,112 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.821840",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:47.458356",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 82,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -28,
+      "avg_xp_diff": 40,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 33,
-      "avg_xp_diff": -255,
-      "avg_cs_diff": 26.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -106,
+      "avg_xp_diff": 45,
+      "avg_cs_diff": 17.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -368,
-      "avg_xp_diff": -995,
-      "avg_cs_diff": 30.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -189,
+      "avg_xp_diff": -165,
+      "avg_cs_diff": 26.2,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1551,
-      "avg_xp_diff": -2010,
-      "avg_cs_diff": 29.0,
-      "sample_frames": 7,
+      "avg_gold_diff": -642,
+      "avg_xp_diff": -195,
+      "avg_cs_diff": 31.7,
+      "sample_frames": 17,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 811,
+      "avg_xp_diff": 2390,
+      "avg_cs_diff": 62.0,
+      "sample_frames": 4,
+      "advantage": 2
     }
   ],
   "champA": "Gwen",
   "champB": "Malphite",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 10442
+      "avgKills": 3.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 1.0,
+      "kda": 1.0,
+      "avgDamage": 12980
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 8.0,
-      "kda": 14.0,
-      "avgDamage": 17139
+      "items": [
+        {
+          "name": "Kaenic Rookern",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 7.0,
+      "kda": 4.5,
+      "avgDamage": 18340
     }
   }
 }

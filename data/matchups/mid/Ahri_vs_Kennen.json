@@ -1,88 +1,120 @@
 {
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:52.495326",
+  "updated_at": "2026-03-23T10:04:37.399458",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -123,
-      "avg_xp_diff": 68,
-      "avg_cs_diff": 4.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -64,
+      "avg_xp_diff": 74,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -220,
-      "avg_xp_diff": 235,
-      "avg_cs_diff": 12.0,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -83,
+      "avg_xp_diff": 251,
+      "avg_cs_diff": 11.0,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 13,
-      "avg_xp_diff": 585,
-      "avg_cs_diff": 23.8,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 243,
+      "avg_xp_diff": 458,
+      "avg_cs_diff": 20.8,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 354,
-      "avg_xp_diff": 726,
-      "avg_cs_diff": 27.4,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": 113,
+      "avg_xp_diff": 96,
+      "avg_cs_diff": 20.3,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 280,
-      "avg_xp_diff": 735,
-      "avg_cs_diff": 59.0,
-      "sample_frames": 8,
-      "advantage": 1
+      "avg_gold_diff": -18,
+      "avg_xp_diff": 79,
+      "avg_cs_diff": 48.2,
+      "sample_frames": 10,
+      "advantage": 0
     }
   ],
   "champA": "Ahri",
   "champB": "Kennen",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 5.5,
-      "kda": 2.38,
-      "avgDamage": 21339
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.0,
+      "kda": 1.6,
+      "avgDamage": 19622
     },
     "champB": {
       "items": [
         {
           "name": "Hextech Rocketbelt",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         }
@@ -91,15 +123,15 @@
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
-      "avgKills": 6.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 10.0,
-      "kda": 5.5,
-      "avgDamage": 19994
+      "avgKills": 5.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 8.7,
+      "kda": 4.3,
+      "avgDamage": 19475
     }
   }
 }

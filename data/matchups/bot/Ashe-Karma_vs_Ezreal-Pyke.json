@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:56.315929",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:41.310068",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -132,
-      "avg_xp_diff": -66,
+      "avg_gold_diff": -380,
+      "avg_xp_diff": -42,
       "avg_cs_diff": -0.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -119,
-      "avg_xp_diff": 86,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -628,
+      "avg_xp_diff": -86,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 413,
-      "avg_xp_diff": 758,
-      "avg_cs_diff": 12.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -811,
+      "avg_xp_diff": 129,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1364,
-      "avg_xp_diff": -1445,
-      "avg_cs_diff": 9.7,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -636,
+      "avg_xp_diff": 762,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 21,
+      "advantage": -1
     },
     {
       "phase": "25min+",
@@ -64,46 +64,116 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 4.0,
-        "kda": 1.1,
-        "avgDamage": 17338
+        "items": [
+          {
+            "name": "Phantom Dancer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 9.5,
+        "kda": 1.81,
+        "avgDamage": 14701
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 13.0,
-        "kda": 2.0,
-        "avgDamage": 8659
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 16.0,
+        "kda": 2.92,
+        "avgDamage": 11264
       }
     },
     "teamB": {
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 7.0,
-        "kda": 1.6,
-        "avgDamage": 23763
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 7.5,
+        "avgAssists": 5.5,
+        "kda": 1.67,
+        "avgDamage": 22085
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 6.0,
-        "kda": 2.0,
-        "avgDamage": 11351
+        "items": [
+          {
+            "name": "Umbral Glaive",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Hail of Blades",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 8.0,
+        "avgAssists": 5.5,
+        "kda": 1.5,
+        "avgDamage": 10152
       }
     }
   }

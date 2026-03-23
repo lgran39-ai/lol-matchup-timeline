@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:55.594756",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:40.583066",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 125,
-      "avg_xp_diff": -130,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 27,
+      "avg_xp_diff": -74,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 701,
-      "avg_xp_diff": 124,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 119,
+      "avg_xp_diff": 75,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 171,
-      "avg_xp_diff": -621,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 159,
+      "avg_xp_diff": -187,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1249,
-      "avg_xp_diff": -2921,
-      "avg_cs_diff": -14.2,
-      "sample_frames": 11,
-      "advantage": -2
+      "avg_gold_diff": 448,
+      "avg_xp_diff": -877,
+      "avg_cs_diff": -7.8,
+      "sample_frames": 19,
+      "advantage": 1
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Luden's Echo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 1.0,
-        "kda": 0.75,
-        "avgDamage": 15327
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 2.0,
+        "avgAssists": 3.5,
+        "kda": 4.0,
+        "avgDamage": 17618
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 0.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 3.0,
-        "kda": 0.5,
-        "avgDamage": 3280
+        "avgDeaths": 4.0,
+        "avgAssists": 8.5,
+        "kda": 2.12,
+        "avgDamage": 3700
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 6.0,
-        "kda": 9.0,
-        "avgDamage": 11720
+        "avgKills": 2.5,
+        "avgDeaths": 2.0,
+        "avgAssists": 3.0,
+        "kda": 2.75,
+        "avgDamage": 12704
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 11.0,
-        "kda": 6.0,
-        "avgDamage": 5058
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 6.0,
+        "kda": 1.86,
+        "avgDamage": 4863
       }
     }
   }

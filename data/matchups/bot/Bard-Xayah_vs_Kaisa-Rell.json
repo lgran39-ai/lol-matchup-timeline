@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:56.909062",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:41.932571",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 369,
-      "avg_xp_diff": -2,
-      "avg_cs_diff": -5.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 9,
+      "avg_xp_diff": -80,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1769,
-      "avg_xp_diff": 1135,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 223,
+      "avg_xp_diff": 421,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 3820,
-      "avg_xp_diff": 2596,
-      "avg_cs_diff": 26.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 230,
+      "avg_xp_diff": 534,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4851,
-      "avg_xp_diff": 1594,
-      "avg_cs_diff": 46.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 1315,
+      "avg_xp_diff": 534,
+      "avg_cs_diff": 6.2,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2622,
-      "avg_xp_diff": -409,
-      "avg_cs_diff": 47.2,
-      "sample_frames": 6,
+      "avg_gold_diff": 1108,
+      "avg_xp_diff": 540,
+      "avg_cs_diff": 5.3,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -64,46 +64,113 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 6.0,
-        "kda": 2.43,
-        "avgDamage": 32907
+        "avgKills": 12.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 9.5,
+        "kda": 2.69,
+        "avgDamage": 43848
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
         "avgKills": 0.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 13.0,
-        "kda": 1.3,
-        "avgDamage": 10184
+        "avgDeaths": 9.5,
+        "avgAssists": 18.5,
+        "kda": 1.95,
+        "avgDamage": 10844
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 13.0,
-        "kda": 2.75,
-        "avgDamage": 30256
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Dusk and Dawn",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 11.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 10.0,
+        "kda": 3.07,
+        "avgDamage": 36125
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 25.0,
-        "kda": 3.12,
-        "avgDamage": 7179
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 8.5,
+        "avgAssists": 22.5,
+        "kda": 2.94,
+        "avgDamage": 9710
       }
     }
   }

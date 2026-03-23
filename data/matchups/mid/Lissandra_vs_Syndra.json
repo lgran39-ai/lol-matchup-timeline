@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 4,
+  "sample_size": 6,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:06:54.452861",
+  "updated_at": "2026-03-23T10:04:39.387125",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 34,
-      "avg_xp_diff": 36,
-      "avg_cs_diff": -0.7,
-      "sample_frames": 20,
+      "avg_gold_diff": 15,
+      "avg_xp_diff": 18,
+      "avg_cs_diff": -1.3,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 116,
-      "avg_xp_diff": 1,
-      "avg_cs_diff": -5.5,
-      "sample_frames": 20,
+      "avg_gold_diff": 37,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 122,
-      "avg_xp_diff": -17,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 20,
+      "avg_gold_diff": 61,
+      "avg_xp_diff": 47,
+      "avg_cs_diff": -8.1,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -349,
-      "avg_xp_diff": -345,
-      "avg_cs_diff": -20.6,
-      "sample_frames": 42,
+      "avg_gold_diff": -350,
+      "avg_xp_diff": -150,
+      "avg_cs_diff": -17.7,
+      "sample_frames": 60,
       "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2738,
-      "avg_xp_diff": -2144,
-      "avg_cs_diff": -37.5,
-      "sample_frames": 34,
+      "avg_gold_diff": -2739,
+      "avg_xp_diff": -2160,
+      "avg_cs_diff": -39.7,
+      "sample_frames": 40,
       "advantage": -2
     }
   ],
@@ -57,33 +57,39 @@
       "items": [
         {
           "name": "Hextech Rocketbelt",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
           "count": 4,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         },
         {
           "name": "Shadowflame",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 50.0,
           "winRate": 33.3
         },
         {
-          "name": "Zhonya's Hourglass",
+          "name": "Chainlaced Crushers",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 50.0,
           "winRate": 66.7
         },
         {
           "name": "Spellslinger's Shoes",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 33.3,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 4,
+          "count": 6,
           "pickRate": 100.0,
           "winRate": 50.0
         }
@@ -91,49 +97,73 @@
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 4,
+          "count": 6,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 7.5,
-      "avgAssists": 14.0,
-      "kda": 2.4,
-      "avgDamage": 27619
+      "avgKills": 3.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 11.8,
+      "kda": 2.58,
+      "avgDamage": 22660
     },
     "champB": {
       "items": [
         {
-          "name": "Zhonya's Hourglass",
-          "count": 2,
-          "pickRate": 50.0,
+          "name": "Blackfire Torch",
+          "count": 4,
+          "pickRate": 66.7,
           "winRate": 50.0
         },
         {
-          "name": "Blackfire Torch",
-          "count": 2,
+          "name": "Cosmic Drive",
+          "count": 3,
           "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 50.0
         },
         {
           "name": "Shadowflame",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 50.0
         },
         {
           "name": "Chainlaced Crushers",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
           "name": "First Strike",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 33.3,
           "winRate": 100.0
         }
       ],
@@ -141,15 +171,21 @@
         {
           "spells": "Flash+Teleport",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 50.0,
           "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 7.8,
+      "avgKills": 6.2,
       "avgDeaths": 6.2,
       "avgAssists": 9.5,
-      "kda": 2.76,
-      "avgDamage": 32438
+      "kda": 2.54,
+      "avgDamage": 29360
     }
   }
 }

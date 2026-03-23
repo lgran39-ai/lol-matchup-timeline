@@ -1,68 +1,111 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.126447",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:47.765879",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 29,
-      "avg_xp_diff": 23,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -53,
+      "avg_xp_diff": -17,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 680,
-      "avg_xp_diff": 571,
-      "avg_cs_diff": 11.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 255,
+      "avg_xp_diff": 247,
+      "avg_cs_diff": 5.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1204,
-      "avg_xp_diff": 751,
-      "avg_cs_diff": 19.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 768,
+      "avg_xp_diff": 232,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3498,
-      "avg_xp_diff": 2374,
-      "avg_cs_diff": 41.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1390,
+      "avg_xp_diff": -200,
+      "avg_cs_diff": -14.9,
+      "sample_frames": 15,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 221,
+      "avg_xp_diff": -3370,
+      "avg_cs_diff": -86.3,
+      "sample_frames": 6,
+      "advantage": 1
     }
   ],
   "champA": "Kindred",
   "champB": "Sylas",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 3.0,
-      "kda": 12.0,
-      "avgDamage": 12990
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 6.5,
+      "kda": 3.56,
+      "avgDamage": 17246
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.0,
-      "kda": 1.33,
-      "avgDamage": 4417
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.5,
+      "kda": 1.7,
+      "avgDamage": 14450
     }
   }
 }

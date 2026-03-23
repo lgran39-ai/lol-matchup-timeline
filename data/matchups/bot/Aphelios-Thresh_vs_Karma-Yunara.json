@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:56.200776",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:41.213484",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -218,
-      "avg_xp_diff": 13,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -146,
+      "avg_xp_diff": -30,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -143,
-      "avg_xp_diff": 123,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -310,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": 4.8,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2569,
-      "avg_xp_diff": 1658,
-      "avg_cs_diff": 11.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 318,
+      "avg_xp_diff": -144,
+      "avg_cs_diff": 7.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4294,
-      "avg_xp_diff": 2352,
-      "avg_cs_diff": 19.0,
-      "sample_frames": 3,
+      "avg_gold_diff": 948,
+      "avg_xp_diff": -449,
+      "avg_cs_diff": 4.8,
+      "sample_frames": 5,
       "advantage": 2
     }
   ],
@@ -55,46 +55,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 1.0,
-        "kda": 12.0,
-        "avgDamage": 18100
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 2.5,
+        "avgAssists": 0.5,
+        "kda": 2.4,
+        "avgDamage": 12475
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 11.0,
-        "kda": 6.0,
-        "avgDamage": 4897
+        "avgKills": 0.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 5.5,
+        "kda": 1.71,
+        "avgDamage": 3529
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 5.0,
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ghost",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 2.5,
         "avgAssists": 3.0,
-        "kda": 1.0,
-        "avgDamage": 10939
+        "kda": 2.8,
+        "avgDamage": 10324
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 4.0,
-        "kda": 1.0,
-        "avgDamage": 4681
+        "avgDeaths": 2.5,
+        "avgAssists": 7.5,
+        "kda": 3.4,
+        "avgDamage": 5892
       }
     }
   }

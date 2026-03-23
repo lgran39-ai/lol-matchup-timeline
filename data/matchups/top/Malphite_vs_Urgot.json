@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:54.518678",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-23T10:04:39.453811",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -59,
-      "avg_xp_diff": -39,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -40,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -387,
-      "avg_xp_diff": -276,
-      "avg_cs_diff": -14.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -299,
+      "avg_xp_diff": -308,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -795,
-      "avg_xp_diff": -737,
-      "avg_cs_diff": -18.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -732,
+      "avg_xp_diff": -881,
+      "avg_cs_diff": -16.0,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2406,
-      "avg_xp_diff": -1454,
-      "avg_cs_diff": -24.5,
-      "sample_frames": 21,
+      "avg_gold_diff": -2168,
+      "avg_xp_diff": -1728,
+      "avg_cs_diff": -25.4,
+      "sample_frames": 31,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3825,
-      "avg_xp_diff": -342,
-      "avg_cs_diff": -23.8,
-      "sample_frames": 8,
+      "avg_gold_diff": -2612,
+      "avg_xp_diff": -310,
+      "avg_cs_diff": -27.2,
+      "sample_frames": 20,
       "advantage": -2
     }
   ],
@@ -56,9 +56,15 @@
     "champA": {
       "items": [
         {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
           "name": "Sunfire Aegis",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 0.0
         }
       ],
@@ -66,53 +72,60 @@
         {
           "name": "Arcane Comet",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 0.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
       "avgKills": 1.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 4.0,
-      "kda": 0.91,
-      "avgDamage": 14925
+      "avgDeaths": 5.0,
+      "avgAssists": 6.3,
+      "kda": 1.47,
+      "avgDamage": 14699
     },
     "champB": {
       "items": [
         {
           "name": "Black Cleaver",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         },
         {
           "name": "Sterak's Gage",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 9.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 8.0,
-      "kda": 11.67,
-      "avgDamage": 22723
+      "avgKills": 8.7,
+      "avgDeaths": 2.7,
+      "avgAssists": 6.7,
+      "kda": 5.75,
+      "avgDamage": 23712
     }
   }
 }

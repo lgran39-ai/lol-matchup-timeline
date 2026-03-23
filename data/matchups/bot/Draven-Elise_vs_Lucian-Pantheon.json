@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:57.828811",
+  "updated_at": "2026-03-23T10:04:42.845873",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 251,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 176,
+      "avg_xp_diff": -35,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1594,
-      "avg_xp_diff": 504,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 755,
+      "avg_xp_diff": 229,
+      "avg_cs_diff": 13.9,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 3735,
-      "avg_xp_diff": 1825,
-      "avg_cs_diff": 30.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 2307,
+      "avg_xp_diff": 1249,
+      "avg_cs_diff": 31.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4993,
-      "avg_xp_diff": 2626,
-      "avg_cs_diff": 47.7,
-      "sample_frames": 3,
+      "avg_gold_diff": 3464,
+      "avg_xp_diff": 2398,
+      "avg_cs_diff": 41.0,
+      "sample_frames": 10,
       "advantage": 2
     }
   ],
@@ -55,46 +55,101 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 3.0,
-        "kda": 1.75,
-        "avgDamage": 9275
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 6.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 7.0,
+        "kda": 2.17,
+        "avgDamage": 14109
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 4.0,
-        "kda": 5.5,
-        "avgDamage": 8434
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 11.5,
+        "kda": 5.14,
+        "avgDamage": 11698
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 9.0,
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 7.0,
         "avgAssists": 1.0,
-        "kda": 0.33,
-        "avgDamage": 8135
+        "kda": 1.14,
+        "avgDamage": 11945
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 4.0,
-        "kda": 2.0,
-        "avgDamage": 7784
+        "avgKills": 1.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 7.0,
+        "kda": 1.21,
+        "avgDamage": 8368
       }
     }
   }

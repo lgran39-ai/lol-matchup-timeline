@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:59.103779",
+  "updated_at": "2026-03-23T10:04:44.037299",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -59,
-      "avg_xp_diff": 5,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -11,
+      "avg_xp_diff": 4,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1030,
-      "avg_xp_diff": -856,
-      "avg_cs_diff": -19.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -578,
+      "avg_xp_diff": -463,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2291,
-      "avg_xp_diff": -2431,
-      "avg_cs_diff": -48.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -1155,
+      "avg_xp_diff": -1290,
+      "avg_cs_diff": -12.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4246,
-      "avg_xp_diff": -3615,
-      "avg_cs_diff": -72.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -2281,
+      "avg_xp_diff": -1392,
+      "avg_cs_diff": -11.8,
+      "sample_frames": 12,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2419,
+      "avg_xp_diff": -858,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 12,
       "advantage": -2
     }
   ],
@@ -56,23 +65,44 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 1.0,
-        "kda": 0.67,
-        "avgDamage": 5526
+        "avgKills": 2.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 4.5,
+        "kda": 1.08,
+        "avgDamage": 15414
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 0.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 2.0,
-        "kda": 0.33,
-        "avgDamage": 1912
+        "avgDeaths": 7.5,
+        "avgAssists": 7.5,
+        "kda": 1.0,
+        "avgDamage": 3925
       }
     },
     "teamB": {
@@ -80,21 +110,42 @@
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 5.0,
-        "kda": 3.5,
-        "avgDamage": 6597
+        "avgKills": 6.0,
+        "avgDeaths": 2.5,
+        "avgAssists": 6.0,
+        "kda": 4.8,
+        "avgDamage": 15798
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 7.0,
-        "kda": 9.0,
-        "avgDamage": 9916
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 3.0,
+        "avgAssists": 12.5,
+        "kda": 5.0,
+        "avgDamage": 15576
       }
     }
   }

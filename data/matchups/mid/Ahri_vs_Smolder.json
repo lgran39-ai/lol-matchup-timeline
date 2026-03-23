@@ -1,68 +1,124 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:52.518242",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:37.421694",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 150,
-      "avg_xp_diff": 95,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 145,
+      "avg_xp_diff": 121,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 453,
-      "avg_xp_diff": 511,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 703,
+      "avg_xp_diff": 707,
+      "avg_cs_diff": 20.3,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 104,
-      "avg_xp_diff": -158,
-      "avg_cs_diff": -5.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 677,
+      "avg_xp_diff": 500,
+      "avg_cs_diff": 16.9,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3,
-      "avg_xp_diff": -565,
-      "avg_cs_diff": -12.3,
-      "sample_frames": 3,
-      "advantage": 0
+      "avg_gold_diff": 1463,
+      "avg_xp_diff": 1006,
+      "avg_cs_diff": 31.9,
+      "sample_frames": 13,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2020,
+      "avg_xp_diff": 1906,
+      "avg_cs_diff": 44.0,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "champA": "Ahri",
   "champB": "Smolder",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 1.33,
-      "avgDamage": 8560
+      "avgKills": 5.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 5.0,
+      "kda": 2.33,
+      "avgDamage": 20640
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 5.0,
-      "kda": 2.0,
-      "avgDamage": 7814
+      "items": [
+        {
+          "name": "Swiftmarch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 7.0,
+      "kda": 1.64,
+      "avgDamage": 14305
     }
   }
 }

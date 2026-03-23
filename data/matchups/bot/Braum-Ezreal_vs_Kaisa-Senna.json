@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:57.171029",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:42.205378",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 392,
-      "avg_xp_diff": 56,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 99,
+      "avg_xp_diff": 2,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 763,
-      "avg_xp_diff": -132,
-      "avg_cs_diff": 12.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -344,
+      "avg_xp_diff": -309,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 562,
-      "avg_xp_diff": -329,
-      "avg_cs_diff": 13.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -1147,
+      "avg_xp_diff": -755,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -549,
-      "avg_xp_diff": -1581,
-      "avg_cs_diff": 17.3,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -1010,
+      "avg_xp_diff": -572,
+      "avg_cs_diff": 11.3,
+      "sample_frames": 21,
+      "advantage": -2
     },
     {
       "phase": "25min+",
@@ -64,46 +64,122 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 4.0,
-        "kda": 2.17,
-        "avgDamage": 37813
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 8.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 7.0,
+        "kda": 3.33,
+        "avgDamage": 32252
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 16.0,
-        "kda": 3.4,
-        "avgDamage": 7216
+        "avgDeaths": 5.5,
+        "avgAssists": 15.5,
+        "kda": 3.0,
+        "avgDamage": 5620
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 7.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 10.0,
-        "kda": 4.25,
-        "avgDamage": 22827
+        "avgDeaths": 5.5,
+        "avgAssists": 8.5,
+        "kda": 2.82,
+        "avgDamage": 23023
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Black Cleaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 18.0,
-        "kda": 5.75,
-        "avgDamage": 24151
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 14.5,
+        "kda": 3.27,
+        "avgDamage": 18462
       }
     }
   }

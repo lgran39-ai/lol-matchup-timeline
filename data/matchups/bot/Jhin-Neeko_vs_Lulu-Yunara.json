@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:06:58.842844",
+  "updated_at": "2026-03-23T10:04:43.761329",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -68,
-      "avg_xp_diff": 38,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -41,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -256,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": -0.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 52,
+      "avg_xp_diff": 67,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1252,
-      "avg_xp_diff": -460,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -300,
+      "avg_xp_diff": -66,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4244,
-      "avg_xp_diff": -2215,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 13,
+      "avg_gold_diff": -2127,
+      "avg_xp_diff": -870,
+      "avg_cs_diff": -7.3,
+      "sample_frames": 23,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3254,
+      "avg_xp_diff": -1094,
+      "avg_cs_diff": -16.6,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
@@ -55,27 +64,41 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 2.5,
-        "avgDeaths": 6.0,
-        "avgAssists": 3.0,
-        "kda": 0.92,
-        "avgDamage": 8214
+        "avgKills": 2.7,
+        "avgDeaths": 6.7,
+        "avgAssists": 5.0,
+        "kda": 1.15,
+        "avgDamage": 12792
       },
       "sup": {
         "items": [
           {
             "name": "Hextech Rocketbelt",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           }
@@ -83,7 +106,7 @@
         "keystones": [
           {
             "name": "Arcane Comet",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           }
@@ -91,16 +114,16 @@
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 2.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 4.5,
-        "kda": 1.3,
-        "avgDamage": 7868
+        "avgKills": 2.3,
+        "avgDeaths": 4.0,
+        "avgAssists": 8.3,
+        "kda": 2.67,
+        "avgDamage": 12898
       }
     },
     "teamB": {
@@ -108,21 +131,27 @@
         "items": [
           {
             "name": "Kraken Slayer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           },
           {
             "name": "Fiendhunter Bolts",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           }
@@ -130,30 +159,36 @@
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           }
         ],
-        "avgKills": 10.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 7.0,
-        "kda": 5.67,
-        "avgDamage": 22392
+        "avgKills": 11.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 6.7,
+        "kda": 3.53,
+        "avgDamage": 27258
       },
       "sup": {
         "items": [
           {
             "name": "Ardent Censer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Summon Aery",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           }
@@ -161,16 +196,16 @@
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           }
         ],
-        "avgKills": 2.0,
-        "avgDeaths": 2.5,
-        "avgAssists": 12.0,
-        "kda": 5.6,
-        "avgDamage": 6870
+        "avgKills": 1.7,
+        "avgDeaths": 3.0,
+        "avgAssists": 14.3,
+        "kda": 5.33,
+        "avgDamage": 7858
       }
     }
   }

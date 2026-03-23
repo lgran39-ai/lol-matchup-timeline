@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:07:02.589405",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-23T10:04:48.287961",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 50,
-      "avg_xp_diff": -41,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 111,
+      "avg_xp_diff": 21,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 307,
-      "avg_xp_diff": 47,
-      "avg_cs_diff": 6.8,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 476,
+      "avg_xp_diff": 334,
+      "avg_cs_diff": 8.7,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 522,
-      "avg_xp_diff": 241,
-      "avg_cs_diff": 9.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 748,
+      "avg_xp_diff": 1061,
+      "avg_cs_diff": 16.9,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1526,
-      "avg_xp_diff": 1363,
-      "avg_cs_diff": 32.9,
-      "sample_frames": 9,
+      "avg_gold_diff": 1480,
+      "avg_xp_diff": 2769,
+      "avg_cs_diff": 46.5,
+      "sample_frames": 19,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2588,
+      "avg_xp_diff": 4329,
+      "avg_cs_diff": 61.5,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -48,9 +57,9 @@
       "items": [
         {
           "name": "Experimental Hexplate",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "keystones": [],
@@ -58,39 +67,46 @@
         {
           "spells": "Exhaust+Flash",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 3.5,
-      "kda": 4.0,
-      "avgDamage": 10495
+      "avgKills": 5.0,
+      "avgDeaths": 2.7,
+      "avgAssists": 4.3,
+      "kda": 3.5,
+      "avgDamage": 17615
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 0.5,
-      "avgDeaths": 3.5,
+      "avgKills": 1.7,
+      "avgDeaths": 7.0,
       "avgAssists": 3.0,
-      "kda": 1.0,
-      "avgDamage": 6814
+      "kda": 0.67,
+      "avgDamage": 12994
     }
   }
 }

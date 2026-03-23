@@ -1,77 +1,111 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.175366",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:46.734302",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -120,
-      "avg_xp_diff": 4,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -5,
+      "avg_xp_diff": 62,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 237,
-      "avg_xp_diff": 482,
-      "avg_cs_diff": 11.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 457,
+      "avg_xp_diff": 506,
+      "avg_cs_diff": 11.0,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 162,
-      "avg_xp_diff": 128,
-      "avg_cs_diff": 23.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 1166,
+      "avg_xp_diff": 1382,
+      "avg_cs_diff": 33.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -555,
-      "avg_xp_diff": -934,
-      "avg_cs_diff": 24.1,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 989,
+      "avg_xp_diff": 1165,
+      "avg_cs_diff": 33.0,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2270,
-      "avg_xp_diff": -3309,
-      "avg_cs_diff": 39.6,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": -217,
+      "avg_xp_diff": -179,
+      "avg_cs_diff": 41.2,
+      "sample_frames": 13,
+      "advantage": -1
     }
   ],
   "champA": "Aatrox",
   "champB": "Sett",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 12.0,
-      "avgAssists": 1.0,
-      "kda": 0.33,
-      "avgDamage": 26652
+      "avgKills": 6.0,
+      "avgDeaths": 7.5,
+      "avgAssists": 4.0,
+      "kda": 1.33,
+      "avgDamage": 25480
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Overlord's Bloodmail",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 7.0,
-      "kda": 3.5,
-      "avgDamage": 35569
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 8.5,
+      "avgAssists": 4.0,
+      "kda": 1.06,
+      "avgDamage": 25152
     }
   }
 }

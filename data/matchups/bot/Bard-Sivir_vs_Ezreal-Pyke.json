@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:56.825338",
+  "updated_at": "2026-03-23T10:04:41.842346",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 534,
-      "avg_xp_diff": 146,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -12,
+      "avg_xp_diff": 38,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 586,
-      "avg_xp_diff": 369,
+      "avg_gold_diff": -213,
+      "avg_xp_diff": 11,
       "avg_cs_diff": -0.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 344,
-      "avg_xp_diff": 147,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -450,
+      "avg_xp_diff": -208,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 354,
-      "avg_xp_diff": 2283,
-      "avg_cs_diff": 2.5,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -548,
+      "avg_xp_diff": 1564,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3088,
-      "avg_xp_diff": 6000,
-      "avg_cs_diff": 12.3,
-      "sample_frames": 6,
+      "avg_gold_diff": 2687,
+      "avg_xp_diff": 5524,
+      "avg_cs_diff": 19.5,
+      "sample_frames": 11,
       "advantage": 2
     }
   ],
@@ -64,46 +64,146 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 19.0,
-        "kda": 4.17,
-        "avgDamage": 33684
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 10.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 15.5,
+        "kda": 5.2,
+        "avgDamage": 39659
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 19.0,
-        "kda": 5.4,
-        "avgDamage": 18061
+        "avgKills": 4.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 22.5,
+        "kda": 4.42,
+        "avgDamage": 14956
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 8.0,
-        "kda": 3.75,
-        "avgDamage": 37270
+        "items": [
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Serylda's Grudge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 6.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 10.5,
+        "kda": 3.3,
+        "avgDamage": 36636
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 16.0,
-        "avgAssists": 9.0,
-        "kda": 0.81,
-        "avgDamage": 9435
+        "items": [
+          {
+            "name": "Umbral Glaive",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Hail of Blades",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 11.0,
+        "avgAssists": 9.5,
+        "kda": 1.36,
+        "avgDamage": 12258
       }
     }
   }

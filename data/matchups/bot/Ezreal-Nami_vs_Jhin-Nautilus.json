@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-21T14:06:58.252322",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-23T10:04:43.295178",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -565,
-      "avg_xp_diff": -161,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -493,
+      "avg_xp_diff": -97,
+      "avg_cs_diff": -1.5,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1398,
-      "avg_xp_diff": -256,
-      "avg_cs_diff": -17.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -902,
+      "avg_xp_diff": -103,
+      "avg_cs_diff": -10.9,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1072,
-      "avg_xp_diff": -159,
-      "avg_cs_diff": -27.1,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -364,
+      "avg_xp_diff": 142,
+      "avg_cs_diff": -14.0,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -161,
-      "avg_xp_diff": 123,
-      "avg_cs_diff": -27.0,
-      "sample_frames": 7,
-      "advantage": 0
+      "avg_gold_diff": 1045,
+      "avg_xp_diff": 558,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 17,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 348,
+      "avg_xp_diff": -2293,
+      "avg_cs_diff": -8.7,
+      "sample_frames": 9,
+      "advantage": 1
     }
   ],
   "type": "bot_2v2",
@@ -58,56 +67,63 @@
         "items": [
           {
             "name": "Trinity Force",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 2.0,
-        "avgDeaths": 4.5,
-        "avgAssists": 3.5,
-        "kda": 1.22,
-        "avgDamage": 10442
+        "avgKills": 3.0,
+        "avgDeaths": 5.7,
+        "avgAssists": 4.0,
+        "kda": 1.24,
+        "avgDamage": 14806
       },
       "sup": {
         "items": [
           {
             "name": "Imperial Mandate",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "keystones": [
           {
             "name": "Summon Aery",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 2.5,
-        "avgDeaths": 4.0,
-        "avgAssists": 7.0,
-        "kda": 2.38,
-        "avgDamage": 6494
+        "avgKills": 2.3,
+        "avgDeaths": 4.3,
+        "avgAssists": 8.7,
+        "kda": 2.54,
+        "avgDamage": 7065
       }
     },
     "teamB": {
@@ -115,32 +131,39 @@
         "items": [
           {
             "name": "Youmuu's Ghostblade",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "keystones": [],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 6.5,
-        "avgDeaths": 3.0,
-        "avgAssists": 2.5,
-        "kda": 3.0,
-        "avgDamage": 11598
+        "avgKills": 6.3,
+        "avgDeaths": 2.3,
+        "avgAssists": 5.3,
+        "kda": 5.0,
+        "avgDamage": 14274
       },
       "sup": {
         "items": [
           {
             "name": "Protoplasm Harness",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
@@ -148,23 +171,23 @@
           {
             "name": "Aftershock",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Ignite",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 0.5,
-        "avgDeaths": 3.0,
-        "avgAssists": 9.0,
-        "kda": 3.17,
-        "avgDamage": 5540
+        "avgKills": 0.3,
+        "avgDeaths": 4.3,
+        "avgAssists": 12.3,
+        "kda": 2.92,
+        "avgDamage": 6180
       }
     }
   }

@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.323267",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:46.902469",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -213,
-      "avg_xp_diff": -178,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -76,
+      "avg_xp_diff": -58,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -911,
-      "avg_xp_diff": -676,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -448,
+      "avg_xp_diff": -275,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1849,
-      "avg_xp_diff": -1884,
-      "avg_cs_diff": -23.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -896,
+      "avg_xp_diff": -1155,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2283,
-      "avg_xp_diff": -2622,
-      "avg_cs_diff": -28.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 1512,
+      "avg_xp_diff": 1149,
+      "avg_cs_diff": 32.5,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4560,
+      "avg_xp_diff": 4150,
+      "avg_cs_diff": 56.2,
+      "sample_frames": 4,
+      "advantage": 2
     }
   ],
   "champA": "Ambessa",
@@ -48,21 +57,28 @@
       "items": [],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 0.0,
+      "avgKills": 7.0,
       "avgDeaths": 5.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 7717
+      "avgAssists": 3.0,
+      "kda": 2.0,
+      "avgDamage": 22520
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 3.0,
-      "kda": 7.0,
-      "avgDamage": 9512
+      "avgKills": 3.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.0,
+      "kda": 1.75,
+      "avgDamage": 12258
     }
   }
 }

@@ -1,68 +1,137 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.417602",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-23T10:04:47.012556",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -115,
-      "avg_xp_diff": 1,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 84,
+      "avg_xp_diff": 103,
+      "avg_cs_diff": 5.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -522,
-      "avg_xp_diff": -611,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 284,
+      "avg_xp_diff": 206,
+      "avg_cs_diff": 10.5,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1307,
-      "avg_xp_diff": -2498,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 89,
+      "avg_xp_diff": -188,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2335,
-      "avg_xp_diff": -2979,
-      "avg_cs_diff": -24.8,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": -75,
+      "avg_xp_diff": 183,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 28,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1003,
+      "avg_xp_diff": 2885,
+      "avg_cs_diff": 21.2,
+      "sample_frames": 20,
+      "advantage": 2
     }
   ],
   "champA": "Aurora",
   "champB": "Gwen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 1.0,
-      "kda": 0.44,
-      "avgDamage": 23332
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 9.3,
+      "kda": 2.72,
+      "avgDamage": 34578
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 1.0,
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 7.0,
       "avgAssists": 5.0,
-      "kda": 12.0,
-      "avgDamage": 22023
+      "kda": 1.48,
+      "avgDamage": 25911
     }
   }
 }

@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-21T14:06:53.123587",
+  "sample_size": 7,
+  "overall_winrate_a": 28.6,
+  "updated_at": "2026-03-23T10:04:38.038274",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 13,
-      "avg_xp_diff": -31,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 20,
+      "avg_gold_diff": 20,
+      "avg_xp_diff": -11,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -253,
-      "avg_xp_diff": -304,
-      "avg_cs_diff": -4.7,
-      "sample_frames": 20,
+      "avg_gold_diff": -298,
+      "avg_xp_diff": -382,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 35,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -165,
-      "avg_xp_diff": -647,
-      "avg_cs_diff": -12.9,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": -419,
+      "avg_xp_diff": -805,
+      "avg_cs_diff": -17.1,
+      "sample_frames": 35,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -321,
-      "avg_xp_diff": -1130,
+      "avg_gold_diff": -260,
+      "avg_xp_diff": -775,
       "avg_cs_diff": -25.0,
-      "sample_frames": 27,
+      "sample_frames": 53,
       "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1769,
+      "avg_xp_diff": -1066,
+      "avg_cs_diff": -23.3,
+      "sample_frames": 9,
+      "advantage": 2
     }
   ],
   "champA": "Camille",
@@ -48,69 +57,81 @@
       "items": [
         {
           "name": "Trinity Force",
-          "count": 4,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 25.0
+          "winRate": 28.6
         },
         {
           "name": "Ravenous Hydra",
-          "count": 3,
-          "pickRate": 75.0,
+          "count": 6,
+          "pickRate": 85.7,
           "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 3,
-          "pickRate": 75.0,
+          "count": 6,
+          "pickRate": 85.7,
           "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
+          "spells": "Teleport+Ignite",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        },
+        {
           "spells": "Flash+Teleport",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 42.9,
           "winRate": 33.3
         }
       ],
-      "avgKills": 2.8,
-      "avgDeaths": 3.2,
-      "avgAssists": 2.5,
+      "avgKills": 4.1,
+      "avgDeaths": 4.6,
+      "avgAssists": 3.3,
       "kda": 1.62,
-      "avgDamage": 16851
+      "avgDamage": 18702
     },
     "champB": {
       "items": [
         {
           "name": "Riftmaker",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 4,
+          "count": 7,
           "pickRate": 100.0,
-          "winRate": 75.0
+          "winRate": 71.4
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 100.0
         }
       ],
-      "avgKills": 2.2,
-      "avgDeaths": 2.2,
-      "avgAssists": 5.0,
-      "kda": 3.22,
-      "avgDamage": 15951
+      "avgKills": 3.4,
+      "avgDeaths": 3.1,
+      "avgAssists": 5.9,
+      "kda": 2.95,
+      "avgDamage": 17807
     }
   }
 }

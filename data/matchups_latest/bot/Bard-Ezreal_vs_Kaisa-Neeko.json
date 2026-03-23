@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:02.969995",
+  "updated_at": "2026-03-23T10:04:48.733944",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 159,
-      "avg_xp_diff": 60,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 118,
+      "avg_xp_diff": 103,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 533,
-      "avg_xp_diff": 236,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 537,
+      "avg_xp_diff": 514,
+      "avg_cs_diff": 8.0,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1067,
-      "avg_xp_diff": 670,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 1425,
+      "avg_xp_diff": 1217,
+      "avg_cs_diff": 8.7,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 5097,
-      "avg_xp_diff": 3701,
-      "avg_cs_diff": 20.5,
-      "sample_frames": 11,
+      "avg_gold_diff": 4181,
+      "avg_xp_diff": 3184,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 24,
       "advantage": 2
     }
   ],
@@ -58,15 +58,21 @@
         "items": [
           {
             "name": "Trinity Force",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Spear of Shojin",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 50.0,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 100.0
           }
@@ -74,40 +80,53 @@
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 100.0
           }
         ],
-        "avgKills": 5.5,
+        "avgKills": 5.8,
         "avgDeaths": 1.5,
-        "avgAssists": 4.5,
-        "kda": 6.67,
-        "avgDamage": 15733
+        "avgAssists": 5.8,
+        "kda": 7.67,
+        "avgDamage": 16778
       },
       "sup": {
         "items": [
           {
             "name": "Locket of the Iron Solari",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 50.0,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Electrocute",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 100.0
           }
         ],
-        "summonerSpells": [],
-        "avgKills": 3.5,
-        "avgDeaths": 1.5,
-        "avgAssists": 12.5,
-        "kda": 10.67,
-        "avgDamage": 9530
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 2.2,
+        "avgAssists": 14.8,
+        "kda": 7.89,
+        "avgDamage": 9643
       }
     },
     "teamB": {
@@ -115,15 +134,21 @@
         "items": [
           {
             "name": "Kraken Slayer",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 50.0,
             "winRate": 0.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 0.0
           }
@@ -131,23 +156,30 @@
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 2.0,
-        "avgDeaths": 5.5,
-        "avgAssists": 2.0,
-        "kda": 0.73,
-        "avgDamage": 9046
+        "avgKills": 1.8,
+        "avgDeaths": 5.2,
+        "avgAssists": 3.2,
+        "kda": 0.95,
+        "avgDamage": 9636
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [
           {
             "name": "Arcane Comet",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 0.0
           }
@@ -155,16 +187,16 @@
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
+        "avgKills": 0.2,
+        "avgDeaths": 6.2,
         "avgAssists": 4.5,
-        "kda": 0.9,
-        "avgDamage": 9378
+        "kda": 0.76,
+        "avgDamage": 8448
       }
     }
   }

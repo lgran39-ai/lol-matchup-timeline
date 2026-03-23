@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-21T14:06:52.669243",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-23T10:04:37.573306",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 80,
-      "avg_xp_diff": 118,
-      "avg_cs_diff": 1.1,
-      "sample_frames": 15,
+      "avg_gold_diff": 75,
+      "avg_xp_diff": 109,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 105,
-      "avg_xp_diff": 285,
-      "avg_cs_diff": 5.7,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 248,
+      "avg_xp_diff": 381,
+      "avg_cs_diff": 9.2,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 209,
-      "avg_xp_diff": 583,
-      "avg_cs_diff": 10.6,
-      "sample_frames": 15,
+      "avg_gold_diff": 394,
+      "avg_xp_diff": 720,
+      "avg_cs_diff": 16.1,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -408,
-      "avg_xp_diff": 202,
-      "avg_cs_diff": 4.3,
-      "sample_frames": 22,
-      "advantage": -2
+      "avg_gold_diff": 269,
+      "avg_xp_diff": 805,
+      "avg_cs_diff": 23.4,
+      "sample_frames": 32,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -903,
-      "avg_xp_diff": -324,
-      "avg_cs_diff": -27.7,
-      "sample_frames": 3,
-      "advantage": -2
+      "avg_gold_diff": 1103,
+      "avg_xp_diff": 1083,
+      "avg_cs_diff": 32.7,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "champA": "Ambessa",
@@ -56,70 +56,76 @@
     "champA": {
       "items": [
         {
-          "name": "Black Cleaver",
-          "count": 2,
-          "pickRate": 66.7,
+          "name": "Eclipse",
+          "count": 3,
+          "pickRate": 75.0,
           "winRate": 0.0
         },
         {
-          "name": "Eclipse",
+          "name": "Black Cleaver",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
-          "pickRate": 66.7,
+          "count": 3,
+          "pickRate": 75.0,
           "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 5.2,
+      "avgAssists": 2.8,
+      "kda": 1.19,
+      "avgDamage": 24774
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Unending Despair",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
-      "avgKills": 2.7,
-      "avgDeaths": 5.3,
-      "avgAssists": 2.7,
-      "kda": 1.0,
-      "avgDamage": 22320
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Unending Despair",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Grasp of the Undying",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 3.3,
-      "avgDeaths": 2.3,
-      "avgAssists": 5.7,
-      "kda": 3.86,
-      "avgDamage": 15261
+      "avgKills": 3.2,
+      "avgDeaths": 2.5,
+      "avgAssists": 5.8,
+      "kda": 3.6,
+      "avgDamage": 15384
     }
   }
 }

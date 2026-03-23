@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:03.149099",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:49.004248",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 193,
-      "avg_xp_diff": -66,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -50,
+      "avg_xp_diff": -94,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 198,
-      "avg_xp_diff": 249,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -182,
+      "avg_xp_diff": -100,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1410,
-      "avg_xp_diff": 1306,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 761,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": -13.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1342,
-      "avg_xp_diff": -185,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 9,
+      "avg_gold_diff": 1830,
+      "avg_xp_diff": -327,
+      "avg_cs_diff": -15.4,
+      "sample_frames": 20,
       "advantage": 2
     }
   ],
@@ -55,24 +55,58 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
         "avgDeaths": 4.0,
-        "avgAssists": 9.0,
-        "kda": 3.0,
-        "avgDamage": 18483
+        "avgAssists": 10.0,
+        "kda": 3.38,
+        "avgDamage": 19595
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
         "avgDeaths": 9.0,
-        "avgAssists": 6.0,
-        "kda": 0.89,
-        "avgDamage": 11654
+        "avgAssists": 8.0,
+        "kda": 1.22,
+        "avgDamage": 8822
       }
     },
     "teamB": {
@@ -80,21 +114,41 @@
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 6.0,
+        "avgKills": 4.0,
         "avgDeaths": 6.0,
-        "avgAssists": 11.0,
-        "kda": 2.83,
-        "avgDamage": 15571
+        "avgAssists": 8.5,
+        "kda": 2.08,
+        "avgDamage": 13908
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 15.0,
-        "kda": 3.6,
-        "avgDamage": 8971
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 11.5,
+        "kda": 2.33,
+        "avgDamage": 8676
       }
     }
   }

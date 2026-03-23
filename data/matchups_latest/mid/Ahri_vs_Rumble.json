@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:01.204505",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:46.768622",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 205,
-      "avg_xp_diff": 151,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 153,
+      "avg_xp_diff": 86,
+      "avg_cs_diff": 5.3,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 803,
-      "avg_xp_diff": 323,
-      "avg_cs_diff": 24.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 313,
+      "avg_xp_diff": 133,
+      "avg_cs_diff": 14.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1927,
-      "avg_xp_diff": 1176,
-      "avg_cs_diff": 44.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 785,
+      "avg_xp_diff": 486,
+      "avg_cs_diff": 23.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2107,
-      "avg_xp_diff": 2972,
-      "avg_cs_diff": 58.7,
-      "sample_frames": 9,
+      "avg_gold_diff": 1371,
+      "avg_xp_diff": 2149,
+      "avg_cs_diff": 34.3,
+      "sample_frames": 19,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 458,
+      "avg_xp_diff": 718,
+      "avg_cs_diff": 12.6,
+      "sample_frames": 12,
       "advantage": 2
     }
   ],
@@ -45,24 +54,65 @@
   "champB": "Rumble",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 9.0,
-      "kda": 14.0,
-      "avgDamage": 23277
+      "avgKills": 4.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 10.0,
+      "kda": 9.67,
+      "avgDamage": 26948
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 1.0,
-      "kda": 0.67,
-      "avgDamage": 10978
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 3.5,
+      "kda": 1.78,
+      "avgDamage": 17634
     }
   }
 }

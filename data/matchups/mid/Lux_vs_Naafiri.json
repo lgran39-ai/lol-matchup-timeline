@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:54.491798",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:39.426471",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -26,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -159,
+      "avg_xp_diff": -78,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 178,
-      "avg_xp_diff": 262,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -501,
+      "avg_xp_diff": -311,
+      "avg_cs_diff": -14.0,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 386,
-      "avg_xp_diff": 506,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 109,
+      "avg_xp_diff": 56,
+      "avg_cs_diff": -13.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 92,
-      "avg_xp_diff": 361,
-      "avg_cs_diff": -15.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 141,
+      "avg_xp_diff": 90,
+      "avg_cs_diff": -19.4,
+      "sample_frames": 16,
       "advantage": 0
     }
   ],
@@ -45,24 +45,58 @@
   "champB": "Naafiri",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 12.0,
-      "kda": 8.0,
-      "avgDamage": 18871
+      "avgKills": 5.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 8.5,
+      "kda": 4.5,
+      "avgDamage": 16894
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.0,
       "avgAssists": 2.0,
-      "kda": 0.8,
-      "avgDamage": 11341
+      "kda": 2.0,
+      "avgDamage": 10674
     }
   }
 }

@@ -1,68 +1,112 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.663865",
+  "updated_at": "2026-03-23T10:04:47.299428",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -59,
-      "avg_xp_diff": -93,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -27,
+      "avg_xp_diff": -78,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -419,
-      "avg_xp_diff": -435,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -343,
+      "avg_xp_diff": -494,
+      "avg_cs_diff": -9.8,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -710,
-      "avg_xp_diff": -993,
-      "avg_cs_diff": -18.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -256,
+      "avg_xp_diff": -640,
+      "avg_cs_diff": -10.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1557,
-      "avg_xp_diff": -1041,
-      "avg_cs_diff": -26.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 29,
+      "avg_xp_diff": 376,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 15,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 98,
+      "avg_xp_diff": -140,
+      "avg_cs_diff": 33.2,
+      "sample_frames": 8,
+      "advantage": 0
     }
   ],
   "champA": "Fiora",
   "champB": "Illaoi",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.0,
-      "kda": 1.0,
-      "avgDamage": 7602
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 2.5,
+      "kda": 1.11,
+      "avgDamage": 16334
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.0,
-      "kda": 2.0,
-      "avgDamage": 11935
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 2.5,
+      "kda": 2.38,
+      "avgDamage": 25633
     }
   }
 }

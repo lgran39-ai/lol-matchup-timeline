@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.309526",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:46.888429",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -39,
-      "avg_xp_diff": 3,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -36,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -307,
-      "avg_xp_diff": 15,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -132,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": -10.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -681,
-      "avg_xp_diff": 35,
-      "avg_cs_diff": -13.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 283,
+      "avg_xp_diff": 1036,
+      "avg_cs_diff": 2.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1091,
-      "avg_xp_diff": 222,
-      "avg_cs_diff": -9.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -571,
+      "avg_xp_diff": 689,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 12,
       "advantage": -2
     },
     {
@@ -54,24 +54,52 @@
   "champB": "Naafiri",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 6.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 3.5,
       "avgAssists": 1.0,
-      "kda": 0.33,
-      "avgDamage": 10782
+      "kda": 0.86,
+      "avgDamage": 9034
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 2.5,
-      "avgDamage": 28702
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 1.5,
+      "kda": 1.57,
+      "avgDamage": 17113
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.635623",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:47.264887",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -6,
-      "avg_xp_diff": -3,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -18,
+      "avg_xp_diff": -20,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -804,
-      "avg_xp_diff": -510,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -326,
+      "avg_xp_diff": -333,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2128,
-      "avg_xp_diff": -1900,
-      "avg_cs_diff": -43.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -632,
+      "avg_xp_diff": -1043,
+      "avg_cs_diff": -20.8,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4522,
-      "avg_xp_diff": -3590,
-      "avg_cs_diff": -66.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -773,
+      "avg_xp_diff": -1502,
+      "avg_cs_diff": -29.6,
+      "sample_frames": 40,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -5816,
-      "avg_xp_diff": -4783,
-      "avg_cs_diff": -108.4,
-      "sample_frames": 8,
+      "avg_gold_diff": -1808,
+      "avg_xp_diff": -2138,
+      "avg_cs_diff": -49.8,
+      "sample_frames": 22,
       "advantage": -2
     }
   ],
@@ -54,24 +54,84 @@
   "champB": "Hecarim",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 4.0,
-      "kda": 1.25,
-      "avgDamage": 19927
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 6.2,
+      "avgAssists": 7.5,
+      "kda": 2.56,
+      "avgDamage": 23004
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 20.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 12.0,
-      "kda": 10.67,
-      "avgDamage": 40116
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.2,
+      "avgDeaths": 5.2,
+      "avgAssists": 13.0,
+      "kda": 4.05,
+      "avgDamage": 24117
     }
   }
 }

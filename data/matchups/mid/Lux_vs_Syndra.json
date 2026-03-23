@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-21T14:06:54.494070",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-23T10:04:39.428875",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 188,
-      "avg_xp_diff": 67,
-      "avg_cs_diff": -1.7,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 133,
+      "avg_xp_diff": 43,
+      "avg_cs_diff": -1.3,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 647,
-      "avg_xp_diff": 478,
-      "avg_cs_diff": 0.1,
-      "sample_frames": 15,
+      "avg_gold_diff": 429,
+      "avg_xp_diff": 282,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1045,
-      "avg_xp_diff": 1014,
-      "avg_cs_diff": 3.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 511,
+      "avg_xp_diff": 520,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 502,
-      "avg_xp_diff": 662,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 29,
-      "advantage": 2
+      "avg_gold_diff": -291,
+      "avg_xp_diff": -117,
+      "avg_cs_diff": -12.9,
+      "sample_frames": 39,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -543,
-      "avg_xp_diff": 816,
-      "avg_cs_diff": -4.3,
-      "sample_frames": 9,
+      "avg_gold_diff": -1717,
+      "avg_xp_diff": -671,
+      "avg_cs_diff": -20.0,
+      "sample_frames": 12,
       "advantage": -2
     }
   ],
@@ -57,56 +57,62 @@
       "items": [
         {
           "name": "Spellslinger's Shoes",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 50.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         },
         {
           "name": "Luden's Echo",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 100.0
-        },
-        {
-          "name": "Stormsurge",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 75.0,
           "winRate": 66.7
         }
       ],
       "summonerSpells": [],
-      "avgKills": 4.3,
-      "avgDeaths": 3.0,
-      "avgAssists": 7.3,
-      "kda": 3.89,
-      "avgDamage": 18316
+      "avgKills": 3.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.8,
+      "kda": 2.31,
+      "avgDamage": 16226
     },
     "champB": {
       "items": [
         {
-          "name": "Spellslinger's Shoes",
+          "name": "Blackfire Torch",
           "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "pickRate": 75.0,
+          "winRate": 66.7
         },
         {
-          "name": "Blackfire Torch",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         },
         {
           "name": "Stormsurge",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
@@ -114,16 +120,23 @@
         {
           "name": "First Strike",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.7,
-      "avgDeaths": 6.3,
-      "avgAssists": 4.7,
-      "kda": 1.47,
-      "avgDamage": 18428
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.2,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.8,
+      "kda": 1.82,
+      "avgDamage": 20008
     }
   }
 }

@@ -1,77 +1,125 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:07:01.720063",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-23T10:04:47.360615",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -102,
-      "avg_xp_diff": 43,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -22,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -96,
-      "avg_xp_diff": 237,
-      "avg_cs_diff": -13.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -10,
+      "avg_xp_diff": 210,
+      "avg_cs_diff": -7.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 825,
-      "avg_xp_diff": 1032,
-      "avg_cs_diff": -17.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 301,
+      "avg_xp_diff": 688,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -330,
-      "avg_xp_diff": -282,
-      "avg_cs_diff": -29.4,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -831,
+      "avg_xp_diff": -477,
+      "avg_cs_diff": -22.9,
+      "sample_frames": 22,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 647,
-      "avg_xp_diff": 1494,
-      "avg_cs_diff": -36.4,
-      "sample_frames": 7,
-      "advantage": 2
+      "avg_gold_diff": -1172,
+      "avg_xp_diff": 47,
+      "avg_cs_diff": -42.3,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "champA": "Gangplank",
   "champB": "Gwen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 9.0,
-      "kda": 4.25,
-      "avgDamage": 31786
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.3,
+      "kda": 2.89,
+      "avgDamage": 22764
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 2.0,
-      "kda": 1.33,
-      "avgDamage": 29687
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 3.0,
+      "avgAssists": 3.3,
+      "kda": 2.56,
+      "avgDamage": 22540
     }
   }
 }

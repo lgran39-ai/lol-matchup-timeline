@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-21T14:07:01.514059",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-23T10:04:47.119046",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -113,
-      "avg_xp_diff": -109,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -39,
+      "avg_xp_diff": -33,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -697,
-      "avg_xp_diff": -356,
-      "avg_cs_diff": -8.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -276,
+      "avg_xp_diff": -152,
+      "avg_cs_diff": -8.5,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1474,
-      "avg_xp_diff": -1381,
-      "avg_cs_diff": -21.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -605,
+      "avg_xp_diff": -965,
+      "avg_cs_diff": -21.6,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -988,
-      "avg_xp_diff": -1696,
-      "avg_cs_diff": -44.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -477,
+      "avg_xp_diff": -1281,
+      "avg_cs_diff": -31.2,
+      "sample_frames": 31,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -707,
-      "avg_xp_diff": -3469,
-      "avg_cs_diff": -62.3,
-      "sample_frames": 6,
+      "avg_gold_diff": -1822,
+      "avg_xp_diff": -3394,
+      "avg_cs_diff": -35.8,
+      "sample_frames": 13,
       "advantage": -2
     }
   ],
@@ -54,24 +54,83 @@
   "champB": "Kennen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 1.71,
-      "avgDamage": 22734
+      "avgKills": 7.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 3.7,
+      "kda": 1.74,
+      "avgDamage": 18795
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 11.0,
-      "kda": 8.5,
-      "avgDamage": 25334
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 10.3,
+      "kda": 4.5,
+      "avgDamage": 24879
     }
   }
 }

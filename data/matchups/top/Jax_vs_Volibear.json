@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-21T14:06:54.044184",
+  "updated_at": "2026-03-23T10:04:38.967246",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 116,
-      "avg_xp_diff": 68,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 65,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 472,
-      "avg_xp_diff": 338,
-      "avg_cs_diff": 13.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -62,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1722,
-      "avg_xp_diff": 1817,
-      "avg_cs_diff": 27.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 201,
+      "avg_xp_diff": 290,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3787,
-      "avg_xp_diff": 3391,
-      "avg_cs_diff": 40.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 2967,
+      "avg_xp_diff": 2803,
+      "avg_cs_diff": 28.1,
+      "sample_frames": 12,
       "advantage": 2
     },
     {
@@ -55,23 +55,44 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.5,
       "avgDeaths": 2.0,
-      "avgAssists": 7.0,
-      "kda": 9.0,
-      "avgDamage": 32809
+      "avgAssists": 4.5,
+      "kda": 5.0,
+      "avgDamage": 21558
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
       "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 1.0,
-      "kda": 0.38,
-      "avgDamage": 8390
+      "avgDeaths": 5.0,
+      "avgAssists": 0.5,
+      "kda": 0.5,
+      "avgDamage": 7773
     }
   }
 }
