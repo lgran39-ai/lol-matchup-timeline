@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:46.782559",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-29T12:05:18.852986",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -125,
-      "avg_xp_diff": -9,
-      "avg_cs_diff": -3.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -8,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -453,
-      "avg_xp_diff": -179,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 93,
+      "avg_xp_diff": 149,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -517,
-      "avg_xp_diff": -156,
-      "avg_cs_diff": -16.7,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 265,
+      "avg_xp_diff": 326,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": 1480,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": 806,
+      "avg_xp_diff": 1627,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 50,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1840,
-      "avg_xp_diff": 1469,
-      "avg_cs_diff": -33.8,
-      "sample_frames": 14,
+      "avg_gold_diff": -2836,
+      "avg_xp_diff": 1191,
+      "avg_cs_diff": -18.2,
+      "sample_frames": 33,
       "advantage": -2
     }
   ],
@@ -56,63 +56,112 @@
     "champA": {
       "items": [
         {
-          "name": "Hextech Gunblade",
-          "count": 2,
+          "name": "Spellslinger's Shoes",
+          "count": 5,
           "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 60.0,
           "winRate": 100.0
         },
         {
-          "name": "Spellslinger's Shoes",
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 40.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 80.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 9.0,
+      "avgKills": 11.0,
       "avgDeaths": 3.0,
-      "avgAssists": 5.0,
-      "kda": 4.67,
-      "avgDamage": 27079
+      "avgAssists": 5.8,
+      "kda": 5.6,
+      "avgDamage": 28336
     },
     "champB": {
       "items": [
         {
           "name": "The Collector",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
+          "winRate": 20.0
+        },
+        {
+          "name": "Statikk Shiv",
+          "count": 3,
+          "pickRate": 60.0,
           "winRate": 0.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rapid Firecannon",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 20.0
         }
       ],
       "avgKills": 9.0,
       "avgDeaths": 6.0,
-      "avgAssists": 3.0,
-      "kda": 2.0,
-      "avgDamage": 28126
+      "avgAssists": 3.6,
+      "kda": 2.1,
+      "avgDamage": 29260
     }
   }
 }

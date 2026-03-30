@@ -1,91 +1,143 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.456627",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-29T12:05:19.916742",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -67,
-      "avg_xp_diff": -21,
-      "avg_cs_diff": 0.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -3,
+      "avg_xp_diff": 1,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -285,
-      "avg_xp_diff": -225,
-      "avg_cs_diff": 1.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -170,
+      "avg_xp_diff": -69,
+      "avg_cs_diff": -3.2,
+      "sample_frames": 25,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -511,
-      "avg_xp_diff": -379,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -377,
+      "avg_xp_diff": 49,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 822,
-      "avg_xp_diff": 1365,
-      "avg_cs_diff": 52.1,
-      "sample_frames": 12,
-      "advantage": 2
+      "avg_gold_diff": -892,
+      "avg_xp_diff": 413,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 41,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2981,
-      "avg_xp_diff": 3076,
-      "avg_cs_diff": 97.3,
-      "sample_frames": 3,
-      "advantage": 2
+      "avg_gold_diff": 286,
+      "avg_xp_diff": 1508,
+      "avg_cs_diff": 25.5,
+      "sample_frames": 11,
+      "advantage": 1
     }
   ],
   "champA": "Gwen",
   "champB": "Kled",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 20.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 3.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 3.5,
-      "kda": 1.75,
-      "avgDamage": 19457
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 5.6,
+      "avgAssists": 3.4,
+      "kda": 1.5,
+      "avgDamage": 24280
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 80.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 6.0,
-      "kda": 4.0,
-      "avgDamage": 13578
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 5.2,
+      "avgAssists": 5.8,
+      "kda": 2.27,
+      "avgDamage": 21669
     }
   }
 }

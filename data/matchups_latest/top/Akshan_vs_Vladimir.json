@@ -1,44 +1,44 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:46.851437",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:18.955182",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 58,
-      "avg_xp_diff": 50,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 38,
+      "avg_xp_diff": 24,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 171,
-      "avg_xp_diff": 234,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 253,
+      "avg_xp_diff": 324,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -575,
-      "avg_xp_diff": -1000,
-      "avg_cs_diff": -11.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 110,
+      "avg_xp_diff": -31,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -147,
-      "avg_xp_diff": -1321,
-      "avg_cs_diff": -19.1,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 516,
+      "avg_xp_diff": -304,
+      "avg_cs_diff": -8.1,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
@@ -55,23 +55,51 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
       "avgDeaths": 6.0,
       "avgAssists": 4.0,
-      "kda": 1.67,
-      "avgDamage": 28366
+      "kda": 1.5,
+      "avgDamage": 24667
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 7.0,
-      "kda": 2.33,
-      "avgDamage": 23832
+      "avgKills": 4.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 5.5,
+      "kda": 1.82,
+      "avgDamage": 20240
     }
   }
 }

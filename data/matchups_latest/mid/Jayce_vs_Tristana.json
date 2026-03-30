@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.639461",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:20.177926",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 321,
-      "avg_xp_diff": -101,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 172,
+      "avg_xp_diff": -55,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 89,
-      "avg_xp_diff": -399,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 436,
+      "avg_xp_diff": 1,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -458,
-      "avg_xp_diff": -451,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 822,
+      "avg_xp_diff": 428,
+      "avg_cs_diff": 3.8,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2142,
-      "avg_xp_diff": -1847,
-      "avg_cs_diff": -9.3,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 240,
+      "avg_xp_diff": -236,
+      "avg_cs_diff": -4.7,
+      "sample_frames": 19,
+      "advantage": 1
     },
     {
       "phase": "25min+",
@@ -54,24 +54,38 @@
   "champB": "Tristana",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 1.0,
-      "kda": 0.38,
-      "avgDamage": 11587
+      "avgKills": 6.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 5.5,
+      "kda": 2.09,
+      "avgDamage": 18191
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 6.0,
-      "kda": 3.5,
-      "avgDamage": 26133
+      "avgKills": 5.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 3.5,
+      "kda": 1.31,
+      "avgDamage": 19780
     }
   }
 }

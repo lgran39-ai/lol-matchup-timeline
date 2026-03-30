@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:49.324509",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:23.153679",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 113,
-      "avg_xp_diff": 50,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 45,
+      "avg_xp_diff": -38,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1041,
-      "avg_xp_diff": 469,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1221,
+      "avg_xp_diff": 615,
+      "avg_cs_diff": 5.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2214,
-      "avg_xp_diff": 732,
-      "avg_cs_diff": 15.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1247,
+      "avg_xp_diff": 220,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3786,
-      "avg_xp_diff": 1323,
-      "avg_cs_diff": 31.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -984,
+      "avg_xp_diff": -1785,
+      "avg_cs_diff": -10.2,
+      "sample_frames": 10,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 6.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 1.0,
-        "kda": 7.0,
-        "avgDamage": 9493
+        "avgDeaths": 3.5,
+        "avgAssists": 2.0,
+        "kda": 2.29,
+        "avgDamage": 14170
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 3.0,
+        "avgKills": 0.5,
+        "avgDeaths": 6.0,
         "avgAssists": 8.0,
-        "kda": 3.0,
-        "avgDamage": 3687
+        "kda": 1.42,
+        "avgDamage": 3920
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 1.0,
-        "kda": 0.5,
-        "avgDamage": 2547
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 3.0,
+        "avgAssists": 5.0,
+        "kda": 3.17,
+        "avgDamage": 9608
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 3.0,
-        "kda": 2.0,
-        "avgDamage": 4604
+        "avgDeaths": 3.5,
+        "avgAssists": 10.0,
+        "kda": 3.14,
+        "avgDamage": 8520
       }
     }
   }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.022423",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:19.251713",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 161,
-      "avg_xp_diff": 56,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 165,
+      "avg_xp_diff": 82,
+      "avg_cs_diff": 6.9,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 722,
-      "avg_xp_diff": 570,
-      "avg_cs_diff": 22.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 539,
+      "avg_xp_diff": 315,
+      "avg_cs_diff": 18.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1348,
-      "avg_xp_diff": 1451,
-      "avg_cs_diff": 47.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 598,
+      "avg_xp_diff": 189,
+      "avg_cs_diff": 28.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2562,
-      "avg_xp_diff": 1897,
-      "avg_cs_diff": 63.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 1300,
+      "avg_xp_diff": 408,
+      "avg_cs_diff": 45.9,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3432,
-      "avg_xp_diff": 3455,
-      "avg_cs_diff": 86.0,
-      "sample_frames": 3,
+      "avg_gold_diff": 729,
+      "avg_xp_diff": 322,
+      "avg_cs_diff": 60.3,
+      "sample_frames": 11,
       "advantage": 2
     }
   ],
@@ -55,23 +55,51 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 7.0,
-      "kda": 7.0,
-      "avgDamage": 27774
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 5.0,
+      "kda": 2.0,
+      "avgDamage": 22202
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 2.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 1.5,
-      "avgDamage": 8718
+      "avgDeaths": 2.5,
+      "avgAssists": 9.0,
+      "kda": 4.4,
+      "avgDamage": 12992
     }
   }
 }

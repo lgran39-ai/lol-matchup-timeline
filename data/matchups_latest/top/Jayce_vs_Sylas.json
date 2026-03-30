@@ -1,77 +1,137 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.636563",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:20.173032",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 14,
-      "avg_xp_diff": -31,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 50,
+      "avg_xp_diff": 0,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 77,
-      "avg_xp_diff": -74,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 17,
+      "avg_xp_diff": -125,
+      "avg_cs_diff": 7.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -39,
-      "avg_xp_diff": -275,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 209,
+      "avg_xp_diff": 188,
+      "avg_cs_diff": 17.5,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -837,
-      "avg_xp_diff": -2062,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 195,
+      "avg_xp_diff": 214,
+      "avg_cs_diff": 30.4,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1749,
-      "avg_xp_diff": -3433,
-      "avg_cs_diff": -9.3,
-      "sample_frames": 3,
-      "advantage": -2
+      "avg_gold_diff": 496,
+      "avg_xp_diff": 727,
+      "avg_cs_diff": 63.3,
+      "sample_frames": 16,
+      "advantage": 2
     }
   ],
   "champA": "Jayce",
   "champB": "Sylas",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 2.0,
-      "kda": 0.56,
-      "avgDamage": 21591
+      "items": [
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 8.0,
+      "avgAssists": 6.3,
+      "kda": 1.42,
+      "avgDamage": 28498
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 13.0,
-      "kda": 5.25,
-      "avgDamage": 27399
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 8.7,
+      "avgDeaths": 7.3,
+      "avgAssists": 10.7,
+      "kda": 2.64,
+      "avgDamage": 27403
     }
   }
 }

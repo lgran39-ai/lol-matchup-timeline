@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:48.600177",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:21.799598",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -173,
-      "avg_xp_diff": -95,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 56,
+      "avg_xp_diff": -49,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1237,
-      "avg_xp_diff": -402,
-      "avg_cs_diff": -20.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -101,
+      "avg_xp_diff": -190,
+      "avg_cs_diff": -13.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2777,
-      "avg_xp_diff": -856,
-      "avg_cs_diff": -37.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -862,
+      "avg_xp_diff": -467,
+      "avg_cs_diff": -25.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -5756,
-      "avg_xp_diff": -2257,
-      "avg_cs_diff": -54.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1355,
+      "avg_xp_diff": -230,
+      "avg_cs_diff": -28.1,
+      "sample_frames": 10,
       "advantage": -2
     }
   ],
@@ -55,46 +55,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 1.0,
-        "kda": 0.57,
-        "avgDamage": 7654
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 2.5,
+        "kda": 1.5,
+        "avgDamage": 9456
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 4.0,
-        "kda": 0.71,
-        "avgDamage": 3869
+        "avgKills": 1.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 9.0,
+        "kda": 2.33,
+        "avgDamage": 5240
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 3.0,
-        "kda": 13.0,
-        "avgDamage": 14712
+        "avgKills": 5.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 2.5,
+        "kda": 2.0,
+        "avgDamage": 11188
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.0,
         "avgDeaths": 4.0,
-        "avgAssists": 13.0,
-        "kda": 4.0,
-        "avgDamage": 5412
+        "avgAssists": 8.0,
+        "kda": 2.5,
+        "avgDamage": 5104
       }
     }
   }

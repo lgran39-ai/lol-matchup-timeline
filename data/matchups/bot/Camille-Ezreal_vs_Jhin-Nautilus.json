@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:42.565848",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:12.688490",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 429,
-      "avg_xp_diff": 97,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 261,
+      "avg_xp_diff": 82,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1783,
-      "avg_xp_diff": 786,
-      "avg_cs_diff": 15.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1292,
+      "avg_xp_diff": 649,
+      "avg_cs_diff": 12.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1212,
-      "avg_xp_diff": 604,
-      "avg_cs_diff": 18.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 1663,
+      "avg_xp_diff": 516,
+      "avg_cs_diff": 17.4,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4926,
-      "avg_xp_diff": 3396,
-      "avg_cs_diff": 58.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 4097,
+      "avg_xp_diff": 2021,
+      "avg_cs_diff": 57.5,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2718,
+      "avg_xp_diff": -1288,
+      "avg_cs_diff": 88.0,
+      "sample_frames": 6,
       "advantage": 2
     }
   ],
@@ -55,46 +64,95 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 15.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 5.0,
-        "kda": 10.0,
-        "avgDamage": 28337
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 11.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 4.0,
+        "kda": 3.88,
+        "avgDamage": 30848
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 14.0,
-        "kda": 2.83,
-        "avgDamage": 11786
+        "keystones": [
+          {
+            "name": "Hail of Blades",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 9.0,
+        "avgAssists": 11.0,
+        "kda": 1.67,
+        "avgDamage": 13835
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 2.0,
-        "kda": 0.67,
-        "avgDamage": 12141
+        "avgKills": 4.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 7.0,
+        "kda": 1.77,
+        "avgDamage": 15578
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
+        "avgKills": 2.0,
         "avgDeaths": 9.0,
-        "avgAssists": 6.0,
-        "kda": 0.78,
-        "avgDamage": 6661
+        "avgAssists": 11.5,
+        "kda": 1.5,
+        "avgDamage": 7502
       }
     }
   }

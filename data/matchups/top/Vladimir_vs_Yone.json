@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:40.279093",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-03-29T12:05:09.507517",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 0,
-      "avg_xp_diff": -2,
-      "avg_cs_diff": -0.1,
-      "sample_frames": 20,
+      "avg_gold_diff": 32,
+      "avg_xp_diff": 37,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 36,
-      "avg_xp_diff": 23,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": 197,
+      "avg_xp_diff": 222,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 299,
-      "avg_xp_diff": 737,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": 573,
+      "avg_xp_diff": 1144,
+      "avg_cs_diff": 9.7,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 999,
-      "avg_xp_diff": 1478,
-      "avg_cs_diff": -3.1,
-      "sample_frames": 41,
+      "avg_gold_diff": 1633,
+      "avg_xp_diff": 2134,
+      "avg_cs_diff": 10.3,
+      "sample_frames": 51,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -372,
-      "avg_xp_diff": 224,
-      "avg_cs_diff": -28.5,
-      "sample_frames": 25,
-      "advantage": -1
+      "avg_gold_diff": 433,
+      "avg_xp_diff": 770,
+      "avg_cs_diff": -17.7,
+      "sample_frames": 29,
+      "advantage": 2
     }
   ],
   "champA": "Vladimir",
@@ -57,81 +57,99 @@
       "items": [
         {
           "name": "Void Staff",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stormsurge",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Cosmic Drive",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         },
         {
           "name": "Hextech Rocketbelt",
           "count": 2,
-          "pickRate": 50.0,
-          "winRate": 100.0
-        },
-        {
-          "name": "Riftmaker",
-          "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Summon Aery",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 4,
-          "pickRate": 100.0,
+          "pickRate": 80.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 6.8,
-      "avgDeaths": 3.2,
-      "avgAssists": 5.0,
-      "kda": 3.62,
-      "avgDamage": 26412
+      "avgKills": 7.4,
+      "avgDeaths": 3.4,
+      "avgAssists": 4.8,
+      "kda": 3.59,
+      "avgDamage": 27005
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         },
         {
           "name": "Immortal Shieldbow",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 60.0,
           "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 4.2,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.5,
-      "kda": 1.29,
-      "avgDamage": 29036
+      "avgKills": 3.4,
+      "avgDeaths": 7.0,
+      "avgAssists": 3.8,
+      "kda": 1.03,
+      "avgDamage": 26586
     }
   }
 }

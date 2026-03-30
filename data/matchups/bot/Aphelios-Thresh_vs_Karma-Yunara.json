@@ -1,42 +1,51 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:41.213484",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:10.781157",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -146,
-      "avg_xp_diff": -30,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -113,
+      "avg_xp_diff": -24,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -310,
-      "avg_xp_diff": -13,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -372,
+      "avg_xp_diff": 72,
+      "avg_cs_diff": 6.9,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 318,
-      "avg_xp_diff": -144,
-      "avg_cs_diff": 7.0,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 141,
+      "avg_xp_diff": -195,
+      "avg_cs_diff": 11.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 948,
-      "avg_xp_diff": -449,
-      "avg_cs_diff": 4.8,
+      "avg_gold_diff": 458,
+      "avg_xp_diff": -49,
+      "avg_cs_diff": 4.3,
+      "sample_frames": 15,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 910,
+      "avg_xp_diff": -396,
+      "avg_cs_diff": -11.6,
       "sample_frames": 5,
       "advantage": 2
     }
@@ -57,9 +66,15 @@
       "adc": {
         "items": [
           {
+            "name": "Stormrazor",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
             "name": "The Collector",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
@@ -67,74 +82,38 @@
           {
             "name": "Press the Attack",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 5.5,
-        "avgDeaths": 2.5,
-        "avgAssists": 0.5,
-        "kda": 2.4,
-        "avgDamage": 12475
+        "avgKills": 6.3,
+        "avgDeaths": 4.0,
+        "avgAssists": 2.3,
+        "kda": 2.17,
+        "avgDamage": 15675
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.5,
-        "avgDeaths": 3.5,
-        "avgAssists": 5.5,
-        "kda": 1.71,
-        "avgDamage": 3529
-      }
-    },
-    "teamB": {
-      "adc": {
         "items": [
           {
-            "name": "Kraken Slayer",
+            "name": "Locket of the Iron Solari",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
-            "name": "Lethal Tempo",
+            "name": "Glacial Augment",
             "count": 2,
-            "pickRate": 100.0,
-            "winRate": 50.0
-          }
-        ],
-        "summonerSpells": [
-          {
-            "spells": "Flash+Ghost",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 50.0
-          }
-        ],
-        "avgKills": 4.0,
-        "avgDeaths": 2.5,
-        "avgAssists": 3.0,
-        "kda": 2.8,
-        "avgDamage": 10324
-      },
-      "sup": {
-        "items": [],
-        "keystones": [
-          {
-            "name": "Arcane Comet",
-            "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
@@ -142,15 +121,79 @@
           {
             "spells": "Flash+Heal",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "avgKills": 1.0,
-        "avgDeaths": 2.5,
-        "avgAssists": 7.5,
-        "kda": 3.4,
-        "avgDamage": 5892
+        "avgKills": 0.3,
+        "avgDeaths": 4.7,
+        "avgAssists": 9.0,
+        "kda": 2.0,
+        "avgDamage": 4506
+      }
+    },
+    "teamB": {
+      "adc": {
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ghost",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.3,
+        "avgDeaths": 2.7,
+        "avgAssists": 4.7,
+        "kda": 3.75,
+        "avgDamage": 14918
+      },
+      "sup": {
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 3.0,
+        "avgAssists": 10.7,
+        "kda": 4.22,
+        "avgDamage": 7291
       }
     }
   }

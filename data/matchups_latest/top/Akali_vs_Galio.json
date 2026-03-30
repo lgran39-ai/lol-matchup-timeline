@@ -1,68 +1,89 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:46.792421",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:18.866846",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -190,
-      "avg_xp_diff": 34,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -78,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1154,
-      "avg_xp_diff": -338,
-      "avg_cs_diff": -6.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -795,
+      "avg_xp_diff": -366,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -854,
-      "avg_xp_diff": 85,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -295,
+      "avg_xp_diff": 373,
+      "avg_cs_diff": 8.4,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1280,
-      "avg_xp_diff": 826,
-      "avg_cs_diff": 14.7,
-      "sample_frames": 9,
-      "advantage": -2
+      "avg_gold_diff": -227,
+      "avg_xp_diff": 1269,
+      "avg_cs_diff": 23.1,
+      "sample_frames": 14,
+      "advantage": -1
     }
   ],
   "champA": "Akali",
   "champB": "Galio",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 0.0,
-      "kda": 0.4,
-      "avgDamage": 11231
+      "avgKills": 3.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 0.5,
+      "kda": 1.0,
+      "avgDamage": 11148
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 4.67,
-      "avgDamage": 20568
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 3.0,
+      "kda": 2.29,
+      "avgDamage": 14625
     }
   }
 }

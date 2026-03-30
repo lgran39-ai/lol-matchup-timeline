@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:38.174673",
+  "updated_at": "2026-03-29T12:05:06.815203",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 294,
+      "avg_gold_diff": 162,
       "avg_xp_diff": 67,
       "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1146,
-      "avg_xp_diff": 378,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 690,
+      "avg_xp_diff": 274,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1144,
-      "avg_xp_diff": 183,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 618,
+      "avg_xp_diff": -126,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 610,
-      "avg_xp_diff": -152,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 2,
+      "avg_gold_diff": 721,
+      "avg_xp_diff": -542,
+      "avg_cs_diff": -23.3,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1218,
+      "avg_xp_diff": -1158,
+      "avg_cs_diff": -45.8,
+      "sample_frames": 25,
       "advantage": 2
     }
   ],
@@ -46,23 +55,58 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.0,
-      "kda": 2.0,
-      "avgDamage": 3599
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 7.5,
+      "kda": 3.22,
+      "avgDamage": 17697
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 0.0,
-      "kda": 0.5,
-      "avgDamage": 922
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 7.0,
+      "kda": 1.64,
+      "avgDamage": 25390
     }
   }
 }

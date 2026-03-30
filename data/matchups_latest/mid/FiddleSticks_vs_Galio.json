@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.275908",
+  "updated_at": "2026-03-29T12:05:19.642096",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -58,
-      "avg_xp_diff": -51,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -84,
+      "avg_xp_diff": -58,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1377,
-      "avg_xp_diff": -487,
-      "avg_cs_diff": -21.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -501,
+      "avg_xp_diff": -144,
+      "avg_cs_diff": -12.1,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2568,
-      "avg_xp_diff": -1389,
-      "avg_cs_diff": -35.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -893,
+      "avg_xp_diff": -413,
+      "avg_cs_diff": -20.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3878,
-      "avg_xp_diff": -1788,
-      "avg_cs_diff": -47.5,
-      "sample_frames": 6,
+      "avg_gold_diff": -902,
+      "avg_xp_diff": -597,
+      "avg_cs_diff": -21.8,
+      "sample_frames": 26,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -468,
+      "avg_xp_diff": -1650,
+      "avg_cs_diff": -27.2,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -45,24 +54,90 @@
   "champB": "Galio",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 0.8,
-      "avgDamage": 10650
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 7.3,
+      "avgAssists": 5.3,
+      "kda": 1.32,
+      "avgDamage": 16816
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 8.0,
-      "kda": 14.0,
-      "avgDamage": 13850
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 3.3,
+      "avgAssists": 14.3,
+      "kda": 5.6,
+      "avgDamage": 20565
     }
   }
 }

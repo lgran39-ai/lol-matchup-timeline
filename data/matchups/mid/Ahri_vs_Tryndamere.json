@@ -1,68 +1,155 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:37.427486",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-29T12:05:05.875043",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 239,
-      "avg_xp_diff": 200,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 23,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 705,
-      "avg_xp_diff": 923,
-      "avg_cs_diff": 9.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 62,
+      "avg_xp_diff": 41,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1330,
-      "avg_xp_diff": 1002,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 68,
+      "avg_xp_diff": 189,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1894,
-      "avg_xp_diff": 1846,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -1396,
+      "avg_xp_diff": -1212,
+      "avg_cs_diff": -19.2,
+      "sample_frames": 24,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1577,
+      "avg_xp_diff": -1619,
+      "avg_cs_diff": -32.4,
+      "sample_frames": 16,
+      "advantage": -2
     }
   ],
   "champA": "Ahri",
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 5.0,
-      "kda": 14.0,
-      "avgDamage": 16025
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.8,
+      "avgDeaths": 4.2,
+      "avgAssists": 6.0,
+      "kda": 3.24,
+      "avgDamage": 25810
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 1.0,
-      "kda": 0.2,
-      "avgDamage": 8838
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Cleanse+Flash",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 5.2,
+      "avgAssists": 3.0,
+      "kda": 1.81,
+      "avgDamage": 18595
     }
   }
 }

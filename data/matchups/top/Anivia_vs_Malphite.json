@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:37.708325",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:06.224317",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 188,
-      "avg_xp_diff": 123,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 134,
+      "avg_xp_diff": 101,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 678,
-      "avg_xp_diff": 470,
-      "avg_cs_diff": 10.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 551,
+      "avg_xp_diff": 439,
+      "avg_cs_diff": 8.4,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1144,
-      "avg_xp_diff": 1672,
-      "avg_cs_diff": 18.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 1141,
+      "avg_xp_diff": 1353,
+      "avg_cs_diff": 14.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1641,
-      "avg_xp_diff": 2441,
-      "avg_cs_diff": 23.0,
-      "sample_frames": 14,
+      "avg_gold_diff": 1230,
+      "avg_xp_diff": 1380,
+      "avg_cs_diff": 6.8,
+      "sample_frames": 24,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1068,
+      "avg_xp_diff": 1039,
+      "avg_cs_diff": -8.9,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -48,56 +57,75 @@
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 3.0,
-      "kda": 5.0,
-      "avgDamage": 16962
+      "avgKills": 6.7,
+      "avgDeaths": 2.7,
+      "avgAssists": 4.3,
+      "kda": 4.12,
+      "avgDamage": 24071
     },
     "champB": {
       "items": [
         {
           "name": "Hollow Radiance",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
+        },
+        {
+          "name": "Zeke's Convergence",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 3.5,
+      "avgKills": 3.7,
       "avgDeaths": 5.0,
-      "avgAssists": 2.5,
-      "kda": 1.2,
-      "avgDamage": 11367
+      "avgAssists": 6.0,
+      "kda": 1.93,
+      "avgDamage": 14751
     }
   }
 }

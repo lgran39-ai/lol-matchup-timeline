@@ -1,43 +1,43 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:37.966145",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:06.550196",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -12,
-      "avg_xp_diff": 56,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 18,
+      "avg_xp_diff": 29,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -7,
-      "avg_xp_diff": 159,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -300,
+      "avg_xp_diff": -67,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -106,
-      "avg_xp_diff": -614,
-      "avg_cs_diff": -9.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -319,
+      "avg_xp_diff": -838,
+      "avg_cs_diff": -12.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 885,
-      "avg_xp_diff": 548,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 7,
+      "avg_gold_diff": 436,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 9,
       "advantage": 2
     }
   ],
@@ -45,24 +45,59 @@
   "champB": "Hecarim",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 6.0,
-      "kda": 5.5,
-      "avgDamage": 14757
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.5,
+      "kda": 1.88,
+      "avgDamage": 10798
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
       "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 3.5,
-      "avgDamage": 10024
+      "avgAssists": 5.5,
+      "kda": 5.0,
+      "avgDamage": 8774
     }
   }
 }

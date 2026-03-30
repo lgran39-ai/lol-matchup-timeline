@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 4,
+  "sample_size": 6,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:40.078825",
+  "updated_at": "2026-03-29T12:05:09.274449",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -107,
-      "avg_xp_diff": -55,
-      "avg_cs_diff": -2.5,
-      "sample_frames": 20,
+      "avg_gold_diff": -132,
+      "avg_xp_diff": -65,
+      "avg_cs_diff": -3.7,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -529,
-      "avg_xp_diff": -190,
-      "avg_cs_diff": -12.5,
-      "sample_frames": 20,
+      "avg_gold_diff": -514,
+      "avg_xp_diff": -119,
+      "avg_cs_diff": -13.8,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1004,
-      "avg_xp_diff": -280,
-      "avg_cs_diff": -17.8,
-      "sample_frames": 20,
+      "avg_gold_diff": -785,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": -17.1,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -287,
-      "avg_xp_diff": 594,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 32,
-      "advantage": -1
+      "avg_gold_diff": -424,
+      "avg_xp_diff": 886,
+      "avg_cs_diff": -14.3,
+      "sample_frames": 53,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1021,
-      "avg_xp_diff": -35,
-      "avg_cs_diff": -21.9,
-      "sample_frames": 34,
+      "avg_gold_diff": -1765,
+      "avg_xp_diff": -487,
+      "avg_cs_diff": -26.8,
+      "sample_frames": 40,
       "advantage": -2
     }
   ],
@@ -54,77 +54,102 @@
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Spirit Visage",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
         {
           "name": "Grasp of the Undying",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 4,
+          "count": 6,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 5.8,
-      "avgAssists": 7.0,
-      "kda": 1.74,
-      "avgDamage": 18198
+      "avgKills": 3.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.2,
+      "kda": 1.93,
+      "avgDamage": 18519
     },
     "champB": {
       "items": [
         {
           "name": "Experimental Hexplate",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
         },
         {
           "name": "Essence Reaver",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
         },
         {
           "name": "Stormrazor",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 33.3,
           "winRate": 50.0
+        },
+        {
+          "name": "Mercurial Scimitar",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ghost",
-          "count": 2,
+          "count": 3,
           "pickRate": 50.0,
-          "winRate": 50.0
+          "winRate": 66.7
         },
         {
           "spells": "Exhaust+Flash",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
-      "avgKills": 6.2,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.8,
-      "kda": 2.2,
-      "avgDamage": 30139
+      "avgKills": 5.2,
+      "avgDeaths": 5.3,
+      "avgAssists": 5.0,
+      "kda": 1.91,
+      "avgDamage": 28532
     }
   }
 }

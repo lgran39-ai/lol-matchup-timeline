@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:38.929614",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:07.809224",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 98,
+      "avg_gold_diff": 95,
       "avg_xp_diff": 57,
-      "avg_cs_diff": 4.9,
-      "sample_frames": 10,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 645,
-      "avg_xp_diff": 552,
-      "avg_cs_diff": 21.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 652,
+      "avg_xp_diff": 576,
+      "avg_cs_diff": 15.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1202,
-      "avg_xp_diff": 1122,
-      "avg_cs_diff": 25.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 1385,
+      "avg_xp_diff": 1428,
+      "avg_cs_diff": 21.3,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2247,
-      "avg_xp_diff": 1516,
-      "avg_cs_diff": 23.7,
-      "sample_frames": 16,
+      "avg_gold_diff": 2213,
+      "avg_xp_diff": 1698,
+      "avg_cs_diff": 21.5,
+      "sample_frames": 19,
       "advantage": 2
     }
   ],
@@ -49,7 +49,13 @@
         {
           "name": "Sundered Sky",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
@@ -57,40 +63,47 @@
         {
           "name": "Lethal Tempo",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 2.5,
-      "kda": 1.56,
-      "avgDamage": 16480
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 2.3,
+      "kda": 2.1,
+      "avgDamage": 14123
     },
     "champB": {
       "items": [
         {
           "name": "Nashor's Tooth",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 6.0,
-      "kda": 1.78,
-      "avgDamage": 11184
+      "avgKills": 1.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 4.0,
+      "kda": 1.21,
+      "avgDamage": 9826
     }
   }
 }

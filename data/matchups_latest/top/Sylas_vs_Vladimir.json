@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.226197",
+  "updated_at": "2026-03-29T12:05:21.132668",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 7,
-      "avg_xp_diff": -63,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 5,
+      "avg_xp_diff": -60,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -123,
-      "avg_xp_diff": -851,
-      "avg_cs_diff": -22.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 169,
+      "avg_xp_diff": -351,
+      "avg_cs_diff": -8.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1362,
-      "avg_xp_diff": -2330,
-      "avg_cs_diff": -43.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -634,
+      "avg_xp_diff": -1497,
+      "avg_cs_diff": -19.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2410,
-      "avg_xp_diff": -2735,
-      "avg_cs_diff": -64.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -997,
+      "avg_xp_diff": -2098,
+      "avg_cs_diff": -37.9,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2034,
-      "avg_xp_diff": -1458,
-      "avg_cs_diff": -67.8,
-      "sample_frames": 4,
+      "avg_gold_diff": -709,
+      "avg_xp_diff": -2961,
+      "avg_cs_diff": -46.7,
+      "sample_frames": 23,
       "advantage": -2
     }
   ],
@@ -54,24 +54,52 @@
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 8.0,
-      "kda": 1.71,
-      "avgDamage": 22375
+      "avgKills": 6.5,
+      "avgDeaths": 8.5,
+      "avgAssists": 10.0,
+      "kda": 1.94,
+      "avgDamage": 36762
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.0,
-      "kda": 2.0,
-      "avgDamage": 20291
+      "items": [
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 8.5,
+      "kda": 2.29,
+      "avgDamage": 34334
     }
   }
 }

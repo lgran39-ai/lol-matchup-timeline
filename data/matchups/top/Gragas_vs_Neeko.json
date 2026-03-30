@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:38.641802",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:07.422426",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -128,
-      "avg_xp_diff": -62,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -93,
+      "avg_xp_diff": -37,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1349,
-      "avg_xp_diff": -592,
-      "avg_cs_diff": -13.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -819,
+      "avg_xp_diff": -392,
+      "avg_cs_diff": -16.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2040,
-      "avg_xp_diff": -1996,
-      "avg_cs_diff": -22.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -1073,
+      "avg_xp_diff": -1121,
+      "avg_cs_diff": -24.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3607,
-      "avg_xp_diff": -4023,
-      "avg_cs_diff": -35.1,
-      "sample_frames": 9,
+      "avg_gold_diff": -1294,
+      "avg_xp_diff": -1525,
+      "avg_cs_diff": -36.1,
+      "sample_frames": 19,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -122,
+      "avg_xp_diff": 498,
+      "avg_cs_diff": -55.7,
+      "sample_frames": 3,
+      "advantage": 0
     }
   ],
   "champA": "Gragas",
@@ -46,23 +55,51 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 10172
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 4.5,
+      "kda": 0.93,
+      "avgDamage": 16497
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 6.0,
-      "kda": 15.0,
-      "avgDamage": 23298
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.0,
+      "kda": 2.75,
+      "avgDamage": 23192
     }
   }
 }

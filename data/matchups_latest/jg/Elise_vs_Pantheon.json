@@ -1,44 +1,53 @@
 {
   "role": "jg",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-23T10:04:47.258039",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:19.616332",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 59,
-      "avg_xp_diff": -116,
-      "avg_cs_diff": -2.9,
-      "sample_frames": 15,
+      "avg_gold_diff": 49,
+      "avg_xp_diff": -35,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -42,
-      "avg_xp_diff": -440,
-      "avg_cs_diff": -13.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 134,
+      "avg_xp_diff": -147,
+      "avg_cs_diff": -6.7,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -216,
-      "avg_xp_diff": -525,
-      "avg_cs_diff": -20.3,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": 169,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": -6.7,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -548,
-      "avg_xp_diff": -1739,
-      "avg_cs_diff": -41.8,
-      "sample_frames": 19,
-      "advantage": -2
+      "avg_gold_diff": 97,
+      "avg_xp_diff": -486,
+      "avg_cs_diff": -16.7,
+      "sample_frames": 42,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 67,
+      "avg_xp_diff": -781,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 13,
+      "advantage": 0
     }
   ],
   "champA": "Elise",
@@ -48,63 +57,99 @@
       "items": [
         {
           "name": "Lich Bane",
-          "count": 2,
+          "count": 4,
           "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Dark Harvest",
-          "count": 2,
+          "count": 4,
           "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 3,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 50.0
         }
       ],
-      "avgKills": 5.7,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.7,
-      "kda": 2.07,
-      "avgDamage": 11146
+      "avgKills": 7.5,
+      "avgDeaths": 4.3,
+      "avgAssists": 6.3,
+      "kda": 3.19,
+      "avgDamage": 15406
     },
     "champB": {
       "items": [
         {
           "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Opportunity",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Edge of Night",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 3,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 3,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 50.0
         }
       ],
-      "avgKills": 6.7,
-      "avgDeaths": 3.3,
-      "avgAssists": 6.3,
-      "kda": 3.9,
-      "avgDamage": 14703
+      "avgKills": 6.5,
+      "avgDeaths": 5.2,
+      "avgAssists": 7.0,
+      "kda": 2.61,
+      "avgDamage": 17155
     }
   }
 }

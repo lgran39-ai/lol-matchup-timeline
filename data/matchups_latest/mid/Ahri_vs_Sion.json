@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:46.770540",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-29T12:05:18.834810",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -1,
-      "avg_xp_diff": 3,
-      "avg_cs_diff": 0.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -13,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 52,
-      "avg_xp_diff": -273,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 111,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 185,
-      "avg_xp_diff": -172,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 191,
+      "avg_xp_diff": 106,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 894,
-      "avg_xp_diff": 496,
-      "avg_cs_diff": 6.5,
-      "sample_frames": 20,
+      "avg_gold_diff": 703,
+      "avg_xp_diff": 639,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 42,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2833,
-      "avg_xp_diff": 1883,
-      "avg_cs_diff": 24.7,
-      "sample_frames": 19,
+      "avg_gold_diff": 1582,
+      "avg_xp_diff": 1642,
+      "avg_cs_diff": 11.4,
+      "sample_frames": 34,
       "advantage": 2
     }
   ],
@@ -57,55 +57,111 @@
       "items": [
         {
           "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Liandry's Torment",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 9.5,
-      "kda": 7.8,
-      "avgDamage": 43680
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 6.6,
+      "avgDeaths": 2.0,
+      "avgAssists": 8.4,
+      "kda": 7.5,
+      "avgDamage": 35552
     },
     "champB": {
       "items": [
         {
-          "name": "Chainlaced Crushers",
-          "count": 2,
+          "name": "Hollow Radiance",
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 20.0
         },
         {
-          "name": "Hollow Radiance",
+          "name": "Chainlaced Crushers",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Arcane Comet",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 20.0
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 17.0,
-      "kda": 2.92,
-      "avgDamage": 25210
+      "avgKills": 2.6,
+      "avgDeaths": 5.8,
+      "avgAssists": 11.2,
+      "kda": 2.38,
+      "avgDamage": 19083
     }
   }
 }

@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:46.949091",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-29T12:05:19.099337",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -48,
-      "avg_xp_diff": 63,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 56,
+      "avg_xp_diff": 74,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -671,
-      "avg_xp_diff": -98,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -76,
+      "avg_xp_diff": 161,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -689,
-      "avg_xp_diff": -97,
-      "avg_cs_diff": 1.7,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 115,
+      "avg_xp_diff": 356,
+      "avg_cs_diff": 15.1,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -96,
-      "avg_xp_diff": 636,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 7,
+      "avg_gold_diff": -59,
+      "avg_xp_diff": 751,
+      "avg_cs_diff": 19.6,
+      "sample_frames": 29,
       "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1229,
+      "avg_xp_diff": 1738,
+      "avg_cs_diff": 51.7,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "champA": "Anivia",
@@ -48,55 +57,99 @@
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         },
         {
           "name": "Armored Advance",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Liandry's Torment",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 3.0,
-      "kda": 2.5,
-      "avgDamage": 9985
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 2.8,
+      "avgAssists": 4.0,
+      "kda": 2.43,
+      "avgDamage": 13212
     },
     "champB": {
       "items": [
         {
-          "name": "Hubris",
-          "count": 2,
-          "pickRate": 100.0,
+          "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
+        },
+        {
+          "name": "Hubris",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         }
       ],
-      "avgKills": 3.5,
+      "avgKills": 6.0,
       "avgDeaths": 4.0,
-      "avgAssists": 2.5,
-      "kda": 1.5,
-      "avgDamage": 12016
+      "avgAssists": 4.6,
+      "kda": 2.65,
+      "avgDamage": 17506
     }
   }
 }

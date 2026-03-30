@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.108693",
+  "updated_at": "2026-03-29T12:05:20.957272",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -38,
-      "avg_xp_diff": -118,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 41,
+      "avg_xp_diff": -50,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -3,
-      "avg_xp_diff": -448,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 265,
+      "avg_xp_diff": -275,
+      "avg_cs_diff": 6.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 47,
-      "avg_xp_diff": -616,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 626,
+      "avg_xp_diff": -101,
+      "avg_cs_diff": 12.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 416,
-      "avg_xp_diff": -275,
-      "avg_cs_diff": -15.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 749,
+      "avg_xp_diff": 143,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 12,
       "advantage": 2
     },
     {
@@ -54,24 +54,45 @@
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 11.0,
-      "kda": 2.38,
-      "avgDamage": 23029
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 5.5,
+      "kda": 2.56,
+      "avgDamage": 15254
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 3.0,
-      "kda": 1.67,
-      "avgDamage": 33158
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 6.5,
+      "avgAssists": 1.5,
+      "kda": 1.23,
+      "avgDamage": 21702
     }
   }
 }

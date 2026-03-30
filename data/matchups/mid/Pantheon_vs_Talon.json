@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 4,
-  "overall_winrate_a": 75.0,
-  "updated_at": "2026-03-23T10:04:39.763220",
+  "sample_size": 6,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:08.871946",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 150,
-      "avg_xp_diff": 21,
-      "avg_cs_diff": 2.5,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": 149,
+      "avg_xp_diff": 26,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 540,
-      "avg_xp_diff": 74,
-      "avg_cs_diff": 1.7,
-      "sample_frames": 20,
+      "avg_gold_diff": 527,
+      "avg_xp_diff": 125,
+      "avg_cs_diff": 4.1,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1005,
-      "avg_xp_diff": 551,
-      "avg_cs_diff": 6.7,
-      "sample_frames": 20,
+      "avg_gold_diff": 591,
+      "avg_xp_diff": 231,
+      "avg_cs_diff": 4.6,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": -80,
-      "avg_cs_diff": 2.1,
-      "sample_frames": 26,
+      "avg_gold_diff": -719,
+      "avg_xp_diff": -1051,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 45,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 140,
+      "avg_xp_diff": 1793,
+      "avg_cs_diff": -14.4,
+      "sample_frames": 16,
       "advantage": 0
     }
   ],
@@ -49,74 +58,104 @@
         {
           "name": "Youmuu's Ghostblade",
           "count": 4,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 75.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
         },
         {
           "name": "Swiftmarch",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 33.3,
           "winRate": 50.0
         },
         {
           "name": "Opportunity",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 33.3,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 4,
-          "pickRate": 100.0,
-          "winRate": 75.0
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 4,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 75.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 5.5,
-      "avgDeaths": 2.8,
-      "avgAssists": 3.5,
-      "kda": 3.27,
-      "avgDamage": 16290
+      "avgKills": 6.8,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.0,
+      "kda": 2.41,
+      "avgDamage": 22205
     },
     "champB": {
       "items": [
         {
           "name": "Youmuu's Ghostblade",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 50.0,
           "winRate": 33.3
+        },
+        {
+          "name": "Eclipse",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 50.0,
           "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 4,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 25.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 6.2,
-      "avgDeaths": 3.8,
-      "avgAssists": 2.5,
-      "kda": 2.33,
-      "avgDamage": 13965
+      "avgKills": 7.7,
+      "avgDeaths": 4.3,
+      "avgAssists": 4.7,
+      "kda": 2.85,
+      "avgDamage": 18964
     }
   }
 }

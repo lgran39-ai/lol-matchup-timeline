@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:40.672665",
+  "updated_at": "2026-03-29T12:05:10.040473",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 506,
-      "avg_xp_diff": 32,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 256,
+      "avg_xp_diff": 33,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 934,
-      "avg_xp_diff": 87,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 295,
+      "avg_xp_diff": -149,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1430,
-      "avg_xp_diff": 629,
-      "avg_cs_diff": 14.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 423,
+      "avg_xp_diff": 190,
+      "avg_cs_diff": 14.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4310,
-      "avg_xp_diff": 2865,
-      "avg_cs_diff": 15.9,
-      "sample_frames": 11,
+      "avg_gold_diff": 1860,
+      "avg_xp_diff": 2002,
+      "avg_cs_diff": 11.5,
+      "sample_frames": 21,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1724,
+      "avg_xp_diff": 3274,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,154 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 23.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 13.0,
-        "kda": 7.2,
-        "avgDamage": 41414
+        "items": [
+          {
+            "name": "Edge of Night",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Serylda's Grudge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 15.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 11.0,
+        "kda": 7.57,
+        "avgDamage": 34385
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 30.0,
-        "kda": 5.33,
-        "avgDamage": 9053
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 23.0,
+        "kda": 4.45,
+        "avgDamage": 7102
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 12.0,
-        "avgAssists": 11.0,
-        "kda": 1.0,
-        "avgDamage": 23121
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 9.0,
+        "avgAssists": 7.5,
+        "kda": 1.33,
+        "avgDamage": 27112
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 18.0,
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Zhonya's Hourglass",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 13.5,
         "avgAssists": 8.0,
-        "kda": 0.83,
-        "avgDamage": 19034
+        "kda": 1.0,
+        "avgDamage": 17239
       }
     }
   }

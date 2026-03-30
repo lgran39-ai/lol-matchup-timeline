@@ -1,77 +1,143 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.359842",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:19.774275",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -233,
-      "avg_xp_diff": -149,
-      "avg_cs_diff": -5.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -134,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -872,
-      "avg_xp_diff": -848,
-      "avg_cs_diff": -22.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -133,
+      "avg_xp_diff": -150,
+      "avg_cs_diff": -11.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1116,
-      "avg_xp_diff": -1721,
-      "avg_cs_diff": -28.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -12,
+      "avg_xp_diff": -326,
+      "avg_cs_diff": -13.0,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1874,
-      "avg_xp_diff": -2539,
-      "avg_cs_diff": -38.5,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 136,
+      "avg_xp_diff": -462,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2290,
-      "avg_xp_diff": -4509,
-      "avg_cs_diff": -57.6,
-      "sample_frames": 7,
-      "advantage": -2
+      "avg_gold_diff": 1309,
+      "avg_xp_diff": 528,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 28,
+      "advantage": 2
     }
   ],
   "champA": "Gangplank",
   "champB": "Gnar",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 7.0,
-      "kda": 1.14,
-      "avgDamage": 16436
+      "items": [
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 10.3,
+      "kda": 3.83,
+      "avgDamage": 33772
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 6.0,
-      "avgDamage": 35625
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 3.3,
+      "avgAssists": 4.0,
+      "kda": 3.0,
+      "avgDamage": 28925
     }
   }
 }

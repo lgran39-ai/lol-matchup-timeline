@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:43.097533",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-29T12:05:13.437133",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -197,
-      "avg_xp_diff": 5,
-      "avg_cs_diff": 3.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 119,
+      "avg_xp_diff": 110,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1064,
-      "avg_xp_diff": -96,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 10,
-      "advantage": -2
-    },
-    {
-      "phase": "10-15min",
-      "label": "Lv7-9",
-      "avg_gold_diff": -538,
-      "avg_xp_diff": 311,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 10,
-      "advantage": -1
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": -288,
-      "avg_xp_diff": 593,
-      "avg_cs_diff": 21.4,
+      "avg_gold_diff": 36,
+      "avg_xp_diff": 344,
+      "avg_cs_diff": 13.1,
       "sample_frames": 20,
       "advantage": 0
     },
     {
+      "phase": "10-15min",
+      "label": "Lv7-9",
+      "avg_gold_diff": 890,
+      "avg_xp_diff": 1028,
+      "avg_cs_diff": 23.9,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": 1233,
+      "avg_xp_diff": 902,
+      "avg_cs_diff": 33.9,
+      "sample_frames": 40,
+      "advantage": 2
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4298,
-      "avg_xp_diff": -705,
-      "avg_cs_diff": -12.8,
-      "sample_frames": 11,
-      "advantage": -2
+      "avg_gold_diff": 1149,
+      "avg_xp_diff": 1740,
+      "avg_cs_diff": 32.4,
+      "sample_frames": 32,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -67,62 +67,87 @@
         "items": [
           {
             "name": "Trinity Force",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 75.0
+          },
+          {
+            "name": "Spear of Shojin",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 100.0
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 75.0
           }
         ],
-        "avgKills": 5.0,
-        "avgDeaths": 9.5,
-        "avgAssists": 5.5,
-        "kda": 1.11,
-        "avgDamage": 31012
+        "avgKills": 10.5,
+        "avgDeaths": 6.8,
+        "avgAssists": 6.2,
+        "kda": 2.48,
+        "avgDamage": 43916
       },
       "sup": {
         "items": [
           {
             "name": "Moonstone Renewer",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 75.0
           },
           {
             "name": "Echoes of Helia",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 75.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
           }
         ],
         "keystones": [
           {
             "name": "Arcane Comet",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 75.0
           }
         ],
         "avgKills": 1.5,
-        "avgDeaths": 7.0,
-        "avgAssists": 16.5,
-        "kda": 2.57,
-        "avgDamage": 11742
+        "avgDeaths": 6.5,
+        "avgAssists": 18.5,
+        "kda": 3.08,
+        "avgDamage": 12895
       }
     },
     "teamB": {
@@ -130,62 +155,87 @@
         "items": [
           {
             "name": "The Collector",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
           },
           {
             "name": "Infinity Edge",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 50.0
-          }
-        ],
-        "keystones": [],
-        "summonerSpells": [
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          },
           {
-            "spells": "Flash+Barrier",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 50.0
-          }
-        ],
-        "avgKills": 12.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 7.0,
-        "kda": 2.71,
-        "avgDamage": 26979
-      },
-      "sup": {
-        "items": [
+            "name": "Rapid Firecannon",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          },
           {
-            "name": "Luden's Echo",
+            "name": "Youmuu's Ghostblade",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 50.0,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
-            "name": "Electrocute",
+            "name": "Fleet Footwork",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 50.0,
             "winRate": 50.0
+          },
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 25.0
+          }
+        ],
+        "avgKills": 8.2,
+        "avgDeaths": 6.5,
+        "avgAssists": 7.5,
+        "kda": 2.42,
+        "avgDamage": 25620
+      },
+      "sup": {
+        "items": [
+          {
+            "name": "Luden's Echo",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 25.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 25.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Ignite",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 25.0
           }
         ],
-        "avgKills": 5.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 12.5,
-        "kda": 2.19,
-        "avgDamage": 20580
+        "avgKills": 4.8,
+        "avgDeaths": 9.0,
+        "avgAssists": 11.2,
+        "kda": 1.78,
+        "avgDamage": 22579
       }
     }
   }

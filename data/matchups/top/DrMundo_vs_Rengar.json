@@ -1,68 +1,105 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:38.247018",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:06.905841",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -112,
-      "avg_xp_diff": -35,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -111,
+      "avg_xp_diff": -24,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -178,
-      "avg_xp_diff": 72,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -202,
+      "avg_xp_diff": 132,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 332,
-      "avg_xp_diff": 800,
-      "avg_cs_diff": 16.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 360,
+      "avg_xp_diff": 597,
+      "avg_cs_diff": 7.8,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 226,
-      "avg_xp_diff": 423,
-      "avg_cs_diff": 20.0,
-      "sample_frames": 2,
+      "avg_gold_diff": 254,
+      "avg_xp_diff": -139,
+      "avg_cs_diff": 17.9,
+      "sample_frames": 12,
       "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -56,
+      "avg_xp_diff": -1105,
+      "avg_cs_diff": 37.0,
+      "sample_frames": 14,
+      "advantage": 0
     }
   ],
   "champA": "DrMundo",
   "champB": "Rengar",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 9958
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 5.5,
+      "kda": 1.27,
+      "avgDamage": 29080
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 1.0,
-      "kda": 2.0,
-      "avgDamage": 7916
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.5,
+      "kda": 2.44,
+      "avgDamage": 25374
     }
   }
 }

@@ -1,42 +1,51 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:38.097241",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:06.717291",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -132,
-      "avg_xp_diff": -60,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -58,
+      "avg_xp_diff": 7,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -623,
-      "avg_xp_diff": -405,
-      "avg_cs_diff": -6.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -699,
+      "avg_xp_diff": -326,
+      "avg_cs_diff": -11.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1261,
-      "avg_xp_diff": -1283,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1438,
+      "avg_xp_diff": -1150,
+      "avg_cs_diff": -23.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3177,
-      "avg_xp_diff": -2644,
-      "avg_cs_diff": -12.8,
+      "avg_gold_diff": -2891,
+      "avg_xp_diff": -2076,
+      "avg_cs_diff": -31.1,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1388,
+      "avg_xp_diff": 696,
+      "avg_cs_diff": -38.0,
       "sample_frames": 10,
       "advantage": -2
     }
@@ -45,24 +54,59 @@
   "champB": "Jayce",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 4.0,
-      "kda": 0.86,
-      "avgDamage": 11310
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 9.0,
+      "kda": 2.08,
+      "avgDamage": 19214
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 9.0,
-      "kda": 6.33,
-      "avgDamage": 26314
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 7.5,
+      "kda": 3.75,
+      "avgDamage": 30560
     }
   }
 }

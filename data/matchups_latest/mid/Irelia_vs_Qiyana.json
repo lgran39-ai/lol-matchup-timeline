@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:47.527725",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:20.019162",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 90,
-      "avg_xp_diff": -2,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 17,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 454,
-      "avg_xp_diff": -114,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 111,
+      "avg_xp_diff": -176,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 183,
-      "avg_xp_diff": -409,
-      "avg_cs_diff": 9.4,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 69,
+      "avg_xp_diff": -75,
+      "avg_cs_diff": 12.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1029,
-      "avg_xp_diff": 862,
-      "avg_cs_diff": 39.1,
-      "sample_frames": 16,
+      "avg_gold_diff": 850,
+      "avg_xp_diff": 1200,
+      "avg_cs_diff": 43.1,
+      "sample_frames": 26,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1777,
-      "avg_xp_diff": 3240,
-      "avg_cs_diff": 72.9,
-      "sample_frames": 8,
+      "avg_gold_diff": 2147,
+      "avg_xp_diff": 3030,
+      "avg_cs_diff": 70.5,
+      "sample_frames": 20,
       "advantage": 2
     }
   ],
@@ -57,80 +57,99 @@
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
+        },
+        {
+          "name": "Armored Advance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
         },
         {
           "name": "Hullbreaker",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         },
         {
-          "name": "Armored Advance",
+          "name": "Death's Dance",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 1.83,
-      "avgDamage": 19735
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Umbral Glaive",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        },
-        {
-          "name": "Serpent's Fang",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        },
-        {
-          "name": "Crimson Lucidity",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Conqueror",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 7.3,
+      "avgAssists": 4.0,
+      "kda": 1.55,
+      "avgDamage": 25130
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Umbral Glaive",
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 5.0,
-      "kda": 1.71,
-      "avgDamage": 22399
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 7.7,
+      "avgAssists": 7.3,
+      "kda": 1.96,
+      "avgDamage": 28171
     }
   }
 }

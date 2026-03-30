@@ -1,77 +1,131 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.820708",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:20.447141",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 34,
-      "avg_xp_diff": 32,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -14,
+      "avg_xp_diff": -39,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -112,
-      "avg_xp_diff": -11,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -266,
+      "avg_xp_diff": -139,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -392,
-      "avg_xp_diff": -27,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -818,
+      "avg_xp_diff": -771,
+      "avg_cs_diff": -6.5,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -869,
-      "avg_xp_diff": -432,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -841,
+      "avg_xp_diff": -175,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 810,
-      "avg_xp_diff": 1712,
-      "avg_cs_diff": 17.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -160,
+      "avg_xp_diff": 2219,
+      "avg_cs_diff": 22.8,
+      "sample_frames": 10,
+      "advantage": -1
     }
   ],
   "champA": "Lillia",
   "champB": "Naafiri",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 15.0,
-      "kda": 4.6,
-      "avgDamage": 26256
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 11.7,
+      "kda": 2.89,
+      "avgDamage": 20299
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 10.0,
+      "items": [
+        {
+          "name": "Axiom Arc",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 8.3,
+      "avgDeaths": 4.3,
+      "avgAssists": 9.0,
       "kda": 4.0,
-      "avgDamage": 19050
+      "avgDamage": 22262
     }
   }
 }

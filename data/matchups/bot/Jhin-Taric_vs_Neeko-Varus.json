@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:43.845835",
+  "updated_at": "2026-03-29T12:05:14.453238",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 598,
-      "avg_xp_diff": 198,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 249,
+      "avg_xp_diff": 190,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1996,
-      "avg_xp_diff": 654,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 976,
+      "avg_xp_diff": 556,
+      "avg_cs_diff": 4.4,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2416,
-      "avg_xp_diff": 684,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 1596,
+      "avg_xp_diff": 777,
+      "avg_cs_diff": 9.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3473,
-      "avg_xp_diff": 1751,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 3113,
+      "avg_xp_diff": 2155,
+      "avg_cs_diff": 17.2,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
@@ -64,24 +64,59 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 17.0,
+        "items": [
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 10.0,
         "avgDeaths": 2.0,
-        "avgAssists": 8.0,
-        "kda": 12.5,
-        "avgDamage": 35460
+        "avgAssists": 6.0,
+        "kda": 8.0,
+        "avgDamage": 23488
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 1.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 27.0,
-        "kda": 3.5,
-        "avgDamage": 10119
+        "avgDeaths": 5.5,
+        "avgAssists": 21.0,
+        "kda": 4.0,
+        "avgDamage": 8176
       }
     },
     "teamB": {
@@ -90,20 +125,41 @@
         "keystones": [],
         "summonerSpells": [],
         "avgKills": 3.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 6.0,
-        "kda": 0.9,
-        "avgDamage": 19816
+        "avgDeaths": 7.5,
+        "avgAssists": 3.5,
+        "kda": 0.87,
+        "avgDamage": 14312
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 12.0,
-        "kda": 1.5,
-        "avgDamage": 15973
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 8.0,
+        "kda": 1.21,
+        "avgDamage": 14002
       }
     }
   }

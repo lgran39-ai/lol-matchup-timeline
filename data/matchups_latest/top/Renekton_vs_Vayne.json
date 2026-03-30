@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:48.104223",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-29T12:05:20.951100",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -69,
-      "avg_xp_diff": -65,
-      "avg_cs_diff": -4.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -88,
+      "avg_xp_diff": -91,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 202,
-      "avg_xp_diff": 270,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -441,
+      "avg_xp_diff": -323,
+      "avg_cs_diff": -14.7,
+      "sample_frames": 25,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 102,
-      "avg_xp_diff": 204,
-      "avg_cs_diff": -5.1,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -797,
+      "avg_xp_diff": -775,
+      "avg_cs_diff": -21.7,
+      "sample_frames": 25,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -435,
-      "avg_xp_diff": -325,
-      "avg_cs_diff": -7.9,
-      "sample_frames": 21,
+      "avg_gold_diff": -1550,
+      "avg_xp_diff": -1180,
+      "avg_cs_diff": -28.8,
+      "sample_frames": 50,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1941,
-      "avg_xp_diff": -1495,
-      "avg_cs_diff": 1.5,
-      "sample_frames": 18,
+      "avg_gold_diff": -2117,
+      "avg_xp_diff": -1781,
+      "avg_cs_diff": -7.8,
+      "sample_frames": 21,
       "advantage": -2
     }
   ],
@@ -57,48 +57,93 @@
       "items": [
         {
           "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Sterak's Gage",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 5.5,
-      "avgDeaths": 8.5,
-      "avgAssists": 8.0,
-      "kda": 1.59,
-      "avgDamage": 21538
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.8,
+      "avgDeaths": 7.4,
+      "avgAssists": 6.8,
+      "kda": 1.3,
+      "avgDamage": 13967
     },
     "champB": {
       "items": [
         {
           "name": "Essence Reaver",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         },
         {
           "name": "Experimental Hexplate",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
+          "winRate": 60.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 8.0,
-      "kda": 3.56,
-      "avgDamage": 41891
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.4,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.8,
+      "kda": 3.14,
+      "avgDamage": 32860
     }
   }
 }

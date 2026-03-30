@@ -1,68 +1,111 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.215050",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:21.116640",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 238,
-      "avg_xp_diff": 68,
+      "avg_gold_diff": 74,
+      "avg_xp_diff": 10,
       "avg_cs_diff": -0.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 689,
-      "avg_xp_diff": 680,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 402,
+      "avg_xp_diff": 350,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1028,
-      "avg_xp_diff": 1335,
-      "avg_cs_diff": 13.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 10,
+      "avg_xp_diff": 513,
+      "avg_cs_diff": 4.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1547,
-      "avg_xp_diff": 2585,
-      "avg_cs_diff": 11.4,
-      "sample_frames": 9,
-      "advantage": 2
+      "avg_gold_diff": -1027,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -12.9,
+      "sample_frames": 19,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4253,
+      "avg_xp_diff": -3350,
+      "avg_cs_diff": -36.7,
+      "sample_frames": 6,
+      "advantage": -2
     }
   ],
   "champA": "Swain",
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 7.0,
-      "kda": 7.5,
-      "avgDamage": 19933
+      "avgKills": 5.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 10.0,
+      "kda": 2.82,
+      "avgDamage": 18747
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
+      "items": [
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
       "avgDeaths": 5.0,
-      "avgAssists": 4.0,
-      "kda": 1.0,
-      "avgDamage": 11935
+      "avgAssists": 9.0,
+      "kda": 2.8,
+      "avgDamage": 25995
     }
   }
 }

@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:40.475867",
+  "updated_at": "2026-03-29T12:05:09.760010",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -188,
-      "avg_xp_diff": -137,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -138,
+      "avg_xp_diff": -86,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -846,
-      "avg_xp_diff": -487,
-      "avg_cs_diff": -13.3,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -589,
+      "avg_xp_diff": -342,
+      "avg_cs_diff": -6.5,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2090,
-      "avg_xp_diff": -1224,
-      "avg_cs_diff": -23.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -1533,
+      "avg_xp_diff": -871,
+      "avg_cs_diff": -14.9,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1421,
-      "avg_xp_diff": -640,
-      "avg_cs_diff": -22.2,
-      "sample_frames": 12,
+      "avg_gold_diff": -1939,
+      "avg_xp_diff": -598,
+      "avg_cs_diff": -16.2,
+      "sample_frames": 31,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 826,
-      "avg_xp_diff": 1979,
-      "avg_cs_diff": -21.1,
-      "sample_frames": 7,
-      "advantage": 2
+      "avg_gold_diff": -2404,
+      "avg_xp_diff": -1345,
+      "avg_cs_diff": -25.0,
+      "sample_frames": 13,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -64,52 +64,78 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 50.0
           }
         ],
-        "avgKills": 1.0,
-        "avgDeaths": 2.5,
-        "avgAssists": 7.5,
-        "kda": 3.4,
-        "avgDamage": 11516
+        "avgKills": 3.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 6.0,
+        "kda": 2.71,
+        "avgDamage": 17560
       },
       "sup": {
         "items": [
           {
             "name": "Zeke's Convergence",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 50.0,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Unsealed Spellbook",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 50.0
           }
         ],
         "avgKills": 0.5,
-        "avgDeaths": 3.0,
-        "avgAssists": 10.0,
-        "kda": 3.5,
-        "avgDamage": 4086
+        "avgDeaths": 4.5,
+        "avgAssists": 11.0,
+        "kda": 2.56,
+        "avgDamage": 4969
       }
     },
     "teamB": {
@@ -117,15 +143,21 @@
         "items": [
           {
             "name": "Trinity Force",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 50.0,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 50.0
           }
@@ -133,30 +165,36 @@
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 50.0
           }
         ],
-        "avgKills": 3.5,
-        "avgDeaths": 3.5,
-        "avgAssists": 4.5,
-        "kda": 2.29,
-        "avgDamage": 16540
+        "avgKills": 6.5,
+        "avgDeaths": 4.2,
+        "avgAssists": 6.2,
+        "kda": 3.0,
+        "avgDamage": 28804
       },
       "sup": {
         "items": [
           {
             "name": "Echoes of Helia",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 50.0,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Arcane Comet",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 50.0
           }
@@ -164,16 +202,16 @@
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
             "winRate": 50.0
           }
         ],
-        "avgKills": 1.5,
-        "avgDeaths": 2.5,
-        "avgAssists": 9.0,
-        "kda": 4.2,
-        "avgDamage": 10738
+        "avgKills": 1.2,
+        "avgDeaths": 2.2,
+        "avgAssists": 14.8,
+        "kda": 7.11,
+        "avgDamage": 11959
       }
     }
   }

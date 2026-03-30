@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:38.290717",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:06.965834",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 88,
-      "avg_xp_diff": -18,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 9,
+      "avg_xp_diff": -32,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 630,
-      "avg_xp_diff": 543,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 216,
+      "avg_xp_diff": 215,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 965,
-      "avg_xp_diff": 846,
-      "avg_cs_diff": 14.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 566,
+      "avg_xp_diff": 189,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2376,
-      "avg_xp_diff": 2091,
-      "avg_cs_diff": 37.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 1400,
+      "avg_xp_diff": 422,
+      "avg_cs_diff": 11.1,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4267,
-      "avg_xp_diff": 3839,
-      "avg_cs_diff": 86.8,
-      "sample_frames": 14,
+      "avg_gold_diff": 3444,
+      "avg_xp_diff": 2746,
+      "avg_cs_diff": 67.2,
+      "sample_frames": 17,
       "advantage": 2
     }
   ],
@@ -54,24 +54,65 @@
   "champB": "MonkeyKing",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 8.0,
-      "kda": 6.33,
-      "avgDamage": 39285
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.5,
+      "kda": 3.1,
+      "avgDamage": 29779
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 9.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 4.0,
-      "kda": 1.62,
-      "avgDamage": 33344
+      "avgDeaths": 5.5,
+      "avgAssists": 6.5,
+      "kda": 2.82,
+      "avgDamage": 26308
     }
   }
 }

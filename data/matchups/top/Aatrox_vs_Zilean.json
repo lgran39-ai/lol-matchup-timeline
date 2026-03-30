@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:37.372916",
+  "updated_at": "2026-03-29T12:05:05.809717",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 77,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 26,
+      "avg_xp_diff": -27,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 463,
-      "avg_xp_diff": 119,
-      "avg_cs_diff": 22.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 162,
+      "avg_xp_diff": -103,
+      "avg_cs_diff": 8.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1077,
-      "avg_xp_diff": 1497,
-      "avg_cs_diff": 38.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 175,
+      "avg_xp_diff": 70,
+      "avg_cs_diff": 11.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1515,
-      "avg_xp_diff": 1258,
-      "avg_cs_diff": 35.1,
-      "sample_frames": 9,
+      "avg_gold_diff": 647,
+      "avg_xp_diff": 144,
+      "avg_cs_diff": 10.3,
+      "sample_frames": 19,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1819,
+      "avg_xp_diff": -219,
+      "avg_cs_diff": 4.4,
+      "sample_frames": 7,
       "advantage": 2
     }
   ],
@@ -45,24 +54,65 @@
   "champB": "Zilean",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 10.0,
-      "kda": 12.0,
-      "avgDamage": 18189
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 8.0,
+      "kda": 7.67,
+      "avgDamage": 18314
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "avgKills": 2.0,
       "avgDeaths": 4.0,
-      "avgAssists": 3.0,
-      "kda": 1.25,
-      "avgDamage": 10261
+      "avgAssists": 5.0,
+      "kda": 1.75,
+      "avgDamage": 15146
     }
   }
 }

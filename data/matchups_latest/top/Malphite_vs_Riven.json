@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.862455",
+  "updated_at": "2026-03-29T12:05:20.602220",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 36,
-      "avg_xp_diff": 79,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1,
+      "avg_xp_diff": 24,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -172,
-      "avg_xp_diff": 51,
-      "avg_cs_diff": -12.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -441,
+      "avg_xp_diff": -187,
+      "avg_cs_diff": -14.2,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -235,
-      "avg_xp_diff": -420,
-      "avg_cs_diff": -26.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -443,
+      "avg_xp_diff": -438,
+      "avg_cs_diff": -24.1,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -666,
-      "avg_xp_diff": -666,
-      "avg_cs_diff": -41.0,
-      "sample_frames": 6,
+      "avg_gold_diff": -293,
+      "avg_xp_diff": 207,
+      "avg_cs_diff": -17.8,
+      "sample_frames": 16,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -821,
+      "avg_xp_diff": -605,
+      "avg_cs_diff": -10.4,
+      "sample_frames": 5,
       "advantage": -2
     }
   ],
@@ -45,24 +54,52 @@
   "champB": "Riven",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 3.0,
+      "avgKills": 3.5,
       "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 2.33,
-      "avgDamage": 11178
+      "avgAssists": 5.5,
+      "kda": 3.0,
+      "avgDamage": 14874
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.0,
-      "kda": 1.33,
-      "avgDamage": 10670
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 9.0,
+      "kda": 2.75,
+      "avgDamage": 15463
     }
   }
 }

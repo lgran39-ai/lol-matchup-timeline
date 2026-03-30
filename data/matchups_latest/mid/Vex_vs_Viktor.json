@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.292195",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:21.226408",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -72,
-      "avg_xp_diff": -79,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -10,
+      "avg_xp_diff": 6,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -375,
-      "avg_xp_diff": -482,
-      "avg_cs_diff": -21.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -84,
+      "avg_xp_diff": -265,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -553,
-      "avg_xp_diff": -805,
-      "avg_cs_diff": -33.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -252,
+      "avg_xp_diff": -672,
+      "avg_cs_diff": -15.3,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -740,
-      "avg_xp_diff": -1527,
-      "avg_cs_diff": -54.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -620,
+      "avg_xp_diff": -1603,
+      "avg_cs_diff": -39.7,
+      "sample_frames": 22,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 912,
-      "avg_xp_diff": 412,
-      "avg_cs_diff": -48.0,
-      "sample_frames": 2,
+      "avg_gold_diff": 787,
+      "avg_xp_diff": -181,
+      "avg_cs_diff": -34.0,
+      "sample_frames": 5,
       "advantage": 2
     }
   ],
@@ -54,24 +54,72 @@
   "champB": "Viktor",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 10.0,
-      "kda": 2.29,
-      "avgDamage": 20646
+      "items": [
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 4.7,
+      "avgAssists": 5.7,
+      "kda": 2.36,
+      "avgDamage": 15614
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.0,
-      "kda": 1.83,
-      "avgDamage": 22619
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 3.3,
+      "avgAssists": 3.0,
+      "kda": 1.9,
+      "avgDamage": 17313
     }
   }
 }

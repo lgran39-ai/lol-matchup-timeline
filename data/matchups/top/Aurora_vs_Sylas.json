@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:37.874904",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:06.441427",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 179,
-      "avg_xp_diff": 88,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 152,
+      "avg_xp_diff": 158,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 69,
-      "avg_xp_diff": -217,
-      "avg_cs_diff": 4.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 57,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": 6.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 238,
-      "avg_xp_diff": 143,
-      "avg_cs_diff": 13.7,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -8,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": 8.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -122,
-      "avg_xp_diff": -560,
-      "avg_cs_diff": 11.2,
-      "sample_frames": 18,
-      "advantage": 0
+      "avg_gold_diff": -344,
+      "avg_xp_diff": -303,
+      "avg_cs_diff": 11.5,
+      "sample_frames": 28,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2781,
-      "avg_xp_diff": -2380,
-      "avg_cs_diff": 5.0,
-      "sample_frames": 13,
+      "avg_gold_diff": -2234,
+      "avg_xp_diff": -1122,
+      "avg_cs_diff": 11.9,
+      "sample_frames": 19,
       "advantage": -2
     }
   ],
@@ -54,52 +54,84 @@
   "champB": "Sylas",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 7.5,
-      "avgAssists": 6.0,
-      "kda": 1.47,
-      "avgDamage": 24702
+      "avgKills": 4.3,
+      "avgDeaths": 8.0,
+      "avgAssists": 7.0,
+      "kda": 1.42,
+      "avgDamage": 24477
     },
     "champB": {
       "items": [
         {
           "name": "Hextech Rocketbelt",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 8.5,
-      "avgAssists": 8.5,
-      "kda": 1.71,
-      "avgDamage": 27598
+      "avgKills": 6.3,
+      "avgDeaths": 8.3,
+      "avgAssists": 7.7,
+      "kda": 1.68,
+      "avgDamage": 27196
     }
   }
 }

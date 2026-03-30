@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.549630",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:21.712675",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 431,
-      "avg_xp_diff": 263,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -28,
+      "avg_xp_diff": -65,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 855,
-      "avg_xp_diff": 545,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -211,
+      "avg_xp_diff": -216,
+      "avg_cs_diff": -8.2,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 485,
-      "avg_xp_diff": 165,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -1145,
+      "avg_xp_diff": -691,
+      "avg_cs_diff": -14.8,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 76,
-      "avg_xp_diff": -1618,
-      "avg_cs_diff": -8.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -1664,
+      "avg_xp_diff": -1127,
+      "avg_cs_diff": -20.0,
+      "sample_frames": 33,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2812,
-      "avg_xp_diff": -3426,
-      "avg_cs_diff": -14.0,
-      "sample_frames": 7,
+      "avg_gold_diff": -2516,
+      "avg_xp_diff": -2031,
+      "avg_cs_diff": -18.2,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
@@ -64,46 +64,166 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 7.0,
-        "kda": 2.14,
-        "avgDamage": 22162
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Stormrazor",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 4.2,
+        "avgDeaths": 5.5,
+        "avgAssists": 5.2,
+        "kda": 1.73,
+        "avgDamage": 14512
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 15.0,
-        "kda": 2.83,
-        "avgDamage": 8963
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 8.8,
+        "kda": 1.86,
+        "avgDamage": 6574
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 11.0,
-        "kda": 2.25,
-        "avgDamage": 25794
+        "items": [
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 6.2,
+        "avgDeaths": 5.0,
+        "avgAssists": 6.5,
+        "kda": 2.55,
+        "avgDamage": 19650
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 20.0,
-        "kda": 7.67,
-        "avgDamage": 7954
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Ardent Censer",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 2.8,
+        "avgAssists": 15.8,
+        "kda": 6.27,
+        "avgDamage": 8284
       }
     }
   }

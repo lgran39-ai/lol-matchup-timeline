@@ -1,68 +1,137 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.956680",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:20.739726",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 17,
-      "avg_xp_diff": 118,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -12,
+      "avg_xp_diff": 41,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 510,
-      "avg_xp_diff": 784,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -33,
+      "avg_xp_diff": 123,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1779,
-      "avg_xp_diff": 2012,
-      "avg_cs_diff": 20.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -34,
+      "avg_xp_diff": 278,
+      "avg_cs_diff": -4.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2831,
-      "avg_xp_diff": 2383,
-      "avg_cs_diff": 8.1,
-      "sample_frames": 8,
-      "advantage": 2
+      "avg_gold_diff": -878,
+      "avg_xp_diff": -455,
+      "avg_cs_diff": -30.2,
+      "sample_frames": 28,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3387,
+      "avg_xp_diff": -1613,
+      "avg_cs_diff": -72.1,
+      "sample_frames": 11,
+      "advantage": -2
     }
   ],
   "champA": "Neeko",
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 9.0,
-      "kda": 14.0,
-      "avgDamage": 16711
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 4.0,
+      "avgAssists": 11.3,
+      "kda": 3.92,
+      "avgDamage": 19165
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 0.0,
-      "kda": 0.12,
-      "avgDamage": 6639
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 3.7,
+      "kda": 1.61,
+      "avgDamage": 19841
     }
   }
 }

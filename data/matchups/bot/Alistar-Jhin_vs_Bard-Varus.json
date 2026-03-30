@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:40.468552",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:09.749159",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -12,
-      "avg_xp_diff": -69,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 169,
+      "avg_xp_diff": -17,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -207,
-      "avg_xp_diff": -741,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 268,
+      "avg_xp_diff": -394,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1089,
-      "avg_xp_diff": -1803,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 23,
+      "avg_xp_diff": -1149,
+      "avg_cs_diff": -3.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -158,
-      "avg_xp_diff": -1271,
-      "avg_cs_diff": -19.9,
-      "sample_frames": 11,
+      "avg_gold_diff": -208,
+      "avg_xp_diff": -1391,
+      "avg_cs_diff": -16.7,
+      "sample_frames": 13,
       "advantage": 0
     }
   ],
@@ -55,46 +55,101 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 7.0,
-        "kda": 2.25,
-        "avgDamage": 12507
+        "avgKills": 5.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 4.5,
+        "kda": 2.11,
+        "avgDamage": 13980
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 11.0,
-        "kda": 4.33,
-        "avgDamage": 5205
+        "keystones": [
+          {
+            "name": "Unsealed Spellbook",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 10.5,
+        "kda": 3.43,
+        "avgDamage": 5612
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 1.0,
-        "kda": 0.6,
-        "avgDamage": 13222
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 2.0,
+        "kda": 1.18,
+        "avgDamage": 13022
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
         "avgDeaths": 2.0,
-        "avgAssists": 11.0,
-        "kda": 6.5,
-        "avgDamage": 9514
+        "avgAssists": 11.5,
+        "kda": 7.0,
+        "avgDamage": 9133
       }
     }
   }

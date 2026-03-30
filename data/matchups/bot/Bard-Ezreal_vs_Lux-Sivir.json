@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:41.640394",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:11.379153",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -266,
-      "avg_xp_diff": -55,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -92,
+      "avg_xp_diff": -42,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1469,
-      "avg_xp_diff": -827,
-      "avg_cs_diff": -15.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1194,
+      "avg_xp_diff": -644,
+      "avg_cs_diff": -10.9,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -3153,
-      "avg_xp_diff": -1446,
-      "avg_cs_diff": -31.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -2649,
+      "avg_xp_diff": -1306,
+      "avg_cs_diff": -26.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3018,
-      "avg_xp_diff": 323,
-      "avg_cs_diff": -23.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -3533,
+      "avg_xp_diff": 137,
+      "avg_cs_diff": -26.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1393,
-      "avg_xp_diff": 3216,
-      "avg_cs_diff": -18.0,
-      "sample_frames": 3,
+      "avg_gold_diff": -3727,
+      "avg_xp_diff": -291,
+      "avg_cs_diff": -39.6,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -64,46 +64,121 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.5,
         "avgDeaths": 8.0,
-        "avgAssists": 7.0,
-        "kda": 1.88,
-        "avgDamage": 29509
+        "avgAssists": 9.0,
+        "kda": 1.81,
+        "avgDamage": 25257
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 23.0,
-        "kda": 4.33,
-        "avgDamage": 11720
+        "avgKills": 2.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 16.0,
+        "kda": 2.25,
+        "avgDamage": 11054
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 10.0,
-        "kda": 3.0,
-        "avgDamage": 24472
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 9.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 11.5,
+        "kda": 3.82,
+        "avgDamage": 25365
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 6.0,
+        "avgKills": 4.0,
         "avgDeaths": 7.0,
-        "avgAssists": 19.0,
-        "kda": 3.57,
-        "avgDamage": 19880
+        "avgAssists": 17.5,
+        "kda": 3.07,
+        "avgDamage": 18870
       }
     }
   }

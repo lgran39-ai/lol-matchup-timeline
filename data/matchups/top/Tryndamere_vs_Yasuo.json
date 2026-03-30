@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:40.186649",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:09.411040",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 134,
-      "avg_xp_diff": 75,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 123,
+      "avg_xp_diff": 149,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 402,
-      "avg_xp_diff": 107,
-      "avg_cs_diff": 6.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 452,
+      "avg_xp_diff": 303,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1430,
-      "avg_xp_diff": 1154,
-      "avg_cs_diff": 18.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 1385,
+      "avg_xp_diff": 1471,
+      "avg_cs_diff": 20.5,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1232,
-      "avg_xp_diff": 92,
-      "avg_cs_diff": 15.6,
-      "sample_frames": 13,
+      "avg_gold_diff": 2695,
+      "avg_xp_diff": 1837,
+      "avg_cs_diff": 26.4,
+      "sample_frames": 23,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5744,
+      "avg_xp_diff": 5282,
+      "avg_cs_diff": 47.0,
+      "sample_frames": 2,
       "advantage": 2
     }
   ],
@@ -45,38 +54,65 @@
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 5.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 1.0,
-      "kda": 1.86,
-      "avgDamage": 13654
+      "avgKills": 6.7,
+      "avgDeaths": 2.7,
+      "avgAssists": 2.7,
+      "kda": 3.5,
+      "avgDamage": 17172
     },
     "champB": {
       "items": [],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 3.0,
-      "kda": 1.09,
-      "avgDamage": 14266
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 2.0,
+      "kda": 0.78,
+      "avgDamage": 13541
     }
   }
 }

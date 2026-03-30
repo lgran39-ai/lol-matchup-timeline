@@ -1,42 +1,51 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:38.258728",
+  "updated_at": "2026-03-29T12:05:06.922818",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -26,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -57,
+      "avg_xp_diff": -28,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 198,
-      "avg_xp_diff": 9,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 296,
+      "avg_xp_diff": 222,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1078,
-      "avg_xp_diff": 572,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 1566,
+      "avg_xp_diff": 1154,
+      "avg_cs_diff": 12.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1872,
-      "avg_xp_diff": 1012,
-      "avg_cs_diff": 13.8,
+      "avg_gold_diff": 2911,
+      "avg_xp_diff": 2004,
+      "avg_cs_diff": 21.2,
+      "sample_frames": 14,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4288,
+      "avg_xp_diff": 3846,
+      "avg_cs_diff": 49.0,
       "sample_frames": 4,
       "advantage": 2
     }
@@ -45,24 +54,52 @@
   "champB": "Vladimir",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 1.0,
-      "kda": 2.0,
-      "avgDamage": 13395
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 1.5,
+      "avgAssists": 4.5,
+      "kda": 5.67,
+      "avgDamage": 21214
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 12197
+      "avgKills": 1.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 1.5,
+      "kda": 0.5,
+      "avgDamage": 17718
     }
   }
 }

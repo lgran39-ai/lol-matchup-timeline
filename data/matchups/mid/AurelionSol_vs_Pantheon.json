@@ -1,68 +1,98 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:37.800794",
+  "updated_at": "2026-03-29T12:05:06.346686",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 101,
-      "avg_xp_diff": -31,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 73,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -392,
-      "avg_xp_diff": -122,
-      "avg_cs_diff": 18.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -283,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 192,
-      "avg_xp_diff": -539,
-      "avg_cs_diff": 24.6,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -45,
+      "avg_xp_diff": -302,
+      "avg_cs_diff": 12.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1129,
-      "avg_xp_diff": -127,
-      "avg_cs_diff": 12.0,
-      "sample_frames": 7,
-      "advantage": 2
+      "avg_gold_diff": 105,
+      "avg_xp_diff": 365,
+      "avg_cs_diff": 8.4,
+      "sample_frames": 17,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 89,
+      "avg_xp_diff": 3338,
+      "avg_cs_diff": 21.7,
+      "sample_frames": 3,
+      "advantage": 0
     }
   ],
   "champA": "AurelionSol",
   "champB": "Pantheon",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
+      "avgKills": 5.5,
       "avgDeaths": 2.0,
-      "avgAssists": 9.0,
-      "kda": 6.5,
-      "avgDamage": 13570
+      "avgAssists": 12.0,
+      "kda": 8.75,
+      "avgDamage": 17224
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 5.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 5.5,
       "avgAssists": 3.0,
-      "kda": 1.6,
-      "avgDamage": 14513
+      "kda": 1.55,
+      "avgDamage": 18048
     }
   }
 }

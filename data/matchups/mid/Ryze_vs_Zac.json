@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:39.978059",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:09.145577",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 47,
-      "avg_xp_diff": -23,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 8,
+      "avg_xp_diff": -6,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 224,
-      "avg_xp_diff": -303,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -71,
+      "avg_xp_diff": -304,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 893,
-      "avg_xp_diff": 164,
-      "avg_cs_diff": 16.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 311,
+      "avg_xp_diff": -60,
+      "avg_cs_diff": 4.3,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 715,
-      "avg_xp_diff": 333,
-      "avg_cs_diff": 37.1,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": 300,
+      "avg_xp_diff": 139,
+      "avg_cs_diff": 26.0,
+      "sample_frames": 26,
+      "advantage": 1
     },
     {
       "phase": "25min+",
@@ -56,62 +56,82 @@
     "champA": {
       "items": [
         {
-          "name": "Actualizer",
-          "count": 2,
+          "name": "Rod of Ages",
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         },
         {
-          "name": "Rod of Ages",
+          "name": "Actualizer",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ghost",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 9.5,
-      "avgDeaths": 10.5,
-      "avgAssists": 11.5,
-      "kda": 2.0,
-      "avgDamage": 46784
+      "avgKills": 6.3,
+      "avgDeaths": 8.7,
+      "avgAssists": 8.0,
+      "kda": 1.65,
+      "avgDamage": 36228
     },
     "champB": {
       "items": [
         {
           "name": "Hextech Rocketbelt",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 0.0
         },
         {
           "name": "Spirit Visage",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 0.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 11.0,
-      "kda": 2.33,
-      "avgDamage": 42660
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 6.7,
+      "avgAssists": 9.3,
+      "kda": 2.5,
+      "avgDamage": 31736
     }
   }
 }

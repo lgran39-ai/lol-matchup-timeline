@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.412747",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:21.444648",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -144,
-      "avg_xp_diff": -276,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -90,
+      "avg_xp_diff": -142,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -493,
-      "avg_xp_diff": -677,
-      "avg_cs_diff": -19.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -700,
+      "avg_xp_diff": -605,
+      "avg_cs_diff": -13.2,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2989,
-      "avg_xp_diff": -1985,
-      "avg_cs_diff": -35.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -2454,
+      "avg_xp_diff": -1586,
+      "avg_cs_diff": -27.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3520,
-      "avg_xp_diff": -1591,
-      "avg_cs_diff": -31.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -3338,
+      "avg_xp_diff": -2093,
+      "avg_cs_diff": -36.5,
+      "sample_frames": 19,
       "advantage": -2
     },
     {
@@ -64,46 +64,114 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
         "avgDeaths": 6.0,
-        "avgAssists": 17.0,
-        "kda": 3.33,
-        "avgDamage": 28387
+        "avgAssists": 8.5,
+        "kda": 1.67,
+        "avgDamage": 18734
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 19.0,
-        "kda": 2.71,
-        "avgDamage": 4516
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 10.5,
+        "kda": 2.0,
+        "avgDamage": 4112
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 7.0,
-        "kda": 5.33,
-        "avgDamage": 54535
+        "items": [
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 8.0,
+        "avgDeaths": 2.0,
+        "avgAssists": 4.5,
+        "kda": 6.25,
+        "avgDamage": 39890
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 8.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 4.0,
         "avgAssists": 10.0,
-        "kda": 1.5,
-        "avgDamage": 14816
+        "kda": 2.75,
+        "avgDamage": 9540
       }
     }
   }

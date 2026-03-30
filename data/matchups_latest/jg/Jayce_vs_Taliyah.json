@@ -1,98 +1,149 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:47.637547",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:20.174197",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -188,
-      "avg_xp_diff": 98,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -100,
+      "avg_xp_diff": 74,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -320,
-      "avg_xp_diff": 77,
-      "avg_cs_diff": 4.7,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -56,
+      "avg_xp_diff": -30,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 308,
-      "avg_xp_diff": 495,
-      "avg_cs_diff": 9.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 399,
+      "avg_xp_diff": 211,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1443,
-      "avg_xp_diff": 1381,
-      "avg_cs_diff": 20.6,
-      "sample_frames": 21,
+      "avg_gold_diff": 1680,
+      "avg_xp_diff": 652,
+      "avg_cs_diff": 10.0,
+      "sample_frames": 31,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4487,
-      "avg_xp_diff": -3846,
-      "avg_cs_diff": -34.3,
-      "sample_frames": 3,
-      "advantage": -2
+      "avg_gold_diff": 1130,
+      "avg_xp_diff": -3394,
+      "avg_cs_diff": -40.9,
+      "sample_frames": 13,
+      "advantage": 2
     }
   ],
   "champA": "Jayce",
   "champB": "Taliyah",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "First Strike",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 7.0,
-      "kda": 2.8,
-      "avgDamage": 23770
+      "avgKills": 10.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 7.7,
+      "kda": 2.84,
+      "avgDamage": 28829
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Smite",
+          "name": "Zhonya's Hourglass",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 9.0,
-      "kda": 3.0,
-      "avgDamage": 16218
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 4.3,
+      "avgAssists": 11.0,
+      "kda": 4.38,
+      "avgDamage": 20606
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-23T10:04:47.631777",
+  "sample_size": 8,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-29T12:05:20.165744",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 1,
-      "avg_xp_diff": 3,
-      "avg_cs_diff": 4.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 107,
+      "avg_xp_diff": 33,
+      "avg_cs_diff": 4.6,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 211,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 11.7,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 770,
+      "avg_xp_diff": 352,
+      "avg_cs_diff": 19.7,
+      "sample_frames": 40,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 869,
-      "avg_xp_diff": 539,
-      "avg_cs_diff": 26.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 1890,
+      "avg_xp_diff": 1456,
+      "avg_cs_diff": 38.8,
+      "sample_frames": 40,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1839,
-      "avg_xp_diff": 757,
-      "avg_cs_diff": 31.0,
-      "sample_frames": 30,
+      "avg_gold_diff": 2787,
+      "avg_xp_diff": 1468,
+      "avg_cs_diff": 45.0,
+      "sample_frames": 69,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 3516,
-      "avg_xp_diff": 2773,
-      "avg_cs_diff": 53.1,
-      "sample_frames": 15,
+      "avg_gold_diff": 4064,
+      "avg_xp_diff": 2526,
+      "avg_cs_diff": 69.4,
+      "sample_frames": 39,
       "advantage": 2
     }
   ],
@@ -56,70 +56,118 @@
     "champA": {
       "items": [
         {
-          "name": "Black Cleaver",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "name": "Youmuu's Ghostblade",
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 80.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 4,
+          "pickRate": 50.0,
+          "winRate": 75.0
         },
         {
           "name": "Serpent's Fang",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        },
+        {
+          "name": "Edge of Night",
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
+        },
+        {
+          "name": "Black Cleaver",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 25.0,
           "winRate": 50.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 3,
-          "pickRate": 100.0,
+          "count": 6,
+          "pickRate": 75.0,
           "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
+          "count": 8,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 75.0
         }
       ],
-      "avgKills": 9.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 7.7,
-      "kda": 3.33,
-      "avgDamage": 36519
+      "avgKills": 9.5,
+      "avgDeaths": 4.1,
+      "avgAssists": 7.5,
+      "kda": 4.12,
+      "avgDamage": 34476
     },
     "champB": {
       "items": [
         {
           "name": "Titanic Hydra",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 28.6
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Bandlepipes",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 3,
+          "count": 8,
           "pickRate": 100.0,
-          "winRate": 33.3
+          "winRate": 25.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "pickRate": 25.0,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 7.3,
-      "kda": 2.06,
-      "avgDamage": 17260
+      "avgKills": 3.6,
+      "avgDeaths": 6.8,
+      "avgAssists": 8.6,
+      "kda": 1.81,
+      "avgDamage": 15079
     }
   }
 }

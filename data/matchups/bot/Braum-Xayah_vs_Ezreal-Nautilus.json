@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:42.317196",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:12.387458",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -194,
-      "avg_xp_diff": 101,
+      "avg_gold_diff": -146,
+      "avg_xp_diff": 33,
       "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -85,
-      "avg_xp_diff": 270,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -533,
+      "avg_xp_diff": 105,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -99,
-      "avg_xp_diff": 373,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -584,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": -9.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2508,
-      "avg_xp_diff": 1294,
-      "avg_cs_diff": -7.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 904,
+      "avg_xp_diff": 1077,
+      "avg_cs_diff": -22.9,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 7463,
-      "avg_xp_diff": 2727,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 13,
+      "avg_gold_diff": 4263,
+      "avg_xp_diff": 1475,
+      "avg_cs_diff": -19.3,
+      "sample_frames": 22,
       "advantage": 2
     }
   ],
@@ -64,46 +64,120 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 16.0,
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 12.5,
         "avgDeaths": 6.0,
-        "avgAssists": 15.0,
-        "kda": 5.17,
-        "avgDamage": 52606
+        "avgAssists": 14.0,
+        "kda": 4.42,
+        "avgDamage": 47694
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 30.0,
-        "kda": 7.5,
-        "avgDamage": 9381
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 25.0,
+        "kda": 4.0,
+        "avgDamage": 8984
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Serylda's Grudge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 7.0,
-        "kda": 1.5,
-        "avgDamage": 43168
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 9.0,
+        "kda": 2.36,
+        "avgDamage": 46221
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 16.0,
-        "kda": 2.43,
-        "avgDamage": 9220
+        "avgDeaths": 7.5,
+        "avgAssists": 19.5,
+        "kda": 2.73,
+        "avgDamage": 9246
       }
     }
   }

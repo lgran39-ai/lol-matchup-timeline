@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:41.694233",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:11.453335",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -208,
-      "avg_xp_diff": -109,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -128,
+      "avg_xp_diff": -47,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1339,
-      "avg_xp_diff": -927,
-      "avg_cs_diff": -11.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -731,
+      "avg_xp_diff": -417,
+      "avg_cs_diff": -7.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2381,
-      "avg_xp_diff": -1450,
-      "avg_cs_diff": -28.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -2016,
+      "avg_xp_diff": -1004,
+      "avg_cs_diff": -20.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -5001,
-      "avg_xp_diff": -2557,
-      "avg_cs_diff": -49.0,
-      "sample_frames": 8,
+      "avg_gold_diff": -4095,
+      "avg_xp_diff": -1682,
+      "avg_cs_diff": -43.4,
+      "sample_frames": 18,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3072,
+      "avg_xp_diff": 391,
+      "avg_cs_diff": -73.0,
+      "sample_frames": 4,
       "advantage": -2
     }
   ],
@@ -55,46 +64,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 2.0,
-        "kda": 0.5,
-        "avgDamage": 7451
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 5.5,
+        "avgAssists": 6.0,
+        "kda": 1.82,
+        "avgDamage": 12520
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.0,
         "avgDeaths": 6.0,
-        "avgAssists": 7.0,
-        "kda": 1.17,
-        "avgDamage": 4206
+        "avgAssists": 14.0,
+        "kda": 2.67,
+        "avgDamage": 9132
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 0.0,
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 5.0,
         "avgAssists": 6.0,
-        "kda": 10.0,
-        "avgDamage": 22463
+        "kda": 2.6,
+        "avgDamage": 30587
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 8.0,
-        "kda": 5.0,
-        "avgDamage": 6041
+        "keystones": [
+          {
+            "name": "Hail of Blades",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 9.5,
+        "kda": 3.25,
+        "avgDamage": 8309
       }
     }
   }

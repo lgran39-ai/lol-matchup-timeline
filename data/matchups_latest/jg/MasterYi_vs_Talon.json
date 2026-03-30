@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.893202",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:20.652218",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
       "avg_gold_diff": 20,
-      "avg_xp_diff": -20,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_xp_diff": -29,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 121,
-      "avg_xp_diff": -140,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 139,
+      "avg_xp_diff": -175,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 163,
-      "avg_xp_diff": -557,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -67,
+      "avg_xp_diff": -542,
+      "avg_cs_diff": -10.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1154,
-      "avg_xp_diff": -2392,
-      "avg_cs_diff": -23.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -1300,
+      "avg_xp_diff": -1819,
+      "avg_cs_diff": -18.9,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1295,
+      "avg_xp_diff": 193,
+      "avg_cs_diff": 26.4,
+      "sample_frames": 5,
       "advantage": -2
     }
   ],
@@ -45,24 +54,77 @@
   "champB": "Talon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 0.0,
-      "kda": 0.83,
-      "avgDamage": 15074
+      "items": [
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.0,
+      "kda": 2.33,
+      "avgDamage": 14926
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 10.0,
-      "kda": 5.33,
-      "avgDamage": 17161
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 8.5,
+      "kda": 3.5,
+      "avgDamage": 21282
     }
   }
 }

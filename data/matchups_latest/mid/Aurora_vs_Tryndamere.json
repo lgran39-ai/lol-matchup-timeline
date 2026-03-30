@@ -1,68 +1,155 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.040887",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:19.278519",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 141,
-      "avg_xp_diff": 83,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 39,
+      "avg_xp_diff": 33,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 698,
-      "avg_xp_diff": 346,
-      "avg_cs_diff": 11.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 363,
+      "avg_xp_diff": 172,
+      "avg_cs_diff": 10.8,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2546,
-      "avg_xp_diff": 2251,
-      "avg_cs_diff": 37.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 1237,
+      "avg_xp_diff": 1174,
+      "avg_cs_diff": 25.0,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4331,
-      "avg_xp_diff": 3197,
-      "avg_cs_diff": 31.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 2292,
+      "avg_xp_diff": 2048,
+      "avg_cs_diff": 35.2,
+      "sample_frames": 32,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -249,
+      "avg_xp_diff": 668,
+      "avg_cs_diff": 33.0,
+      "sample_frames": 23,
+      "advantage": -1
     }
   ],
   "champA": "Aurora",
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 6.0,
-      "kda": 8.5,
-      "avgDamage": 33772
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Cryptbloom",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.5,
+      "kda": 2.8,
+      "avgDamage": 34412
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 0.0,
-      "kda": 0.25,
-      "avgDamage": 9193
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 7.8,
+      "avgAssists": 3.5,
+      "kda": 1.29,
+      "avgDamage": 18527
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.892045",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:20.650700",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 167,
-      "avg_xp_diff": 97,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 88,
+      "avg_xp_diff": 72,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 394,
-      "avg_xp_diff": -180,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 187,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -294,
-      "avg_xp_diff": -354,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -153,
+      "avg_xp_diff": -162,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -948,
-      "avg_xp_diff": -1057,
-      "avg_cs_diff": -11.7,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -237,
+      "avg_xp_diff": -1060,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2011,
-      "avg_xp_diff": -3331,
-      "avg_cs_diff": -22.6,
-      "sample_frames": 7,
+      "avg_gold_diff": -432,
+      "avg_xp_diff": -2349,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 12,
       "advantage": -2
     }
   ],
@@ -54,24 +54,58 @@
   "champB": "Skarner",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Guinsoo's Rageblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 4.0,
-      "kda": 1.5,
-      "avgDamage": 20120
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 3.0,
+      "kda": 1.36,
+      "avgDamage": 18192
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 14.0,
-      "kda": 3.83,
-      "avgDamage": 24825
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 15.5,
+      "kda": 7.33,
+      "avgDamage": 18991
     }
   }
 }

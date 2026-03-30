@@ -1,44 +1,44 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:39.798280",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:08.917431",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -129,
-      "avg_xp_diff": -69,
-      "avg_cs_diff": -3.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -118,
+      "avg_xp_diff": -54,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -82,
-      "avg_xp_diff": 23,
-      "avg_cs_diff": -11.0,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -152,
+      "avg_xp_diff": 59,
+      "avg_cs_diff": -12.2,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 160,
-      "avg_xp_diff": 135,
-      "avg_cs_diff": -8.9,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -110,
+      "avg_xp_diff": -24,
+      "avg_cs_diff": -9.8,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 506,
-      "avg_xp_diff": 294,
-      "avg_cs_diff": -9.5,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -474,
+      "avg_xp_diff": -700,
+      "avg_cs_diff": -11.5,
+      "sample_frames": 8,
+      "advantage": -2
     }
   ],
   "champA": "Poppy",
@@ -49,41 +49,55 @@
         {
           "name": "Sundered Sky",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 1.7,
+      "avgAssists": 1.0,
+      "kda": 2.4,
+      "avgDamage": 10832
+    },
+    "champB": {
+      "items": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 1.0,
-      "avgAssists": 1.5,
-      "kda": 5.0,
-      "avgDamage": 9688
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 0.5,
-      "kda": 0.6,
-      "avgDamage": 7900
+      "avgKills": 1.7,
+      "avgDeaths": 2.0,
+      "avgAssists": 1.0,
+      "kda": 1.33,
+      "avgDamage": 9439
     }
   }
 }

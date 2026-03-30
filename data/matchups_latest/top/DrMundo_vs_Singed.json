@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.220829",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:19.556993",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -23,
-      "avg_xp_diff": -81,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -78,
+      "avg_xp_diff": -71,
+      "avg_cs_diff": -3.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -44,
-      "avg_xp_diff": -343,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -284,
+      "avg_xp_diff": -260,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 413,
-      "avg_xp_diff": 180,
-      "avg_cs_diff": -2.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 209,
+      "avg_xp_diff": 558,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 154,
-      "avg_xp_diff": 324,
-      "avg_cs_diff": 4.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 296,
+      "avg_xp_diff": 817,
+      "avg_cs_diff": 8.6,
+      "sample_frames": 16,
       "advantage": 1
     },
     {
@@ -54,24 +54,71 @@
   "champB": "Singed",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Warmog's Armor",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 1.5,
       "kda": 1.0,
-      "avgDamage": 22650
+      "avgDamage": 17732
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 2.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 3.5,
-      "avgDamage": 12421
+      "avgDeaths": 2.5,
+      "avgAssists": 3.0,
+      "kda": 2.0,
+      "avgDamage": 14348
     }
   }
 }

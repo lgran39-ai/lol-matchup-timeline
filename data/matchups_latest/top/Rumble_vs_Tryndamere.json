@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:48.130421",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:20.990615",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -364,
-      "avg_xp_diff": -200,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -173,
+      "avg_xp_diff": -91,
+      "avg_cs_diff": -1.3,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1835,
-      "avg_xp_diff": -1386,
-      "avg_cs_diff": -24.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -847,
+      "avg_xp_diff": -729,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2634,
-      "avg_xp_diff": -2362,
-      "avg_cs_diff": -39.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -878,
+      "avg_xp_diff": -628,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4812,
-      "avg_xp_diff": -2934,
-      "avg_cs_diff": -47.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -2042,
+      "avg_xp_diff": -882,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6738,
-      "avg_xp_diff": -1908,
-      "avg_cs_diff": -44.4,
-      "sample_frames": 11,
+      "avg_gold_diff": -5485,
+      "avg_xp_diff": -1274,
+      "avg_cs_diff": -26.4,
+      "sample_frames": 13,
       "advantage": -2
     }
   ],
@@ -54,24 +54,71 @@
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 13.0,
-      "avgAssists": 13.0,
-      "kda": 1.38,
-      "avgDamage": 31399
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 8.5,
+      "avgAssists": 9.5,
+      "kda": 1.88,
+      "avgDamage": 28475
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 19.0,
-      "avgDeaths": 9.0,
+      "avgKills": 13.0,
+      "avgDeaths": 7.5,
       "avgAssists": 6.0,
-      "kda": 2.78,
-      "avgDamage": 42212
+      "kda": 2.53,
+      "avgDamage": 32679
     }
   }
 }

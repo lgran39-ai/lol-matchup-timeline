@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-23T10:04:47.615423",
+  "sample_size": 6,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:20.142675",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -32,
-      "avg_xp_diff": -107,
-      "avg_cs_diff": -1.7,
-      "sample_frames": 15,
+      "avg_gold_diff": 2,
+      "avg_xp_diff": -26,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 59,
-      "avg_xp_diff": -24,
-      "avg_cs_diff": -0.7,
-      "sample_frames": 15,
+      "avg_gold_diff": 112,
+      "avg_xp_diff": 215,
+      "avg_cs_diff": 6.4,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 47,
-      "avg_xp_diff": -121,
-      "avg_cs_diff": -2.3,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 312,
+      "avg_xp_diff": 270,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 692,
-      "avg_xp_diff": -67,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 25,
+      "avg_gold_diff": 837,
+      "avg_xp_diff": -112,
+      "avg_cs_diff": 15.2,
+      "sample_frames": 55,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2442,
-      "avg_xp_diff": 862,
-      "avg_cs_diff": 24.2,
-      "sample_frames": 12,
+      "avg_gold_diff": 2182,
+      "avg_xp_diff": -64,
+      "avg_cs_diff": 28.7,
+      "sample_frames": 25,
       "advantage": 2
     }
   ],
@@ -54,58 +54,108 @@
   "champB": "Lulu",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 5.7,
-      "avgDeaths": 5.0,
-      "avgAssists": 8.3,
-      "kda": 2.8,
-      "avgDamage": 22774
-    },
-    "champB": {
       "items": [
         {
-          "name": "Luden's Echo",
+          "name": "Serylda's Grudge",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 33.3
         },
         {
-          "name": "Hextech Rocketbelt",
+          "name": "Serpent's Fang",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Edge of Night",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 33.3,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
-          "name": "Arcane Comet",
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Electrocute",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
           "spells": "Flash+Ignite",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 3.3,
-      "avgDeaths": 4.7,
-      "avgAssists": 8.0,
-      "kda": 2.43,
-      "avgDamage": 16810
+      "avgKills": 6.5,
+      "avgDeaths": 6.8,
+      "avgAssists": 5.2,
+      "kda": 1.71,
+      "avgDamage": 22598
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 6,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 3.8,
+      "avgAssists": 10.3,
+      "kda": 3.87,
+      "avgDamage": 17386
     }
   }
 }

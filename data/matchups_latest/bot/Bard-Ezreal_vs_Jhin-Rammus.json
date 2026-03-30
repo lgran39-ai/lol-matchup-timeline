@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:48.730234",
+  "updated_at": "2026-03-29T12:05:22.146381",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 236,
-      "avg_xp_diff": -29,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 132,
+      "avg_xp_diff": -22,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 406,
-      "avg_xp_diff": 199,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 328,
+      "avg_xp_diff": 182,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -632,
-      "avg_xp_diff": -203,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 907,
+      "avg_xp_diff": 617,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2548,
-      "avg_xp_diff": -1240,
-      "avg_cs_diff": -20.0,
-      "sample_frames": 2,
+      "avg_gold_diff": 798,
+      "avg_xp_diff": -439,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 12,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1430,
+      "avg_xp_diff": -3912,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 4,
       "advantage": -2
     }
   ],
@@ -55,46 +64,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 0.0,
-        "kda": 0.33,
-        "avgDamage": 7593
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 4.5,
+        "kda": 1.45,
+        "avgDamage": 18022
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 1.0,
-        "kda": 1.33,
-        "avgDamage": 4317
+        "avgKills": 4.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 6.0,
+        "kda": 1.67,
+        "avgDamage": 8034
       }
     },
     "teamB": {
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 2.0,
-        "kda": 5.0,
-        "avgDamage": 8209
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 9.5,
+        "kda": 3.22,
+        "avgDamage": 16862
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 8.0,
-        "kda": 9.0,
-        "avgDamage": 5326
+        "items": [
+          {
+            "name": "Thornmail",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 3.0,
+        "avgAssists": 12.5,
+        "kda": 5.33,
+        "avgDamage": 10113
       }
     }
   }

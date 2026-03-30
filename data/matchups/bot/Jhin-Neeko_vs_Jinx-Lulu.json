@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:43.756123",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:14.324021",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 178,
-      "avg_xp_diff": 121,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 283,
+      "avg_xp_diff": 167,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 796,
-      "avg_xp_diff": 460,
-      "avg_cs_diff": 8.3,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 909,
+      "avg_xp_diff": 576,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 962,
-      "avg_xp_diff": 1118,
-      "avg_cs_diff": 8.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 937,
+      "avg_xp_diff": 957,
+      "avg_cs_diff": 14.0,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1069,
-      "avg_xp_diff": -708,
-      "avg_cs_diff": -4.3,
-      "sample_frames": 18,
-      "advantage": -2
+      "avg_gold_diff": 620,
+      "avg_xp_diff": 783,
+      "avg_cs_diff": 12.4,
+      "sample_frames": 26,
+      "advantage": 1
     },
     {
       "phase": "25min+",
@@ -64,102 +64,154 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [
+        "items": [
           {
-            "spells": "Flash+Barrier",
+            "name": "Serpent's Fang",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "avgKills": 5.0,
-        "avgDeaths": 6.5,
-        "avgAssists": 7.0,
-        "kda": 1.85,
-        "avgDamage": 16062
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 7.3,
+        "avgDeaths": 5.0,
+        "avgAssists": 8.3,
+        "kda": 3.13,
+        "avgDamage": 17642
       },
       "sup": {
         "items": [
           {
             "name": "Hextech Rocketbelt",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
         "keystones": [
           {
             "name": "Arcane Comet",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 3.5,
-        "avgDeaths": 6.5,
-        "avgAssists": 12.5,
-        "kda": 2.46,
-        "avgDamage": 14922
+        "avgKills": 4.7,
+        "avgDeaths": 5.7,
+        "avgAssists": 14.3,
+        "kda": 3.35,
+        "avgDamage": 16646
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Cleanse+Flash",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "avgKills": 6.5,
-        "avgDeaths": 5.0,
-        "avgAssists": 10.0,
-        "kda": 3.3,
-        "avgDamage": 26585
+        "avgKills": 5.0,
+        "avgDeaths": 6.3,
+        "avgAssists": 8.3,
+        "kda": 2.11,
+        "avgDamage": 22548
       },
       "sup": {
         "items": [
           {
             "name": "Ardent Censer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 2.5,
-        "avgDeaths": 6.0,
-        "avgAssists": 16.0,
-        "kda": 3.08,
-        "avgDamage": 8216
+        "avgKills": 2.7,
+        "avgDeaths": 7.7,
+        "avgAssists": 12.3,
+        "kda": 1.96,
+        "avgDamage": 8435
       }
     }
   }

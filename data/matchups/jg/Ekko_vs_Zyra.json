@@ -1,44 +1,53 @@
 {
   "role": "jg",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:38.318633",
+  "updated_at": "2026-03-29T12:05:07.002700",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -116,
-      "avg_xp_diff": -122,
-      "avg_cs_diff": -1.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -106,
+      "avg_xp_diff": -117,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -292,
-      "avg_xp_diff": -214,
-      "avg_cs_diff": -1.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -387,
+      "avg_xp_diff": -655,
+      "avg_cs_diff": -12.8,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -103,
-      "avg_xp_diff": -200,
-      "avg_cs_diff": 2.9,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -516,
+      "avg_xp_diff": -950,
+      "avg_cs_diff": -19.1,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 451,
-      "avg_xp_diff": -117,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 13,
-      "advantage": 2
+      "avg_gold_diff": -522,
+      "avg_xp_diff": -1508,
+      "avg_cs_diff": -41.1,
+      "sample_frames": 31,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -834,
+      "avg_xp_diff": -1331,
+      "avg_cs_diff": -91.0,
+      "sample_frames": 4,
+      "advantage": -2
     }
   ],
   "champA": "Ekko",
@@ -48,49 +57,81 @@
       "items": [
         {
           "name": "Hextech Rocketbelt",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 4.5,
-      "kda": 2.71,
-      "avgDamage": 11420
+      "avgKills": 5.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 4.8,
+      "kda": 2.28,
+      "avgDamage": 12617
     },
     "champB": {
       "items": [
         {
           "name": "Liandry's Torment",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 3.0,
+      "avgKills": 3.8,
+      "avgDeaths": 2.8,
       "avgAssists": 8.0,
-      "kda": 3.83,
-      "avgDamage": 15798
+      "kda": 4.27,
+      "avgDamage": 18482
     }
   }
 }

@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 3,
+  "sample_size": 6,
   "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-23T10:04:48.131689",
+  "updated_at": "2026-03-29T12:05:20.992440",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
       "avg_gold_diff": -16,
-      "avg_xp_diff": -7,
-      "avg_cs_diff": -3.1,
-      "sample_frames": 15,
+      "avg_xp_diff": -3,
+      "avg_cs_diff": -3.7,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -82,
-      "avg_xp_diff": 124,
-      "avg_cs_diff": -7.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -18,
+      "avg_xp_diff": 137,
+      "avg_cs_diff": -8.1,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 260,
-      "avg_xp_diff": 490,
-      "avg_cs_diff": -2.5,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": -80,
+      "avg_xp_diff": 192,
+      "avg_cs_diff": -6.1,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 688,
-      "avg_xp_diff": 1860,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 30,
-      "advantage": 2
+      "avg_gold_diff": -20,
+      "avg_xp_diff": 917,
+      "avg_cs_diff": -5.9,
+      "sample_frames": 59,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1410,
-      "avg_xp_diff": 2227,
-      "avg_cs_diff": -12.5,
-      "sample_frames": 18,
-      "advantage": 2
+      "avg_gold_diff": 14,
+      "avg_xp_diff": 1450,
+      "avg_cs_diff": -10.8,
+      "sample_frames": 30,
+      "advantage": 0
     }
   ],
   "champA": "Rumble",
@@ -57,21 +57,27 @@
       "items": [
         {
           "name": "Liandry's Torment",
-          "count": 3,
+          "count": 6,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 50.0,
           "winRate": 66.7
         },
         {
           "name": "Riftmaker",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 3,
+          "count": 6,
           "pickRate": 100.0,
           "winRate": 66.7
         }
@@ -79,46 +85,71 @@
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 4,
           "pickRate": 66.7,
-          "winRate": 100.0
+          "winRate": 75.0
         }
       ],
       "avgKills": 8.3,
-      "avgDeaths": 4.3,
-      "avgAssists": 11.7,
-      "kda": 4.62,
-      "avgDamage": 31341
+      "avgDeaths": 5.3,
+      "avgAssists": 9.2,
+      "kda": 3.28,
+      "avgDamage": 28740
     },
     "champB": {
       "items": [
         {
           "name": "Dusk and Dawn",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
         },
         {
           "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Nashor's Tooth",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 3,
+          "count": 6,
           "pickRate": 100.0,
           "winRate": 33.3
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 3.7,
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Barrier",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.3,
       "avgDeaths": 9.0,
-      "avgAssists": 5.7,
-      "kda": 1.04,
-      "avgDamage": 22325
+      "avgAssists": 5.2,
+      "kda": 1.28,
+      "avgDamage": 24779
     }
   }
 }

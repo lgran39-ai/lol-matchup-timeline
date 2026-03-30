@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:44.317094",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:15.056450",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 114,
-      "avg_xp_diff": -43,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 267,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 914,
-      "avg_xp_diff": 278,
-      "avg_cs_diff": -8.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 604,
+      "avg_xp_diff": 144,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2066,
-      "avg_xp_diff": 1512,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1130,
+      "avg_xp_diff": 697,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3390,
-      "avg_xp_diff": 2468,
-      "avg_cs_diff": -11.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 2781,
+      "avg_xp_diff": 2003,
+      "avg_cs_diff": -9.5,
+      "sample_frames": 12,
       "advantage": 2
     }
   ],
@@ -55,46 +55,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 13.0,
+        "items": [
+          {
+            "name": "Luden's Echo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.5,
         "avgDeaths": 0.0,
-        "avgAssists": 10.0,
-        "kda": 23.0,
-        "avgDamage": 25764
+        "avgAssists": 5.5,
+        "kda": 26.0,
+        "avgDamage": 16610
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 21.0,
-        "kda": 12.0,
-        "avgDamage": 8557
+        "avgKills": 1.5,
+        "avgDeaths": 2.5,
+        "avgAssists": 12.0,
+        "kda": 5.4,
+        "avgDamage": 5376
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Luden's Echo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 1.0,
-        "kda": 0.5,
-        "avgDamage": 14940
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 1.5,
+        "kda": 0.75,
+        "avgDamage": 10418
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Sundered Sky",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Conqueror",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 2.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 3.0,
-        "kda": 0.56,
-        "avgDamage": 15125
+        "avgDeaths": 5.5,
+        "avgAssists": 3.5,
+        "kda": 1.0,
+        "avgDamage": 10302
       }
     }
   }

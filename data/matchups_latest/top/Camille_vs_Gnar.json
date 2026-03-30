@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.113949",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:19.382876",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -177,
-      "avg_xp_diff": -15,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -66,
+      "avg_xp_diff": -27,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -585,
-      "avg_xp_diff": -276,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -338,
+      "avg_xp_diff": -133,
+      "avg_cs_diff": -11.3,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -818,
-      "avg_xp_diff": -1153,
-      "avg_cs_diff": -19.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -472,
+      "avg_xp_diff": -388,
+      "avg_cs_diff": -22.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -444,
-      "avg_xp_diff": -1329,
-      "avg_cs_diff": -11.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -474,
+      "avg_xp_diff": -490,
+      "avg_cs_diff": -20.0,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1548,
-      "avg_xp_diff": -1429,
-      "avg_cs_diff": 4.5,
-      "sample_frames": 4,
+      "avg_gold_diff": 1487,
+      "avg_xp_diff": 816,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 11,
       "advantage": 2
     }
   ],
@@ -54,24 +54,78 @@
   "champB": "Gnar",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 2.0,
-      "avgDamage": 19682
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Teleport+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 5.7,
+      "avgAssists": 6.3,
+      "kda": 2.47,
+      "avgDamage": 22990
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 12.0,
-      "kda": 3.33,
-      "avgDamage": 27497
+      "items": [
+        {
+          "name": "Sterak's Gage",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 9.3,
+      "kda": 2.32,
+      "avgDamage": 25956
     }
   }
 }

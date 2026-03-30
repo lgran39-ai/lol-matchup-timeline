@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.645527",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:20.187294",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -48,
-      "avg_xp_diff": -33,
-      "avg_cs_diff": -1.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -47,
+      "avg_xp_diff": -41,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -111,
-      "avg_xp_diff": 7,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -136,
+      "avg_xp_diff": -127,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -757,
-      "avg_xp_diff": -1205,
-      "avg_cs_diff": -21.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -445,
+      "avg_xp_diff": -884,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2583,
-      "avg_xp_diff": -2929,
-      "avg_cs_diff": -29.5,
-      "sample_frames": 15,
+      "avg_gold_diff": -516,
+      "avg_xp_diff": -897,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 25,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3556,
+      "avg_xp_diff": 3367,
+      "avg_cs_diff": 57.0,
+      "sample_frames": 3,
+      "advantage": 2
     }
   ],
   "champA": "Jayce",
@@ -49,48 +58,68 @@
         {
           "name": "Youmuu's Ghostblade",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 0.0
-        }
-      ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 0.4,
-      "avgDamage": 11481
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Stormsurge",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
         }
       ],
       "keystones": [
         {
-          "name": "Summon Aery",
+          "name": "Electrocute",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 3.5,
-      "kda": 10.5,
-      "avgDamage": 19869
+      "avgKills": 3.3,
+      "avgDeaths": 6.0,
+      "avgAssists": 3.0,
+      "kda": 1.06,
+      "avgDamage": 18677
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 3.3,
+      "avgAssists": 3.3,
+      "kda": 2.9,
+      "avgDamage": 20183
     }
   }
 }

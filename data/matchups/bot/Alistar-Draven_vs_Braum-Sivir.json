@@ -1,42 +1,51 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:40.405075",
+  "updated_at": "2026-03-29T12:05:09.662568",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 9,
-      "avg_xp_diff": 30,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 99,
+      "avg_xp_diff": 60,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 575,
-      "avg_xp_diff": 367,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 1278,
+      "avg_xp_diff": 521,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1975,
-      "avg_xp_diff": 550,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 2196,
+      "avg_xp_diff": 573,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2341,
-      "avg_xp_diff": 1526,
-      "avg_cs_diff": -17.3,
+      "avg_gold_diff": 2653,
+      "avg_xp_diff": 1108,
+      "avg_cs_diff": 4.1,
+      "sample_frames": 17,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3018,
+      "avg_xp_diff": 1525,
+      "avg_cs_diff": 0.7,
       "sample_frames": 7,
       "advantage": 2
     }
@@ -55,46 +64,108 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Bloodthirster",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 7.0,
-        "kda": 5.0,
-        "avgDamage": 11303
+        "avgKills": 6.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 8.0,
+        "kda": 3.62,
+        "avgDamage": 16214
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "avgKills": 2.0,
         "avgDeaths": 1.0,
-        "avgAssists": 17.0,
-        "kda": 19.0,
-        "avgDamage": 5529
+        "avgAssists": 22.0,
+        "kda": 24.0,
+        "avgDamage": 7694
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 1.0,
-        "kda": 0.75,
-        "avgDamage": 10152
+        "avgKills": 3.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 5.0,
+        "kda": 1.14,
+        "avgDamage": 24585
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 3.0,
-        "kda": 0.6,
-        "avgDamage": 5479
+        "avgDeaths": 8.0,
+        "avgAssists": 7.5,
+        "kda": 0.94,
+        "avgDamage": 8356
       }
     }
   }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:39.020949",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:07.924887",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 338,
-      "avg_xp_diff": 120,
-      "avg_cs_diff": 2.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 235,
+      "avg_xp_diff": 71,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1010,
-      "avg_xp_diff": 539,
-      "avg_cs_diff": 16.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 804,
+      "avg_xp_diff": 460,
+      "avg_cs_diff": 15.9,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1189,
-      "avg_xp_diff": 873,
-      "avg_cs_diff": 20.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 1259,
+      "avg_xp_diff": 1261,
+      "avg_cs_diff": 30.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2505,
-      "avg_xp_diff": 1929,
-      "avg_cs_diff": 19.4,
-      "sample_frames": 20,
+      "avg_gold_diff": 3034,
+      "avg_xp_diff": 2677,
+      "avg_cs_diff": 41.0,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1970,
-      "avg_xp_diff": 1438,
-      "avg_cs_diff": -7.3,
-      "sample_frames": 19,
+      "avg_gold_diff": 2996,
+      "avg_xp_diff": 2489,
+      "avg_cs_diff": 17.7,
+      "sample_frames": 24,
       "advantage": 2
     }
   ],
@@ -56,51 +56,64 @@
     "champA": {
       "items": [
         {
+          "name": "Serylda's Grudge",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
           "name": "Youmuu's Ghostblade",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 0.0
         },
         {
-          "name": "Serylda's Grudge",
+          "name": "Edge of Night",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 11.5,
-      "avgDeaths": 7.5,
-      "avgAssists": 2.5,
-      "kda": 1.87,
-      "avgDamage": 35878
+      "avgKills": 10.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 5.7,
+      "kda": 3.0,
+      "avgDamage": 36594
     },
     "champB": {
       "items": [
         {
-          "name": "Trinity Force",
-          "count": 2,
+          "name": "Spear of Shojin",
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         },
         {
-          "name": "Spear of Shojin",
+          "name": "Trinity Force",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         },
         {
           "name": "Rapid Firecannon",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
@@ -108,7 +121,7 @@
         {
           "name": "Fleet Footwork",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
@@ -116,15 +129,15 @@
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 10.5,
-      "avgAssists": 9.5,
-      "kda": 1.33,
-      "avgDamage": 21900
+      "avgKills": 3.3,
+      "avgDeaths": 9.3,
+      "avgAssists": 7.7,
+      "kda": 1.18,
+      "avgDamage": 19379
     }
   }
 }

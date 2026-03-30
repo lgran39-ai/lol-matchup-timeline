@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.130714",
+  "updated_at": "2026-03-29T12:05:19.410698",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 66,
-      "avg_xp_diff": -8,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -14,
+      "avg_xp_diff": -16,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 321,
-      "avg_xp_diff": 197,
-      "avg_cs_diff": -11.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -108,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": -13.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1352,
-      "avg_xp_diff": 1604,
-      "avg_cs_diff": -9.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -228,
+      "avg_xp_diff": -243,
+      "avg_cs_diff": -23.4,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3794,
-      "avg_xp_diff": 4279,
-      "avg_cs_diff": 14.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 1424,
+      "avg_xp_diff": 1958,
+      "avg_cs_diff": -10.8,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 6758,
-      "avg_xp_diff": 6922,
-      "avg_cs_diff": 43.7,
-      "sample_frames": 3,
+      "avg_gold_diff": 2748,
+      "avg_xp_diff": 3970,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 7,
       "advantage": 2
     }
   ],
@@ -54,24 +54,58 @@
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
-      "avgDeaths": 0.0,
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 11.5,
+      "avgDeaths": 2.5,
       "avgAssists": 9.0,
-      "kda": 23.0,
-      "avgDamage": 30879
+      "kda": 8.2,
+      "avgDamage": 28015
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 13.0,
-      "avgAssists": 1.0,
-      "kda": 0.23,
-      "avgDamage": 13654
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 8.0,
+      "avgAssists": 4.5,
+      "kda": 1.0,
+      "avgDamage": 21954
     }
   }
 }

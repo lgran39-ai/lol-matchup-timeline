@@ -1,68 +1,149 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.239071",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:21.152583",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 275,
-      "avg_xp_diff": 189,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 19,
+      "avg_xp_diff": 10,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 846,
-      "avg_xp_diff": 568,
-      "avg_cs_diff": 17.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 190,
+      "avg_xp_diff": 196,
+      "avg_cs_diff": 8.7,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1947,
-      "avg_xp_diff": 1765,
-      "avg_cs_diff": 34.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 342,
+      "avg_xp_diff": 456,
+      "avg_cs_diff": 13.2,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2412,
-      "avg_xp_diff": 2289,
-      "avg_cs_diff": 47.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -500,
+      "avg_xp_diff": -473,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 28,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -326,
+      "avg_xp_diff": -1175,
+      "avg_cs_diff": 14.8,
+      "sample_frames": 10,
+      "advantage": -1
     }
   ],
   "champA": "Taliyah",
   "champB": "Talon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
       "avgKills": 4.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 3.0,
-      "kda": 7.0,
-      "avgDamage": 13614
+      "avgDeaths": 5.0,
+      "avgAssists": 6.8,
+      "kda": 2.15,
+      "avgDamage": 17224
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 0.0,
-      "kda": 0.4,
-      "avgDamage": 3074
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.2,
+      "avgDeaths": 4.8,
+      "avgAssists": 5.5,
+      "kda": 2.68,
+      "avgDamage": 16995
     }
   }
 }

@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:41.888373",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:11.747938",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -97,
-      "avg_xp_diff": -77,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -259,
+      "avg_xp_diff": -178,
+      "avg_cs_diff": -5.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -452,
-      "avg_xp_diff": -281,
-      "avg_cs_diff": -16.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -867,
+      "avg_xp_diff": -644,
+      "avg_cs_diff": -17.7,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1152,
-      "avg_xp_diff": -648,
-      "avg_cs_diff": -30.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -1800,
+      "avg_xp_diff": -990,
+      "avg_cs_diff": -32.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 614,
-      "avg_xp_diff": 1753,
-      "avg_cs_diff": -35.4,
-      "sample_frames": 8,
-      "advantage": 1
+      "avg_gold_diff": -1703,
+      "avg_xp_diff": -302,
+      "avg_cs_diff": -36.6,
+      "sample_frames": 18,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -7796,
+      "avg_xp_diff": -5556,
+      "avg_cs_diff": -55.5,
+      "sample_frames": 2,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,128 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Edge of Night",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 1.0,
-        "kda": 1.17,
-        "avgDamage": 17613
+        "avgKills": 5.5,
+        "avgDeaths": 8.0,
+        "avgAssists": 3.0,
+        "kda": 1.06,
+        "avgDamage": 19266
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 12.0,
-        "kda": 2.67,
-        "avgDamage": 9622
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 9.0,
+        "avgAssists": 13.0,
+        "kda": 1.83,
+        "avgDamage": 10513
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 4.0,
-        "kda": 4.0,
-        "avgDamage": 12339
+        "avgKills": 10.5,
+        "avgDeaths": 3.0,
+        "avgAssists": 7.5,
+        "kda": 6.0,
+        "avgDamage": 24333
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 2.0,
         "avgDeaths": 7.0,
-        "avgAssists": 8.0,
-        "kda": 1.43,
-        "avgDamage": 10226
+        "avgAssists": 16.5,
+        "kda": 2.64,
+        "avgDamage": 14420
       }
     }
   }

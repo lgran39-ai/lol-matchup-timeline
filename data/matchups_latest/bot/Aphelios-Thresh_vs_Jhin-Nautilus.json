@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.584148",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:21.768836",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 37,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -255,
+      "avg_xp_diff": -143,
+      "avg_cs_diff": -1.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -421,
-      "avg_xp_diff": -244,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -944,
+      "avg_xp_diff": -448,
+      "avg_cs_diff": -5.4,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -458,
-      "avg_xp_diff": -186,
-      "avg_cs_diff": -15.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -1259,
+      "avg_xp_diff": -593,
+      "avg_cs_diff": -8.1,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -384,
-      "avg_xp_diff": -1467,
-      "avg_cs_diff": -18.7,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -1715,
+      "avg_xp_diff": -1496,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
@@ -64,46 +64,87 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 21.0,
-        "avgDeaths": 13.0,
-        "avgAssists": 6.0,
-        "kda": 2.08,
-        "avgDamage": 51779
+        "avgKills": 13.5,
+        "avgDeaths": 10.0,
+        "avgAssists": 3.5,
+        "kda": 1.7,
+        "avgDamage": 35866
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 0.0,
-        "avgDeaths": 12.0,
-        "avgAssists": 28.0,
-        "kda": 2.33,
-        "avgDamage": 10675
+        "avgDeaths": 11.5,
+        "avgAssists": 18.0,
+        "kda": 1.57,
+        "avgDamage": 7510
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 18.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 15.0,
-        "kda": 5.5,
-        "avgDamage": 65430
+        "avgKills": 12.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 13.0,
+        "kda": 5.67,
+        "avgDamage": 42558
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 30.0,
-        "kda": 2.91,
-        "avgDamage": 12101
+        "avgKills": 2.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 24.0,
+        "kda": 3.53,
+        "avgDamage": 10194
       }
     }
   }

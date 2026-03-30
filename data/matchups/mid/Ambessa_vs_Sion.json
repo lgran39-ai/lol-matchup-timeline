@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:37.645613",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:06.143048",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 46,
-      "avg_xp_diff": 11,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 20,
+      "avg_xp_diff": 12,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 365,
-      "avg_xp_diff": -232,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 289,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": -4.5,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 806,
-      "avg_xp_diff": -145,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 492,
+      "avg_xp_diff": -41,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1262,
-      "avg_xp_diff": -487,
-      "avg_cs_diff": -7.7,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": 266,
+      "avg_xp_diff": -835,
+      "avg_cs_diff": -16.0,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1952,
-      "avg_xp_diff": 9,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 15,
+      "avg_gold_diff": 1416,
+      "avg_xp_diff": -260,
+      "avg_cs_diff": -8.4,
+      "sample_frames": 17,
       "advantage": 2
     }
   ],
@@ -58,61 +58,86 @@
         {
           "name": "Profane Hydra",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 9.5,
-      "kda": 3.18,
-      "avgDamage": 33730
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 8.0,
+      "kda": 2.26,
+      "avgDamage": 29835
     },
     "champB": {
       "items": [
         {
+          "name": "Armored Advance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
           "name": "Randuin's Omen",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         },
         {
-          "name": "Armored Advance",
+          "name": "Unending Despair",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "avgKills": 5.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 5.5,
-      "kda": 1.62,
-      "avgDamage": 21051
+      "avgDeaths": 5.0,
+      "avgAssists": 7.7,
+      "kda": 2.53,
+      "avgDamage": 20193
     }
   }
 }

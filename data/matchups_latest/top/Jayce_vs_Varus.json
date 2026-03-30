@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:47.642249",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:20.181956",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -99,
-      "avg_xp_diff": -81,
-      "avg_cs_diff": -1.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -64,
+      "avg_xp_diff": -60,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -64,
-      "avg_xp_diff": -70,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 20,
+      "avg_xp_diff": 91,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -139,
-      "avg_xp_diff": -210,
-      "avg_cs_diff": -5.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 132,
+      "avg_xp_diff": 310,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 601,
-      "avg_xp_diff": 1255,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 13,
+      "avg_gold_diff": 1100,
+      "avg_xp_diff": 1974,
+      "avg_cs_diff": 27.0,
+      "sample_frames": 23,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 773,
+      "avg_xp_diff": 1614,
+      "avg_cs_diff": 72.0,
+      "sample_frames": 4,
       "advantage": 2
     }
   ],
@@ -48,32 +57,39 @@
       "items": [
         {
           "name": "Youmuu's Ghostblade",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 5.5,
-      "kda": 2.67,
-      "avgDamage": 12675
+      "avgKills": 3.3,
+      "avgDeaths": 3.7,
+      "avgAssists": 5.7,
+      "kda": 2.45,
+      "avgDamage": 16708
     },
     "champB": {
       "items": [
         {
           "name": "Experimental Hexplate",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
@@ -81,16 +97,23 @@
         {
           "name": "Lethal Tempo",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 0.5,
-      "kda": 0.78,
-      "avgDamage": 11027
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 1.7,
+      "kda": 1.0,
+      "avgDamage": 15959
     }
   }
 }

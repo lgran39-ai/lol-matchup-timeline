@@ -1,68 +1,89 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:46.708200",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:18.734116",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -71,
-      "avg_xp_diff": -52,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -65,
+      "avg_xp_diff": -71,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -552,
-      "avg_xp_diff": -451,
-      "avg_cs_diff": -14.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -661,
+      "avg_xp_diff": -735,
+      "avg_cs_diff": -14.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2251,
-      "avg_xp_diff": -2719,
-      "avg_cs_diff": -28.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1312,
+      "avg_xp_diff": -1704,
+      "avg_cs_diff": -23.0,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2948,
-      "avg_xp_diff": -3508,
-      "avg_cs_diff": -34.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": -335,
+      "avg_xp_diff": 53,
+      "avg_cs_diff": -21.4,
+      "sample_frames": 12,
+      "advantage": -1
     }
   ],
   "champA": "Aatrox",
   "champB": "Akali",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 0.0,
-      "kda": 0.17,
-      "avgDamage": 7801
+      "avgKills": 2.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 3.0,
+      "kda": 0.91,
+      "avgDamage": 14103
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 0.0,
-      "kda": 7.0,
-      "avgDamage": 14569
+      "avgKills": 6.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 0.5,
+      "kda": 2.17,
+      "avgDamage": 18868
     }
   }
 }

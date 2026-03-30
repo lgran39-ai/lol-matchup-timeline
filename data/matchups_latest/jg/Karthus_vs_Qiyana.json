@@ -1,68 +1,137 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.687428",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:20.248527",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 61,
-      "avg_xp_diff": 116,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 76,
+      "avg_xp_diff": 90,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 304,
-      "avg_xp_diff": 1021,
-      "avg_cs_diff": 20.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 478,
+      "avg_xp_diff": 857,
+      "avg_cs_diff": 17.5,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 599,
-      "avg_xp_diff": 1455,
-      "avg_cs_diff": 24.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 310,
+      "avg_xp_diff": 1011,
+      "avg_cs_diff": 26.0,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1842,
-      "avg_xp_diff": 3162,
-      "avg_cs_diff": 45.4,
-      "sample_frames": 11,
+      "avg_gold_diff": 649,
+      "avg_xp_diff": 1962,
+      "avg_cs_diff": 43.3,
+      "sample_frames": 31,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2340,
+      "avg_xp_diff": -711,
+      "avg_cs_diff": 6.0,
+      "sample_frames": 3,
+      "advantage": -2
     }
   ],
   "champA": "Karthus",
   "champB": "Qiyana",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 13.0,
-      "kda": 21.0,
-      "avgDamage": 22088
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 3.3,
+      "avgAssists": 10.3,
+      "kda": 5.2,
+      "avgDamage": 23872
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.0,
-      "kda": 1.67,
-      "avgDamage": 14511
+      "items": [
+        {
+          "name": "Axiom Arc",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 6.7,
+      "kda": 1.89,
+      "avgDamage": 15008
     }
   }
 }

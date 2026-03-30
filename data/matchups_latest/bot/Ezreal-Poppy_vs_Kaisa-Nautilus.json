@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:49.351424",
+  "updated_at": "2026-03-29T12:05:23.199062",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 23,
-      "avg_xp_diff": -37,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -164,
+      "avg_xp_diff": -48,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -377,
-      "avg_xp_diff": -632,
-      "avg_cs_diff": -17.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -1140,
+      "avg_xp_diff": -889,
+      "avg_cs_diff": -11.1,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -898,
-      "avg_xp_diff": -640,
-      "avg_cs_diff": -26.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -2349,
+      "avg_xp_diff": -1368,
+      "avg_cs_diff": -27.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1654,
-      "avg_xp_diff": -166,
-      "avg_cs_diff": -33.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -2380,
+      "avg_xp_diff": -750,
+      "avg_cs_diff": -36.9,
+      "sample_frames": 12,
       "advantage": -2
     },
     {
@@ -64,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 7.0,
-        "kda": 1.43,
-        "avgDamage": 27970
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 4.0,
+        "kda": 0.87,
+        "avgDamage": 19436
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 10.0,
-        "kda": 1.18,
-        "avgDamage": 15492
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Unsealed Spellbook",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 7.0,
+        "kda": 1.21,
+        "avgDamage": 9766
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 11.0,
-        "kda": 2.71,
-        "avgDamage": 27196
+        "items": [
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 8.0,
+        "kda": 4.43,
+        "avgDamage": 19830
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 16.0,
-        "kda": 4.0,
-        "avgDamage": 8537
+        "avgKills": 1.0,
+        "avgDeaths": 3.5,
+        "avgAssists": 12.5,
+        "kda": 3.86,
+        "avgDamage": 6762
       }
     }
   }

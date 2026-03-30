@@ -1,42 +1,51 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.922004",
+  "updated_at": "2026-03-29T12:05:20.695106",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -51,
-      "avg_xp_diff": -205,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -24,
+      "avg_xp_diff": -90,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -455,
-      "avg_xp_diff": -333,
-      "avg_cs_diff": -14.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -509,
+      "avg_xp_diff": -288,
+      "avg_cs_diff": -6.0,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1487,
-      "avg_xp_diff": -1298,
-      "avg_cs_diff": -20.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1036,
+      "avg_xp_diff": -877,
+      "avg_cs_diff": -11.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2465,
-      "avg_xp_diff": -676,
-      "avg_cs_diff": -1.2,
+      "avg_gold_diff": -1554,
+      "avg_xp_diff": -855,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -697,
+      "avg_xp_diff": -2193,
+      "avg_cs_diff": 19.3,
       "sample_frames": 10,
       "advantage": -2
     }
@@ -45,24 +54,83 @@
   "champB": "Neeko",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 1.0,
-      "kda": 0.86,
-      "avgDamage": 15274
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 9.0,
+      "avgAssists": 3.5,
+      "kda": 1.17,
+      "avgDamage": 23254
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 12.0,
-      "kda": 4.6,
-      "avgDamage": 24687
+      "avgKills": 10.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 18.5,
+      "kda": 6.33,
+      "avgDamage": 31702
     }
   }
 }

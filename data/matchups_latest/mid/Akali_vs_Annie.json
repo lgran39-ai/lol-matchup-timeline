@@ -1,68 +1,118 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:46.785430",
+  "updated_at": "2026-03-29T12:05:18.856694",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -39,
-      "avg_xp_diff": -18,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -144,
+      "avg_xp_diff": -99,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -268,
-      "avg_xp_diff": 36,
-      "avg_cs_diff": -14.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -470,
+      "avg_xp_diff": -113,
+      "avg_cs_diff": -13.4,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1007,
-      "avg_xp_diff": -641,
-      "avg_cs_diff": -26.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -492,
+      "avg_xp_diff": 12,
+      "avg_cs_diff": -15.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1602,
-      "avg_xp_diff": -786,
-      "avg_cs_diff": -28.5,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 1168,
+      "avg_xp_diff": 2319,
+      "avg_cs_diff": 23.5,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1782,
+      "avg_xp_diff": 1587,
+      "avg_cs_diff": 30.1,
+      "sample_frames": 8,
+      "advantage": 2
     }
   ],
   "champA": "Akali",
   "champB": "Annie",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 0.0,
-      "kda": 0.5,
-      "avgDamage": 4596
+      "avgKills": 5.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 1.5,
+      "kda": 1.75,
+      "avgDamage": 13940
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 5.0,
-      "kda": 6.0,
-      "avgDamage": 7154
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 9.0,
+      "kda": 2.88,
+      "avgDamage": 19603
     }
   }
 }

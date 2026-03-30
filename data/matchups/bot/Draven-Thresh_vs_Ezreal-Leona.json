@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:42.919494",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:13.175299",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 40,
-      "avg_xp_diff": -30,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 9,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 595,
-      "avg_xp_diff": -282,
-      "avg_cs_diff": -8.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 738,
+      "avg_xp_diff": -240,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1674,
-      "avg_xp_diff": -291,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1472,
+      "avg_xp_diff": -470,
+      "avg_cs_diff": -7.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4982,
-      "avg_xp_diff": 2501,
-      "avg_cs_diff": -7.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 2391,
+      "avg_xp_diff": -336,
+      "avg_cs_diff": -6.8,
+      "sample_frames": 21,
       "advantage": 2
     },
     {
@@ -65,45 +65,87 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 13.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 14.0,
-        "kda": 5.4,
-        "avgDamage": 36408
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 9.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 9.5,
+        "kda": 2.71,
+        "avgDamage": 30806
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 28.0,
-        "kda": 10.33,
-        "avgDamage": 8847
+        "avgKills": 1.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 18.5,
+        "kda": 3.08,
+        "avgDamage": 6748
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 7.0,
-        "kda": 1.0,
-        "avgDamage": 19715
+        "avgKills": 4.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 14.0,
+        "kda": 2.85,
+        "avgDamage": 26026
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 9.0,
-        "kda": 1.2,
-        "avgDamage": 6938
+        "avgKills": 1.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 18.5,
+        "kda": 2.67,
+        "avgDamage": 7048
       }
     }
   }

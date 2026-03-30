@@ -1,77 +1,136 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.714140",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:20.285287",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -56,
-      "avg_xp_diff": -128,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -71,
+      "avg_xp_diff": -104,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -193,
-      "avg_xp_diff": -738,
-      "avg_cs_diff": -26.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -214,
+      "avg_xp_diff": -254,
+      "avg_cs_diff": -20.3,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -665,
-      "avg_xp_diff": -1268,
-      "avg_cs_diff": -35.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -351,
+      "avg_xp_diff": -431,
+      "avg_cs_diff": -30.1,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -536,
-      "avg_xp_diff": -540,
-      "avg_cs_diff": -52.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -183,
+      "avg_xp_diff": -646,
+      "avg_cs_diff": -41.6,
+      "sample_frames": 30,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -130,
-      "avg_xp_diff": -512,
-      "avg_cs_diff": -81.7,
-      "sample_frames": 3,
-      "advantage": 0
+      "avg_gold_diff": -360,
+      "avg_xp_diff": -1860,
+      "avg_cs_diff": -46.2,
+      "sample_frames": 26,
+      "advantage": -1
     }
   ],
   "champA": "Katarina",
   "champB": "Viktor",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 17.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 3.67,
-      "avgDamage": 31327
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 10.7,
+      "avgDeaths": 6.3,
+      "avgAssists": 8.0,
+      "kda": 2.95,
+      "avgDamage": 27823
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 4.0,
-      "kda": 1.33,
-      "avgDamage": 27541
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.7,
+      "avgDeaths": 6.7,
+      "avgAssists": 10.7,
+      "kda": 2.75,
+      "avgDamage": 38753
     }
   }
 }

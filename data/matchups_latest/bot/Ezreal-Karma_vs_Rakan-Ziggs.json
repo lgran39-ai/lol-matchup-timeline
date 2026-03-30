@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:49.274886",
+  "updated_at": "2026-03-29T12:05:23.070459",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 114,
-      "avg_xp_diff": 122,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 101,
+      "avg_xp_diff": 106,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 144,
-      "avg_xp_diff": 220,
+      "avg_gold_diff": 53,
+      "avg_xp_diff": 189,
       "avg_cs_diff": 11.1,
-      "sample_frames": 10,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 642,
-      "avg_xp_diff": 395,
-      "avg_cs_diff": 16.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 345,
+      "avg_xp_diff": 329,
+      "avg_cs_diff": 16.7,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1819,
-      "avg_xp_diff": 800,
-      "avg_cs_diff": 23.1,
-      "sample_frames": 20,
+      "avg_gold_diff": 1040,
+      "avg_xp_diff": 649,
+      "avg_cs_diff": 18.4,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4869,
-      "avg_xp_diff": 2097,
-      "avg_cs_diff": 19.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 2691,
+      "avg_xp_diff": 1460,
+      "avg_cs_diff": 13.4,
+      "sample_frames": 25,
       "advantage": 2
     }
   ],
@@ -66,22 +66,28 @@
       "adc": {
         "items": [
           {
-            "name": "Endless Hunger",
-            "count": 2,
+            "name": "Trinity Force",
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           },
           {
-            "name": "Trinity Force",
+            "name": "Endless Hunger",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          },
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           }
@@ -90,39 +96,52 @@
           {
             "spells": "Flash+Teleport",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
-        "avgKills": 13.0,
-        "avgDeaths": 4.5,
+        "avgKills": 11.3,
+        "avgDeaths": 5.3,
         "avgAssists": 7.0,
-        "kda": 4.44,
-        "avgDamage": 53942
+        "kda": 3.44,
+        "avgDamage": 50198
       },
       "sup": {
         "items": [
           {
             "name": "Moonstone Renewer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           }
         ],
         "avgKills": 0.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 17.5,
-        "kda": 2.92,
-        "avgDamage": 8632
+        "avgDeaths": 7.3,
+        "avgAssists": 19.0,
+        "kda": 2.59,
+        "avgDamage": 9326
       }
     },
     "teamB": {
@@ -130,21 +149,27 @@
         "items": [
           {
             "name": "Shadowflame",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           },
           {
             "name": "Luden's Echo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Rabadon's Deathcap",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 0.0
           }
         ],
         "keystones": [
           {
             "name": "Arcane Comet",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           }
@@ -152,33 +177,47 @@
         "summonerSpells": [
           {
             "spells": "Flash+Teleport",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 3.5,
-        "avgDeaths": 6.5,
-        "avgAssists": 5.0,
-        "kda": 1.31,
-        "avgDamage": 29699
+        "avgKills": 4.3,
+        "avgDeaths": 8.0,
+        "avgAssists": 6.3,
+        "kda": 1.33,
+        "avgDamage": 30781
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Unsealed Spellbook",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 2.5,
-        "avgDeaths": 7.5,
-        "avgAssists": 11.0,
-        "kda": 1.8,
-        "avgDamage": 5723
+        "avgKills": 2.3,
+        "avgDeaths": 7.3,
+        "avgAssists": 13.3,
+        "kda": 2.14,
+        "avgDamage": 5701
       }
     }
   }

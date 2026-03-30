@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.425386",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:19.872099",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -34,
-      "avg_xp_diff": -16,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -61,
+      "avg_xp_diff": -20,
+      "avg_cs_diff": -3.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -333,
-      "avg_xp_diff": -198,
-      "avg_cs_diff": -6.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -421,
+      "avg_xp_diff": -165,
+      "avg_cs_diff": -11.9,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1186,
-      "avg_xp_diff": -831,
-      "avg_cs_diff": -16.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1037,
+      "avg_xp_diff": -675,
+      "avg_cs_diff": -23.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3839,
-      "avg_xp_diff": -2542,
-      "avg_cs_diff": -45.9,
-      "sample_frames": 9,
+      "avg_gold_diff": -2031,
+      "avg_xp_diff": -1006,
+      "avg_cs_diff": -41.2,
+      "sample_frames": 20,
       "advantage": -2
     }
   ],
@@ -47,22 +47,56 @@
     "champA": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 0.0,
-      "kda": 0.25,
-      "avgDamage": 14283
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 3.5,
+      "kda": 2.0,
+      "avgDamage": 17531
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 2.0,
-      "kda": 8.0,
-      "avgDamage": 23358
+      "items": [
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 1.5,
+      "kda": 1.67,
+      "avgDamage": 20007
     }
   }
 }

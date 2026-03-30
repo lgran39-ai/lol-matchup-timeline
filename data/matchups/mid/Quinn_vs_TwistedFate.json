@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:39.848257",
+  "updated_at": "2026-03-29T12:05:08.981499",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -46,
-      "avg_xp_diff": -23,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -74,
+      "avg_xp_diff": -16,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 151,
-      "avg_xp_diff": -1,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -207,
+      "avg_xp_diff": -106,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -126,
-      "avg_xp_diff": -105,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -793,
+      "avg_xp_diff": -777,
+      "avg_cs_diff": -8.8,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2055,
-      "avg_xp_diff": 1332,
-      "avg_cs_diff": 10.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 1281,
+      "avg_xp_diff": 820,
+      "avg_cs_diff": 4.8,
+      "sample_frames": 12,
       "advantage": 2
     },
     {
@@ -55,23 +55,50 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 22.0,
-      "kda": 3.56,
-      "avgDamage": 38064
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 12.0,
+      "kda": 2.5,
+      "avgDamage": 22734
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 18.0,
-      "kda": 3.67,
-      "avgDamage": 27368
+      "avgKills": 3.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 11.5,
+      "kda": 4.14,
+      "avgDamage": 17756
     }
   }
 }

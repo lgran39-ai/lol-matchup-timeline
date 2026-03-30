@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.742331",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:20.326391",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 56,
-      "avg_xp_diff": 37,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 74,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 503,
-      "avg_xp_diff": 500,
-      "avg_cs_diff": 17.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 417,
+      "avg_xp_diff": 323,
+      "avg_cs_diff": 16.7,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1163,
-      "avg_xp_diff": 1072,
-      "avg_cs_diff": 30.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 1127,
+      "avg_xp_diff": 893,
+      "avg_cs_diff": 26.6,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1646,
-      "avg_xp_diff": 1588,
-      "avg_cs_diff": 28.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 1852,
+      "avg_xp_diff": 1508,
+      "avg_cs_diff": 29.2,
+      "sample_frames": 25,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1552,
+      "avg_xp_diff": -24,
+      "avg_cs_diff": 14.0,
+      "sample_frames": 2,
       "advantage": 2
     }
   ],
@@ -45,45 +54,59 @@
   "champB": "Udyr",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 1.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 5.5,
-      "kda": 4.67,
-      "avgDamage": 14707
+      "avgKills": 2.7,
+      "avgDeaths": 2.3,
+      "avgAssists": 6.3,
+      "kda": 3.86,
+      "avgDamage": 18922
     },
     "champB": {
       "items": [],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 0.5,
-      "kda": 0.5,
-      "avgDamage": 6379
+      "avgKills": 1.7,
+      "avgDeaths": 3.3,
+      "avgAssists": 3.7,
+      "kda": 1.6,
+      "avgDamage": 7350
     }
   }
 }

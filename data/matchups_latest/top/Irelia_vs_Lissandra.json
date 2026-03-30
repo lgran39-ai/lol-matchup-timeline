@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.522052",
+  "updated_at": "2026-03-29T12:05:20.011915",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 95,
-      "avg_xp_diff": 53,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 80,
+      "avg_xp_diff": 59,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1423,
-      "avg_xp_diff": 1445,
-      "avg_cs_diff": 27.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 848,
+      "avg_xp_diff": 922,
+      "avg_cs_diff": 18.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2598,
-      "avg_xp_diff": 3071,
-      "avg_cs_diff": 44.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 1840,
+      "avg_xp_diff": 2134,
+      "avg_cs_diff": 34.1,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 5482,
-      "avg_xp_diff": 4391,
-      "avg_cs_diff": 38.7,
-      "sample_frames": 11,
+      "avg_gold_diff": 4255,
+      "avg_xp_diff": 3279,
+      "avg_cs_diff": 37.0,
+      "sample_frames": 21,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5737,
+      "avg_xp_diff": 4106,
+      "avg_cs_diff": 51.0,
+      "sample_frames": 2,
       "advantage": 2
     }
   ],
@@ -45,24 +54,78 @@
   "champB": "Lissandra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Wit's End",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 11.5,
       "avgDeaths": 3.0,
-      "avgAssists": 7.0,
-      "kda": 7.0,
-      "avgDamage": 31920
+      "avgAssists": 7.5,
+      "kda": 6.33,
+      "avgDamage": 29593
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 12.0,
-      "avgAssists": 5.0,
-      "kda": 0.42,
-      "avgDamage": 9485
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 0.5,
+      "avgDeaths": 8.5,
+      "avgAssists": 6.5,
+      "kda": 0.82,
+      "avgDamage": 12882
     }
   }
 }

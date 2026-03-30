@@ -1,68 +1,111 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.697784",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:20.262839",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -155,
-      "avg_xp_diff": -6,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -116,
+      "avg_xp_diff": -42,
+      "avg_cs_diff": -4.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1182,
-      "avg_xp_diff": -223,
-      "avg_cs_diff": -20.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -771,
+      "avg_xp_diff": -287,
+      "avg_cs_diff": -17.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1474,
-      "avg_xp_diff": -179,
-      "avg_cs_diff": -23.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1002,
+      "avg_xp_diff": -415,
+      "avg_cs_diff": -23.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -146,
-      "avg_xp_diff": 1204,
-      "avg_cs_diff": -12.1,
-      "sample_frames": 9,
-      "advantage": 0
+      "avg_gold_diff": -389,
+      "avg_xp_diff": -30,
+      "avg_cs_diff": -17.0,
+      "sample_frames": 19,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -170,
+      "avg_xp_diff": 766,
+      "avg_cs_diff": -21.7,
+      "sample_frames": 3,
+      "advantage": -1
     }
   ],
   "champA": "Kassadin",
   "champB": "Syndra",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 1.25,
-      "avgDamage": 13654
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 3.0,
+      "kda": 2.5,
+      "avgDamage": 14990
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
       "avgKills": 5.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 3.67,
-      "avgDamage": 15140
+      "avgDeaths": 5.0,
+      "avgAssists": 5.0,
+      "kda": 2.0,
+      "avgDamage": 18464
     }
   }
 }

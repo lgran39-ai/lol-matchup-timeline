@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:41.134690",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:10.673066",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 196,
-      "avg_xp_diff": 124,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 202,
+      "avg_xp_diff": 135,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1285,
-      "avg_xp_diff": 739,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1115,
+      "avg_xp_diff": 520,
+      "avg_cs_diff": 12.3,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1587,
-      "avg_xp_diff": 1409,
-      "avg_cs_diff": 7.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 2010,
+      "avg_xp_diff": 1162,
+      "avg_cs_diff": 19.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -612,
-      "avg_xp_diff": -703,
-      "avg_cs_diff": -5.5,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 51,
+      "avg_xp_diff": -388,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 12,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,95 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 5.0,
-        "kda": 4.0,
-        "avgDamage": 22989
+        "avgKills": 2.5,
+        "avgDeaths": 1.5,
+        "avgAssists": 3.0,
+        "kda": 3.67,
+        "avgDamage": 15536
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 4.0,
-        "kda": 2.0,
-        "avgDamage": 7456
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 2.0,
+        "avgAssists": 5.0,
+        "kda": 3.0,
+        "avgDamage": 6581
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.0,
         "avgDeaths": 2.0,
-        "avgAssists": 3.0,
-        "kda": 3.5,
-        "avgDamage": 16335
+        "avgAssists": 2.0,
+        "kda": 2.0,
+        "avgDamage": 10250
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 7.0,
-        "kda": 3.33,
-        "avgDamage": 5020
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 2.5,
+        "avgAssists": 3.5,
+        "kda": 2.2,
+        "avgDamage": 3650
       }
     }
   }

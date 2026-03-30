@@ -1,68 +1,119 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.213474",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:19.542720",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -321,
-      "avg_xp_diff": -86,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -219,
+      "avg_xp_diff": -74,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -656,
-      "avg_xp_diff": -235,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -522,
+      "avg_xp_diff": -195,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -556,
-      "avg_xp_diff": 304,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -655,
+      "avg_xp_diff": -326,
+      "avg_cs_diff": -12.4,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -666,
-      "avg_xp_diff": 710,
-      "avg_cs_diff": 15.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 270,
+      "avg_xp_diff": 1048,
+      "avg_cs_diff": 13.3,
+      "sample_frames": 22,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3352,
+      "avg_xp_diff": 4419,
+      "avg_cs_diff": 71.8,
+      "sample_frames": 13,
+      "advantage": 2
     }
   ],
   "champA": "DrMundo",
   "champB": "Jayce",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 1.2,
-      "avgDamage": 15895
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 3.7,
+      "avgAssists": 4.3,
+      "kda": 2.18,
+      "avgDamage": 19528
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 4.0,
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 4.3,
       "avgAssists": 4.0,
-      "kda": 3.0,
-      "avgDamage": 26197
+      "kda": 2.23,
+      "avgDamage": 24156
     }
   }
 }

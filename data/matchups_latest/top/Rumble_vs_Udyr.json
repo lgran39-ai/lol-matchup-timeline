@@ -1,77 +1,143 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.130824",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:20.991321",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -63,
-      "avg_xp_diff": -68,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -50,
+      "avg_xp_diff": -82,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1052,
-      "avg_xp_diff": -1176,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -665,
+      "avg_xp_diff": -710,
+      "avg_cs_diff": -5.6,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1086,
-      "avg_xp_diff": -1354,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -795,
+      "avg_xp_diff": -920,
+      "avg_cs_diff": -9.2,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1866,
-      "avg_xp_diff": -641,
-      "avg_cs_diff": -2.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -1044,
+      "avg_xp_diff": -781,
+      "avg_cs_diff": -11.8,
+      "sample_frames": 33,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -388,
-      "avg_xp_diff": 1519,
-      "avg_cs_diff": 15.3,
-      "sample_frames": 9,
-      "advantage": -1
+      "avg_gold_diff": 51,
+      "avg_xp_diff": 1701,
+      "avg_cs_diff": 8.5,
+      "sample_frames": 12,
+      "advantage": 0
     }
   ],
   "champA": "Rumble",
   "champB": "Udyr",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 12.0,
-      "kda": 2.5,
-      "avgDamage": 40138
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Bloodletter's Curse",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.2,
+      "avgAssists": 6.8,
+      "kda": 2.14,
+      "avgDamage": 23802
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 5.0,
-      "kda": 2.6,
-      "avgDamage": 35761
+      "items": [
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Force of Nature",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.2,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.2,
+      "kda": 3.5,
+      "avgDamage": 21861
     }
   }
 }

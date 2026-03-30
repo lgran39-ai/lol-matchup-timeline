@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:48.279986",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-29T12:05:21.207472",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -4,
-      "avg_xp_diff": -29,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 15,
+      "avg_gold_diff": -40,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -127,
-      "avg_xp_diff": -231,
-      "avg_cs_diff": -4.1,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": -308,
+      "avg_xp_diff": -330,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -574,
-      "avg_xp_diff": -361,
-      "avg_cs_diff": -5.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -560,
+      "avg_xp_diff": -301,
+      "avg_cs_diff": -12.7,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1253,
-      "avg_xp_diff": -484,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 19,
+      "avg_gold_diff": -909,
+      "avg_xp_diff": -237,
+      "avg_cs_diff": -14.6,
+      "sample_frames": 29,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -3598,
-      "avg_xp_diff": -2371,
-      "avg_cs_diff": -27.3,
-      "sample_frames": 3,
+      "avg_gold_diff": -2452,
+      "avg_xp_diff": -752,
+      "avg_cs_diff": -31.6,
+      "sample_frames": 5,
       "advantage": -2
     }
   ],
@@ -58,55 +58,80 @@
         {
           "name": "Riftmaker",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 25.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 1.0,
-      "avgDeaths": 4.3,
-      "avgAssists": 2.3,
-      "kda": 0.77,
-      "avgDamage": 9282
+      "avgKills": 2.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 2.5,
+      "kda": 1.12,
+      "avgDamage": 10297
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Exhaust+Flash",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
-      "avgKills": 5.7,
-      "avgDeaths": 1.7,
-      "avgAssists": 5.0,
-      "kda": 6.4,
-      "avgDamage": 11820
+      "avgKills": 5.2,
+      "avgDeaths": 2.5,
+      "avgAssists": 4.0,
+      "kda": 3.7,
+      "avgDamage": 14152
     }
   }
 }

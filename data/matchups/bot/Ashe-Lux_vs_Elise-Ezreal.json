@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:41.346508",
+  "updated_at": "2026-03-29T12:05:10.972385",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 242,
-      "avg_xp_diff": 55,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 188,
+      "avg_xp_diff": 77,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -303,
-      "avg_xp_diff": -366,
-      "avg_cs_diff": -13.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -4,
+      "avg_xp_diff": -103,
+      "avg_cs_diff": -13.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -958,
-      "avg_xp_diff": -584,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -297,
+      "avg_xp_diff": -320,
+      "avg_cs_diff": -16.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1439,
-      "avg_xp_diff": -678,
-      "avg_cs_diff": -15.4,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -636,
+      "avg_xp_diff": 138,
+      "avg_cs_diff": -20.1,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -299,
-      "avg_xp_diff": 525,
-      "avg_cs_diff": -34.0,
-      "sample_frames": 6,
-      "advantage": 0
+      "avg_gold_diff": 1920,
+      "avg_xp_diff": 3069,
+      "avg_cs_diff": -27.2,
+      "sample_frames": 13,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,128 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 6.0,
+        "avgKills": 8.0,
+        "avgDeaths": 4.5,
         "avgAssists": 13.0,
-        "kda": 2.67,
-        "avgDamage": 12424
+        "kda": 4.67,
+        "avgDamage": 21123
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "avgKills": 2.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 13.0,
-        "kda": 7.5,
-        "avgDamage": 13046
+        "avgDeaths": 4.0,
+        "avgAssists": 18.5,
+        "kda": 5.12,
+        "avgDamage": 14219
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
+        "items": [
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 2.5,
         "avgDeaths": 6.0,
-        "avgAssists": 4.0,
-        "kda": 0.83,
-        "avgDamage": 20325
+        "avgAssists": 4.5,
+        "kda": 1.17,
+        "avgDamage": 21001
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 5.0,
-        "kda": 1.57,
-        "avgDamage": 14117
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Zhonya's Hourglass",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 8.5,
+        "avgAssists": 7.5,
+        "kda": 1.53,
+        "avgDamage": 13817
       }
     }
   }

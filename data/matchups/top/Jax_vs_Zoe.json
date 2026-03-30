@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:38.973308",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:07.863522",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -107,
-      "avg_xp_diff": -219,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -153,
+      "avg_xp_diff": -91,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -181,
-      "avg_xp_diff": -182,
-      "avg_cs_diff": -12.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -388,
+      "avg_xp_diff": -306,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -908,
-      "avg_xp_diff": -1378,
-      "avg_cs_diff": -35.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -1186,
+      "avg_xp_diff": -1568,
+      "avg_cs_diff": -19.2,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2231,
-      "avg_xp_diff": -1547,
-      "avg_cs_diff": -44.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -2230,
+      "avg_xp_diff": -1692,
+      "avg_cs_diff": -12.8,
+      "sample_frames": 28,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -910,
-      "avg_xp_diff": 303,
-      "avg_cs_diff": -38.3,
-      "sample_frames": 3,
+      "avg_gold_diff": -648,
+      "avg_xp_diff": 610,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
@@ -54,24 +54,66 @@
   "champB": "Zoe",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.0,
-      "kda": 2.0,
-      "avgDamage": 20044
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 6.7,
+      "avgAssists": 3.0,
+      "kda": 0.95,
+      "avgDamage": 15436
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 3.0,
-      "kda": 1.12,
-      "avgDamage": 22676
+      "items": [
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.3,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.0,
+      "kda": 3.58,
+      "avgDamage": 28301
     }
   }
 }

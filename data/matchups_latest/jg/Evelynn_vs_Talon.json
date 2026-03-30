@@ -1,96 +1,131 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.271616",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:19.635680",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -182,
-      "avg_xp_diff": 20,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -114,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -269,
-      "avg_xp_diff": 48,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -515,
+      "avg_xp_diff": -159,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 16,
-      "avg_xp_diff": 137,
-      "avg_cs_diff": -8.3,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -457,
+      "avg_xp_diff": -330,
+      "avg_cs_diff": -10.1,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 14,
-      "avg_xp_diff": -231,
-      "avg_cs_diff": -30.0,
-      "sample_frames": 8,
-      "advantage": 0
+      "avg_gold_diff": -1384,
+      "avg_xp_diff": -1491,
+      "avg_cs_diff": -28.7,
+      "sample_frames": 18,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4580,
+      "avg_xp_diff": -5795,
+      "avg_cs_diff": -70.4,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "champA": "Evelynn",
   "champB": "Talon",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 7.0,
-      "avgDeaths": 0.5,
-      "avgAssists": 6.5,
-      "kda": 27.0,
-      "avgDamage": 9852
+      "avgKills": 6.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 6.3,
+      "kda": 3.08,
+      "avgDamage": 13152
     },
     "champB": {
       "items": [
         {
           "name": "Youmuu's Ghostblade",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 2.0,
-      "kda": 1.14,
-      "avgDamage": 5849
+      "avgKills": 5.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.0,
+      "kda": 2.5,
+      "avgDamage": 13252
     }
   }
 }

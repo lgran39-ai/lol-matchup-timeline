@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.252719",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:19.608239",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -284,
-      "avg_xp_diff": -269,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -159,
+      "avg_xp_diff": -165,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -486,
-      "avg_xp_diff": -514,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -483,
+      "avg_xp_diff": -902,
+      "avg_cs_diff": -18.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -486,
-      "avg_xp_diff": -1180,
-      "avg_cs_diff": -20.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -781,
+      "avg_xp_diff": -1526,
+      "avg_cs_diff": -34.2,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -884,
-      "avg_xp_diff": -2041,
-      "avg_cs_diff": -39.4,
-      "sample_frames": 7,
+      "avg_gold_diff": -1130,
+      "avg_xp_diff": -2380,
+      "avg_cs_diff": -59.3,
+      "sample_frames": 25,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -834,
+      "avg_xp_diff": -1331,
+      "avg_cs_diff": -91.0,
+      "sample_frames": 4,
       "advantage": -2
     }
   ],
@@ -45,24 +54,78 @@
   "champB": "Zyra",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 7.0,
-      "kda": 1.43,
-      "avgDamage": 10433
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.7,
+      "kda": 1.78,
+      "avgDamage": 12687
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 12.0,
-      "kda": 4.67,
-      "avgDamage": 13540
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 2.7,
+      "avgAssists": 9.3,
+      "kda": 4.75,
+      "avgDamage": 18623
     }
   }
 }

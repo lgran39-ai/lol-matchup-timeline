@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:40.741172",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:10.127985",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 21,
-      "avg_xp_diff": 98,
+      "avg_gold_diff": -69,
+      "avg_xp_diff": 3,
       "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 276,
-      "avg_xp_diff": 279,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 165,
+      "avg_xp_diff": 104,
+      "avg_cs_diff": -2.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1238,
-      "avg_xp_diff": -403,
-      "avg_cs_diff": -16.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -524,
+      "avg_xp_diff": -406,
+      "avg_cs_diff": -10.5,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2445,
-      "avg_xp_diff": -231,
-      "avg_cs_diff": -42.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -1940,
+      "avg_xp_diff": -441,
+      "avg_cs_diff": -22.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -557,
-      "avg_xp_diff": 2202,
-      "avg_cs_diff": -51.3,
-      "sample_frames": 3,
-      "advantage": -1
+      "avg_gold_diff": -1244,
+      "avg_xp_diff": 262,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 15,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,139 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.5,
         "avgDeaths": 8.0,
-        "avgAssists": 13.0,
-        "kda": 2.5,
-        "avgDamage": 24743
+        "avgAssists": 13.5,
+        "kda": 2.38,
+        "avgDamage": 26296
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Unsealed Spellbook",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 20.0,
-        "kda": 3.83,
-        "avgDamage": 8327
+        "avgKills": 2.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 23.5,
+        "kda": 3.64,
+        "avgDamage": 10900
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 5.0,
+        "avgKills": 8.0,
         "avgDeaths": 7.0,
         "avgAssists": 13.0,
-        "kda": 2.57,
-        "avgDamage": 32082
+        "kda": 3.0,
+        "avgDamage": 39041
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 19.0,
-        "kda": 3.33,
-        "avgDamage": 8708
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 22.0,
+        "kda": 3.0,
+        "avgDamage": 10320
       }
     }
   }

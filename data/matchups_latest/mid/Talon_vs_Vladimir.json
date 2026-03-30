@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.252245",
+  "updated_at": "2026-03-29T12:05:21.168820",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -34,
-      "avg_xp_diff": -87,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -39,
+      "avg_xp_diff": -100,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -353,
-      "avg_xp_diff": -601,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -89,
+      "avg_xp_diff": -338,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -556,
-      "avg_xp_diff": -867,
-      "avg_cs_diff": -15.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -414,
+      "avg_xp_diff": -570,
+      "avg_cs_diff": -14.9,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -232,
-      "avg_xp_diff": -596,
+      "avg_gold_diff": -201,
+      "avg_xp_diff": -405,
       "avg_cs_diff": -19.1,
-      "sample_frames": 10,
+      "sample_frames": 16,
       "advantage": -1
     },
     {
@@ -56,22 +56,43 @@
     "champA": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 8.0,
-      "kda": 3.2,
-      "avgDamage": 27018
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 5.5,
+      "kda": 3.29,
+      "avgDamage": 19643
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 5.0,
-      "kda": 3.33,
-      "avgDamage": 29840
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 3.0,
+      "kda": 2.6,
+      "avgDamage": 23400
     }
   }
 }

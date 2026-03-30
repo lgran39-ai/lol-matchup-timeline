@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-03-23T10:04:46.828172",
+  "sample_size": 6,
+  "overall_winrate_a": 16.7,
+  "updated_at": "2026-03-29T12:05:18.918978",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": 16,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 20,
+      "avg_gold_diff": 26,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 255,
-      "avg_xp_diff": 143,
-      "avg_cs_diff": 9.2,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": -23,
+      "avg_xp_diff": 12,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 504,
-      "avg_xp_diff": 569,
-      "avg_cs_diff": 13.9,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": -52,
+      "avg_xp_diff": 240,
+      "avg_cs_diff": 5.2,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 835,
-      "avg_xp_diff": 785,
-      "avg_cs_diff": 14.9,
-      "sample_frames": 32,
-      "advantage": 2
+      "avg_gold_diff": -448,
+      "avg_xp_diff": -78,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 53,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -6975,
+      "avg_xp_diff": -4587,
+      "avg_cs_diff": -62.6,
+      "sample_frames": 8,
+      "advantage": -2
     }
   ],
   "champA": "Akali",
@@ -48,76 +57,100 @@
       "items": [
         {
           "name": "Spellslinger's Shoes",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 33.3
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 20.0
         },
         {
           "name": "Shadowflame",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 33.3
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 20.0
         },
         {
           "name": "Hextech Gunblade",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 33.3
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 4,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 25.0
+          "winRate": 16.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 33.3
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 6.8,
-      "avgDeaths": 3.5,
-      "avgAssists": 2.5,
-      "kda": 2.64,
-      "avgDamage": 16899
+      "avgKills": 5.3,
+      "avgDeaths": 4.7,
+      "avgAssists": 2.7,
+      "kda": 1.71,
+      "avgDamage": 16424
     },
     "champB": {
       "items": [
         {
           "name": "Crimson Lucidity",
-          "count": 4,
-          "pickRate": 100.0,
-          "winRate": 75.0
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
         },
         {
           "name": "Hubris",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
         },
         {
           "name": "Axiom Arc",
-          "count": 2,
+          "count": 3,
           "pickRate": 50.0,
-          "winRate": 50.0
+          "winRate": 66.7
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 50.0,
-          "winRate": 50.0
+          "winRate": 66.7
         },
         {
           "name": "First Strike",
-          "count": 2,
+          "count": 3,
           "pickRate": 50.0,
           "winRate": 100.0
         }
@@ -125,16 +158,16 @@
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
         }
       ],
-      "avgKills": 4.2,
-      "avgDeaths": 4.5,
+      "avgKills": 5.8,
+      "avgDeaths": 4.2,
       "avgAssists": 2.5,
-      "kda": 1.5,
-      "avgDamage": 15790
+      "kda": 2.0,
+      "avgDamage": 19429
     }
   }
 }

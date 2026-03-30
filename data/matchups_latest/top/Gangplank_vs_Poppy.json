@@ -1,77 +1,125 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.367129",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:19.784248",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 7,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -45,
+      "avg_xp_diff": -81,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 325,
-      "avg_xp_diff": 126,
-      "avg_cs_diff": 11.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 153,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -109,
-      "avg_xp_diff": -836,
-      "avg_cs_diff": 11.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 481,
+      "avg_xp_diff": 46,
+      "avg_cs_diff": 11.8,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 74,
-      "avg_xp_diff": -1008,
-      "avg_cs_diff": 5.8,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 1935,
+      "avg_xp_diff": 1487,
+      "avg_cs_diff": 34.1,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -527,
-      "avg_xp_diff": -2545,
-      "avg_cs_diff": -14.8,
-      "sample_frames": 6,
-      "advantage": -2
+      "avg_gold_diff": 3176,
+      "avg_xp_diff": 2434,
+      "avg_cs_diff": 48.3,
+      "sample_frames": 14,
+      "advantage": 2
     }
   ],
   "champA": "Gangplank",
   "champB": "Poppy",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 14.0,
-      "kda": 1.78,
-      "avgDamage": 22756
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 8.3,
+      "kda": 3.21,
+      "avgDamage": 27346
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 14.0,
-      "kda": 4.75,
-      "avgDamage": 28401
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 5.7,
+      "avgAssists": 5.3,
+      "kda": 1.47,
+      "avgDamage": 21170
     }
   }
 }

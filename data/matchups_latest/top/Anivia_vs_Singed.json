@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:46.953407",
+  "updated_at": "2026-03-29T12:05:19.111997",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 129,
-      "avg_xp_diff": 164,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 145,
+      "avg_xp_diff": 110,
+      "avg_cs_diff": 7.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 596,
-      "avg_xp_diff": 819,
-      "avg_cs_diff": 35.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 783,
+      "avg_xp_diff": 983,
+      "avg_cs_diff": 34.0,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1473,
-      "avg_xp_diff": 2428,
-      "avg_cs_diff": 52.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 2006,
+      "avg_xp_diff": 2976,
+      "avg_cs_diff": 56.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3438,
-      "avg_xp_diff": 5375,
-      "avg_cs_diff": 99.8,
-      "sample_frames": 8,
+      "avg_gold_diff": 3481,
+      "avg_xp_diff": 5177,
+      "avg_cs_diff": 92.6,
+      "sample_frames": 10,
       "advantage": 2
     }
   ],
@@ -45,24 +45,52 @@
   "champB": "Singed",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 9.0,
-      "kda": 12.0,
-      "avgDamage": 22182
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 0.5,
+      "avgAssists": 7.0,
+      "kda": 22.0,
+      "avgDamage": 17045
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "avgKills": 0.0,
       "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 0.67,
-      "avgDamage": 7815
+      "avgAssists": 2.0,
+      "kda": 0.33,
+      "avgDamage": 5566
     }
   }
 }

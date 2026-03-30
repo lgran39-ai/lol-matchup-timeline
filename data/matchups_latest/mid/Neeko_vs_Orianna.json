@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.945947",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-29T12:05:20.730157",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -15,
-      "avg_xp_diff": -22,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 19,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -148,
-      "avg_xp_diff": -291,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -269,
+      "avg_xp_diff": -339,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -635,
-      "avg_xp_diff": -664,
-      "avg_cs_diff": -7.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -840,
+      "avg_xp_diff": -1040,
+      "avg_cs_diff": -17.2,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1358,
-      "avg_xp_diff": -1220,
-      "avg_cs_diff": -15.5,
-      "sample_frames": 4,
+      "avg_gold_diff": -1820,
+      "avg_xp_diff": -2144,
+      "avg_cs_diff": -38.6,
+      "sample_frames": 18,
       "advantage": -2
     }
   ],
@@ -48,49 +48,93 @@
       "items": [
         {
           "name": "Hextech Rocketbelt",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 3,
+          "pickRate": 75.0,
           "winRate": 0.0
-        }
-      ],
-      "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.5,
-      "kda": 1.17,
-      "avgDamage": 8962
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
         }
       ],
       "avgKills": 2.5,
-      "avgDeaths": 0.5,
-      "avgAssists": 4.5,
-      "kda": 14.0,
-      "avgDamage": 11032
+      "avgDeaths": 3.5,
+      "avgAssists": 3.2,
+      "kda": 1.64,
+      "avgDamage": 9992
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 4.2,
+      "kda": 4.12,
+      "avgDamage": 14964
     }
   }
 }

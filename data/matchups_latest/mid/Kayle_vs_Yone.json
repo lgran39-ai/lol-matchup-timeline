@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.724064",
+  "updated_at": "2026-03-29T12:05:20.300070",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -60,
-      "avg_xp_diff": -27,
-      "avg_cs_diff": -3.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -44,
+      "avg_xp_diff": -24,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -111,
-      "avg_xp_diff": -54,
-      "avg_cs_diff": -10.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -92,
+      "avg_xp_diff": -172,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -454,
-      "avg_xp_diff": -526,
-      "avg_cs_diff": -26.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -393,
+      "avg_xp_diff": -617,
+      "avg_cs_diff": -20.2,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1296,
-      "avg_xp_diff": -1715,
-      "avg_cs_diff": -40.4,
-      "sample_frames": 13,
+      "avg_gold_diff": -505,
+      "avg_xp_diff": -1236,
+      "avg_cs_diff": -30.7,
+      "sample_frames": 23,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3464,
+      "avg_xp_diff": 2688,
+      "avg_cs_diff": -4.5,
+      "sample_frames": 16,
+      "advantage": 2
     }
   ],
   "champA": "Kayle",
@@ -48,43 +57,49 @@
       "items": [
         {
           "name": "Nashor's Tooth",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         },
         {
           "name": "Swiftmarch",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         }
       ],
       "summonerSpells": [],
-      "avgKills": 1.5,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.5,
-      "kda": 1.5,
-      "avgDamage": 7936
+      "avgKills": 4.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 3.7,
+      "kda": 2.56,
+      "avgDamage": 19246
     },
     "champB": {
       "items": [
         {
           "name": "Immortal Shieldbow",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         },
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         }
@@ -93,16 +108,23 @@
         {
           "name": "Lethal Tempo",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 1.0,
-      "avgAssists": 1.5,
-      "kda": 6.0,
-      "avgDamage": 14996
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 2.3,
+      "avgAssists": 3.0,
+      "kda": 3.0,
+      "avgDamage": 18141
     }
   }
 }

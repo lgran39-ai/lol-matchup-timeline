@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-23T10:04:41.198984",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:10.762194",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 66,
-      "avg_xp_diff": 20,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 30,
+      "avg_xp_diff": -7,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 428,
-      "avg_xp_diff": 44,
-      "avg_cs_diff": 2.7,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 131,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1179,
-      "avg_xp_diff": 184,
-      "avg_cs_diff": 12.4,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": 252,
+      "avg_xp_diff": -233,
+      "avg_cs_diff": 7.3,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 954,
-      "avg_xp_diff": -2,
-      "avg_cs_diff": -10.8,
-      "sample_frames": 25,
-      "advantage": 2
+      "avg_gold_diff": -937,
+      "avg_xp_diff": -1419,
+      "avg_cs_diff": -15.4,
+      "sample_frames": 35,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 643,
-      "avg_xp_diff": 1428,
-      "avg_cs_diff": -69.6,
-      "sample_frames": 7,
-      "advantage": 1
+      "avg_gold_diff": -1471,
+      "avg_xp_diff": -1117,
+      "avg_cs_diff": -46.9,
+      "sample_frames": 11,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -66,63 +66,82 @@
       "adc": {
         "items": [
           {
+            "name": "Infinity Edge",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
+          },
+          {
             "name": "The Collector",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 50.0
           },
           {
-            "name": "Infinity Edge",
+            "name": "Hexoptics C44",
             "count": 2,
-            "pickRate": 66.7,
-            "winRate": 100.0
+            "pickRate": 50.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Mortal Reminder",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Fleet Footwork",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 100.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
           }
         ],
-        "avgKills": 5.7,
-        "avgDeaths": 3.7,
-        "avgAssists": 4.7,
-        "kda": 2.82,
-        "avgDamage": 16628
+        "avgKills": 5.2,
+        "avgDeaths": 4.8,
+        "avgAssists": 4.2,
+        "kda": 2.0,
+        "avgDamage": 19627
       },
       "sup": {
         "items": [
           {
             "name": "Locket of the Iron Solari",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
           }
         ],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
           }
         ],
-        "avgKills": 1.0,
-        "avgDeaths": 3.7,
-        "avgAssists": 11.3,
-        "kda": 3.36,
-        "avgDamage": 4661
+        "avgKills": 0.8,
+        "avgDeaths": 4.5,
+        "avgAssists": 9.5,
+        "kda": 2.28,
+        "avgDamage": 5086
       }
     },
     "teamB": {
@@ -131,68 +150,86 @@
           {
             "name": "Hubris",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 0.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Fleet Footwork",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 33.3
+            "winRate": 50.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Cleanse+Flash",
             "count": 3,
-            "pickRate": 100.0,
+            "pickRate": 75.0,
             "winRate": 33.3
           }
         ],
-        "avgKills": 6.3,
-        "avgDeaths": 2.3,
-        "avgAssists": 3.7,
-        "kda": 4.29,
-        "avgDamage": 15726
+        "avgKills": 7.2,
+        "avgDeaths": 2.5,
+        "avgAssists": 7.0,
+        "kda": 5.7,
+        "avgDamage": 20554
       },
       "sup": {
         "items": [
           {
             "name": "Echoes of Helia",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 50.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
           },
           {
             "name": "Moonstone Renewer",
-            "count": 2,
-            "pickRate": 66.7,
-            "winRate": 0.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
           }
         ],
         "keystones": [
           {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          },
+          {
             "name": "Summon Aery",
             "count": 2,
-            "pickRate": 66.7,
+            "pickRate": 50.0,
             "winRate": 0.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 3,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 33.3
+            "winRate": 50.0
           }
         ],
-        "avgKills": 0.7,
-        "avgDeaths": 5.7,
-        "avgAssists": 9.3,
-        "kda": 1.76,
-        "avgDamage": 7718
+        "avgKills": 1.2,
+        "avgDeaths": 4.5,
+        "avgAssists": 14.0,
+        "kda": 3.39,
+        "avgDamage": 9978
       }
     }
   }

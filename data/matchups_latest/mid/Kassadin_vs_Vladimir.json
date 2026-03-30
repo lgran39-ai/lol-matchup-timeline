@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.699824",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:20.265887",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -40,
-      "avg_xp_diff": 27,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -99,
+      "avg_xp_diff": -28,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -617,
-      "avg_xp_diff": -385,
-      "avg_cs_diff": -25.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -529,
+      "avg_xp_diff": -351,
+      "avg_cs_diff": -24.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -643,
-      "avg_xp_diff": -943,
-      "avg_cs_diff": -40.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -538,
+      "avg_xp_diff": -693,
+      "avg_cs_diff": -36.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1632,
-      "avg_xp_diff": -2138,
-      "avg_cs_diff": -55.8,
-      "sample_frames": 6,
+      "avg_gold_diff": -424,
+      "avg_xp_diff": -1169,
+      "avg_cs_diff": -45.2,
+      "sample_frames": 16,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 18,
+      "avg_xp_diff": -1468,
+      "avg_cs_diff": -56.0,
+      "sample_frames": 3,
+      "advantage": 0
     }
   ],
   "champA": "Kassadin",
@@ -48,21 +57,28 @@
       "items": [],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 2.0,
+      "avgKills": 4.0,
       "avgDeaths": 5.0,
-      "avgAssists": 1.0,
-      "kda": 0.6,
-      "avgDamage": 8121
+      "avgAssists": 3.0,
+      "kda": 1.4,
+      "avgDamage": 17506
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 3.0,
-      "kda": 11.0,
-      "avgDamage": 17299
+      "avgKills": 5.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 2.5,
+      "kda": 2.67,
+      "avgDamage": 19188
     }
   }
 }

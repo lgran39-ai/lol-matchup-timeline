@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:43.049948",
+  "updated_at": "2026-03-29T12:05:13.371140",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -20,
-      "avg_xp_diff": 56,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 142,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -339,
-      "avg_xp_diff": -19,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 294,
+      "avg_xp_diff": 20,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -537,
-      "avg_xp_diff": -641,
-      "avg_cs_diff": -23.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 1549,
+      "avg_xp_diff": 803,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -631,
-      "avg_xp_diff": -1412,
-      "avg_cs_diff": -33.9,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 3020,
+      "avg_xp_diff": 1798,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1210,
-      "avg_xp_diff": 1086,
-      "avg_cs_diff": -25.7,
-      "sample_frames": 3,
+      "avg_gold_diff": 5000,
+      "avg_xp_diff": 3594,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 5,
       "advantage": 2
     }
   ],
@@ -64,46 +64,121 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 7.0,
-        "kda": 2.0,
-        "avgDamage": 10218
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 8.0,
+        "kda": 2.7,
+        "avgDamage": 17936
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Stormsurge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Shadowflame",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 9.5,
         "avgDeaths": 4.0,
-        "avgAssists": 9.0,
-        "kda": 3.5,
-        "avgDamage": 13809
+        "avgAssists": 10.0,
+        "kda": 4.88,
+        "avgDamage": 18891
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 3.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 4.0,
-        "kda": 2.33,
-        "avgDamage": 15423
+        "avgDeaths": 6.5,
+        "avgAssists": 5.0,
+        "kda": 1.23,
+        "avgDamage": 13390
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Protoplasm Harness",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 8.0,
-        "kda": 2.75,
-        "avgDamage": 5205
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 7.5,
+        "avgAssists": 8.5,
+        "kda": 1.4,
+        "avgDamage": 5846
       }
     }
   }

@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:37.492410",
+  "updated_at": "2026-03-29T12:05:05.955191",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -104,
-      "avg_xp_diff": -68,
-      "avg_cs_diff": -6.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1,
+      "avg_xp_diff": 29,
+      "avg_cs_diff": -1.6,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -306,
-      "avg_xp_diff": 16,
-      "avg_cs_diff": -24.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 268,
+      "avg_xp_diff": 444,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 197,
-      "avg_xp_diff": 845,
-      "avg_cs_diff": -26.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 573,
+      "avg_xp_diff": 1325,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 957,
-      "avg_xp_diff": 3165,
-      "avg_cs_diff": -36.6,
-      "sample_frames": 11,
+      "avg_gold_diff": 1640,
+      "avg_xp_diff": 2801,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 29,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3078,
+      "avg_xp_diff": 2085,
+      "avg_cs_diff": -17.1,
+      "sample_frames": 15,
       "advantage": 2
     }
   ],
@@ -45,24 +54,72 @@
   "champB": "Ryze",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 10.0,
       "avgDeaths": 2.0,
-      "avgAssists": 2.0,
-      "kda": 5.5,
-      "avgDamage": 25806
+      "avgAssists": 5.0,
+      "kda": 7.5,
+      "avgDamage": 30273
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 0.0,
-      "kda": 0.12,
-      "avgDamage": 14564
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 6.7,
+      "avgAssists": 1.3,
+      "kda": 0.6,
+      "avgDamage": 22707
     }
   }
 }

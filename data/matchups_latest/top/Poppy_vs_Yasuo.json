@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:48.056583",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-29T12:05:20.882346",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -205,
-      "avg_xp_diff": -159,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -127,
+      "avg_xp_diff": -75,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -351,
-      "avg_xp_diff": -235,
-      "avg_cs_diff": -8.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -659,
+      "avg_xp_diff": -570,
+      "avg_cs_diff": -17.4,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -220,
-      "avg_xp_diff": -129,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -987,
+      "avg_xp_diff": -1177,
+      "avg_cs_diff": -24.6,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -232,
-      "avg_xp_diff": 435,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -1348,
+      "avg_xp_diff": -602,
+      "avg_cs_diff": -29.7,
+      "sample_frames": 32,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1871,
-      "avg_xp_diff": -1306,
-      "avg_cs_diff": -46.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -2233,
+      "avg_xp_diff": -535,
+      "avg_cs_diff": -46.4,
+      "sample_frames": 18,
       "advantage": -2
     }
   ],
@@ -54,24 +54,84 @@
   "champB": "Yasuo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 7.0,
-      "kda": 2.2,
-      "avgDamage": 20446
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 4.8,
+      "avgAssists": 9.8,
+      "kda": 2.68,
+      "avgDamage": 16098
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 7.0,
-      "kda": 1.86,
-      "avgDamage": 25456
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 5.8,
+      "avgAssists": 3.2,
+      "kda": 1.52,
+      "avgDamage": 20735
     }
   }
 }

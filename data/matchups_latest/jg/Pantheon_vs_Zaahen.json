@@ -1,68 +1,122 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:48.045071",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:20.864161",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -21,
-      "avg_xp_diff": 34,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 73,
+      "avg_xp_diff": -28,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -793,
-      "avg_xp_diff": -315,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 314,
+      "avg_xp_diff": -26,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1409,
-      "avg_xp_diff": -1076,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 227,
+      "avg_xp_diff": -218,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2423,
-      "avg_xp_diff": -2580,
-      "avg_cs_diff": -25.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 233,
+      "avg_xp_diff": -496,
+      "avg_cs_diff": -10.0,
+      "sample_frames": 25,
+      "advantage": 1
     }
   ],
   "champA": "Pantheon",
   "champB": "Zaahen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.3,
       "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 0.67,
-      "avgDamage": 4688
+      "avgAssists": 5.3,
+      "kda": 3.89,
+      "avgDamage": 13132
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 7.0,
-      "kda": 13.0,
-      "avgDamage": 11497
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 3.7,
+      "avgAssists": 6.3,
+      "kda": 3.0,
+      "avgDamage": 11589
     }
   }
 }

@@ -1,68 +1,96 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:38.124646",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:06.753493",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 23,
-      "avg_xp_diff": -71,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 20,
+      "avg_xp_diff": -34,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -260,
-      "avg_xp_diff": 68,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -368,
+      "avg_xp_diff": -29,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -343,
-      "avg_xp_diff": 406,
-      "avg_cs_diff": 6.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -885,
+      "avg_xp_diff": -390,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 600,
-      "avg_xp_diff": 375,
-      "avg_cs_diff": 12.4,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -302,
+      "avg_xp_diff": -653,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 15,
+      "advantage": -1
     }
   ],
   "champA": "Corki",
   "champB": "Leblanc",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 7.0,
-      "kda": 2.5,
-      "avgDamage": 11991
+      "avgKills": 1.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 3.5,
+      "kda": 0.91,
+      "avgDamage": 10157
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 2.0,
-      "kda": 2.0,
-      "avgDamage": 17158
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 3.0,
+      "kda": 3.8,
+      "avgDamage": 16154
     }
   }
 }

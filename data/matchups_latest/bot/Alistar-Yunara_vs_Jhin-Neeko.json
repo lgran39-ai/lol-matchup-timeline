@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:48.449339",
+  "updated_at": "2026-03-29T12:05:21.509849",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -187,
-      "avg_xp_diff": -124,
-      "avg_cs_diff": -8.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -162,
+      "avg_xp_diff": -139,
+      "avg_cs_diff": -7.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1543,
-      "avg_xp_diff": -616,
-      "avg_cs_diff": -24.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -915,
+      "avg_xp_diff": -410,
+      "avg_cs_diff": -17.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -4049,
-      "avg_xp_diff": -2685,
-      "avg_cs_diff": -58.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -2724,
+      "avg_xp_diff": -1665,
+      "avg_cs_diff": -42.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -5808,
-      "avg_xp_diff": -3558,
-      "avg_cs_diff": -77.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -4184,
+      "avg_xp_diff": -2542,
+      "avg_cs_diff": -58.2,
+      "sample_frames": 4,
       "advantage": -2
     }
   ],
@@ -55,46 +55,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 0.0,
-        "kda": 0.0,
-        "avgDamage": 6131
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 1.5,
+        "kda": 0.44,
+        "avgDamage": 6284
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 0.0,
         "avgDeaths": 4.0,
-        "avgAssists": 0.0,
-        "kda": 0.0,
-        "avgDamage": 1485
+        "avgAssists": 3.0,
+        "kda": 0.75,
+        "avgDamage": 2293
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 5.0,
-        "kda": 10.0,
-        "avgDamage": 10354
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 2.0,
+        "avgAssists": 4.5,
+        "kda": 4.5,
+        "avgDamage": 10147
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 8.0,
-        "kda": 10.0,
-        "avgDamage": 9697
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 1.0,
+        "avgAssists": 9.0,
+        "kda": 10.5,
+        "avgDamage": 10173
       }
     }
   }

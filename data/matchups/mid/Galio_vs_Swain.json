@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-23T10:04:38.520997",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-29T12:05:07.263172",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -113,
-      "avg_xp_diff": -95,
-      "avg_cs_diff": -2.5,
-      "sample_frames": 15,
+      "avg_gold_diff": -50,
+      "avg_xp_diff": -90,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -622,
-      "avg_xp_diff": -419,
-      "avg_cs_diff": -11.9,
-      "sample_frames": 15,
+      "avg_gold_diff": -597,
+      "avg_xp_diff": -438,
+      "avg_cs_diff": -11.1,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1396,
-      "avg_xp_diff": -1055,
-      "avg_cs_diff": -22.3,
-      "sample_frames": 15,
+      "avg_gold_diff": -1428,
+      "avg_xp_diff": -1186,
+      "avg_cs_diff": -25.2,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2012,
-      "avg_xp_diff": -1785,
-      "avg_cs_diff": -38.2,
-      "sample_frames": 18,
+      "avg_gold_diff": -2460,
+      "avg_xp_diff": -1778,
+      "avg_cs_diff": -36.3,
+      "sample_frames": 38,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2850,
-      "avg_xp_diff": -2620,
-      "avg_cs_diff": -32.0,
-      "sample_frames": 4,
+      "avg_gold_diff": -3627,
+      "avg_xp_diff": -2273,
+      "avg_cs_diff": -41.1,
+      "sample_frames": 22,
       "advantage": -2
     }
   ],
@@ -54,47 +54,72 @@
   "champB": "Swain",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ghost",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 4.7,
-      "avgAssists": 4.7,
-      "kda": 1.43,
-      "avgDamage": 10837
+      "avgKills": 2.8,
+      "avgDeaths": 6.4,
+      "avgAssists": 10.0,
+      "kda": 2.0,
+      "avgDamage": 16693
     },
     "champB": {
       "items": [
         {
-          "name": "Malignance",
-          "count": 2,
-          "pickRate": 66.7,
+          "name": "Rylai's Crystal Scepter",
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
         },
         {
-          "name": "Rylai's Crystal Scepter",
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Malignance",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 40.0,
           "winRate": 50.0
         },
         {
           "name": "Armored Advance",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 40.0,
           "winRate": 100.0
         }
       ],
@@ -102,23 +127,29 @@
         {
           "name": "Conqueror",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 60.0,
           "winRate": 66.7
+        },
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ghost",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 2.3,
-      "avgAssists": 8.7,
-      "kda": 5.43,
-      "avgDamage": 14839
+      "avgKills": 8.6,
+      "avgDeaths": 3.6,
+      "avgAssists": 11.4,
+      "kda": 5.56,
+      "avgDamage": 25198
     }
   }
 }

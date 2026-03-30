@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.686937",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-03-29T12:05:20.247952",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 234,
-      "avg_xp_diff": 55,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 12,
+      "avg_xp_diff": 70,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 982,
-      "avg_xp_diff": 394,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -28,
+      "avg_xp_diff": 265,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1470,
-      "avg_xp_diff": 899,
-      "avg_cs_diff": 23.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 39,
+      "avg_xp_diff": 306,
+      "avg_cs_diff": 19.9,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2703,
-      "avg_xp_diff": 2712,
-      "avg_cs_diff": 50.5,
-      "sample_frames": 6,
+      "avg_gold_diff": 406,
+      "avg_xp_diff": 1133,
+      "avg_cs_diff": 35.0,
+      "sample_frames": 38,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2452,
+      "avg_xp_diff": 2605,
+      "avg_cs_diff": 65.8,
+      "sample_frames": 24,
       "advantage": 2
     }
   ],
@@ -45,24 +54,108 @@
   "champB": "Pantheon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 8.0,
-      "kda": 4.0,
-      "avgDamage": 22499
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 80.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "spells": "Exhaust+Smite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.2,
+      "avgDeaths": 6.6,
+      "avgAssists": 10.6,
+      "kda": 2.85,
+      "avgDamage": 33941
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 2.0,
-      "avgDamage": 10058
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 20.0
+        }
+      ],
+      "avgKills": 10.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.4,
+      "kda": 3.08,
+      "avgDamage": 22684
     }
   }
 }

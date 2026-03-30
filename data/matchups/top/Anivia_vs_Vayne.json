@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 6,
-  "overall_winrate_a": 33.3,
-  "updated_at": "2026-03-23T10:04:37.731819",
+  "sample_size": 8,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-03-29T12:05:06.253594",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -62,
-      "avg_xp_diff": -74,
-      "avg_cs_diff": -2.7,
-      "sample_frames": 30,
+      "avg_gold_diff": -25,
+      "avg_xp_diff": -29,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -665,
-      "avg_xp_diff": -480,
-      "avg_cs_diff": -16.3,
-      "sample_frames": 30,
-      "advantage": -2
+      "avg_gold_diff": -363,
+      "avg_xp_diff": -171,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 40,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1084,
-      "avg_xp_diff": -1369,
-      "avg_cs_diff": -26.7,
-      "sample_frames": 30,
+      "avg_gold_diff": -714,
+      "avg_xp_diff": -710,
+      "avg_cs_diff": -15.2,
+      "sample_frames": 40,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2790,
-      "avg_xp_diff": -2807,
-      "avg_cs_diff": -39.0,
-      "sample_frames": 42,
+      "avg_gold_diff": -1530,
+      "avg_xp_diff": -1382,
+      "avg_cs_diff": -15.1,
+      "sample_frames": 62,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -129,
+      "avg_xp_diff": 1361,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 14,
+      "advantage": 0
     }
   ],
   "champA": "Anivia",
@@ -48,87 +57,93 @@
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 3,
-          "pickRate": 50.0,
-          "winRate": 33.3
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 20.0
         },
         {
           "name": "Malignance",
           "count": 2,
-          "pickRate": 33.3,
+          "pickRate": 25.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 4,
-          "pickRate": 66.7,
-          "winRate": 25.0
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 16.7
         },
         {
           "name": "Phase Rush",
           "count": 2,
-          "pickRate": 33.3,
+          "pickRate": 25.0,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
+          "count": 4,
           "pickRate": 50.0,
-          "winRate": 33.3
+          "winRate": 25.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 2.2,
-      "avgDeaths": 6.2,
-      "avgAssists": 1.0,
-      "kda": 0.51,
-      "avgDamage": 9331
+      "avgKills": 3.1,
+      "avgDeaths": 6.0,
+      "avgAssists": 2.9,
+      "kda": 1.0,
+      "avgDamage": 13715
     },
     "champB": {
       "items": [
         {
           "name": "Essence Reaver",
-          "count": 6,
+          "count": 8,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 75.0
         },
         {
           "name": "Experimental Hexplate",
-          "count": 5,
-          "pickRate": 83.3,
-          "winRate": 80.0
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 85.7
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 5,
-          "pickRate": 83.3,
-          "winRate": 80.0
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 85.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Exhaust+Flash",
-          "count": 4,
-          "pickRate": 66.7,
-          "winRate": 75.0
+          "count": 5,
+          "pickRate": 62.5,
+          "winRate": 80.0
         },
         {
           "spells": "Flash+Ghost",
-          "count": 2,
-          "pickRate": 33.3,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 37.5,
+          "winRate": 66.7
         }
       ],
-      "avgKills": 7.2,
-      "avgDeaths": 2.2,
-      "avgAssists": 2.2,
-      "kda": 4.31,
-      "avgDamage": 17722
+      "avgKills": 7.0,
+      "avgDeaths": 2.8,
+      "avgAssists": 2.8,
+      "kda": 3.55,
+      "avgDamage": 20114
     }
   }
 }

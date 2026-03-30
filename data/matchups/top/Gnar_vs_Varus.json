@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:38.622755",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:07.397507",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -69,
-      "avg_xp_diff": -61,
-      "avg_cs_diff": -5.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -73,
+      "avg_xp_diff": -69,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -808,
-      "avg_xp_diff": -797,
-      "avg_cs_diff": -28.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -475,
+      "avg_xp_diff": -386,
+      "avg_cs_diff": -20.5,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1505,
-      "avg_xp_diff": -2192,
-      "avg_cs_diff": -45.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -705,
+      "avg_xp_diff": -837,
+      "avg_cs_diff": -27.7,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3611,
-      "avg_xp_diff": -2629,
-      "avg_cs_diff": -47.7,
-      "sample_frames": 15,
+      "avg_gold_diff": -1972,
+      "avg_xp_diff": -1088,
+      "avg_cs_diff": -29.2,
+      "sample_frames": 25,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1019,
+      "avg_xp_diff": 647,
+      "avg_cs_diff": -23.4,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
@@ -48,49 +57,62 @@
       "items": [
         {
           "name": "Trinity Force",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 1.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 2.5,
-      "kda": 0.57,
-      "avgDamage": 11058
+      "avgKills": 1.7,
+      "avgDeaths": 6.7,
+      "avgAssists": 4.3,
+      "kda": 0.9,
+      "avgDamage": 13227
     },
     "champB": {
       "items": [
         {
           "name": "Dusk and Dawn",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [],
-      "avgKills": 9.0,
+      "avgKills": 7.7,
       "avgDeaths": 5.0,
-      "avgAssists": 3.0,
-      "kda": 2.4,
-      "avgDamage": 24947
+      "avgAssists": 4.0,
+      "kda": 2.33,
+      "avgDamage": 24059
     }
   }
 }

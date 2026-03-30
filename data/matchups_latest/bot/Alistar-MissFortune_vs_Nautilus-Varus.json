@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:48.407649",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:21.435845",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 24,
-      "avg_xp_diff": 55,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -138,
+      "avg_xp_diff": -28,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1354,
-      "avg_xp_diff": -741,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -268,
+      "avg_xp_diff": -438,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -4064,
-      "avg_xp_diff": -2416,
-      "avg_cs_diff": -36.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1060,
+      "avg_xp_diff": -995,
+      "avg_cs_diff": -10.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -8218,
-      "avg_xp_diff": -4330,
-      "avg_cs_diff": -62.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -2441,
+      "avg_xp_diff": -2273,
+      "avg_cs_diff": -25.3,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -8652,
-      "avg_xp_diff": -2110,
-      "avg_cs_diff": -51.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -4234,
+      "avg_xp_diff": -2088,
+      "avg_cs_diff": -33.2,
+      "sample_frames": 15,
       "advantage": -2
     }
   ],
@@ -64,24 +64,58 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Bloodthirster",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 4.0,
-        "kda": 0.55,
-        "avgDamage": 18193
+        "avgKills": 14.5,
+        "avgDeaths": 9.0,
+        "avgAssists": 4.5,
+        "kda": 2.11,
+        "avgDamage": 36244
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 0.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 8.0,
-        "kda": 0.8,
-        "avgDamage": 8615
+        "avgDeaths": 9.0,
+        "avgAssists": 15.0,
+        "kda": 1.67,
+        "avgDamage": 7884
       }
     },
     "teamB": {
@@ -89,21 +123,48 @@
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 17.0,
-        "avgDeaths": 6.0,
+        "avgKills": 14.0,
+        "avgDeaths": 8.5,
         "avgAssists": 8.0,
-        "kda": 4.17,
-        "avgDamage": 45259
+        "kda": 2.59,
+        "avgDamage": 43296
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Protoplasm Harness",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 25.0,
-        "kda": 6.5,
-        "avgDamage": 12296
+        "avgDeaths": 7.5,
+        "avgAssists": 19.0,
+        "kda": 2.67,
+        "avgDamage": 11712
       }
     }
   }

@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:47.964187",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:20.749625",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -4,
-      "avg_xp_diff": -26,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 80,
+      "avg_xp_diff": 38,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 703,
-      "avg_xp_diff": 377,
-      "avg_cs_diff": 5.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 640,
+      "avg_xp_diff": 378,
+      "avg_cs_diff": 7.0,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 545,
-      "avg_xp_diff": 379,
-      "avg_cs_diff": 12.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 590,
+      "avg_xp_diff": 455,
+      "avg_cs_diff": 10.1,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1269,
-      "avg_xp_diff": 1266,
-      "avg_cs_diff": 28.8,
-      "sample_frames": 20,
+      "avg_gold_diff": 1284,
+      "avg_xp_diff": 1375,
+      "avg_cs_diff": 27.4,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1440,
-      "avg_xp_diff": 854,
-      "avg_cs_diff": 33.5,
-      "sample_frames": 6,
+      "avg_gold_diff": 1333,
+      "avg_xp_diff": 1880,
+      "avg_cs_diff": 39.9,
+      "sample_frames": 9,
       "advantage": 2
     }
   ],
@@ -57,55 +57,69 @@
       "items": [
         {
           "name": "Zhonya's Hourglass",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         },
         {
           "name": "Lich Bane",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 4.7,
+      "avgAssists": 12.0,
+      "kda": 4.07,
+      "avgDamage": 18938
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 7.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 10.0,
-      "kda": 3.89,
-      "avgDamage": 20478
-    },
-    "champB": {
-      "items": [],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 7.5,
-      "avgAssists": 11.5,
-      "kda": 2.07,
-      "avgDamage": 15076
+      "avgKills": 5.3,
+      "avgDeaths": 7.3,
+      "avgAssists": 9.7,
+      "kda": 2.05,
+      "avgDamage": 15693
     }
   }
 }

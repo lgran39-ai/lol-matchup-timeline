@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:37.501389",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-03-29T12:05:05.966316",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -84,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": -4.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -52,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -310,
-      "avg_xp_diff": 71,
-      "avg_cs_diff": -7.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -264,
+      "avg_xp_diff": 73,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -264,
-      "avg_xp_diff": 520,
-      "avg_cs_diff": -5.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -325,
+      "avg_xp_diff": 89,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -31,
-      "avg_xp_diff": 1376,
-      "avg_cs_diff": -6.9,
-      "sample_frames": 17,
-      "advantage": 0
+      "avg_gold_diff": 229,
+      "avg_xp_diff": 895,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 34,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6,
-      "avg_xp_diff": 2811,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 3,
-      "advantage": 0
+      "avg_gold_diff": 1030,
+      "avg_xp_diff": 3038,
+      "avg_cs_diff": 20.0,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "champA": "Akali",
@@ -57,62 +57,105 @@
       "items": [
         {
           "name": "Hextech Gunblade",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 75.0
         },
         {
           "name": "Spellslinger's Shoes",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 75.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 11.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 4.5,
-      "kda": 5.17,
-      "avgDamage": 23706
+      "avgKills": 8.5,
+      "avgDeaths": 4.2,
+      "avgAssists": 5.5,
+      "kda": 3.29,
+      "avgDamage": 21064
     },
     "champB": {
       "items": [
         {
           "name": "Kraken Slayer",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 0.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hexoptics C44",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 0.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 5.5,
-      "kda": 1.31,
-      "avgDamage": 17742
+      "avgKills": 4.8,
+      "avgDeaths": 7.0,
+      "avgAssists": 5.0,
+      "kda": 1.39,
+      "avgDamage": 16458
     }
   }
 }

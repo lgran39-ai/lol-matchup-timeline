@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:39.281943",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:08.261418",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 45,
-      "avg_xp_diff": 37,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 47,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 144,
-      "avg_xp_diff": 317,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 367,
+      "avg_xp_diff": 333,
+      "avg_cs_diff": 8.9,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 818,
-      "avg_xp_diff": 1151,
-      "avg_cs_diff": 14.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 771,
+      "avg_xp_diff": 542,
+      "avg_cs_diff": 12.1,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 532,
-      "avg_xp_diff": -780,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 8,
+      "avg_gold_diff": 1307,
+      "avg_xp_diff": 159,
+      "avg_cs_diff": 8.1,
+      "sample_frames": 18,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1591,
+      "avg_xp_diff": 101,
+      "avg_cs_diff": 22.3,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -47,22 +56,43 @@
     "champA": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
       "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 1.0,
-      "avgDamage": 16057
+      "avgAssists": 8.0,
+      "kda": 2.17,
+      "avgDamage": 26502
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 3.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 4.0,
-      "avgDamage": 16615
+      "avgDeaths": 4.5,
+      "avgAssists": 7.0,
+      "kda": 2.22,
+      "avgDamage": 22716
     }
   }
 }

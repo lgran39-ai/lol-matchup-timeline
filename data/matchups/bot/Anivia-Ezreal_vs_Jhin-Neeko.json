@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:40.800751",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:10.221770",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 307,
-      "avg_xp_diff": 70,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 258,
+      "avg_xp_diff": 74,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -183,
-      "avg_xp_diff": -308,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 498,
+      "avg_xp_diff": 30,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -240,
-      "avg_xp_diff": -307,
-      "avg_cs_diff": 11.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 202,
+      "avg_xp_diff": -196,
+      "avg_cs_diff": 11.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 486,
-      "avg_xp_diff": 1258,
-      "avg_cs_diff": 25.4,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -158,
+      "avg_xp_diff": 177,
+      "avg_cs_diff": 17.4,
+      "sample_frames": 19,
+      "advantage": 0
     },
     {
       "phase": "25min+",
@@ -64,46 +64,116 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 12.0,
-        "kda": 2.67,
-        "avgDamage": 33173
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 5.5,
+        "avgAssists": 8.5,
+        "kda": 1.91,
+        "avgDamage": 25980
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
+        "items": [
+          {
+            "name": "Rod of Ages",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.5,
         "avgDeaths": 4.0,
-        "avgAssists": 18.0,
-        "kda": 6.25,
-        "avgDamage": 20227
+        "avgAssists": 13.0,
+        "kda": 4.62,
+        "avgDamage": 15931
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 6.0,
-        "kda": 0.8,
-        "avgDamage": 19187
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 5.0,
+        "kda": 1.46,
+        "avgDamage": 18742
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
         "avgDeaths": 7.0,
-        "avgAssists": 4.0,
+        "avgAssists": 7.5,
         "kda": 1.57,
-        "avgDamage": 14312
+        "avgDamage": 12974
       }
     }
   }

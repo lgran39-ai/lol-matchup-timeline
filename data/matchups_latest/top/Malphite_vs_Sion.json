@@ -1,55 +1,83 @@
 {
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.864837",
+  "updated_at": "2026-03-29T12:05:20.605629",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -39,
-      "avg_xp_diff": -52,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -44,
+      "avg_xp_diff": -16,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -639,
-      "avg_xp_diff": -547,
-      "avg_cs_diff": -13.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -417,
+      "avg_xp_diff": -321,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1506,
-      "avg_xp_diff": -1142,
-      "avg_cs_diff": -22.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -1058,
+      "avg_xp_diff": -1010,
+      "avg_cs_diff": -19.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 49,
-      "avg_xp_diff": 679,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 12,
-      "advantage": 0
+      "avg_gold_diff": -437,
+      "avg_xp_diff": 7,
+      "avg_cs_diff": -12.2,
+      "sample_frames": 32,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -330,
+      "avg_xp_diff": 1548,
+      "avg_cs_diff": -8.8,
+      "sample_frames": 13,
+      "advantage": -1
     }
   ],
   "champA": "Malphite",
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 100.0
         }
@@ -57,23 +85,42 @@
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 2.67,
-      "avgDamage": 11484
+      "avgKills": 2.8,
+      "avgDeaths": 2.5,
+      "avgAssists": 11.8,
+      "kda": 5.8,
+      "avgDamage": 15586
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 0.0
         }
@@ -81,16 +128,16 @@
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
+          "count": 3,
+          "pickRate": 75.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.0,
-      "kda": 1.5,
-      "avgDamage": 14518
+      "avgKills": 3.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.8,
+      "kda": 1.55,
+      "avgDamage": 19942
     }
   }
 }

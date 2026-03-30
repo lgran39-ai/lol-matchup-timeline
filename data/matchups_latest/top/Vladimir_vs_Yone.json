@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.307010",
+  "updated_at": "2026-03-29T12:05:21.248456",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -20,
-      "avg_xp_diff": -30,
-      "avg_cs_diff": -1.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 41,
+      "avg_xp_diff": 44,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -278,
-      "avg_xp_diff": -204,
-      "avg_cs_diff": -5.8,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 95,
+      "avg_xp_diff": 202,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 126,
-      "avg_xp_diff": 818,
-      "avg_cs_diff": -7.3,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 641,
+      "avg_xp_diff": 1469,
+      "avg_cs_diff": 10.3,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1585,
-      "avg_xp_diff": 2541,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 21,
+      "avg_gold_diff": 2440,
+      "avg_xp_diff": 3278,
+      "avg_cs_diff": 18.6,
+      "sample_frames": 31,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -655,
-      "avg_xp_diff": 1553,
-      "avg_cs_diff": -40.7,
-      "sample_frames": 12,
-      "advantage": -2
+      "avg_gold_diff": 875,
+      "avg_xp_diff": 2210,
+      "avg_cs_diff": -17.9,
+      "sample_frames": 16,
+      "advantage": 2
     }
   ],
   "champA": "Vladimir",
@@ -56,22 +56,28 @@
     "champA": {
       "items": [
         {
-          "name": "Hextech Rocketbelt",
-          "count": 2,
+          "name": "Riftmaker",
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         },
         {
-          "name": "Riftmaker",
+          "name": "Hextech Rocketbelt",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Summon Aery",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         }
@@ -80,39 +86,52 @@
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 7.0,
-      "kda": 5.2,
-      "avgDamage": 27812
+      "avgKills": 7.3,
+      "avgDeaths": 3.0,
+      "avgAssists": 6.0,
+      "kda": 4.44,
+      "avgDamage": 28334
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 8.5,
-      "avgAssists": 1.5,
-      "kda": 0.65,
-      "avgDamage": 31834
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.7,
+      "avgDeaths": 9.3,
+      "avgAssists": 2.7,
+      "kda": 0.57,
+      "avgDamage": 26817
     }
   }
 }

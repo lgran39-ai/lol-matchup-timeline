@@ -1,68 +1,110 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.222529",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:19.560797",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -48,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": -3.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -53,
+      "avg_xp_diff": -47,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 151,
-      "avg_xp_diff": 133,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -231,
+      "avg_xp_diff": -127,
+      "avg_cs_diff": -6.4,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 968,
-      "avg_xp_diff": 1237,
-      "avg_cs_diff": 23.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -88,
+      "avg_xp_diff": 53,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1820,
-      "avg_xp_diff": 1676,
-      "avg_cs_diff": 30.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -1907,
+      "avg_xp_diff": -2127,
+      "avg_cs_diff": -29.4,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "champA": "DrMundo",
   "champB": "Teemo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 1.0,
-      "kda": 2.0,
-      "avgDamage": 9609
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 2.0,
       "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 0.75,
-      "avgDamage": 13496
+      "avgAssists": 1.5,
+      "kda": 0.88,
+      "avgDamage": 9888
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 3.5,
+      "kda": 2.2,
+      "avgDamage": 14290
     }
   }
 }

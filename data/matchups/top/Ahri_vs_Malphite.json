@@ -1,44 +1,44 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:37.405347",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:05.848042",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 92,
-      "avg_xp_diff": 93,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 81,
+      "avg_xp_diff": 62,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 368,
-      "avg_xp_diff": -35,
-      "avg_cs_diff": 12.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 217,
+      "avg_xp_diff": -178,
+      "avg_cs_diff": 7.3,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 185,
-      "avg_xp_diff": -310,
-      "avg_cs_diff": 12.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -46,
+      "avg_xp_diff": -252,
+      "avg_cs_diff": 11.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1032,
-      "avg_xp_diff": 75,
-      "avg_cs_diff": 40.7,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 293,
+      "avg_xp_diff": -341,
+      "avg_cs_diff": 27.6,
+      "sample_frames": 14,
+      "advantage": 1
     },
     {
       "phase": "25min+",
@@ -54,24 +54,45 @@
   "champB": "Malphite",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 4.5,
-      "avgDamage": 31384
+      "avgKills": 2.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 3.5,
+      "kda": 2.0,
+      "avgDamage": 20697
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 8.0,
-      "kda": 3.33,
-      "avgDamage": 18400
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 7.0,
+      "kda": 5.5,
+      "avgDamage": 14646
     }
   }
 }

@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:43.149641",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:13.504315",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 228,
-      "avg_xp_diff": 44,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 151,
+      "avg_xp_diff": 38,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 978,
-      "avg_xp_diff": 478,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 950,
+      "avg_xp_diff": 480,
+      "avg_cs_diff": 5.5,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2618,
-      "avg_xp_diff": 1461,
-      "avg_cs_diff": 22.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 2149,
+      "avg_xp_diff": 1214,
+      "avg_cs_diff": 13.1,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3771,
-      "avg_xp_diff": 1564,
-      "avg_cs_diff": 30.7,
-      "sample_frames": 12,
+      "avg_gold_diff": 2565,
+      "avg_xp_diff": 775,
+      "avg_cs_diff": 10.9,
+      "sample_frames": 32,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 5257,
-      "avg_xp_diff": 3461,
-      "avg_cs_diff": 41.5,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": 410,
+      "avg_xp_diff": -2238,
+      "avg_cs_diff": -15.6,
+      "sample_frames": 19,
+      "advantage": 1
     }
   ],
   "type": "bot_2v2",
@@ -67,113 +67,169 @@
         "items": [
           {
             "name": "Trinity Force",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 3.2,
+        "avgAssists": 6.0,
+        "kda": 3.85,
+        "avgDamage": 27698
+      },
+      "sup": {
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Redemption",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 4,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 3.8,
+        "avgAssists": 10.0,
+        "kda": 3.07,
+        "avgDamage": 11254
+      }
+    },
+    "teamB": {
+      "adc": {
+        "items": [
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Statikk Shiv",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 50.0,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 100.0
+            "count": 3,
+            "pickRate": 75.0,
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 50.0
           }
         ],
-        "avgKills": 5.0,
-        "avgDeaths": 0.5,
-        "avgAssists": 5.0,
-        "kda": 20.0,
-        "avgDamage": 19210
-      },
-      "sup": {
-        "items": [
-          {
-            "name": "Echoes of Helia",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 100.0
-          }
-        ],
-        "keystones": [
-          {
-            "name": "Summon Aery",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 100.0
-          }
-        ],
-        "summonerSpells": [
-          {
-            "spells": "Flash+Heal",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 100.0
-          }
-        ],
-        "avgKills": 0.5,
-        "avgDeaths": 1.0,
-        "avgAssists": 10.0,
-        "kda": 10.5,
-        "avgDamage": 8887
-      }
-    },
-    "teamB": {
-      "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [
-          {
-            "spells": "Flash+Barrier",
-            "count": 2,
-            "pickRate": 100.0,
-            "winRate": 0.0
-          }
-        ],
-        "avgKills": 0.0,
-        "avgDeaths": 4.5,
-        "avgAssists": 2.0,
-        "kda": 0.44,
-        "avgDamage": 5694
+        "avgKills": 2.2,
+        "avgDeaths": 5.5,
+        "avgAssists": 7.8,
+        "kda": 1.82,
+        "avgDamage": 19046
       },
       "sup": {
         "items": [
           {
             "name": "Ardent Censer",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 50.0
+          },
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 50.0,
+            "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Summon Aery",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 50.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 4,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 50.0
           }
         ],
-        "avgKills": 0.0,
-        "avgDeaths": 2.5,
-        "avgAssists": 4.5,
-        "kda": 1.8,
-        "avgDamage": 3916
+        "avgKills": 0.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 12.8,
+        "kda": 3.79,
+        "avgDamage": 6124
       }
     }
   }

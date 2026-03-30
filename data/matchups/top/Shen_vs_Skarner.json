@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:40.011627",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:09.187364",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -126,
-      "avg_xp_diff": 6,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -94,
+      "avg_xp_diff": 0,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -779,
-      "avg_xp_diff": -140,
-      "avg_cs_diff": -16.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -438,
+      "avg_xp_diff": -5,
+      "avg_cs_diff": -9.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2169,
-      "avg_xp_diff": -1811,
-      "avg_cs_diff": -37.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1272,
+      "avg_xp_diff": -651,
+      "avg_cs_diff": -18.9,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3784,
-      "avg_xp_diff": -2769,
-      "avg_cs_diff": -51.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -2528,
+      "avg_xp_diff": -1606,
+      "avg_cs_diff": -29.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -5031,
-      "avg_xp_diff": -3846,
-      "avg_cs_diff": -66.0,
-      "sample_frames": 3,
+      "avg_gold_diff": -2279,
+      "avg_xp_diff": -195,
+      "avg_cs_diff": -14.0,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
@@ -55,23 +55,44 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 8.0,
-      "kda": 1.0,
-      "avgDamage": 12419
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 12.0,
+      "kda": 2.15,
+      "avgDamage": 17534
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 12.0,
-      "kda": 9.5,
-      "avgDamage": 22527
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 10.0,
+      "kda": 4.43,
+      "avgDamage": 23570
     }
   }
 }

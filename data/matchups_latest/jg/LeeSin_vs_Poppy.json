@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:47.806222",
+  "sample_size": 11,
+  "overall_winrate_a": 54.5,
+  "updated_at": "2026-03-29T12:05:20.427131",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -22,
-      "avg_xp_diff": 143,
-      "avg_cs_diff": 3.5,
-      "sample_frames": 20,
+      "avg_gold_diff": 13,
+      "avg_xp_diff": 101,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 55,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -99,
-      "avg_xp_diff": 655,
-      "avg_cs_diff": 17.9,
-      "sample_frames": 20,
+      "avg_gold_diff": -15,
+      "avg_xp_diff": 206,
+      "avg_cs_diff": 6.4,
+      "sample_frames": 55,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -78,
-      "avg_xp_diff": 443,
-      "avg_cs_diff": 19.7,
-      "sample_frames": 20,
+      "avg_gold_diff": 4,
+      "avg_xp_diff": -17,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 55,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1542,
-      "avg_xp_diff": 1692,
-      "avg_cs_diff": 24.8,
-      "sample_frames": 29,
+      "avg_gold_diff": 729,
+      "avg_xp_diff": 599,
+      "avg_cs_diff": 4.8,
+      "sample_frames": 69,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 993,
+      "avg_xp_diff": -734,
+      "avg_cs_diff": -16.2,
+      "sample_frames": 20,
       "advantage": 2
     }
   ],
@@ -47,82 +56,100 @@
     "champA": {
       "items": [
         {
-          "name": "Eclipse",
-          "count": 4,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "name": "Sundered Sky",
+          "count": 8,
+          "pickRate": 72.7,
+          "winRate": 62.5
         },
         {
-          "name": "Sundered Sky",
+          "name": "Eclipse",
+          "count": 5,
+          "pickRate": 45.5,
+          "winRate": 40.0
+        },
+        {
+          "name": "Black Cleaver",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 27.3,
           "winRate": 66.7
         },
         {
           "name": "Death's Dance",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 18.2,
           "winRate": 50.0
+        },
+        {
+          "name": "Guardian Angel",
+          "count": 2,
+          "pickRate": 18.2,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 4,
+          "count": 11,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 54.5
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 4,
+          "count": 11,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 54.5
         }
       ],
-      "avgKills": 5.8,
-      "avgDeaths": 3.5,
-      "avgAssists": 6.0,
-      "kda": 3.36,
-      "avgDamage": 13239
+      "avgKills": 5.0,
+      "avgDeaths": 2.9,
+      "avgAssists": 6.2,
+      "kda": 3.84,
+      "avgDamage": 12211
     },
     "champB": {
       "items": [
         {
           "name": "Sundered Sky",
-          "count": 3,
-          "pickRate": 75.0,
+          "count": 9,
+          "pickRate": 81.8,
           "winRate": 33.3
         },
         {
           "name": "Dead Man's Plate",
-          "count": 2,
-          "pickRate": 50.0,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 27.3,
+          "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
+          "count": 8,
+          "pickRate": 72.7,
+          "winRate": 37.5
+        },
+        {
+          "name": "Hail of Blades",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 18.2,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 4,
+          "count": 11,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 45.5
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 3.2,
+      "avgKills": 4.8,
+      "avgDeaths": 2.9,
       "avgAssists": 6.5,
-      "kda": 3.54,
-      "avgDamage": 11012
+      "kda": 3.88,
+      "avgDamage": 13613
     }
   }
 }

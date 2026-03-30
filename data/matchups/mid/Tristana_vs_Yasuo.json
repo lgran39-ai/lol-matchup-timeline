@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
+  "sample_size": 4,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:40.175671",
+  "updated_at": "2026-03-29T12:05:09.397591",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -118,
-      "avg_xp_diff": 14,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 15,
+      "avg_gold_diff": -94,
+      "avg_xp_diff": -18,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 206,
-      "avg_xp_diff": 342,
-      "avg_cs_diff": 8.3,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 45,
+      "avg_xp_diff": 118,
+      "avg_cs_diff": 5.2,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 857,
-      "avg_xp_diff": 714,
-      "avg_cs_diff": 19.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 686,
+      "avg_xp_diff": 386,
+      "avg_cs_diff": 12.6,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1212,
-      "avg_xp_diff": 774,
-      "avg_cs_diff": 22.7,
-      "sample_frames": 15,
+      "avg_gold_diff": 971,
+      "avg_xp_diff": 87,
+      "avg_cs_diff": 11.6,
+      "sample_frames": 25,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1831,
+      "avg_xp_diff": 546,
+      "avg_cs_diff": 9.1,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -48,51 +57,70 @@
       "items": [
         {
           "name": "Navori Flickerblade",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "The Collector",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 100.0
         },
         {
           "name": "Kraken Slayer",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 100.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Lethal Tempo",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
-        }
-      ],
-      "summonerSpells": [],
-      "avgKills": 3.3,
-      "avgDeaths": 1.7,
-      "avgAssists": 2.7,
-      "kda": 3.6,
-      "avgDamage": 14209
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Blade of The Ruined King",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
         },
         {
-          "name": "Immortal Shieldbow",
+          "name": "Armored Advance",
           "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
+          "pickRate": 50.0,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
           "count": 3,
+          "pickRate": 75.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.2,
+      "avgDeaths": 4.5,
+      "avgAssists": 3.0,
+      "kda": 2.06,
+      "avgDamage": 20200
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 0.0
         }
@@ -101,15 +129,15 @@
         {
           "spells": "Exhaust+Flash",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 75.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 2.3,
-      "avgDeaths": 4.7,
-      "avgAssists": 1.0,
-      "kda": 0.71,
-      "avgDamage": 9673
+      "avgKills": 4.2,
+      "avgDeaths": 6.5,
+      "avgAssists": 3.5,
+      "kda": 1.19,
+      "avgDamage": 17333
     }
   }
 }

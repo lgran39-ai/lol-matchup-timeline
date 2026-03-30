@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:37.680054",
+  "updated_at": "2026-03-29T12:05:06.186553",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -195,
-      "avg_xp_diff": -192,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -133,
+      "avg_xp_diff": -124,
+      "avg_cs_diff": -2.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -668,
-      "avg_xp_diff": -710,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -345,
+      "avg_xp_diff": -289,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1162,
-      "avg_xp_diff": -1878,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -447,
+      "avg_xp_diff": -499,
+      "avg_cs_diff": 3.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2272,
-      "avg_xp_diff": -2611,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 8,
-      "advantage": -2
+      "avg_gold_diff": -396,
+      "avg_xp_diff": -802,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 18,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 721,
+      "avg_xp_diff": -882,
+      "avg_cs_diff": 9.4,
+      "sample_frames": 5,
+      "advantage": 2
     }
   ],
   "champA": "Ambessa",
@@ -47,22 +56,29 @@
     "champA": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 1.0,
-      "kda": 0.14,
-      "avgDamage": 8751
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 7.5,
+      "avgAssists": 2.5,
+      "kda": 0.73,
+      "avgDamage": 15046
     },
     "champB": {
       "items": [],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 8.0,
-      "kda": 13.0,
-      "avgDamage": 18484
+      "avgKills": 4.0,
+      "avgDeaths": 2.5,
+      "avgAssists": 10.0,
+      "kda": 5.6,
+      "avgDamage": 19234
     }
   }
 }

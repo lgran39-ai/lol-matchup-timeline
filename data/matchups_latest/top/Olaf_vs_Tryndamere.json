@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:48.000790",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:20.799845",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -365,
-      "avg_xp_diff": -343,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -370,
+      "avg_xp_diff": -293,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -944,
-      "avg_xp_diff": -316,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1163,
+      "avg_xp_diff": -959,
+      "avg_cs_diff": -16.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1743,
-      "avg_xp_diff": -935,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1852,
+      "avg_xp_diff": -1960,
+      "avg_cs_diff": -27.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1968,
-      "avg_xp_diff": -1305,
-      "avg_cs_diff": 1.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -2453,
+      "avg_xp_diff": -2571,
+      "avg_cs_diff": -26.6,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4757,
+      "avg_xp_diff": -5280,
+      "avg_cs_diff": -64.8,
+      "sample_frames": 4,
       "advantage": -2
     }
   ],
@@ -45,24 +54,71 @@
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 1.14,
-      "avgDamage": 19659
+      "avgKills": 3.5,
+      "avgDeaths": 9.0,
+      "avgAssists": 2.0,
+      "kda": 0.61,
+      "avgDamage": 15055
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
+      "items": [
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 11.0,
       "avgDeaths": 4.0,
-      "avgAssists": 5.0,
-      "kda": 4.25,
-      "avgDamage": 27174
+      "avgAssists": 4.5,
+      "kda": 3.88,
+      "avgDamage": 26788
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:47.287350",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:19.658075",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -7,
-      "avg_xp_diff": -44,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -8,
+      "avg_xp_diff": -8,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -548,
-      "avg_xp_diff": -777,
-      "avg_cs_diff": -15.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -446,
+      "avg_xp_diff": -335,
+      "avg_cs_diff": -10.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -722,
-      "avg_xp_diff": -805,
-      "avg_cs_diff": -28.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -974,
+      "avg_xp_diff": -387,
+      "avg_cs_diff": -20.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1622,
-      "avg_xp_diff": -2270,
-      "avg_cs_diff": -55.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -1803,
+      "avg_xp_diff": -1049,
+      "avg_cs_diff": -33.5,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1934,
-      "avg_xp_diff": -1930,
-      "avg_cs_diff": -62.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -2501,
+      "avg_xp_diff": -1779,
+      "avg_cs_diff": -48.9,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
@@ -54,24 +54,51 @@
   "champB": "Orianna",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.5,
       "avgDeaths": 6.0,
-      "avgAssists": 12.0,
-      "kda": 2.0,
-      "avgDamage": 19426
+      "avgAssists": 7.5,
+      "kda": 1.5,
+      "avgDamage": 18212
     },
     "champB": {
       "items": [],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 13.0,
-      "kda": 3.75,
-      "avgDamage": 29638
+      "avgKills": 7.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 10.0,
+      "kda": 4.86,
+      "avgDamage": 29700
     }
   }
 }

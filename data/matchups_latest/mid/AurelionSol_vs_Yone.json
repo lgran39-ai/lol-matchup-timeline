@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-23T10:04:47.002631",
+  "sample_size": 7,
+  "overall_winrate_a": 42.9,
+  "updated_at": "2026-03-29T12:05:19.221462",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 11,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -47,
+      "avg_xp_diff": -77,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 35,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 146,
-      "avg_xp_diff": 2,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -213,
+      "avg_xp_diff": -384,
+      "avg_cs_diff": -12.1,
+      "sample_frames": 35,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -565,
-      "avg_xp_diff": -773,
-      "avg_cs_diff": -18.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -834,
+      "avg_xp_diff": -1083,
+      "avg_cs_diff": -26.4,
+      "sample_frames": 35,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -944,
-      "avg_xp_diff": -1914,
-      "avg_cs_diff": -41.8,
-      "sample_frames": 12,
+      "avg_gold_diff": -1092,
+      "avg_xp_diff": -1533,
+      "avg_cs_diff": -47.6,
+      "sample_frames": 48,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -953,
-      "avg_xp_diff": -3021,
-      "avg_cs_diff": -71.7,
-      "sample_frames": 3,
-      "advantage": -2
+      "avg_gold_diff": -86,
+      "avg_xp_diff": -401,
+      "avg_cs_diff": -28.3,
+      "sample_frames": 16,
+      "advantage": 0
     }
   ],
   "champA": "AurelionSol",
@@ -56,50 +56,118 @@
     "champA": {
       "items": [
         {
+          "name": "Rylai's Crystal Scepter",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
           "name": "Blackfire Torch",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 100.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 66.7
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "name": "First Strike",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 28.6,
+          "winRate": 0.0
         }
       ],
-      "summonerSpells": [],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 42.9,
+          "winRate": 33.3
+        }
+      ],
       "avgKills": 4.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.0,
-      "kda": 2.33,
-      "avgDamage": 9582
+      "avgDeaths": 4.4,
+      "avgAssists": 7.7,
+      "kda": 2.65,
+      "avgDamage": 15063
     },
     "champB": {
       "items": [
         {
           "name": "Blade of The Ruined King",
-          "count": 2,
+          "count": 7,
           "pickRate": 100.0,
+          "winRate": 57.1
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 4,
+          "pickRate": 57.1,
+          "winRate": 25.0
+        },
+        {
+          "name": "Infinity Edge",
+          "count": 2,
+          "pickRate": 28.6,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 28.6,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
+          "count": 5,
+          "pickRate": 71.4,
+          "winRate": 60.0
+        },
+        {
+          "spells": "Exhaust+Flash",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 28.6,
           "winRate": 50.0
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.5,
-      "kda": 1.83,
-      "avgDamage": 15789
+      "avgKills": 4.4,
+      "avgDeaths": 4.7,
+      "avgAssists": 3.3,
+      "kda": 1.64,
+      "avgDamage": 18721
     }
   }
 }

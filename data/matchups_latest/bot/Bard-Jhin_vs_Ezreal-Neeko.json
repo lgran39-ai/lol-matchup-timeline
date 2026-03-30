@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.758301",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-29T12:05:22.195580",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 47,
-      "avg_xp_diff": 70,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -106,
+      "avg_xp_diff": 29,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -2,
-      "avg_xp_diff": 141,
-      "avg_cs_diff": -8.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 25,
+      "avg_xp_diff": 301,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1428,
-      "avg_xp_diff": -348,
-      "avg_cs_diff": -14.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 28,
+      "avg_xp_diff": 521,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1330,
-      "avg_xp_diff": 1021,
-      "avg_cs_diff": -16.2,
-      "sample_frames": 11,
+      "avg_gold_diff": -1423,
+      "avg_xp_diff": 44,
+      "avg_cs_diff": -7.2,
+      "sample_frames": 24,
       "advantage": -2
     }
   ],
@@ -55,46 +55,148 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 12.0,
-        "kda": 2.33,
-        "avgDamage": 14342
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.3,
+        "avgDeaths": 4.7,
+        "avgAssists": 5.7,
+        "kda": 1.93,
+        "avgDamage": 12523
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 15.0,
-        "kda": 9.0,
-        "avgDamage": 12332
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 9.7,
+        "kda": 2.33,
+        "avgDamage": 9112
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 3.0,
-        "kda": 0.8,
-        "avgDamage": 24608
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 5.7,
+        "avgDeaths": 5.7,
+        "avgAssists": 4.3,
+        "kda": 1.76,
+        "avgDamage": 22117
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
         "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 4.0,
-        "kda": 1.4,
-        "avgDamage": 9947
+        "avgDeaths": 3.7,
+        "avgAssists": 10.0,
+        "kda": 3.55,
+        "avgDamage": 10335
       }
     }
   }

@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:48.815490",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:22.310013",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -448,
-      "avg_xp_diff": -131,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -210,
+      "avg_xp_diff": -76,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1286,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": -27.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -516,
+      "avg_xp_diff": -153,
+      "avg_cs_diff": -16.5,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2220,
-      "avg_xp_diff": -562,
-      "avg_cs_diff": -60.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -861,
+      "avg_xp_diff": -464,
+      "avg_cs_diff": -31.9,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1602,
-      "avg_xp_diff": 852,
-      "avg_cs_diff": -54.3,
-      "sample_frames": 6,
+      "avg_gold_diff": -9,
+      "avg_xp_diff": 432,
+      "avg_cs_diff": -21.0,
+      "sample_frames": 27,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1528,
+      "avg_xp_diff": -3366,
+      "avg_cs_diff": 7.7,
+      "sample_frames": 3,
       "advantage": -2
     }
   ],
@@ -55,46 +64,148 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 4.0,
-        "kda": 1.5,
-        "avgDamage": 7145
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Serpent's Fang",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 5.7,
+        "avgAssists": 6.0,
+        "kda": 1.76,
+        "avgDamage": 17343
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 12.0,
-        "kda": 6.5,
-        "avgDamage": 7360
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.3,
+        "avgDeaths": 4.0,
+        "avgAssists": 11.3,
+        "kda": 2.92,
+        "avgDamage": 7522
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 4.0,
-        "kda": 1.0,
-        "avgDamage": 12325
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 4.3,
+        "avgDeaths": 6.3,
+        "avgAssists": 7.3,
+        "kda": 1.84,
+        "avgDamage": 17893
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 6.0,
-        "kda": 1.5,
-        "avgDamage": 5764
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 4.3,
+        "avgAssists": 12.0,
+        "kda": 3.0,
+        "avgDamage": 8610
       }
     }
   }

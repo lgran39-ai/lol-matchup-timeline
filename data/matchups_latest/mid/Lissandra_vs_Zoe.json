@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.845639",
+  "sample_size": 6,
+  "overall_winrate_a": 16.7,
+  "updated_at": "2026-03-29T12:05:20.570293",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -23,
-      "avg_xp_diff": -85,
-      "avg_cs_diff": -0.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -69,
+      "avg_xp_diff": -78,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -228,
-      "avg_xp_diff": -312,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -514,
+      "avg_xp_diff": -480,
+      "avg_cs_diff": -10.0,
+      "sample_frames": 30,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -614,
-      "avg_xp_diff": -538,
-      "avg_cs_diff": -10.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -859,
+      "avg_xp_diff": -785,
+      "avg_cs_diff": -15.2,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1556,
-      "avg_xp_diff": -1402,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 18,
+      "avg_gold_diff": -1138,
+      "avg_xp_diff": -1296,
+      "avg_cs_diff": -10.7,
+      "sample_frames": 43,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2075,
+      "avg_xp_diff": -2544,
+      "avg_cs_diff": -51.4,
+      "sample_frames": 5,
       "advantage": -2
     }
   ],
@@ -45,52 +54,126 @@
   "champB": "Zoe",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 16.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 6,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 16.7
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 6.0,
-      "kda": 1.64,
-      "avgDamage": 14608
+      "avgKills": 3.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 4.0,
+      "kda": 1.25,
+      "avgDamage": 13170
     },
     "champB": {
       "items": [
         {
           "name": "Luden's Echo",
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 80.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Horizon Focus",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Summon Aery",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 33.3,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Cleanse+Flash",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 100.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 9.5,
-      "avgDeaths": 1.5,
-      "avgAssists": 8.0,
-      "kda": 11.67,
-      "avgDamage": 28422
+      "avgKills": 8.2,
+      "avgDeaths": 2.5,
+      "avgAssists": 6.2,
+      "kda": 5.73,
+      "avgDamage": 23440
     }
   }
 }

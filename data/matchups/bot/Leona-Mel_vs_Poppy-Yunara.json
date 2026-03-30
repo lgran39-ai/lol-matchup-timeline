@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:44.317805",
+  "updated_at": "2026-03-29T12:05:15.057378",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -21,
-      "avg_xp_diff": -100,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -39,
+      "avg_xp_diff": -29,
+      "avg_cs_diff": -3.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 136,
-      "avg_xp_diff": 104,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 456,
+      "avg_xp_diff": 316,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 104,
-      "avg_xp_diff": -402,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 461,
+      "avg_xp_diff": -89,
+      "avg_cs_diff": 7.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1123,
-      "avg_xp_diff": 1087,
-      "avg_cs_diff": 11.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 944,
+      "avg_xp_diff": 604,
+      "avg_cs_diff": 19.8,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 456,
-      "avg_xp_diff": -366,
-      "avg_cs_diff": -13.0,
-      "sample_frames": 2,
-      "advantage": 1
+      "avg_gold_diff": -907,
+      "avg_xp_diff": -1949,
+      "avg_cs_diff": 21.3,
+      "sample_frames": 10,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,128 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Blackfire Torch",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Cosmic Drive",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 7.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 2.0,
-        "kda": 1.8,
-        "avgDamage": 20133
+        "avgDeaths": 6.0,
+        "avgAssists": 3.5,
+        "kda": 1.75,
+        "avgDamage": 23604
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 0.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 9.0,
-        "kda": 1.5,
-        "avgDamage": 7324
+        "avgDeaths": 8.0,
+        "avgAssists": 13.0,
+        "kda": 1.62,
+        "avgDamage": 8082
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "avgKills": 4.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 11.0,
-        "kda": 15.0,
-        "avgDamage": 22584
+        "avgDeaths": 3.5,
+        "avgAssists": 9.5,
+        "kda": 3.86,
+        "avgDamage": 22896
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 13.0,
-        "kda": 2.33,
-        "avgDamage": 8068
+        "keystones": [
+          {
+            "name": "Unsealed Spellbook",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 20.0,
+        "kda": 4.4,
+        "avgDamage": 11426
       }
     }
   }

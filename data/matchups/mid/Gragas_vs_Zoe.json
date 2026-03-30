@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:38.663770",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:07.450743",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -45,
-      "avg_xp_diff": -83,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -83,
+      "avg_xp_diff": -88,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -44,
-      "avg_xp_diff": 4,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -68,
+      "avg_xp_diff": -45,
+      "avg_cs_diff": -14.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 143,
-      "avg_xp_diff": 66,
-      "avg_cs_diff": -17.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -251,
+      "avg_xp_diff": -567,
+      "avg_cs_diff": -28.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 433,
-      "avg_xp_diff": 786,
-      "avg_cs_diff": -18.7,
-      "sample_frames": 11,
-      "advantage": 2
+      "avg_gold_diff": -947,
+      "avg_xp_diff": -374,
+      "avg_cs_diff": -37.9,
+      "sample_frames": 21,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3980,
+      "avg_xp_diff": -1949,
+      "avg_cs_diff": -77.7,
+      "sample_frames": 9,
+      "advantage": -2
     }
   ],
   "champA": "Gragas",
@@ -46,23 +55,50 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 7.0,
-      "kda": 7.5,
-      "avgDamage": 21657
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 9.0,
+      "kda": 2.9,
+      "avgDamage": 22646
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.0,
-      "kda": 2.0,
-      "avgDamage": 19227
+      "avgKills": 7.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 12.5,
+      "kda": 4.44,
+      "avgDamage": 35758
     }
   }
 }

@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:38.858963",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:07.715978",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": 57,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -63,
+      "avg_xp_diff": -9,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1039,
-      "avg_xp_diff": 851,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 141,
+      "avg_xp_diff": 144,
+      "avg_cs_diff": -4.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 3083,
-      "avg_xp_diff": 3160,
-      "avg_cs_diff": 31.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1206,
+      "avg_xp_diff": 1308,
+      "avg_cs_diff": 10.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 6935,
-      "avg_xp_diff": 4118,
-      "avg_cs_diff": 42.6,
-      "sample_frames": 9,
+      "avg_gold_diff": 2780,
+      "avg_xp_diff": 1282,
+      "avg_cs_diff": 22.1,
+      "sample_frames": 18,
       "advantage": 2
     }
   ],
@@ -45,24 +45,65 @@
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 16.0,
-      "avgDeaths": 1.0,
+      "avgKills": 8.5,
+      "avgDeaths": 2.5,
       "avgAssists": 1.0,
-      "kda": 17.0,
-      "avgDamage": 30412
+      "kda": 3.8,
+      "avgDamage": 18690
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 12057
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 3.5,
+      "kda": 1.0,
+      "avgDamage": 11845
     }
   }
 }

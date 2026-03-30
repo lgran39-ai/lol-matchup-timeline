@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:40.592222",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:09.925983",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 209,
-      "avg_xp_diff": -29,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 23,
+      "avg_xp_diff": -144,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 246,
-      "avg_xp_diff": 416,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -248,
+      "avg_xp_diff": -35,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1955,
-      "avg_xp_diff": 1679,
-      "avg_cs_diff": 15.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -151,
+      "avg_xp_diff": -161,
+      "avg_cs_diff": 7.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3174,
-      "avg_xp_diff": 2104,
-      "avg_cs_diff": 29.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -254,
+      "avg_xp_diff": -452,
+      "avg_cs_diff": 14.5,
+      "sample_frames": 4,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 4.0,
-        "kda": 5.0,
-        "avgDamage": 8269
+        "items": [
+          {
+            "name": "Bloodthirster",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 3.0,
+        "avgAssists": 3.5,
+        "kda": 1.67,
+        "avgDamage": 9714
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 5.0,
-        "kda": 7.0,
-        "avgDamage": 2510
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 3.5,
+        "avgAssists": 4.5,
+        "kda": 1.57,
+        "avgDamage": 2539
       }
     },
     "teamB": {
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 1.0,
-        "kda": 0.67,
-        "avgDamage": 4652
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 2.0,
+        "avgAssists": 2.5,
+        "kda": 3.5,
+        "avgDamage": 9543
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 3.0,
-        "kda": 1.0,
-        "avgDamage": 3353
+        "avgDeaths": 3.0,
+        "avgAssists": 8.5,
+        "kda": 3.17,
+        "avgDamage": 5474
       }
     }
   }

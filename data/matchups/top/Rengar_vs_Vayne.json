@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:39.910531",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-29T12:05:09.057555",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": -70,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -25,
+      "avg_xp_diff": -53,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -21,
-      "avg_xp_diff": -24,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -296,
+      "avg_xp_diff": -229,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 237,
-      "avg_xp_diff": 419,
-      "avg_cs_diff": 3.3,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -508,
+      "avg_xp_diff": -504,
+      "avg_cs_diff": -5.8,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -493,
-      "avg_xp_diff": 203,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -2442,
+      "avg_xp_diff": -1980,
+      "avg_cs_diff": -26.9,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -8300,
+      "avg_xp_diff": -7085,
+      "avg_cs_diff": -75.8,
+      "sample_frames": 4,
       "advantage": -2
     }
   ],
@@ -45,38 +54,72 @@
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Fleet Footwork",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 3.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 2.5,
-      "kda": 1.71,
-      "avgDamage": 10292
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
       "summonerSpells": [
         {
-          "spells": "Exhaust+Flash",
+          "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
       "avgKills": 3.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 1.0,
-      "kda": 0.73,
-      "avgDamage": 13530
+      "avgDeaths": 6.7,
+      "avgAssists": 2.0,
+      "kda": 0.75,
+      "avgDamage": 11468
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 8.3,
+      "avgDeaths": 4.7,
+      "avgAssists": 3.0,
+      "kda": 2.43,
+      "avgDamage": 25957
     }
   }
 }

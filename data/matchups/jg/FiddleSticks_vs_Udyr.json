@@ -1,68 +1,96 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:38.399928",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:07.107978",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -123,
-      "avg_xp_diff": -57,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -104,
+      "avg_xp_diff": -19,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -671,
-      "avg_xp_diff": -422,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -729,
+      "avg_xp_diff": -264,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -446,
-      "avg_xp_diff": -796,
-      "avg_cs_diff": -5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -438,
+      "avg_xp_diff": 42,
+      "avg_cs_diff": 6.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1050,
-      "avg_xp_diff": -1827,
-      "avg_cs_diff": -21.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 434,
+      "avg_xp_diff": 2002,
+      "avg_cs_diff": 29.9,
+      "sample_frames": 15,
+      "advantage": 2
     }
   ],
   "champA": "FiddleSticks",
   "champB": "Udyr",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 0.0,
-      "kda": 0.8,
-      "avgDamage": 6040
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 4.0,
+      "kda": 3.17,
+      "avgDamage": 11101
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 9.0,
-      "kda": 16.0,
-      "avgDamage": 14381
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 5.5,
+      "kda": 3.14,
+      "avgDamage": 11642
     }
   }
 }

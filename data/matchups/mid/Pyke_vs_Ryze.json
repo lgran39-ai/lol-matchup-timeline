@@ -1,77 +1,137 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-23T10:04:39.802736",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-29T12:05:08.923458",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 72,
-      "avg_xp_diff": 60,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 3,
+      "avg_xp_diff": 33,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -182,
-      "avg_xp_diff": 218,
-      "avg_cs_diff": -9.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -6,
+      "avg_xp_diff": 118,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -291,
-      "avg_xp_diff": -155,
-      "avg_cs_diff": -26.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 262,
+      "avg_xp_diff": -267,
+      "avg_cs_diff": -23.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -963,
-      "avg_xp_diff": -819,
-      "avg_cs_diff": -42.3,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 331,
+      "avg_xp_diff": -401,
+      "avg_cs_diff": -36.2,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -354,
-      "avg_xp_diff": -676,
-      "avg_cs_diff": -60.5,
-      "sample_frames": 4,
-      "advantage": -1
+      "avg_gold_diff": 19,
+      "avg_xp_diff": -2197,
+      "avg_cs_diff": -61.5,
+      "sample_frames": 11,
+      "advantage": 0
     }
   ],
   "champA": "Pyke",
   "champB": "Ryze",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 13.0,
-      "kda": 3.6,
-      "avgDamage": 14125
+      "items": [
+        {
+          "name": "Axiom Arc",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 8.5,
+      "kda": 3.75,
+      "avgDamage": 14988
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 8.0,
-      "kda": 1.25,
-      "avgDamage": 19639
+      "items": [
+        {
+          "name": "Actualizer",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 8.5,
+      "kda": 2.0,
+      "avgDamage": 20220
     }
   }
 }

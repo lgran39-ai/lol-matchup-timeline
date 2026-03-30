@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-23T10:04:47.586241",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-29T12:05:20.104889",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -71,
-      "avg_xp_diff": -48,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 26,
+      "avg_xp_diff": -10,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -422,
-      "avg_xp_diff": -141,
-      "avg_cs_diff": -3.7,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 129,
+      "avg_xp_diff": 101,
+      "avg_cs_diff": 8.6,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -643,
-      "avg_xp_diff": -899,
-      "avg_cs_diff": -8.9,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 523,
+      "avg_xp_diff": 397,
+      "avg_cs_diff": 14.5,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -192,
-      "avg_xp_diff": -1669,
-      "avg_cs_diff": -26.1,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": 1621,
+      "avg_xp_diff": 593,
+      "avg_cs_diff": 15.5,
+      "sample_frames": 50,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1366,
-      "avg_xp_diff": -4382,
-      "avg_cs_diff": -52.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 3347,
+      "avg_xp_diff": 1760,
+      "avg_cs_diff": 47.9,
+      "sample_frames": 24,
+      "advantage": 2
     }
   ],
   "champA": "Jax",
@@ -57,55 +57,111 @@
       "items": [
         {
           "name": "Sundered Sky",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
         },
         {
           "name": "Trinity Force",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Lethal Tempo",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
           "winRate": 0.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 3.0,
-      "kda": 1.0,
-      "avgDamage": 19796
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.8,
+      "avgDeaths": 7.2,
+      "avgAssists": 5.0,
+      "kda": 1.5,
+      "avgDamage": 27382
     },
     "champB": {
       "items": [
         {
           "name": "Sunfire Aegis",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Jak'Sho, The Protean",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Frozen Heart",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Protoplasm Harness",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 80.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 80.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 11.0,
-      "kda": 4.83,
-      "avgDamage": 18162
+      "avgKills": 2.6,
+      "avgDeaths": 4.6,
+      "avgAssists": 10.6,
+      "kda": 2.87,
+      "avgDamage": 17968
     }
   }
 }
