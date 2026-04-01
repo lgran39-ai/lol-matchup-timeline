@@ -1,68 +1,96 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:40.067073",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:08.657171",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 44,
-      "avg_xp_diff": -54,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -25,
+      "avg_xp_diff": -98,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 177,
-      "avg_xp_diff": 2,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -276,
+      "avg_xp_diff": -427,
+      "avg_cs_diff": -9.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 93,
-      "avg_xp_diff": -539,
-      "avg_cs_diff": -28.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -418,
+      "avg_xp_diff": -812,
+      "avg_cs_diff": -23.8,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 726,
-      "avg_xp_diff": -385,
-      "avg_cs_diff": -24.6,
-      "sample_frames": 11,
-      "advantage": 2
+      "avg_gold_diff": -739,
+      "avg_xp_diff": -670,
+      "avg_cs_diff": -14.6,
+      "sample_frames": 22,
+      "advantage": -2
     }
   ],
   "champA": "Corki",
   "champB": "Tristana",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
       "avgDeaths": 4.0,
-      "avgAssists": 5.0,
-      "kda": 3.0,
-      "avgDamage": 19460
+      "avgAssists": 3.5,
+      "kda": 1.88,
+      "avgDamage": 17160
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Navori Flickerblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 7.0,
+      "avgKills": 5.0,
+      "avgDeaths": 5.0,
       "avgAssists": 3.0,
-      "kda": 0.86,
-      "avgDamage": 16346
+      "kda": 1.6,
+      "avgDamage": 17505
     }
   }
 }

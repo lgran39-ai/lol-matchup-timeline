@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:44.995718",
+  "updated_at": "2026-04-02T00:39:13.421588",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 109,
-      "avg_xp_diff": 30,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 75,
+      "avg_xp_diff": -11,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -57,
-      "avg_xp_diff": -524,
-      "avg_cs_diff": -13.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 533,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -4.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1786,
-      "avg_xp_diff": -1481,
-      "avg_cs_diff": -35.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 122,
+      "avg_xp_diff": -182,
+      "avg_cs_diff": -13.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4072,
-      "avg_xp_diff": -2202,
-      "avg_cs_diff": -38.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -215,
+      "avg_xp_diff": 276,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 12,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1702,
+      "avg_xp_diff": -1244,
+      "avg_cs_diff": 34.4,
+      "sample_frames": 8,
       "advantage": -2
     }
   ],
@@ -56,45 +65,115 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 2.0,
-        "kda": 0.8,
-        "avgDamage": 7032
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 6.0,
+        "avgDeaths": 5.5,
+        "avgAssists": 5.5,
+        "kda": 2.09,
+        "avgDamage": 20022
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 5.0,
-        "kda": 1.5,
-        "avgDamage": 6895
+        "items": [
+          {
+            "name": "Rod of Ages",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 10.5,
+        "kda": 2.08,
+        "avgDamage": 11546
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 3.0,
-        "kda": 5.5,
-        "avgDamage": 15147
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 13.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 6.0,
+        "kda": 4.22,
+        "avgDamage": 39814
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 7.0,
-        "kda": 1.75,
-        "avgDamage": 7695
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 13.0,
+        "kda": 2.0,
+        "avgDamage": 10005
       }
     }
   }

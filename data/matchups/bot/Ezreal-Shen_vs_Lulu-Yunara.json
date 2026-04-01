@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:50.483517",
+  "updated_at": "2026-04-02T00:39:18.546316",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -213,
-      "avg_xp_diff": -95,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 16,
+      "avg_xp_diff": -26,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -902,
-      "avg_xp_diff": -686,
-      "avg_cs_diff": -25.7,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -383,
+      "avg_xp_diff": -399,
+      "avg_cs_diff": -14.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2658,
-      "avg_xp_diff": -1103,
-      "avg_cs_diff": -45.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -1837,
+      "avg_xp_diff": -759,
+      "avg_cs_diff": -26.6,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3974,
-      "avg_xp_diff": -1407,
-      "avg_cs_diff": -52.3,
-      "sample_frames": 12,
+      "avg_gold_diff": -2116,
+      "avg_xp_diff": -1143,
+      "avg_cs_diff": -27.0,
+      "sample_frames": 22,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -5160,
-      "avg_xp_diff": -3431,
-      "avg_cs_diff": -53.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -1289,
+      "avg_xp_diff": -2905,
+      "avg_cs_diff": -4.5,
+      "sample_frames": 11,
       "advantage": -2
     }
   ],
@@ -64,11 +64,24 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           }
@@ -76,33 +89,47 @@
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 3.5,
-        "avgDeaths": 6.0,
-        "avgAssists": 2.5,
-        "kda": 1.0,
-        "avgDamage": 12212
+        "avgKills": 4.0,
+        "avgDeaths": 5.3,
+        "avgAssists": 3.7,
+        "kda": 1.44,
+        "avgDamage": 19542
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Protoplasm Harness",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Ignite",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 0.0
           }
         ],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 5.5,
-        "kda": 1.7,
-        "avgDamage": 6238
+        "avgKills": 2.3,
+        "avgDeaths": 5.7,
+        "avgAssists": 6.7,
+        "kda": 1.59,
+        "avgDamage": 6259
       }
     },
     "teamB": {
@@ -110,39 +137,58 @@
         "items": [
           {
             "name": "Kraken Slayer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           }
         ],
-        "summonerSpells": [],
-        "avgKills": 7.5,
-        "avgDeaths": 3.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.3,
+        "avgDeaths": 3.7,
         "avgAssists": 4.0,
-        "kda": 3.83,
-        "avgDamage": 22672
+        "kda": 3.09,
+        "avgDamage": 24170
       },
       "sup": {
         "items": [
           {
             "name": "Ardent Censer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Summon Aery",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           }
@@ -150,16 +196,16 @@
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
             "winRate": 100.0
           }
         ],
-        "avgKills": 1.5,
-        "avgDeaths": 4.0,
-        "avgAssists": 13.5,
-        "kda": 3.75,
-        "avgDamage": 7305
+        "avgKills": 1.0,
+        "avgDeaths": 3.3,
+        "avgAssists": 15.0,
+        "kda": 4.8,
+        "avgDamage": 8095
       }
     }
   }

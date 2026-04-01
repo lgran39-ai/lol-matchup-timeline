@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:47.925922",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:16.255797",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -53,
-      "avg_xp_diff": -55,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -63,
+      "avg_xp_diff": 82,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -653,
-      "avg_xp_diff": -26,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 66,
+      "avg_xp_diff": 604,
+      "avg_cs_diff": 14.6,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2124,
-      "avg_xp_diff": -965,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -113,
+      "avg_xp_diff": 367,
+      "avg_cs_diff": 22.1,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -5689,
-      "avg_xp_diff": -3079,
-      "avg_cs_diff": 8.5,
-      "sample_frames": 11,
+      "avg_gold_diff": -1371,
+      "avg_xp_diff": -765,
+      "avg_cs_diff": 19.4,
+      "sample_frames": 21,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 6865,
+      "avg_xp_diff": 2810,
+      "avg_cs_diff": 32.0,
+      "sample_frames": 1,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.5,
         "avgDeaths": 9.0,
-        "avgAssists": 2.0,
-        "kda": 0.56,
-        "avgDamage": 14501
+        "avgAssists": 9.5,
+        "kda": 1.78,
+        "avgDamage": 23078
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 3.0,
-        "kda": 0.43,
-        "avgDamage": 3735
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 14.5,
+        "kda": 2.73,
+        "avgDamage": 5960
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 16.0,
-        "kda": 8.67,
-        "avgDamage": 19473
+        "avgKills": 7.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 10.0,
+        "kda": 2.83,
+        "avgDamage": 16366
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 22.0,
-        "kda": 28.0,
-        "avgDamage": 12139
+        "avgKills": 3.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 14.5,
+        "kda": 3.27,
+        "avgDamage": 11029
       }
     }
   }

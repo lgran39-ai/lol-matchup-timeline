@@ -1,42 +1,51 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:41.907695",
+  "updated_at": "2026-04-02T00:39:10.442446",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 261,
-      "avg_xp_diff": 162,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 96,
+      "avg_xp_diff": 76,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1127,
-      "avg_xp_diff": 962,
-      "avg_cs_diff": 21.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 225,
+      "avg_xp_diff": 100,
+      "avg_cs_diff": 9.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2526,
-      "avg_xp_diff": 2889,
-      "avg_cs_diff": 56.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 704,
+      "avg_xp_diff": 476,
+      "avg_cs_diff": 28.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 6609,
-      "avg_xp_diff": 5942,
-      "avg_cs_diff": 107.3,
+      "avg_gold_diff": 2509,
+      "avg_xp_diff": 1713,
+      "avg_cs_diff": 54.7,
+      "sample_frames": 19,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1741,
+      "avg_xp_diff": 602,
+      "avg_cs_diff": 59.4,
       "sample_frames": 9,
       "advantage": 2
     }
@@ -45,24 +54,57 @@
   "champB": "Skarner",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 12.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 8.5,
-      "avgDamage": 38842
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.5,
+      "kda": 2.6,
+      "avgDamage": 38241
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 7.0,
-      "kda": 0.88,
-      "avgDamage": 12205
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 10.5,
+      "kda": 2.7,
+      "avgDamage": 18922
     }
   }
 }

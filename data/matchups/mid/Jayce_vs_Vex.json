@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 3,
+  "sample_size": 6,
   "overall_winrate_a": 66.7,
-  "updated_at": "2026-04-01T11:13:41.652254",
+  "updated_at": "2026-04-02T00:39:10.188307",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 56,
-      "avg_xp_diff": 48,
-      "avg_cs_diff": 2.7,
-      "sample_frames": 15,
+      "avg_gold_diff": 64,
+      "avg_xp_diff": 50,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 442,
-      "avg_xp_diff": 278,
-      "avg_cs_diff": 9.4,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": 297,
+      "avg_xp_diff": 265,
+      "avg_cs_diff": 8.5,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 653,
-      "avg_xp_diff": 341,
-      "avg_cs_diff": 14.0,
-      "sample_frames": 15,
+      "avg_gold_diff": 783,
+      "avg_xp_diff": 673,
+      "avg_cs_diff": 16.0,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 617,
-      "avg_xp_diff": 560,
-      "avg_cs_diff": 33.6,
-      "sample_frames": 27,
+      "avg_gold_diff": 1286,
+      "avg_xp_diff": 1097,
+      "avg_cs_diff": 30.8,
+      "sample_frames": 57,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -356,
-      "avg_xp_diff": -535,
-      "avg_cs_diff": 41.7,
-      "sample_frames": 3,
-      "advantage": -1
+      "avg_gold_diff": 2898,
+      "avg_xp_diff": 2332,
+      "avg_cs_diff": 40.2,
+      "sample_frames": 35,
+      "advantage": 2
     }
   ],
   "champA": "Jayce",
@@ -57,14 +57,38 @@
       "items": [
         {
           "name": "Youmuu's Ghostblade",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 66.7
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 60.0
         },
         {
           "name": "Crimson Lucidity",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Hubris",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 33.3,
+          "winRate": 100.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
@@ -72,43 +96,73 @@
         {
           "name": "Phase Rush",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 66.7
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 50.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 4.7,
-      "avgAssists": 5.7,
-      "kda": 2.29,
-      "avgDamage": 17237
+      "avgKills": 6.3,
+      "avgDeaths": 5.5,
+      "avgAssists": 8.0,
+      "kda": 2.61,
+      "avgDamage": 26055
     },
     "champB": {
       "items": [
         {
-          "name": "Luden's Echo",
-          "count": 3,
+          "name": "Spellslinger's Shoes",
+          "count": 6,
           "pickRate": 100.0,
           "winRate": 33.3
         },
         {
-          "name": "Spellslinger's Shoes",
+          "name": "Luden's Echo",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 3,
+          "pickRate": 50.0,
           "winRate": 33.3
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 3,
+          "count": 6,
           "pickRate": 100.0,
           "winRate": 33.3
         }
@@ -116,16 +170,22 @@
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 4,
           "pickRate": 66.7,
+          "winRate": 25.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
-      "avgKills": 4.3,
-      "avgDeaths": 6.7,
-      "avgAssists": 6.0,
-      "kda": 1.55,
-      "avgDamage": 17087
+      "avgKills": 5.3,
+      "avgDeaths": 7.7,
+      "avgAssists": 6.8,
+      "kda": 1.59,
+      "avgDamage": 21046
     }
   }
 }

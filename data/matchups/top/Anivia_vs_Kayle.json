@@ -1,53 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-04-01T11:13:39.266580",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-02T00:39:07.877888",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 61,
-      "avg_xp_diff": 20,
-      "avg_cs_diff": 2.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 10,
+      "avg_xp_diff": 19,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 80,
-      "avg_xp_diff": 213,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -158,
+      "avg_xp_diff": -35,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 126,
-      "avg_xp_diff": 486,
-      "avg_cs_diff": 7.2,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -415,
+      "avg_xp_diff": -263,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -180,
-      "avg_xp_diff": 479,
-      "avg_cs_diff": -19.6,
-      "sample_frames": 21,
-      "advantage": -1
+      "avg_gold_diff": -1015,
+      "avg_xp_diff": -558,
+      "avg_cs_diff": -21.3,
+      "sample_frames": 31,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 937,
-      "avg_xp_diff": 3258,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 7,
-      "advantage": 2
+      "avg_gold_diff": -1578,
+      "avg_xp_diff": 697,
+      "avg_cs_diff": -25.2,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "champA": "Anivia",
@@ -57,35 +57,75 @@
       "items": [
         {
           "name": "Rod of Ages",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.5,
-      "avgDeaths": 5.5,
-      "avgAssists": 8.5,
-      "kda": 2.55,
-      "avgDamage": 26258
+      "avgKills": 4.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 6.7,
+      "kda": 1.52,
+      "avgDamage": 23530
     },
     "champB": {
       "items": [
         {
           "name": "Nashor's Tooth",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Exhaust+Flash",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 3.67,
-      "avgDamage": 17222
+      "avgKills": 7.0,
+      "avgDeaths": 2.3,
+      "avgAssists": 6.7,
+      "kda": 5.86,
+      "avgDamage": 21505
     }
   }
 }

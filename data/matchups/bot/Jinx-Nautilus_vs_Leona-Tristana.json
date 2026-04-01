@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:51.345745",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:19.418897",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -285,
-      "avg_xp_diff": -48,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 43,
+      "avg_xp_diff": -31,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1082,
-      "avg_xp_diff": -395,
-      "avg_cs_diff": 8.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 331,
+      "avg_xp_diff": 223,
+      "avg_cs_diff": 16.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2227,
-      "avg_xp_diff": -698,
-      "avg_cs_diff": 12.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 304,
+      "avg_xp_diff": 308,
+      "avg_cs_diff": 18.5,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -817,
-      "avg_xp_diff": 1122,
-      "avg_cs_diff": 20.7,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -593,
+      "avg_xp_diff": 598,
+      "avg_cs_diff": 15.8,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1958,
-      "avg_xp_diff": 193,
-      "avg_cs_diff": 26.5,
-      "sample_frames": 6,
+      "avg_gold_diff": -1803,
+      "avg_xp_diff": 1475,
+      "avg_cs_diff": 17.3,
+      "sample_frames": 19,
       "advantage": -2
     }
   ],
@@ -64,46 +64,151 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 9.0,
-        "kda": 2.83,
-        "avgDamage": 20956
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 13.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 12.5,
+        "kda": 3.19,
+        "avgDamage": 34269
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 14.0,
-        "kda": 2.0,
-        "avgDamage": 7558
+        "avgKills": 3.0,
+        "avgDeaths": 9.5,
+        "avgAssists": 19.0,
+        "kda": 2.32,
+        "avgDamage": 10160
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Bloodthirster",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 15.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 6.0,
-        "kda": 3.0,
-        "avgDamage": 24058
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 14.5,
+        "avgDeaths": 10.5,
+        "avgAssists": 9.0,
+        "kda": 2.24,
+        "avgDamage": 34502
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Knight's Vow",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 23.0,
-        "kda": 5.2,
-        "avgDamage": 12350
+        "avgKills": 2.0,
+        "avgDeaths": 10.0,
+        "avgAssists": 24.0,
+        "kda": 2.6,
+        "avgDamage": 12355
       }
     }
   }

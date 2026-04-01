@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-04-01T11:13:41.468895",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-04-02T00:39:10.020478",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 95,
-      "avg_xp_diff": 57,
-      "avg_cs_diff": 3.7,
-      "sample_frames": 15,
+      "avg_gold_diff": 102,
+      "avg_xp_diff": 73,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 652,
-      "avg_xp_diff": 576,
-      "avg_cs_diff": 15.7,
-      "sample_frames": 15,
+      "avg_gold_diff": 640,
+      "avg_xp_diff": 548,
+      "avg_cs_diff": 18.6,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1385,
-      "avg_xp_diff": 1428,
-      "avg_cs_diff": 21.3,
-      "sample_frames": 15,
+      "avg_gold_diff": 1161,
+      "avg_xp_diff": 1165,
+      "avg_cs_diff": 21.4,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2213,
-      "avg_xp_diff": 1698,
-      "avg_cs_diff": 21.5,
-      "sample_frames": 19,
+      "avg_gold_diff": 2425,
+      "avg_xp_diff": 1596,
+      "avg_cs_diff": 18.6,
+      "sample_frames": 32,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5169,
+      "avg_xp_diff": 4119,
+      "avg_cs_diff": 26.5,
+      "sample_frames": 4,
       "advantage": 2
     }
   ],
@@ -47,63 +56,88 @@
     "champA": {
       "items": [
         {
-          "name": "Sundered Sky",
-          "count": 2,
-          "pickRate": 66.7,
+          "name": "Trinity Force",
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
         },
         {
-          "name": "Trinity Force",
+          "name": "Sundered Sky",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Grasp of the Undying",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
-          "pickRate": 66.7,
+          "count": 3,
+          "pickRate": 60.0,
           "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 4.7,
-      "avgDeaths": 3.3,
-      "avgAssists": 2.3,
-      "kda": 2.1,
-      "avgDamage": 14123
+      "avgKills": 6.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 2.6,
+      "kda": 2.87,
+      "avgDamage": 15822
     },
     "champB": {
       "items": [
         {
           "name": "Nashor's Tooth",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 1.7,
-      "avgDeaths": 4.7,
-      "avgAssists": 4.0,
-      "kda": 1.21,
-      "avgDamage": 9826
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Barrier",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.6,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.0,
+      "kda": 0.92,
+      "avgDamage": 9071
     }
   }
 }

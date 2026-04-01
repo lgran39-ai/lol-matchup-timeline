@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:44.706994",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:13.138660",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -364,
-      "avg_xp_diff": -41,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -379,
+      "avg_xp_diff": -73,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1489,
-      "avg_xp_diff": -425,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1235,
+      "avg_xp_diff": -389,
+      "avg_cs_diff": -9.0,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 493,
-      "avg_xp_diff": 408,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -313,
+      "avg_xp_diff": -228,
+      "avg_cs_diff": -7.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3625,
-      "avg_xp_diff": 2641,
-      "avg_cs_diff": 20.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 1322,
+      "avg_xp_diff": 1096,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 16,
       "advantage": 2
     }
   ],
@@ -55,46 +55,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 15.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 5.0,
-        "kda": 5.0,
-        "avgDamage": 29205
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 8.5,
+        "avgDeaths": 2.0,
+        "avgAssists": 3.0,
+        "kda": 5.75,
+        "avgDamage": 18834
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
         "avgDeaths": 7.0,
-        "avgAssists": 21.0,
-        "kda": 3.29,
-        "avgDamage": 6411
+        "avgAssists": 11.5,
+        "kda": 1.79,
+        "avgDamage": 4540
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 5.0,
-        "kda": 2.2,
-        "avgDamage": 22578
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 3.0,
+        "avgAssists": 3.0,
+        "kda": 2.67,
+        "avgDamage": 21774
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 6.0,
-        "kda": 1.14,
-        "avgDamage": 6636
+        "avgKills": 1.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 8.0,
+        "kda": 1.9,
+        "avgDamage": 7276
       }
     }
   }

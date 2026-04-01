@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:50.348733",
+  "updated_at": "2026-04-02T00:39:18.414717",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 192,
-      "avg_xp_diff": 65,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 70,
+      "avg_xp_diff": 30,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -292,
-      "avg_xp_diff": 41,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -601,
+      "avg_xp_diff": -234,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1988,
-      "avg_xp_diff": -1114,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1743,
+      "avg_xp_diff": -836,
+      "avg_cs_diff": -12.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3312,
-      "avg_xp_diff": -1724,
-      "avg_cs_diff": -21.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -2083,
+      "avg_xp_diff": -186,
+      "avg_cs_diff": -12.8,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4424,
-      "avg_xp_diff": -3644,
-      "avg_cs_diff": -23.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -5317,
+      "avg_xp_diff": -3417,
+      "avg_cs_diff": -9.8,
+      "sample_frames": 13,
       "advantage": -2
     }
   ],
@@ -64,46 +64,141 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 5.0,
         "avgDeaths": 9.0,
-        "avgAssists": 3.0,
-        "kda": 0.89,
-        "avgDamage": 18590
+        "avgAssists": 7.0,
+        "kda": 1.33,
+        "avgDamage": 26150
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 8.0,
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 19.5,
         "kda": 4.0,
-        "avgDamage": 5029
+        "avgDamage": 6799
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 8.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 11.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 8.5,
         "kda": 3.25,
-        "avgDamage": 18301
+        "avgDamage": 28158
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 10.0,
-        "kda": 7.5,
-        "avgDamage": 8693
+        "items": [
+          {
+            "name": "Thornmail",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Protoplasm Harness",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 16.0,
+        "kda": 4.44,
+        "avgDamage": 15038
       }
     }
   }

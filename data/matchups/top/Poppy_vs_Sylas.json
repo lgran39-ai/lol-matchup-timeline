@@ -1,68 +1,119 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:43.053000",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:11.479245",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": -43,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -114,
+      "avg_xp_diff": -109,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -140,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -219,
+      "avg_xp_diff": -177,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 916,
-      "avg_xp_diff": 1433,
-      "avg_cs_diff": 20.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 127,
+      "avg_xp_diff": 360,
+      "avg_cs_diff": 15.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2769,
-      "avg_xp_diff": 2562,
-      "avg_cs_diff": 34.1,
-      "sample_frames": 9,
+      "avg_gold_diff": 1469,
+      "avg_xp_diff": 1569,
+      "avg_cs_diff": 31.9,
+      "sample_frames": 19,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -315,
+      "avg_xp_diff": 1311,
+      "avg_cs_diff": 46.5,
+      "sample_frames": 13,
+      "advantage": -1
     }
   ],
   "champA": "Poppy",
   "champB": "Sylas",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 4.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 6.0,
-      "kda": 10.0,
-      "avgDamage": 26225
+      "avgDeaths": 3.0,
+      "avgAssists": 8.5,
+      "kda": 4.17,
+      "avgDamage": 34232
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 2.0,
-      "kda": 0.5,
-      "avgDamage": 18844
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.5,
+      "kda": 1.7,
+      "avgDamage": 32013
     }
   }
 }

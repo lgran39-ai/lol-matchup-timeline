@@ -1,44 +1,53 @@
 {
   "role": "jg",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-04-01T11:13:42.214217",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-04-02T00:39:10.744463",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": -32,
-      "avg_cs_diff": -0.9,
-      "sample_frames": 20,
+      "avg_gold_diff": -43,
+      "avg_xp_diff": -30,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 152,
-      "avg_xp_diff": 84,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": -4,
+      "avg_xp_diff": -33,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 98,
-      "avg_xp_diff": -148,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": -154,
+      "avg_xp_diff": -344,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 178,
-      "avg_xp_diff": -641,
-      "avg_cs_diff": -13.2,
-      "sample_frames": 20,
-      "advantage": 1
+      "avg_gold_diff": -1113,
+      "avg_xp_diff": -1844,
+      "avg_cs_diff": -29.2,
+      "sample_frames": 30,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -6021,
+      "avg_xp_diff": -7728,
+      "avg_cs_diff": -106.8,
+      "sample_frames": 6,
+      "advantage": -2
     }
   ],
   "champA": "Lillia",
@@ -48,63 +57,75 @@
       "items": [
         {
           "name": "Liandry's Torment",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
-      "avgKills": 3.8,
-      "avgDeaths": 2.2,
-      "avgAssists": 4.8,
-      "kda": 3.78,
-      "avgDamage": 9730
+      "avgKills": 3.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.0,
+      "kda": 1.6,
+      "avgDamage": 12010
     },
     "champB": {
       "items": [
         {
           "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Phase Rush",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 2.5,
-      "avgAssists": 4.8,
-      "kda": 3.3,
-      "avgDamage": 7134
+      "avgKills": 4.8,
+      "avgDeaths": 2.2,
+      "avgAssists": 6.8,
+      "kda": 5.27,
+      "avgDamage": 9603
     }
   }
 }

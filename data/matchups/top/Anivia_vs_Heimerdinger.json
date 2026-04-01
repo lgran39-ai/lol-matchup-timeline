@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:39.255017",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:07.866985",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 25,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 131,
+      "avg_xp_diff": 93,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 176,
-      "avg_xp_diff": 191,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -64,
+      "avg_xp_diff": 134,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1139,
-      "avg_xp_diff": 684,
-      "avg_cs_diff": 17.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 684,
+      "avg_xp_diff": 649,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1804,
-      "avg_xp_diff": 1178,
-      "avg_cs_diff": 44.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 1758,
+      "avg_xp_diff": 1608,
+      "avg_cs_diff": 36.2,
+      "sample_frames": 13,
       "advantage": 2
     },
     {
@@ -54,24 +54,45 @@
   "champB": "Heimerdinger",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rod of Ages",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.0,
       "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 1.25,
-      "avgDamage": 11148
+      "avgAssists": 1.5,
+      "kda": 1.38,
+      "avgDamage": 12124
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 4.0,
+      "avgKills": 3.0,
+      "avgDeaths": 4.5,
       "avgAssists": 2.0,
-      "kda": 1.75,
-      "avgDamage": 20311
+      "kda": 1.11,
+      "avgDamage": 15204
     }
   }
 }

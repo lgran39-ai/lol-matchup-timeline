@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:40.605283",
+  "updated_at": "2026-04-02T00:39:09.175316",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 145,
-      "avg_xp_diff": 56,
-      "avg_cs_diff": 6.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 95,
+      "avg_xp_diff": -20,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -277,
-      "avg_xp_diff": -355,
-      "avg_cs_diff": 6.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -264,
+      "avg_xp_diff": -525,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -798,
-      "avg_xp_diff": -1043,
-      "avg_cs_diff": 7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -937,
+      "avg_xp_diff": -1655,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2350,
-      "avg_xp_diff": -2782,
-      "avg_cs_diff": -9.6,
-      "sample_frames": 11,
+      "avg_gold_diff": -2295,
+      "avg_xp_diff": -2794,
+      "avg_cs_diff": -11.3,
+      "sample_frames": 13,
       "advantage": -2
     }
   ],
@@ -45,24 +45,38 @@
   "champB": "Volibear",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
       "avgKills": 1.0,
-      "avgDeaths": 8.0,
+      "avgDeaths": 7.0,
       "avgAssists": 2.0,
-      "kda": 0.38,
-      "avgDamage": 16860
+      "kda": 0.43,
+      "avgDamage": 14339
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 4.0,
-      "kda": 7.0,
-      "avgDamage": 28593
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 3.0,
+      "kda": 4.2,
+      "avgDamage": 21979
     }
   }
 }

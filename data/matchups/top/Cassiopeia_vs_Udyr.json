@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:39.955446",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:08.552004",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -57,
-      "avg_xp_diff": -98,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -93,
+      "avg_xp_diff": -134,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -867,
-      "avg_xp_diff": -1410,
-      "avg_cs_diff": -8.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1001,
+      "avg_xp_diff": -1444,
+      "avg_cs_diff": -18.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1593,
-      "avg_xp_diff": -2424,
-      "avg_cs_diff": -25.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1772,
+      "avg_xp_diff": -2515,
+      "avg_cs_diff": -33.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2452,
-      "avg_xp_diff": -2804,
-      "avg_cs_diff": -48.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -2553,
+      "avg_xp_diff": -2907,
+      "avg_cs_diff": -50.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1765,
-      "avg_xp_diff": 71,
-      "avg_cs_diff": -57.0,
-      "sample_frames": 7,
+      "avg_gold_diff": -2874,
+      "avg_xp_diff": -1951,
+      "avg_cs_diff": -50.3,
+      "sample_frames": 14,
       "advantage": -2
     }
   ],
@@ -55,23 +55,57 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 5.0,
-      "kda": 1.33,
-      "avgDamage": 13183
+      "avgKills": 2.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 4.5,
+      "kda": 1.0,
+      "avgDamage": 16592
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 5.0,
-      "kda": 2.25,
-      "avgDamage": 24678
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 2.0,
+      "avgAssists": 6.5,
+      "kda": 6.0,
+      "avgDamage": 27194
     }
   }
 }

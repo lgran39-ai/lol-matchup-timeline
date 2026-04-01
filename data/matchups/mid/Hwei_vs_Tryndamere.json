@@ -1,82 +1,116 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-04-01T11:13:41.251625",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-04-02T00:39:09.805479",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 17,
-      "avg_xp_diff": 68,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -29,
+      "avg_xp_diff": 65,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 195,
-      "avg_xp_diff": 226,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 170,
+      "avg_xp_diff": 103,
+      "avg_cs_diff": 6.3,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 78,
-      "avg_xp_diff": 141,
-      "avg_cs_diff": 7.2,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 170,
+      "avg_xp_diff": 167,
+      "avg_cs_diff": 15.6,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -401,
-      "avg_xp_diff": -413,
-      "avg_cs_diff": 10.8,
-      "sample_frames": 9,
-      "advantage": -2
+      "avg_gold_diff": -173,
+      "avg_xp_diff": -351,
+      "avg_cs_diff": 16.5,
+      "sample_frames": 18,
+      "advantage": -1
     }
   ],
   "champA": "Hwei",
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 3.0,
-      "kda": 2.8,
-      "avgDamage": 15366
-    },
-    "champB": {
       "items": [
         {
-          "name": "Profane Hydra",
+          "name": "Blackfire Torch",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
-          "name": "Hail of Blades",
+          "name": "Arcane Comet",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 5.5,
-      "avgDeaths": 3.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 2.3,
+      "avgAssists": 3.7,
+      "kda": 3.0,
+      "avgDamage": 14680
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Cleanse+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 3.3,
       "avgAssists": 2.0,
-      "kda": 2.5,
-      "avgDamage": 10108
+      "kda": 2.1,
+      "avgDamage": 9876
     }
   }
 }

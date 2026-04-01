@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-04-01T11:13:43.090745",
+  "sample_size": 5,
+  "overall_winrate_a": 60.0,
+  "updated_at": "2026-04-02T00:39:11.516478",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -44,
-      "avg_xp_diff": -67,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 20,
+      "avg_gold_diff": -24,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -170,
-      "avg_xp_diff": -120,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 20,
+      "avg_gold_diff": -159,
+      "avg_xp_diff": 23,
+      "avg_cs_diff": 6.0,
+      "sample_frames": 25,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -184,
-      "avg_xp_diff": -149,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": 125,
+      "avg_xp_diff": 208,
+      "avg_cs_diff": 9.9,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1580,
-      "avg_xp_diff": 1214,
-      "avg_cs_diff": 19.7,
-      "sample_frames": 36,
+      "avg_gold_diff": 1962,
+      "avg_xp_diff": 1674,
+      "avg_cs_diff": 31.5,
+      "sample_frames": 46,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5848,
+      "avg_xp_diff": 5923,
+      "avg_cs_diff": 124.4,
+      "sample_frames": 7,
       "advantage": 2
     }
   ],
@@ -48,117 +57,129 @@
       "items": [
         {
           "name": "Umbral Glaive",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         },
         {
           "name": "Serylda's Grudge",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Profane Hydra",
           "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
         },
         {
           "name": "Serpent's Fang",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 100.0
-        },
-        {
-          "name": "Profane Hydra",
-          "count": 2,
-          "pickRate": 50.0,
-          "winRate": 0.0
         },
         {
           "name": "Hubris",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "First Strike",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 33.3
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         }
       ],
-      "avgKills": 8.8,
-      "avgDeaths": 4.5,
-      "avgAssists": 6.2,
-      "kda": 3.33,
-      "avgDamage": 15991
+      "avgKills": 10.0,
+      "avgDeaths": 4.4,
+      "avgAssists": 5.8,
+      "kda": 3.59,
+      "avgDamage": 20899
     },
     "champB": {
       "items": [
         {
           "name": "Voltaic Cyclosword",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         },
         {
           "name": "Umbral Glaive",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 50.0
         },
         {
           "name": "Hubris",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 50.0
         },
         {
           "name": "Serpent's Fang",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
-          "name": "Dark Harvest",
-          "count": 2,
-          "pickRate": 50.0,
-          "winRate": 50.0
+          "name": "Hail of Blades",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
         },
         {
-          "name": "Hail of Blades",
+          "name": "Dark Harvest",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
-          "spells": "Flash+Smite",
-          "count": 2,
-          "pickRate": 50.0,
-          "winRate": 50.0
+          "spells": "Smite+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
         },
         {
-          "spells": "Smite+Ignite",
+          "spells": "Flash+Smite",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 7.2,
-      "avgDeaths": 6.2,
-      "avgAssists": 4.2,
-      "kda": 1.84,
-      "avgDamage": 13206
+      "avgKills": 7.6,
+      "avgDeaths": 6.4,
+      "avgAssists": 5.0,
+      "kda": 1.97,
+      "avgDamage": 14020
     }
   }
 }

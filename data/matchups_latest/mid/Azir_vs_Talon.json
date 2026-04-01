@@ -1,185 +1,68 @@
 {
   "role": "mid",
-  "sample_size": 5,
-  "overall_winrate_a": 20.0,
-  "updated_at": "2026-03-30T21:10:02.239161",
+  "sample_size": 1,
+  "overall_winrate_a": 100.0,
+  "updated_at": "2026-04-02T00:39:21.265825",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -8,
-      "avg_xp_diff": 21,
-      "avg_cs_diff": 2.1,
-      "sample_frames": 25,
+      "avg_gold_diff": 77,
+      "avg_xp_diff": 82,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 5,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -103,
-      "avg_xp_diff": 60,
-      "avg_cs_diff": 9.0,
-      "sample_frames": 25,
-      "advantage": 0
+      "avg_gold_diff": 290,
+      "avg_xp_diff": 198,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 5,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -245,
-      "avg_xp_diff": 197,
-      "avg_cs_diff": 14.1,
-      "sample_frames": 25,
-      "advantage": -1
+      "avg_gold_diff": 303,
+      "avg_xp_diff": -102,
+      "avg_cs_diff": -6.4,
+      "sample_frames": 5,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -329,
-      "avg_xp_diff": 104,
-      "avg_cs_diff": 17.7,
-      "sample_frames": 51,
-      "advantage": -1
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": 15,
-      "avg_xp_diff": 78,
-      "avg_cs_diff": 49.6,
-      "sample_frames": 28,
-      "advantage": 0
+      "avg_gold_diff": 937,
+      "avg_xp_diff": 613,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 11,
+      "advantage": 2
     }
   ],
   "champA": "Azir",
   "champB": "Talon",
   "buildStats": {
     "champA": {
-      "items": [
-        {
-          "name": "Nashor's Tooth",
-          "count": 5,
-          "pickRate": 100.0,
-          "winRate": 20.0
-        },
-        {
-          "name": "Spellslinger's Shoes",
-          "count": 4,
-          "pickRate": 80.0,
-          "winRate": 25.0
-        },
-        {
-          "name": "Void Staff",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 0.0
-        },
-        {
-          "name": "Shadowflame",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 0.0
-        },
-        {
-          "name": "Rabadon's Deathcap",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 50.0
-        },
-        {
-          "name": "Liandry's Torment",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Lethal Tempo",
-          "count": 4,
-          "pickRate": 80.0,
-          "winRate": 25.0
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 5,
-          "pickRate": 100.0,
-          "winRate": 20.0
-        }
-      ],
-      "avgKills": 5.0,
+      "items": [],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 10.0,
       "avgDeaths": 5.0,
-      "avgAssists": 4.0,
-      "kda": 1.8,
-      "avgDamage": 25264
+      "avgAssists": 5.0,
+      "kda": 3.0,
+      "avgDamage": 32128
     },
     "champB": {
-      "items": [
-        {
-          "name": "Youmuu's Ghostblade",
-          "count": 5,
-          "pickRate": 100.0,
-          "winRate": 80.0
-        },
-        {
-          "name": "Edge of Night",
-          "count": 3,
-          "pickRate": 60.0,
-          "winRate": 66.7
-        },
-        {
-          "name": "Chainlaced Crushers",
-          "count": 3,
-          "pickRate": 60.0,
-          "winRate": 66.7
-        },
-        {
-          "name": "Serpent's Fang",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 100.0
-        },
-        {
-          "name": "Serylda's Grudge",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 100.0
-        },
-        {
-          "name": "Opportunity",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 100.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Electrocute",
-          "count": 3,
-          "pickRate": 60.0,
-          "winRate": 66.7
-        },
-        {
-          "name": "Conqueror",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 100.0
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Ignite",
-          "count": 5,
-          "pickRate": 100.0,
-          "winRate": 80.0
-        }
-      ],
-      "avgKills": 11.0,
-      "avgDeaths": 3.4,
-      "avgAssists": 7.6,
-      "kda": 5.47,
-      "avgDamage": 23936
+      "items": [],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 4.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 2.0,
+      "kda": 1.2,
+      "avgDamage": 12473
     }
   }
 }

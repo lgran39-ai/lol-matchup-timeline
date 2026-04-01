@@ -1,68 +1,109 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:40.379009",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:08.963440",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -46,
-      "avg_xp_diff": -51,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 7,
+      "avg_xp_diff": -1,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -100,
-      "avg_xp_diff": -631,
-      "avg_cs_diff": -18.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 129,
+      "avg_xp_diff": -178,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -856,
-      "avg_xp_diff": -1968,
-      "avg_cs_diff": -39.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 82,
+      "avg_xp_diff": -827,
+      "avg_cs_diff": -13.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 37,
-      "avg_xp_diff": -2172,
-      "avg_cs_diff": -26.8,
-      "sample_frames": 8,
-      "advantage": 0
+      "avg_gold_diff": 1276,
+      "avg_xp_diff": -444,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 13,
+      "advantage": 2
     }
   ],
   "champA": "Ekko",
   "champB": "Zilean",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 2.0,
-      "kda": 1.0,
-      "avgDamage": 16371
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 2.5,
+      "kda": 2.33,
+      "avgDamage": 14110
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.0,
       "avgDeaths": 2.0,
-      "avgAssists": 15.0,
-      "kda": 8.5,
-      "avgDamage": 12834
+      "avgAssists": 7.5,
+      "kda": 4.25,
+      "avgDamage": 9352
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:43.468992",
+  "updated_at": "2026-04-02T00:39:11.927340",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -38,
-      "avg_xp_diff": -6,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -104,
+      "avg_xp_diff": -79,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -68,
-      "avg_xp_diff": -179,
-      "avg_cs_diff": 9.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -354,
+      "avg_xp_diff": -354,
+      "avg_cs_diff": 0.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -101,
-      "avg_xp_diff": -524,
-      "avg_cs_diff": 12.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -289,
+      "avg_xp_diff": -452,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -679,
-      "avg_xp_diff": -1097,
-      "avg_cs_diff": 29.2,
-      "sample_frames": 10,
+      "avg_gold_diff": -1371,
+      "avg_xp_diff": -1634,
+      "avg_cs_diff": 10.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1640,
-      "avg_xp_diff": -3363,
-      "avg_cs_diff": 28.2,
-      "sample_frames": 6,
+      "avg_gold_diff": -2495,
+      "avg_xp_diff": -3655,
+      "avg_cs_diff": 14.5,
+      "sample_frames": 11,
       "advantage": -2
     }
   ],
@@ -54,24 +54,45 @@
   "champB": "Skarner",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 11.0,
+      "avgKills": 2.0,
+      "avgDeaths": 10.5,
       "avgAssists": 4.0,
-      "kda": 0.73,
-      "avgDamage": 16512
+      "kda": 0.57,
+      "avgDamage": 15602
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 11.0,
-      "kda": 10.0,
-      "avgDamage": 22494
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 1.5,
+      "avgAssists": 11.5,
+      "kda": 13.0,
+      "avgDamage": 22661
     }
   }
 }

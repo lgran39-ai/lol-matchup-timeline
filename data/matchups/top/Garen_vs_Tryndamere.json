@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:40.877843",
+  "updated_at": "2026-04-02T00:39:09.434651",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -443,
-      "avg_xp_diff": -330,
-      "avg_cs_diff": -8.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -242,
+      "avg_xp_diff": -166,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -806,
-      "avg_xp_diff": -700,
-      "avg_cs_diff": -23.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -559,
+      "avg_xp_diff": -530,
+      "avg_cs_diff": -16.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1536,
-      "avg_xp_diff": -1187,
-      "avg_cs_diff": -31.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -1577,
+      "avg_xp_diff": -1468,
+      "avg_cs_diff": -26.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2574,
-      "avg_xp_diff": -1722,
-      "avg_cs_diff": -38.1,
-      "sample_frames": 8,
+      "avg_gold_diff": -1773,
+      "avg_xp_diff": -1124,
+      "avg_cs_diff": -24.0,
+      "sample_frames": 18,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2187,
+      "avg_xp_diff": -474,
+      "avg_cs_diff": -14.9,
+      "sample_frames": 10,
       "advantage": -2
     }
   ],
@@ -45,24 +54,38 @@
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 4.0,
-      "kda": 0.8,
-      "avgDamage": 15932
+      "avgKills": 6.5,
+      "avgDeaths": 8.0,
+      "avgAssists": 6.5,
+      "kda": 1.62,
+      "avgDamage": 25496
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 9.0,
+      "avgKills": 11.0,
       "avgDeaths": 9.0,
-      "avgAssists": 3.0,
-      "kda": 1.33,
-      "avgDamage": 26146
+      "avgAssists": 2.5,
+      "kda": 1.5,
+      "avgDamage": 37803
     }
   }
 }

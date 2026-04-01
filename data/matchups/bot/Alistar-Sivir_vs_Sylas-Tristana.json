@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:44.537486",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:12.965127",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 28,
-      "avg_xp_diff": 3,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 141,
+      "avg_xp_diff": 56,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -272,
-      "avg_xp_diff": 175,
-      "avg_cs_diff": -8.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 488,
+      "avg_xp_diff": 520,
+      "avg_cs_diff": 5.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 257,
-      "avg_xp_diff": 154,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 347,
+      "avg_xp_diff": 162,
+      "avg_cs_diff": 9.0,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -580,
-      "avg_xp_diff": 872,
-      "avg_cs_diff": -0.3,
-      "sample_frames": 11,
-      "advantage": -1
+      "avg_gold_diff": -1084,
+      "avg_xp_diff": 368,
+      "avg_cs_diff": 15.1,
+      "sample_frames": 21,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1894,
+      "avg_xp_diff": -501,
+      "avg_cs_diff": 48.8,
+      "sample_frames": 9,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,154 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 7.0,
-        "kda": 6.33,
-        "avgDamage": 27161
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 10.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 11.0,
+        "kda": 5.25,
+        "avgDamage": 40348
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 18.0,
-        "kda": 4.75,
-        "avgDamage": 7003
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Unsealed Spellbook",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 19.0,
+        "kda": 3.55,
+        "avgDamage": 6297
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 8.5,
         "avgDeaths": 7.0,
-        "avgAssists": 3.0,
-        "kda": 1.29,
-        "avgDamage": 27525
+        "avgAssists": 4.0,
+        "kda": 1.79,
+        "avgDamage": 26252
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 2.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 10.0,
-        "kda": 1.71,
-        "avgDamage": 14447
+        "avgDeaths": 8.5,
+        "avgAssists": 11.0,
+        "kda": 1.53,
+        "avgDamage": 16050
       }
     }
   }

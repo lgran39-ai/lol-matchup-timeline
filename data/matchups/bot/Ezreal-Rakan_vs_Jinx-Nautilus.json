@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:50.350812",
+  "updated_at": "2026-04-02T00:39:18.417108",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -194,
-      "avg_xp_diff": -81,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -54,
+      "avg_xp_diff": 23,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1024,
-      "avg_xp_diff": -897,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -549,
+      "avg_xp_diff": -384,
+      "avg_cs_diff": -7.8,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 719,
-      "avg_xp_diff": -345,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 264,
+      "avg_xp_diff": 160,
+      "avg_cs_diff": -13.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2650,
-      "avg_xp_diff": -226,
-      "avg_cs_diff": 21.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 1710,
+      "avg_xp_diff": 513,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 17,
       "advantage": 2
     },
     {
@@ -64,46 +64,88 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 18.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 11.0,
-        "kda": 4.14,
-        "avgDamage": 55511
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 10.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 7.0,
+        "kda": 3.89,
+        "avgDamage": 32336
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 28.0,
-        "kda": 5.0,
-        "avgDamage": 8206
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 3.0,
+        "avgAssists": 19.5,
+        "kda": 7.0,
+        "avgDamage": 6710
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 11.0,
-        "kda": 2.0,
-        "avgDamage": 32722
+        "avgKills": 5.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 5.5,
+        "kda": 1.69,
+        "avgDamage": 22474
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 20.0,
-        "kda": 3.14,
-        "avgDamage": 13503
+        "avgKills": 1.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 11.0,
+        "kda": 2.0,
+        "avgDamage": 8918
       }
     }
   }

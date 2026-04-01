@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:46.676871",
+  "updated_at": "2026-04-02T00:39:15.089317",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 45,
-      "avg_xp_diff": 55,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 182,
+      "avg_xp_diff": 116,
+      "avg_cs_diff": 3.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -36,
-      "avg_xp_diff": -268,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -114,
+      "avg_xp_diff": -50,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 430,
-      "avg_xp_diff": -127,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -784,
+      "avg_xp_diff": -510,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1481,
-      "avg_xp_diff": 1942,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -270,
+      "avg_xp_diff": 886,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2114,
-      "avg_xp_diff": 4208,
-      "avg_cs_diff": -2.5,
-      "sample_frames": 2,
+      "avg_gold_diff": 1152,
+      "avg_xp_diff": 3197,
+      "avg_cs_diff": 23.4,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -64,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 9.0,
-        "kda": 2.83,
-        "avgDamage": 38250
+        "items": [
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 10.5,
+        "kda": 4.0,
+        "avgDamage": 37268
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 28.0,
-        "kda": 7.5,
-        "avgDamage": 14811
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 25.0,
+        "kda": 4.31,
+        "avgDamage": 15995
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Conqueror",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 12.0,
-        "avgAssists": 8.0,
-        "kda": 0.67,
-        "avgDamage": 17036
+        "avgKills": 3.5,
+        "avgDeaths": 9.0,
+        "avgAssists": 9.5,
+        "kda": 1.44,
+        "avgDamage": 20326
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Black Cleaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 6.0,
-        "kda": 1.86,
-        "avgDamage": 21063
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 10.0,
+        "avgAssists": 13.0,
+        "kda": 1.7,
+        "avgDamage": 22054
       }
     }
   }

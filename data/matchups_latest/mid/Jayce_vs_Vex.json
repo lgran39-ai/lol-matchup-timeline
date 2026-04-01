@@ -1,68 +1,135 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-30T21:10:03.517385",
+  "updated_at": "2026-04-02T00:39:21.708728",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 35,
-      "avg_xp_diff": 15,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 20,
+      "avg_xp_diff": 70,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 310,
-      "avg_xp_diff": 450,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 228,
+      "avg_xp_diff": 415,
+      "avg_cs_diff": 8.4,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -137,
-      "avg_xp_diff": 141,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 1359,
+      "avg_xp_diff": 1246,
+      "avg_cs_diff": 21.2,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -936,
-      "avg_xp_diff": 18,
-      "avg_cs_diff": 24.0,
-      "sample_frames": 9,
-      "advantage": -2
+      "avg_gold_diff": 2338,
+      "avg_xp_diff": 2048,
+      "avg_cs_diff": 36.0,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3697,
+      "avg_xp_diff": 3325,
+      "avg_cs_diff": 45.9,
+      "sample_frames": 26,
+      "advantage": 2
     }
   ],
   "champA": "Jayce",
   "champB": "Vex",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 4.33,
-      "avgDamage": 16981
+      "avgKills": 7.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 13.0,
+      "kda": 4.1,
+      "avgDamage": 38491
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 9.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 3.0,
-      "kda": 2.0,
-      "avgDamage": 22630
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 9.5,
+      "avgAssists": 7.0,
+      "kda": 1.16,
+      "avgDamage": 22440
     }
   }
 }

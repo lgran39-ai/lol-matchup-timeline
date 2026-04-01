@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 3,
+  "sample_size": 1,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-30T21:10:04.718707",
+  "updated_at": "2026-04-02T00:39:21.917747",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -4,
-      "avg_xp_diff": -6,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 15,
-      "advantage": 0
+      "avg_gold_diff": 225,
+      "avg_xp_diff": 77,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 5,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 287,
-      "avg_xp_diff": 386,
-      "avg_cs_diff": 17.8,
-      "sample_frames": 15,
-      "advantage": 1
+      "avg_gold_diff": 1037,
+      "avg_xp_diff": 601,
+      "avg_cs_diff": 18.2,
+      "sample_frames": 5,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1098,
-      "avg_xp_diff": 1049,
-      "avg_cs_diff": 37.1,
-      "sample_frames": 15,
+      "avg_gold_diff": 1544,
+      "avg_xp_diff": 1525,
+      "avg_cs_diff": 40.6,
+      "sample_frames": 5,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1244,
-      "avg_xp_diff": 658,
-      "avg_cs_diff": 19.0,
-      "sample_frames": 16,
+      "avg_gold_diff": 3403,
+      "avg_xp_diff": 3374,
+      "avg_cs_diff": 78.0,
+      "sample_frames": 10,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4694,
+      "avg_xp_diff": 3220,
+      "avg_cs_diff": 89.2,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -45,65 +54,24 @@
   "champB": "Vex",
   "buildStats": {
     "champA": {
-      "items": [
-        {
-          "name": "Luden's Echo",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 100.0
-        },
-        {
-          "name": "Shadowflame",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Arcane Comet",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Ghost",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 100.0
-        }
-      ],
-      "avgKills": 4.7,
-      "avgDeaths": 1.7,
-      "avgAssists": 2.3,
-      "kda": 4.2,
-      "avgDamage": 15587
+      "items": [],
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 12.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 14.0,
+      "kda": 8.67,
+      "avgDamage": 42344
     },
     "champB": {
       "items": [],
-      "keystones": [
-        {
-          "name": "Electrocute",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 0.0
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 0.0
-        }
-      ],
-      "avgKills": 1.7,
-      "avgDeaths": 2.7,
-      "avgAssists": 1.7,
+      "keystones": [],
+      "summonerSpells": [],
+      "avgKills": 5.0,
+      "avgDeaths": 12.0,
+      "avgAssists": 10.0,
       "kda": 1.25,
-      "avgDamage": 8896
+      "avgDamage": 17209
     }
   }
 }

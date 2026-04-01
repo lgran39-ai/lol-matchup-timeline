@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:42.445007",
+  "updated_at": "2026-04-02T00:39:10.968514",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -56,
-      "avg_xp_diff": 6,
+      "avg_gold_diff": -25,
+      "avg_xp_diff": 17,
       "avg_cs_diff": -2.0,
-      "sample_frames": 10,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -360,
-      "avg_xp_diff": -235,
-      "avg_cs_diff": -9.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -157,
+      "avg_xp_diff": -97,
+      "avg_cs_diff": -8.0,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -932,
-      "avg_xp_diff": -965,
-      "avg_cs_diff": -18.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -506,
+      "avg_xp_diff": -768,
+      "avg_cs_diff": -13.8,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3432,
-      "avg_xp_diff": -3589,
-      "avg_cs_diff": -29.9,
-      "sample_frames": 21,
+      "avg_gold_diff": -2445,
+      "avg_xp_diff": -2781,
+      "avg_cs_diff": -26.2,
+      "sample_frames": 31,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -893,
+      "avg_xp_diff": -1153,
+      "avg_cs_diff": -18.4,
+      "sample_frames": 12,
       "advantage": -2
     }
   ],
@@ -48,39 +57,58 @@
       "items": [
         {
           "name": "Sunfire Aegis",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 0.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 4.0,
-      "kda": 0.57,
-      "avgDamage": 18034
+      "avgKills": 1.7,
+      "avgDeaths": 6.3,
+      "avgAssists": 5.7,
+      "kda": 1.16,
+      "avgDamage": 22998
     },
     "champB": {
       "items": [
         {
           "name": "Black Cleaver",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         }
@@ -88,16 +116,16 @@
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 1.5,
-      "avgAssists": 12.0,
-      "kda": 12.0,
-      "avgDamage": 29517
+      "avgKills": 5.3,
+      "avgDeaths": 3.0,
+      "avgAssists": 10.3,
+      "kda": 5.22,
+      "avgDamage": 32845
     }
   }
 }

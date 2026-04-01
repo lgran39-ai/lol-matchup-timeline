@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:42.234641",
+  "updated_at": "2026-04-02T00:39:10.760659",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 170,
-      "avg_xp_diff": 144,
-      "avg_cs_diff": 6.1,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 85,
+      "avg_xp_diff": 125,
+      "avg_cs_diff": 5.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 618,
-      "avg_xp_diff": 562,
-      "avg_cs_diff": 19.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 547,
+      "avg_xp_diff": 516,
+      "avg_cs_diff": 19.8,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1344,
-      "avg_xp_diff": 1150,
+      "avg_gold_diff": 1302,
+      "avg_xp_diff": 1060,
       "avg_cs_diff": 31.1,
-      "sample_frames": 10,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2320,
-      "avg_xp_diff": 1937,
-      "avg_cs_diff": 54.2,
-      "sample_frames": 20,
+      "avg_gold_diff": 2293,
+      "avg_xp_diff": 1872,
+      "avg_cs_diff": 52.7,
+      "sample_frames": 22,
       "advantage": 2
     },
     {
@@ -54,35 +54,49 @@
   "champB": "Malphite",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 9.0,
-      "kda": 3.38,
-      "avgDamage": 19381
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 2.7,
+      "avgAssists": 7.0,
+      "kda": 4.12,
+      "avgDamage": 14761
     },
     "champB": {
       "items": [
         {
           "name": "Malignance",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         }
@@ -90,16 +104,16 @@
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 7.5,
-      "avgAssists": 5.0,
-      "kda": 1.0,
-      "avgDamage": 10832
+      "avgKills": 2.0,
+      "avgDeaths": 6.0,
+      "avgAssists": 3.7,
+      "kda": 0.94,
+      "avgDamage": 9172
     }
   }
 }

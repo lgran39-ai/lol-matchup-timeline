@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:52.475298",
+  "updated_at": "2026-04-02T00:39:20.570382",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 9,
-      "avg_xp_diff": 63,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -177,
+      "avg_xp_diff": 70,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 84,
-      "avg_xp_diff": 489,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -59,
+      "avg_xp_diff": 383,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1226,
-      "avg_xp_diff": 671,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 708,
+      "avg_xp_diff": 550,
+      "avg_cs_diff": -9.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4152,
-      "avg_xp_diff": 4102,
-      "avg_cs_diff": 1.7,
-      "sample_frames": 11,
+      "avg_gold_diff": 1774,
+      "avg_xp_diff": 2174,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 21,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 157,
+      "avg_xp_diff": 1493,
+      "avg_cs_diff": -35.5,
+      "sample_frames": 8,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,101 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 8.0,
         "avgDeaths": 6.0,
         "avgAssists": 9.0,
-        "kda": 2.67,
-        "avgDamage": 21673
+        "kda": 2.83,
+        "avgDamage": 25146
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 24.0,
-        "kda": 15.0,
-        "avgDamage": 14823
+        "avgKills": 4.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 22.0,
+        "kda": 5.89,
+        "avgDamage": 14473
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 4.0,
-        "kda": 0.67,
-        "avgDamage": 17225
+        "items": [
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 8.0,
+        "avgAssists": 6.0,
+        "kda": 1.44,
+        "avgDamage": 29201
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 9.0,
-        "kda": 1.0,
-        "avgDamage": 9463
+        "avgKills": 1.5,
+        "avgDeaths": 9.5,
+        "avgAssists": 13.5,
+        "kda": 1.58,
+        "avgDamage": 8526
       }
     }
   }

@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:47.361378",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:15.716460",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -218,
-      "avg_xp_diff": -68,
-      "avg_cs_diff": -3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -192,
+      "avg_xp_diff": -23,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -556,
-      "avg_xp_diff": 224,
-      "avg_cs_diff": -11.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -749,
+      "avg_xp_diff": -342,
+      "avg_cs_diff": -9.5,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 712,
-      "avg_xp_diff": 1030,
-      "avg_cs_diff": -7.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -463,
+      "avg_xp_diff": 21,
+      "avg_cs_diff": -15.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1794,
-      "avg_xp_diff": 1722,
-      "avg_cs_diff": -6.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 1282,
+      "avg_xp_diff": 1352,
+      "avg_cs_diff": -9.4,
+      "sample_frames": 12,
       "advantage": 2
     },
     {
@@ -64,46 +64,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Luden's Echo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 6.0,
-        "kda": 5.0,
-        "avgDamage": 34571
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 2.5,
+        "avgAssists": 3.0,
+        "kda": 3.4,
+        "avgDamage": 21304
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 19.0,
-        "kda": 5.25,
-        "avgDamage": 11964
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 3.5,
+        "avgAssists": 11.0,
+        "kda": 3.43,
+        "avgDamage": 8186
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 3.0,
+        "avgKills": 3.5,
+        "avgDeaths": 1.5,
         "avgAssists": 4.0,
-        "kda": 3.33,
-        "avgDamage": 22453
+        "kda": 5.0,
+        "avgDamage": 13692
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 13.0,
-        "kda": 1.67,
-        "avgDamage": 16156
+        "avgKills": 1.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 9.0,
+        "kda": 1.91,
+        "avgDamage": 9507
       }
     }
   }

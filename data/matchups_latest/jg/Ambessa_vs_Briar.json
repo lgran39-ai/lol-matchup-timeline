@@ -1,68 +1,111 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-30T21:10:01.821271",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:21.164255",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 40,
-      "avg_xp_diff": 174,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 56,
+      "avg_xp_diff": 76,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 161,
-      "avg_xp_diff": 764,
-      "avg_cs_diff": 21.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 114,
+      "avg_xp_diff": 197,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 161,
-      "avg_xp_diff": 1035,
-      "avg_cs_diff": 30.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 368,
+      "avg_xp_diff": 484,
+      "avg_cs_diff": 8.5,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -139,
-      "avg_xp_diff": 614,
-      "avg_cs_diff": 31.3,
-      "sample_frames": 3,
-      "advantage": 0
+      "avg_gold_diff": 685,
+      "avg_xp_diff": 758,
+      "avg_cs_diff": 7.8,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -697,
+      "avg_xp_diff": -990,
+      "avg_cs_diff": -6.0,
+      "sample_frames": 7,
+      "advantage": -2
     }
   ],
   "champA": "Ambessa",
   "champB": "Briar",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 0.0,
-      "kda": 3.0,
-      "avgDamage": 3100
+      "items": [
+        {
+          "name": "Axiom Arc",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 9.5,
+      "kda": 4.0,
+      "avgDamage": 22425
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 2.67,
-      "avgDamage": 3937
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 8.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 11.5,
+      "kda": 2.79,
+      "avgDamage": 21840
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:47.458844",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:15.808026",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -285,
-      "avg_xp_diff": -212,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -290,
+      "avg_xp_diff": -272,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
       "avg_gold_diff": -1263,
-      "avg_xp_diff": -858,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
+      "avg_xp_diff": -803,
+      "avg_cs_diff": -16.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1399,
-      "avg_xp_diff": -801,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -1947,
+      "avg_xp_diff": -1061,
+      "avg_cs_diff": -24.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1475,
-      "avg_xp_diff": 206,
-      "avg_cs_diff": 7.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -3217,
+      "avg_xp_diff": -1773,
+      "avg_cs_diff": -32.4,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2023,
-      "avg_xp_diff": 2425,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 3,
+      "avg_gold_diff": -6086,
+      "avg_xp_diff": -2476,
+      "avg_cs_diff": -53.7,
+      "sample_frames": 6,
       "advantage": -2
     }
   ],
@@ -65,45 +65,107 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 6.0,
-        "kda": 5.5,
-        "avgDamage": 16905
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 5.5,
+        "kda": 1.9,
+        "avgDamage": 13106
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 14.0,
-        "kda": 3.5,
-        "avgDamage": 8330
+        "avgKills": 0.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 11.0,
+        "kda": 1.92,
+        "avgDamage": 6881
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 4.0,
-        "kda": 2.25,
-        "avgDamage": 24186
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 3.0,
+        "avgAssists": 8.0,
+        "kda": 5.0,
+        "avgDamage": 26902
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 6.0,
-        "kda": 2.0,
-        "avgDamage": 19928
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Frozen Heart",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 3.5,
+        "avgAssists": 12.0,
+        "kda": 4.29,
+        "avgDamage": 18369
       }
     }
   }

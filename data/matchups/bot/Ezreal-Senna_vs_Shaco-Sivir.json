@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:50.446317",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:18.512135",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -157,
-      "avg_xp_diff": 35,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -29,
+      "avg_xp_diff": 68,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -77,
-      "avg_xp_diff": 537,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 226,
+      "avg_xp_diff": 464,
+      "avg_cs_diff": 5.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -215,
-      "avg_xp_diff": 354,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 566,
+      "avg_xp_diff": 569,
+      "avg_cs_diff": 10.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 519,
-      "avg_xp_diff": 478,
-      "avg_cs_diff": -4.1,
-      "sample_frames": 7,
-      "advantage": 1
+      "avg_gold_diff": 1318,
+      "avg_xp_diff": 729,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 13,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,109 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 6.0,
-        "kda": 1.44,
-        "avgDamage": 16621
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 3.5,
+        "kda": 1.46,
+        "avgDamage": 13534
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Black Cleaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 5.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 3.5,
         "avgAssists": 11.0,
-        "kda": 3.4,
-        "avgDamage": 15978
+        "kda": 4.0,
+        "avgDamage": 12428
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 9.0,
-        "kda": 2.14,
-        "avgDamage": 16515
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 5.0,
+        "kda": 1.9,
+        "avgDamage": 13292
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Luden's Echo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 9.0,
-        "kda": 2.83,
-        "avgDamage": 14077
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 5.5,
+        "avgAssists": 5.5,
+        "kda": 1.73,
+        "avgDamage": 11132
       }
     }
   }

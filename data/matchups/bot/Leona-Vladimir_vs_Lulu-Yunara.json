@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:52.057635",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:20.127043",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -353,
-      "avg_xp_diff": -92,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -287,
+      "avg_xp_diff": -72,
+      "avg_cs_diff": -6.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -807,
-      "avg_xp_diff": 237,
-      "avg_cs_diff": -25.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -749,
+      "avg_xp_diff": 43,
+      "avg_cs_diff": -16.7,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -838,
-      "avg_xp_diff": 737,
-      "avg_cs_diff": -19.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1618,
+      "avg_xp_diff": -52,
+      "avg_cs_diff": -11.9,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 41,
-      "avg_xp_diff": 2374,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -1485,
+      "avg_xp_diff": 687,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 20,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2540,
-      "avg_xp_diff": 5147,
-      "avg_cs_diff": -14.8,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -1504,
+      "avg_xp_diff": 514,
+      "avg_cs_diff": 0.1,
+      "sample_frames": 10,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,134 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 13.0,
+        "items": [
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Rabadon's Deathcap",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ghost",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.5,
         "avgDeaths": 4.0,
-        "avgAssists": 6.0,
-        "kda": 4.75,
-        "avgDamage": 23394
+        "avgAssists": 5.0,
+        "kda": 3.12,
+        "avgDamage": 20750
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 22.0,
-        "kda": 7.33,
-        "avgDamage": 8469
+        "avgKills": 1.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 15.0,
+        "kda": 2.75,
+        "avgDamage": 8888
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 7.0,
-        "kda": 1.0,
-        "avgDamage": 24643
+        "items": [
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 7.5,
+        "kda": 2.25,
+        "avgDamage": 32026
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Ardent Censer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 11.0,
-        "kda": 2.0,
-        "avgDamage": 7323
+        "avgDeaths": 4.5,
+        "avgAssists": 18.5,
+        "kda": 4.33,
+        "avgDamage": 8876
       }
     }
   }

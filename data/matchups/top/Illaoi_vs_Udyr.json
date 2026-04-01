@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:41.286804",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-02T00:39:09.839629",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -94,
-      "avg_xp_diff": -25,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -122,
+      "avg_xp_diff": -63,
+      "avg_cs_diff": -3.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -190,
-      "avg_xp_diff": -179,
-      "avg_cs_diff": -6.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -427,
+      "avg_xp_diff": -238,
+      "avg_cs_diff": -9.9,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -918,
-      "avg_xp_diff": -791,
-      "avg_cs_diff": -14.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -690,
+      "avg_xp_diff": -290,
+      "avg_cs_diff": -10.8,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -621,
-      "avg_xp_diff": 264,
-      "avg_cs_diff": 8.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -710,
+      "avg_xp_diff": 68,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 31,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 466,
-      "avg_xp_diff": 2283,
-      "avg_cs_diff": 32.8,
-      "sample_frames": 4,
+      "avg_gold_diff": 1086,
+      "avg_xp_diff": 2628,
+      "avg_cs_diff": 32.5,
+      "sample_frames": 6,
       "advantage": 2
     }
   ],
@@ -54,24 +54,65 @@
   "champB": "Udyr",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 5.0,
-      "kda": 1.57,
-      "avgDamage": 32906
+      "items": [
+        {
+          "name": "Black Cleaver",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 3.7,
+      "avgDeaths": 4.7,
+      "avgAssists": 3.0,
+      "kda": 1.43,
+      "avgDamage": 26748
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 6.0,
-      "kda": 2.0,
-      "avgDamage": 26193
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 4.3,
+      "avgAssists": 4.3,
+      "kda": 2.15,
+      "avgDamage": 23769
     }
   }
 }

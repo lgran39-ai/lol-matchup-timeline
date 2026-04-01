@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:51.679953",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:19.754188",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 239,
-      "avg_xp_diff": -59,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 151,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 860,
-      "avg_xp_diff": 95,
-      "avg_cs_diff": -18.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 428,
+      "avg_xp_diff": 171,
+      "avg_cs_diff": -4.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1510,
-      "avg_xp_diff": 366,
-      "avg_cs_diff": -35.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -39,
+      "avg_xp_diff": -211,
+      "avg_cs_diff": -20.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2104,
-      "avg_xp_diff": 353,
-      "avg_cs_diff": -50.5,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -3330,
+      "avg_xp_diff": -2113,
+      "avg_cs_diff": -29.1,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 2.0,
-        "kda": 3.0,
-        "avgDamage": 5087
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 1.5,
+        "kda": 1.11,
+        "avgDamage": 8214
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 2.0,
+        "avgKills": 2.0,
+        "avgDeaths": 5.0,
         "avgAssists": 5.0,
-        "kda": 4.5,
-        "avgDamage": 7499
+        "kda": 1.4,
+        "avgDamage": 8772
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 0.0,
-        "kda": 0.67,
-        "avgDamage": 6520
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 2.0,
+        "avgAssists": 2.0,
+        "kda": 4.5,
+        "avgDamage": 15643
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 3.0,
-        "kda": 1.0,
-        "avgDamage": 3031
+        "items": [
+          {
+            "name": "Imperial Mandate",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 2.5,
+        "avgAssists": 12.0,
+        "kda": 5.0,
+        "avgDamage": 6784
       }
     }
   }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:40.775344",
+  "sample_size": 4,
+  "overall_winrate_a": 75.0,
+  "updated_at": "2026-04-02T00:39:09.340004",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 23,
-      "avg_xp_diff": -8,
-      "avg_cs_diff": -1.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -23,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -110,
-      "avg_xp_diff": -382,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -294,
+      "avg_xp_diff": -439,
+      "avg_cs_diff": -11.4,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -774,
-      "avg_xp_diff": -1602,
-      "avg_cs_diff": -29.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -609,
+      "avg_xp_diff": -1135,
+      "avg_cs_diff": -23.1,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 166,
-      "avg_xp_diff": 634,
-      "avg_cs_diff": -20.3,
-      "sample_frames": 12,
-      "advantage": 1
+      "avg_gold_diff": -88,
+      "avg_xp_diff": 76,
+      "avg_cs_diff": -15.3,
+      "sample_frames": 24,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1967,
-      "avg_xp_diff": 2115,
-      "avg_cs_diff": -18.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 887,
+      "avg_xp_diff": 645,
+      "avg_cs_diff": -15.6,
+      "sample_frames": 8,
       "advantage": 2
     }
   ],
@@ -54,52 +54,84 @@
   "champB": "Illaoi",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "items": [
         {
-          "spells": "Flash+Ignite",
+          "name": "Essence Reaver",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Lord Dominik's Regards",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 2.25,
-      "avgDamage": 19098
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 100.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 3.2,
+      "avgDeaths": 4.2,
+      "avgAssists": 4.5,
+      "kda": 1.82,
+      "avgDamage": 17340
     },
     "champB": {
       "items": [
         {
           "name": "Iceborn Gauntlet",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 25.0
+        },
+        {
+          "name": "Hullbreaker",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 1.5,
-      "kda": 0.7,
-      "avgDamage": 17398
+      "avgKills": 2.2,
+      "avgDeaths": 4.5,
+      "avgAssists": 3.0,
+      "kda": 1.17,
+      "avgDamage": 15889
     }
   }
 }

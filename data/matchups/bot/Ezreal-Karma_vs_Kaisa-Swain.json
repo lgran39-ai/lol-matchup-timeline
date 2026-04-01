@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:49.784747",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:17.879512",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 148,
-      "avg_xp_diff": 71,
-      "avg_cs_diff": 4.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -115,
+      "avg_xp_diff": 109,
+      "avg_cs_diff": 4.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 660,
-      "avg_xp_diff": 614,
-      "avg_cs_diff": 18.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 381,
+      "avg_xp_diff": 414,
+      "avg_cs_diff": 18.5,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1071,
-      "avg_xp_diff": 1319,
-      "avg_cs_diff": 32.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 761,
+      "avg_xp_diff": 733,
+      "avg_cs_diff": 26.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -245,
-      "avg_xp_diff": 416,
-      "avg_cs_diff": 19.9,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 559,
+      "avg_xp_diff": 730,
+      "avg_cs_diff": 27.1,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -574,
-      "avg_xp_diff": 1589,
-      "avg_cs_diff": 6.4,
-      "sample_frames": 7,
-      "advantage": -1
+      "avg_gold_diff": 1142,
+      "avg_xp_diff": 782,
+      "avg_cs_diff": 21.3,
+      "sample_frames": 18,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,127 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
+        "items": [
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.5,
         "avgDeaths": 4.0,
-        "avgAssists": 9.0,
+        "avgAssists": 7.5,
         "kda": 3.25,
-        "avgDamage": 28343
+        "avgDamage": 37041
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 12.0,
-        "kda": 2.6,
-        "avgDamage": 9711
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 14.0,
+        "kda": 2.42,
+        "avgDamage": 11048
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Dusk and Dawn",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 5.0,
-        "kda": 3.0,
-        "avgDamage": 12819
+        "avgKills": 5.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 6.0,
+        "kda": 2.44,
+        "avgDamage": 17626
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Rylai's Crystal Scepter",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 10.0,
-        "kda": 2.0,
-        "avgDamage": 10194
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 12.0,
+        "kda": 2.27,
+        "avgDamage": 15866
       }
     }
   }

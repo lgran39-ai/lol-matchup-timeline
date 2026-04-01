@@ -1,77 +1,143 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:38.824862",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-02T00:39:07.451980",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -45,
-      "avg_xp_diff": -13,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -68,
+      "avg_xp_diff": -85,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -190,
-      "avg_xp_diff": -240,
-      "avg_cs_diff": -10.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -154,
+      "avg_xp_diff": -96,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1216,
-      "avg_xp_diff": 669,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 336,
+      "avg_xp_diff": 366,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2930,
-      "avg_xp_diff": 1854,
-      "avg_cs_diff": 21.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 774,
+      "avg_xp_diff": 984,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 30,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1484,
-      "avg_xp_diff": -510,
-      "avg_cs_diff": 4.5,
-      "sample_frames": 4,
-      "advantage": 2
+      "avg_gold_diff": -1522,
+      "avg_xp_diff": -2298,
+      "avg_cs_diff": -33.4,
+      "sample_frames": 9,
+      "advantage": -2
     }
   ],
   "champA": "Ahri",
   "champB": "Ziggs",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 9.0,
-      "kda": 2.5,
-      "avgDamage": 21873
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Malignance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 4.3,
+      "avgAssists": 8.3,
+      "kda": 3.0,
+      "avgDamage": 20696
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 13.0,
-      "kda": 2.83,
-      "avgDamage": 27630
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 6.7,
+      "avgAssists": 7.7,
+      "kda": 2.1,
+      "avgDamage": 28215
     }
   }
 }

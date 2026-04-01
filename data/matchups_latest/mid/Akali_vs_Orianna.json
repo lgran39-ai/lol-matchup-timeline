@@ -1,68 +1,125 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:52.740960",
+  "updated_at": "2026-04-02T00:39:21.139034",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -72,
-      "avg_xp_diff": -83,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": -37,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -155,
-      "avg_xp_diff": 107,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -303,
+      "avg_xp_diff": 21,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -467,
-      "avg_xp_diff": -135,
-      "avg_cs_diff": -4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -656,
+      "avg_xp_diff": -281,
+      "avg_cs_diff": -13.7,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 149,
-      "avg_xp_diff": 575,
-      "avg_cs_diff": 0.3,
-      "sample_frames": 7,
-      "advantage": 0
+      "avg_gold_diff": -619,
+      "avg_xp_diff": 711,
+      "avg_cs_diff": -20.8,
+      "sample_frames": 27,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -522,
+      "avg_xp_diff": 1698,
+      "avg_cs_diff": -39.3,
+      "sample_frames": 6,
+      "advantage": -2
     }
   ],
   "champA": "Akali",
   "champB": "Orianna",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 4.0,
-      "kda": 1.5,
-      "avgDamage": 15096
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 5.0,
+      "avgAssists": 5.3,
+      "kda": 2.33,
+      "avgDamage": 18529
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 5.0,
-      "kda": 1.75,
-      "avgDamage": 13195
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.3,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.3,
+      "kda": 1.28,
+      "avgDamage": 17626
     }
   }
 }

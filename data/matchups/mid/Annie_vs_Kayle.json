@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:39.364612",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:07.980999",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 82,
-      "avg_xp_diff": 31,
-      "avg_cs_diff": 4.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 157,
+      "avg_xp_diff": 62,
+      "avg_cs_diff": 5.3,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -186,
-      "avg_xp_diff": -274,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 352,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": 11.9,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -969,
-      "avg_xp_diff": -1001,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 100,
+      "avg_xp_diff": -234,
+      "avg_cs_diff": 9.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1911,
-      "avg_xp_diff": -1361,
-      "avg_cs_diff": -10.6,
-      "sample_frames": 9,
+      "avg_gold_diff": -719,
+      "avg_xp_diff": -662,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 19,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2496,
+      "avg_xp_diff": -1927,
+      "avg_cs_diff": -14.0,
+      "sample_frames": 2,
       "advantage": -2
     }
   ],
@@ -45,24 +54,84 @@
   "champB": "Kayle",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 2.0,
-      "kda": 0.5,
-      "avgDamage": 17192
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 4.0,
+      "kda": 1.18,
+      "avgDamage": 19403
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
+      "items": [
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Swiftmarch",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Cleanse+Flash",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "avgKills": 4.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 10.0,
-      "kda": 4.67,
-      "avgDamage": 12633
+      "avgDeaths": 3.5,
+      "avgAssists": 7.5,
+      "kda": 3.29,
+      "avgDamage": 13082
     }
   }
 }

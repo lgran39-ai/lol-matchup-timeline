@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 16,
-  "overall_winrate_a": 62.5,
-  "updated_at": "2026-03-30T21:10:04.505402",
+  "sample_size": 2,
+  "overall_winrate_a": 0.0,
+  "updated_at": "2026-04-02T00:39:21.879144",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 29,
-      "avg_xp_diff": 16,
-      "avg_cs_diff": 0.5,
-      "sample_frames": 80,
+      "avg_gold_diff": 33,
+      "avg_xp_diff": 63,
+      "avg_cs_diff": 4.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 157,
-      "avg_xp_diff": 92,
-      "avg_cs_diff": 5.9,
-      "sample_frames": 80,
-      "advantage": 1
+      "avg_gold_diff": 542,
+      "avg_xp_diff": 510,
+      "avg_cs_diff": 23.4,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -76,
-      "avg_xp_diff": -291,
-      "avg_cs_diff": 3.1,
-      "sample_frames": 80,
-      "advantage": 0
+      "avg_gold_diff": 1046,
+      "avg_xp_diff": 1067,
+      "avg_cs_diff": 38.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 71,
-      "avg_xp_diff": -305,
-      "avg_cs_diff": -1.9,
-      "sample_frames": 149,
-      "advantage": 0
+      "avg_gold_diff": 1034,
+      "avg_xp_diff": 490,
+      "avg_cs_diff": 37.0,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 955,
-      "avg_xp_diff": 634,
-      "avg_cs_diff": 8.7,
-      "sample_frames": 83,
+      "avg_gold_diff": 764,
+      "avg_xp_diff": 88,
+      "avg_cs_diff": 42.9,
+      "sample_frames": 9,
       "advantage": 2
     }
   ],
@@ -56,142 +56,70 @@
     "champA": {
       "items": [
         {
-          "name": "Liandry's Torment",
-          "count": 15,
-          "pickRate": 93.8,
-          "winRate": 60.0
-        },
-        {
           "name": "Bloodletter's Curse",
-          "count": 7,
-          "pickRate": 43.8,
-          "winRate": 57.1
-        },
-        {
-          "name": "Riftmaker",
-          "count": 5,
-          "pickRate": 31.2,
-          "winRate": 60.0
-        },
-        {
-          "name": "Shadowflame",
-          "count": 4,
-          "pickRate": 25.0,
-          "winRate": 25.0
-        },
-        {
-          "name": "Rabadon's Deathcap",
           "count": 2,
-          "pickRate": 12.5,
-          "winRate": 50.0
+          "pickRate": 100.0,
+          "winRate": 0.0
         },
         {
-          "name": "Zhonya's Hourglass",
+          "name": "Liandry's Torment",
           "count": 2,
-          "pickRate": 12.5,
-          "winRate": 100.0
+          "pickRate": 100.0,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 10,
-          "pickRate": 62.5,
-          "winRate": 70.0
-        },
-        {
-          "name": "First Strike",
-          "count": 3,
-          "pickRate": 18.8,
+          "count": 2,
+          "pickRate": 100.0,
           "winRate": 0.0
-        },
+        }
+      ],
+      "summonerSpells": [
         {
-          "name": "Conqueror",
-          "count": 3,
-          "pickRate": 18.8,
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.0,
+      "kda": 2.1,
+      "avgDamage": 24244
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
           "winRate": 100.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 13,
-          "pickRate": 81.2,
-          "winRate": 61.5
-        },
-        {
-          "spells": "Flash+Ignite",
-          "count": 3,
-          "pickRate": 18.8,
-          "winRate": 66.7
-        }
-      ],
-      "avgKills": 5.4,
-      "avgDeaths": 5.7,
-      "avgAssists": 7.7,
-      "kda": 2.3,
-      "avgDamage": 32632
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Hollow Radiance",
-          "count": 14,
-          "pickRate": 87.5,
-          "winRate": 42.9
-        },
-        {
-          "name": "Jak'Sho, The Protean",
-          "count": 9,
-          "pickRate": 56.2,
-          "winRate": 44.4
-        },
-        {
-          "name": "Unending Despair",
-          "count": 8,
-          "pickRate": 50.0,
-          "winRate": 37.5
-        },
-        {
-          "name": "Randuin's Omen",
-          "count": 4,
-          "pickRate": 25.0,
-          "winRate": 25.0
-        },
-        {
-          "name": "Kaenic Rookern",
           "count": 2,
-          "pickRate": 12.5,
-          "winRate": 0.0
-        },
-        {
-          "name": "Thornmail",
-          "count": 2,
-          "pickRate": 12.5,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Grasp of the Undying",
-          "count": 15,
-          "pickRate": 93.8,
-          "winRate": 40.0
-        }
-      ],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 16,
           "pickRate": 100.0,
-          "winRate": 37.5
+          "winRate": 100.0
         }
       ],
-      "avgKills": 2.2,
-      "avgDeaths": 5.0,
-      "avgAssists": 8.1,
-      "kda": 2.06,
-      "avgDamage": 18002
+      "avgKills": 3.0,
+      "avgDeaths": 4.0,
+      "avgAssists": 9.0,
+      "kda": 3.0,
+      "avgDamage": 13084
     }
   }
 }

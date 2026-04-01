@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:46.193390",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:14.641568",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -687,
-      "avg_xp_diff": -177,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -173,
+      "avg_xp_diff": 29,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1478,
-      "avg_xp_diff": -589,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -520,
+      "avg_xp_diff": 162,
+      "avg_cs_diff": 17.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1592,
-      "avg_xp_diff": -936,
-      "avg_cs_diff": 6.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -374,
+      "avg_xp_diff": 90,
+      "avg_cs_diff": 25.2,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2422,
-      "avg_xp_diff": -2062,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 1615,
+      "avg_xp_diff": 2283,
+      "avg_cs_diff": 43.8,
+      "sample_frames": 8,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,88 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 1.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 0.0,
-        "kda": 0.2,
-        "avgDamage": 5650
+        "avgDeaths": 3.5,
+        "avgAssists": 3.5,
+        "kda": 1.29,
+        "avgDamage": 8597
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 2.0,
-        "kda": 0.29,
-        "avgDamage": 6729
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 3.5,
+        "kda": 1.5,
+        "avgDamage": 7724
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 5.0,
-        "kda": 9.0,
-        "avgDamage": 4729
+        "avgKills": 2.5,
+        "avgDeaths": 1.5,
+        "avgAssists": 4.0,
+        "kda": 4.33,
+        "avgDamage": 6264
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 12.0,
-        "kda": 12.0,
-        "avgDamage": 4718
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 2.0,
+        "avgAssists": 7.0,
+        "kda": 4.0,
+        "avgDamage": 4722
       }
     }
   }

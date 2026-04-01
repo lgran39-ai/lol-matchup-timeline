@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:49.828845",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:17.919949",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 527,
-      "avg_xp_diff": 257,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 577,
+      "avg_xp_diff": 110,
+      "avg_cs_diff": 3.1,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1212,
-      "avg_xp_diff": 598,
-      "avg_cs_diff": 13.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1084,
+      "avg_xp_diff": 167,
+      "avg_cs_diff": 8.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1493,
-      "avg_xp_diff": 476,
-      "avg_cs_diff": 11.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 1899,
+      "avg_xp_diff": 852,
+      "avg_cs_diff": 13.3,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3016,
-      "avg_xp_diff": 2123,
-      "avg_cs_diff": 34.0,
-      "sample_frames": 6,
+      "avg_gold_diff": 2010,
+      "avg_xp_diff": 1406,
+      "avg_cs_diff": 22.4,
+      "sample_frames": 16,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1919,
+      "avg_xp_diff": -3388,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 10.0,
-        "kda": 15.0,
-        "avgDamage": 16577
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 8.5,
+        "kda": 3.71,
+        "avgDamage": 21154
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 18.0,
-        "kda": 19.0,
-        "avgDamage": 7034
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 3.0,
+        "avgAssists": 14.0,
+        "kda": 5.17,
+        "avgDamage": 8812
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
         "avgDeaths": 5.0,
-        "avgAssists": 2.0,
-        "kda": 0.6,
-        "avgDamage": 11154
+        "avgAssists": 6.0,
+        "kda": 1.4,
+        "avgDamage": 12228
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 1.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 1.0,
-        "kda": 0.18,
-        "avgDamage": 6925
+        "avgDeaths": 8.5,
+        "avgAssists": 9.0,
+        "kda": 1.18,
+        "avgDamage": 7516
       }
     }
   }

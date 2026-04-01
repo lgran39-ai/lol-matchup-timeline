@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:50.901995",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:18.968581",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -325,
-      "avg_xp_diff": -77,
-      "avg_cs_diff": -1.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -200,
+      "avg_xp_diff": -38,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -700,
-      "avg_xp_diff": -276,
-      "avg_cs_diff": -11.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -601,
+      "avg_xp_diff": -258,
+      "avg_cs_diff": -12.7,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1175,
-      "avg_xp_diff": -266,
-      "avg_cs_diff": -20.4,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -712,
+      "avg_xp_diff": -69,
+      "avg_cs_diff": -14.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2344,
-      "avg_xp_diff": -343,
-      "avg_cs_diff": -44.9,
-      "sample_frames": 8,
+      "avg_gold_diff": -2470,
+      "avg_xp_diff": -449,
+      "avg_cs_diff": -27.2,
+      "sample_frames": 15,
       "advantage": -2
     }
   ],
@@ -56,45 +56,114 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
         "avgDeaths": 2.0,
         "avgAssists": 5.0,
-        "kda": 5.5,
-        "avgDamage": 9560
+        "kda": 4.0,
+        "avgDamage": 8926
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 13.0,
-        "kda": 2.33,
-        "avgDamage": 5383
+        "avgKills": 0.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 11.5,
+        "kda": 2.4,
+        "avgDamage": 5703
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 7.0,
+        "avgKills": 6.0,
         "avgDeaths": 3.0,
-        "avgAssists": 3.0,
-        "kda": 3.33,
-        "avgDamage": 14507
+        "avgAssists": 2.5,
+        "kda": 2.83,
+        "avgDamage": 12206
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 7.0,
-        "kda": 2.0,
-        "avgDamage": 13175
+        "items": [
+          {
+            "name": "Sundered Sky",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Conqueror",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 9.0,
+        "kda": 2.56,
+        "avgDamage": 14262
       }
     }
   }

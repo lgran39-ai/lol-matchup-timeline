@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:50.171821",
+  "updated_at": "2026-04-02T00:39:18.227211",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 81,
-      "avg_xp_diff": -176,
-      "avg_cs_diff": -5.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 152,
+      "avg_xp_diff": -79,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 298,
-      "avg_xp_diff": -161,
-      "avg_cs_diff": -7.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 136,
+      "avg_xp_diff": -10,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 264,
-      "avg_xp_diff": -93,
-      "avg_cs_diff": -18.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -216,
+      "avg_xp_diff": 10,
+      "avg_cs_diff": -4.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2306,
-      "avg_xp_diff": 705,
-      "avg_cs_diff": -31.4,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -472,
+      "avg_xp_diff": 199,
+      "avg_cs_diff": -17.9,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2922,
-      "avg_xp_diff": 1707,
-      "avg_cs_diff": -44.8,
-      "sample_frames": 6,
-      "advantage": 2
+      "avg_gold_diff": -231,
+      "avg_xp_diff": 704,
+      "avg_cs_diff": -40.6,
+      "sample_frames": 11,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,127 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 19.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 10.0,
-        "kda": 5.8,
-        "avgDamage": 53644
+        "avgKills": 13.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 9.5,
+        "kda": 3.46,
+        "avgDamage": 42966
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 28.0,
-        "kda": 4.83,
-        "avgDamage": 11425
+        "avgDeaths": 5.0,
+        "avgAssists": 23.5,
+        "kda": 4.9,
+        "avgDamage": 9816
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 10.0,
+        "items": [
+          {
+            "name": "Bloodthirster",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 9.5,
+        "avgDeaths": 6.0,
         "avgAssists": 6.0,
-        "kda": 1.4,
-        "avgDamage": 40180
+        "kda": 2.58,
+        "avgDamage": 45102
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 9.0,
+        "avgKills": 0.5,
+        "avgDeaths": 9.5,
         "avgAssists": 11.0,
-        "kda": 1.22,
-        "avgDamage": 9093
+        "kda": 1.21,
+        "avgDamage": 7976
       }
     }
   }

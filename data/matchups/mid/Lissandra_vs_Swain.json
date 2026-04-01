@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 4,
-  "overall_winrate_a": 25.0,
-  "updated_at": "2026-04-01T11:13:42.260982",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-04-02T00:39:10.787895",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 21,
-      "avg_xp_diff": 45,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 20,
+      "avg_gold_diff": -7,
+      "avg_xp_diff": 23,
+      "avg_cs_diff": 0.3,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -34,
-      "avg_xp_diff": 34,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 20,
+      "avg_gold_diff": -3,
+      "avg_xp_diff": 24,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -213,
-      "avg_xp_diff": -174,
-      "avg_cs_diff": -1.1,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": -139,
+      "avg_xp_diff": -159,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -125,
-      "avg_xp_diff": -469,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 32,
-      "advantage": 0
+      "avg_gold_diff": 269,
+      "avg_xp_diff": 72,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 42,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 423,
-      "avg_xp_diff": -441,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 1505,
+      "avg_xp_diff": 1545,
+      "avg_cs_diff": 24.8,
+      "sample_frames": 10,
       "advantage": 2
     }
   ],
@@ -58,13 +58,19 @@
         {
           "name": "Spellslinger's Shoes",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 60.0,
           "winRate": 33.3
         },
         {
           "name": "Shadowflame",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
@@ -72,72 +78,84 @@
         {
           "name": "Arcane Comet",
           "count": 3,
-          "pickRate": 75.0,
+          "pickRate": 60.0,
           "winRate": 33.3
+        },
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
-          "spells": "Flash+Ignite",
-          "count": 2,
-          "pickRate": 50.0,
-          "winRate": 0.0
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
         },
         {
-          "spells": "Flash+Teleport",
+          "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 50.0,
-          "winRate": 50.0
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 5.5,
-      "avgAssists": 6.8,
-      "kda": 2.05,
-      "avgDamage": 20674
+      "avgKills": 4.6,
+      "avgDeaths": 4.8,
+      "avgAssists": 8.0,
+      "kda": 2.62,
+      "avgDamage": 21462
     },
     "champB": {
       "items": [
         {
           "name": "Chainlaced Crushers",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         },
         {
           "name": "Blackfire Torch",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         },
         {
           "name": "Rylai's Crystal Scepter",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Summon Aery",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 100.0
+        },
+        {
+          "spells": "Flash+Ghost",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 9.0,
-      "kda": 3.33,
-      "avgDamage": 23068
+      "avgKills": 5.4,
+      "avgDeaths": 4.6,
+      "avgAssists": 7.6,
+      "kda": 2.83,
+      "avgDamage": 21388
     }
   }
 }

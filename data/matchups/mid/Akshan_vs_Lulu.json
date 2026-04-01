@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-04-01T11:13:38.990601",
+  "updated_at": "2026-04-02T00:39:07.608997",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 35,
+      "avg_gold_diff": 32,
       "avg_xp_diff": 12,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 5,
+      "avg_cs_diff": 2.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 161,
-      "avg_xp_diff": -75,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 534,
+      "avg_xp_diff": 114,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1436,
-      "avg_xp_diff": -85,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1781,
+      "avg_xp_diff": 325,
+      "avg_cs_diff": 11.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 4446,
-      "avg_xp_diff": 759,
-      "avg_cs_diff": 7.6,
-      "sample_frames": 11,
+      "avg_gold_diff": 3319,
+      "avg_xp_diff": 294,
+      "avg_cs_diff": 19.0,
+      "sample_frames": 21,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4273,
+      "avg_xp_diff": 1810,
+      "avg_cs_diff": 43.3,
+      "sample_frames": 3,
       "advantage": 2
     }
   ],
@@ -45,24 +54,52 @@
   "champB": "Lulu",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 14.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 5.0,
-      "kda": 9.5,
-      "avgDamage": 22171
+      "items": [
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 15.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 6.0,
+      "kda": 3.82,
+      "avgDamage": 25554
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 6.0,
-      "kda": 1.75,
-      "avgDamage": 11625
+      "avgKills": 3.0,
+      "avgDeaths": 5.5,
+      "avgAssists": 9.5,
+      "kda": 2.27,
+      "avgDamage": 15550
     }
   }
 }

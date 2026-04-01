@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-04-01T11:13:46.387476",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-02T00:39:14.859657",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 195,
-      "avg_xp_diff": 113,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -85,
+      "avg_xp_diff": 105,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 268,
-      "avg_xp_diff": 252,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -330,
+      "avg_xp_diff": 89,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -993,
-      "avg_xp_diff": -143,
-      "avg_cs_diff": -19.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -962,
+      "avg_xp_diff": 105,
+      "avg_cs_diff": -7.8,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2636,
-      "avg_xp_diff": -1280,
-      "avg_cs_diff": -35.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": 93,
+      "avg_xp_diff": 1007,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 7,
+      "advantage": 0
     }
   ],
   "type": "bot_2v2",
@@ -57,44 +57,86 @@
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 3.0,
-        "kda": 1.4,
-        "avgDamage": 12430
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 4.0,
+        "kda": 1.75,
+        "avgDamage": 9914
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 8.0,
-        "kda": 2.0,
-        "avgDamage": 4909
+        "avgDeaths": 2.5,
+        "avgAssists": 8.5,
+        "kda": 3.4,
+        "avgDamage": 4887
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 6.0,
-        "kda": 6.0,
-        "avgDamage": 13247
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 2.5,
+        "avgAssists": 3.0,
+        "kda": 3.2,
+        "avgDamage": 9869
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 10.0,
-        "kda": 2.2,
-        "avgDamage": 3520
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 7.0,
+        "kda": 1.88,
+        "avgDamage": 3136
       }
     }
   }
