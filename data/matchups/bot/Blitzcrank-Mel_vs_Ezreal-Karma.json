@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:12.093879",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:47.574658",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": -24,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 58,
+      "avg_xp_diff": -22,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -683,
-      "avg_xp_diff": -40,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -631,
+      "avg_xp_diff": -82,
+      "avg_cs_diff": 6.2,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -503,
-      "avg_xp_diff": 448,
-      "avg_cs_diff": 20.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -455,
+      "avg_xp_diff": 387,
+      "avg_cs_diff": 16.7,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 572,
-      "avg_xp_diff": 726,
-      "avg_cs_diff": 15.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 611,
+      "avg_xp_diff": 873,
+      "avg_cs_diff": 20.6,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1107,
-      "avg_xp_diff": -1289,
-      "avg_cs_diff": -21.7,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -517,
+      "avg_xp_diff": -1112,
+      "avg_cs_diff": 9.4,
+      "sample_frames": 20,
+      "advantage": -1
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,146 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Rabadon's Deathcap",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Horizon Focus",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 14.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 3.0,
-        "kda": 2.12,
-        "avgDamage": 32067
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 15.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 8.0,
+        "kda": 4.7,
+        "avgDamage": 41396
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 0.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 17.0,
-        "kda": 2.43,
-        "avgDamage": 11451
+        "avgDeaths": 8.5,
+        "avgAssists": 21.5,
+        "kda": 2.53,
+        "avgDamage": 11101
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 9.0,
-        "kda": 2.86,
-        "avgDamage": 34394
+        "items": [
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 14.5,
+        "avgDeaths": 8.0,
+        "avgAssists": 7.5,
+        "kda": 2.75,
+        "avgDamage": 47342
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 22.0,
-        "kda": 3.67,
-        "avgDamage": 17707
+        "items": [
+          {
+            "name": "Shurelya's Battlesong",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Moonstone Renewer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 22.5,
+        "kda": 2.94,
+        "avgDamage": 18386
       }
     }
   }

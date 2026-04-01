@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:05.772259",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-04-01T11:13:38.659370",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -151,
-      "avg_xp_diff": 7,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -53,
+      "avg_xp_diff": -18,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 344,
-      "avg_xp_diff": 856,
-      "avg_cs_diff": 16.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 253,
+      "avg_xp_diff": 445,
+      "avg_cs_diff": 9.3,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 650,
-      "avg_xp_diff": 1746,
-      "avg_cs_diff": 30.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 792,
+      "avg_xp_diff": 1220,
+      "avg_cs_diff": 20.4,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1402,
-      "avg_xp_diff": 2156,
-      "avg_cs_diff": 40.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 1400,
+      "avg_xp_diff": 1357,
+      "avg_cs_diff": 25.2,
+      "sample_frames": 31,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1044,
-      "avg_xp_diff": -450,
-      "avg_cs_diff": 36.0,
-      "sample_frames": 14,
+      "avg_gold_diff": 1101,
+      "avg_xp_diff": -423,
+      "avg_cs_diff": 32.0,
+      "sample_frames": 20,
       "advantage": 2
     }
   ],
@@ -54,24 +54,71 @@
   "champB": "Lissandra",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Sundered Sky",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 7.0,
-      "kda": 1.5,
-      "avgDamage": 34403
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 5.0,
+      "avgAssists": 6.3,
+      "kda": 2.53,
+      "avgDamage": 28476
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 22.0,
-      "kda": 3.86,
-      "avgDamage": 34565
+      "items": [
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 11.0,
+      "kda": 3.06,
+      "avgDamage": 25812
     }
   }
 }

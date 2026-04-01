@@ -1,44 +1,53 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:20.346599",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-03-30T21:10:03.750247",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -108,
-      "avg_xp_diff": -26,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -34,
+      "avg_xp_diff": -11,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -509,
-      "avg_xp_diff": -200,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -228,
+      "avg_xp_diff": -147,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -946,
-      "avg_xp_diff": -718,
-      "avg_cs_diff": -16.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -830,
+      "avg_xp_diff": -943,
+      "avg_cs_diff": -14.2,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -59,
-      "avg_xp_diff": 170,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 7,
-      "advantage": 0
+      "avg_gold_diff": -1935,
+      "avg_xp_diff": -2399,
+      "avg_cs_diff": -33.1,
+      "sample_frames": 33,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -6071,
+      "avg_xp_diff": -7027,
+      "avg_cs_diff": -77.4,
+      "sample_frames": 8,
+      "advantage": -2
     }
   ],
   "champA": "Khazix",
@@ -48,63 +57,93 @@
       "items": [
         {
           "name": "Umbral Glaive",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Bastionbreaker",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
         }
       ],
       "keystones": [
         {
           "name": "First Strike",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 20.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 20.0
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 2.5,
-      "kda": 2.2,
-      "avgDamage": 6493
+      "avgKills": 3.4,
+      "avgDeaths": 5.6,
+      "avgAssists": 4.2,
+      "kda": 1.36,
+      "avgDamage": 11857
     },
     "champB": {
       "items": [
         {
           "name": "Hubris",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Axiom Arc",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Umbral Glaive",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "First Strike",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 80.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.0,
-      "kda": 2.17,
-      "avgDamage": 8831
+      "avgKills": 9.4,
+      "avgDeaths": 2.0,
+      "avgAssists": 4.8,
+      "kda": 7.1,
+      "avgDamage": 16484
     }
   }
 }

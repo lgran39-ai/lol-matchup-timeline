@@ -1,75 +1,130 @@
 {
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:07.903850",
+  "updated_at": "2026-04-01T11:13:41.597760",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -144,
-      "avg_xp_diff": -128,
+      "avg_gold_diff": -128,
+      "avg_xp_diff": -134,
       "avg_cs_diff": -0.7,
-      "sample_frames": 10,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -443,
-      "avg_xp_diff": -512,
-      "avg_cs_diff": -2.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -626,
+      "avg_xp_diff": -793,
+      "avg_cs_diff": -7.2,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -540,
-      "avg_xp_diff": -732,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 10,
+      "avg_gold_diff": -708,
+      "avg_xp_diff": -919,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -302,
-      "avg_xp_diff": -630,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 18,
-      "advantage": -1
+      "avg_gold_diff": -717,
+      "avg_xp_diff": -670,
+      "avg_cs_diff": -2.8,
+      "sample_frames": 28,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -683,
+      "avg_xp_diff": 564,
+      "avg_cs_diff": 32.5,
+      "sample_frames": 11,
+      "advantage": -2
     }
   ],
   "champA": "Jayce",
   "champB": "Pantheon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 11.5,
-      "kda": 1.69,
-      "avgDamage": 16812
-    },
-    "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 9.3,
+      "avgAssists": 9.7,
+      "kda": 1.5,
+      "avgDamage": 21349
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 7.5,
-      "avgDeaths": 7.5,
-      "avgAssists": 4.5,
-      "kda": 1.6,
-      "avgDamage": 18596
+      "avgKills": 8.0,
+      "avgDeaths": 8.7,
+      "avgAssists": 7.7,
+      "kda": 1.81,
+      "avgDamage": 23813
     }
   }
 }

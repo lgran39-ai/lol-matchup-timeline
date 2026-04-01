@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:11.636237",
+  "updated_at": "2026-04-01T11:13:46.974102",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 87,
-      "avg_xp_diff": 55,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 133,
+      "avg_xp_diff": 24,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 705,
-      "avg_xp_diff": 456,
-      "avg_cs_diff": 9.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 404,
+      "avg_xp_diff": 181,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1888,
-      "avg_xp_diff": 1242,
-      "avg_cs_diff": 14.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 1245,
+      "avg_xp_diff": 948,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2353,
-      "avg_xp_diff": 1479,
-      "avg_cs_diff": 24.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 1836,
+      "avg_xp_diff": 1069,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 53,
-      "avg_xp_diff": -3360,
-      "avg_cs_diff": 45.0,
-      "sample_frames": 6,
-      "advantage": 0
+      "avg_gold_diff": -401,
+      "avg_xp_diff": -3273,
+      "avg_cs_diff": 10.8,
+      "sample_frames": 10,
+      "advantage": -1
     }
   ],
   "type": "bot_2v2",
@@ -64,46 +64,116 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 4.0,
-        "kda": 3.67,
-        "avgDamage": 17398
+        "items": [
+          {
+            "name": "Shadowflame",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 8.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 3.5,
+        "kda": 2.0,
+        "avgDamage": 20429
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 1.0,
         "avgDeaths": 7.0,
         "avgAssists": 12.0,
         "kda": 1.86,
-        "avgDamage": 6946
+        "avgDamage": 8911
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 5.0,
-        "kda": 2.33,
-        "avgDamage": 25107
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 7.5,
+        "kda": 2.23,
+        "avgDamage": 24143
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 14.0,
-        "kda": 2.8,
-        "avgDamage": 9220
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 16.0,
+        "kda": 3.67,
+        "avgDamage": 10355
       }
     }
   }

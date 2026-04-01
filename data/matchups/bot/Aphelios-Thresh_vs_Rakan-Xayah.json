@@ -2,52 +2,43 @@
   "role": "bot",
   "sample_size": 2,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-18T14:05:26.253771",
+  "updated_at": "2026-04-01T11:13:45.741699",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 32,
-      "avg_xp_diff": 104,
-      "avg_cs_diff": 3.9,
+      "avg_gold_diff": -191,
+      "avg_xp_diff": 9,
+      "avg_cs_diff": 2.0,
       "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 72,
-      "avg_xp_diff": -98,
-      "avg_cs_diff": 4.2,
+      "avg_gold_diff": -648,
+      "avg_xp_diff": -19,
+      "avg_cs_diff": 3.3,
       "sample_frames": 10,
-      "advantage": 0
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 156,
-      "avg_xp_diff": -402,
-      "avg_cs_diff": 0.8,
+      "avg_gold_diff": -1254,
+      "avg_xp_diff": -630,
+      "avg_cs_diff": -5.4,
       "sample_frames": 10,
-      "advantage": 0
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 288,
-      "avg_xp_diff": -649,
-      "avg_cs_diff": 16.4,
-      "sample_frames": 12,
-      "advantage": 0
-    },
-    {
-      "phase": "25min+",
-      "label": "late_game",
-      "avg_gold_diff": 3798,
-      "avg_xp_diff": 4102,
-      "avg_cs_diff": 53.9,
-      "sample_frames": 9,
-      "advantage": 2
+      "avg_gold_diff": -1824,
+      "avg_xp_diff": -558,
+      "avg_cs_diff": -5.1,
+      "sample_frames": 7,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -67,43 +58,64 @@
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 2.0,
-        "kda": 1.33,
-        "avgDamage": 8073
+        "avgKills": 0.5,
+        "avgDeaths": 2.5,
+        "avgAssists": 2.5,
+        "kda": 1.2,
+        "avgDamage": 8155
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
         "avgKills": 1.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 3.0,
-        "kda": 4.0,
-        "avgDamage": 4549
+        "avgDeaths": 2.5,
+        "avgAssists": 4.0,
+        "kda": 2.0,
+        "avgDamage": 3710
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 3.0,
+        "avgKills": 4.0,
+        "avgDeaths": 2.0,
         "avgAssists": 2.0,
-        "kda": 1.67,
-        "avgDamage": 10862
+        "kda": 3.0,
+        "avgDamage": 9796
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 4.0,
-        "kda": 5.0,
-        "avgDamage": 2518
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.0,
+        "avgDeaths": 1.5,
+        "avgAssists": 5.5,
+        "kda": 3.67,
+        "avgDamage": 3836
       }
     }
   }

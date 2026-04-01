@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:08.514378",
+  "sample_size": 5,
+  "overall_winrate_a": 20.0,
+  "updated_at": "2026-04-01T11:13:42.427316",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 65,
-      "avg_xp_diff": 133,
-      "avg_cs_diff": 1.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -21,
+      "avg_xp_diff": 46,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 532,
-      "avg_xp_diff": 479,
-      "avg_cs_diff": 9.9,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -107,
+      "avg_xp_diff": 194,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 875,
-      "avg_xp_diff": 526,
-      "avg_cs_diff": 15.9,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": -246,
+      "avg_xp_diff": 120,
+      "avg_cs_diff": 8.8,
+      "sample_frames": 25,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1074,
-      "avg_xp_diff": -55,
-      "avg_cs_diff": 5.7,
+      "avg_gold_diff": 74,
+      "avg_xp_diff": 369,
+      "avg_cs_diff": 16.6,
+      "sample_frames": 33,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -340,
+      "avg_xp_diff": 406,
+      "avg_cs_diff": 18.9,
       "sample_frames": 11,
-      "advantage": 2
+      "advantage": -1
     }
   ],
   "champA": "Malzahar",
@@ -48,48 +57,111 @@
       "items": [
         {
           "name": "Blackfire Torch",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
         },
         {
           "name": "Crimson Lucidity",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 5.5,
-      "kda": 3.33,
-      "avgDamage": 16765
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 4.2,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.2,
+      "kda": 2.28,
+      "avgDamage": 21292
     },
     "champB": {
       "items": [
         {
           "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Crimson Lucidity",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 40.0,
           "winRate": 50.0
+        },
+        {
+          "name": "Riftmaker",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ghost",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
+          "pickRate": 40.0,
+          "winRate": 100.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 3.0,
-      "kda": 1.4,
-      "avgDamage": 14542
+      "avgKills": 6.8,
+      "avgDeaths": 4.4,
+      "avgAssists": 5.8,
+      "kda": 2.86,
+      "avgDamage": 19146
     }
   }
 }

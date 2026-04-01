@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:21.928838",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-30T21:10:05.877518",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -602,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": -2.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -200,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -760,
-      "avg_xp_diff": 239,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -288,
+      "avg_xp_diff": -83,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1915,
-      "avg_xp_diff": -525,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1136,
+      "avg_xp_diff": -251,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3206,
-      "avg_xp_diff": -815,
-      "avg_cs_diff": -3.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -1366,
+      "avg_xp_diff": 219,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -5502,
-      "avg_xp_diff": -3211,
-      "avg_cs_diff": -11.3,
-      "sample_frames": 6,
+      "avg_gold_diff": -3065,
+      "avg_xp_diff": -585,
+      "avg_cs_diff": -11.9,
+      "sample_frames": 14,
       "advantage": -2
     }
   ],
@@ -64,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 13.0,
-        "avgAssists": 4.0,
-        "kda": 0.38,
-        "avgDamage": 17334
+        "avgKills": 1.5,
+        "avgDeaths": 10.5,
+        "avgAssists": 11.0,
+        "kda": 1.19,
+        "avgDamage": 18890
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 10.0,
-        "kda": 1.38,
-        "avgDamage": 8288
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.0,
+        "avgDeaths": 7.5,
+        "avgAssists": 12.0,
+        "kda": 1.87,
+        "avgDamage": 9384
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 14.0,
-        "kda": 4.8,
-        "avgDamage": 18461
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 13.5,
+        "kda": 4.67,
+        "avgDamage": 22034
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 14.0,
-        "kda": 2.14,
-        "avgDamage": 11113
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 9.0,
+        "avgAssists": 12.5,
+        "kda": 1.67,
+        "avgDamage": 14070
       }
     }
   }

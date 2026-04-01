@@ -1,44 +1,44 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:06.913708",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:40.257109",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -82,
-      "avg_xp_diff": -23,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -128,
+      "avg_xp_diff": -72,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -416,
-      "avg_xp_diff": -96,
-      "avg_cs_diff": -8.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -322,
+      "avg_xp_diff": -269,
+      "avg_cs_diff": -4.1,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -454,
-      "avg_xp_diff": 110,
-      "avg_cs_diff": -5.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -646,
+      "avg_xp_diff": -631,
+      "avg_cs_diff": -5.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 411,
-      "avg_xp_diff": 937,
-      "avg_cs_diff": -4.1,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 159,
+      "avg_xp_diff": 479,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 12,
+      "advantage": 1
     },
     {
       "phase": "25min+",
@@ -54,24 +54,52 @@
   "champB": "Sylas",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 13.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 16.0,
-      "kda": 3.22,
-      "avgDamage": 59452
+      "items": [
+        {
+          "name": "Warmog's Armor",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 7.0,
+      "avgAssists": 8.5,
+      "kda": 2.21,
+      "avgDamage": 35785
     },
     "champB": {
       "items": [],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 14.0,
-      "kda": 2.75,
-      "avgDamage": 48510
+      "avgKills": 6.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 8.0,
+      "kda": 3.22,
+      "avgDamage": 33620
     }
   }
 }

@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:07.394938",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:40.931182",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 8,
-      "avg_xp_diff": -27,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 19,
+      "avg_xp_diff": -12,
+      "avg_cs_diff": 1.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 458,
-      "avg_xp_diff": 205,
-      "avg_cs_diff": 7.0,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 215,
+      "avg_xp_diff": -31,
+      "avg_cs_diff": 10.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 710,
-      "avg_xp_diff": 524,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 246,
+      "avg_xp_diff": -215,
+      "avg_cs_diff": 12.4,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1491,
-      "avg_xp_diff": 1198,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 11,
+      "avg_gold_diff": 1467,
+      "avg_xp_diff": 855,
+      "avg_cs_diff": 27.0,
+      "sample_frames": 21,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1370,
+      "avg_xp_diff": -1038,
+      "avg_cs_diff": 58.0,
+      "sample_frames": 2,
       "advantage": 2
     }
   ],
@@ -45,24 +54,58 @@
   "champB": "TahmKench",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Black Cleaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 7.0,
-      "kda": 3.5,
-      "avgDamage": 25475
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.5,
+      "kda": 1.9,
+      "avgDamage": 27609
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 0.57,
-      "avgDamage": 17518
+      "avgKills": 2.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 4.0,
+      "kda": 1.3,
+      "avgDamage": 16028
     }
   }
 }

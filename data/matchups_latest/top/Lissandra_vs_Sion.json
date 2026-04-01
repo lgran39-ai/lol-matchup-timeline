@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:20.554320",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-30T21:10:03.900231",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -21,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 18,
+      "avg_xp_diff": 50,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -76,
-      "avg_xp_diff": -81,
-      "avg_cs_diff": -8.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 78,
+      "avg_xp_diff": 124,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -265,
-      "avg_xp_diff": -201,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 436,
+      "avg_xp_diff": 390,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -796,
-      "avg_xp_diff": -593,
-      "avg_cs_diff": -19.1,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 274,
+      "avg_xp_diff": 111,
+      "avg_cs_diff": -9.2,
+      "sample_frames": 20,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -819,
-      "avg_xp_diff": -412,
-      "avg_cs_diff": -26.3,
-      "sample_frames": 3,
+      "avg_gold_diff": -497,
+      "avg_xp_diff": -2718,
+      "avg_cs_diff": -32.3,
+      "sample_frames": 13,
       "advantage": -2
     }
   ],
@@ -54,24 +54,59 @@
   "champB": "Sion",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 7.0,
-      "kda": 2.67,
-      "avgDamage": 19535
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 7.0,
+      "avgAssists": 9.0,
+      "kda": 1.79,
+      "avgDamage": 26995
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.0,
-      "kda": 1.33,
-      "avgDamage": 14268
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 4.0,
+      "avgAssists": 5.0,
+      "kda": 2.12,
+      "avgDamage": 20317
     }
   }
 }

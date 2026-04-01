@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:21.808624",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-30T21:10:05.712330",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -275,
-      "avg_xp_diff": -79,
+      "avg_gold_diff": -112,
+      "avg_xp_diff": -1,
       "avg_cs_diff": -3.0,
-      "sample_frames": 5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 586,
-      "avg_xp_diff": 224,
-      "avg_cs_diff": 2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 467,
+      "avg_xp_diff": 117,
+      "avg_cs_diff": -8.1,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -386,
-      "avg_xp_diff": -463,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -216,
+      "avg_xp_diff": -71,
+      "avg_cs_diff": -7.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2752,
-      "avg_xp_diff": -2750,
-      "avg_cs_diff": -33.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -2238,
+      "avg_xp_diff": -2129,
+      "avg_cs_diff": -30.2,
+      "sample_frames": 12,
       "advantage": -2
     },
     {
@@ -64,46 +64,123 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 13.0,
-        "avgAssists": 3.0,
-        "kda": 0.46,
-        "avgDamage": 16689
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 8.0,
+        "avgAssists": 1.5,
+        "kda": 0.75,
+        "avgDamage": 12450
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 10.0,
-        "kda": 1.0,
-        "avgDamage": 9949
+        "avgDeaths": 6.0,
+        "avgAssists": 11.0,
+        "kda": 2.0,
+        "avgDamage": 7709
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 13.0,
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.5,
         "avgDeaths": 3.0,
-        "avgAssists": 15.0,
-        "kda": 9.33,
-        "avgDamage": 40868
+        "avgAssists": 8.5,
+        "kda": 5.33,
+        "avgDamage": 25358
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 25.0,
-        "kda": 28.0,
-        "avgDamage": 10538
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 2.0,
+        "avgAssists": 14.0,
+        "kda": 8.25,
+        "avgDamage": 8393
       }
     }
   }

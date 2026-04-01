@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:08.058310",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:41.801421",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 384,
-      "avg_xp_diff": 32,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 135,
+      "avg_xp_diff": 51,
+      "avg_cs_diff": 1.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 580,
-      "avg_xp_diff": 412,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 384,
+      "avg_xp_diff": 154,
+      "avg_cs_diff": 6.3,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 916,
-      "avg_xp_diff": 926,
-      "avg_cs_diff": 23.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 937,
+      "avg_xp_diff": 411,
+      "avg_cs_diff": 17.2,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 864,
-      "avg_xp_diff": 546,
-      "avg_cs_diff": 34.4,
-      "sample_frames": 8,
+      "avg_gold_diff": 1797,
+      "avg_xp_diff": 504,
+      "avg_cs_diff": 34.8,
+      "sample_frames": 20,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2095,
+      "avg_xp_diff": -1536,
+      "avg_cs_diff": 26.3,
+      "sample_frames": 3,
       "advantage": 2
     }
   ],
@@ -45,24 +54,78 @@
   "champB": "Skarner",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 1.25,
-      "avgDamage": 10744
+      "items": [
+        {
+          "name": "Blackfire Torch",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 5.7,
+      "avgDeaths": 6.0,
+      "avgAssists": 5.7,
+      "kda": 1.89,
+      "avgDamage": 20689
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 9.0,
-      "kda": 6.5,
-      "avgDamage": 10067
+      "items": [
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 2.3,
+      "avgAssists": 10.0,
+      "kda": 5.71,
+      "avgDamage": 8498
     }
   }
 }

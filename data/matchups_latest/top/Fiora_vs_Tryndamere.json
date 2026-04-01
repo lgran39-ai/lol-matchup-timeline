@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-29T12:05:19.700334",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-30T21:10:02.771262",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -261,
-      "avg_xp_diff": -146,
-      "avg_cs_diff": -4.5,
-      "sample_frames": 15,
-      "advantage": -1
+      "avg_gold_diff": -138,
+      "avg_xp_diff": -79,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -818,
-      "avg_xp_diff": -552,
-      "avg_cs_diff": -17.0,
-      "sample_frames": 15,
+      "avg_gold_diff": -638,
+      "avg_xp_diff": -548,
+      "avg_cs_diff": -12.3,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -909,
-      "avg_xp_diff": -877,
-      "avg_cs_diff": -22.1,
-      "sample_frames": 15,
+      "avg_gold_diff": -1125,
+      "avg_xp_diff": -1281,
+      "avg_cs_diff": -22.5,
+      "sample_frames": 25,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1036,
-      "avg_xp_diff": -837,
-      "avg_cs_diff": -22.5,
-      "sample_frames": 30,
+      "avg_gold_diff": -1720,
+      "avg_xp_diff": -1558,
+      "avg_cs_diff": -28.0,
+      "sample_frames": 49,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1873,
-      "avg_xp_diff": -1193,
-      "avg_cs_diff": -29.5,
-      "sample_frames": 17,
+      "avg_gold_diff": -1996,
+      "avg_xp_diff": -1442,
+      "avg_cs_diff": -26.9,
+      "sample_frames": 19,
       "advantage": -2
     }
   ],
@@ -57,68 +57,93 @@
       "items": [
         {
           "name": "Ravenous Hydra",
-          "count": 3,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 40.0
         },
         {
           "name": "Trinity Force",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 66.7
-        }
-      ],
-      "keystones": [],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Ignite",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 66.7
-        }
-      ],
-      "avgKills": 7.0,
-      "avgDeaths": 6.7,
-      "avgAssists": 4.7,
-      "kda": 1.75,
-      "avgDamage": 25034
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Profane Hydra",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
-        },
-        {
-          "name": "The Collector",
-          "count": 2,
-          "pickRate": 66.7,
+          "count": 4,
+          "pickRate": 80.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
-          "name": "Hail of Blades",
-          "count": 3,
-          "pickRate": 100.0,
-          "winRate": 33.3
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 0.0
+          "count": 5,
+          "pickRate": 100.0,
+          "winRate": 40.0
         }
       ],
-      "avgKills": 10.0,
-      "avgDeaths": 6.3,
-      "avgAssists": 3.3,
-      "kda": 2.11,
-      "avgDamage": 26985
+      "avgKills": 4.8,
+      "avgDeaths": 7.0,
+      "avgAssists": 2.8,
+      "kda": 1.09,
+      "avgDamage": 21088
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "The Collector",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Ravenous Hydra",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 8.8,
+      "avgDeaths": 5.0,
+      "avgAssists": 3.0,
+      "kda": 2.36,
+      "avgDamage": 24916
     }
   }
 }

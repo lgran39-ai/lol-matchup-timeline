@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:07.387954",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:40.921559",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 122,
-      "avg_xp_diff": 70,
-      "avg_cs_diff": 5.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 22,
+      "avg_xp_diff": 17,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 711,
-      "avg_xp_diff": 370,
-      "avg_cs_diff": 21.2,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 46,
+      "avg_xp_diff": -7,
+      "avg_cs_diff": 6.1,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1412,
-      "avg_xp_diff": 1157,
-      "avg_cs_diff": 37.3,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 261,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 10.4,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2118,
-      "avg_xp_diff": 1266,
-      "avg_cs_diff": 51.5,
-      "sample_frames": 12,
+      "avg_gold_diff": 422,
+      "avg_xp_diff": -317,
+      "avg_cs_diff": 16.4,
+      "sample_frames": 18,
       "advantage": 2
     },
     {
@@ -54,12 +54,19 @@
   "champB": "Sejuani",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Wit's End",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Fleet Footwork",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
@@ -67,32 +74,52 @@
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 1.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 1.5,
-      "kda": 0.86,
-      "avgDamage": 19726
+      "avgKills": 1.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 1.7,
+      "kda": 0.53,
+      "avgDamage": 17093
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Protoplasm Harness",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Arcane Comet",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Teleport+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 8.5,
-      "kda": 5.25,
-      "avgDamage": 9614
+      "avgKills": 4.3,
+      "avgDeaths": 2.3,
+      "avgAssists": 6.3,
+      "kda": 4.57,
+      "avgDamage": 11500
     }
   }
 }

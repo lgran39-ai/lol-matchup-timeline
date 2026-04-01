@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:14.984545",
+  "updated_at": "2026-04-01T11:13:51.913267",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -229,
-      "avg_xp_diff": -33,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -101,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -1573,
-      "avg_xp_diff": -418,
-      "avg_cs_diff": -14.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1081,
+      "avg_xp_diff": -397,
+      "avg_cs_diff": -9.9,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -3855,
-      "avg_xp_diff": -1621,
-      "avg_cs_diff": -29.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -2576,
+      "avg_xp_diff": -1161,
+      "avg_cs_diff": -14.5,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4711,
-      "avg_xp_diff": -1991,
-      "avg_cs_diff": -32.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -4298,
+      "avg_xp_diff": -3019,
+      "avg_cs_diff": -15.2,
+      "sample_frames": 12,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -8469,
+      "avg_xp_diff": -7139,
+      "avg_cs_diff": -28.7,
+      "sample_frames": 3,
       "advantage": -2
     }
   ],
@@ -58,43 +67,105 @@
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 0.0,
-        "kda": 0.0,
-        "avgDamage": 6511
+        "avgKills": 1.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 1.0,
+        "kda": 0.25,
+        "avgDamage": 11970
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 0.0,
-        "kda": 0.0,
-        "avgDamage": 6639
+        "avgDeaths": 6.0,
+        "avgAssists": 2.0,
+        "kda": 0.33,
+        "avgDamage": 6426
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 1.0,
-        "kda": 9.0,
-        "avgDamage": 10960
+        "items": [
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 11.0,
+        "avgDeaths": 0.5,
+        "avgAssists": 5.5,
+        "kda": 33.0,
+        "avgDamage": 21635
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 9.0,
-        "kda": 9.0,
-        "avgDamage": 4951
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 1.5,
+        "avgAssists": 15.0,
+        "kda": 10.33,
+        "avgDamage": 5964
       }
     }
   }

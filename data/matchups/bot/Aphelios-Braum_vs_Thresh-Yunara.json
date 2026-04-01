@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:10.416819",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:45.217568",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 170,
-      "avg_xp_diff": 309,
-      "avg_cs_diff": 2.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 94,
+      "avg_xp_diff": 161,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 758,
-      "avg_xp_diff": 887,
-      "avg_cs_diff": 8.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 541,
+      "avg_xp_diff": 619,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2151,
-      "avg_xp_diff": 1467,
-      "avg_cs_diff": 10.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 980,
+      "avg_xp_diff": 981,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 3497,
-      "avg_xp_diff": 1884,
-      "avg_cs_diff": 13.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -116,
+      "avg_xp_diff": 101,
+      "avg_cs_diff": 1.5,
+      "sample_frames": 12,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1815,
+      "avg_xp_diff": -677,
+      "avg_cs_diff": 41.4,
+      "sample_frames": 11,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,116 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 1.0,
+        "items": [
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Conqueror",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 2.5,
         "avgAssists": 6.0,
-        "kda": 10.0,
-        "avgDamage": 11385
+        "kda": 4.4,
+        "avgDamage": 26759
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 9.0,
-        "kda": 10.0,
-        "avgDamage": 3864
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 1.5,
+        "avgAssists": 11.0,
+        "kda": 8.33,
+        "avgDamage": 6683
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 0.0,
-        "kda": 0.0,
-        "avgDamage": 6652
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 2.5,
+        "avgAssists": 4.5,
+        "kda": 4.4,
+        "avgDamage": 23252
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 0.0,
-        "kda": 0.0,
-        "avgDamage": 4855
+        "avgKills": 1.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 8.5,
+        "kda": 1.9,
+        "avgDamage": 6090
       }
     }
   }

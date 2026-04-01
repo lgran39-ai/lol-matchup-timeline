@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:20.389868",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-30T21:10:03.790278",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -21,
-      "avg_xp_diff": -23,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -84,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 253,
-      "avg_xp_diff": 263,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -95,
+      "avg_xp_diff": -113,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 168,
-      "avg_xp_diff": -39,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 5,
-      "advantage": 1
-    },
-    {
-      "phase": "15-25min",
-      "label": "mid_game",
-      "avg_gold_diff": -220,
-      "avg_xp_diff": -178,
-      "avg_cs_diff": -3.4,
+      "avg_gold_diff": -269,
+      "avg_xp_diff": -317,
+      "avg_cs_diff": 0.8,
       "sample_frames": 10,
       "advantage": -1
     },
     {
+      "phase": "15-25min",
+      "label": "mid_game",
+      "avg_gold_diff": -685,
+      "avg_xp_diff": -223,
+      "avg_cs_diff": -2.0,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -748,
-      "avg_xp_diff": -917,
-      "avg_cs_diff": -35.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -729,
+      "avg_xp_diff": -35,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 15,
       "advantage": -2
     }
   ],
@@ -54,24 +54,76 @@
   "champB": "TwistedFate",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 11.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 14.0,
-      "kda": 8.33,
-      "avgDamage": 24176
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 9.5,
+      "avgDeaths": 6.5,
+      "avgAssists": 10.0,
+      "kda": 3.0,
+      "avgDamage": 29156
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Rapid Firecannon",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lich Bane",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Unsealed Spellbook",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 5.0,
-      "kda": 1.43,
-      "avgDamage": 22568
+      "avgKills": 6.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 11.0,
+      "kda": 3.5,
+      "avgDamage": 26086
     }
   }
 }

@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 7,
-  "overall_winrate_a": 28.6,
-  "updated_at": "2026-03-29T12:05:09.196644",
+  "sample_size": 8,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-04-01T11:13:43.432404",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 30,
-      "avg_xp_diff": 14,
-      "avg_cs_diff": 0.5,
-      "sample_frames": 35,
+      "avg_gold_diff": 14,
+      "avg_xp_diff": -12,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 40,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -95,
-      "avg_xp_diff": -122,
-      "avg_cs_diff": 0.5,
-      "sample_frames": 35,
-      "advantage": 0
+      "avg_gold_diff": -155,
+      "avg_xp_diff": -118,
+      "avg_cs_diff": -1.0,
+      "sample_frames": 40,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -504,
-      "avg_xp_diff": -429,
-      "avg_cs_diff": -3.5,
-      "sample_frames": 35,
+      "avg_gold_diff": -582,
+      "avg_xp_diff": -407,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 40,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -863,
-      "avg_xp_diff": -922,
-      "avg_cs_diff": -16.2,
-      "sample_frames": 40,
+      "avg_gold_diff": -1011,
+      "avg_xp_diff": -978,
+      "avg_cs_diff": -16.8,
+      "sample_frames": 50,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3118,
+      "avg_xp_diff": -4271,
+      "avg_cs_diff": -52.2,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
@@ -48,75 +57,81 @@
       "items": [
         {
           "name": "Protoplasm Harness",
-          "count": 6,
-          "pickRate": 85.7,
-          "winRate": 33.3
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 28.6
         },
         {
           "name": "Zeke's Convergence",
           "count": 2,
-          "pickRate": 28.6,
+          "pickRate": 25.0,
           "winRate": 0.0
+        },
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 25.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Guardian",
           "count": 7,
-          "pickRate": 100.0,
+          "pickRate": 87.5,
           "winRate": 28.6
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 7,
+          "count": 8,
           "pickRate": 100.0,
-          "winRate": 28.6
+          "winRate": 25.0
         }
       ],
       "avgKills": 2.4,
-      "avgDeaths": 3.3,
-      "avgAssists": 5.1,
-      "kda": 2.3,
-      "avgDamage": 6919
+      "avgDeaths": 4.2,
+      "avgAssists": 5.8,
+      "kda": 1.91,
+      "avgDamage": 7767
     },
     "champB": {
       "items": [
         {
           "name": "Sundered Sky",
-          "count": 6,
-          "pickRate": 85.7,
-          "winRate": 83.3
+          "count": 7,
+          "pickRate": 87.5,
+          "winRate": 85.7
         },
         {
           "name": "Black Cleaver",
-          "count": 5,
-          "pickRate": 71.4,
-          "winRate": 80.0
+          "count": 6,
+          "pickRate": 75.0,
+          "winRate": 83.3
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 7,
+          "count": 8,
           "pickRate": 100.0,
-          "winRate": 71.4
+          "winRate": 75.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 7,
+          "count": 8,
           "pickRate": 100.0,
-          "winRate": 71.4
+          "winRate": 75.0
         }
       ],
-      "avgKills": 5.7,
-      "avgDeaths": 1.9,
-      "avgAssists": 5.6,
-      "kda": 6.08,
-      "avgDamage": 10930
+      "avgKills": 6.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 7.4,
+      "kda": 6.69,
+      "avgDamage": 13089
     }
   }
 }

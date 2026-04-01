@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:20.576392",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-30T21:10:03.932250",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 207,
-      "avg_xp_diff": 108,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -15,
+      "avg_xp_diff": -50,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 816,
-      "avg_xp_diff": 709,
-      "avg_cs_diff": 36.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 256,
+      "avg_xp_diff": 272,
+      "avg_cs_diff": 16.1,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1439,
-      "avg_xp_diff": 1919,
-      "avg_cs_diff": 48.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 838,
+      "avg_xp_diff": 1315,
+      "avg_cs_diff": 27.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 783,
-      "avg_xp_diff": 1101,
-      "avg_cs_diff": 57.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 1001,
+      "avg_xp_diff": 1352,
+      "avg_cs_diff": 30.8,
+      "sample_frames": 20,
       "advantage": 2
     }
   ],
@@ -45,24 +45,52 @@
   "champB": "Pantheon",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.0,
-      "kda": 2.0,
-      "avgDamage": 11985
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.5,
+      "avgDeaths": 3.5,
+      "avgAssists": 6.5,
+      "kda": 3.43,
+      "avgDamage": 13246
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 6.0,
-      "kda": 2.0,
-      "avgDamage": 9608
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 5.0,
+      "kda": 1.55,
+      "avgDamage": 10946
     }
   }
 }

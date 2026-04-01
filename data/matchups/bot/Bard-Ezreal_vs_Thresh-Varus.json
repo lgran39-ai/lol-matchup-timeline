@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:11.417271",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-04-01T11:13:46.691660",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -275,
-      "avg_xp_diff": -146,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -120,
+      "avg_xp_diff": -1,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -788,
-      "avg_xp_diff": -350,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -29,
+      "avg_xp_diff": 132,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2755,
-      "avg_xp_diff": -1422,
-      "avg_cs_diff": -17.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -897,
+      "avg_xp_diff": -183,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4587,
-      "avg_xp_diff": -2818,
-      "avg_cs_diff": -33.6,
-      "sample_frames": 11,
-      "advantage": -2
+      "avg_gold_diff": -789,
+      "avg_xp_diff": 534,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 32,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 5834,
+      "avg_xp_diff": 5289,
+      "avg_cs_diff": 64.5,
+      "sample_frames": 8,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,166 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 4.0,
-        "kda": 0.86,
-        "avgDamage": 14793
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Serylda's Grudge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.3,
+        "avgDeaths": 5.3,
+        "avgAssists": 7.7,
+        "kda": 2.25,
+        "avgDamage": 27100
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
         "avgKills": 3.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 7.0,
-        "kda": 1.11,
-        "avgDamage": 8232
+        "avgDeaths": 6.7,
+        "avgAssists": 14.0,
+        "kda": 2.55,
+        "avgDamage": 12180
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 12.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 12.0,
-        "kda": 24.0,
-        "avgDamage": 29185
+        "items": [
+          {
+            "name": "Blade of The Ruined King",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Terminus",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 6.7,
+        "avgDeaths": 5.7,
+        "avgAssists": 7.7,
+        "kda": 2.53,
+        "avgDamage": 23871
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 23.0,
-        "kda": 24.0,
-        "avgDamage": 7183
+        "avgDeaths": 4.3,
+        "avgAssists": 15.0,
+        "kda": 3.69,
+        "avgDamage": 7796
       }
     }
   }

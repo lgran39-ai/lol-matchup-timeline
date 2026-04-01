@@ -1,68 +1,104 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:05.831589",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:38.747983",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 25,
-      "avg_xp_diff": -58,
-      "avg_cs_diff": 1.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 79,
+      "avg_xp_diff": -16,
+      "avg_cs_diff": 4.8,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 676,
-      "avg_xp_diff": 202,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 553,
+      "avg_xp_diff": 251,
+      "avg_cs_diff": 16.8,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1091,
-      "avg_xp_diff": 556,
-      "avg_cs_diff": 6.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 687,
+      "avg_xp_diff": 325,
+      "avg_cs_diff": 18.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1815,
-      "avg_xp_diff": 1108,
-      "avg_cs_diff": 7.3,
-      "sample_frames": 6,
+      "avg_gold_diff": 562,
+      "avg_xp_diff": 58,
+      "avg_cs_diff": 4.4,
+      "sample_frames": 16,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3002,
+      "avg_xp_diff": -2514,
+      "avg_cs_diff": -15.4,
+      "sample_frames": 5,
+      "advantage": -2
     }
   ],
   "champA": "Ahri",
   "champB": "Gwen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 7.0,
-      "kda": 11.0,
-      "avgDamage": 18264
+      "avgKills": 6.0,
+      "avgDeaths": 1.5,
+      "avgAssists": 7.5,
+      "kda": 9.0,
+      "avgDamage": 23822
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 0.0,
+      "avgKills": 3.5,
       "avgDeaths": 3.0,
-      "avgAssists": 0.0,
-      "kda": 0.0,
-      "avgDamage": 7423
+      "avgAssists": 2.5,
+      "kda": 2.0,
+      "avgDamage": 15984
     }
   }
 }

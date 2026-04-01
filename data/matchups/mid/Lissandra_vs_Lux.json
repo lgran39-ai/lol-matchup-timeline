@@ -1,44 +1,44 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:08.375084",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:42.233981",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 52,
-      "avg_xp_diff": -17,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 76,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": 2.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -71,
-      "avg_xp_diff": -611,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 46,
+      "avg_xp_diff": -454,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 88,
-      "avg_xp_diff": -81,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -376,
+      "avg_xp_diff": -770,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 457,
-      "avg_xp_diff": 1564,
-      "avg_cs_diff": 6.7,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 89,
+      "avg_xp_diff": 780,
+      "avg_cs_diff": 1.8,
+      "sample_frames": 12,
+      "advantage": 0
     },
     {
       "phase": "25min+",
@@ -54,24 +54,45 @@
   "champB": "Lux",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 9.0,
-      "kda": 2.6,
-      "avgDamage": 16710
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 5.0,
+      "kda": 1.36,
+      "avgDamage": 11782
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 9.0,
-      "kda": 1.33,
-      "avgDamage": 25923
+      "avgKills": 3.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 8.5,
+      "kda": 2.18,
+      "avgDamage": 18862
     }
   }
 }

@@ -1,77 +1,137 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:21.178645",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-30T21:10:04.762993",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 45,
-      "avg_xp_diff": 77,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -18,
+      "avg_xp_diff": 34,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 350,
-      "avg_xp_diff": 386,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 61,
+      "avg_xp_diff": 227,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 493,
-      "avg_xp_diff": 71,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 348,
+      "avg_xp_diff": 594,
+      "avg_cs_diff": 7.7,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 250,
-      "avg_xp_diff": 152,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 117,
+      "avg_xp_diff": 418,
+      "avg_cs_diff": 6.6,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -12,
-      "avg_xp_diff": -144,
-      "avg_cs_diff": 11.8,
-      "sample_frames": 4,
-      "advantage": 0
+      "avg_gold_diff": -2567,
+      "avg_xp_diff": -1343,
+      "avg_cs_diff": -3.8,
+      "sample_frames": 18,
+      "advantage": -2
     }
   ],
   "champA": "Teemo",
   "champB": "Vayne",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 10.0,
-      "avgAssists": 5.0,
-      "kda": 1.1,
-      "avgDamage": 34064
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 6.3,
+      "avgDeaths": 8.7,
+      "avgAssists": 3.7,
+      "kda": 1.15,
+      "avgDamage": 30880
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 4.0,
-      "kda": 1.22,
-      "avgDamage": 15551
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Cleanse+Flash",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 8.3,
+      "avgDeaths": 6.0,
+      "avgAssists": 6.3,
+      "kda": 2.44,
+      "avgDamage": 25507
     }
   }
 }

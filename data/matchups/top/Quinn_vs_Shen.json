@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:08.978250",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:43.142684",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 116,
-      "avg_xp_diff": 58,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 121,
+      "avg_xp_diff": 40,
+      "avg_cs_diff": 6.0,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 633,
-      "avg_xp_diff": 194,
-      "avg_cs_diff": 16.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 722,
+      "avg_xp_diff": 144,
+      "avg_cs_diff": 16.2,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1122,
-      "avg_xp_diff": 281,
-      "avg_cs_diff": 27.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 878,
+      "avg_xp_diff": -295,
+      "avg_cs_diff": 19.5,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1377,
-      "avg_xp_diff": -793,
-      "avg_cs_diff": 23.7,
-      "sample_frames": 20,
+      "avg_gold_diff": 909,
+      "avg_xp_diff": -1349,
+      "avg_cs_diff": 16.8,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
@@ -55,44 +55,58 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [
+      "keystones": [
         {
-          "spells": "Flash+Ignite",
+          "name": "Press the Attack",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 5.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 3.0,
-      "kda": 1.89,
-      "avgDamage": 29518
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 6.3,
+      "avgAssists": 2.7,
+      "kda": 1.16,
+      "avgDamage": 26035
     },
     "champB": {
       "items": [
         {
           "name": "Titanic Hydra",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 8.0,
-      "kda": 3.5,
-      "avgDamage": 9932
+      "avgKills": 3.3,
+      "avgDeaths": 2.3,
+      "avgAssists": 8.3,
+      "kda": 5.0,
+      "avgDamage": 10489
     }
   }
 }

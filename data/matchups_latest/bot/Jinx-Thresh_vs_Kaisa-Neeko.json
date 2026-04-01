@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:23.563760",
+  "updated_at": "2026-03-30T21:10:08.287081",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -203,
-      "avg_xp_diff": -79,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 51,
+      "avg_xp_diff": 87,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -887,
-      "avg_xp_diff": -772,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 64,
+      "avg_xp_diff": -92,
+      "avg_cs_diff": -1.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1959,
-      "avg_xp_diff": -913,
-      "avg_cs_diff": -8.2,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 152,
+      "avg_xp_diff": 270,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2820,
-      "avg_xp_diff": -540,
-      "avg_cs_diff": -1.8,
-      "sample_frames": 6,
-      "advantage": -2
+      "avg_gold_diff": 811,
+      "avg_xp_diff": 331,
+      "avg_cs_diff": 12.6,
+      "sample_frames": 16,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2070,
+      "avg_xp_diff": -1697,
+      "avg_cs_diff": 27.0,
+      "sample_frames": 4,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 5.0,
-        "kda": 0.7,
-        "avgDamage": 12344
+        "items": [
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 6.5,
+        "avgDeaths": 8.5,
+        "avgAssists": 4.5,
+        "kda": 1.29,
+        "avgDamage": 20755
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 8.0,
-        "kda": 2.2,
-        "avgDamage": 6765
+        "avgKills": 2.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 10.5,
+        "kda": 2.36,
+        "avgDamage": 7024
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 6.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 8.0,
-        "kda": 2.0,
-        "avgDamage": 14628
+        "avgDeaths": 5.5,
+        "avgAssists": 9.5,
+        "kda": 2.82,
+        "avgDamage": 19837
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 15.0,
-        "kda": 3.4,
-        "avgDamage": 11195
+        "items": [
+          {
+            "name": "Frozen Heart",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Hextech Rocketbelt",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 17.0,
+        "kda": 2.85,
+        "avgDamage": 9799
       }
     }
   }

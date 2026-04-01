@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:07.766990",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:41.413758",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -8,
-      "avg_xp_diff": -12,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -21,
+      "avg_xp_diff": 22,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -977,
-      "avg_xp_diff": -1007,
-      "avg_cs_diff": -22.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -677,
+      "avg_xp_diff": -418,
+      "avg_cs_diff": -15.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2350,
-      "avg_xp_diff": -2240,
-      "avg_cs_diff": -46.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1602,
+      "avg_xp_diff": -1120,
+      "avg_cs_diff": -30.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4938,
-      "avg_xp_diff": -3324,
-      "avg_cs_diff": -75.7,
-      "sample_frames": 6,
+      "avg_gold_diff": -2366,
+      "avg_xp_diff": -620,
+      "avg_cs_diff": -44.6,
+      "sample_frames": 16,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -648,
+      "avg_xp_diff": 1076,
+      "avg_cs_diff": -51.0,
+      "sample_frames": 2,
       "advantage": -2
     }
   ],
@@ -45,24 +54,72 @@
   "champB": "Yone",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 2.0,
-      "kda": 0.5,
-      "avgDamage": 7968
+      "items": [
+        {
+          "name": "Malignance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 0.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 4.5,
+      "kda": 2.0,
+      "avgDamage": 11502
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 0.0,
-      "kda": 7.0,
-      "avgDamage": 18960
+      "items": [
+        {
+          "name": "Blade of The Ruined King",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Lethal Tempo",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 2.0,
+      "avgAssists": 0.5,
+      "kda": 2.5,
+      "avgDamage": 13552
     }
   }
 }

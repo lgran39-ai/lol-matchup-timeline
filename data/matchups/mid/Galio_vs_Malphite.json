@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:07.239252",
+  "updated_at": "2026-04-01T11:13:40.707188",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 25,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -150,
+      "avg_xp_diff": 31,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -104,
-      "avg_xp_diff": 273,
-      "avg_cs_diff": 15.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -231,
+      "avg_xp_diff": 229,
+      "avg_cs_diff": 14.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -502,
-      "avg_xp_diff": -39,
-      "avg_cs_diff": 20.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -579,
+      "avg_xp_diff": -134,
+      "avg_cs_diff": 17.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -155,
-      "avg_xp_diff": 810,
-      "avg_cs_diff": 52.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -227,
+      "avg_xp_diff": 544,
+      "avg_cs_diff": 32.6,
+      "sample_frames": 20,
       "advantage": -1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 398,
-      "avg_xp_diff": 1683,
-      "avg_cs_diff": 60.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -679,
+      "avg_xp_diff": -49,
+      "avg_cs_diff": 25.8,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "champA": "Galio",
@@ -55,23 +55,64 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 10.0,
-      "kda": 2.29,
-      "avgDamage": 29771
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 8.0,
+      "avgAssists": 9.5,
+      "kda": 1.62,
+      "avgDamage": 21878
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
+      "items": [
+        {
+          "name": "Thornmail",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.0,
+      "avgDeaths": 3.5,
       "avgAssists": 12.0,
-      "kda": 3.6,
-      "avgDamage": 17880
+      "kda": 4.57,
+      "avgDamage": 16565
     }
   }
 }

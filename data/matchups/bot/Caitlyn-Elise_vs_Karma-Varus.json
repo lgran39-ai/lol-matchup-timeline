@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:12.466748",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:48.152725",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -86,
-      "avg_xp_diff": -39,
-      "avg_cs_diff": -2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 198,
+      "avg_xp_diff": 246,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -126,
-      "avg_xp_diff": -332,
-      "avg_cs_diff": -6.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 1096,
+      "avg_xp_diff": 532,
+      "avg_cs_diff": 7.8,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1351,
-      "avg_xp_diff": -1403,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 1326,
+      "avg_xp_diff": -19,
+      "avg_cs_diff": 7.5,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2676,
-      "avg_xp_diff": -3361,
-      "avg_cs_diff": -18.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -1016,
+      "avg_xp_diff": -2143,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 13,
       "advantage": -2
     },
     {
@@ -64,46 +64,102 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 5.0,
-        "kda": 0.75,
-        "avgDamage": 10798
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 3.5,
+        "kda": 1.89,
+        "avgDamage": 10816
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 6.0,
-        "kda": 0.73,
-        "avgDamage": 8846
+        "avgKills": 1.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 10.0,
+        "kda": 2.09,
+        "avgDamage": 8164
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Youmuu's Ghostblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 5.0,
-        "kda": 3.0,
-        "avgDamage": 24293
+        "avgKills": 6.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 2.5,
+        "kda": 1.89,
+        "avgDamage": 15918
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 25.0,
-        "kda": 14.0,
-        "avgDamage": 8550
+        "items": [
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 13.5,
+        "kda": 3.75,
+        "avgDamage": 6490
       }
     }
   }

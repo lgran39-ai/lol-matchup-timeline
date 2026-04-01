@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:09.187364",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-04-01T11:13:43.417722",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -94,
-      "avg_xp_diff": 0,
-      "avg_cs_diff": -2.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -60,
+      "avg_xp_diff": 2,
+      "avg_cs_diff": -1.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -438,
-      "avg_xp_diff": -5,
-      "avg_cs_diff": -9.8,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -394,
+      "avg_xp_diff": -97,
+      "avg_cs_diff": -9.6,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1272,
-      "avg_xp_diff": -651,
-      "avg_cs_diff": -18.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -1164,
+      "avg_xp_diff": -909,
+      "avg_cs_diff": -19.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2528,
-      "avg_xp_diff": -1606,
-      "avg_cs_diff": -29.1,
-      "sample_frames": 20,
+      "avg_gold_diff": -2561,
+      "avg_xp_diff": -1683,
+      "avg_cs_diff": -26.4,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2279,
-      "avg_xp_diff": -195,
-      "avg_cs_diff": -14.0,
-      "sample_frames": 9,
+      "avg_gold_diff": -3069,
+      "avg_xp_diff": -1490,
+      "avg_cs_diff": -16.1,
+      "sample_frames": 17,
       "advantage": -2
     }
   ],
@@ -54,45 +54,72 @@
   "champB": "Skarner",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 2.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 12.0,
+      "kda": 2.1,
+      "avgDamage": 22106
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Unending Despair",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 12.0,
-      "kda": 2.15,
-      "avgDamage": 17534
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [
-        {
-          "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "avgKills": 5.5,
-      "avgDeaths": 3.5,
-      "avgAssists": 10.0,
-      "kda": 4.43,
-      "avgDamage": 23570
+      "avgKills": 7.7,
+      "avgDeaths": 3.7,
+      "avgAssists": 7.7,
+      "kda": 4.18,
+      "avgDamage": 33168
     }
   }
 }

@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:07.377158",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-04-01T11:13:40.907891",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 41,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -428,
-      "avg_xp_diff": -423,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -42,
+      "avg_xp_diff": -262,
+      "avg_cs_diff": 9.5,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -931,
-      "avg_xp_diff": -1154,
-      "avg_cs_diff": -5.1,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -304,
+      "avg_xp_diff": -708,
+      "avg_cs_diff": 12.4,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1323,
-      "avg_xp_diff": -64,
-      "avg_cs_diff": 22.6,
-      "sample_frames": 13,
+      "avg_gold_diff": 1189,
+      "avg_xp_diff": 149,
+      "avg_cs_diff": 28.0,
+      "sample_frames": 21,
       "advantage": 2
     }
   ],
@@ -45,31 +45,72 @@
   "champB": "Mordekaiser",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.5,
-      "avgDeaths": 7.0,
-      "avgAssists": 1.0,
-      "kda": 0.64,
-      "avgDamage": 16046
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Sterak's Gage",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 4.8,
+      "avgAssists": 0.8,
+      "kda": 0.68,
+      "avgDamage": 12467
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 75.0
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 8.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.5,
       "avgDeaths": 1.5,
-      "avgAssists": 2.5,
-      "kda": 7.0,
-      "avgDamage": 14946
+      "avgAssists": 2.0,
+      "kda": 4.33,
+      "avgDamage": 10678
     }
   }
 }

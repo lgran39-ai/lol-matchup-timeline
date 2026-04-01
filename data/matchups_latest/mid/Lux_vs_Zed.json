@@ -1,42 +1,51 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:20.593342",
+  "updated_at": "2026-03-30T21:10:03.957888",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -12,
-      "avg_xp_diff": -9,
-      "avg_cs_diff": 2.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 38,
+      "avg_xp_diff": -28,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -245,
+      "avg_gold_diff": -164,
       "avg_xp_diff": -223,
-      "avg_cs_diff": 0.2,
-      "sample_frames": 5,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -849,
-      "avg_xp_diff": -1181,
-      "avg_cs_diff": -18.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -674,
+      "avg_xp_diff": -683,
+      "avg_cs_diff": -12.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2491,
-      "avg_xp_diff": -3563,
-      "avg_cs_diff": -56.9,
+      "avg_gold_diff": -1521,
+      "avg_xp_diff": -1974,
+      "avg_cs_diff": -37.7,
+      "sample_frames": 19,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1240,
+      "avg_xp_diff": 107,
+      "avg_cs_diff": -30.3,
       "sample_frames": 9,
       "advantage": -2
     }
@@ -45,24 +54,44 @@
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 2.0,
-      "kda": 0.4,
-      "avgDamage": 7070
+      "avgKills": 2.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 9.0,
+      "kda": 2.09,
+      "avgDamage": 13960
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Voltaic Cyclosword",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hubris",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 2.0,
-      "kda": 6.0,
-      "avgDamage": 10807
+      "avgKills": 3.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 3.5,
+      "kda": 1.56,
+      "avgDamage": 17392
     }
   }
 }

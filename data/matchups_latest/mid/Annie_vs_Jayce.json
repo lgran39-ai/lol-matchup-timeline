@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 3,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:19.148828",
+  "updated_at": "2026-03-30T21:10:02.032148",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 225,
-      "avg_xp_diff": 233,
-      "avg_cs_diff": 5.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 153,
+      "avg_xp_diff": 181,
+      "avg_cs_diff": 4.0,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 392,
-      "avg_xp_diff": 432,
-      "avg_cs_diff": 10.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 183,
+      "avg_xp_diff": 361,
+      "avg_cs_diff": 8.9,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 148,
-      "avg_xp_diff": 224,
-      "avg_cs_diff": 11.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -309,
+      "avg_xp_diff": -14,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 15,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -979,
-      "avg_xp_diff": -797,
-      "avg_cs_diff": 10.1,
-      "sample_frames": 17,
+      "avg_gold_diff": -1745,
+      "avg_xp_diff": -1183,
+      "avg_cs_diff": -9.3,
+      "sample_frames": 27,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -5048,
+      "avg_xp_diff": -2984,
+      "avg_cs_diff": -70.8,
+      "sample_frames": 11,
       "advantage": -2
     }
   ],
@@ -48,15 +57,27 @@
       "items": [
         {
           "name": "Malignance",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 0.0
         }
@@ -65,35 +86,41 @@
         {
           "spells": "Flash+Teleport",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 0.0
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 6.0,
-      "avgAssists": 4.0,
-      "kda": 1.25,
-      "avgDamage": 17594
+      "avgKills": 4.3,
+      "avgDeaths": 7.3,
+      "avgAssists": 6.0,
+      "kda": 1.41,
+      "avgDamage": 22472
     },
     "champB": {
       "items": [
         {
           "name": "Youmuu's Ghostblade",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         },
         {
           "name": "Chainlaced Crushers",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Serylda's Grudge",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
           "winRate": 100.0
         }
@@ -102,15 +129,15 @@
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 6.0,
-      "kda": 2.67,
-      "avgDamage": 15026
+      "avgKills": 7.7,
+      "avgDeaths": 4.3,
+      "avgAssists": 8.3,
+      "kda": 3.69,
+      "avgDamage": 25899
     }
   }
 }

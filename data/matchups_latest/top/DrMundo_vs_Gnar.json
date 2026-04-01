@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:19.538808",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-03-30T21:10:02.549351",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -115,
-      "avg_xp_diff": -102,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -147,
+      "avg_xp_diff": -110,
+      "avg_cs_diff": -5.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -553,
-      "avg_xp_diff": -161,
-      "avg_cs_diff": -12.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -760,
+      "avg_xp_diff": -421,
+      "avg_cs_diff": -17.1,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -525,
-      "avg_xp_diff": 217,
-      "avg_cs_diff": -8.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -1210,
+      "avg_xp_diff": -777,
+      "avg_cs_diff": -19.6,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1371,
-      "avg_xp_diff": -1422,
-      "avg_cs_diff": -44.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -3313,
+      "avg_xp_diff": -3680,
+      "avg_cs_diff": -54.0,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -6170,
+      "avg_xp_diff": -7136,
+      "avg_cs_diff": -68.0,
+      "sample_frames": 4,
       "advantage": -2
     }
   ],
@@ -49,55 +58,68 @@
         {
           "name": "Warmog's Armor",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
+        },
+        {
+          "name": "Heartsteel",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 2.0,
-      "avgAssists": 3.5,
-      "kda": 3.0,
-      "avgDamage": 11372
+      "avgKills": 2.0,
+      "avgDeaths": 5.3,
+      "avgAssists": 2.7,
+      "kda": 0.88,
+      "avgDamage": 13277
     },
     "champB": {
       "items": [
         {
           "name": "Trinity Force",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 3.5,
-      "avgAssists": 0.0,
-      "kda": 0.57,
-      "avgDamage": 20789
+      "avgKills": 5.3,
+      "avgDeaths": 3.0,
+      "avgAssists": 4.3,
+      "kda": 3.22,
+      "avgDamage": 29724
     }
   }
 }

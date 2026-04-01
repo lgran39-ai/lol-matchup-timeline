@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:19.851045",
+  "updated_at": "2026-03-30T21:10:02.987198",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -102,
-      "avg_xp_diff": -82,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -81,
+      "avg_xp_diff": -60,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -649,
-      "avg_xp_diff": -654,
-      "avg_cs_diff": -8.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -564,
+      "avg_xp_diff": -452,
+      "avg_cs_diff": -9.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1434,
-      "avg_xp_diff": -1664,
-      "avg_cs_diff": -25.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -1412,
+      "avg_xp_diff": -1533,
+      "avg_cs_diff": -25.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2526,
-      "avg_xp_diff": -2388,
-      "avg_cs_diff": -55.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -3276,
+      "avg_xp_diff": -2593,
+      "avg_cs_diff": -44.9,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
@@ -56,22 +56,42 @@
     "champA": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 5.0,
-      "kda": 1.2,
-      "avgDamage": 13785
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 0.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 4.5,
+      "kda": 0.83,
+      "avgDamage": 11361
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Nashor's Tooth",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 4.0,
-      "kda": 8.0,
-      "avgDamage": 22750
+      "avgKills": 6.5,
+      "avgDeaths": 2.5,
+      "avgAssists": 3.5,
+      "kda": 4.0,
+      "avgDamage": 25016
     }
   }
 }

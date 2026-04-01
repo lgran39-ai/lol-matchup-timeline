@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:12.144725",
+  "updated_at": "2026-04-01T11:13:47.656919",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 193,
-      "avg_xp_diff": 241,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 278,
+      "avg_xp_diff": 152,
+      "avg_cs_diff": -1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 204,
-      "avg_xp_diff": 864,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 1287,
+      "avg_xp_diff": 1026,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 966,
-      "avg_xp_diff": 1060,
-      "avg_cs_diff": 3.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 2778,
+      "avg_xp_diff": 2007,
+      "avg_cs_diff": 17.9,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 737,
-      "avg_xp_diff": 2144,
-      "avg_cs_diff": -21.2,
-      "sample_frames": 9,
-      "advantage": 1
+      "avg_gold_diff": 2981,
+      "avg_xp_diff": 2355,
+      "avg_cs_diff": 7.4,
+      "sample_frames": 19,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 7020,
+      "avg_xp_diff": 2105,
+      "avg_cs_diff": 70.1,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +64,122 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 16.0,
-        "kda": 2.71,
-        "avgDamage": 17548
+        "summonerSpells": [
+          {
+            "spells": "Cleanse+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 14.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 13.0,
+        "kda": 4.15,
+        "avgDamage": 40246
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 16.0,
-        "kda": 21.0,
-        "avgDamage": 8532
+        "avgKills": 3.0,
+        "avgDeaths": 3.5,
+        "avgAssists": 25.5,
+        "kda": 8.14,
+        "avgDamage": 9350
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 6.0,
-        "kda": 0.88,
-        "avgDamage": 16873
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 8.5,
+        "avgAssists": 7.5,
+        "kda": 1.41,
+        "avgDamage": 21254
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 3.0,
-        "kda": 0.8,
-        "avgDamage": 7606
+        "items": [
+          {
+            "name": "Knight's Vow",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 10.5,
+        "avgAssists": 11.5,
+        "kda": 1.33,
+        "avgDamage": 8645
       }
     }
   }

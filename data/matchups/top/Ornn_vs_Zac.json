@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:08.850980",
+  "updated_at": "2026-04-01T11:13:42.972709",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -91,
-      "avg_xp_diff": -22,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -133,
+      "avg_xp_diff": -40,
+      "avg_cs_diff": -0.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -911,
-      "avg_xp_diff": -782,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -756,
+      "avg_xp_diff": -453,
+      "avg_cs_diff": -7.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2325,
-      "avg_xp_diff": -3084,
-      "avg_cs_diff": -32.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1863,
+      "avg_xp_diff": -1866,
+      "avg_cs_diff": -23.2,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2752,
-      "avg_xp_diff": -2611,
-      "avg_cs_diff": -26.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -3192,
+      "avg_xp_diff": -2390,
+      "avg_cs_diff": -25.6,
+      "sample_frames": 20,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4824,
+      "avg_xp_diff": -2928,
+      "avg_cs_diff": -15.0,
+      "sample_frames": 3,
       "advantage": -2
     }
   ],
@@ -46,23 +55,64 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 4.0,
-      "kda": 0.86,
-      "avgDamage": 20099
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 1.0,
+      "avgDeaths": 6.5,
+      "avgAssists": 5.5,
+      "kda": 1.0,
+      "avgDamage": 21596
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 2.0,
-      "avgAssists": 10.0,
-      "kda": 9.0,
-      "avgDamage": 37249
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zeke's Convergence",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 13.0,
+      "kda": 13.67,
+      "avgDamage": 33921
     }
   }
 }

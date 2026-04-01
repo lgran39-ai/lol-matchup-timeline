@@ -1,53 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:14.592727",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:51.363431",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 121,
-      "avg_xp_diff": 74,
-      "avg_cs_diff": 1.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 17,
+      "avg_xp_diff": -58,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 813,
-      "avg_xp_diff": 384,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 435,
+      "avg_xp_diff": 198,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2091,
-      "avg_xp_diff": 870,
-      "avg_cs_diff": 30.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 882,
+      "avg_xp_diff": 350,
+      "avg_cs_diff": 15.4,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 640,
-      "avg_xp_diff": -76,
-      "avg_cs_diff": 31.3,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 95,
+      "avg_xp_diff": 36,
+      "avg_cs_diff": 10.6,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2372,
-      "avg_xp_diff": -3221,
-      "avg_cs_diff": 35.0,
-      "sample_frames": 2,
-      "advantage": -2
+      "avg_gold_diff": -439,
+      "avg_xp_diff": -494,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 6,
+      "advantage": -1
     }
   ],
   "type": "bot_2v2",
@@ -65,45 +65,106 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
+        "avgKills": 9.0,
         "avgDeaths": 4.0,
-        "avgAssists": 5.0,
-        "kda": 2.0,
-        "avgDamage": 18910
+        "avgAssists": 8.0,
+        "kda": 4.25,
+        "avgDamage": 24572
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 3.0,
+        "avgKills": 2.5,
         "avgDeaths": 5.0,
-        "avgAssists": 8.0,
-        "kda": 2.2,
-        "avgDamage": 7905
+        "avgAssists": 13.0,
+        "kda": 3.1,
+        "avgDamage": 9372
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 8.0,
-        "kda": 4.67,
-        "avgDamage": 14428
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 4.5,
+        "avgAssists": 6.5,
+        "kda": 3.0,
+        "avgDamage": 18635
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Protoplasm Harness",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 20.0,
-        "kda": 5.0,
-        "avgDamage": 4751
+        "avgKills": 0.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 16.0,
+        "kda": 2.2,
+        "avgDamage": 5241
       }
     }
   }

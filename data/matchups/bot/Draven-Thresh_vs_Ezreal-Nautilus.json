@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:13.175776",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:49.360087",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 87,
-      "avg_xp_diff": 35,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 179,
+      "avg_xp_diff": 54,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 616,
-      "avg_xp_diff": -150,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 1139,
+      "avg_xp_diff": 200,
+      "avg_cs_diff": 7.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 786,
-      "avg_xp_diff": -457,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 2098,
+      "avg_xp_diff": 306,
+      "avg_cs_diff": 8.3,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2818,
-      "avg_xp_diff": -669,
-      "avg_cs_diff": 3.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 3395,
+      "avg_xp_diff": -207,
+      "avg_cs_diff": 8.2,
+      "sample_frames": 12,
       "advantage": 2
     },
     {
@@ -64,46 +64,122 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 6.0,
-        "kda": 1.36,
-        "avgDamage": 27381
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Bloodthirster",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 10.5,
+        "avgDeaths": 6.0,
+        "avgAssists": 3.0,
+        "kda": 2.25,
+        "avgDamage": 21645
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 12.0,
-        "avgAssists": 13.0,
-        "kda": 1.25,
-        "avgDamage": 5978
+        "avgKills": 1.0,
+        "avgDeaths": 6.5,
+        "avgAssists": 12.5,
+        "kda": 2.08,
+        "avgDamage": 5158
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 20.0,
-        "kda": 3.86,
-        "avgDamage": 36486
-      },
-      "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 4.0,
         "avgDeaths": 5.0,
-        "avgAssists": 23.0,
-        "kda": 5.4,
-        "avgDamage": 7316
+        "avgAssists": 10.5,
+        "kda": 2.9,
+        "avgDamage": 22776
+      },
+      "sup": {
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 5.5,
+        "avgAssists": 11.5,
+        "kda": 2.64,
+        "avgDamage": 4948
       }
     }
   }

@@ -1,68 +1,125 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 3,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:18.883395",
+  "updated_at": "2026-03-30T21:10:01.718851",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 11,
-      "avg_xp_diff": 24,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 75,
+      "avg_xp_diff": 18,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -24,
-      "avg_xp_diff": 66,
-      "avg_cs_diff": 10.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 400,
+      "avg_xp_diff": 259,
+      "avg_cs_diff": 12.7,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -440,
-      "avg_xp_diff": -90,
-      "avg_cs_diff": 15.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 617,
+      "avg_xp_diff": 626,
+      "avg_cs_diff": 23.7,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -244,
-      "avg_xp_diff": 84,
-      "avg_cs_diff": 12.0,
-      "sample_frames": 9,
-      "advantage": -1
+      "avg_gold_diff": 1304,
+      "avg_xp_diff": 1116,
+      "avg_cs_diff": 26.0,
+      "sample_frames": 29,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3938,
+      "avg_xp_diff": 2203,
+      "avg_cs_diff": 34.5,
+      "sample_frames": 11,
+      "advantage": 2
     }
   ],
   "champA": "Akali",
   "champB": "Malphite",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 8.0,
-      "kda": 3.0,
-      "avgDamage": 16627
+      "items": [
+        {
+          "name": "Hextech Gunblade",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 8.3,
+      "avgDeaths": 5.0,
+      "avgAssists": 7.3,
+      "kda": 3.13,
+      "avgDamage": 24623
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 4.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 3.0,
-      "kda": 2.33,
-      "avgDamage": 16882
+      "items": [
+        {
+          "name": "Hollow Radiance",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 2.3,
+      "avgDeaths": 6.7,
+      "avgAssists": 5.0,
+      "kda": 1.1,
+      "avgDamage": 21984
     }
   }
 }

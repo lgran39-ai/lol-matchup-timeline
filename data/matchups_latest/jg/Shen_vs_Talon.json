@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:21.045000",
+  "updated_at": "2026-03-30T21:10:04.581848",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -38,
-      "avg_xp_diff": 12,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -55,
+      "avg_xp_diff": 17,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 2,
-      "avg_xp_diff": -452,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -768,
+      "avg_xp_diff": -487,
+      "avg_cs_diff": -9.8,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1016,
-      "avg_xp_diff": -1629,
-      "avg_cs_diff": -27.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -2089,
+      "avg_xp_diff": -1308,
+      "avg_cs_diff": -26.7,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3683,
-      "avg_xp_diff": -5387,
-      "avg_cs_diff": -73.1,
-      "sample_frames": 9,
+      "avg_gold_diff": -3811,
+      "avg_xp_diff": -4095,
+      "avg_cs_diff": -65.4,
+      "sample_frames": 19,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -7226,
+      "avg_xp_diff": -5940,
+      "avg_cs_diff": -129.0,
+      "sample_frames": 13,
       "advantage": -2
     }
   ],
@@ -45,24 +54,71 @@
   "champB": "Talon",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Protoplasm Harness",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 0.71,
-      "avgDamage": 12924
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 7.5,
+      "avgAssists": 7.5,
+      "kda": 1.4,
+      "avgDamage": 13401
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 8.0,
-      "avgDeaths": 2.0,
+      "items": [
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Youmuu's Ghostblade",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 14.5,
+      "avgDeaths": 3.5,
       "avgAssists": 10.0,
-      "kda": 9.0,
-      "avgDamage": 12311
+      "kda": 7.0,
+      "avgDamage": 30182
     }
   }
 }

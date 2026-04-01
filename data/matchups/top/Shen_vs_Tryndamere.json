@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:09.192090",
+  "updated_at": "2026-04-01T11:13:43.425168",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -86,
-      "avg_xp_diff": -56,
-      "avg_cs_diff": -4.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -160,
+      "avg_xp_diff": -115,
+      "avg_cs_diff": -1.9,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -638,
-      "avg_xp_diff": -647,
-      "avg_cs_diff": -24.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -849,
+      "avg_xp_diff": -926,
+      "avg_cs_diff": -21.3,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2618,
-      "avg_xp_diff": -2693,
-      "avg_cs_diff": -58.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -2839,
+      "avg_xp_diff": -3158,
+      "avg_cs_diff": -56.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -5652,
-      "avg_xp_diff": -3866,
-      "avg_cs_diff": -87.7,
-      "sample_frames": 11,
+      "avg_gold_diff": -5115,
+      "avg_xp_diff": -4074,
+      "avg_cs_diff": -83.7,
+      "sample_frames": 21,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -4627,
+      "avg_xp_diff": -2542,
+      "avg_cs_diff": -85.4,
+      "sample_frames": 15,
       "advantage": -2
     }
   ],
@@ -45,24 +54,58 @@
   "champB": "Tryndamere",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 7.0,
-      "kda": 1.29,
-      "avgDamage": 13774
+      "items": [
+        {
+          "name": "Titanic Hydra",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 3.0,
+      "avgDeaths": 10.0,
+      "avgAssists": 10.5,
+      "kda": 1.35,
+      "avgDamage": 18230
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Serpent's Fang",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 10.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 6.0,
-      "kda": 5.33,
-      "avgDamage": 26360
+      "avgKills": 9.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 8.0,
+      "kda": 3.4,
+      "avgDamage": 36764
     }
   }
 }

@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:07.388427",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:40.922268",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 145,
-      "avg_xp_diff": 152,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -72,
+      "avg_xp_diff": 57,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 894,
-      "avg_xp_diff": 544,
-      "avg_cs_diff": 21.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -135,
+      "avg_xp_diff": 16,
+      "avg_cs_diff": 11.7,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1481,
-      "avg_xp_diff": 1248,
-      "avg_cs_diff": 45.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -501,
+      "avg_xp_diff": -767,
+      "avg_cs_diff": 14.5,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2361,
-      "avg_xp_diff": 924,
-      "avg_cs_diff": 61.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 1367,
+      "avg_xp_diff": 96,
+      "avg_cs_diff": 45.3,
+      "sample_frames": 12,
       "advantage": 2
     },
     {
@@ -55,23 +55,44 @@
   "buildStats": {
     "champA": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
+      "keystones": [
+        {
+          "name": "Fleet Footwork",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.5,
       "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 0.86,
-      "avgDamage": 27770
+      "avgAssists": 1.5,
+      "kda": 0.43,
+      "avgDamage": 19464
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 9.0,
-      "kda": 2.0,
-      "avgDamage": 17665
+      "avgKills": 5.0,
+      "avgDeaths": 3.0,
+      "avgAssists": 5.5,
+      "kda": 3.5,
+      "avgDamage": 13412
     }
   }
 }

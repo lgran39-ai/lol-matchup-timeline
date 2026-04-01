@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:10.782603",
+  "updated_at": "2026-04-01T11:13:45.717932",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -8,
+      "avg_gold_diff": -33,
       "avg_xp_diff": -31,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 5,
+      "avg_cs_diff": -3.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -351,
-      "avg_xp_diff": 92,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 18,
+      "avg_xp_diff": 32,
+      "avg_cs_diff": -1.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 682,
-      "avg_xp_diff": -66,
-      "avg_cs_diff": 17.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 396,
+      "avg_xp_diff": -176,
+      "avg_cs_diff": 7.9,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -42,
-      "avg_xp_diff": -1465,
-      "avg_cs_diff": 14.0,
-      "sample_frames": 2,
-      "advantage": 0
+      "avg_gold_diff": -1499,
+      "avg_xp_diff": -2172,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 13,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,116 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 2.0,
-        "kda": 1.0,
-        "avgDamage": 8050
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ghost",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 1.5,
+        "kda": 0.67,
+        "avgDamage": 9829
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 3.0,
-        "kda": 2.5,
-        "avgDamage": 3180
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 3.0,
+        "avgAssists": 4.5,
+        "kda": 1.83,
+        "avgDamage": 3994
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
+        "items": [
+          {
+            "name": "Blackfire Torch",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Exhaust+Flash",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 4.0,
         "avgDeaths": 2.0,
-        "avgAssists": 4.0,
-        "kda": 3.5,
-        "avgDamage": 10810
+        "avgAssists": 6.5,
+        "kda": 5.25,
+        "avgDamage": 16352
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 11.0,
-        "kda": 6.0,
-        "avgDamage": 3339
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 2.5,
+        "avgAssists": 13.5,
+        "kda": 5.6,
+        "avgDamage": 4826
       }
     }
   }

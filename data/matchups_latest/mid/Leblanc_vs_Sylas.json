@@ -1,52 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:20.406379",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-30T21:10:03.811539",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 65,
-      "avg_xp_diff": 17,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -11,
+      "avg_xp_diff": -18,
+      "avg_cs_diff": 2.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -238,
-      "avg_xp_diff": -456,
-      "avg_cs_diff": -4.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -60,
+      "avg_xp_diff": -85,
+      "avg_cs_diff": 2.4,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 58,
-      "avg_xp_diff": -250,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 103,
+      "avg_xp_diff": 203,
+      "avg_cs_diff": 1.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 587,
-      "avg_xp_diff": 643,
-      "avg_cs_diff": 6.7,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 200,
+      "avg_xp_diff": 741,
+      "avg_cs_diff": 8.0,
+      "sample_frames": 27,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2753,
-      "avg_xp_diff": 2473,
-      "avg_cs_diff": 52.6,
-      "sample_frames": 7,
+      "avg_gold_diff": 1131,
+      "avg_xp_diff": 1532,
+      "avg_cs_diff": 54.6,
+      "sample_frames": 18,
       "advantage": 2
     }
   ],
@@ -54,24 +54,84 @@
   "champB": "Sylas",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 7.0,
-      "kda": 4.0,
-      "avgDamage": 20947
+      "items": [
+        {
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 7.3,
+      "avgDeaths": 5.0,
+      "avgAssists": 8.0,
+      "kda": 3.07,
+      "avgDamage": 26323
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 9.0,
-      "avgAssists": 6.0,
-      "kda": 0.89,
-      "avgDamage": 28557
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 4.3,
+      "avgDeaths": 9.3,
+      "avgAssists": 7.3,
+      "kda": 1.25,
+      "avgDamage": 26073
     }
   }
 }

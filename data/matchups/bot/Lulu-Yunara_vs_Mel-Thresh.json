@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:15.193113",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:52.201913",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 23,
-      "avg_xp_diff": 42,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 109,
+      "avg_xp_diff": 121,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 142,
-      "avg_xp_diff": 56,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 558,
+      "avg_xp_diff": 155,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -554,
-      "avg_xp_diff": -78,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 952,
+      "avg_xp_diff": 165,
+      "avg_cs_diff": 7.5,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3041,
-      "avg_xp_diff": -1840,
-      "avg_cs_diff": 16.1,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 1115,
+      "avg_xp_diff": 503,
+      "avg_cs_diff": 19.6,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
@@ -64,46 +64,108 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 1.0,
-        "kda": 0.11,
-        "avgDamage": 9498
+        "avgKills": 3.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 6.0,
+        "kda": 1.36,
+        "avgDamage": 15676
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 4.0,
-        "kda": 0.5,
-        "avgDamage": 5899
+        "items": [
+          {
+            "name": "Ardent Censer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 10.0,
+        "kda": 1.91,
+        "avgDamage": 6906
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 16.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 5.0,
-        "kda": 4.2,
-        "avgDamage": 27181
+        "items": [
+          {
+            "name": "Luden's Echo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 9.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 3.5,
+        "kda": 2.08,
+        "avgDamage": 18970
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 20.0,
-        "kda": 10.0,
-        "avgDamage": 4331
+        "avgKills": 0.5,
+        "avgDeaths": 3.5,
+        "avgAssists": 13.5,
+        "kda": 4.0,
+        "avgDamage": 3838
       }
     }
   }

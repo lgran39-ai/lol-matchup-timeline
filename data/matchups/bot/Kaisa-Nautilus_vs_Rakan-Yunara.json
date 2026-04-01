@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:14.787342",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:51.624564",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 278,
-      "avg_xp_diff": 138,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 56,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1462,
-      "avg_xp_diff": 936,
-      "avg_cs_diff": 12.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 123,
+      "avg_xp_diff": -219,
+      "avg_cs_diff": -4.2,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 4191,
-      "avg_xp_diff": 2519,
-      "avg_cs_diff": 29.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 805,
+      "avg_xp_diff": 163,
+      "avg_cs_diff": -7.9,
+      "sample_frames": 15,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 6322,
-      "avg_xp_diff": 3978,
-      "avg_cs_diff": 37.0,
-      "sample_frames": 2,
-      "advantage": 2
+      "avg_gold_diff": -1196,
+      "avg_xp_diff": -645,
+      "avg_cs_diff": -15.2,
+      "sample_frames": 12,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,142 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 9.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 6.0,
-        "kda": 15.0,
-        "avgDamage": 14950
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Guinsoo's Rageblade",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.3,
+        "avgDeaths": 3.3,
+        "avgAssists": 3.0,
+        "kda": 2.5,
+        "avgDamage": 11825
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 13.0,
-        "kda": 14.0,
-        "avgDamage": 4969
+        "avgDeaths": 4.3,
+        "avgAssists": 9.0,
+        "kda": 2.31,
+        "avgDamage": 5958
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 1.0,
-        "kda": 0.2,
-        "avgDamage": 8980
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 3.3,
+        "avgAssists": 4.0,
+        "kda": 2.4,
+        "avgDamage": 13530
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 1.0,
-        "kda": 0.33,
-        "avgDamage": 1531
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Guardian",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 0.3,
+        "avgDeaths": 3.3,
+        "avgAssists": 10.7,
+        "kda": 3.3,
+        "avgDamage": 3914
       }
     }
   }

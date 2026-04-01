@@ -1,68 +1,143 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:08.394310",
+  "sample_size": 4,
+  "overall_winrate_a": 25.0,
+  "updated_at": "2026-04-01T11:13:42.260982",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 46,
-      "avg_xp_diff": 80,
-      "avg_cs_diff": 2.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 21,
+      "avg_xp_diff": 45,
+      "avg_cs_diff": 0.6,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -252,
-      "avg_xp_diff": -124,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -34,
+      "avg_xp_diff": 34,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -880,
-      "avg_xp_diff": -846,
-      "avg_cs_diff": -3.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -213,
+      "avg_xp_diff": -174,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1776,
-      "avg_xp_diff": -2749,
-      "avg_cs_diff": -29.8,
-      "sample_frames": 12,
-      "advantage": -2
+      "avg_gold_diff": -125,
+      "avg_xp_diff": -469,
+      "avg_cs_diff": -4.8,
+      "sample_frames": 32,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 423,
+      "avg_xp_diff": -441,
+      "avg_cs_diff": 5.6,
+      "sample_frames": 5,
+      "advantage": 2
     }
   ],
   "champA": "Lissandra",
   "champB": "Swain",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 6.0,
-      "avgAssists": 2.5,
-      "kda": 0.75,
-      "avgDamage": 14178
+      "items": [
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
+      "avgDeaths": 5.5,
+      "avgAssists": 6.8,
+      "kda": 2.05,
+      "avgDamage": 20674
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 10.0,
-      "kda": 15.0,
-      "avgDamage": 17910
+      "items": [
+        {
+          "name": "Chainlaced Crushers",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Summon Aery",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 6.0,
+      "avgDeaths": 4.5,
+      "avgAssists": 9.0,
+      "kda": 3.33,
+      "avgDamage": 23068
     }
   }
 }

@@ -1,44 +1,53 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:08.739071",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:42.821084",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -58,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -67,
+      "avg_xp_diff": -8,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -175,
-      "avg_xp_diff": -170,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -160,
+      "avg_xp_diff": -43,
+      "avg_cs_diff": -0.6,
+      "sample_frames": 15,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -114,
-      "avg_xp_diff": -41,
-      "avg_cs_diff": -11.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -2,
+      "avg_xp_diff": -19,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -612,
-      "avg_xp_diff": -342,
-      "avg_cs_diff": -7.0,
-      "sample_frames": 17,
-      "advantage": -2
+      "avg_gold_diff": -32,
+      "avg_xp_diff": -397,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 27,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 966,
+      "avg_xp_diff": -993,
+      "avg_cs_diff": -29.4,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "champA": "Nocturne",
@@ -48,68 +57,75 @@
       "items": [
         {
           "name": "Stridebreaker",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         },
         {
           "name": "Experimental Hexplate",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 6.5,
-      "avgAssists": 7.0,
-      "kda": 1.54,
-      "avgDamage": 11732
+      "avgKills": 4.7,
+      "avgDeaths": 5.7,
+      "avgAssists": 9.3,
+      "kda": 2.47,
+      "avgDamage": 14901
     },
     "champB": {
       "items": [
         {
           "name": "Heartsteel",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         },
         {
           "name": "Unending Despair",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 10.5,
-      "kda": 3.3,
-      "avgDamage": 12717
+      "avgKills": 5.3,
+      "avgDeaths": 5.7,
+      "avgAssists": 8.7,
+      "kda": 2.47,
+      "avgDamage": 13421
     }
   }
 }

@@ -1,43 +1,43 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:19.201906",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-30T21:10:02.096144",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 11,
-      "avg_xp_diff": -89,
+      "avg_gold_diff": -11,
+      "avg_xp_diff": -29,
       "avg_cs_diff": -1.6,
-      "sample_frames": 5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 47,
-      "avg_xp_diff": -297,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -114,
+      "avg_xp_diff": -224,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1544,
-      "avg_xp_diff": 371,
-      "avg_cs_diff": -2.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 315,
+      "avg_xp_diff": -264,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1857,
-      "avg_xp_diff": 1595,
-      "avg_cs_diff": 0.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 1340,
+      "avg_xp_diff": 1090,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 12,
       "advantage": 2
     },
     {
@@ -54,24 +54,38 @@
   "champB": "Tristana",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 15.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 16.0,
-      "kda": 7.75,
-      "avgDamage": 46539
+      "avgKills": 7.5,
+      "avgDeaths": 3.0,
+      "avgAssists": 8.0,
+      "kda": 5.17,
+      "avgDamage": 25620
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.0,
-      "avgAssists": 4.0,
-      "kda": 1.43,
-      "avgDamage": 25713
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 3.5,
+      "avgAssists": 2.0,
+      "kda": 2.0,
+      "avgDamage": 17694
     }
   }
 }

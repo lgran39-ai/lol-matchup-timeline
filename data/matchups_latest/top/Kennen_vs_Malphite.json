@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:20.314132",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-30T21:10:03.707420",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 139,
-      "avg_xp_diff": 87,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 185,
+      "avg_xp_diff": 91,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 856,
-      "avg_xp_diff": 329,
-      "avg_cs_diff": 24.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 732,
+      "avg_xp_diff": 257,
+      "avg_cs_diff": 20.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1890,
-      "avg_xp_diff": 1581,
-      "avg_cs_diff": 50.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1362,
+      "avg_xp_diff": 1074,
+      "avg_cs_diff": 38.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2123,
-      "avg_xp_diff": 1113,
-      "avg_cs_diff": 59.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 1560,
+      "avg_xp_diff": 610,
+      "avg_cs_diff": 46.3,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 982,
-      "avg_xp_diff": -1496,
-      "avg_cs_diff": 40.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1947,
+      "avg_xp_diff": 542,
+      "avg_cs_diff": 47.1,
+      "sample_frames": 23,
       "advantage": 2
     }
   ],
@@ -54,24 +54,52 @@
   "champB": "Malphite",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 4.5,
       "avgDeaths": 7.0,
-      "avgAssists": 3.0,
-      "kda": 0.86,
-      "avgDamage": 24438
+      "avgAssists": 5.0,
+      "kda": 1.36,
+      "avgDamage": 28530
     },
     "champB": {
       "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 14.0,
-      "kda": 5.33,
-      "avgDamage": 18873
+      "keystones": [
+        {
+          "name": "Arcane Comet",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 1.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 14.5,
+      "kda": 3.2,
+      "avgDamage": 20328
     }
   }
 }

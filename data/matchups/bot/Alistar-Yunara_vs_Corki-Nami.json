@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:10.096543",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:44.699232",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -114,
-      "avg_xp_diff": -62,
-      "avg_cs_diff": -3.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -107,
+      "avg_xp_diff": -72,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 339,
-      "avg_xp_diff": 160,
-      "avg_cs_diff": -1.7,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -29,
+      "avg_xp_diff": -104,
+      "avg_cs_diff": -6.5,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 844,
-      "avg_xp_diff": 128,
-      "avg_cs_diff": 4.5,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 303,
+      "avg_xp_diff": -103,
+      "avg_cs_diff": -3.3,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2621,
-      "avg_xp_diff": 980,
-      "avg_cs_diff": 32.4,
-      "sample_frames": 13,
+      "avg_gold_diff": 2118,
+      "avg_xp_diff": 1143,
+      "avg_cs_diff": 18.1,
+      "sample_frames": 23,
       "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 511,
+      "avg_xp_diff": -1786,
+      "avg_cs_diff": 3.7,
+      "sample_frames": 3,
+      "advantage": 1
     }
   ],
   "type": "bot_2v2",
@@ -58,49 +67,75 @@
         "items": [
           {
             "name": "Kraken Slayer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 8.3,
+        "avgDeaths": 6.3,
+        "avgAssists": 5.3,
+        "kda": 2.16,
+        "avgDamage": 24237
+      },
+      "sup": {
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "avgKills": 8.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 3.5,
-        "kda": 2.3,
-        "avgDamage": 23340
-      },
-      "sup": {
-        "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Glacial Augment",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 0.5,
-        "avgDeaths": 4.0,
-        "avgAssists": 10.0,
-        "kda": 2.62,
-        "avgDamage": 5054
+        "avgKills": 0.7,
+        "avgDeaths": 5.3,
+        "avgAssists": 12.0,
+        "kda": 2.38,
+        "avgDamage": 5969
       }
     },
     "teamB": {
@@ -108,63 +143,69 @@
         "items": [
           {
             "name": "Trinity Force",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Conqueror",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 6.5,
-        "avgDeaths": 5.5,
-        "avgAssists": 4.0,
-        "kda": 1.91,
-        "avgDamage": 16010
+        "avgKills": 7.0,
+        "avgDeaths": 6.7,
+        "avgAssists": 7.0,
+        "kda": 2.1,
+        "avgDamage": 23544
       },
       "sup": {
         "items": [
           {
             "name": "Imperial Mandate",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
         "keystones": [
           {
             "name": "Summon Aery",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 0.5,
-        "avgDeaths": 4.0,
-        "avgAssists": 11.5,
-        "kda": 3.0,
-        "avgDamage": 7106
+        "avgKills": 1.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 16.0,
+        "kda": 3.4,
+        "avgDamage": 8830
       }
     }
   }

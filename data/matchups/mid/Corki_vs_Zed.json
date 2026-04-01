@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:06.781585",
+  "updated_at": "2026-04-01T11:13:40.078675",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 66,
-      "avg_xp_diff": 31,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 14,
+      "avg_xp_diff": 28,
+      "avg_cs_diff": 3.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 227,
-      "avg_xp_diff": 17,
-      "avg_cs_diff": 8.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -317,
+      "avg_xp_diff": -251,
+      "avg_cs_diff": 2.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -454,
-      "avg_xp_diff": -251,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -756,
+      "avg_xp_diff": -473,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1102,
-      "avg_xp_diff": -1074,
-      "avg_cs_diff": -8.8,
-      "sample_frames": 6,
+      "avg_gold_diff": -1984,
+      "avg_xp_diff": -1729,
+      "avg_cs_diff": -17.8,
+      "sample_frames": 16,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2724,
+      "avg_xp_diff": -2655,
+      "avg_cs_diff": -38.8,
+      "sample_frames": 5,
       "advantage": -2
     }
   ],
@@ -45,24 +54,45 @@
   "champB": "Zed",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "keystones": [],
       "summonerSpells": [],
-      "avgKills": 0.0,
-      "avgDeaths": 3.0,
-      "avgAssists": 1.0,
-      "kda": 0.33,
-      "avgDamage": 9880
+      "avgKills": 2.5,
+      "avgDeaths": 6.0,
+      "avgAssists": 4.0,
+      "kda": 1.08,
+      "avgDamage": 19026
     },
     "champB": {
-      "items": [],
+      "items": [
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 3.0,
-      "avgDeaths": 0.0,
-      "avgAssists": 5.0,
-      "kda": 8.0,
-      "avgDamage": 11300
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 7.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 7.5,
+      "kda": 10.0,
+      "avgDamage": 23730
     }
   }
 }

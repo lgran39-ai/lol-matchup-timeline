@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
+  "sample_size": 4,
   "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:09.480775",
+  "updated_at": "2026-04-01T11:13:43.830161",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -57,
-      "avg_xp_diff": 25,
-      "avg_cs_diff": 1.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -15,
+      "avg_xp_diff": 2,
+      "avg_cs_diff": 1.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -315,
-      "avg_xp_diff": -96,
-      "avg_cs_diff": 1.0,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -67,
+      "avg_xp_diff": -2,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1358,
-      "avg_xp_diff": -927,
-      "avg_cs_diff": -7.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -540,
+      "avg_xp_diff": -120,
+      "avg_cs_diff": -0.8,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1270,
-      "avg_xp_diff": -1313,
-      "avg_cs_diff": -12.6,
-      "sample_frames": 12,
-      "advantage": -2
+      "avg_gold_diff": 188,
+      "avg_xp_diff": 306,
+      "avg_cs_diff": -5.5,
+      "sample_frames": 31,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 142,
-      "avg_xp_diff": -545,
-      "avg_cs_diff": 1.5,
-      "sample_frames": 8,
-      "advantage": 0
+      "avg_gold_diff": -685,
+      "avg_xp_diff": -1021,
+      "avg_cs_diff": -38.7,
+      "sample_frames": 15,
+      "advantage": -2
     }
   ],
   "champA": "Vex",
@@ -56,22 +56,34 @@
     "champA": {
       "items": [
         {
-          "name": "Luden's Echo",
-          "count": 2,
+          "name": "Spellslinger's Shoes",
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         },
         {
-          "name": "Spellslinger's Shoes",
+          "name": "Luden's Echo",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Stormsurge",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
           "winRate": 50.0
         }
@@ -79,26 +91,83 @@
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
+      "avgKills": 8.5,
+      "avgDeaths": 5.8,
+      "avgAssists": 5.2,
+      "kda": 2.39,
+      "avgDamage": 20368
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Voltaic Cyclosword",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Chainlaced Crushers",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Eclipse",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 6.5,
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 5.2,
+      "avgDeaths": 5.8,
       "avgAssists": 4.5,
-      "kda": 1.08,
-      "avgDamage": 12054
-    },
-    "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 3.5,
-      "kda": 2.38,
-      "avgDamage": 19054
+      "kda": 1.7,
+      "avgDamage": 17845
     }
   }
 }

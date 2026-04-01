@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:09.778857",
+  "updated_at": "2026-04-01T11:13:44.258976",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -122,
-      "avg_xp_diff": 73,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -142,
+      "avg_xp_diff": 72,
+      "avg_cs_diff": 0.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -109,
-      "avg_xp_diff": 135,
-      "avg_cs_diff": -2.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 61,
+      "avg_xp_diff": 346,
+      "avg_cs_diff": 0.0,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -837,
-      "avg_xp_diff": -312,
-      "avg_cs_diff": -6.8,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -361,
+      "avg_xp_diff": 259,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2412,
-      "avg_xp_diff": -1468,
-      "avg_cs_diff": -28.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -2576,
+      "avg_xp_diff": -1574,
+      "avg_cs_diff": -22.2,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6298,
-      "avg_xp_diff": -6183,
-      "avg_cs_diff": -68.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -6614,
+      "avg_xp_diff": -5843,
+      "avg_cs_diff": -62.1,
+      "sample_frames": 9,
       "advantage": -2
     }
   ],
@@ -64,46 +64,107 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 7.0,
-        "kda": 1.83,
-        "avgDamage": 19266
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 4.5,
+        "avgDeaths": 6.5,
+        "avgAssists": 6.0,
+        "kda": 1.62,
+        "avgDamage": 18373
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 10.0,
-        "kda": 1.0,
-        "avgDamage": 4801
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 7.0,
+        "kda": 1.33,
+        "avgDamage": 7330
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 13.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 11.0,
-        "kda": 8.0,
-        "avgDamage": 26144
+        "avgDeaths": 3.5,
+        "avgAssists": 8.0,
+        "kda": 6.0,
+        "avgDamage": 31916
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 24.0,
-        "kda": 12.5,
-        "avgDamage": 5997
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 3.0,
+        "avgAssists": 21.0,
+        "kda": 7.5,
+        "avgDamage": 7956
       }
     }
   }

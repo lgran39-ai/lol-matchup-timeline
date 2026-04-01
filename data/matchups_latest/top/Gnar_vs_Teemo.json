@@ -1,103 +1,125 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:19.838405",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-30T21:10:02.968342",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -236,
-      "avg_xp_diff": -201,
-      "avg_cs_diff": -4.0,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -143,
+      "avg_xp_diff": -93,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 20,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -797,
-      "avg_xp_diff": -790,
-      "avg_cs_diff": -16.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -332,
+      "avg_xp_diff": -221,
+      "avg_cs_diff": -8.6,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1197,
-      "avg_xp_diff": -1551,
-      "avg_cs_diff": -23.8,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": -304,
+      "avg_xp_diff": -227,
+      "avg_cs_diff": -7.8,
+      "sample_frames": 20,
+      "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1256,
-      "avg_xp_diff": -1586,
-      "avg_cs_diff": -33.3,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 431,
+      "avg_xp_diff": 575,
+      "avg_cs_diff": 2.0,
+      "sample_frames": 29,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4806,
+      "avg_xp_diff": 3820,
+      "avg_cs_diff": 35.2,
+      "sample_frames": 6,
+      "advantage": 2
     }
   ],
   "champA": "Gnar",
   "champB": "Teemo",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Trinity Force",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        }
+      ],
       "keystones": [
         {
           "name": "Fleet Footwork",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 0.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 50.0
         }
       ],
-      "avgKills": 0.5,
-      "avgDeaths": 4.0,
-      "avgAssists": 3.0,
-      "kda": 0.88,
-      "avgDamage": 6632
+      "avgKills": 1.8,
+      "avgDeaths": 3.2,
+      "avgAssists": 5.5,
+      "kda": 2.23,
+      "avgDamage": 11476
     },
     "champB": {
       "items": [
         {
           "name": "Nashor's Tooth",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 50.0
+        },
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Press the Attack",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 50.0
         }
       ],
-      "avgKills": 2.5,
-      "avgDeaths": 2.5,
+      "avgKills": 2.2,
+      "avgDeaths": 4.5,
       "avgAssists": 2.5,
-      "kda": 2.0,
-      "avgDamage": 12480
+      "kda": 1.06,
+      "avgDamage": 13414
     }
   }
 }

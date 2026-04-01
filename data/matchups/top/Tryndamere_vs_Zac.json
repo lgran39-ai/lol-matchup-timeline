@@ -1,43 +1,43 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:09.414068",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:43.739485",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -46,
-      "avg_xp_diff": -47,
-      "avg_cs_diff": 1.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 19,
+      "avg_xp_diff": 11,
+      "avg_cs_diff": 3.5,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 154,
-      "avg_xp_diff": -208,
-      "avg_cs_diff": 2.7,
-      "sample_frames": 10,
+      "avg_gold_diff": 303,
+      "avg_xp_diff": -40,
+      "avg_cs_diff": 8.3,
+      "sample_frames": 15,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 118,
-      "avg_xp_diff": -462,
-      "avg_cs_diff": 3.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 642,
+      "avg_xp_diff": 249,
+      "avg_cs_diff": 17.5,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 985,
-      "avg_xp_diff": 283,
-      "avg_cs_diff": 21.2,
-      "sample_frames": 18,
+      "avg_gold_diff": 1683,
+      "avg_xp_diff": 1104,
+      "avg_cs_diff": 38.0,
+      "sample_frames": 27,
       "advantage": 2
     },
     {
@@ -54,38 +54,78 @@
   "champB": "Zac",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 7.5,
-      "avgDeaths": 7.5,
-      "avgAssists": 6.0,
-      "kda": 1.8,
-      "avgDamage": 33190
+      "items": [
+        {
+          "name": "Mortal Reminder",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Hail of Blades",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
+      "avgKills": 7.0,
+      "avgDeaths": 6.7,
+      "avgAssists": 4.3,
+      "kda": 1.7,
+      "avgDamage": 28763
     },
     "champB": {
       "items": [
         {
           "name": "Sunfire Aegis",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Randuin's Omen",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 6.0,
-      "avgDeaths": 7.5,
-      "avgAssists": 10.0,
-      "kda": 2.13,
-      "avgDamage": 26684
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 4.7,
+      "avgDeaths": 6.7,
+      "avgAssists": 8.0,
+      "kda": 1.9,
+      "avgDamage": 20948
     }
   }
 }

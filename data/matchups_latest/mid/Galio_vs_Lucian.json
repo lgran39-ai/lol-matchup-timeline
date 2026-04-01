@@ -1,43 +1,52 @@
 {
   "role": "mid",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:19.742812",
+  "updated_at": "2026-03-30T21:10:02.832160",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -149,
-      "avg_xp_diff": -131,
-      "avg_cs_diff": -6.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -208,
+      "avg_xp_diff": -36,
+      "avg_cs_diff": -2.8,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -693,
-      "avg_xp_diff": -281,
-      "avg_cs_diff": -19.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -841,
+      "avg_xp_diff": -300,
+      "avg_cs_diff": -14.6,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1682,
-      "avg_xp_diff": -916,
-      "avg_cs_diff": -36.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -1630,
+      "avg_xp_diff": -775,
+      "avg_cs_diff": -26.0,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2738,
-      "avg_xp_diff": -1471,
-      "avg_cs_diff": -48.5,
-      "sample_frames": 2,
+      "avg_gold_diff": -2276,
+      "avg_xp_diff": -826,
+      "avg_cs_diff": -36.1,
+      "sample_frames": 12,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -3964,
+      "avg_xp_diff": -2580,
+      "avg_cs_diff": -66.2,
+      "sample_frames": 4,
       "advantage": -2
     }
   ],
@@ -45,24 +54,52 @@
   "champB": "Lucian",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Armored Advance",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Phase Rush",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
       "avgKills": 0.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 3.0,
-      "kda": 0.75,
-      "avgDamage": 3530
+      "avgDeaths": 4.5,
+      "avgAssists": 4.0,
+      "kda": 0.89,
+      "avgDamage": 7029
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Essence Reaver",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Press the Attack",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 5.0,
+      "avgKills": 2.5,
+      "avgDeaths": 1.5,
+      "avgAssists": 6.5,
       "kda": 6.0,
-      "avgDamage": 11053
+      "avgDamage": 18768
     }
   }
 }

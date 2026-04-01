@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:14.456358",
+  "sample_size": 3,
+  "overall_winrate_a": 66.7,
+  "updated_at": "2026-04-01T11:13:51.165716",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -129,
-      "avg_xp_diff": -2,
-      "avg_cs_diff": 1.1,
-      "sample_frames": 10,
+      "avg_gold_diff": -39,
+      "avg_xp_diff": -57,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 126,
-      "avg_xp_diff": -143,
-      "avg_cs_diff": -2.5,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": 328,
+      "avg_xp_diff": -186,
+      "avg_cs_diff": -5.7,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -106,
-      "avg_xp_diff": -501,
-      "avg_cs_diff": -8.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 184,
+      "avg_xp_diff": -268,
+      "avg_cs_diff": -2.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -811,
-      "avg_xp_diff": -1401,
-      "avg_cs_diff": -25.5,
-      "sample_frames": 17,
-      "advantage": -2
+      "avg_gold_diff": 854,
+      "avg_xp_diff": 51,
+      "avg_cs_diff": -5.0,
+      "sample_frames": 27,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2721,
-      "avg_xp_diff": 1612,
-      "avg_cs_diff": -14.5,
-      "sample_frames": 11,
+      "avg_gold_diff": 3032,
+      "avg_xp_diff": 1851,
+      "avg_cs_diff": -9.7,
+      "sample_frames": 13,
       "advantage": 2
     }
   ],
@@ -67,49 +67,75 @@
         "items": [
           {
             "name": "The Collector",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
+          },
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
           }
         ],
         "keystones": [
           {
             "name": "Fleet Footwork",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 9.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 7.0,
-        "kda": 2.67,
-        "avgDamage": 33548
+        "avgKills": 10.3,
+        "avgDeaths": 4.3,
+        "avgAssists": 8.7,
+        "kda": 4.38,
+        "avgDamage": 30624
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [
           {
             "name": "Aftershock",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 66.7
           }
         ],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 7.5,
-        "avgAssists": 12.5,
-        "kda": 2.07,
-        "avgDamage": 9902
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 2.7,
+        "avgDeaths": 6.0,
+        "avgAssists": 16.3,
+        "kda": 3.17,
+        "avgDamage": 9370
       }
     },
     "teamB": {
@@ -117,62 +143,75 @@
         "items": [
           {
             "name": "Guinsoo's Rageblade",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           },
           {
             "name": "Kraken Slayer",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Cleanse+Flash",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 50.0
           }
         ],
-        "avgKills": 9.5,
-        "avgDeaths": 6.0,
-        "avgAssists": 7.5,
-        "kda": 2.83,
-        "avgDamage": 28989
+        "avgKills": 7.7,
+        "avgDeaths": 6.3,
+        "avgAssists": 7.7,
+        "kda": 2.42,
+        "avgDamage": 23996
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [
           {
             "name": "Aftershock",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Ignite",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 50.0
+            "winRate": 33.3
           }
         ],
-        "avgKills": 1.0,
-        "avgDeaths": 6.5,
-        "avgAssists": 17.0,
-        "kda": 2.77,
-        "avgDamage": 10553
+        "avgKills": 0.7,
+        "avgDeaths": 7.0,
+        "avgAssists": 14.3,
+        "kda": 2.14,
+        "avgDamage": 9158
       }
     }
   }

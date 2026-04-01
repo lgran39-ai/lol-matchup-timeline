@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:10.074945",
+  "updated_at": "2026-04-01T11:13:44.669892",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -30,
-      "avg_xp_diff": -10,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 165,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": -1.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -364,
-      "avg_xp_diff": -31,
-      "avg_cs_diff": -10.0,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 190,
+      "avg_xp_diff": 147,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1655,
-      "avg_xp_diff": -495,
-      "avg_cs_diff": -15.0,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": -68,
+      "avg_xp_diff": 339,
+      "avg_cs_diff": 6.5,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1381,
-      "avg_xp_diff": 384,
-      "avg_cs_diff": -6.0,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 1174,
+      "avg_xp_diff": 2063,
+      "avg_cs_diff": 23.4,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
@@ -64,46 +64,101 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Immortal Shieldbow",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 10.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 14.0,
-        "kda": 4.0,
-        "avgDamage": 30141
+        "avgKills": 10.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 10.5,
+        "kda": 4.2,
+        "avgDamage": 25520
       },
       "sup": {
         "items": [],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 23.0,
-        "kda": 4.83,
-        "avgDamage": 15638
+        "avgKills": 4.0,
+        "avgDeaths": 5.0,
+        "avgAssists": 21.5,
+        "kda": 5.1,
+        "avgDamage": 10767
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 11.0,
-        "kda": 1.64,
-        "avgDamage": 23038
+        "avgKills": 5.5,
+        "avgDeaths": 8.0,
+        "avgAssists": 6.5,
+        "kda": 1.5,
+        "avgDamage": 19842
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 2.0,
         "avgDeaths": 9.0,
-        "avgAssists": 15.0,
-        "kda": 2.0,
-        "avgDamage": 12031
+        "avgAssists": 10.0,
+        "kda": 1.33,
+        "avgDamage": 9940
       }
     }
   }

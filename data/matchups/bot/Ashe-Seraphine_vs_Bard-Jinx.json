@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:11.077852",
+  "updated_at": "2026-04-01T11:13:46.133119",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 266,
-      "avg_xp_diff": 149,
-      "avg_cs_diff": 9.2,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 397,
+      "avg_xp_diff": 118,
+      "avg_cs_diff": 5.8,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1076,
-      "avg_xp_diff": 584,
-      "avg_cs_diff": 33.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 1259,
+      "avg_xp_diff": 423,
+      "avg_cs_diff": 22.7,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1665,
-      "avg_xp_diff": 815,
-      "avg_cs_diff": 51.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 2116,
+      "avg_xp_diff": 1026,
+      "avg_cs_diff": 38.0,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2670,
-      "avg_xp_diff": 291,
-      "avg_cs_diff": 56.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 2564,
+      "avg_xp_diff": 168,
+      "avg_cs_diff": 35.5,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 4310,
-      "avg_xp_diff": 216,
-      "avg_cs_diff": 55.8,
-      "sample_frames": 4,
+      "avg_gold_diff": 3654,
+      "avg_xp_diff": 114,
+      "avg_cs_diff": 13.8,
+      "sample_frames": 9,
       "advantage": 2
     }
   ],
@@ -64,46 +64,115 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 8.0,
-        "kda": 2.8,
-        "avgDamage": 24012
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 5.5,
+        "avgAssists": 7.5,
+        "kda": 2.64,
+        "avgDamage": 26193
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 17.0,
-        "kda": 3.17,
-        "avgDamage": 13024
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 16.5,
+        "kda": 3.64,
+        "avgDamage": 15030
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 3.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 6.0,
-        "kda": 1.12,
-        "avgDamage": 11629
+        "avgDeaths": 7.0,
+        "avgAssists": 6.5,
+        "kda": 1.36,
+        "avgDamage": 12400
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 11.0,
-        "kda": 2.4,
-        "avgDamage": 8041
+        "avgDeaths": 6.5,
+        "avgAssists": 13.0,
+        "kda": 2.15,
+        "avgDamage": 9057
       }
     }
   }

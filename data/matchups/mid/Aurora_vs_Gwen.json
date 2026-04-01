@@ -1,77 +1,173 @@
 {
   "role": "mid",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:06.385664",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-04-01T11:13:39.503877",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 172,
-      "avg_xp_diff": 38,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 155,
+      "avg_xp_diff": 41,
+      "avg_cs_diff": 6.6,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 312,
-      "avg_xp_diff": -74,
-      "avg_cs_diff": 17.4,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 503,
+      "avg_xp_diff": 188,
+      "avg_cs_diff": 16.3,
+      "sample_frames": 25,
+      "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 471,
-      "avg_xp_diff": 10,
-      "avg_cs_diff": 14.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 1078,
+      "avg_xp_diff": 499,
+      "avg_cs_diff": 20.2,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2329,
-      "avg_xp_diff": 1471,
-      "avg_cs_diff": 21.2,
-      "sample_frames": 10,
+      "avg_gold_diff": 977,
+      "avg_xp_diff": 463,
+      "avg_cs_diff": 13.0,
+      "sample_frames": 41,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 5231,
-      "avg_xp_diff": 3108,
-      "avg_cs_diff": 17.7,
-      "sample_frames": 15,
-      "advantage": 2
+      "avg_gold_diff": 373,
+      "avg_xp_diff": 83,
+      "avg_cs_diff": -11.1,
+      "sample_frames": 33,
+      "advantage": 1
     }
   ],
   "champA": "Aurora",
   "champB": "Gwen",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 16.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 11.0,
-      "kda": 6.75,
-      "avgDamage": 73800
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Stormsurge",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Ignite",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "avgKills": 7.8,
+      "avgDeaths": 4.2,
+      "avgAssists": 7.6,
+      "kda": 3.67,
+      "avgDamage": 34411
     },
     "champB": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 8.0,
-      "avgAssists": 5.0,
-      "kda": 0.88,
-      "avgDamage": 19458
+      "items": [
+        {
+          "name": "Dusk and Dawn",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Spellslinger's Shoes",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Rabadon's Deathcap",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Void Staff",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Ghost+Teleport",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 5.0,
+      "avgAssists": 2.2,
+      "kda": 1.44,
+      "avgDamage": 23521
     }
   }
 }

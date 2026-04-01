@@ -1,96 +1,137 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:20.904446",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-30T21:10:04.389574",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -57,
-      "avg_xp_diff": 7,
-      "avg_cs_diff": -6.5,
-      "sample_frames": 10,
+      "avg_gold_diff": -55,
+      "avg_xp_diff": -15,
+      "avg_cs_diff": -5.8,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -167,
-      "avg_xp_diff": -58,
-      "avg_cs_diff": -21.1,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": -8,
+      "avg_xp_diff": -113,
+      "avg_cs_diff": -15.6,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -197,
-      "avg_xp_diff": 224,
-      "avg_cs_diff": -15.3,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 84,
+      "avg_xp_diff": 223,
+      "avg_cs_diff": -7.9,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -557,
-      "avg_xp_diff": -448,
-      "avg_cs_diff": -31.6,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 180,
+      "avg_xp_diff": 102,
+      "avg_cs_diff": -18.5,
+      "sample_frames": 20,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 684,
+      "avg_xp_diff": -76,
+      "avg_cs_diff": 1.2,
+      "sample_frames": 8,
+      "advantage": 2
     }
   ],
   "champA": "Qiyana",
   "champB": "Tristana",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Crimson Lucidity",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 2.5,
-      "avgAssists": 3.5,
-      "kda": 2.8,
-      "avgDamage": 11844
+      "avgKills": 5.3,
+      "avgDeaths": 4.0,
+      "avgAssists": 4.7,
+      "kda": 2.5,
+      "avgDamage": 16606
     },
     "champB": {
       "items": [
         {
           "name": "Armored Advance",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Kraken Slayer",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Navori Flickerblade",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Lethal Tempo",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 5.0,
-      "avgAssists": 2.5,
-      "kda": 0.9,
-      "avgDamage": 11070
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.3,
+      "avgDeaths": 6.3,
+      "avgAssists": 3.3,
+      "kda": 1.05,
+      "avgDamage": 12419
     }
   }
 }

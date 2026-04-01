@@ -1,44 +1,53 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:22.226009",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-30T21:10:06.156121",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 206,
-      "avg_xp_diff": -34,
-      "avg_cs_diff": -6.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 247,
+      "avg_xp_diff": 8,
+      "avg_cs_diff": -2.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -563,
-      "avg_xp_diff": -701,
-      "avg_cs_diff": -33.2,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -119,
+      "avg_xp_diff": -288,
+      "avg_cs_diff": -17.8,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -2539,
-      "avg_xp_diff": -1564,
-      "avg_cs_diff": -68.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -1671,
+      "avg_xp_diff": -1030,
+      "avg_cs_diff": -34.4,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -3915,
-      "avg_xp_diff": -2253,
-      "avg_cs_diff": -81.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -1528,
+      "avg_xp_diff": -830,
+      "avg_cs_diff": -8.4,
+      "sample_frames": 12,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 829,
+      "avg_xp_diff": 3200,
+      "avg_cs_diff": 40.9,
+      "sample_frames": 7,
+      "advantage": 2
     }
   ],
   "type": "bot_2v2",
@@ -56,45 +65,108 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 1.0,
-        "kda": 2.0,
-        "avgDamage": 3728
+        "keystones": [
+          {
+            "name": "Dark Harvest",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 4.0,
+        "avgDeaths": 0.5,
+        "avgAssists": 4.5,
+        "kda": 17.0,
+        "avgDamage": 11734
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
         "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 2.0,
-        "kda": 1.5,
-        "avgDamage": 3882
+        "avgDeaths": 3.0,
+        "avgAssists": 5.5,
+        "kda": 2.17,
+        "avgDamage": 3878
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Hubris",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 3.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 4.0,
-        "kda": 7.0,
-        "avgDamage": 9713
+        "avgDeaths": 2.0,
+        "avgAssists": 5.0,
+        "kda": 4.0,
+        "avgDamage": 12256
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 5.0,
-        "kda": 3.0,
-        "avgDamage": 6284
+        "keystones": [
+          {
+            "name": "Grasp of the Undying",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 3.0,
+        "avgAssists": 6.5,
+        "kda": 3.33,
+        "avgDamage": 11690
       }
     }
   }

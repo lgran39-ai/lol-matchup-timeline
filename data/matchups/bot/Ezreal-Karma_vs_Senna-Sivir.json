@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:13.553643",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:49.900779",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 164,
-      "avg_xp_diff": 2,
-      "avg_cs_diff": 1.1,
-      "sample_frames": 10,
+      "avg_gold_diff": 92,
+      "avg_xp_diff": -17,
+      "avg_cs_diff": 0.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 874,
-      "avg_xp_diff": 538,
-      "avg_cs_diff": 1.6,
-      "sample_frames": 10,
-      "advantage": 2
+      "avg_gold_diff": 263,
+      "avg_xp_diff": 261,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 658,
-      "avg_xp_diff": 1299,
-      "avg_cs_diff": -2.5,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": -42,
+      "avg_xp_diff": 928,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1054,
-      "avg_xp_diff": 1107,
-      "avg_cs_diff": -9.2,
-      "sample_frames": 20,
-      "advantage": 2
+      "avg_gold_diff": 576,
+      "avg_xp_diff": 1071,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 30,
+      "advantage": 1
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2528,
-      "avg_xp_diff": -2321,
-      "avg_cs_diff": -26.8,
-      "sample_frames": 17,
+      "avg_gold_diff": -1396,
+      "avg_xp_diff": -1083,
+      "avg_cs_diff": -17.4,
+      "sample_frames": 22,
       "advantage": -2
     }
   ],
@@ -67,55 +67,87 @@
         "items": [
           {
             "name": "Trinity Force",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
+          },
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
           }
         ],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 7.0,
-        "kda": 1.88,
-        "avgDamage": 34708
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 7.7,
+        "avgDeaths": 6.7,
+        "avgAssists": 6.7,
+        "kda": 2.15,
+        "avgDamage": 29405
       },
       "sup": {
         "items": [
           {
+            "name": "Moonstone Renewer",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          },
+          {
             "name": "Shurelya's Battlesong",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 0.0
           },
           {
-            "name": "Moonstone Renewer",
+            "name": "Echoes of Helia",
             "count": 2,
-            "pickRate": 100.0,
-            "winRate": 0.0
+            "pickRate": 66.7,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Arcane Comet",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 0.0
+            "winRate": 33.3
           }
         ],
-        "summonerSpells": [],
-        "avgKills": 3.5,
-        "avgDeaths": 7.5,
-        "avgAssists": 22.0,
-        "kda": 3.4,
-        "avgDamage": 18015
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 5.3,
+        "avgAssists": 19.3,
+        "kda": 4.19,
+        "avgDamage": 15908
       }
     },
     "teamB": {
@@ -123,61 +155,81 @@
         "items": [
           {
             "name": "Essence Reaver",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
           },
           {
             "name": "Infinity Edge",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 100.0
           },
           {
-            "name": "Navori Flickerblade",
+            "name": "Lord Dominik's Regards",
             "count": 2,
-            "pickRate": 100.0,
-            "winRate": 100.0
+            "pickRate": 66.7,
+            "winRate": 50.0
           }
         ],
         "keystones": [
           {
             "name": "Lethal Tempo",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           }
         ],
         "summonerSpells": [
           {
             "spells": "Flash+Barrier",
-            "count": 2,
+            "count": 3,
             "pickRate": 100.0,
-            "winRate": 100.0
+            "winRate": 66.7
           }
         ],
-        "avgKills": 13.5,
-        "avgDeaths": 6.0,
-        "avgAssists": 10.0,
-        "kda": 3.92,
-        "avgDamage": 38476
+        "avgKills": 9.7,
+        "avgDeaths": 5.7,
+        "avgAssists": 9.0,
+        "kda": 3.29,
+        "avgDamage": 30235
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Black Cleaver",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [
           {
             "spells": "Flash+Heal",
             "count": 2,
-            "pickRate": 100.0,
+            "pickRate": 66.7,
             "winRate": 100.0
           }
         ],
-        "avgKills": 1.5,
-        "avgDeaths": 10.0,
-        "avgAssists": 22.0,
-        "kda": 2.35,
-        "avgDamage": 11198
+        "avgKills": 1.7,
+        "avgDeaths": 7.0,
+        "avgAssists": 17.7,
+        "kda": 2.76,
+        "avgDamage": 12808
       }
     }
   }

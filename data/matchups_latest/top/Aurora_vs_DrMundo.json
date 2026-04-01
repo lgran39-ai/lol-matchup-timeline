@@ -1,43 +1,52 @@
 {
   "role": "top",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:19.229835",
+  "updated_at": "2026-03-30T21:10:02.115738",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 93,
-      "avg_xp_diff": 19,
-      "avg_cs_diff": 6.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 72,
+      "avg_xp_diff": 25,
+      "avg_cs_diff": 4.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 530,
-      "avg_xp_diff": 267,
-      "avg_cs_diff": 24.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 439,
+      "avg_xp_diff": 384,
+      "avg_cs_diff": 20.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1064,
-      "avg_xp_diff": 1167,
-      "avg_cs_diff": 36.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 899,
+      "avg_xp_diff": 985,
+      "avg_cs_diff": 31.5,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 860,
-      "avg_xp_diff": 1005,
-      "avg_cs_diff": 36.0,
-      "sample_frames": 2,
+      "avg_gold_diff": 852,
+      "avg_xp_diff": 324,
+      "avg_cs_diff": 9.8,
+      "sample_frames": 12,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1603,
+      "avg_xp_diff": 1025,
+      "avg_cs_diff": 0.8,
+      "sample_frames": 5,
       "advantage": 2
     }
   ],
@@ -45,24 +54,59 @@
   "champB": "DrMundo",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 1.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 0.0,
-      "kda": 1.0,
-      "avgDamage": 21856
+      "items": [
+        {
+          "name": "Liandry's Torment",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Teleport",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 2.5,
+      "avgDeaths": 2.0,
+      "avgAssists": 1.5,
+      "kda": 2.0,
+      "avgDamage": 26878
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Warmog's Armor",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Grasp of the Undying",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [],
       "avgKills": 1.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 0.0,
-      "kda": 1.0,
-      "avgDamage": 7081
+      "avgDeaths": 2.5,
+      "avgAssists": 2.0,
+      "kda": 1.2,
+      "avgDamage": 10833
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:20.075873",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-30T21:10:03.378999",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -36,
-      "avg_xp_diff": -6,
-      "avg_cs_diff": -0.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 11,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -104,
-      "avg_xp_diff": 80,
-      "avg_cs_diff": -0.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 34,
+      "avg_xp_diff": 7,
+      "avg_cs_diff": -2.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -110,
-      "avg_xp_diff": -247,
-      "avg_cs_diff": -10.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -67,
+      "avg_xp_diff": -197,
+      "avg_cs_diff": -13.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -413,
-      "avg_xp_diff": -1073,
-      "avg_cs_diff": -14.6,
-      "sample_frames": 20,
+      "avg_gold_diff": -554,
+      "avg_xp_diff": -1098,
+      "avg_cs_diff": -21.4,
+      "sample_frames": 30,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 2899,
-      "avg_xp_diff": 1708,
-      "avg_cs_diff": -5.5,
-      "sample_frames": 2,
+      "avg_gold_diff": 966,
+      "avg_xp_diff": -473,
+      "avg_cs_diff": -31.6,
+      "sample_frames": 5,
       "advantage": 2
     }
   ],
@@ -57,56 +57,81 @@
       "items": [
         {
           "name": "Sundered Sky",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.3,
+      "avgDeaths": 6.0,
+      "avgAssists": 10.0,
+      "kda": 2.56,
+      "avgDamage": 12944
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 3,
+          "pickRate": 100.0,
+          "winRate": 66.7
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Stridebreaker",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 5.5,
-      "avgDeaths": 5.0,
-      "avgAssists": 12.5,
-      "kda": 3.6,
-      "avgDamage": 13474
-    },
-    "champB": {
-      "items": [
-        {
-          "name": "Experimental Hexplate",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "keystones": [
-        {
-          "name": "Conqueror",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 50.0
-        }
-      ],
-      "summonerSpells": [],
-      "avgKills": 6.5,
-      "avgDeaths": 4.5,
-      "avgAssists": 6.0,
-      "kda": 2.78,
-      "avgDamage": 15613
+      "avgKills": 7.0,
+      "avgDeaths": 3.7,
+      "avgAssists": 6.3,
+      "kda": 3.64,
+      "avgDamage": 16181
     }
   }
 }

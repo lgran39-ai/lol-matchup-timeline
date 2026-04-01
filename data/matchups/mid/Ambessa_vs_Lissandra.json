@@ -1,53 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 5,
-  "overall_winrate_a": 40.0,
-  "updated_at": "2026-03-29T12:05:06.101265",
+  "sample_size": 6,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:39.117412",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 28,
-      "avg_xp_diff": 36,
+      "avg_gold_diff": 6,
+      "avg_xp_diff": 26,
       "avg_cs_diff": -1.0,
-      "sample_frames": 25,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 87,
-      "avg_xp_diff": 158,
-      "avg_cs_diff": -3.2,
-      "sample_frames": 25,
+      "avg_gold_diff": 51,
+      "avg_xp_diff": 161,
+      "avg_cs_diff": -3.5,
+      "sample_frames": 30,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 162,
-      "avg_xp_diff": 510,
-      "avg_cs_diff": 0.0,
-      "sample_frames": 25,
-      "advantage": 1
+      "avg_gold_diff": 57,
+      "avg_xp_diff": 370,
+      "avg_cs_diff": -2.2,
+      "sample_frames": 30,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -110,
-      "avg_xp_diff": 58,
-      "avg_cs_diff": -3.8,
-      "sample_frames": 44,
+      "avg_gold_diff": 88,
+      "avg_xp_diff": 322,
+      "avg_cs_diff": -4.0,
+      "sample_frames": 54,
       "advantage": 0
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -1916,
-      "avg_xp_diff": -2439,
-      "avg_cs_diff": -34.1,
-      "sample_frames": 12,
-      "advantage": -2
+      "avg_gold_diff": -380,
+      "avg_xp_diff": -378,
+      "avg_cs_diff": -18.8,
+      "sample_frames": 20,
+      "advantage": -1
     }
   ],
   "champA": "Ambessa",
@@ -58,80 +58,98 @@
         {
           "name": "Chainlaced Crushers",
           "count": 5,
-          "pickRate": 100.0,
+          "pickRate": 83.3,
           "winRate": 40.0
         },
         {
           "name": "Spear of Shojin",
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 75.0
+        },
+        {
+          "name": "Hubris",
           "count": 3,
-          "pickRate": 60.0,
-          "winRate": 66.7
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
         },
         {
           "name": "Eclipse",
           "count": 2,
-          "pickRate": 40.0,
+          "pickRate": 33.3,
           "winRate": 50.0
-        },
-        {
-          "name": "Hubris",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
           "count": 3,
-          "pickRate": 60.0,
+          "pickRate": 50.0,
           "winRate": 0.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 33.3,
+          "winRate": 100.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 66.7
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 6.6,
-      "avgAssists": 3.6,
-      "kda": 1.15,
-      "avgDamage": 18391
+      "avgKills": 4.8,
+      "avgDeaths": 6.8,
+      "avgAssists": 4.7,
+      "kda": 1.39,
+      "avgDamage": 20730
     },
     "champB": {
       "items": [
         {
           "name": "Malignance",
-          "count": 4,
-          "pickRate": 80.0,
-          "winRate": 50.0
+          "count": 5,
+          "pickRate": 83.3,
+          "winRate": 40.0
         },
         {
           "name": "Spellslinger's Shoes",
-          "count": 3,
-          "pickRate": 60.0,
-          "winRate": 66.7
+          "count": 4,
+          "pickRate": 66.7,
+          "winRate": 50.0
         },
         {
           "name": "Zhonya's Hourglass",
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "Shadowflame",
           "count": 2,
-          "pickRate": 40.0,
-          "winRate": 50.0
+          "pickRate": 33.3,
+          "winRate": 0.0
         },
         {
           "name": "Hextech Rocketbelt",
           "count": 2,
-          "pickRate": 40.0,
+          "pickRate": 33.3,
           "winRate": 100.0
         },
         {
           "name": "Crimson Lucidity",
           "count": 2,
-          "pickRate": 40.0,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
@@ -139,29 +157,35 @@
         {
           "name": "Arcane Comet",
           "count": 3,
-          "pickRate": 60.0,
+          "pickRate": 50.0,
           "winRate": 66.7
         },
         {
           "name": "Electrocute",
-          "count": 2,
-          "pickRate": 40.0,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 50.0,
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
           "count": 4,
-          "pickRate": 80.0,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "spells": "Flash+Ignite",
+          "count": 2,
+          "pickRate": 33.3,
           "winRate": 50.0
         }
       ],
       "avgKills": 4.2,
-      "avgDeaths": 5.8,
-      "avgAssists": 7.8,
-      "kda": 2.07,
-      "avgDamage": 19223
+      "avgDeaths": 6.5,
+      "avgAssists": 8.7,
+      "kda": 1.97,
+      "avgDamage": 21244
     }
   }
 }

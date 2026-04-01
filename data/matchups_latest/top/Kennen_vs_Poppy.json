@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 4,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:20.317305",
+  "sample_size": 5,
+  "overall_winrate_a": 40.0,
+  "updated_at": "2026-03-30T21:10:03.711580",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -22,
-      "avg_xp_diff": -82,
-      "avg_cs_diff": 3.2,
-      "sample_frames": 20,
+      "avg_gold_diff": 3,
+      "avg_xp_diff": -60,
+      "avg_cs_diff": 3.6,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 11,
-      "avg_xp_diff": -124,
-      "avg_cs_diff": 12.8,
-      "sample_frames": 20,
+      "avg_gold_diff": 41,
+      "avg_xp_diff": -145,
+      "avg_cs_diff": 11.8,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 279,
-      "avg_xp_diff": 282,
-      "avg_cs_diff": 18.1,
-      "sample_frames": 20,
+      "avg_gold_diff": 284,
+      "avg_xp_diff": 283,
+      "avg_cs_diff": 18.4,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -175,
-      "avg_xp_diff": 139,
-      "avg_cs_diff": 13.9,
-      "sample_frames": 21,
-      "advantage": -1
+      "avg_gold_diff": 878,
+      "avg_xp_diff": 1090,
+      "avg_cs_diff": 29.9,
+      "sample_frames": 31,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2696,
+      "avg_xp_diff": 3019,
+      "avg_cs_diff": 92.0,
+      "sample_frames": 5,
+      "advantage": 2
     }
   ],
   "champA": "Kennen",
@@ -48,56 +57,69 @@
       "items": [
         {
           "name": "Hextech Gunblade",
-          "count": 3,
-          "pickRate": 75.0,
-          "winRate": 66.7
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 40.0
         }
       ],
-      "avgKills": 2.2,
-      "avgDeaths": 3.0,
-      "avgAssists": 2.2,
-      "kda": 1.5,
-      "avgDamage": 14953
+      "avgKills": 3.0,
+      "avgDeaths": 3.2,
+      "avgAssists": 3.2,
+      "kda": 1.94,
+      "avgDamage": 17872
     },
     "champB": {
       "items": [
         {
           "name": "Hollow Radiance",
-          "count": 2,
-          "pickRate": 50.0,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 60.0,
+          "winRate": 66.7
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 60.0
         }
       ],
-      "avgKills": 3.0,
-      "avgDeaths": 3.8,
-      "avgAssists": 2.0,
-      "kda": 1.33,
-      "avgDamage": 12664
+      "avgKills": 3.4,
+      "avgDeaths": 4.2,
+      "avgAssists": 3.2,
+      "kda": 1.57,
+      "avgDamage": 14495
     }
   }
 }

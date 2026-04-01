@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:11.815918",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:47.238156",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -417,
-      "avg_xp_diff": -148,
-      "avg_cs_diff": -8.8,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -270,
+      "avg_xp_diff": -141,
+      "avg_cs_diff": -6.8,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -2424,
-      "avg_xp_diff": -1573,
-      "avg_cs_diff": -37.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -1478,
+      "avg_xp_diff": -803,
+      "avg_cs_diff": -29.3,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -4565,
-      "avg_xp_diff": -2661,
-      "avg_cs_diff": -64.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -2247,
+      "avg_xp_diff": -1060,
+      "avg_cs_diff": -47.8,
+      "sample_frames": 15,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -6857,
-      "avg_xp_diff": -3467,
-      "avg_cs_diff": -57.9,
-      "sample_frames": 10,
+      "avg_gold_diff": -3526,
+      "avg_xp_diff": -1796,
+      "avg_cs_diff": -43.5,
+      "sample_frames": 27,
       "advantage": -2
     },
     {
@@ -64,46 +64,142 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 7.0,
-        "kda": 0.89,
-        "avgDamage": 19446
+        "items": [
+          {
+            "name": "Luden's Echo",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          },
+          {
+            "name": "Shadowflame",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 3.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 4.7,
+        "kda": 1.1,
+        "avgDamage": 16714
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 10.0,
-        "kda": 1.67,
-        "avgDamage": 7542
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 33.3
+          }
+        ],
+        "avgKills": 1.3,
+        "avgDeaths": 5.0,
+        "avgAssists": 10.3,
+        "kda": 2.33,
+        "avgDamage": 7365
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 9.0,
-        "kda": 10.0,
-        "avgDamage": 44774
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          },
+          {
+            "name": "Spear of Shojin",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Teleport",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 8.3,
+        "avgDeaths": 4.0,
+        "avgAssists": 5.7,
+        "kda": 3.5,
+        "avgDamage": 28476
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 5.0,
-        "avgAssists": 19.0,
-        "kda": 4.8,
-        "avgDamage": 17001
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 66.7,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Arcane Comet",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 3,
+            "pickRate": 100.0,
+            "winRate": 66.7
+          }
+        ],
+        "avgKills": 3.3,
+        "avgDeaths": 4.7,
+        "avgAssists": 14.0,
+        "kda": 3.71,
+        "avgDamage": 12295
       }
     }
   }

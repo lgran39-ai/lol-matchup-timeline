@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:08.658478",
+  "sample_size": 5,
+  "overall_winrate_a": 80.0,
+  "updated_at": "2026-04-01T11:13:42.659728",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 44,
-      "avg_xp_diff": 33,
-      "avg_cs_diff": 0.5,
-      "sample_frames": 10,
+      "avg_gold_diff": 81,
+      "avg_xp_diff": 27,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 215,
-      "avg_xp_diff": 190,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 10,
+      "avg_gold_diff": 387,
+      "avg_xp_diff": 142,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 25,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 538,
-      "avg_xp_diff": 524,
-      "avg_cs_diff": 1.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 620,
+      "avg_xp_diff": 316,
+      "avg_cs_diff": 4.9,
+      "sample_frames": 25,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1036,
-      "avg_xp_diff": 1410,
-      "avg_cs_diff": 8.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 2089,
+      "avg_xp_diff": 1887,
+      "avg_cs_diff": 34.4,
+      "sample_frames": 22,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4927,
+      "avg_xp_diff": 3495,
+      "avg_cs_diff": 77.7,
+      "sample_frames": 7,
       "advantage": 2
     }
   ],
@@ -45,45 +54,78 @@
   "champB": "Zac",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Hubris",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 75.0
+        },
+        {
+          "name": "Axiom Arc",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 80.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 80.0
         }
       ],
-      "avgKills": 5.0,
-      "avgDeaths": 0.5,
-      "avgAssists": 2.5,
-      "kda": 15.0,
-      "avgDamage": 8310
+      "avgKills": 7.0,
+      "avgDeaths": 2.0,
+      "avgAssists": 3.4,
+      "kda": 5.2,
+      "avgDamage": 15728
     },
     "champB": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Sunfire Aegis",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 4,
+          "pickRate": 80.0,
+          "winRate": 25.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 5,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 20.0
         }
       ],
-      "avgKills": 2.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 1.5,
-      "kda": 3.5,
-      "avgDamage": 3688
+      "avgKills": 3.4,
+      "avgDeaths": 3.4,
+      "avgAssists": 3.2,
+      "kda": 1.94,
+      "avgDamage": 6732
     }
   }
 }

@@ -1,68 +1,98 @@
 {
   "role": "jg",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:06.562649",
+  "updated_at": "2026-04-01T11:13:39.756859",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 61,
-      "avg_xp_diff": 124,
-      "avg_cs_diff": 3.4,
-      "sample_frames": 5,
+      "avg_gold_diff": 33,
+      "avg_xp_diff": 43,
+      "avg_cs_diff": 2.3,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 459,
-      "avg_xp_diff": 419,
-      "avg_cs_diff": 9.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 192,
+      "avg_xp_diff": 160,
+      "avg_cs_diff": 4.2,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 553,
-      "avg_xp_diff": 682,
-      "avg_cs_diff": 12.6,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": 180,
+      "avg_xp_diff": 226,
+      "avg_cs_diff": 2.5,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -79,
-      "avg_xp_diff": 625,
-      "avg_cs_diff": 18.5,
-      "sample_frames": 2,
-      "advantage": 0
+      "avg_gold_diff": -2304,
+      "avg_xp_diff": -1208,
+      "avg_cs_diff": -11.6,
+      "sample_frames": 12,
+      "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -2861,
+      "avg_xp_diff": 185,
+      "avg_cs_diff": -13.2,
+      "sample_frames": 6,
+      "advantage": -2
     }
   ],
   "champA": "Brand",
   "champB": "Talon",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 5.0,
-      "avgDeaths": 1.0,
-      "avgAssists": 4.0,
-      "kda": 9.0,
-      "avgDamage": 4795
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 100.0
+        }
+      ],
+      "avgKills": 3.5,
+      "avgDeaths": 5.0,
+      "avgAssists": 8.0,
+      "kda": 2.3,
+      "avgDamage": 8057
     },
     "champB": {
       "items": [],
       "keystones": [],
-      "summonerSpells": [],
-      "avgKills": 2.0,
-      "avgDeaths": 4.0,
-      "avgAssists": 1.0,
-      "kda": 0.75,
-      "avgDamage": 5482
+      "summonerSpells": [
+        {
+          "spells": "Flash+Smite",
+          "count": 2,
+          "pickRate": 100.0,
+          "winRate": 0.0
+        }
+      ],
+      "avgKills": 6.5,
+      "avgDeaths": 4.5,
+      "avgAssists": 2.0,
+      "kda": 1.89,
+      "avgDamage": 13085
     }
   }
 }

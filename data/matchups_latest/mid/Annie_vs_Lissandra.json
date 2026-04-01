@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 4,
+  "sample_size": 5,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:19.150714",
+  "updated_at": "2026-03-30T21:10:02.035871",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 22,
-      "avg_xp_diff": 16,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 20,
+      "avg_gold_diff": 65,
+      "avg_xp_diff": 43,
+      "avg_cs_diff": 0.5,
+      "sample_frames": 25,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 105,
-      "avg_xp_diff": 52,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 20,
-      "advantage": 0
+      "avg_gold_diff": 247,
+      "avg_xp_diff": 183,
+      "avg_cs_diff": 4.3,
+      "sample_frames": 25,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -369,
-      "avg_xp_diff": -523,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": -81,
+      "avg_xp_diff": -231,
+      "avg_cs_diff": -1.1,
+      "sample_frames": 25,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -2268,
-      "avg_xp_diff": -2482,
-      "avg_cs_diff": -37.5,
-      "sample_frames": 26,
+      "avg_gold_diff": -930,
+      "avg_xp_diff": -1071,
+      "avg_cs_diff": -12.1,
+      "sample_frames": 36,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 3071,
+      "avg_xp_diff": 2339,
+      "avg_cs_diff": 47.9,
+      "sample_frames": 9,
+      "advantage": 2
     }
   ],
   "champA": "Annie",
@@ -48,27 +57,33 @@
       "items": [
         {
           "name": "Malignance",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
           "winRate": 0.0
         },
         {
           "name": "Chainlaced Crushers",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 40.0,
           "winRate": 0.0
         },
         {
           "name": "Spellslinger's Shoes",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 0.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
           "winRate": 0.0
         }
@@ -77,58 +92,64 @@
         {
           "spells": "Flash+Teleport",
           "count": 4,
-          "pickRate": 100.0,
+          "pickRate": 80.0,
           "winRate": 0.0
         }
       ],
-      "avgKills": 2.8,
-      "avgDeaths": 7.0,
-      "avgAssists": 4.8,
-      "kda": 1.07,
-      "avgDamage": 16057
+      "avgKills": 3.6,
+      "avgDeaths": 6.8,
+      "avgAssists": 5.6,
+      "kda": 1.35,
+      "avgDamage": 18549
     },
     "champB": {
       "items": [
         {
           "name": "Chainlaced Crushers",
           "count": 4,
-          "pickRate": 100.0,
+          "pickRate": 80.0,
+          "winRate": 100.0
+        },
+        {
+          "name": "Hextech Rocketbelt",
+          "count": 3,
+          "pickRate": 60.0,
           "winRate": 100.0
         },
         {
           "name": "Malignance",
           "count": 2,
-          "pickRate": 50.0,
-          "winRate": 100.0
-        },
-        {
-          "name": "Hextech Rocketbelt",
-          "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 100.0
         }
       ],
       "keystones": [
         {
+          "name": "Electrocute",
+          "count": 2,
+          "pickRate": 40.0,
+          "winRate": 100.0
+        },
+        {
           "name": "Arcane Comet",
           "count": 2,
-          "pickRate": 50.0,
+          "pickRate": 40.0,
           "winRate": 100.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 4,
+          "count": 5,
           "pickRate": 100.0,
           "winRate": 100.0
         }
       ],
-      "avgKills": 5.8,
-      "avgDeaths": 2.8,
+      "avgKills": 4.8,
+      "avgDeaths": 4.2,
       "avgAssists": 10.2,
-      "kda": 5.82,
-      "avgDamage": 16601
+      "kda": 3.57,
+      "avgDamage": 16264
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "role": "top",
-  "sample_size": 3,
-  "overall_winrate_a": 66.7,
-  "updated_at": "2026-03-29T12:05:06.413775",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:39.547037",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 182,
-      "avg_xp_diff": 86,
-      "avg_cs_diff": 5.5,
-      "sample_frames": 15,
+      "avg_gold_diff": 167,
+      "avg_xp_diff": 94,
+      "avg_cs_diff": 5.3,
+      "sample_frames": 20,
       "advantage": 1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 719,
-      "avg_xp_diff": 408,
-      "avg_cs_diff": 22.7,
-      "sample_frames": 15,
+      "avg_gold_diff": 646,
+      "avg_xp_diff": 369,
+      "avg_cs_diff": 20.1,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 935,
-      "avg_xp_diff": 814,
-      "avg_cs_diff": 28.2,
-      "sample_frames": 15,
+      "avg_gold_diff": 578,
+      "avg_xp_diff": 364,
+      "avg_cs_diff": 21.4,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1397,
-      "avg_xp_diff": 1070,
-      "avg_cs_diff": 40.2,
-      "sample_frames": 29,
+      "avg_gold_diff": 815,
+      "avg_xp_diff": 413,
+      "avg_cs_diff": 29.8,
+      "sample_frames": 39,
       "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -2096,
-      "avg_xp_diff": -140,
-      "avg_cs_diff": 12.3,
-      "sample_frames": 3,
+      "avg_gold_diff": -1451,
+      "avg_xp_diff": -2052,
+      "avg_cs_diff": 8.3,
+      "sample_frames": 16,
       "advantage": -2
     }
   ],
@@ -54,41 +54,72 @@
   "champB": "Mordekaiser",
   "buildStats": {
     "champA": {
-      "items": [],
+      "items": [
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 0.0
+        },
+        {
+          "name": "Zhonya's Hourglass",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Luden's Echo",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 3,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 66.7
+          "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Teleport",
-          "count": 2,
-          "pickRate": 66.7,
-          "winRate": 50.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 33.3
         }
       ],
-      "avgKills": 6.7,
-      "avgDeaths": 4.3,
-      "avgAssists": 8.0,
-      "kda": 3.38,
-      "avgDamage": 24019
+      "avgKills": 5.5,
+      "avgDeaths": 5.2,
+      "avgAssists": 6.8,
+      "kda": 2.33,
+      "avgDamage": 25007
     },
     "champB": {
       "items": [
         {
+          "name": "Riftmaker",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
           "name": "Experimental Hexplate",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
           "winRate": 50.0
         },
         {
-          "name": "Riftmaker",
+          "name": "Hextech Rocketbelt",
           "count": 2,
-          "pickRate": 66.7,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Rylai's Crystal Scepter",
+          "count": 2,
+          "pickRate": 50.0,
           "winRate": 50.0
         }
       ],
@@ -96,7 +127,7 @@
         {
           "name": "Conqueror",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 75.0,
           "winRate": 33.3
         }
       ],
@@ -104,15 +135,15 @@
         {
           "spells": "Flash+Teleport",
           "count": 3,
-          "pickRate": 100.0,
+          "pickRate": 75.0,
           "winRate": 33.3
         }
       ],
-      "avgKills": 3.7,
-      "avgDeaths": 7.3,
-      "avgAssists": 2.7,
-      "kda": 0.86,
-      "avgDamage": 13350
+      "avgKills": 4.8,
+      "avgDeaths": 6.8,
+      "avgAssists": 4.2,
+      "kda": 1.33,
+      "avgDamage": 17178
     }
   }
 }

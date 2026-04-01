@@ -1,43 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:20.960118",
+  "sample_size": 4,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-03-30T21:10:04.472882",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -6,
-      "avg_xp_diff": 33,
-      "avg_cs_diff": 0.7,
-      "sample_frames": 10,
+      "avg_gold_diff": -79,
+      "avg_xp_diff": 34,
+      "avg_cs_diff": 1.0,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1,
-      "avg_xp_diff": 260,
-      "avg_cs_diff": 5.9,
-      "sample_frames": 10,
+      "avg_gold_diff": 63,
+      "avg_xp_diff": 400,
+      "avg_cs_diff": 10.1,
+      "sample_frames": 20,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 482,
-      "avg_xp_diff": 327,
-      "avg_cs_diff": 9.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 647,
+      "avg_xp_diff": 659,
+      "avg_cs_diff": 19.7,
+      "sample_frames": 20,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 1506,
-      "avg_xp_diff": -216,
-      "avg_cs_diff": 16.6,
-      "sample_frames": 9,
+      "avg_gold_diff": 1504,
+      "avg_xp_diff": 402,
+      "avg_cs_diff": 30.7,
+      "sample_frames": 29,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 1684,
+      "avg_xp_diff": 1629,
+      "avg_cs_diff": 36.1,
+      "sample_frames": 17,
       "advantage": 2
     }
   ],
@@ -45,58 +54,96 @@
   "champB": "Skarner",
   "buildStats": {
     "champA": {
-      "items": [],
-      "keystones": [],
+      "items": [
+        {
+          "name": "Edge of Night",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Lord Dominik's Regards",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Profane Hydra",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
+      "keystones": [
+        {
+          "name": "First Strike",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        },
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 50.0,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 50.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 5.5,
-      "avgAssists": 2.5,
-      "kda": 1.55,
-      "avgDamage": 12349
+      "avgKills": 8.5,
+      "avgDeaths": 6.5,
+      "avgAssists": 7.5,
+      "kda": 2.46,
+      "avgDamage": 22656
     },
     "champB": {
       "items": [
         {
+          "name": "Protoplasm Harness",
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
+        },
+        {
           "name": "Bandlepipes",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 50.0,
           "winRate": 100.0
         },
         {
-          "name": "Protoplasm Harness",
+          "name": "Unending Despair",
           "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "pickRate": 50.0,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Grasp of the Undying",
-          "count": 2,
-          "pickRate": 100.0,
-          "winRate": 100.0
+          "count": 3,
+          "pickRate": 75.0,
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 4,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 50.0
         }
       ],
-      "avgKills": 5.5,
-      "avgDeaths": 3.0,
-      "avgAssists": 9.5,
-      "kda": 5.0,
-      "avgDamage": 10444
+      "avgKills": 4.8,
+      "avgDeaths": 5.8,
+      "avgAssists": 14.2,
+      "kda": 3.3,
+      "avgDamage": 17274
     }
   }
 }

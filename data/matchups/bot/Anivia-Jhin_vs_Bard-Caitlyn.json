@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:10.233701",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:44.918074",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 94,
-      "avg_xp_diff": 143,
-      "avg_cs_diff": 0.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 79,
+      "avg_xp_diff": 59,
+      "avg_cs_diff": 2.1,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 543,
-      "avg_xp_diff": 129,
-      "avg_cs_diff": -0.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 611,
+      "avg_xp_diff": 297,
+      "avg_cs_diff": 8.2,
+      "sample_frames": 10,
       "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2236,
-      "avg_xp_diff": 894,
-      "avg_cs_diff": 19.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 1899,
+      "avg_xp_diff": 868,
+      "avg_cs_diff": 23.2,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2002,
-      "avg_xp_diff": 1083,
-      "avg_cs_diff": 20.3,
-      "sample_frames": 10,
+      "avg_gold_diff": 2066,
+      "avg_xp_diff": 1875,
+      "avg_cs_diff": 20.4,
+      "sample_frames": 21,
       "advantage": 2
     },
     {
@@ -66,44 +66,99 @@
       "adc": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 13.0,
-        "avgDeaths": 11.0,
-        "avgAssists": 15.0,
-        "kda": 2.55,
-        "avgDamage": 48277
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 10.0,
+        "avgDeaths": 7.0,
+        "avgAssists": 13.0,
+        "kda": 3.29,
+        "avgDamage": 34594
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Rod of Ages",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 14.0,
-        "kda": 2.44,
-        "avgDamage": 29294
+        "avgKills": 4.0,
+        "avgDeaths": 5.5,
+        "avgAssists": 16.0,
+        "kda": 3.64,
+        "avgDamage": 18506
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Hexoptics C44",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 15.0,
-        "avgDeaths": 14.0,
-        "avgAssists": 14.0,
-        "kda": 2.07,
-        "avgDamage": 53022
+        "avgKills": 8.0,
+        "avgDeaths": 9.5,
+        "avgAssists": 7.0,
+        "kda": 1.58,
+        "avgDamage": 32211
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 28.0,
-        "kda": 3.88,
-        "avgDamage": 20589
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          },
+          {
+            "name": "Mikael's Blessing",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 17.0,
+        "kda": 2.64,
+        "avgDamage": 13546
       }
     }
   }

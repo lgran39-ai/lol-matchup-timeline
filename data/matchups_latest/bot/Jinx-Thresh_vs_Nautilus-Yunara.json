@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:23.573001",
+  "updated_at": "2026-03-30T21:10:08.300531",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 295,
-      "avg_xp_diff": 138,
-      "avg_cs_diff": 3.6,
-      "sample_frames": 5,
+      "avg_gold_diff": 75,
+      "avg_xp_diff": 122,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1516,
-      "avg_xp_diff": 585,
-      "avg_cs_diff": 12.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -96,
+      "avg_xp_diff": 98,
+      "avg_cs_diff": 7.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 2956,
-      "avg_xp_diff": 976,
-      "avg_cs_diff": 28.8,
-      "sample_frames": 5,
+      "avg_gold_diff": 813,
+      "avg_xp_diff": 166,
+      "avg_cs_diff": 20.6,
+      "sample_frames": 10,
       "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 2794,
-      "avg_xp_diff": 269,
-      "avg_cs_diff": 29.5,
-      "sample_frames": 2,
+      "avg_gold_diff": 497,
+      "avg_xp_diff": -89,
+      "avg_cs_diff": 25.8,
+      "sample_frames": 12,
+      "advantage": 1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2491,
+      "avg_xp_diff": 1809,
+      "avg_cs_diff": 39.2,
+      "sample_frames": 6,
       "advantage": 2
     }
   ],
@@ -56,45 +65,100 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 7.0,
-        "avgDeaths": 1.0,
-        "avgAssists": 2.0,
-        "kda": 9.0,
-        "avgDamage": 11925
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 11.0,
+        "avgDeaths": 4.0,
+        "avgAssists": 6.0,
+        "kda": 4.25,
+        "avgDamage": 37714
       },
       "sup": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 9.0,
-        "kda": 4.5,
-        "avgDamage": 3287
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 15.5,
+        "kda": 2.91,
+        "avgDamage": 4880
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Kraken Slayer",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Fiendhunter Bolts",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 2.0,
-        "kda": 1.5,
-        "avgDamage": 5787
+        "avgKills": 3.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 7.0,
+        "kda": 2.1,
+        "avgDamage": 19492
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 3.0,
-        "kda": 0.43,
-        "avgDamage": 3789
+        "avgKills": 3.0,
+        "avgDeaths": 9.0,
+        "avgAssists": 8.0,
+        "kda": 1.22,
+        "avgDamage": 9125
       }
     }
   }

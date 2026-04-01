@@ -1,52 +1,52 @@
 {
   "role": "jg",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:06.967030",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:40.330072",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -20,
-      "avg_xp_diff": -14,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 10,
+      "avg_gold_diff": -11,
+      "avg_xp_diff": 3,
+      "avg_cs_diff": -0.4,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 136,
-      "avg_xp_diff": -51,
-      "avg_cs_diff": -3.3,
-      "sample_frames": 10,
+      "avg_gold_diff": -8,
+      "avg_xp_diff": -64,
+      "avg_cs_diff": -0.9,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 75,
-      "avg_xp_diff": -216,
-      "avg_cs_diff": -8.2,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -427,
+      "avg_xp_diff": -258,
+      "avg_cs_diff": -2.9,
+      "sample_frames": 15,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -390,
-      "avg_xp_diff": -1059,
-      "avg_cs_diff": -20.4,
-      "sample_frames": 20,
-      "advantage": -1
+      "avg_gold_diff": -988,
+      "avg_xp_diff": -1003,
+      "avg_cs_diff": -18.0,
+      "sample_frames": 30,
+      "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -4331,
-      "avg_xp_diff": -4829,
-      "avg_cs_diff": -46.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -3896,
+      "avg_xp_diff": -3446,
+      "avg_cs_diff": -37.6,
+      "sample_frames": 7,
       "advantage": -2
     }
   ],
@@ -56,57 +56,88 @@
     "champA": {
       "items": [
         {
+          "name": "Hextech Rocketbelt",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 0.0
+        },
+        {
           "name": "Dusk and Dawn",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        },
+        {
+          "name": "Shadowflame",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Dark Harvest",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 5.5,
-      "avgDeaths": 5.0,
-      "avgAssists": 4.5,
-      "kda": 2.0,
-      "avgDamage": 15814
+      "avgKills": 5.3,
+      "avgDeaths": 6.0,
+      "avgAssists": 8.0,
+      "kda": 2.22,
+      "avgDamage": 19685
     },
     "champB": {
       "items": [
         {
           "name": "Hubris",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
+        },
+        {
+          "name": "Maw of Malmortius",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
+        },
+        {
+          "name": "Death's Dance",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 100.0
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 66.7
         }
       ],
-      "avgKills": 8.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 4.0,
-      "kda": 4.8,
-      "avgDamage": 23147
+      "avgKills": 12.0,
+      "avgDeaths": 3.3,
+      "avgAssists": 6.7,
+      "kda": 5.6,
+      "avgDamage": 26878
     }
   }
 }

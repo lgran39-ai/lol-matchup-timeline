@@ -1,44 +1,53 @@
 {
   "role": "top",
-  "sample_size": 2,
-  "overall_winrate_a": 50.0,
-  "updated_at": "2026-03-29T12:05:09.406336",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-04-01T11:13:43.728059",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 38,
-      "avg_xp_diff": 74,
-      "avg_cs_diff": -0.8,
-      "sample_frames": 10,
+      "avg_gold_diff": 10,
+      "avg_xp_diff": 35,
+      "avg_cs_diff": -0.3,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 47,
-      "avg_xp_diff": 295,
-      "avg_cs_diff": -0.4,
-      "sample_frames": 10,
+      "avg_gold_diff": 18,
+      "avg_xp_diff": 38,
+      "avg_cs_diff": -3.1,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 284,
-      "avg_xp_diff": 556,
-      "avg_cs_diff": 4.6,
-      "sample_frames": 10,
-      "advantage": 1
+      "avg_gold_diff": 125,
+      "avg_xp_diff": -56,
+      "avg_cs_diff": -6.0,
+      "sample_frames": 15,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 830,
-      "avg_xp_diff": 1028,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 14,
-      "advantage": 2
+      "avg_gold_diff": 130,
+      "avg_xp_diff": 4,
+      "avg_cs_diff": -13.3,
+      "sample_frames": 24,
+      "advantage": 0
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1814,
+      "avg_xp_diff": -1724,
+      "avg_cs_diff": -15.0,
+      "sample_frames": 2,
+      "advantage": -2
     }
   ],
   "champA": "Tryndamere",
@@ -48,40 +57,53 @@
       "items": [
         {
           "name": "Profane Hydra",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        },
+        {
+          "name": "The Collector",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Hail of Blades",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 50.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ghost",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
+          "winRate": 33.3
+        }
+      ],
+      "avgKills": 5.0,
+      "avgDeaths": 6.3,
+      "avgAssists": 2.7,
+      "kda": 1.21,
+      "avgDamage": 13852
+    },
+    "champB": {
+      "items": [
+        {
+          "name": "Experimental Hexplate",
+          "count": 2,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 4.5,
-      "avgDeaths": 5.0,
-      "avgAssists": 3.0,
-      "kda": 1.5,
-      "avgDamage": 13398
-    },
-    "champB": {
-      "items": [],
       "keystones": [
         {
           "name": "Fleet Footwork",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
@@ -89,15 +111,15 @@
         {
           "spells": "Flash+Ghost",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 50.0
         }
       ],
-      "avgKills": 4.0,
-      "avgDeaths": 4.5,
-      "avgAssists": 1.5,
-      "kda": 1.22,
-      "avgDamage": 14710
+      "avgKills": 6.7,
+      "avgDeaths": 5.3,
+      "avgAssists": 3.0,
+      "kda": 1.81,
+      "avgDamage": 18296
     }
   }
 }

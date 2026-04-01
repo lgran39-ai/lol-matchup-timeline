@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:10.321301",
+  "updated_at": "2026-04-01T11:13:45.085216",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 431,
-      "avg_xp_diff": 207,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": -104,
+      "avg_xp_diff": -80,
+      "avg_cs_diff": 3.2,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 1519,
-      "avg_xp_diff": 1104,
-      "avg_cs_diff": 31.2,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -409,
+      "avg_xp_diff": -130,
+      "avg_cs_diff": 13.0,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": 1590,
-      "avg_xp_diff": 516,
-      "avg_cs_diff": 28.8,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -1261,
+      "avg_xp_diff": -887,
+      "avg_cs_diff": 3.4,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 194,
-      "avg_xp_diff": -944,
-      "avg_cs_diff": 26.7,
-      "sample_frames": 10,
-      "advantage": 0
+      "avg_gold_diff": -840,
+      "avg_xp_diff": -1277,
+      "avg_cs_diff": 17.4,
+      "sample_frames": 12,
+      "advantage": -2
     },
     {
       "phase": "25min+",
@@ -65,45 +65,101 @@
     "teamA": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 7.0,
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 8.5,
         "avgAssists": 3.0,
-        "kda": 1.29,
-        "avgDamage": 21220
+        "kda": 0.76,
+        "avgDamage": 14954
       },
       "sup": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Rod of Ages",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Electrocute",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 7.0,
-        "kda": 1.0,
-        "avgDamage": 14710
+        "avgKills": 1.5,
+        "avgDeaths": 9.5,
+        "avgAssists": 5.5,
+        "kda": 0.74,
+        "avgDamage": 10854
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 14.0,
-        "kda": 11.0,
-        "avgDamage": 23379
+        "avgKills": 10.5,
+        "avgDeaths": 2.5,
+        "avgAssists": 10.0,
+        "kda": 8.2,
+        "avgDamage": 21978
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 3.0,
+        "items": [
+          {
+            "name": "Bandlepipes",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Ignite",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 3.5,
         "avgDeaths": 4.0,
-        "avgAssists": 14.0,
-        "kda": 4.25,
-        "avgDamage": 8334
+        "avgAssists": 15.0,
+        "kda": 4.62,
+        "avgDamage": 9462
       }
     }
   }

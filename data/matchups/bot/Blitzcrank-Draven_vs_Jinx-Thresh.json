@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:11.961347",
+  "updated_at": "2026-04-01T11:13:47.404947",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 135,
-      "avg_xp_diff": 118,
-      "avg_cs_diff": 1.2,
-      "sample_frames": 5,
+      "avg_gold_diff": 245,
+      "avg_xp_diff": 63,
+      "avg_cs_diff": 1.4,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -56,
-      "avg_xp_diff": 194,
-      "avg_cs_diff": 0.4,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": 505,
+      "avg_xp_diff": 217,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 10,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -1602,
-      "avg_xp_diff": -935,
-      "avg_cs_diff": -15.6,
-      "sample_frames": 5,
-      "advantage": -2
+      "avg_gold_diff": 893,
+      "avg_xp_diff": 452,
+      "avg_cs_diff": -10.7,
+      "sample_frames": 10,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -988,
-      "avg_xp_diff": -589,
-      "avg_cs_diff": -16.8,
-      "sample_frames": 10,
-      "advantage": -2
+      "avg_gold_diff": 2176,
+      "avg_xp_diff": 1314,
+      "avg_cs_diff": -2.3,
+      "sample_frames": 20,
+      "advantage": 2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": 1363,
-      "avg_xp_diff": 2919,
-      "avg_cs_diff": -5.3,
-      "sample_frames": 3,
+      "avg_gold_diff": 4913,
+      "avg_xp_diff": 3131,
+      "avg_cs_diff": -9.7,
+      "sample_frames": 7,
       "advantage": 2
     }
   ],
@@ -64,46 +64,114 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 13.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 12.0,
-        "kda": 3.57,
-        "avgDamage": 37849
+        "items": [
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "The Collector",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Bloodthirster",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 18.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 9.5,
+        "kda": 5.09,
+        "avgDamage": 46014
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Frozen Heart",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 4.5,
         "avgAssists": 24.0,
-        "kda": 4.33,
-        "avgDamage": 9945
+        "kda": 5.56,
+        "avgDamage": 10740
       }
     },
     "teamB": {
       "adc": {
         "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 11.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 12.0,
-        "kda": 2.56,
-        "avgDamage": 34921
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 7.0,
+        "avgDeaths": 9.5,
+        "avgAssists": 11.0,
+        "kda": 1.89,
+        "avgDamage": 34743
       },
       "sup": {
         "items": [],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 2.0,
-        "avgDeaths": 8.0,
-        "avgAssists": 21.0,
-        "kda": 2.88,
-        "avgDamage": 10130
+        "avgDeaths": 10.0,
+        "avgAssists": 17.0,
+        "kda": 1.9,
+        "avgDamage": 9325
       }
     }
   }

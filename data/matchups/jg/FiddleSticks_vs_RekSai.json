@@ -1,44 +1,53 @@
 {
   "role": "jg",
-  "sample_size": 7,
-  "overall_winrate_a": 57.1,
-  "updated_at": "2026-03-29T12:05:07.092749",
+  "sample_size": 9,
+  "overall_winrate_a": 55.6,
+  "updated_at": "2026-04-01T11:13:40.503162",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -55,
-      "avg_xp_diff": 1,
-      "avg_cs_diff": 0.5,
-      "sample_frames": 35,
+      "avg_gold_diff": -73,
+      "avg_xp_diff": -5,
+      "avg_cs_diff": 0.4,
+      "sample_frames": 45,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -140,
-      "avg_xp_diff": -48,
+      "avg_gold_diff": -48,
+      "avg_xp_diff": -63,
       "avg_cs_diff": -1.5,
-      "sample_frames": 35,
+      "sample_frames": 45,
       "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -248,
-      "avg_xp_diff": -235,
-      "avg_cs_diff": -7.1,
-      "sample_frames": 35,
-      "advantage": -1
+      "avg_gold_diff": -67,
+      "avg_xp_diff": -212,
+      "avg_cs_diff": -5.8,
+      "sample_frames": 45,
+      "advantage": 0
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -464,
-      "avg_xp_diff": -158,
-      "avg_cs_diff": -8.7,
-      "sample_frames": 44,
+      "avg_gold_diff": -406,
+      "avg_xp_diff": -604,
+      "avg_cs_diff": -16.3,
+      "sample_frames": 65,
       "advantage": -2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 2539,
+      "avg_xp_diff": 2944,
+      "avg_cs_diff": 11.8,
+      "sample_frames": 4,
+      "advantage": 2
     }
   ],
   "champA": "FiddleSticks",
@@ -47,76 +56,88 @@
     "champA": {
       "items": [
         {
+          "name": "Malignance",
+          "count": 5,
+          "pickRate": 55.6,
+          "winRate": 40.0
+        },
+        {
           "name": "Hextech Rocketbelt",
           "count": 4,
-          "pickRate": 57.1,
+          "pickRate": 44.4,
           "winRate": 75.0
         },
         {
-          "name": "Malignance",
+          "name": "Zhonya's Hourglass",
           "count": 3,
-          "pickRate": 42.9,
-          "winRate": 33.3
+          "pickRate": 33.3,
+          "winRate": 66.7
         },
         {
-          "name": "Zhonya's Hourglass",
+          "name": "Void Staff",
           "count": 2,
-          "pickRate": 28.6,
+          "pickRate": 22.2,
           "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 6,
-          "pickRate": 85.7,
-          "winRate": 66.7
+          "count": 8,
+          "pickRate": 88.9,
+          "winRate": 62.5
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 7,
+          "count": 9,
           "pickRate": 100.0,
-          "winRate": 57.1
+          "winRate": 55.6
         }
       ],
-      "avgKills": 5.1,
-      "avgDeaths": 3.9,
-      "avgAssists": 4.1,
-      "kda": 2.41,
-      "avgDamage": 11224
+      "avgKills": 6.0,
+      "avgDeaths": 4.4,
+      "avgAssists": 5.0,
+      "kda": 2.48,
+      "avgDamage": 12166
     },
     "champB": {
       "items": [
         {
           "name": "Stridebreaker",
-          "count": 7,
+          "count": 9,
           "pickRate": 100.0,
-          "winRate": 42.9
+          "winRate": 44.4
+        },
+        {
+          "name": "Spear of Shojin",
+          "count": 2,
+          "pickRate": 22.2,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Conqueror",
-          "count": 6,
-          "pickRate": 85.7,
+          "count": 8,
+          "pickRate": 88.9,
           "winRate": 50.0
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Smite",
-          "count": 7,
+          "count": 9,
           "pickRate": 100.0,
-          "winRate": 42.9
+          "winRate": 44.4
         }
       ],
-      "avgKills": 5.1,
-      "avgDeaths": 2.4,
-      "avgAssists": 4.7,
-      "kda": 4.06,
-      "avgDamage": 8711
+      "avgKills": 5.7,
+      "avgDeaths": 2.8,
+      "avgAssists": 4.8,
+      "kda": 3.76,
+      "avgDamage": 10073
     }
   }
 }

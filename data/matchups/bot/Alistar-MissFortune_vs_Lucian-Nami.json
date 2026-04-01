@@ -1,43 +1,43 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:09.930433",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:44.472297",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 54,
-      "avg_xp_diff": -24,
-      "avg_cs_diff": -1.0,
-      "sample_frames": 5,
+      "avg_gold_diff": -18,
+      "avg_xp_diff": -136,
+      "avg_cs_diff": -2.6,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 238,
-      "avg_xp_diff": -128,
-      "avg_cs_diff": 3.0,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -601,
+      "avg_xp_diff": -839,
+      "avg_cs_diff": -10.6,
+      "sample_frames": 10,
+      "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -252,
-      "avg_xp_diff": -431,
-      "avg_cs_diff": 5.6,
-      "sample_frames": 5,
-      "advantage": 0
+      "avg_gold_diff": -2356,
+      "avg_xp_diff": -1931,
+      "avg_cs_diff": -19.2,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -955,
-      "avg_xp_diff": -492,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 10,
+      "avg_gold_diff": -4510,
+      "avg_xp_diff": -1981,
+      "avg_cs_diff": -26.6,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
@@ -64,46 +64,116 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 5.0,
-        "kda": 1.75,
-        "avgDamage": 15609
+        "items": [
+          {
+            "name": "Bloodthirster",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Press the Attack",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 7.5,
+        "avgAssists": 6.0,
+        "kda": 1.27,
+        "avgDamage": 16584
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Zeke's Convergence",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 14.0,
-        "kda": 3.75,
-        "avgDamage": 7274
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.5,
+        "avgDeaths": 7.0,
+        "avgAssists": 11.5,
+        "kda": 1.86,
+        "avgDamage": 6441
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 5.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 6.0,
-        "kda": 2.75,
-        "avgDamage": 28311
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 10.5,
+        "avgDeaths": 5.0,
+        "avgAssists": 9.0,
+        "kda": 3.9,
+        "avgDamage": 29966
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
+        "items": [
+          {
+            "name": "Imperial Mandate",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "avgKills": 2.0,
-        "avgDeaths": 4.0,
-        "avgAssists": 11.0,
-        "kda": 3.25,
-        "avgDamage": 9202
+        "avgDeaths": 3.5,
+        "avgAssists": 19.0,
+        "kda": 6.0,
+        "avgDamage": 10101
       }
     }
   }

@@ -1,44 +1,53 @@
 {
   "role": "mid",
-  "sample_size": 2,
-  "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:19.722522",
+  "sample_size": 3,
+  "overall_winrate_a": 33.3,
+  "updated_at": "2026-03-30T21:10:02.800507",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 88,
-      "avg_xp_diff": -33,
-      "avg_cs_diff": 2.6,
-      "sample_frames": 10,
+      "avg_gold_diff": 139,
+      "avg_xp_diff": -13,
+      "avg_cs_diff": 2.7,
+      "sample_frames": 15,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -151,
-      "avg_xp_diff": -377,
-      "avg_cs_diff": 4.4,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 185,
+      "avg_xp_diff": -240,
+      "avg_cs_diff": 4.8,
+      "sample_frames": 15,
+      "advantage": 1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -312,
-      "avg_xp_diff": -345,
-      "avg_cs_diff": 3.1,
-      "sample_frames": 10,
-      "advantage": -1
+      "avg_gold_diff": 561,
+      "avg_xp_diff": -4,
+      "avg_cs_diff": 8.3,
+      "sample_frames": 15,
+      "advantage": 2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -996,
-      "avg_xp_diff": -650,
-      "avg_cs_diff": 4.8,
-      "sample_frames": 4,
-      "advantage": -2
+      "avg_gold_diff": 1313,
+      "avg_xp_diff": 438,
+      "avg_cs_diff": 23.8,
+      "sample_frames": 14,
+      "advantage": 2
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": 4468,
+      "avg_xp_diff": 3755,
+      "avg_cs_diff": 70.0,
+      "sample_frames": 2,
+      "advantage": 2
     }
   ],
   "champA": "Fizz",
@@ -48,56 +57,69 @@
       "items": [
         {
           "name": "Spellslinger's Shoes",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
+        },
+        {
+          "name": "Blackfire Torch",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
         }
       ],
       "keystones": [
         {
           "name": "Electrocute",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 0.0
+          "winRate": 33.3
         }
       ],
-      "avgKills": 3.5,
-      "avgDeaths": 5.5,
-      "avgAssists": 1.0,
-      "kda": 0.82,
-      "avgDamage": 9905
+      "avgKills": 7.0,
+      "avgDeaths": 5.3,
+      "avgAssists": 4.0,
+      "kda": 2.06,
+      "avgDamage": 19341
     },
     "champB": {
       "items": [
         {
           "name": "Hextech Rocketbelt",
-          "count": 2,
+          "count": 3,
           "pickRate": 100.0,
-          "winRate": 100.0
+          "winRate": 66.7
         }
       ],
-      "keystones": [],
+      "keystones": [
+        {
+          "name": "Conqueror",
+          "count": 2,
+          "pickRate": 66.7,
+          "winRate": 50.0
+        }
+      ],
       "summonerSpells": [
         {
           "spells": "Flash+Ignite",
           "count": 2,
-          "pickRate": 100.0,
+          "pickRate": 66.7,
           "winRate": 100.0
         }
       ],
-      "avgKills": 6.0,
-      "avgDeaths": 2.5,
-      "avgAssists": 5.0,
-      "kda": 4.4,
-      "avgDamage": 11658
+      "avgKills": 6.3,
+      "avgDeaths": 5.3,
+      "avgAssists": 5.3,
+      "kda": 2.19,
+      "avgDamage": 16047
     }
   }
 }

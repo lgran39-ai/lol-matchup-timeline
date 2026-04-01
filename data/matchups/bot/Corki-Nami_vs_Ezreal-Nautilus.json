@@ -1,44 +1,44 @@
 {
   "role": "bot",
-  "sample_size": 1,
-  "overall_winrate_a": 100.0,
-  "updated_at": "2026-03-29T12:05:12.930451",
+  "sample_size": 2,
+  "overall_winrate_a": 50.0,
+  "updated_at": "2026-04-01T11:13:48.923238",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": -466,
-      "avg_xp_diff": 82,
-      "avg_cs_diff": 2.4,
-      "sample_frames": 5,
+      "avg_gold_diff": -352,
+      "avg_xp_diff": -18,
+      "avg_cs_diff": -0.1,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -339,
-      "avg_xp_diff": 386,
-      "avg_cs_diff": 7.8,
-      "sample_frames": 5,
+      "avg_gold_diff": -564,
+      "avg_xp_diff": -70,
+      "avg_cs_diff": -0.2,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -614,
-      "avg_xp_diff": 283,
-      "avg_cs_diff": -4.2,
-      "sample_frames": 5,
+      "avg_gold_diff": -443,
+      "avg_xp_diff": -229,
+      "avg_cs_diff": -6.9,
+      "sample_frames": 10,
       "advantage": -1
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": 151,
-      "avg_xp_diff": 399,
-      "avg_cs_diff": -7.6,
-      "sample_frames": 11,
-      "advantage": 0
+      "avg_gold_diff": -1239,
+      "avg_xp_diff": -1312,
+      "avg_cs_diff": -7.7,
+      "sample_frames": 21,
+      "advantage": -2
     }
   ],
   "type": "bot_2v2",
@@ -55,46 +55,116 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 10.0,
-        "kda": 2.33,
-        "avgDamage": 18447
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Conqueror",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 8.5,
+        "avgAssists": 6.0,
+        "kda": 1.12,
+        "avgDamage": 17489
       },
       "sup": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 14.0,
-        "kda": 8.0,
-        "avgDamage": 6815
+        "items": [
+          {
+            "name": "Imperial Mandate",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Summon Aery",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 1.0,
+        "avgDeaths": 6.0,
+        "avgAssists": 9.5,
+        "kda": 1.75,
+        "avgDamage": 7408
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 4.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 3.0,
-        "kda": 0.78,
-        "avgDamage": 21918
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
+        "avgKills": 5.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 6.0,
+        "kda": 2.09,
+        "avgDamage": 21124
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 50.0
+          }
+        ],
         "keystones": [],
         "summonerSpells": [],
-        "avgKills": 2.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 4.0,
-        "kda": 1.0,
-        "avgDamage": 3611
+        "avgKills": 1.5,
+        "avgDeaths": 4.5,
+        "avgAssists": 10.5,
+        "kda": 2.67,
+        "avgDamage": 6540
       }
     }
   }

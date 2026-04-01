@@ -1,43 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:13.669923",
+  "updated_at": "2026-04-01T11:13:50.075465",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 137,
-      "avg_xp_diff": 33,
-      "avg_cs_diff": -5.0,
-      "sample_frames": 5,
+      "avg_gold_diff": 249,
+      "avg_xp_diff": 103,
+      "avg_cs_diff": -0.5,
+      "sample_frames": 10,
       "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": -389,
-      "avg_xp_diff": -301,
-      "avg_cs_diff": -23.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": 95,
+      "avg_xp_diff": -51,
+      "avg_cs_diff": -7.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -3076,
-      "avg_xp_diff": -1458,
-      "avg_cs_diff": -36.6,
-      "sample_frames": 5,
+      "avg_gold_diff": -911,
+      "avg_xp_diff": -475,
+      "avg_cs_diff": -10.9,
+      "sample_frames": 10,
       "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -4419,
-      "avg_xp_diff": -2549,
-      "avg_cs_diff": -49.0,
-      "sample_frames": 2,
+      "avg_gold_diff": -641,
+      "avg_xp_diff": -767,
+      "avg_cs_diff": 8.8,
+      "sample_frames": 12,
+      "advantage": -1
+    },
+    {
+      "phase": "25min+",
+      "label": "late_game",
+      "avg_gold_diff": -1034,
+      "avg_xp_diff": -4758,
+      "avg_cs_diff": 29.0,
+      "sample_frames": 4,
       "advantage": -2
     }
   ],
@@ -55,46 +64,108 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 0.0,
-        "kda": 0.33,
-        "avgDamage": 4687
+        "items": [
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 3.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 3.0,
+        "kda": 1.18,
+        "avgDamage": 17896
       },
       "sup": {
         "items": [],
-        "keystones": [],
+        "keystones": [
+          {
+            "name": "Aftershock",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 3.0,
-        "avgAssists": 2.0,
-        "kda": 0.67,
-        "avgDamage": 5691
+        "avgKills": 0.5,
+        "avgDeaths": 5.5,
+        "avgAssists": 5.0,
+        "kda": 1.0,
+        "avgDamage": 7880
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
+        "items": [
+          {
+            "name": "Essence Reaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Navori Flickerblade",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "summonerSpells": [],
-        "avgKills": 6.0,
-        "avgDeaths": 0.0,
-        "avgAssists": 3.0,
-        "kda": 9.0,
-        "avgDamage": 13070
+        "avgKills": 5.5,
+        "avgDeaths": 2.0,
+        "avgAssists": 7.5,
+        "kda": 6.5,
+        "avgDamage": 21674
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Echoes of Helia",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 0.0,
-        "avgDeaths": 2.0,
-        "avgAssists": 8.0,
-        "kda": 4.0,
-        "avgDamage": 4708
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 0.5,
+        "avgDeaths": 4.0,
+        "avgAssists": 15.0,
+        "kda": 3.88,
+        "avgDamage": 7319
       }
     }
   }

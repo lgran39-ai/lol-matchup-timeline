@@ -1,52 +1,52 @@
 {
   "role": "bot",
-  "sample_size": 1,
+  "sample_size": 2,
   "overall_winrate_a": 0.0,
-  "updated_at": "2026-03-29T12:05:12.224503",
+  "updated_at": "2026-04-01T11:13:47.776237",
   "timeline": [
     {
       "phase": "0-5min",
       "label": "Lv1-3",
-      "avg_gold_diff": 552,
-      "avg_xp_diff": 188,
-      "avg_cs_diff": -1.2,
-      "sample_frames": 5,
-      "advantage": 1
+      "avg_gold_diff": 109,
+      "avg_xp_diff": 128,
+      "avg_cs_diff": 1.3,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "5-10min",
       "label": "Lv4-6",
-      "avg_gold_diff": 932,
-      "avg_xp_diff": 530,
-      "avg_cs_diff": -9.4,
-      "sample_frames": 5,
-      "advantage": 2
+      "avg_gold_diff": -108,
+      "avg_xp_diff": -15,
+      "avg_cs_diff": -3.4,
+      "sample_frames": 10,
+      "advantage": 0
     },
     {
       "phase": "10-15min",
       "label": "Lv7-9",
-      "avg_gold_diff": -478,
-      "avg_xp_diff": 486,
-      "avg_cs_diff": -29.6,
-      "sample_frames": 5,
-      "advantage": -1
+      "avg_gold_diff": -1144,
+      "avg_xp_diff": -293,
+      "avg_cs_diff": -22.9,
+      "sample_frames": 10,
+      "advantage": -2
     },
     {
       "phase": "15-25min",
       "label": "mid_game",
-      "avg_gold_diff": -1754,
-      "avg_xp_diff": -693,
-      "avg_cs_diff": -49.4,
-      "sample_frames": 10,
+      "avg_gold_diff": -1497,
+      "avg_xp_diff": -810,
+      "avg_cs_diff": -32.9,
+      "sample_frames": 20,
       "advantage": -2
     },
     {
       "phase": "25min+",
       "label": "late_game",
-      "avg_gold_diff": -6461,
-      "avg_xp_diff": -4098,
-      "avg_cs_diff": -89.0,
-      "sample_frames": 9,
+      "avg_gold_diff": -4170,
+      "avg_xp_diff": -2898,
+      "avg_cs_diff": -53.6,
+      "sample_frames": 18,
       "advantage": -2
     }
   ],
@@ -64,46 +64,140 @@
   "buildStats": {
     "teamA": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 8.0,
-        "avgDeaths": 9.0,
-        "avgAssists": 9.0,
-        "kda": 1.89,
-        "avgDamage": 34872
+        "items": [
+          {
+            "name": "Endless Hunger",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          },
+          {
+            "name": "Trinity Force",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Lethal Tempo",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
+        "avgKills": 10.5,
+        "avgDeaths": 10.0,
+        "avgAssists": 10.0,
+        "kda": 2.05,
+        "avgDamage": 42316
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Locket of the Iron Solari",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 0.0
+          }
+        ],
         "avgKills": 1.0,
-        "avgDeaths": 6.0,
-        "avgAssists": 21.0,
-        "kda": 3.67,
-        "avgDamage": 10696
+        "avgDeaths": 9.0,
+        "avgAssists": 21.5,
+        "kda": 2.5,
+        "avgDamage": 11538
       }
     },
     "teamB": {
       "adc": {
-        "items": [],
-        "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 14.0,
-        "avgDeaths": 7.0,
-        "avgAssists": 7.0,
-        "kda": 3.0,
-        "avgDamage": 42153
+        "items": [
+          {
+            "name": "Infinity Edge",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Lord Dominik's Regards",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "keystones": [
+          {
+            "name": "Fleet Footwork",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "summonerSpells": [
+          {
+            "spells": "Flash+Barrier",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 16.0,
+        "avgDeaths": 8.0,
+        "avgAssists": 12.0,
+        "kda": 3.5,
+        "avgDamage": 43922
       },
       "sup": {
-        "items": [],
+        "items": [
+          {
+            "name": "Rapid Firecannon",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          },
+          {
+            "name": "Black Cleaver",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
         "keystones": [],
-        "summonerSpells": [],
-        "avgKills": 1.0,
-        "avgDeaths": 10.0,
-        "avgAssists": 18.0,
-        "kda": 1.9,
-        "avgDamage": 14664
+        "summonerSpells": [
+          {
+            "spells": "Flash+Heal",
+            "count": 2,
+            "pickRate": 100.0,
+            "winRate": 100.0
+          }
+        ],
+        "avgKills": 2.5,
+        "avgDeaths": 10.5,
+        "avgAssists": 24.0,
+        "kda": 2.52,
+        "avgDamage": 18198
       }
     }
   }
